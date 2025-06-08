@@ -9,13 +9,19 @@ class DispatcherDatasource {
   DispatcherDatasource(this.webSocketService);
 
   Future<InitialScreen> initialScreen() async {
-    List<String> cities = await loadJsonList("cities.json") ;
-    Map<String,List<String> >neighborhoods = await loadJsonMap("neighborhoods.json",(value) => List<String>.from(value)) ;
-    Map<String,int> prices = await loadJsonMap<int>("prices.json", (value) => int.parse(value.toString())); ;
+    List<String> cities = await loadJsonList("cities.json");
+    Map<String, List<String>> neighborhoods = await loadJsonMap(
+      "neighborhoods.json",
+      (value) => List<String>.from(value),
+    );
+    Map<String, int> prices = await loadJsonMap<int>(
+      "prices.json",
+      (value) => int.parse(value.toString()),
+    );
     return InitialScreen(cities, neighborhoods, prices);
   }
-  void sendRideAction(RideDto ride){
+
+  void sendRideAction(RideDto ride) {
     webSocketService.send(WebSocketDto(content: ride, typeCode: 10));
   }
-
 }

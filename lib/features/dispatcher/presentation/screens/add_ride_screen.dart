@@ -1,19 +1,25 @@
-import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
+import 'package:driver_app/features/dispatcher/presentation/widgets/error_message.dart';
+import 'package:driver_app/features/dispatcher/presentation/widgets/ride_details_field.dart';
+import 'package:driver_app/features/dispatcher/presentation/widgets/ride_header.dart';
+import 'package:driver_app/features/dispatcher/presentation/widgets/templates_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
 
 class AddRideScreen extends ConsumerStatefulWidget {
   const AddRideScreen({super.key});
 
   @override
-  _AddRideScrean createState() => _AddRideScrean();
+  _AddRideScreenState createState() => _AddRideScreenState();
 }
 
-class _AddRideScrean extends ConsumerState<AddRideScreen> {
+class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   final TextEditingController controller = TextEditingController();
   final List<String> fieldNames = [
-    "מוצא",
-    "יעד",
+    "מוצא עיר",
+    "מוצא שכונה",
+    "יעד עיר",
+    "יעד שכונה",
     "מחיר",
     "טלפון",
     "פרטים נוספים",
@@ -27,55 +33,34 @@ class _AddRideScrean extends ConsumerState<AddRideScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final dispatchState = ref.watch(dispatchNotifierProvider);
-    final currentIndex = dispatchState.indexCurrentLine;
-    final currentField = fieldNames[currentIndex];
-    final notifier = ref.read(dispatchNotifierProvider.notifier);
     return ref
         .watch(initialScreenProvider)
         .when(
-          data: (initialScreenState) {
+          data: (_) {
+            final dispatchState = ref.watch(dispatchNotifierProvider);
+            final currentIndex = dispatchState.indexCurrentLine;
+            final currentField = fieldNames[currentIndex];
+            final notifier = ref.read(dispatchNotifierProvider.notifier);
+            final templates = dispatchState.getTemplates();
+
             return Scaffold(
-              appBar: AppBar(title: Text("פרסום נסיעה")),
+              appBar: AppBar(title: const Text("פרסום נסיעה")),
               body: SingleChildScrollView(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                        border: Border.all(color: Colors.deepPurple),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        'אתה ממלא עכשיו: $currentField',
-                        style: const TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
+                    Header(currentField: currentField),
                     const SizedBox(height: 16),
-                    TextField(
+                    RideDetailsField(
                       controller: controller,
-                      decoration: const InputDecoration(
-                        labelText: "פרטי נסיעה",
-                        border: OutlineInputBorder(),
-                      ),
-                      keyboardType: TextInputType.multiline,
-                      maxLines: 8,
-                      onChanged: (value) {
-                        notifier.onChange(controller);
-                      },
+                      notifier: notifier,
                     ),
                     const SizedBox(height: 16),
-                    Center(
-                      child: Text(
-                        'כאן נוסיף תבניות מוכנות בהמשך 🚀',
-                        style: TextStyle(color: Colors.grey[600]),
-                      ),
+                    TemplatesList(
+                      templates: templates,
+                      controller: controller,
+                      notifier: notifier,
                     ),
                     const SizedBox(height: 16),
                     Center(
@@ -84,15 +69,16 @@ class _AddRideScrean extends ConsumerState<AddRideScreen> {
                         child: const Text('פרסם נסיעה'),
                       ),
                     ),
-                    if (dispatchState.errorMessage != "")
-                      Text(dispatchState.errorMessage),
+                    if (dispatchState.errorMessage.isNotEmpty)
+                      ErrorMessage(message: dispatchState.errorMessage),
                   ],
                 ),
               ),
             );
           },
           error:
-              (error, stackTrace) => ScaffoldMessenger(child: Text('$error')),
+              (error, stack) =>
+                  Scaffold(body: Center(child: Text('Error: $error'))),
           loading: () => const Center(child: CircularProgressIndicator()),
         );
   }
