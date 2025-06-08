@@ -1,4 +1,5 @@
 import 'package:driver_app/core/providers/dispatch_provider.dart';
+import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -28,10 +29,11 @@ class _AddRideScrean extends ConsumerState<AddRideScreen> {
   @override
   Widget build(BuildContext context) {
     final dispatchState = ref.watch(dispatchNotifierProvider);
-    final currentIndex = dispatchState.value?.indexCurrentLine;
-    final currentField = fieldNames[currentIndex ?? 0] ;
-    final notifier = ref.read(dispatchNotifierProvider.notifier);
-    
+final currentIndex = dispatchState.indexCurrentLine;
+final currentField = fieldNames[currentIndex ?? 0];
+final notifier = ref.read(dispatchNotifierProvider.notifier);
+return ref.watch(initialScreenProvider).when(
+  data: (initialScreenState) {
     return Scaffold(
       appBar: AppBar(title: Text("פרסום נסיעה")),
       body: SingleChildScrollView(
@@ -79,13 +81,14 @@ class _AddRideScrean extends ConsumerState<AddRideScreen> {
               onPressed: notifier.addRide,
               child: const Text('פרסם נסיעה'),
             ),
-            if(dispatchState.value?.errorMessage != "")
-            Text(dispatchState.value!.errorMessage)
-
-            
+            if (dispatchState.errorMessage != "")
+              Text(dispatchState.errorMessage),
           ],
         ),
       ),
     );
-  }
+  },
+  error: (error,stackTrace) => ScaffoldMessenger(child: Text('$error')) ,
+  loading: () => const Center(child: Cirv,),
+);
 }

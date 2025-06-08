@@ -16,7 +16,7 @@ class GroupsNotifier extends StateNotifier<List<Station>> {
 }
 
 final groupsProvider = StateNotifierProvider<GroupsNotifier, List<Station>>((ref) {
-  final user = ref.watch(userProvider).value;
+  final user = ref.read(userProvider).value;
   final initialGroups = user?.driver_stations ?? [];
   return GroupsNotifier()..setGroups(initialGroups);
 });
