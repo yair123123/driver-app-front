@@ -12,7 +12,7 @@ class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final settings = ref.watch(settingsProvider); 
-        final router = ref.watch(routerProvider); // ה-Provider שהגדרת למעלה!
+        final router = ref.watch(routerProvider); 
 
     return settings.when(
       loading: () => const MaterialApp(

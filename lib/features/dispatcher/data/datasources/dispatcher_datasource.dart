@@ -10,8 +10,8 @@ class DispatcherDatasource {
 
   Future<InitialScreen> initialScreen() async {
     List<String> cities = await loadJsonList("cities.json") ;
-    Map<String,List<String> >neighborhoods = await loadJsonMap("neighborhoods.json") as Map<String,List<String>>;
-    Map<String,int> prices = await loadJsonMap("prices.json") as Map<String,int> ;
+    Map<String,List<String> >neighborhoods = await loadJsonMap("neighborhoods.json",(value) => List<String>.from(value)) ;
+    Map<String,int> prices = await loadJsonMap<int>("prices.json", (value) => int.parse(value.toString())); ;
     return InitialScreen(cities, neighborhoods, prices);
   }
   void sendRideAction(RideDto ride){
