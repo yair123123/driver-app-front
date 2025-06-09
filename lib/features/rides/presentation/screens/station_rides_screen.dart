@@ -26,7 +26,7 @@ class GroupChatScreen extends ConsumerWidget {
                     subtitle: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Text(ride.details),
+                        Text(ride.comments),
                         Text(
                           _formatTimestamp(ride.timestamp),
                           style: TextStyle(color: Colors.grey, fontSize: 12),

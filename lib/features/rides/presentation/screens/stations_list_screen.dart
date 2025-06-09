@@ -44,7 +44,7 @@ class StationsListScreen extends ConsumerWidget {
                   ),
                   title: Text(station.station_name),
                     subtitle: Text(
-                    station.rides.isNotEmpty ? (station.rides[0].details) : '',
+                    station.rides.isNotEmpty ? (station.rides[0].comments) : '',
                     ),
                   onTap: () {
                     Navigator.push(

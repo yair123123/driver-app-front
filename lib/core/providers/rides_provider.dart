@@ -1,3 +1,4 @@
+import 'package:driver_app/core/entities/ride.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/rides/data/datasources/rides_websocket_datasource.dart';
 import 'package:driver_app/features/rides/data/repositories/ride_websocket_repository_impl.dart';
@@ -5,7 +6,6 @@ import 'package:driver_app/features/rides/domain/repositories/ride_websocket_rep
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../features/rides/domain/usecases/listen_to_new_rides.dart';
 import '../../features/rides/domain/entities/ride_dto.dart';
-import 'package:driver_app/features/rides/domain/entities/ride.dart';
 
 final listenToNewRidesProvider = StreamProvider<RideDto>((ref) {
   final listenToNewRides = ref.watch(listenToNewRidesUseCaseProvider);
