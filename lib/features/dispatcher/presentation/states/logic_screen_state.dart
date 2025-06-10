@@ -1,29 +1,32 @@
 
 import 'package:driver_app/features/dispatcher/presentation/states/initial_screen_state.dart';
-import 'package:driver_app/features/main/domein/entities/user.dart';
 
-enum FormStep {city,neighborhood, price, comment,phone}
-class DispatchState {
+enum FormStep {originCity,originNeighborhood,destinationCity,destinationNeighborhood, price, phone,comment}
+class LogicScreenState {
   final FormStep step;
   final List<String> cities;
   final Map<String, List<String>> neighborhoods;
-  final Map<String, int> prices;
-  final Map<int,String> selectedValue;
-  DispatchState({
+  final Map<String, List<int>> prices;
+  final List<String> template;
+  final Map<FormStep,String> selectedValue;
+  LogicScreenState({
+    required this.template,
     required this.step,
     required this.cities,
     required this.neighborhoods,
     required this.prices,
     required this.selectedValue,
   });
-  DispatchState copyWith({
+  LogicScreenState copyWith({
+    List<String>? template,
     FormStep? step,
         List<String>? cities,
     Map<String, List<String>>? neighborhoods,
-    Map<String, int>? prices,
-    Map<int,String>? selectedValue,
+    Map<String, List<int>>? prices,
+    Map<FormStep,String>? selectedValue,
   }) {
-    return DispatchState(
+    return LogicScreenState(
+      template: template ?? this.template,
       step: step?? this.step,
       cities: cities ?? this.cities,
       neighborhoods: neighborhoods ?? this.neighborhoods,
@@ -32,9 +35,10 @@ class DispatchState {
     );
   }
 
-  static DispatchState initial(User user,InitialScreenState initialScreenState) {
-    return DispatchState(
-      step: FormStep.city,
+  static LogicScreenState initial(InitialScreenState initialScreenState) {
+    return LogicScreenState(
+      template: initialScreenState.cities,
+      step: FormStep.originCity,
       selectedValue: {},
       cities: initialScreenState.cities,
       neighborhoods: initialScreenState.neighborhoods,
@@ -44,20 +48,23 @@ class DispatchState {
 
   List<String> getTemplates() {
     switch (step) {
-      case FormStep.city:
+      case FormStep.originCity:
+      case FormStep.destinationCity:
         return cities;
-      case FormStep.neighborhood:
-        return neighborhoods[selectedValue[1]] ?? [];
-      case 3:
-        return neighborhoods[selectedValue[3]] ?? [];
+      case FormStep.originNeighborhood:
+        return neighborhoods[selectedValue[FormStep.originCity]] ?? [];
+      case FormStep.destinationNeighborhood:
+        return neighborhoods[selectedValue[FormStep.destinationCity]] ?? [];
       case FormStep.price:
-        return prices[selectedValue[3]] != null
-            ? [prices[selectedValue[2]! + '' + selectedValue[3]!].toString()]
-            : [];
+        final values = prices[selectedValue[FormStep.originCity]! + '' + selectedValue[FormStep.destinationCity]!] ?? prices['default'];
+        return values!.map((int) => int.toString() ).toList();
       case FormStep.phone:
         return ['העתק טלפון מהלוח'];
       case FormStep.comment:
         return ['פרטים נוספים'];
     }
+  }
+  FormStep getStepByLine(int line){
+    return FormStep.values[line];
   }
 }

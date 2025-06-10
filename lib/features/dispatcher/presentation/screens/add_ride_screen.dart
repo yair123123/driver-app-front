@@ -5,6 +5,7 @@ import 'package:driver_app/features/dispatcher/presentation/widgets/templates_li
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
+import 'package:go_router/go_router.dart';
 
 class AddRideScreen extends ConsumerStatefulWidget {
   const AddRideScreen({super.key});
@@ -15,64 +16,87 @@ class AddRideScreen extends ConsumerStatefulWidget {
 
 class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   final TextEditingController controller = TextEditingController();
-  final List<String> fieldNames = [
-    "מוצא עיר",
-    "מוצא שכונה",
-    "יעד עיר",
-    "יעד שכונה",
-    "מחיר",
-    "טלפון",
-    "פרטים נוספים",
-  ];
+
+  void onPressTemplate(String template) {
+  // אפשר גם לשמור לפני אם תרצה Undo
+  final newText = '${controller.text}$template\n';
+  controller.text = newText;
+  controller.selection = TextSelection.fromPosition(
+    TextPosition(offset: newText.length),);
+  }
+
+  void onChange() {
+    ref.read(logicScreenNotifierProvider.notifier).onChange(controller);
+    print(controller.selection.baseOffset);
+  }
+
+  @override
+  void initState() {
+    controller.addListener(onChange);
+    super.initState();
+  }
 
   @override
   void dispose() {
+    controller.removeListener(onChange);
     controller.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
+    final formState = ref.watch(dispatchNotifierProvider);
     return ref
         .watch(initialScreenProvider)
         .when(
           data: (_) {
-            final dispatchState = ref.watch(dispatchNotifierProvider);
-            final currentIndex = dispatchState.indexCurrentLine;
-            final currentField = fieldNames[currentIndex];
-            final notifier = ref.read(dispatchNotifierProvider.notifier);
-            final templates = dispatchState.getTemplates();
-
             return Scaffold(
               appBar: AppBar(title: const Text("פרסום נסיעה")),
-              body: SingleChildScrollView(
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Header(currentField: currentField),
-                    const SizedBox(height: 16),
-                    RideDetailsField(
-                      controller: controller,
-                      notifier: notifier,
+              body: Stack(
+                children: [
+                  SingleChildScrollView(
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Header(),
+                        const SizedBox(height: 16),
+                        RideDetailsField(controller: controller),
+                        const SizedBox(height: 16),
+                        TemplatesList(onPressed: onPressTemplate),
+                        const SizedBox(height: 16),
+                        Center(
+                          child: ElevatedButton(
+                            onPressed:
+                                formState.isLoading
+                                    ? null
+                                    : () => ref
+                                        .read(dispatchNotifierProvider.notifier)
+                                        .addRide(controller.text),
+                            child: const Text('פרסם נסיעה'),
+                          ),
+                        ),
+                        if (formState.errorMessage.isNotEmpty)
+                          ErrorMessage(message: formState.errorMessage),
+                      ],
                     ),
-                    const SizedBox(height: 16),
-                    TemplatesList(
-                      templates: templates,
-                      controller: controller,
-                      notifier: notifier,
+                  ),
+                  if (formState.isLoading)
+                    Container(
+                      color: Colors.black.withValues(alpha: 0.5),
+                      child: const Center(child: CircularProgressIndicator()),
                     ),
-                    const SizedBox(height: 16),
-                    Center(
-                      child: ElevatedButton(
-                        onPressed: notifier.addRide,
-                        child: const Text('פרסם נסיעה'),
+                  if (formState.isSending)
+                    ScaffoldMessenger(
+                      child: SnackBar(
+                        content: Text("נסיעה נשלחה בהצלחה"),
+                        action: SnackBarAction(
+                          label: "עבור לסטטוס נסיעה",
+                          onPressed: () => context.go('/dispatcher/summary'),
+                        ),
                       ),
                     ),
-                    if (dispatchState.errorMessage.isNotEmpty)
-                      ErrorMessage(message: dispatchState.errorMessage),
-                  ],
-                ),
+                ],
               ),
             );
           },

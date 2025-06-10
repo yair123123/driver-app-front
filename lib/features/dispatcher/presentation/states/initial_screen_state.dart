@@ -4,38 +4,38 @@ import 'package:driver_app/features/main/domein/entities/station.dart';
 class InitialScreenState {
   List<String> cities;
   Map<String, List<String>> neighborhoods;
-  Map<String, int> prices;
-  List<Station> station;
+  Map<String, List<int>> prices;
+  List<Station> stations;
 
   InitialScreenState(
     this.cities,
     this.neighborhoods,
     this.prices,
-    this.station,
+    this.stations,
   );
 
   InitialScreenState copyWith({
     List<String>? cities,
     Map<String, List<String>>? neighborhoods,
-    Map<String, int>? prices,
-    List<Station>? station,
+    Map<String, List<int>>? prices,
+    List<Station>? stations,
   }) {
     return InitialScreenState(
       cities ?? this.cities,
       neighborhoods ?? this.neighborhoods,
       prices ?? this.prices,
-      station ?? this.station,
+      stations ?? this.stations,
     );
   }
   static InitialScreenState fromModel({
     required InitialScreen initialScreen,
-    required List<Station> station,
+    required List<Station> stations,
   }) {
     return InitialScreenState(
       initialScreen.cities,
       initialScreen.neighborhoods,
       initialScreen.prices,
-      station,
+      stations,
     );
   }
 }

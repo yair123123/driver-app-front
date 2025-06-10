@@ -14,9 +14,9 @@ class DispatcherDatasource {
       "neighborhoods.json",
       (value) => List<String>.from(value),
     );
-    Map<String, int> prices = await loadJsonMap<int>(
+    Map<String, List<int>> prices = await loadJsonMap<List<int>>(
       "prices.json",
-      (value) => int.parse(value.toString()),
+      (value) => List<int>.from(value.map((e) => int.parse(e.toString()))),
     );
     return InitialScreen(cities, neighborhoods, prices);
   }

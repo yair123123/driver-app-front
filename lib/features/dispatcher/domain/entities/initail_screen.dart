@@ -1,7 +1,7 @@
 class InitialScreen {
   List<String> cities;
   Map<String, List<String>> neighborhoods;
-  Map<String, int> prices;
+  Map<String, List<int>> prices;
 
   InitialScreen(
     this.cities,
@@ -12,7 +12,7 @@ class InitialScreen {
   InitialScreen copyWith({
     List<String>? cities,
     Map<String, List<String>>? neighborhoods,
-    Map<String, int>? prices,
+    Map<String, List<int>>? prices,
   }) {
     return InitialScreen(
       cities ?? this.cities,
