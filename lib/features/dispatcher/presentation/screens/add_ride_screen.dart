@@ -1,3 +1,4 @@
+import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/error_message.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_details_field.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_header.dart';
@@ -18,11 +19,12 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   final TextEditingController controller = TextEditingController();
 
   void onPressTemplate(String template) {
-  // אפשר גם לשמור לפני אם תרצה Undo
-  final newText = '${controller.text}$template\n';
-  controller.text = newText;
-  controller.selection = TextSelection.fromPosition(
-    TextPosition(offset: newText.length),);
+    // אפשר גם לשמור לפני אם תרצה Undo
+    final newText = '${controller.text}$template\n';
+    controller.text = newText;
+    controller.selection = TextSelection.fromPosition(
+      TextPosition(offset: newText.length),
+    );
   }
 
   void onChange() {
@@ -45,6 +47,19 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
 
   @override
   Widget build(BuildContext context) {
+    ref.listen<DispatchState>(dispatchNotifierProvider, (prev, next) {
+      if (next.isSending && (prev == null || !prev.isSending)) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text("נסיעה נשלחה בהצלחה"),
+            action: SnackBarAction(
+              label: "עבור לסטטוס נסיעה",
+              onPressed: () => context.go('/dispatcher/summary'),
+            ),
+          ),
+        );
+      }
+    });
     final formState = ref.watch(dispatchNotifierProvider);
     return ref
         .watch(initialScreenProvider)
@@ -85,16 +100,6 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
                     Container(
                       color: Colors.black.withValues(alpha: 0.5),
                       child: const Center(child: CircularProgressIndicator()),
-                    ),
-                  if (formState.isSending)
-                    ScaffoldMessenger(
-                      child: SnackBar(
-                        content: Text("נסיעה נשלחה בהצלחה"),
-                        action: SnackBarAction(
-                          label: "עבור לסטטוס נסיעה",
-                          onPressed: () => context.go('/dispatcher/summary'),
-                        ),
-                      ),
                     ),
                 ],
               ),

@@ -10,7 +10,8 @@ class LogicScreenNotifier extends StateNotifier<LogicScreenState> {
 
   void onChange(TextEditingController controller) {
     final text = controller.text;
-    final currentPosition = controller.selection.baseOffset;
+    
+    final currentPosition = controller.selection.baseOffset == -1 ? text.length : controller.selection.baseOffset;
     final lines = text.substring(0, currentPosition).split("\n");
 
     final currentLine = (lines.length - 1).clamp(0, 6);

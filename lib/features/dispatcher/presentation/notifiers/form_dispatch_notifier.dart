@@ -27,7 +27,7 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
       final cost = int.tryParse(lines[4]);
       if (cost == null) {
         state = state.copyWith(
-          isSending: false,
+          isLoading: false,
           errorMessage: 'המחיר חייב להיות מספר.',
         );
         return;
