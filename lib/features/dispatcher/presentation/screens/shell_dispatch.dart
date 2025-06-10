@@ -46,8 +46,8 @@ class _ShellDispatchState extends State<ShellDispatch> {
       const SummaryDispatchesScreen(),
     ];
     final List<BottomNavigationBarItem> navItems = [
-      const BottomNavigationBarItem(icon: Icon(Icons.list), label: "נסיעות"),
       const BottomNavigationBarItem(icon: Icon(Icons.add), label: "הוסף"),
+      const BottomNavigationBarItem(icon: Icon(Icons.list), label: "נסיעות"),
     ];
     return Scaffold(
       body: IndexedStack(index: currentIndex, children: screens),

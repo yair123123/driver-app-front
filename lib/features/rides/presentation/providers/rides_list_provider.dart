@@ -1,7 +1,7 @@
+import 'package:driver_app/core/entities/ride.dart';
 import 'package:driver_app/core/providers/user_provider.dart';
 import 'package:driver_app/features/main/domein/entities/station.dart';
 
-import 'package:driver_app/features/rides/domain/entities/ride.dart';
 import 'package:driver_app/core/providers/rides_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -16,7 +16,7 @@ class GroupsNotifier extends StateNotifier<List<Station>> {
 }
 
 final groupsProvider = StateNotifierProvider<GroupsNotifier, List<Station>>((ref) {
-  final user = ref.watch(userProvider).value;
+  final user = ref.read(userProvider).value;
   final initialGroups = user?.driver_stations ?? [];
   return GroupsNotifier()..setGroups(initialGroups);
 });

@@ -86,7 +86,7 @@ final routerProvider = Provider<GoRouter>((ref) {
             ],
           ),
           GoRoute(
-            path: 'settings',
+            path: '/settings',
             builder: (context, state) => const SettingsScreen(),
           ),
         ],

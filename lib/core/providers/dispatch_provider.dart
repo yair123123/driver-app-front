@@ -1,13 +1,11 @@
-import 'package:driver_app/core/providers/user_provider.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datasource.dart';
 import 'package:driver_app/features/dispatcher/data/repositoy/dispatch_reposiroty_impl.dart';
-import 'package:driver_app/features/dispatcher/domain/entities/dispatch_state.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/cancel_ride_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/dispatch_ride_usecase.dart';
+import 'package:driver_app/features/dispatcher/domain/usecases/initial_screen_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/update_ride_usecase.dart';
-import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final webSocketProvider = Provider<WebSocketService>(
@@ -28,8 +26,6 @@ final cancelRideUseCaseProvider = Provider<CancelRideUsecase>(
 final updateRideUseCaseProvider = Provider<UpdateRideUsecase>(
   (ref) => UpdateRideUsecase(ref.watch(dispatchRepsitoryProvider)),
 );
-final dispatchInitialStateProvider = FutureProvider<DispatchState>((ref) async {
-  return await DispatchState.initial(ref.read(userProvider).value!);
-});
-final dispatchNotifierProvider = AsyncNotifierProvider<DispatchNotifier, DispatchState>(() => DispatchNotifier());
-
+final initialScreenUseCaseProvider = Provider<InitialScreenUsecase>(
+  (ref) => InitialScreenUsecase(ref.watch(dispatchRepsitoryProvider)),
+);

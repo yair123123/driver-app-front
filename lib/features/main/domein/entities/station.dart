@@ -1,4 +1,4 @@
-import 'package:driver_app/features/rides/domain/entities/ride.dart';
+import 'package:driver_app/core/entities/ride.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'station.freezed.dart';
