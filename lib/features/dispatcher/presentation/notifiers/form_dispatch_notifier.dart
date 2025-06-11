@@ -1,15 +1,24 @@
 import 'package:driver_app/core/entities/ride.dart';
+import 'package:driver_app/core/providers/settings_provider.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/dispatch_ride_usecase.dart';
+import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
+import 'package:driver_app/features/main/domein/entities/station.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class FormDispatchNotifier extends StateNotifier<DispatchState> {
+  final Ref ref;
   final DispatchNewRideUsecase dispatchNewRideUsecase;
-  FormDispatchNotifier(this.dispatchNewRideUsecase)
-    : super(DispatchState.initial(),
+  FormDispatchNotifier(this.dispatchNewRideUsecase,this.ref)
+    : super(DispatchState.initial(ref.read(settingsProvider).value!.defaultStation ?? ref.read(initialScreenProvider)),
       );
-
-
+  void resetForm(){
+  
+    state = DispatchState.initial(ref);
+  }
+  void onChangeStation(Station station){
+    state = state.copyWith(station: station); 
+  }
   Future<void> addRide(String text) async {
 
     state = state.copyWith(isLoading: true);
