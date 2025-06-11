@@ -41,7 +41,7 @@ class SplashScreen extends ConsumerWidget {
       }
     });
         return const Scaffold(
-      body: Center(child: CircularProgressIndicator()),
+      body: Center(child: CircularProgressIndicator(color: Color(0),)),
     );
 
   }

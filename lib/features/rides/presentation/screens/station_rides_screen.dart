@@ -1,26 +1,25 @@
 
 import 'package:driver_app/features/rides/presentation/providers/actions_provider.dart';
-import 'package:driver_app/features/rides/presentation/providers/rides_list_provider.dart';
+import 'package:driver_app/features/rides/presentation/states/station_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class GroupChatScreen extends ConsumerWidget {
-  final int groupId;
+  final StationState  station;
 
-  const GroupChatScreen({super.key, required this.groupId});
+  const GroupChatScreen({super.key, required this.station});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final group = ref.watch(groupsProvider).firstWhere((g) => g.station_id == groupId);
     return Scaffold(
-      appBar: AppBar(title: Text(group.station_name)),
+      appBar: AppBar(title: Text(station.station.station_name)),
       body:
-          group.rides.isEmpty
+          station.rides.isEmpty
               ? const Center(child: Text('אין הודעות להצגה.'))
               : ListView.builder(
-                itemCount: group.rides.length,
+                itemCount: station.rides.length,
                 itemBuilder: (context, index) {
-                  final ride = group.rides[index];
+                  final ride = station.rides[index];
                   return ListTile(
                     title: Text('נסיעה #${ride.id}'),
                     subtitle: Column(
@@ -48,6 +47,5 @@ class GroupChatScreen extends ConsumerWidget {
 }
 
 String _formatTimestamp(DateTime timestamp) {
-  // עיצוב דוגמה – תוכל לעצב לפי הצורך
   return '${timestamp.day}/${timestamp.month}/${timestamp.year} ${timestamp.hour}:${timestamp.minute.toString().padLeft(2, '0')}';
 }

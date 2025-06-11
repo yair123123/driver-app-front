@@ -21,7 +21,7 @@ RideDto _$RideDtoFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$RideDto {
-  int get typeCode => throw _privateConstructorUsedError;
+  RideTypeCode get typeCode => throw _privateConstructorUsedError;
   dynamic get content => throw _privateConstructorUsedError;
   String get error => throw _privateConstructorUsedError;
 
@@ -39,7 +39,7 @@ abstract class $RideDtoCopyWith<$Res> {
   factory $RideDtoCopyWith(RideDto value, $Res Function(RideDto) then) =
       _$RideDtoCopyWithImpl<$Res, RideDto>;
   @useResult
-  $Res call({int typeCode, dynamic content, String error});
+  $Res call({RideTypeCode typeCode, dynamic content, String error});
 }
 
 /// @nodoc
@@ -67,7 +67,7 @@ class _$RideDtoCopyWithImpl<$Res, $Val extends RideDto>
                 null == typeCode
                     ? _value.typeCode
                     : typeCode // ignore: cast_nullable_to_non_nullable
-                        as int,
+                        as RideTypeCode,
             content:
                 freezed == content
                     ? _value.content
@@ -92,7 +92,7 @@ abstract class _$$RideDtoImplCopyWith<$Res> implements $RideDtoCopyWith<$Res> {
   ) = __$$RideDtoImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int typeCode, dynamic content, String error});
+  $Res call({RideTypeCode typeCode, dynamic content, String error});
 }
 
 /// @nodoc
@@ -119,7 +119,7 @@ class __$$RideDtoImplCopyWithImpl<$Res>
             null == typeCode
                 ? _value.typeCode
                 : typeCode // ignore: cast_nullable_to_non_nullable
-                    as int,
+                    as RideTypeCode,
         content:
             freezed == content
                 ? _value.content
@@ -148,7 +148,7 @@ class _$RideDtoImpl implements _RideDto {
       _$$RideDtoImplFromJson(json);
 
   @override
-  final int typeCode;
+  final RideTypeCode typeCode;
   @override
   final dynamic content;
   @override
@@ -195,7 +195,7 @@ class _$RideDtoImpl implements _RideDto {
 
 abstract class _RideDto implements RideDto {
   const factory _RideDto({
-    required final int typeCode,
+    required final RideTypeCode typeCode,
     required final dynamic content,
     required final String error,
   }) = _$RideDtoImpl;
@@ -203,7 +203,7 @@ abstract class _RideDto implements RideDto {
   factory _RideDto.fromJson(Map<String, dynamic> json) = _$RideDtoImpl.fromJson;
 
   @override
-  int get typeCode;
+  RideTypeCode get typeCode;
   @override
   dynamic get content;
   @override

@@ -7,16 +7,25 @@ class LogicScreenNotifier extends StateNotifier<LogicScreenState> {
   final Ref ref;
   LogicScreenNotifier(this.ref)
     : super(LogicScreenState.initial(ref.watch(initialScreenProvider).value!));
-  void onPressTemplate(TextEditingController controller,String template){
-    final text = controller.text; 
-    final lines = text.split('\n');
-    lines[FormStep.values.indexOf(state.step)] = template;
-    final newText = lines.join('\n');
-    controller.text = newText;
-    controller.selection = TextSelection.fromPosition(
-      TextPosition(offset: newText.length),
-    );
+void onPressTemplate(TextEditingController controller, String template) {
+  final text = controller.text;
+  final lines = text.split('\n');
+  final lineIndex = FormStep.values.indexOf(state.step);
+  lines[lineIndex] = template + '\n'; 
+  final newText = lines.join('\n');
+  controller.text = newText;
+  
+  int cursorOffset = 0;
+  for (int i = 0; i <= lineIndex; i++) {
+    cursorOffset += lines[i].length;
+    if (i < lineIndex) cursorOffset += 1;
   }
+  
+  controller.selection = TextSelection.fromPosition(
+    TextPosition(offset: cursorOffset),
+  );
+}
+
   void onChange(TextEditingController controller) {
     final text = controller.text;
     

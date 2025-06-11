@@ -8,14 +8,24 @@ part of 'ride_dto.dart';
 
 _$RideDtoImpl _$$RideDtoImplFromJson(Map<String, dynamic> json) =>
     _$RideDtoImpl(
-      typeCode: (json['typeCode'] as num).toInt(),
+      typeCode: $enumDecode(_$RideTypeCodeEnumMap, json['typeCode']),
       content: json['content'],
       error: json['error'] as String,
     );
 
 Map<String, dynamic> _$$RideDtoImplToJson(_$RideDtoImpl instance) =>
     <String, dynamic>{
-      'typeCode': instance.typeCode,
+      'typeCode': _$RideTypeCodeEnumMap[instance.typeCode]!,
       'content': instance.content,
       'error': instance.error,
     };
+
+const _$RideTypeCodeEnumMap = {
+  RideTypeCode.newRide: 'newRide',
+  RideTypeCode.cancelRide: 'cancelRide',
+  RideTypeCode.updateRide: 'updateRide',
+  RideTypeCode.giveRide: 'giveRide',
+  RideTypeCode.takenRide: 'takenRide',
+  RideTypeCode.pickup: 'pickup',
+  RideTypeCode.completeRide: 'completeRide',
+};

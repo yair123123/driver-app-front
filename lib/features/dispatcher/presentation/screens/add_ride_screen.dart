@@ -19,7 +19,7 @@ class AddRideScreen extends ConsumerStatefulWidget {
 class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   final TextEditingController controller = TextEditingController();
   void onChangeStation(Station? station) {
-    ref.read(dispatchNotifierProvider.notifier).onChangeStation(station);
+    ref.read(dispatchNotifierProvider.notifier).onChangeStation(station!);
   }
 
   void onPressTemplate(String template) {

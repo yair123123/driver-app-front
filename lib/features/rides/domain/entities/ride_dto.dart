@@ -1,3 +1,4 @@
+import 'package:driver_app/core/enums/type_codes.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'dart:convert';
 
@@ -14,7 +15,7 @@ String rideDtoToJson(RideDto data) => json.encode(data.toJson());
 // 13 = נמכר
 class RideDto with _$RideDto {
     const factory RideDto({
-        required int typeCode,
+        required RideTypeCode typeCode,
         required dynamic content,
         required String error,
     }) = _RideDto;

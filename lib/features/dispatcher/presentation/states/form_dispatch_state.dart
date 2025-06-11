@@ -2,7 +2,7 @@
 import 'package:driver_app/features/main/domein/entities/station.dart';
 
 class DispatchState {
-  final Station station;
+  final Station? station;
   final bool isSending;
   final bool isLoading;
   final String errorMessage;
@@ -26,7 +26,7 @@ class DispatchState {
     );
   }
 
-  static DispatchState initial(Station station) {
+  static DispatchState initial(Station? station) {
     
     return DispatchState(
       station: station,

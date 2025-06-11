@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
-typedef WebSocketMessageHandler = void Function(Map<String, dynamic> message);
+
 
 class WebSocketService {
   WebSocketChannel? _channel;
@@ -30,10 +30,12 @@ class WebSocketService {
       },
     );
   }
+
   void dispose() {
     disconnect();
     _controller.close();
   }
+
   Stream<WebSocketDto> get webSocketDto {
     return stream
         .map((rawMessage) {

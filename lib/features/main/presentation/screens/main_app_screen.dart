@@ -1,18 +1,12 @@
-import 'package:driver_app/core/providers/auth_provider.dart';
+import 'package:driver_app/core/providers/rides_provider.dart';
 import 'package:driver_app/core/providers/user_provider.dart';
-import 'package:driver_app/core/settings/presentation/screens/settings_screen.dart';
-import 'package:driver_app/features/chat/presentation/screens/list_chats_screen.dart';
-import 'package:driver_app/features/dispatcher/presentation/screens/shell_dispatch.dart';
-
-import 'package:driver_app/features/main/domein/entities/user.dart';
-import 'package:driver_app/features/rides/presentation/screens/rides_screens.dart';
 import 'package:driver_app/widgets/driver_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 class MainTabsShell extends ConsumerStatefulWidget {
-  final Widget child;
+  final Widget child; 
   const MainTabsShell({super.key, required this.child});
 
   @override
@@ -20,57 +14,45 @@ class MainTabsShell extends ConsumerStatefulWidget {
 }
 
 class _MainTabsShellState extends ConsumerState<MainTabsShell> {
-
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final token = ref.read(authProvider).token;
-      if (token != null) {
-        ref.read(userProvider.notifier).fetchUser(token);
-      }
-    });
-  }
-int getTabIndex(BuildContext context, User user,List<String> routes ) {
-  final location = GoRouterState.of(context).uri.toString();
-  final i = routes.indexWhere((r) => location.startsWith(r));
-  return i >= 0 ? i : 0;
-}
-  void _onTap(int index,List<String> routes,BuildContext context) {
+    }
+  
+
+
+  void _onTap(int index, List<String> routes, BuildContext context) {
     context.go(routes[index]);
   }
-  
+
   @override
   Widget build(BuildContext context) {
     final userAsync = ref.watch(userProvider);
+
+    final List<String> routes = [
+      "/rides/list",
+      "/dispatcher/summary", 
+      "/chats",
+      "/settings",
+    ];
+
+
     return userAsync.when(
-      loading:
-          () =>
-              const Scaffold(body: Center(child: CircularProgressIndicator())),
-      error:
-          (error, stack) => Scaffold(
-            body: Center(child: Text("שגיאה בטעינת המשתמש: $error")),
-          ),
+      loading: () =>
+          const Scaffold(body: Center(child: CircularProgressIndicator())),
+      error: (error, stack) => Scaffold(
+        body: Center(child: Text("שגיאה בטעינת המשתמש: $error")),
+      ),
       data: (user) {
         if (user == null) {
+
           return const Scaffold(
             body: Center(child: CircularProgressIndicator()),
           );
         }
+        ref.watch(webSocketServiceProvider);
 
-        final List<Widget> screens = [
-          const RidesScreens(),
-          if (user.is_dispatcher) const ShellDispatch(),
-          const ListChatsScreen(),
-          const SettingsScreen(),
-        ];
-        final routes = [
-          "/rides/list",
-          if (user.is_dispatcher) "/dispatcher/newRide",
-          "/chats",
-          "/settings",
-        ];
-        final navItems = [
+        final List<BottomNavigationBarItem> navItems = [
           const BottomNavigationBarItem(
             icon: Icon(Icons.local_taxi),
             label: "נסיעות",
@@ -86,18 +68,28 @@ int getTabIndex(BuildContext context, User user,List<String> routes ) {
             label: "הגדרות",
           ),
         ];
-      final currentIndex = getTabIndex(context, user,routes);
+
+        int currentIndex = 0;
+        final currentLocation = GoRouterState.of(context).uri.toString();
+
+        if (currentLocation.startsWith("/rides")) {
+          currentIndex = 0;
+        } else if (user.is_dispatcher && currentLocation.startsWith("/dispatcher")) {
+          currentIndex = 1;
+        } else if (currentLocation.startsWith("/chats")) {
+          currentIndex = user.is_dispatcher ? 2 : 1; 
+        } else if (currentLocation.startsWith("/settings")) {
+          currentIndex = user.is_dispatcher ? 3 : 2; 
+        }
+
 
         return Scaffold(
           appBar: DriverAppBar(user: user),
-
-body: IndexedStack(
-  index: currentIndex, 
-  children: screens,),
+          body: widget.child, 
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: currentIndex,
             items: navItems,
-            onTap: (index) => _onTap(index,routes,context),
+            onTap: (index) => _onTap(index, routes, context),
             type: BottomNavigationBarType.fixed,
           ),
         );

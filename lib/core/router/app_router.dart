@@ -11,9 +11,11 @@ import 'package:driver_app/features/rides/presentation/screens/map_screen.dart';
 import 'package:driver_app/features/rides/presentation/screens/rides_screens.dart';
 import 'package:driver_app/features/rides/presentation/screens/station_rides_screen.dart';
 import 'package:driver_app/features/rides/presentation/screens/stations_list_screen.dart';
+import 'package:driver_app/features/rides/presentation/states/station_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+
 
 final GlobalKey<NavigatorState> _rootNavigatorState =
     GlobalKey<NavigatorState>();
@@ -23,6 +25,7 @@ final GlobalKey<NavigatorState> _shellRidesNavigatorState =
     GlobalKey<NavigatorState>();
 final GlobalKey<NavigatorState> _shellDispatchNavigatorState =
     GlobalKey<NavigatorState>();
+
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     navigatorKey: _rootNavigatorState,
@@ -43,10 +46,12 @@ final routerProvider = Provider<GoRouter>((ref) {
                 builder: (context, state) => const StationsListScreen(),
                 routes: [
                   GoRoute(
-                    path: 'group/:groupId',
+                                    parentNavigatorKey: _rootNavigatorState,
+
+                    path: 'station',
                     builder: (context, state) {
-                      final groupId = state.pathParameters['groupId'];
-                      return GroupChatScreen(groupId: int.parse(groupId!));
+                      final station = state.extra as StationState;
+                      return GroupChatScreen(station: station);
                     },
                   ),
                 ],
@@ -68,6 +73,11 @@ final routerProvider = Provider<GoRouter>((ref) {
               GoRoute(
                 path: '/dispatcher/newRide',
                 builder: (context, state) => const AddRideScreen(),
+              ),
+
+              GoRoute(
+                path: '/dispatcher',
+                builder: (context, state) => const SummaryDispatchesScreen(),
               ),
             ],
           ),

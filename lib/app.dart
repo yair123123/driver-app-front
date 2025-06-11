@@ -12,19 +12,23 @@ class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final settings = ref.watch(settingsProvider); 
-        final router = ref.watch(routerProvider); 
+    final router = ref.watch(routerProvider); 
 
     return settings.when(
       loading: () => const MaterialApp(
-        home: Scaffold(body: Center(child: CircularProgressIndicator())),
+        home: Scaffold(body: Center(child: CircularProgressIndicator(color: Color.fromARGB(0, 235, 2, 2),))),
       ),
       error: (error, stack) => MaterialApp(
         home: Scaffold(body: Center(child: Text('שגיאה בטעינת הגדרות: $error'))),
       ),
       data: (settingsData) {
         return MaterialApp.router(
+          
           debugShowCheckedModeBanner: false,
           locale: const Locale('he'),
+          supportedLocales: const [
+  Locale('he'),
+],
           localizationsDelegates: const [
             GlobalMaterialLocalizations.delegate,
             GlobalWidgetsLocalizations.delegate,

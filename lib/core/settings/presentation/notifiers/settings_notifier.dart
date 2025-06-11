@@ -7,8 +7,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 class SettingsNotifier extends StateNotifier<AsyncValue<Settings>> {
   final GetSettings getSettings;
   final SetSettings setSettings;
+
   SettingsNotifier(this.getSettings, this.setSettings)
-    : super(const AsyncValue.loading()) {
+      : super(const AsyncValue.loading()) {
     _loadSettings();
   }
 
@@ -22,19 +23,33 @@ class SettingsNotifier extends StateNotifier<AsyncValue<Settings>> {
   }
 
   Future<void> updateDarkMode(bool isDarkMode) async {
-    if (state.value == null) return;
-    try {
-      state = const AsyncValue.loading();
-      final updated = state.value!.copyWith(isDarkMode: isDarkMode);
-      await setSettings(updated);
-      state = AsyncValue.data(updated);
-    } catch (e, st) {
-      state = AsyncValue.error(e, st);
-    }
+    state.whenOrNull(
+      data: (currentSettings) async {
+        try {
+          state = const AsyncValue.loading();
+          
+          final updated = currentSettings.copyWith(isDarkMode: isDarkMode);
+          await setSettings(updated);
+          state = AsyncValue.data(updated);
+        } catch (e, st) {
+          state = AsyncValue.error(e, st);
+        }
+      },
+    );
   }
 
   Future<void> updateDefaultStation(Station station) async {
-    final updated = state.value!.copyWith(defaultStation: station);
-    await setSettings(updated);
+
+    state.whenOrNull(
+      data: (currentSettings) async {
+        try {
+          final updated = currentSettings.copyWith(defaultStation: station);
+          await setSettings(updated);
+          state = AsyncValue.data(updated);
+        } catch (e, st) {
+          state = AsyncValue.error(e, st);
+        }
+      },
+    );
   }
 }

@@ -1,5 +1,4 @@
 import 'package:driver_app/core/entities/ride.dart';
-import 'package:driver_app/core/providers/settings_provider.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/dispatch_ride_usecase.dart';
 import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
@@ -10,11 +9,11 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
   final Ref ref;
   final DispatchNewRideUsecase dispatchNewRideUsecase;
   FormDispatchNotifier(this.dispatchNewRideUsecase,this.ref)
-    : super(DispatchState.initial(ref.read(settingsProvider).value!.defaultStation ?? ref.read(initialScreenProvider)),
+    : super(DispatchState.initial(ref.read(initialScreenProvider).valueOrNull?.stations.first),
       );
   void resetForm(){
   
-    state = DispatchState.initial(ref);
+    state = DispatchState.initial(ref.read(initialScreenProvider).value!.stations.first);
   }
   void onChangeStation(Station station){
     state = state.copyWith(station: station); 

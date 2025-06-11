@@ -9,7 +9,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final dispatchNotifierProvider =
     StateNotifierProvider<FormDispatchNotifier, DispatchState>(
-      (ref) => FormDispatchNotifier(ref.watch(dispatchNewRideUseCaseProvider)),
+      (ref) => FormDispatchNotifier(ref.watch(dispatchNewRideUseCaseProvider),ref),
     );
 final logicScreenNotifierProvider =
     StateNotifierProvider<LogicScreenNotifier, LogicScreenState>(
@@ -19,10 +19,10 @@ final logicScreenNotifierProvider =
 final FutureProvider<InitialScreenState> initialScreenProvider = FutureProvider(
   (ref) async {
     final initialScreen = await ref.read(initialScreenUseCaseProvider)();
-    final station = ref.read(userProvider).value!.dispatcher_stations;
+    final stations = ref.read(userProvider).value!.dispatcher_stations;
     return InitialScreenState.fromModel(
       initialScreen: initialScreen,
-      stations: station,
+      stations: stations,
     );
   },
 );
