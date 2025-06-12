@@ -1,3 +1,4 @@
+import 'package:driver_app/core/enums/websocket_typecode.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';
@@ -22,6 +23,6 @@ class DispatcherDatasource {
   }
 
   void sendRideAction(RideDto ride) {
-    webSocketService.send(WebSocketDto(content: ride, typeCode: 10));
+    webSocketService.send(WebSocketDto(content: ride, type_code: WebSocketTypeCode.rides,error: ""));
   }
 }

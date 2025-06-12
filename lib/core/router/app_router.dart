@@ -29,6 +29,7 @@ final GlobalKey<NavigatorState> _shellDispatchNavigatorState =
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     navigatorKey: _rootNavigatorState,
+  
     initialLocation: "/",
     routes: [
       GoRoute(path: "/", builder: (context, state) => const SplashScreen()),

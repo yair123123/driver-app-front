@@ -12,7 +12,6 @@ class AppGate extends ConsumerWidget {
     final appState = ref.watch(appInitialProvider);
     final controller = ref.read(appInitialProvider.notifier);
 
-    // אם עדיין לא מוכנים – לאתחל
     if (!appState.isReady && token != null) {
       controller.init(token);
       return const Scaffold(
@@ -20,16 +19,13 @@ class AppGate extends ConsumerWidget {
       );
     }
 
-    // אם אין טוקן – ננווט למסך התחברות
     if (token == null) {
       return const Scaffold(
         body: Center(child: Text("נא להתחבר")),
       );
     }
 
-    // אם מוכן – לנווט למסך הראשי
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      // נווט רק אם עדיין לא נווטת (כדי למנוע לולאה)
       final currentLocation = GoRouterState.of(context).matchedLocation;
       if (currentLocation != '/rides/list') {
         context.go('/rides/list');

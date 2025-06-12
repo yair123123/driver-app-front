@@ -54,9 +54,7 @@ class WebSocketService {
     return _controller.stream
         .map((rawMessage) {
           try {
-            final map =
-                rawMessage is String ? jsonDecode(rawMessage) : rawMessage;
-            return webSocketDtoFromJson(map);
+            return webSocketDtoFromJson(rawMessage);
           } catch (e) {
             print(e);
             return null;
@@ -67,8 +65,9 @@ class WebSocketService {
   }
 
   String send(WebSocketDto message) {
+    final toSent = webSocketDtoToJson(message); 
     try {
-      _channel!.sink.add(message);
+      _channel!.sink.add(toSent);
       return "";
     } catch (e) {
       return e.toString();

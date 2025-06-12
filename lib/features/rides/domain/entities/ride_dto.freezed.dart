@@ -21,7 +21,8 @@ RideDto _$RideDtoFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$RideDto {
-  RideTypeCode get typeCode => throw _privateConstructorUsedError;
+  @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+  RideOperationCode get operation_code => throw _privateConstructorUsedError;
   dynamic get content => throw _privateConstructorUsedError;
   String get error => throw _privateConstructorUsedError;
 
@@ -39,7 +40,12 @@ abstract class $RideDtoCopyWith<$Res> {
   factory $RideDtoCopyWith(RideDto value, $Res Function(RideDto) then) =
       _$RideDtoCopyWithImpl<$Res, RideDto>;
   @useResult
-  $Res call({RideTypeCode typeCode, dynamic content, String error});
+  $Res call({
+    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+    RideOperationCode operation_code,
+    dynamic content,
+    String error,
+  });
 }
 
 /// @nodoc
@@ -57,17 +63,17 @@ class _$RideDtoCopyWithImpl<$Res, $Val extends RideDto>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? typeCode = null,
+    Object? operation_code = null,
     Object? content = freezed,
     Object? error = null,
   }) {
     return _then(
       _value.copyWith(
-            typeCode:
-                null == typeCode
-                    ? _value.typeCode
-                    : typeCode // ignore: cast_nullable_to_non_nullable
-                        as RideTypeCode,
+            operation_code:
+                null == operation_code
+                    ? _value.operation_code
+                    : operation_code // ignore: cast_nullable_to_non_nullable
+                        as RideOperationCode,
             content:
                 freezed == content
                     ? _value.content
@@ -92,7 +98,12 @@ abstract class _$$RideDtoImplCopyWith<$Res> implements $RideDtoCopyWith<$Res> {
   ) = __$$RideDtoImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({RideTypeCode typeCode, dynamic content, String error});
+  $Res call({
+    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+    RideOperationCode operation_code,
+    dynamic content,
+    String error,
+  });
 }
 
 /// @nodoc
@@ -109,17 +120,17 @@ class __$$RideDtoImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? typeCode = null,
+    Object? operation_code = null,
     Object? content = freezed,
     Object? error = null,
   }) {
     return _then(
       _$RideDtoImpl(
-        typeCode:
-            null == typeCode
-                ? _value.typeCode
-                : typeCode // ignore: cast_nullable_to_non_nullable
-                    as RideTypeCode,
+        operation_code:
+            null == operation_code
+                ? _value.operation_code
+                : operation_code // ignore: cast_nullable_to_non_nullable
+                    as RideOperationCode,
         content:
             freezed == content
                 ? _value.content
@@ -139,7 +150,8 @@ class __$$RideDtoImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$RideDtoImpl implements _RideDto {
   const _$RideDtoImpl({
-    required this.typeCode,
+    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+    required this.operation_code,
     required this.content,
     required this.error,
   });
@@ -148,7 +160,8 @@ class _$RideDtoImpl implements _RideDto {
       _$$RideDtoImplFromJson(json);
 
   @override
-  final RideTypeCode typeCode;
+  @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+  final RideOperationCode operation_code;
   @override
   final dynamic content;
   @override
@@ -156,7 +169,7 @@ class _$RideDtoImpl implements _RideDto {
 
   @override
   String toString() {
-    return 'RideDto(typeCode: $typeCode, content: $content, error: $error)';
+    return 'RideDto(operation_code: $operation_code, content: $content, error: $error)';
   }
 
   @override
@@ -164,8 +177,8 @@ class _$RideDtoImpl implements _RideDto {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$RideDtoImpl &&
-            (identical(other.typeCode, typeCode) ||
-                other.typeCode == typeCode) &&
+            (identical(other.operation_code, operation_code) ||
+                other.operation_code == operation_code) &&
             const DeepCollectionEquality().equals(other.content, content) &&
             (identical(other.error, error) || other.error == error));
   }
@@ -174,7 +187,7 @@ class _$RideDtoImpl implements _RideDto {
   @override
   int get hashCode => Object.hash(
     runtimeType,
-    typeCode,
+    operation_code,
     const DeepCollectionEquality().hash(content),
     error,
   );
@@ -195,7 +208,8 @@ class _$RideDtoImpl implements _RideDto {
 
 abstract class _RideDto implements RideDto {
   const factory _RideDto({
-    required final RideTypeCode typeCode,
+    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+    required final RideOperationCode operation_code,
     required final dynamic content,
     required final String error,
   }) = _$RideDtoImpl;
@@ -203,7 +217,8 @@ abstract class _RideDto implements RideDto {
   factory _RideDto.fromJson(Map<String, dynamic> json) = _$RideDtoImpl.fromJson;
 
   @override
-  RideTypeCode get typeCode;
+  @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+  RideOperationCode get operation_code;
   @override
   dynamic get content;
   @override

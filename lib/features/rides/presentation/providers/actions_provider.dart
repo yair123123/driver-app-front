@@ -6,7 +6,7 @@ class RidesActionsNotifier extends StateNotifier<AsyncValue<void>> {
   RidesActionsNotifier(this._repo) : super(const AsyncData(null));
   final RideRepository _repo;
 
-  Future<void> giveRide(int rideId) async {
+  Future<void> giveRide(String rideId) async {
     state = const AsyncLoading();
     try {
       await _repo.takeRide({"id":rideId});

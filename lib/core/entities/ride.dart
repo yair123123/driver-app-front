@@ -5,6 +5,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'dart:convert';
 
+import 'package:uuid/uuid.dart';
+
 part 'ride.freezed.dart';
 part 'ride.g.dart';
 
@@ -15,8 +17,8 @@ String rideToJson(Ride data) => json.encode(data.toJson());
 @freezed
 class Ride with _$Ride {
   const factory Ride({
-    required int id,
-    required int stationId,
+    required String  id,
+    required int station_id,
     required Location origin,
     required Location destination,
     required String price,
@@ -34,8 +36,8 @@ class Ride with _$Ride {
     final comments = lines.length > 6 ? lines.sublist(6).join('\n') : '';
 
     return Ride(
-      id: 34,
-      stationId: 34,
+      id: Uuid().v4(),
+      station_id: 34,
       origin: Location(city: originCity, neighborhood: originNeighborhood),
       destination: Location(
         city: destinationCity,

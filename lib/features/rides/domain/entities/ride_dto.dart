@@ -1,4 +1,4 @@
-import 'package:driver_app/core/enums/type_codes.dart';
+import 'package:driver_app/core/enums/ride_operation_code.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'dart:convert';
 
@@ -10,12 +10,10 @@ RideDto rideDtoFromJson(String str) => RideDto.fromJson(json.decode(str));
 String rideDtoToJson(RideDto data) => json.encode(data.toJson());
 
 @freezed
-// 11 = פרסום נסיעה
-// 12 = תן
-// 13 = נמכר
 class RideDto with _$RideDto {
     const factory RideDto({
-        required RideTypeCode typeCode,
+        @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+        required RideOperationCode operation_code,
         required dynamic content,
         required String error,
     }) = _RideDto;

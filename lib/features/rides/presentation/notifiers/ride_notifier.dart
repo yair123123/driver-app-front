@@ -30,7 +30,7 @@ class RideNotifier extends StateNotifier<List<StationState>> {
   void newRide(Ride ride){
         state = [
       for (final station in state)
-        station.station.station_id == ride.stationId
+        station.station.station_id == ride.station_id
             ? station.copyWith(rides: [...station.rides, ride])
             : station,
     ];
