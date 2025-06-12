@@ -16,10 +16,10 @@ final userRepositoryProvider = Provider<UserRepository>((ref) {
   return UserRepositoryImpl(ref.watch(userDataSource));
 });
 
-final getUser = Provider<GetUser>((ref) {
+final getUserProvider = Provider<GetUser>((ref) {
   return GetUser(ref.watch(userRepositoryProvider));
 });
 
 final userProvider = StateNotifierProvider<MainNotifier, AsyncValue<User?>>((ref) {
-  return MainNotifier(ref.watch(getUser),ref.watch(authProvider).token);
+  return MainNotifier(ref.watch(getUserProvider),ref.watch(authProvider).token);
 });

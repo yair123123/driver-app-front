@@ -6,6 +6,7 @@ import 'package:driver_app/features/chat/presentation/screens/list_chats_screen.
 import 'package:driver_app/features/dispatcher/presentation/screens/add_ride_screen.dart';
 import 'package:driver_app/features/dispatcher/presentation/screens/shell_dispatch.dart';
 import 'package:driver_app/features/dispatcher/presentation/screens/summary_dispatches_screen.dart';
+import 'package:driver_app/features/main/presentation/screens/app_gate.dart';
 import 'package:driver_app/features/main/presentation/screens/main_app_screen.dart';
 import 'package:driver_app/features/rides/presentation/screens/map_screen.dart';
 import 'package:driver_app/features/rides/presentation/screens/rides_screens.dart';
@@ -15,7 +16,6 @@ import 'package:driver_app/features/rides/presentation/states/station_state.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-
 
 final GlobalKey<NavigatorState> _rootNavigatorState =
     GlobalKey<NavigatorState>();
@@ -33,6 +33,7 @@ final routerProvider = Provider<GoRouter>((ref) {
     routes: [
       GoRoute(path: "/", builder: (context, state) => const SplashScreen()),
       GoRoute(path: "/login", builder: (context, state) => const LoginScreen()),
+      GoRoute(path: '/appgate',builder:(context, state) => const AppGate(),),
       ShellRoute(
         navigatorKey: _shellMainNavigatorState,
         builder: (context, state, child) => MainTabsShell(child: child),
@@ -46,12 +47,14 @@ final routerProvider = Provider<GoRouter>((ref) {
                 builder: (context, state) => const StationsListScreen(),
                 routes: [
                   GoRoute(
-                                    parentNavigatorKey: _rootNavigatorState,
+                    parentNavigatorKey: _rootNavigatorState,
 
                     path: 'station',
                     builder: (context, state) {
-                      final station = state.extra as StationState;
-                      return GroupChatScreen(station: station);
+                      final StationState? station = state.extra as StationState;
+                      return station != null
+                          ? GroupChatScreen(station: station)
+                          : StationsListScreen();
                     },
                   ),
                 ],

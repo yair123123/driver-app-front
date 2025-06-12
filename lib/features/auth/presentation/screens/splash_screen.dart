@@ -12,10 +12,9 @@ class SplashScreen extends ConsumerWidget {
     ref.listen<AuthState>(authProvider, (prev, next) {
       switch (next.splashStatus) {
         case AuthSplashStatus.loading:
-          
           break;
         case AuthSplashStatus.success:
-          context.go('/rides/list');
+          context.go('/appgate');
           return ;
         case AuthSplashStatus.needLogin:
           context.go('/login');

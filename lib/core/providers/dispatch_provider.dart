@@ -1,4 +1,4 @@
-import 'package:driver_app/core/providers/rides_provider.dart';
+import 'package:driver_app/core/websocket/websocket_provider.dart';
 import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datasource.dart';
 import 'package:driver_app/features/dispatcher/data/repositoy/dispatch_reposiroty_impl.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
@@ -10,7 +10,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 
 final datasourceProvider = Provider<DispatcherDatasource>(
-  (ref) => DispatcherDatasource(ref.watch(webSocketServiceProvider)),
+  (ref) => DispatcherDatasource(ref.watch(webSocketServiceInstanceProvider)),
 );
 final dispatchRepsitoryProvider = Provider<DispatchRepository>(
   (ref) => DispatchRepositoryImpl(ref.watch(datasourceProvider)),

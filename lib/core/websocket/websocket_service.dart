@@ -1,9 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:driver_app/core/env/env.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
-
-
 
 class WebSocketService {
   WebSocketChannel? _channel;
@@ -12,23 +11,38 @@ class WebSocketService {
   WebSocketService() {
     _controller = StreamController.broadcast();
   }
-  Stream<dynamic> get stream => _controller.stream;
-  bool get isConnected => _isConnected;
-  void connect(String url, String token) {
-    if (_isConnected) return;
-    _channel = WebSocketChannel.connect(Uri.parse("$url/?token=$token"));
-    _isConnected = true;
 
-    _channel!.stream.listen(
-      (rawMessage) {
-        _controller.add(rawMessage);
-      },
-      onError: (e) => _controller.addError(e),
-      onDone: () {
-        _isConnected = false;
-        _controller.add('disconnected');
-      },
-    );
+  bool get isConnected => _isConnected;
+
+  Future<bool> connect(String token) async {
+
+    if (_isConnected) return true;
+    final url = Env.websocketUrl;
+    try {
+      _channel = WebSocketChannel.connect(Uri.parse("$url/?auth=$token"));
+      _isConnected = true;
+
+      _channel!.stream.listen(
+        (rawMessage) {
+          _controller.add(rawMessage);
+        },
+        onError: (e) {
+          _controller.addError(e);
+          _isConnected = false;
+          return false;
+        },
+        onDone: () {
+          _isConnected = false;
+          _controller.add('disconnected');
+        },
+        cancelOnError: true,
+      );
+      return true;
+    } catch (e) {
+      print("websocket connection failed $e");
+      _isConnected = false;
+  throw Exception("WebSocket לא נתמך מ־Flutter Web ל־localhost");
+    }
   }
 
   void dispose() {
@@ -37,7 +51,7 @@ class WebSocketService {
   }
 
   Stream<WebSocketDto> get webSocketDto {
-    return stream
+    return _controller.stream
         .map((rawMessage) {
           try {
             final map =

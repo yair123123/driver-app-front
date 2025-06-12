@@ -14,9 +14,9 @@ class RideNotifier extends StateNotifier<List<StationState>> {
   RideNotifier(this.ref,this.listenToNewEvents) : super(StationState.initialStations(ref)){
     _subscription = listenToNewEvents().listen((event) {
       if (event is NewRideEvent) {
-        NewRide(event.ride);
+        newRide(event.ride);
       } else if (event is CancelRideEvent) {
-        TakenRide(event.rideId);
+        takenRide(event.rideId);
       }
     });
   }
@@ -27,7 +27,7 @@ class RideNotifier extends StateNotifier<List<StationState>> {
   }
 
 
-  void NewRide(Ride ride){
+  void newRide(Ride ride){
         state = [
       for (final station in state)
         station.station.station_id == ride.stationId
@@ -36,7 +36,7 @@ class RideNotifier extends StateNotifier<List<StationState>> {
     ];
   }
 
-  void TakenRide( rideId){
+  void takenRide( rideId){
     state = [
       for (final station in state)
         station.copyWith(

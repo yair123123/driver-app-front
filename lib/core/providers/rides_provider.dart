@@ -1,4 +1,4 @@
-import 'package:driver_app/core/websocket/websocket_service.dart';
+import 'package:driver_app/core/websocket/websocket_provider.dart';
 import 'package:driver_app/features/rides/data/datasources/rides_websocket_datasource.dart';
 import 'package:driver_app/features/rides/data/repositories/ride_websocket_repository_impl.dart';
 import 'package:driver_app/features/rides/domain/repositories/ride_websocket_repository.dart';
@@ -20,11 +20,9 @@ final rideRepositoryProvider = Provider<RideRepository>((ref) {
 final ridesWebSocketDatasourceProvider = Provider<RidesWebSocketDatasource>((
   ref,
 ) {
-  return RidesWebSocketDatasource(ref.watch(webSocketServiceProvider));
+  return RidesWebSocketDatasource(ref.watch(webSocketServiceInstanceProvider));
 });
 
-final webSocketServiceProvider = Provider<WebSocketService>((ref) {
-  return WebSocketService();
-});
+
 
 
