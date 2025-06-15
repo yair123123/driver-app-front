@@ -1,4 +1,7 @@
+import 'package:driver_app/core/error/failure.dart';
+import 'package:driver_app/core/providers/auth_provider.dart';
 import 'package:driver_app/core/settings/presentation/screens/settings_screen.dart';
+import 'package:driver_app/features/auth/presentation/providers/auth_state.dart';
 import 'package:driver_app/features/auth/presentation/screens/login_screen.dart';
 import 'package:driver_app/features/auth/presentation/screens/splash_screen.dart';
 import 'package:driver_app/features/chat/presentation/screens/chat_screen.dart';
@@ -6,7 +9,8 @@ import 'package:driver_app/features/chat/presentation/screens/list_chats_screen.
 import 'package:driver_app/features/dispatcher/presentation/screens/add_ride_screen.dart';
 import 'package:driver_app/features/dispatcher/presentation/screens/shell_dispatch.dart';
 import 'package:driver_app/features/dispatcher/presentation/screens/summary_dispatches_screen.dart';
-import 'package:driver_app/features/main/presentation/screens/app_gate.dart';
+import 'package:driver_app/features/main/presentation/notifiers/app_notifier.dart';
+import 'package:driver_app/features/main/presentation/providers/app_provider.dart';
 import 'package:driver_app/features/main/presentation/screens/main_app_screen.dart';
 import 'package:driver_app/features/rides/presentation/screens/map_screen.dart';
 import 'package:driver_app/features/rides/presentation/screens/rides_screens.dart';
@@ -28,12 +32,35 @@ final GlobalKey<NavigatorState> _shellDispatchNavigatorState =
 
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
+    redirect: (context, state) {
+      final auth = ref.watch(authProvider);
+      final init = ref.watch(appInitialProvider);
+
+      if (auth.authStatus == AuthStatus.unauthenticated) {
+        return '/login';
+      }
+      if (auth.authStatus == AuthStatus.authenticated &&
+          init.status == AppReadyStatus.loading) {
+        return '/';
+      }
+      if (auth.authStatus == AuthStatus.authenticated &&
+          init.status == AppReadyStatus.error) {
+        return '/error';
+      }
+      if (auth.authStatus == AuthStatus.authenticated &&
+          init.status == AppReadyStatus.ready &&
+          (state.matchedLocation == '/login' ||
+              state.matchedLocation == '/')) {
+        return '/rides/list';
+      }
+      return null;
+    },
     navigatorKey: _rootNavigatorState,
     initialLocation: "/",
     routes: [
       GoRoute(path: "/", builder: (context, state) => const SplashScreen()),
       GoRoute(path: "/login", builder: (context, state) => const LoginScreen()),
-      GoRoute(path: '/appgate',builder:(context, state) => const AppGate(),),
+      GoRoute(path: "/error", builder: (context, state) => const ErrorScreen()),
       ShellRoute(
         navigatorKey: _shellMainNavigatorState,
         builder: (context, state, child) => MainTabsShell(child: child),

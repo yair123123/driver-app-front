@@ -19,7 +19,7 @@ final logicScreenNotifierProvider =
 final FutureProvider<InitialScreenState> initialScreenProvider = FutureProvider(
   (ref) async {
     final initialScreen = await ref.read(initialScreenUseCaseProvider)();
-    final stations = ref.read(userProvider).value!.dispatcher_stations;
+    final stations = ref.read(userProvider)!.dispatcher_stations;
     return InitialScreenState.fromModel(
       initialScreen: initialScreen,
       stations: stations,

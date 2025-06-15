@@ -16,30 +16,25 @@ class AuthNotifier extends StateNotifier<AuthState> {
     this.validateToken,
     this.clearToken,
     this.loginUseCase,
-  ) : super(AuthState(splashStatus: AuthSplashStatus.loading)) {
+  ) : super(AuthState()) {
     checkSplashStatus();
   }
 
-  void setWarnningMessage(String message) {
-    state = state.copyWith(warnningMessage: message);
-  }
-
   Future<void> login(String username, String id) async {
-    state = state.copyWith(errorMessage: null, isLoading: true);
+    state = state.copyWith(authStatus: AuthStatus.authenticating);
     try {
       final user = await loginUseCase(username, id);
       state = state.copyWith(
         user: user,
         token: user.jwt_token,
-        isLoading: false,
+        authStatus: AuthStatus.authenticated,
       );
     } catch (e) {
-      state = state.copyWith(errorMessage: e.toString(), isLoading: false);
+      state = state.copyWith(authStatus: AuthStatus.unauthenticated);
     }
   }
 
   Future<bool> checkToken(String token) async {
-    state = state.copyWith(errorMessage: null);
     bool isValid = await validateToken(token);
     if (isValid) {
       return true;
@@ -51,22 +46,22 @@ class AuthNotifier extends StateNotifier<AuthState> {
   Future<void> checkSplashStatus() async {
     final token = await getSavedToken();
     if (token == null) {
-      state = state.copyWith(splashStatus: AuthSplashStatus.needLogin);
+      state = state.copyWith(authStatus: AuthStatus.unauthenticated);
       return;
     }
     try {
       bool isValid = await validateToken(token);
       if (isValid) {
         state = state.copyWith(
-          splashStatus: AuthSplashStatus.success,
+          authStatus: AuthStatus.authenticated,
           token: token,
         );
         return;
       }
+      
     } catch (e) {
       state = state.copyWith(
-        splashStatus: AuthSplashStatus.error,
-        errorMessage: e.toString(),
+        authStatus: AuthStatus.unauthenticated
       );
       return;
     }

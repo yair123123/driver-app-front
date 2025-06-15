@@ -1,4 +1,4 @@
-import 'package:driver_app/features/main/presentation/providers/app_provider.dart';
+import 'package:driver_app/core/providers/user_provider.dart';
 import 'package:driver_app/widgets/driver_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -25,7 +25,7 @@ class _MainTabsShellState extends ConsumerState<MainTabsShell> {
       "/chats",
       "/settings",
     ];
-   final user = ref.watch(appInitialProvider).user!;
+   final user = ref.watch(userProvider)!;
     final List<BottomNavigationBarItem> navItems = [
       const BottomNavigationBarItem(
         icon: Icon(Icons.local_taxi),

@@ -1,48 +1,55 @@
+// lib/core/websocket/websocket_service.dart
 import 'dart:async';
 import 'dart:convert';
 import 'package:driver_app/core/env/env.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
+import 'package:stream_transform/stream_transform.dart';
 
 class WebSocketService {
   WebSocketChannel? _channel;
-  late final StreamController<dynamic> _controller;
+  StreamSubscription? _subscription;
+  final _controller = StreamController<String>.broadcast();
   bool _isConnected = false;
-  WebSocketService() {
-    _controller = StreamController.broadcast();
-  }
 
   bool get isConnected => _isConnected;
+  Stream<WebSocketDto> get webSocketDtoStream =>
+      _controller.stream
+          .map((s) => webSocketDtoFromJson(s))
+          .handleError((e) {})
+          .whereType<WebSocketDto>();
 
   Future<bool> connect(String token) async {
-
     if (_isConnected) return true;
-    final url = Env.websocketUrl;
+
+    final uri = Uri.parse('${Env.websocketUrl}?auth=$token');
     try {
-      _channel = WebSocketChannel.connect(Uri.parse("$url/?auth=$token"));
+      _channel = WebSocketChannel.connect(uri);
       _isConnected = true;
 
-      _channel!.stream.listen(
-        (rawMessage) {
-          _controller.add(rawMessage);
-        },
-        onError: (e) {
-          _controller.addError(e);
-          _isConnected = false;
-          return false;
-        },
-        onDone: () {
-          _isConnected = false;
-          _controller.add('disconnected');
-        },
+      _subscription = _channel!.stream.listen(
+        (dynamic data) => _controller.add(data as String),
+        onError: _handleError,
+        onDone: _handleDone,
         cancelOnError: true,
       );
+
       return true;
-    } catch (e) {
-      print("websocket connection failed $e");
+    } catch (e, st) {
+      _controller.addError(e, st);
       _isConnected = false;
-  throw Exception("WebSocket לא נתמך מ־Flutter Web ל־localhost");
+      return false;
     }
+  }
+
+  void send(WebSocketDto data) => _channel?.sink.add(jsonEncode(data));
+
+  void disconnect() {
+    _subscription?.cancel();
+    _channel?.sink.close();
+    _subscription = null;
+    _channel = null;
+    _isConnected = false;
   }
 
   void dispose() {
@@ -50,35 +57,13 @@ class WebSocketService {
     _controller.close();
   }
 
-  Stream<WebSocketDto> get webSocketDto {
-    return _controller.stream
-        .map((rawMessage) {
-          try {
-            final map =
-                rawMessage is String ? jsonDecode(rawMessage) : rawMessage;
-            return webSocketDtoFromJson(map);
-          } catch (e) {
-            print(e);
-            return null;
-          }
-        })
-        .where((d) => d != null)
-        .cast<WebSocketDto>();
+  void _handleError(Object error, StackTrace st) {
+    _controller.addError(error, st);
+    disconnect();
   }
 
-  String send(WebSocketDto message) {
-    try {
-      _channel!.sink.add(message);
-      return "";
-    } catch (e) {
-      return e.toString();
-    }
-  }
-
-  void disconnect() {
-    if (_channel != null) {
-      _channel?.sink.close();
-      _channel = null;
-    }
+  void _handleDone() {
+    _controller.add('disconnected');
+    disconnect();
   }
 }

@@ -1,30 +1,67 @@
-import 'package:driver_app/core/providers/user_provider.dart';
-import 'package:driver_app/core/websocket/websocket_provider.dart';
+import 'package:driver_app/core/settings/presentation/notifiers/settings_notifier.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
-import 'package:driver_app/features/main/domein/use_cases/get_user.dart';
-import 'package:driver_app/features/main/presentation/states/appState.dart';
+import 'package:driver_app/features/main/presentation/providers/user_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class AppNotifier extends Notifier<AppState> {
- late final GetUser _getUser;
- late final WebSocketService  _webSocket;
-
-@override
-AppState build(){
-  _getUser = ref.read(getUserProvider);
-  _webSocket = ref.read(webSocketServiceInstanceProvider);
-  return AppState.initial();
+enum AppReadyStatus {
+  idle,
+  ready,
+  loading,
+  error
 }
 
-Future<void> init(String token) async {
-    try {
-      final user = await _getUser(token);
+class AppReadyState {
+  final AppReadyStatus status;
+  final String errorMessage;
 
-      await _webSocket.connect(token); 
+  const AppReadyState({
+    required this.status,
+    this.errorMessage = "",
+  });
 
-      state = state.CopyWith(user, true); 
-    } catch (e) {
-      state = state.CopyWith(null, false);
-    }
+  AppReadyState copyWith({
+    AppReadyStatus? status,
+    String? errorMessage,
+  }) {
+    return AppReadyState(
+      status: status ?? this.status,
+      errorMessage: errorMessage ?? this.errorMessage,
+    );
   }
+}
+
+class AppInitNotifier extends StateNotifier<AppReadyState> {
+  final SettingsNotifier settingsNotifier;
+  final UserNotifier userNotifier;
+  final WebSocketService webSocketService;
+
+  AppInitNotifier({
+    required this.settingsNotifier,
+    required this.userNotifier,
+    required this.webSocketService,
+  }) : super(const AppReadyState(errorMessage: "",status : AppReadyStatus.idle));
+
+  Future<void> init(String token) async {
+  if (state.status != AppReadyStatus.idle) return;
+  state = state.copyWith(status:  AppReadyStatus.loading);
+
+  try {
+    final user = await userNotifier.fetchUser(token);
+    if (user == null) throw Exception("לא הצלחנו להביא משתמש");
+
+    final bool res = await webSocketService.connect(token);
+    if (!res) throw Exception("לא הצלחנו להתחבר לWEBSOCKET");
+
+    await settingsNotifier.fetchSettings();
+    final settings = settingsNotifier.state;
+    if (settings == null) {
+      throw Exception("הגדרות לא תקינות");
+    }
+
+    state = state.copyWith( status:AppReadyStatus.ready);
+  } catch (e) {
+    state = state.copyWith(errorMessage: e.toString(), status:AppReadyStatus.error);
+  }
+}
+
 }

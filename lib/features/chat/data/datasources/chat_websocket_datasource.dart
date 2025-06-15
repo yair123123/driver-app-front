@@ -7,7 +7,7 @@ class MessagesWebSocketDatasource {
   final WebSocketService wbSocket;
   MessagesWebSocketDatasource(this.wbSocket);
   Stream<Message> get rideEvents {
-    return wbSocket.webSocketDto
+    return wbSocket.webSocketDtoStream
         .map((event) {
           try {
             if (event.typeCode == webSocketTypecode.chat) {

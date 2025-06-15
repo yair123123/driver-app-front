@@ -23,6 +23,6 @@ final setSettings = Provider<SetSettings>((ref) {
 });
 
 final settingsProvider =
-    StateNotifierProvider<SettingsNotifier, AsyncValue<Settings?>>((ref) {
+    StateNotifierProvider<SettingsNotifier, Settings?>((ref) {
       return SettingsNotifier(ref.watch(getSettings), ref.watch(setSettings));
     });

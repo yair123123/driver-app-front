@@ -16,7 +16,7 @@ class StationState {
     );
   }
   static List<StationState> initialStations(Ref ref) {
-    final initialStations = ref.watch(userProvider).value!.driver_stations;
+    final initialStations = ref.watch(userProvider)!.driver_stations;
     return initialStations.map ((station) => StationState(rides: [], station: station)).toList();
 
   }

@@ -7,7 +7,7 @@ class RidesWebSocketDatasource {
   final WebSocketService wbSocket;
   RidesWebSocketDatasource(this.wbSocket);
   Stream<RideDto> get rideEvents {
-    return wbSocket.webSocketDto
+    return wbSocket.webSocketDtoStream
         .map((event) {
           try {
             if (event.typeCode == webSocketTypecode.ride) {
