@@ -1,5 +1,6 @@
 import 'package:driver_app/core/entities/ride.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:uuid/uuid.dart';
 
 part 'station.freezed.dart';
 part 'station.g.dart';

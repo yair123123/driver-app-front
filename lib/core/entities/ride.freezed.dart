@@ -21,8 +21,8 @@ Ride _$RideFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Ride {
-  int get id => throw _privateConstructorUsedError;
-  int get stationId => throw _privateConstructorUsedError;
+  String get id => throw _privateConstructorUsedError;
+  int get station_id => throw _privateConstructorUsedError;
   Location get origin => throw _privateConstructorUsedError;
   Location get destination => throw _privateConstructorUsedError;
   String get price => throw _privateConstructorUsedError;
@@ -45,8 +45,8 @@ abstract class $RideCopyWith<$Res> {
       _$RideCopyWithImpl<$Res, Ride>;
   @useResult
   $Res call({
-    int id,
-    int stationId,
+    String id,
+    int station_id,
     Location origin,
     Location destination,
     String price,
@@ -75,7 +75,7 @@ class _$RideCopyWithImpl<$Res, $Val extends Ride>
   @override
   $Res call({
     Object? id = null,
-    Object? stationId = null,
+    Object? station_id = null,
     Object? origin = null,
     Object? destination = null,
     Object? price = null,
@@ -89,11 +89,11 @@ class _$RideCopyWithImpl<$Res, $Val extends Ride>
                 null == id
                     ? _value.id
                     : id // ignore: cast_nullable_to_non_nullable
-                        as int,
-            stationId:
-                null == stationId
-                    ? _value.stationId
-                    : stationId // ignore: cast_nullable_to_non_nullable
+                        as String,
+            station_id:
+                null == station_id
+                    ? _value.station_id
+                    : station_id // ignore: cast_nullable_to_non_nullable
                         as int,
             origin:
                 null == origin
@@ -160,8 +160,8 @@ abstract class _$$RideImplCopyWith<$Res> implements $RideCopyWith<$Res> {
   @override
   @useResult
   $Res call({
-    int id,
-    int stationId,
+    String id,
+    int station_id,
     Location origin,
     Location destination,
     String price,
@@ -189,7 +189,7 @@ class __$$RideImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? id = null,
-    Object? stationId = null,
+    Object? station_id = null,
     Object? origin = null,
     Object? destination = null,
     Object? price = null,
@@ -203,11 +203,11 @@ class __$$RideImplCopyWithImpl<$Res>
             null == id
                 ? _value.id
                 : id // ignore: cast_nullable_to_non_nullable
-                    as int,
-        stationId:
-            null == stationId
-                ? _value.stationId
-                : stationId // ignore: cast_nullable_to_non_nullable
+                    as String,
+        station_id:
+            null == station_id
+                ? _value.station_id
+                : station_id // ignore: cast_nullable_to_non_nullable
                     as int,
         origin:
             null == origin
@@ -249,7 +249,7 @@ class __$$RideImplCopyWithImpl<$Res>
 class _$RideImpl implements _Ride {
   const _$RideImpl({
     required this.id,
-    required this.stationId,
+    required this.station_id,
     required this.origin,
     required this.destination,
     required this.price,
@@ -262,9 +262,9 @@ class _$RideImpl implements _Ride {
       _$$RideImplFromJson(json);
 
   @override
-  final int id;
+  final String id;
   @override
-  final int stationId;
+  final int station_id;
   @override
   final Location origin;
   @override
@@ -280,7 +280,7 @@ class _$RideImpl implements _Ride {
 
   @override
   String toString() {
-    return 'Ride(id: $id, stationId: $stationId, origin: $origin, destination: $destination, price: $price, passengerPhone: $passengerPhone, comments: $comments, timestamp: $timestamp)';
+    return 'Ride(id: $id, station_id: $station_id, origin: $origin, destination: $destination, price: $price, passengerPhone: $passengerPhone, comments: $comments, timestamp: $timestamp)';
   }
 
   @override
@@ -289,8 +289,8 @@ class _$RideImpl implements _Ride {
         (other.runtimeType == runtimeType &&
             other is _$RideImpl &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.stationId, stationId) ||
-                other.stationId == stationId) &&
+            (identical(other.station_id, station_id) ||
+                other.station_id == station_id) &&
             (identical(other.origin, origin) || other.origin == origin) &&
             (identical(other.destination, destination) ||
                 other.destination == destination) &&
@@ -308,7 +308,7 @@ class _$RideImpl implements _Ride {
   int get hashCode => Object.hash(
     runtimeType,
     id,
-    stationId,
+    station_id,
     origin,
     destination,
     price,
@@ -333,8 +333,8 @@ class _$RideImpl implements _Ride {
 
 abstract class _Ride implements Ride {
   const factory _Ride({
-    required final int id,
-    required final int stationId,
+    required final String id,
+    required final int station_id,
     required final Location origin,
     required final Location destination,
     required final String price,
@@ -346,9 +346,9 @@ abstract class _Ride implements Ride {
   factory _Ride.fromJson(Map<String, dynamic> json) = _$RideImpl.fromJson;
 
   @override
-  int get id;
+  String get id;
   @override
-  int get stationId;
+  int get station_id;
   @override
   Location get origin;
   @override

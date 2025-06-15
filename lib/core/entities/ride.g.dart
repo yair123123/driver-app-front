@@ -7,8 +7,8 @@ part of 'ride.dart';
 // **************************************************************************
 
 _$RideImpl _$$RideImplFromJson(Map<String, dynamic> json) => _$RideImpl(
-  id: (json['id'] as num).toInt(),
-  stationId: (json['stationId'] as num).toInt(),
+  id: json['id'] as String,
+  station_id: (json['station_id'] as num).toInt(),
   origin: Location.fromJson(json['origin'] as Map<String, dynamic>),
   destination: Location.fromJson(json['destination'] as Map<String, dynamic>),
   price: json['price'] as String,
@@ -20,7 +20,7 @@ _$RideImpl _$$RideImplFromJson(Map<String, dynamic> json) => _$RideImpl(
 Map<String, dynamic> _$$RideImplToJson(_$RideImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
-      'stationId': instance.stationId,
+      'station_id': instance.station_id,
       'origin': instance.origin,
       'destination': instance.destination,
       'price': instance.price,

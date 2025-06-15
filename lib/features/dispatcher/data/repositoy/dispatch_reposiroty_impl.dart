@@ -1,5 +1,5 @@
 import 'package:driver_app/core/entities/ride.dart';
-import 'package:driver_app/core/enums/type_codes.dart';
+import 'package:driver_app/core/enums/ride_operation_code.dart';
 import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datasource.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/cancel_ride.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';
@@ -17,7 +17,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   @override
   void cancelRide(CancelRide cancel) {
     RideDto rideDto = RideDto(
-      typeCode: RideTypeCode.cancelRide,
+      operation_code: RideOperationCode.cancel,
       content: cancel,
       error: "",
     );
@@ -27,7 +27,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   @override
   void dispatchNewRide(Ride ride) {
     RideDto rideDto = RideDto(
-      typeCode: RideTypeCode.newRide,
+      operation_code: RideOperationCode.dispatch,
       content: ride,
       error: "",
     );
@@ -37,7 +37,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   @override
   void updateRide(Ride ride) {
     RideDto rideDto = RideDto(
-      typeCode: RideTypeCode.updateRide,
+      operation_code: RideOperationCode.update,
       content: ride,
       error: "",
     );

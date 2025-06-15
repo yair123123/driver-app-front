@@ -56,6 +56,7 @@ final routerProvider = Provider<GoRouter>((ref) {
       return null;
     },
     navigatorKey: _rootNavigatorState,
+  
     initialLocation: "/",
     routes: [
       GoRoute(path: "/", builder: (context, state) => const SplashScreen()),

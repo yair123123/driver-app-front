@@ -2,6 +2,7 @@
 //
 //     final webSocketDto = webSocketDtoFromJson(jsonString);
 
+import 'package:driver_app/core/enums/websocket_typecode.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'dart:convert';
 
@@ -13,13 +14,13 @@ WebSocketDto webSocketDtoFromJson(String str) => WebSocketDto.fromJson(json.deco
 String webSocketDtoToJson(WebSocketDto data) => json.encode(data.toJson());
 
 
-///A DTO for webSocker
 @freezed
 class WebSocketDto with _$WebSocketDto {
     const factory WebSocketDto({
         required dynamic content,
-        String? error,
-        required int typeCode,
+        required String error,
+        @JsonKey(fromJson: webSocketTypeCodeFromInt, toJson: webSocketTypeCodeToInt)
+        required WebSocketTypeCode type_code ,
     }) = _WebSocketDto;
 
     factory WebSocketDto.fromJson(Map<String, dynamic> json) => _$WebSocketDtoFromJson(json);

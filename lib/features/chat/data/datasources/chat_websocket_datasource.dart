@@ -1,4 +1,4 @@
-import 'package:driver_app/core/enums/type_codes.dart';
+import 'package:driver_app/core/enums/websocket_typecode.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/chat/domain/entites/message.dart';
@@ -10,7 +10,7 @@ class MessagesWebSocketDatasource {
     return wbSocket.webSocketDtoStream
         .map((event) {
           try {
-            if (event.typeCode == webSocketTypecode.chat) {
+            if (event.type_code == WebSocketTypeCode.chat) {
               return event.content;
             }
           } catch (_) {}
@@ -21,6 +21,8 @@ class MessagesWebSocketDatasource {
   }
 
   void sendMessage(Message message) {
-    wbSocket.send(WebSocketDto(content: message, typeCode: 30));
+    wbSocket.send(
+      WebSocketDto(content: message, type_code: WebSocketTypeCode.chat,error: ""),
+    );
   }
 }

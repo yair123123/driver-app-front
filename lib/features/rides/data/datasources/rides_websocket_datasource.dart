@@ -1,4 +1,4 @@
-import 'package:driver_app/core/enums/type_codes.dart';
+import 'package:driver_app/core/enums/websocket_typecode.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
@@ -10,7 +10,7 @@ class RidesWebSocketDatasource {
     return wbSocket.webSocketDtoStream
         .map((event) {
           try {
-            if (event.typeCode == webSocketTypecode.ride) {
+            if (event.type_code == WebSocketTypeCode.rides) {
               return event;
             }
           } catch (e) {
@@ -23,6 +23,6 @@ class RidesWebSocketDatasource {
   }
 
   void sendRideAction(RideDto ride) {
-    wbSocket.send(WebSocketDto(content: ride, typeCode: webSocketTypecodeToInt(webSocketTypecode.ride), error: ""));
+    wbSocket.send(WebSocketDto(content: ride, type_code: WebSocketTypeCode.rides, error: ""));
   }
 }
