@@ -14,7 +14,7 @@ class RideRepositoryImpl implements RideRepository {
 
   @override
   Future<void> takeRide(Map<String, String> takeRide) async {
-    RideDto rideDto = RideDto(operation_code: RideOperationCode.reserve, content: takeRide, error: "");
+    RideDto rideDto = RideDto(operationCode: RideOperationCode.reserve, content: takeRide, error: "");
     datasource.sendRideAction(rideDto);
   }
 

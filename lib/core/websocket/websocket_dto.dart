@@ -19,8 +19,8 @@ class WebSocketDto with _$WebSocketDto {
     const factory WebSocketDto({
         required dynamic content,
         required String error,
-        @JsonKey(fromJson: webSocketTypeCodeFromInt, toJson: webSocketTypeCodeToInt)
-        required WebSocketTypeCode type_code ,
+        @JsonKey(name: 'type_code',fromJson: webSocketTypeCodeFromInt, toJson: webSocketTypeCodeToInt)
+        required WebSocketTypeCode typeCode ,
     }) = _WebSocketDto;
 
     factory WebSocketDto.fromJson(Map<String, dynamic> json) => _$WebSocketDtoFromJson(json);

@@ -6,7 +6,8 @@ part 'auth_user.g.dart';
 @freezed
 class AuthUser with _$AuthUser {
   const factory AuthUser({
-    required String login_key,
+    @JsonKey(name: 'login_key')
+    required String loginKey,
     required String username,
     required String jwt_token,
   }) = _AuthUser;

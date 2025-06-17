@@ -22,10 +22,13 @@ Ride _$RideFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Ride {
   String get id => throw _privateConstructorUsedError;
-  int get station_id => throw _privateConstructorUsedError;
+  @JsonKey(name: 'station_id')
+  int get stationId => throw _privateConstructorUsedError;
   Location get origin => throw _privateConstructorUsedError;
   Location get destination => throw _privateConstructorUsedError;
+  @JsonKey(fromJson: _intToString)
   String get price => throw _privateConstructorUsedError;
+  @JsonKey(name: "passenger_phone")
   String get passengerPhone => throw _privateConstructorUsedError;
   String get comments => throw _privateConstructorUsedError;
   DateTime get timestamp => throw _privateConstructorUsedError;
@@ -46,11 +49,11 @@ abstract class $RideCopyWith<$Res> {
   @useResult
   $Res call({
     String id,
-    int station_id,
+    @JsonKey(name: 'station_id') int stationId,
     Location origin,
     Location destination,
-    String price,
-    String passengerPhone,
+    @JsonKey(fromJson: _intToString) String price,
+    @JsonKey(name: "passenger_phone") String passengerPhone,
     String comments,
     DateTime timestamp,
   });
@@ -75,7 +78,7 @@ class _$RideCopyWithImpl<$Res, $Val extends Ride>
   @override
   $Res call({
     Object? id = null,
-    Object? station_id = null,
+    Object? stationId = null,
     Object? origin = null,
     Object? destination = null,
     Object? price = null,
@@ -90,10 +93,10 @@ class _$RideCopyWithImpl<$Res, $Val extends Ride>
                     ? _value.id
                     : id // ignore: cast_nullable_to_non_nullable
                         as String,
-            station_id:
-                null == station_id
-                    ? _value.station_id
-                    : station_id // ignore: cast_nullable_to_non_nullable
+            stationId:
+                null == stationId
+                    ? _value.stationId
+                    : stationId // ignore: cast_nullable_to_non_nullable
                         as int,
             origin:
                 null == origin
@@ -161,11 +164,11 @@ abstract class _$$RideImplCopyWith<$Res> implements $RideCopyWith<$Res> {
   @useResult
   $Res call({
     String id,
-    int station_id,
+    @JsonKey(name: 'station_id') int stationId,
     Location origin,
     Location destination,
-    String price,
-    String passengerPhone,
+    @JsonKey(fromJson: _intToString) String price,
+    @JsonKey(name: "passenger_phone") String passengerPhone,
     String comments,
     DateTime timestamp,
   });
@@ -189,7 +192,7 @@ class __$$RideImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? id = null,
-    Object? station_id = null,
+    Object? stationId = null,
     Object? origin = null,
     Object? destination = null,
     Object? price = null,
@@ -204,10 +207,10 @@ class __$$RideImplCopyWithImpl<$Res>
                 ? _value.id
                 : id // ignore: cast_nullable_to_non_nullable
                     as String,
-        station_id:
-            null == station_id
-                ? _value.station_id
-                : station_id // ignore: cast_nullable_to_non_nullable
+        stationId:
+            null == stationId
+                ? _value.stationId
+                : stationId // ignore: cast_nullable_to_non_nullable
                     as int,
         origin:
             null == origin
@@ -249,11 +252,11 @@ class __$$RideImplCopyWithImpl<$Res>
 class _$RideImpl implements _Ride {
   const _$RideImpl({
     required this.id,
-    required this.station_id,
+    @JsonKey(name: 'station_id') required this.stationId,
     required this.origin,
     required this.destination,
-    required this.price,
-    required this.passengerPhone,
+    @JsonKey(fromJson: _intToString) required this.price,
+    @JsonKey(name: "passenger_phone") required this.passengerPhone,
     required this.comments,
     required this.timestamp,
   });
@@ -264,14 +267,17 @@ class _$RideImpl implements _Ride {
   @override
   final String id;
   @override
-  final int station_id;
+  @JsonKey(name: 'station_id')
+  final int stationId;
   @override
   final Location origin;
   @override
   final Location destination;
   @override
+  @JsonKey(fromJson: _intToString)
   final String price;
   @override
+  @JsonKey(name: "passenger_phone")
   final String passengerPhone;
   @override
   final String comments;
@@ -280,7 +286,7 @@ class _$RideImpl implements _Ride {
 
   @override
   String toString() {
-    return 'Ride(id: $id, station_id: $station_id, origin: $origin, destination: $destination, price: $price, passengerPhone: $passengerPhone, comments: $comments, timestamp: $timestamp)';
+    return 'Ride(id: $id, stationId: $stationId, origin: $origin, destination: $destination, price: $price, passengerPhone: $passengerPhone, comments: $comments, timestamp: $timestamp)';
   }
 
   @override
@@ -289,8 +295,8 @@ class _$RideImpl implements _Ride {
         (other.runtimeType == runtimeType &&
             other is _$RideImpl &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.station_id, station_id) ||
-                other.station_id == station_id) &&
+            (identical(other.stationId, stationId) ||
+                other.stationId == stationId) &&
             (identical(other.origin, origin) || other.origin == origin) &&
             (identical(other.destination, destination) ||
                 other.destination == destination) &&
@@ -308,7 +314,7 @@ class _$RideImpl implements _Ride {
   int get hashCode => Object.hash(
     runtimeType,
     id,
-    station_id,
+    stationId,
     origin,
     destination,
     price,
@@ -334,11 +340,11 @@ class _$RideImpl implements _Ride {
 abstract class _Ride implements Ride {
   const factory _Ride({
     required final String id,
-    required final int station_id,
+    @JsonKey(name: 'station_id') required final int stationId,
     required final Location origin,
     required final Location destination,
-    required final String price,
-    required final String passengerPhone,
+    @JsonKey(fromJson: _intToString) required final String price,
+    @JsonKey(name: "passenger_phone") required final String passengerPhone,
     required final String comments,
     required final DateTime timestamp,
   }) = _$RideImpl;
@@ -348,14 +354,17 @@ abstract class _Ride implements Ride {
   @override
   String get id;
   @override
-  int get station_id;
+  @JsonKey(name: 'station_id')
+  int get stationId;
   @override
   Location get origin;
   @override
   Location get destination;
   @override
+  @JsonKey(fromJson: _intToString)
   String get price;
   @override
+  @JsonKey(name: "passenger_phone")
   String get passengerPhone;
   @override
   String get comments;
@@ -377,7 +386,7 @@ Location _$LocationFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Location {
   String get city => throw _privateConstructorUsedError;
-  String? get neighborhood => throw _privateConstructorUsedError;
+  String get neighborhood => throw _privateConstructorUsedError;
   String? get street => throw _privateConstructorUsedError;
 
   /// Serializes this Location to a JSON map.
@@ -395,7 +404,7 @@ abstract class $LocationCopyWith<$Res> {
   factory $LocationCopyWith(Location value, $Res Function(Location) then) =
       _$LocationCopyWithImpl<$Res, Location>;
   @useResult
-  $Res call({String city, String? neighborhood, String? street});
+  $Res call({String city, String neighborhood, String? street});
 }
 
 /// @nodoc
@@ -414,7 +423,7 @@ class _$LocationCopyWithImpl<$Res, $Val extends Location>
   @override
   $Res call({
     Object? city = null,
-    Object? neighborhood = freezed,
+    Object? neighborhood = null,
     Object? street = freezed,
   }) {
     return _then(
@@ -425,10 +434,10 @@ class _$LocationCopyWithImpl<$Res, $Val extends Location>
                     : city // ignore: cast_nullable_to_non_nullable
                         as String,
             neighborhood:
-                freezed == neighborhood
+                null == neighborhood
                     ? _value.neighborhood
                     : neighborhood // ignore: cast_nullable_to_non_nullable
-                        as String?,
+                        as String,
             street:
                 freezed == street
                     ? _value.street
@@ -449,7 +458,7 @@ abstract class _$$LocationImplCopyWith<$Res>
   ) = __$$LocationImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String city, String? neighborhood, String? street});
+  $Res call({String city, String neighborhood, String? street});
 }
 
 /// @nodoc
@@ -467,7 +476,7 @@ class __$$LocationImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? city = null,
-    Object? neighborhood = freezed,
+    Object? neighborhood = null,
     Object? street = freezed,
   }) {
     return _then(
@@ -478,10 +487,10 @@ class __$$LocationImplCopyWithImpl<$Res>
                 : city // ignore: cast_nullable_to_non_nullable
                     as String,
         neighborhood:
-            freezed == neighborhood
+            null == neighborhood
                 ? _value.neighborhood
                 : neighborhood // ignore: cast_nullable_to_non_nullable
-                    as String?,
+                    as String,
         street:
             freezed == street
                 ? _value.street
@@ -495,7 +504,11 @@ class __$$LocationImplCopyWithImpl<$Res>
 /// @nodoc
 @JsonSerializable()
 class _$LocationImpl implements _Location {
-  const _$LocationImpl({required this.city, this.neighborhood, this.street});
+  const _$LocationImpl({
+    required this.city,
+    required this.neighborhood,
+    required this.street,
+  });
 
   factory _$LocationImpl.fromJson(Map<String, dynamic> json) =>
       _$$LocationImplFromJson(json);
@@ -503,7 +516,7 @@ class _$LocationImpl implements _Location {
   @override
   final String city;
   @override
-  final String? neighborhood;
+  final String neighborhood;
   @override
   final String? street;
 
@@ -544,8 +557,8 @@ class _$LocationImpl implements _Location {
 abstract class _Location implements Location {
   const factory _Location({
     required final String city,
-    final String? neighborhood,
-    final String? street,
+    required final String neighborhood,
+    required final String? street,
   }) = _$LocationImpl;
 
   factory _Location.fromJson(Map<String, dynamic> json) =
@@ -554,7 +567,7 @@ abstract class _Location implements Location {
   @override
   String get city;
   @override
-  String? get neighborhood;
+  String get neighborhood;
   @override
   String? get street;
 

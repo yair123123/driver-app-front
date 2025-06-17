@@ -21,8 +21,12 @@ RideDto _$RideDtoFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$RideDto {
-  @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-  RideOperationCode get operation_code => throw _privateConstructorUsedError;
+  @JsonKey(
+    name: 'operation_code',
+    fromJson: rideOperationCodeFromInt,
+    toJson: rideOperationCodeToInt,
+  )
+  RideOperationCode get operationCode => throw _privateConstructorUsedError;
   dynamic get content => throw _privateConstructorUsedError;
   String get error => throw _privateConstructorUsedError;
 
@@ -41,8 +45,12 @@ abstract class $RideDtoCopyWith<$Res> {
       _$RideDtoCopyWithImpl<$Res, RideDto>;
   @useResult
   $Res call({
-    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-    RideOperationCode operation_code,
+    @JsonKey(
+      name: 'operation_code',
+      fromJson: rideOperationCodeFromInt,
+      toJson: rideOperationCodeToInt,
+    )
+    RideOperationCode operationCode,
     dynamic content,
     String error,
   });
@@ -63,16 +71,16 @@ class _$RideDtoCopyWithImpl<$Res, $Val extends RideDto>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? operation_code = null,
+    Object? operationCode = null,
     Object? content = freezed,
     Object? error = null,
   }) {
     return _then(
       _value.copyWith(
-            operation_code:
-                null == operation_code
-                    ? _value.operation_code
-                    : operation_code // ignore: cast_nullable_to_non_nullable
+            operationCode:
+                null == operationCode
+                    ? _value.operationCode
+                    : operationCode // ignore: cast_nullable_to_non_nullable
                         as RideOperationCode,
             content:
                 freezed == content
@@ -99,8 +107,12 @@ abstract class _$$RideDtoImplCopyWith<$Res> implements $RideDtoCopyWith<$Res> {
   @override
   @useResult
   $Res call({
-    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-    RideOperationCode operation_code,
+    @JsonKey(
+      name: 'operation_code',
+      fromJson: rideOperationCodeFromInt,
+      toJson: rideOperationCodeToInt,
+    )
+    RideOperationCode operationCode,
     dynamic content,
     String error,
   });
@@ -120,16 +132,16 @@ class __$$RideDtoImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? operation_code = null,
+    Object? operationCode = null,
     Object? content = freezed,
     Object? error = null,
   }) {
     return _then(
       _$RideDtoImpl(
-        operation_code:
-            null == operation_code
-                ? _value.operation_code
-                : operation_code // ignore: cast_nullable_to_non_nullable
+        operationCode:
+            null == operationCode
+                ? _value.operationCode
+                : operationCode // ignore: cast_nullable_to_non_nullable
                     as RideOperationCode,
         content:
             freezed == content
@@ -150,8 +162,12 @@ class __$$RideDtoImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$RideDtoImpl implements _RideDto {
   const _$RideDtoImpl({
-    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-    required this.operation_code,
+    @JsonKey(
+      name: 'operation_code',
+      fromJson: rideOperationCodeFromInt,
+      toJson: rideOperationCodeToInt,
+    )
+    required this.operationCode,
     required this.content,
     required this.error,
   });
@@ -160,8 +176,12 @@ class _$RideDtoImpl implements _RideDto {
       _$$RideDtoImplFromJson(json);
 
   @override
-  @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-  final RideOperationCode operation_code;
+  @JsonKey(
+    name: 'operation_code',
+    fromJson: rideOperationCodeFromInt,
+    toJson: rideOperationCodeToInt,
+  )
+  final RideOperationCode operationCode;
   @override
   final dynamic content;
   @override
@@ -169,7 +189,7 @@ class _$RideDtoImpl implements _RideDto {
 
   @override
   String toString() {
-    return 'RideDto(operation_code: $operation_code, content: $content, error: $error)';
+    return 'RideDto(operationCode: $operationCode, content: $content, error: $error)';
   }
 
   @override
@@ -177,8 +197,8 @@ class _$RideDtoImpl implements _RideDto {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$RideDtoImpl &&
-            (identical(other.operation_code, operation_code) ||
-                other.operation_code == operation_code) &&
+            (identical(other.operationCode, operationCode) ||
+                other.operationCode == operationCode) &&
             const DeepCollectionEquality().equals(other.content, content) &&
             (identical(other.error, error) || other.error == error));
   }
@@ -187,7 +207,7 @@ class _$RideDtoImpl implements _RideDto {
   @override
   int get hashCode => Object.hash(
     runtimeType,
-    operation_code,
+    operationCode,
     const DeepCollectionEquality().hash(content),
     error,
   );
@@ -208,8 +228,12 @@ class _$RideDtoImpl implements _RideDto {
 
 abstract class _RideDto implements RideDto {
   const factory _RideDto({
-    @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-    required final RideOperationCode operation_code,
+    @JsonKey(
+      name: 'operation_code',
+      fromJson: rideOperationCodeFromInt,
+      toJson: rideOperationCodeToInt,
+    )
+    required final RideOperationCode operationCode,
     required final dynamic content,
     required final String error,
   }) = _$RideDtoImpl;
@@ -217,8 +241,12 @@ abstract class _RideDto implements RideDto {
   factory _RideDto.fromJson(Map<String, dynamic> json) = _$RideDtoImpl.fromJson;
 
   @override
-  @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-  RideOperationCode get operation_code;
+  @JsonKey(
+    name: 'operation_code',
+    fromJson: rideOperationCodeFromInt,
+    toJson: rideOperationCodeToInt,
+  )
+  RideOperationCode get operationCode;
   @override
   dynamic get content;
   @override

@@ -8,7 +8,7 @@ part of 'ride_dto.dart';
 
 _$RideDtoImpl _$$RideDtoImplFromJson(Map<String, dynamic> json) =>
     _$RideDtoImpl(
-      operation_code: rideOperationCodeFromInt(
+      operationCode: rideOperationCodeFromInt(
         (json['operation_code'] as num).toInt(),
       ),
       content: json['content'],
@@ -17,7 +17,7 @@ _$RideDtoImpl _$$RideDtoImplFromJson(Map<String, dynamic> json) =>
 
 Map<String, dynamic> _$$RideDtoImplToJson(_$RideDtoImpl instance) =>
     <String, dynamic>{
-      'operation_code': rideOperationCodeToInt(instance.operation_code),
+      'operation_code': rideOperationCodeToInt(instance.operationCode),
       'content': instance.content,
       'error': instance.error,
     };

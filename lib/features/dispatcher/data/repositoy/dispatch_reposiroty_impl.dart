@@ -17,7 +17,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   @override
   void cancelRide(CancelRide cancel) {
     RideDto rideDto = RideDto(
-      operation_code: RideOperationCode.cancel,
+      operationCode: RideOperationCode.cancel,
       content: cancel,
       error: "",
     );
@@ -27,7 +27,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   @override
   void dispatchNewRide(Ride ride) {
     RideDto rideDto = RideDto(
-      operation_code: RideOperationCode.dispatch,
+      operationCode: RideOperationCode.dispatch,
       content: ride,
       error: "",
     );
@@ -37,7 +37,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   @override
   void updateRide(Ride ride) {
     RideDto rideDto = RideDto(
-      operation_code: RideOperationCode.update,
+      operationCode: RideOperationCode.update,
       content: ride,
       error: "",
     );

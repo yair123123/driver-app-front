@@ -1,6 +1,5 @@
 import 'package:driver_app/core/entities/ride.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:uuid/uuid.dart';
 
 part 'station.freezed.dart';
 part 'station.g.dart';
@@ -10,6 +9,7 @@ class Station with _$Station {
   const factory Station({
     required int station_id,
     required String station_name,
+    @Default("") String driver_status_name,
     @Default([]) List<Ride> rides,
   }) = _Station;
 

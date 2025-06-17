@@ -10,8 +10,8 @@ class RidesWebSocketDatasource {
     return wbSocket.webSocketDtoStream
         .map((event) {
           try {
-            if (event.type_code == WebSocketTypeCode.rides) {
-              return event;
+            if (event.typeCode == WebSocketTypeCode.rides) {
+              return RideDto.fromJson(event.content);
             }
           } catch (e) {
             print(e);
@@ -23,6 +23,6 @@ class RidesWebSocketDatasource {
   }
 
   void sendRideAction(RideDto ride) {
-    wbSocket.send(WebSocketDto(content: ride, type_code: WebSocketTypeCode.rides, error: ""));
+    wbSocket.send(WebSocketDto(content: ride, typeCode: WebSocketTypeCode.rides, error: ""));
   }
 }

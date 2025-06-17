@@ -10,7 +10,7 @@ class MessagesWebSocketDatasource {
     return wbSocket.webSocketDtoStream
         .map((event) {
           try {
-            if (event.type_code == WebSocketTypeCode.chat) {
+            if (event.typeCode == WebSocketTypeCode.chat) {
               return event.content;
             }
           } catch (_) {}
@@ -22,7 +22,7 @@ class MessagesWebSocketDatasource {
 
   void sendMessage(Message message) {
     wbSocket.send(
-      WebSocketDto(content: message, type_code: WebSocketTypeCode.chat,error: ""),
+      WebSocketDto(content: message, typeCode: WebSocketTypeCode.chat,error: ""),
     );
   }
 }

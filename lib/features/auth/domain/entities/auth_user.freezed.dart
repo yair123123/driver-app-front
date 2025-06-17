@@ -21,7 +21,8 @@ AuthUser _$AuthUserFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$AuthUser {
-  String get login_key => throw _privateConstructorUsedError;
+  @JsonKey(name: 'login_key')
+  String get loginKey => throw _privateConstructorUsedError;
   String get username => throw _privateConstructorUsedError;
   String get jwt_token => throw _privateConstructorUsedError;
 
@@ -40,7 +41,11 @@ abstract class $AuthUserCopyWith<$Res> {
   factory $AuthUserCopyWith(AuthUser value, $Res Function(AuthUser) then) =
       _$AuthUserCopyWithImpl<$Res, AuthUser>;
   @useResult
-  $Res call({String login_key, String username, String jwt_token});
+  $Res call({
+    @JsonKey(name: 'login_key') String loginKey,
+    String username,
+    String jwt_token,
+  });
 }
 
 /// @nodoc
@@ -58,16 +63,16 @@ class _$AuthUserCopyWithImpl<$Res, $Val extends AuthUser>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? login_key = null,
+    Object? loginKey = null,
     Object? username = null,
     Object? jwt_token = null,
   }) {
     return _then(
       _value.copyWith(
-            login_key:
-                null == login_key
-                    ? _value.login_key
-                    : login_key // ignore: cast_nullable_to_non_nullable
+            loginKey:
+                null == loginKey
+                    ? _value.loginKey
+                    : loginKey // ignore: cast_nullable_to_non_nullable
                         as String,
             username:
                 null == username
@@ -94,7 +99,11 @@ abstract class _$$AuthUserImplCopyWith<$Res>
   ) = __$$AuthUserImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String login_key, String username, String jwt_token});
+  $Res call({
+    @JsonKey(name: 'login_key') String loginKey,
+    String username,
+    String jwt_token,
+  });
 }
 
 /// @nodoc
@@ -111,16 +120,16 @@ class __$$AuthUserImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? login_key = null,
+    Object? loginKey = null,
     Object? username = null,
     Object? jwt_token = null,
   }) {
     return _then(
       _$AuthUserImpl(
-        login_key:
-            null == login_key
-                ? _value.login_key
-                : login_key // ignore: cast_nullable_to_non_nullable
+        loginKey:
+            null == loginKey
+                ? _value.loginKey
+                : loginKey // ignore: cast_nullable_to_non_nullable
                     as String,
         username:
             null == username
@@ -141,7 +150,7 @@ class __$$AuthUserImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$AuthUserImpl implements _AuthUser {
   const _$AuthUserImpl({
-    required this.login_key,
+    @JsonKey(name: 'login_key') required this.loginKey,
     required this.username,
     required this.jwt_token,
   });
@@ -150,7 +159,8 @@ class _$AuthUserImpl implements _AuthUser {
       _$$AuthUserImplFromJson(json);
 
   @override
-  final String login_key;
+  @JsonKey(name: 'login_key')
+  final String loginKey;
   @override
   final String username;
   @override
@@ -158,7 +168,7 @@ class _$AuthUserImpl implements _AuthUser {
 
   @override
   String toString() {
-    return 'AuthUser(login_key: $login_key, username: $username, jwt_token: $jwt_token)';
+    return 'AuthUser(loginKey: $loginKey, username: $username, jwt_token: $jwt_token)';
   }
 
   @override
@@ -166,8 +176,8 @@ class _$AuthUserImpl implements _AuthUser {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$AuthUserImpl &&
-            (identical(other.login_key, login_key) ||
-                other.login_key == login_key) &&
+            (identical(other.loginKey, loginKey) ||
+                other.loginKey == loginKey) &&
             (identical(other.username, username) ||
                 other.username == username) &&
             (identical(other.jwt_token, jwt_token) ||
@@ -176,7 +186,7 @@ class _$AuthUserImpl implements _AuthUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, login_key, username, jwt_token);
+  int get hashCode => Object.hash(runtimeType, loginKey, username, jwt_token);
 
   /// Create a copy of AuthUser
   /// with the given fields replaced by the non-null parameter values.
@@ -194,7 +204,7 @@ class _$AuthUserImpl implements _AuthUser {
 
 abstract class _AuthUser implements AuthUser {
   const factory _AuthUser({
-    required final String login_key,
+    @JsonKey(name: 'login_key') required final String loginKey,
     required final String username,
     required final String jwt_token,
   }) = _$AuthUserImpl;
@@ -203,7 +213,8 @@ abstract class _AuthUser implements AuthUser {
       _$AuthUserImpl.fromJson;
 
   @override
-  String get login_key;
+  @JsonKey(name: 'login_key')
+  String get loginKey;
   @override
   String get username;
   @override

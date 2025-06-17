@@ -7,7 +7,12 @@ class SplashScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return const Scaffold(
-      body: Center(child: CircularProgressIndicator(color: Color(0))),
+      body: Center(
+        child: CircularProgressIndicator(
+          // 255 = אטום לגמרי
+          color: Color.fromARGB(255, 184, 12, 12),
+        ),
+      ),
     );
   }
 }

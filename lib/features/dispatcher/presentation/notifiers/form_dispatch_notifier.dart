@@ -40,7 +40,7 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
         );
         return;
       }
-      final ride = Ride.initialRideFromLines(lines); 
+      final ride = Ride.initialRideFromLines(lines,state.station!.station_id); 
       dispatchNewRideUsecase(ride);
       state = state.copyWith(isSending: true, isLoading: false);
     } catch (e) {

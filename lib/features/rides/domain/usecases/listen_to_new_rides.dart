@@ -8,18 +8,19 @@ import 'package:driver_app/features/rides/domain/repositories/ride_websocket_rep
 class ListenToNewEvents {
   final RideRepository rideRepository;
 
-  ListenToNewEvents( this.rideRepository);
-Stream<RideEvent?> call() {
-  return rideRepository.listenToNewEventsRides()
-    .map((dto) {
-      if (dto.operation_code == RideOperationCode.advertiseToDrivers) {
-        return NewRideEvent(Ride.fromJson(dto.content));
-      } else if (dto.operation_code == RideOperationCode.advertiseTaken) {
-        return CancelRideEvent(dto.content['ride-id']);
-      } else {
-        return null;
-      }
-    }).where((event) => event != null);
-}
-
+  ListenToNewEvents(this.rideRepository);
+  Stream<RideEvent?> call() {
+    return rideRepository
+        .listenToNewEventsRides()
+        .map((dto) {
+          if (dto.operationCode == RideOperationCode.advertiseToDrivers) {
+            return NewRideEvent(Ride.fromJson(dto.content));
+          } else if (dto.operationCode == RideOperationCode.advertiseTaken) {
+            return CancelRideEvent(dto.content['ride-id']);
+          } else {
+            return null;
+          }
+        })
+        .where((event) => event != null);
+  }
 }

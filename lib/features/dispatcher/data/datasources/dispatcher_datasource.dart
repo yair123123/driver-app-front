@@ -23,6 +23,6 @@ class DispatcherDatasource {
   }
 
   void sendRideAction(RideDto ride) {
-    webSocketService.send(WebSocketDto(content: ride, type_code: WebSocketTypeCode.rides,error: ""));
+    webSocketService.send(WebSocketDto(content: ride, typeCode: WebSocketTypeCode.rides,error: ""));
   }
 }

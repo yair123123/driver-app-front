@@ -12,8 +12,8 @@ String rideDtoToJson(RideDto data) => json.encode(data.toJson());
 @freezed
 class RideDto with _$RideDto {
     const factory RideDto({
-        @JsonKey(fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
-        required RideOperationCode operation_code,
+        @JsonKey(name: 'operation_code',fromJson: rideOperationCodeFromInt, toJson: rideOperationCodeToInt)
+        required RideOperationCode operationCode,
         required dynamic content,
         required String error,
     }) = _RideDto;

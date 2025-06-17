@@ -37,22 +37,27 @@ final routerProvider = Provider<GoRouter>((ref) {
       final init = ref.watch(appInitialProvider);
 
       if (auth.authStatus == AuthStatus.unauthenticated) {
+            print('redirect to /login');
         return '/login';
       }
       if (auth.authStatus == AuthStatus.authenticated &&
           init.status == AppReadyStatus.loading) {
+            print('redirect to /splash');
         return '/';
       }
       if (auth.authStatus == AuthStatus.authenticated &&
           init.status == AppReadyStatus.error) {
+            print('redirect to /error');
         return '/error';
       }
       if (auth.authStatus == AuthStatus.authenticated &&
           init.status == AppReadyStatus.ready &&
           (state.matchedLocation == '/login' ||
               state.matchedLocation == '/')) {
+            print('redirect to /rides/list');
         return '/rides/list';
       }
+            print("no redirect stay ${state.matchedLocation} ");
       return null;
     },
     navigatorKey: _rootNavigatorState,

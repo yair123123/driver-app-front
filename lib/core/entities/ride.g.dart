@@ -8,11 +8,11 @@ part of 'ride.dart';
 
 _$RideImpl _$$RideImplFromJson(Map<String, dynamic> json) => _$RideImpl(
   id: json['id'] as String,
-  station_id: (json['station_id'] as num).toInt(),
+  stationId: (json['station_id'] as num).toInt(),
   origin: Location.fromJson(json['origin'] as Map<String, dynamic>),
   destination: Location.fromJson(json['destination'] as Map<String, dynamic>),
-  price: json['price'] as String,
-  passengerPhone: json['passengerPhone'] as String,
+  price: _intToString(json['price']),
+  passengerPhone: json['passenger_phone'] as String,
   comments: json['comments'] as String,
   timestamp: DateTime.parse(json['timestamp'] as String),
 );
@@ -20,11 +20,11 @@ _$RideImpl _$$RideImplFromJson(Map<String, dynamic> json) => _$RideImpl(
 Map<String, dynamic> _$$RideImplToJson(_$RideImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
-      'station_id': instance.station_id,
+      'station_id': instance.stationId,
       'origin': instance.origin,
       'destination': instance.destination,
       'price': instance.price,
-      'passengerPhone': instance.passengerPhone,
+      'passenger_phone': instance.passengerPhone,
       'comments': instance.comments,
       'timestamp': instance.timestamp.toIso8601String(),
     };
@@ -32,7 +32,7 @@ Map<String, dynamic> _$$RideImplToJson(_$RideImpl instance) =>
 _$LocationImpl _$$LocationImplFromJson(Map<String, dynamic> json) =>
     _$LocationImpl(
       city: json['city'] as String,
-      neighborhood: json['neighborhood'] as String?,
+      neighborhood: json['neighborhood'] as String,
       street: json['street'] as String?,
     );
 
