@@ -1,10 +1,10 @@
 import 'package:driver_app/core/entities/ride.dart';
-import 'package:driver_app/core/enums/type_codes.dart';
+import 'package:driver_app/core/enums/ride_operation_code.dart';
 import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datasource.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/cancel_ride.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
-import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 
 class DispatchRepositoryImpl implements DispatchRepository {
   final DispatcherDatasource datasource;
@@ -16,8 +16,8 @@ class DispatchRepositoryImpl implements DispatchRepository {
   }
   @override
   void cancelRide(CancelRide cancel) {
-    RideDto rideDto = RideDto(
-      typeCode: rideTypeCodeToInt(RideTypeCode.cancelRide),
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.cancel,
       content: cancel,
       error: "",
     );
@@ -26,8 +26,8 @@ class DispatchRepositoryImpl implements DispatchRepository {
 
   @override
   void dispatchNewRide(Ride ride) {
-    RideDto rideDto = RideDto(
-      typeCode: rideTypeCodeToInt(RideTypeCode.newRide),
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.dispatch,
       content: ride,
       error: "",
     );
@@ -36,11 +36,17 @@ class DispatchRepositoryImpl implements DispatchRepository {
 
   @override
   void updateRide(Ride ride) {
-    RideDto rideDto = RideDto(
-      typeCode: rideTypeCodeToInt(RideTypeCode.updateRide),
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.update,
       content: ride,
       error: "",
     );
     datasource.sendRideAction(rideDto);
+  }
+  @override
+  Stream<Map<String,String>> getAckDispatch(){
+    return datasource.getRidesEvents()
+        .where((event) => event.operationCode == RideOperationCode.confirmDispatch)
+        .map((event) => Map<String,String>.from(event.content));
   }
 }

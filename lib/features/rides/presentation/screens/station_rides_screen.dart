@@ -1,53 +1,77 @@
-
-import 'package:driver_app/features/rides/presentation/providers/actions_provider.dart';
+import 'package:collection/collection.dart';          // firstWhereOrNull
+import 'package:driver_app/core/entities/ride.dart';
+import 'package:driver_app/features/main/presentation/providers/app_provider.dart';
 import 'package:driver_app/features/rides/presentation/providers/rides_list_provider.dart';
+import 'package:driver_app/features/rides/presentation/states/ride_state.dart';
+import 'package:driver_app/features/rides/presentation/widgets/access_give_dialog.dart';
+import 'package:driver_app/features/rides/presentation/widgets/ride_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class GroupChatScreen extends ConsumerWidget {
-  final int groupId;
-
-  const GroupChatScreen({super.key, required this.groupId});
+class StationRidesScreen extends ConsumerWidget {
+  final int stationId;
+  const StationRidesScreen({super.key, required this.stationId});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final group = ref.watch(groupsProvider).firstWhere((g) => g.station_id == groupId);
+    final isRideActive = ref.watch(appInitialProvider).isRideActive;
+    final station = ref.watch(
+      rideNotifierProvider.select(
+        (s) => s.stations.firstWhereOrNull(
+          (st) => st.station_id == stationId,
+        ),
+      ),
+    );
+
+    ref.listen<RideState>(
+      rideNotifierProvider,
+      (previous, next) {
+        if (next.errorMessage != null &&
+            previous?.errorMessage != next.errorMessage) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text(next.errorMessage!)),
+          );
+        }
+
+        if (previous?.selectedRide == null && next.selectedRide != null) {
+          showDialog(
+            context: context,
+            builder: (_) =>
+                AccessGiveDialog(phone: next.selectedRide!.passengerPhone),
+          );
+        }
+      },
+    );
+
+    
+
+    if (station == null) {
+      return const Scaffold(
+        body: Center(child: Text('התחנה אינה קיימת')),
+      );
+    }
+
     return Scaffold(
-      appBar: AppBar(title: Text(group.station_name)),
-      body:
-          group.rides.isEmpty
-              ? const Center(child: Text('אין הודעות להצגה.'))
-              : ListView.builder(
-                itemCount: group.rides.length,
-                itemBuilder: (context, index) {
-                  final ride = group.rides[index];
-                  return ListTile(
-                    title: Text('נסיעה #${ride.id}'),
-                    subtitle: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Text(ride.comments),
-                        Text(
-                          _formatTimestamp(ride.timestamp),
-                          style: TextStyle(color: Colors.grey, fontSize: 12),
-                        ),
-                      ],
-                    ),
-                    leading: ElevatedButton(
-                      onPressed:
-                          () => ref
-                              .read(rideActionsProvider.notifier)
-                              .giveRide(ride.id),
-                      child: const Text("תן"),
-                    ),
-                  );
-                },
-              ),
+      body: station.rides.isEmpty
+          ? const Center(child: Text('אין הודעות להצגה.'))
+          : _buildRidesList(station.rides, isRideActive, ref),
     );
   }
-}
 
-String _formatTimestamp(DateTime timestamp) {
-  // עיצוב דוגמה – תוכל לעצב לפי הצורך
-  return '${timestamp.day}/${timestamp.month}/${timestamp.year} ${timestamp.hour}:${timestamp.minute.toString().padLeft(2, '0')}';
+  Widget _buildRidesList(
+    List<Ride> rides,
+    bool isRideActive,
+    WidgetRef ref,
+  ) {
+    return ListView.builder(
+      itemCount: rides.length,
+      itemBuilder: (context, index) {
+        final ride = rides[index];
+        return RideCard(
+          isRideActive: isRideActive,
+          ride: ride,
+        );
+      },
+    );
+  }
 }

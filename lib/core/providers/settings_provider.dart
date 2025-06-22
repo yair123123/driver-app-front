@@ -4,7 +4,7 @@ import 'package:driver_app/core/settings/domain/entities/settings_entity.dart';
 import 'package:driver_app/core/settings/domain/repository/settings_repository.dart';
 import 'package:driver_app/core/settings/domain/use_cases/get_settings.dart';
 import 'package:driver_app/core/settings/domain/use_cases/set_settings.dart';
-import 'package:driver_app/core/settings/presentation/providers/settings_provider.dart';
+import 'package:driver_app/core/settings/presentation/notifiers/settings_notifier.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final settingsDatasource = Provider<SettingsLocalDataSource>((ref) {
@@ -23,6 +23,6 @@ final setSettings = Provider<SetSettings>((ref) {
 });
 
 final settingsProvider =
-    StateNotifierProvider<SettingsNotifier, AsyncValue<Settings?>>((ref) {
+    StateNotifierProvider<SettingsNotifier, Settings?>((ref) {
       return SettingsNotifier(ref.watch(getSettings), ref.watch(setSettings));
     });

@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 
 class VipTag extends StatelessWidget {
   const VipTag({super.key});
+
   @override
   Widget build(BuildContext context) {
     const Color elegantGold = Color(0xFFFFD700);
 
     return Positioned(
       top: 8,
-      right: -32,
+      left: -32,
       child: Transform.rotate(
-        angle: 0.785, // 45 מעלות (pi/4)
+        angle: -0.785, 
         child: Container(
           width: 100,
           padding: const EdgeInsets.symmetric(vertical: 4),

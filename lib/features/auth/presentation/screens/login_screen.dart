@@ -3,7 +3,6 @@ import 'package:driver_app/features/auth/presentation/providers/auth_state.dart'
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 class LoginScreen extends ConsumerWidget {
   const LoginScreen({super.key});
@@ -13,13 +12,7 @@ class LoginScreen extends ConsumerWidget {
     final userNameController = TextEditingController();
     final idController = TextEditingController();
     final notifier = ref.read(authProvider.notifier);
-  final state = ref.watch(authProvider);
-
-  ref.listen<AuthState>(authProvider, (previous, next) {
-    if (next.user != null && previous?.user == null) {
-      context.go("/rides/list");
-    }
-  });
+    final state = ref.watch(authProvider);
     return Scaffold(
       backgroundColor: const Color(0xFFEFF3F6),
       body: Center(
@@ -69,7 +62,7 @@ class LoginScreen extends ConsumerWidget {
                         ),
                       ),
                       const SizedBox(height: 24),
-                      state.isLoading
+                      state.authStatus == AuthStatus.authenticating
                           ? const CircularProgressIndicator()
                           : SizedBox(
                             width: double.infinity,
@@ -92,13 +85,6 @@ class LoginScreen extends ConsumerWidget {
                               ),
                             ),
                           ),
-                      if (state.errorMessage != null) ...[
-                        const SizedBox(height: 16),
-                        Text(
-                          "⚠ ${state.errorMessage}",
-                          style: const TextStyle(color: Colors.red),
-                        ),
-                      ],
                     ],
                   ),
                 ),

@@ -1,9 +1,9 @@
 import 'package:driver_app/features/rides/domain/repositories/ride_websocket_repository.dart';
 
-class CompleteRide {
+class CompleteRideUsecase {
   final RideRepository rideRepository;
-  CompleteRide({required this.rideRepository});
-  Future<void> call(Map<String, int> rideId) {
+  CompleteRideUsecase( this.rideRepository);
+  Future<void> call(String rideId) {
     return rideRepository.completeRide(rideId);
   }
 }

@@ -23,6 +23,7 @@ Station _$StationFromJson(Map<String, dynamic> json) {
 mixin _$Station {
   int get station_id => throw _privateConstructorUsedError;
   String get station_name => throw _privateConstructorUsedError;
+  String get driver_status_name => throw _privateConstructorUsedError;
   List<Ride> get rides => throw _privateConstructorUsedError;
 
   /// Serializes this Station to a JSON map.
@@ -39,7 +40,12 @@ abstract class $StationCopyWith<$Res> {
   factory $StationCopyWith(Station value, $Res Function(Station) then) =
       _$StationCopyWithImpl<$Res, Station>;
   @useResult
-  $Res call({int station_id, String station_name, List<Ride> rides});
+  $Res call({
+    int station_id,
+    String station_name,
+    String driver_status_name,
+    List<Ride> rides,
+  });
 }
 
 /// @nodoc
@@ -59,6 +65,7 @@ class _$StationCopyWithImpl<$Res, $Val extends Station>
   $Res call({
     Object? station_id = null,
     Object? station_name = null,
+    Object? driver_status_name = null,
     Object? rides = null,
   }) {
     return _then(
@@ -72,6 +79,11 @@ class _$StationCopyWithImpl<$Res, $Val extends Station>
                 null == station_name
                     ? _value.station_name
                     : station_name // ignore: cast_nullable_to_non_nullable
+                        as String,
+            driver_status_name:
+                null == driver_status_name
+                    ? _value.driver_status_name
+                    : driver_status_name // ignore: cast_nullable_to_non_nullable
                         as String,
             rides:
                 null == rides
@@ -92,7 +104,12 @@ abstract class _$$StationImplCopyWith<$Res> implements $StationCopyWith<$Res> {
   ) = __$$StationImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int station_id, String station_name, List<Ride> rides});
+  $Res call({
+    int station_id,
+    String station_name,
+    String driver_status_name,
+    List<Ride> rides,
+  });
 }
 
 /// @nodoc
@@ -111,6 +128,7 @@ class __$$StationImplCopyWithImpl<$Res>
   $Res call({
     Object? station_id = null,
     Object? station_name = null,
+    Object? driver_status_name = null,
     Object? rides = null,
   }) {
     return _then(
@@ -124,6 +142,11 @@ class __$$StationImplCopyWithImpl<$Res>
             null == station_name
                 ? _value.station_name
                 : station_name // ignore: cast_nullable_to_non_nullable
+                    as String,
+        driver_status_name:
+            null == driver_status_name
+                ? _value.driver_status_name
+                : driver_status_name // ignore: cast_nullable_to_non_nullable
                     as String,
         rides:
             null == rides
@@ -141,6 +164,7 @@ class _$StationImpl implements _Station {
   const _$StationImpl({
     required this.station_id,
     required this.station_name,
+    this.driver_status_name = "",
     final List<Ride> rides = const [],
   }) : _rides = rides;
 
@@ -151,6 +175,9 @@ class _$StationImpl implements _Station {
   final int station_id;
   @override
   final String station_name;
+  @override
+  @JsonKey()
+  final String driver_status_name;
   final List<Ride> _rides;
   @override
   @JsonKey()
@@ -162,7 +189,7 @@ class _$StationImpl implements _Station {
 
   @override
   String toString() {
-    return 'Station(station_id: $station_id, station_name: $station_name, rides: $rides)';
+    return 'Station(station_id: $station_id, station_name: $station_name, driver_status_name: $driver_status_name, rides: $rides)';
   }
 
   @override
@@ -174,6 +201,8 @@ class _$StationImpl implements _Station {
                 other.station_id == station_id) &&
             (identical(other.station_name, station_name) ||
                 other.station_name == station_name) &&
+            (identical(other.driver_status_name, driver_status_name) ||
+                other.driver_status_name == driver_status_name) &&
             const DeepCollectionEquality().equals(other._rides, _rides));
   }
 
@@ -183,6 +212,7 @@ class _$StationImpl implements _Station {
     runtimeType,
     station_id,
     station_name,
+    driver_status_name,
     const DeepCollectionEquality().hash(_rides),
   );
 
@@ -204,6 +234,7 @@ abstract class _Station implements Station {
   const factory _Station({
     required final int station_id,
     required final String station_name,
+    final String driver_status_name,
     final List<Ride> rides,
   }) = _$StationImpl;
 
@@ -213,6 +244,8 @@ abstract class _Station implements Station {
   int get station_id;
   @override
   String get station_name;
+  @override
+  String get driver_status_name;
   @override
   List<Ride> get rides;
 

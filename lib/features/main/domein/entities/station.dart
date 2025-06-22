@@ -9,6 +9,7 @@ class Station with _$Station {
   const factory Station({
     required int station_id,
     required String station_name,
+    @Default("") String driver_status_name,
     @Default([]) List<Ride> rides,
   }) = _Station;
 

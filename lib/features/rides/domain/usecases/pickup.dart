@@ -1,9 +1,9 @@
 import 'package:driver_app/features/rides/domain/repositories/ride_websocket_repository.dart';
 
-class Pickup {
+class PickupUsecase {
   final RideRepository rideRepository;
-  Pickup({required this.rideRepository});
-  Future<void> call(Map<String, int> rideId) {
+  PickupUsecase( this.rideRepository);
+  Future<void> call(String rideId) {
     return rideRepository.pickup(rideId);
   }
 }

@@ -3,6 +3,7 @@ import 'package:driver_app/features/dispatcher/presentation/widgets/error_messag
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_details_field.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_header.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/templates_list.dart';
+import 'package:driver_app/features/main/domein/entities/station.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
@@ -17,19 +18,23 @@ class AddRideScreen extends ConsumerStatefulWidget {
 
 class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   final TextEditingController controller = TextEditingController();
+  void onChangeStation(Station? station) {
+    ref.read(dispatchNotifierProvider.notifier).onChangeStation(station!);
+  }
 
   void onPressTemplate(String template) {
-    // אפשר גם לשמור לפני אם תרצה Undo
-    final newText = '${controller.text}$template\n';
-    controller.text = newText;
-    controller.selection = TextSelection.fromPosition(
-      TextPosition(offset: newText.length),
-    );
+    ref
+        .read(logicScreenNotifierProvider.notifier)
+        .onPressTemplate(controller, template);
   }
 
   void onChange() {
     ref.read(logicScreenNotifierProvider.notifier).onChange(controller);
-    print(controller.selection.baseOffset);
+  }
+
+  void clearForm() {
+    controller.clear();
+    ref.read(dispatchNotifierProvider.notifier).resetForm();
   }
 
   @override
@@ -58,15 +63,22 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
             ),
           ),
         );
+        clearForm();
       }
     });
     final formState = ref.watch(dispatchNotifierProvider);
     return ref
         .watch(initialScreenProvider)
         .when(
-          data: (_) {
+          data: (provider) {
             return Scaffold(
-              appBar: AppBar(title: const Text("פרסום נסיעה")),
+              appBar: AppBar(
+                title: const Text("פרסום נסיעה"),
+                actions: [
+                  ElevatedButton(onPressed: clearForm, child: Text("נקה טופס")),
+                ],
+              ),
+
               body: Stack(
                 children: [
                   SingleChildScrollView(
@@ -74,6 +86,19 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        DropdownButton(
+                          items:
+                              provider.stations
+                                  .map(
+                                    (s) => DropdownMenuItem(
+                                      value: s,
+                                      child: Text(s.station_name),
+                                    ),
+                                  )
+                                  .toList(),
+                          value: ref.read(dispatchNotifierProvider).station,
+                          onChanged: onChangeStation,
+                        ),
                         Header(),
                         const SizedBox(height: 16),
                         RideDetailsField(controller: controller),
