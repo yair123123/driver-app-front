@@ -16,7 +16,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
   }
   @override
   void cancelRide(CancelRide cancel) {
-    RideDto rideDto = RideDto(
+    RideMessageDto rideDto = RideMessageDto(
       operationCode: RideOperationCode.cancel,
       content: cancel,
       error: "",
@@ -26,7 +26,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
 
   @override
   void dispatchNewRide(Ride ride) {
-    RideDto rideDto = RideDto(
+    RideMessageDto rideDto = RideMessageDto(
       operationCode: RideOperationCode.dispatch,
       content: ride,
       error: "",
@@ -36,11 +36,17 @@ class DispatchRepositoryImpl implements DispatchRepository {
 
   @override
   void updateRide(Ride ride) {
-    RideDto rideDto = RideDto(
+    RideMessageDto rideDto = RideMessageDto(
       operationCode: RideOperationCode.update,
       content: ride,
       error: "",
     );
     datasource.sendRideAction(rideDto);
+  }
+  @override
+  Stream<Map<String,String>> getAckDispatch(){
+    return datasource.getRidesEvents()
+        .where((event) => event.operationCode == RideOperationCode.confirmDispatch)
+        .map((event) => Map<String,String>.from(event.content));
   }
 }

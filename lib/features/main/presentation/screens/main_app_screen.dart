@@ -1,4 +1,5 @@
 import 'package:driver_app/core/providers/user_provider.dart';
+import 'package:driver_app/features/rides/presentation/widgets/active_ride_banner.dart';
 import 'package:driver_app/widgets/driver_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -25,7 +26,7 @@ class _MainTabsShellState extends ConsumerState<MainTabsShell> {
       "/chats",
       "/settings",
     ];
-   final user = ref.watch(userProvider)!;
+    final user = ref.watch(userProvider)!;
     final List<BottomNavigationBarItem> navItems = [
       const BottomNavigationBarItem(
         icon: Icon(Icons.local_taxi),
@@ -59,7 +60,10 @@ class _MainTabsShellState extends ConsumerState<MainTabsShell> {
 
     return Scaffold(
       appBar: DriverAppBar(user: user),
-      body: widget.child,
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [ActiveRideBanner(), Expanded(child: widget.child)],
+      ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
         items: navItems,

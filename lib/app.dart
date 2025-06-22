@@ -6,18 +6,15 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:driver_app/core/theme/app_theme.dart';
 
-
-
-
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    ref.watch(authInitListenerProvider); 
-  final settingsState = ref.watch(settingsProvider);
+    ref.watch(authInitListenerProvider);
+    final settingsState = ref.watch(settingsProvider);
     final router = ref.watch(routerProvider);
-
+  final app = ref.watch(appInitialProvider);
     return MaterialApp.router(
       routerConfig: router,
       debugShowCheckedModeBanner: false,
@@ -28,10 +25,12 @@ class MyApp extends ConsumerWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
+      
       title: "דרייבר 10",
-      theme: AppTheme.lightTheme,
+      theme: app.isRideActive ? AppTheme.activeRideTheme : AppTheme.lightTheme ,
       darkTheme: AppTheme.darkTheme,
-      themeMode: settingsState?.isDarkMode == true ? ThemeMode.dark : ThemeMode.light,
+      themeMode:
+          settingsState?.isDarkMode == true ? ThemeMode.dark : ThemeMode.light,
     );
   }
 }

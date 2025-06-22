@@ -8,25 +8,52 @@ class RideRepositoryImpl implements RideRepository {
   RideRepositoryImpl(this.datasource);
 
   @override
-  Stream<RideDto> listenToNewEventsRides() {
+  Stream<RideMessageDto> listenToNewEventsRides() {
     return datasource.rideEvents;
   }
 
   @override
-  Future<void> takeRide(Map<String, String> takeRide) async {
-    RideDto rideDto = RideDto(operationCode: RideOperationCode.reserve, content: takeRide, error: "");
+  Future<void> giveRide(String rideId) async {
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.reserve,
+      content: {"id": rideId},
+      error: "",
+    );
     datasource.sendRideAction(rideDto);
   }
 
   @override
-  Future<void> pickup(Map<String, int> takeRide) async {
-    // RideDto rideDto = RideDto(operation_code: RideOperationCode., content: takeRide, error: "");
+  Future<void> pickup(String takeRide) async {
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.pickup,
+      content: {"id": takeRide},
+      error: "",
+    );
+    datasource.sendRideAction(rideDto);
+  }
+
+  @override
+  Future<void> cancelRide(String rideId) async {
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.cancelGive,
+      content: {"id": rideId},
+      error: "",
+    );
+    datasource.sendRideAction(rideDto);
+  }
+
+  @override
+  Future<void> completeRide(String takeRide) async {
+    // RideMessageDto rideDto = RideMessageDto(operationCode: RideOperationCode., content: takeRide, error: "");
     // datasource.sendRideAction(rideDto);
   }
 
   @override
-  Future<void> completeRide(Map<String, int> takeRide) async {
-    // RideDto rideDto = RideDto(operation_code: RideOperationCode.completeRide, content: takeRide, error: "");
-    // datasource.sendRideAction(rideDto);
+  Stream<RideMessageDto> getAckReserve() {
+    return datasource.rideEvents.where(
+      (event) =>
+          event.operationCode == RideOperationCode.confirmReserve ||
+          event.operationCode == RideOperationCode.alreadyTaken,
+    );
   }
 }

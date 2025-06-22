@@ -4,16 +4,19 @@ import 'package:driver_app/features/dispatcher/data/repositoy/dispatch_reposirot
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/cancel_ride_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/dispatch_ride_usecase.dart';
+import 'package:driver_app/features/dispatcher/domain/usecases/get_ack_dispatch_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/initial_screen_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/update_ride_usecase.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 
 final datasourceProvider = Provider<DispatcherDatasource>(
   (ref) => DispatcherDatasource(ref.watch(webSocketServiceInstanceProvider)),
 );
 final dispatchRepsitoryProvider = Provider<DispatchRepository>(
   (ref) => DispatchRepositoryImpl(ref.watch(datasourceProvider)),
+);
+final getAckDispatchUseCaseProvider = Provider<GetAckDispatchUsecase>(
+  (ref) => GetAckDispatchUsecase(ref.watch(dispatchRepsitoryProvider)),
 );
 final dispatchNewRideUseCaseProvider = Provider<DispatchNewRideUsecase>(
   (ref) => DispatchNewRideUsecase(ref.watch(dispatchRepsitoryProvider)),

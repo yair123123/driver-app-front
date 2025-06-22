@@ -1,8 +1,10 @@
 import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
 
 abstract class RideRepository {
-  Stream<RideDto> listenToNewEventsRides();
-  Future<void> takeRide(Map<String, String> takeRide);
-  Future<void> pickup(Map<String, int> takeRide);
-  Future<void> completeRide(Map<String, int> takeRide);
+  Stream<RideMessageDto> getAckReserve();
+  Stream<RideMessageDto> listenToNewEventsRides();
+  Future<void> giveRide(String rideId);
+  Future<void> pickup(String rideId);
+  Future<void> completeRide(String rideId);
+  Future<void> cancelRide(String rideId);
 }

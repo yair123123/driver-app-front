@@ -14,13 +14,13 @@ class DispatchState {
   });
   DispatchState copyWith({
     Station? station, 
-    bool? isSending,
+    bool? send,
     bool? isLoading,
     String? errorMessage,
   }) {
     return DispatchState(
       station: station ?? this.station,
-      isSending: isSending ?? this.isSending,
+      isSending: send ?? this.isSending,
       isLoading: isLoading ?? this.isLoading,
       errorMessage: errorMessage ?? this.errorMessage,
     );

@@ -9,11 +9,13 @@ enum AppReadyStatus { idle, ready, loading, error }
 class AppReadyState {
   final AppReadyStatus status;
   final String errorMessage;
+  final bool isRideActive;
 
-  const AppReadyState({required this.status, this.errorMessage = ""});
+  const AppReadyState({required this.status, this.errorMessage = "", this.isRideActive =false});
 
-  AppReadyState copyWith({AppReadyStatus? status, String? errorMessage}) {
+  AppReadyState copyWith({AppReadyStatus? status, String? errorMessage,bool? isRideActive}) {
     return AppReadyState(
+      isRideActive: isRideActive ?? this.isRideActive,
       status: status ?? this.status,
       errorMessage: errorMessage ?? this.errorMessage,
     );
@@ -32,7 +34,12 @@ class AppInitNotifier extends StateNotifier<AppReadyState> {
   }) : super(
          const AppReadyState(errorMessage: "", status: AppReadyStatus.idle),
        );
-
+  void startRide(){
+    state = state.copyWith(isRideActive: true);
+  }
+  void finishingRide(){
+    state = state.copyWith(isRideActive: false);
+  }
   Future<void> init(AuthState authState) async {
     if (state.status != AppReadyStatus.idle ||
         authState.authStatus != AuthStatus.authenticated)

@@ -13,9 +13,10 @@ class WebSocketService {
   bool _isConnected = false;
 
   bool get isConnected => _isConnected;
+
   Stream<WebSocketDto> get webSocketDtoStream =>
       _controller.stream
-          .map((s) => webSocketDtoFromJson(s))
+          .map((s) {print('RECIVED $s'); return webSocketDtoFromJson(s);})
           .handleError((e) {})
           .whereType<WebSocketDto>();
 
@@ -42,7 +43,9 @@ class WebSocketService {
     }
   }
 
-  void send(WebSocketDto data) => _channel?.sink.add(jsonEncode(data));
+  void send(WebSocketDto data) { 
+    print ('SENDING ${data.toJson()}');
+    return _channel?.sink.add(jsonEncode(data));}
 
   void disconnect() {
     _subscription?.cancel();

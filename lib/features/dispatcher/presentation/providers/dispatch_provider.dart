@@ -9,7 +9,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final dispatchNotifierProvider =
     StateNotifierProvider<FormDispatchNotifier, DispatchState>(
-      (ref) => FormDispatchNotifier(ref.watch(dispatchNewRideUseCaseProvider),ref),
+      (ref) => FormDispatchNotifier(
+        ref.watch(dispatchNewRideUseCaseProvider),
+        ref,
+        ref.watch(getAckDispatchUseCaseProvider),
+      ),
     );
 final logicScreenNotifierProvider =
     StateNotifierProvider<LogicScreenNotifier, LogicScreenState>(

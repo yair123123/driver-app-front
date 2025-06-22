@@ -7,4 +7,5 @@ abstract class  DispatchRepository {
   void dispatchNewRide(Ride ride);
   void updateRide(Ride ride);
   void cancelRide(CancelRide ride);
+  Stream<Map<String,String>> getAckDispatch();
 }

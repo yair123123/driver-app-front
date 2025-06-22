@@ -1,0 +1,4 @@
+enum RideNextStep {
+  pickup,
+  completed
+}

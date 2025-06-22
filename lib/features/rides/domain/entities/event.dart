@@ -8,7 +8,7 @@ class NewRideEvent extends RideEvent {
 }
 
 class CancelRideEvent extends RideEvent {
-  final String rideId;
-  CancelRideEvent(this.rideId);
+  final String Id;
+  CancelRideEvent(this.Id);
 }
 

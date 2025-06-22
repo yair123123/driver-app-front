@@ -15,7 +15,7 @@ final _privateConstructorUsedError = UnsupportedError(
   'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models',
 );
 
-RideDto _$RideDtoFromJson(Map<String, dynamic> json) {
+RideMessageDto _$RideDtoFromJson(Map<String, dynamic> json) {
   return _RideDto.fromJson(json);
 }
 
@@ -36,13 +36,13 @@ mixin _$RideDto {
   /// Create a copy of RideDto
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $RideDtoCopyWith<RideDto> get copyWith => throw _privateConstructorUsedError;
+  $RideDtoCopyWith<RideMessageDto> get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
 abstract class $RideDtoCopyWith<$Res> {
-  factory $RideDtoCopyWith(RideDto value, $Res Function(RideDto) then) =
-      _$RideDtoCopyWithImpl<$Res, RideDto>;
+  factory $RideDtoCopyWith(RideMessageDto value, $Res Function(RideMessageDto) then) =
+      _$RideDtoCopyWithImpl<$Res, RideMessageDto>;
   @useResult
   $Res call({
     @JsonKey(
@@ -57,7 +57,7 @@ abstract class $RideDtoCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$RideDtoCopyWithImpl<$Res, $Val extends RideDto>
+class _$RideDtoCopyWithImpl<$Res, $Val extends RideMessageDto>
     implements $RideDtoCopyWith<$Res> {
   _$RideDtoCopyWithImpl(this._value, this._then);
 
@@ -226,7 +226,7 @@ class _$RideDtoImpl implements _RideDto {
   }
 }
 
-abstract class _RideDto implements RideDto {
+abstract class _RideDto implements RideMessageDto {
   const factory _RideDto({
     @JsonKey(
       name: 'operation_code',

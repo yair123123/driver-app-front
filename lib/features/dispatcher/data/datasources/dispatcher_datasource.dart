@@ -22,7 +22,14 @@ class DispatcherDatasource {
     return InitialScreen(cities, neighborhoods, prices);
   }
 
-  void sendRideAction(RideDto ride) {
+  void sendRideAction(RideMessageDto ride) {
     webSocketService.send(WebSocketDto(content: ride, typeCode: WebSocketTypeCode.rides,error: ""));
   }
+  Stream<RideMessageDto> getRidesEvents(){
+    return webSocketService.webSocketDtoStream
+    .where((event) => event.typeCode == WebSocketTypeCode.rides)
+    .map((event) => RideMessageDto.fromJson(event.content));
+    
+  }
+
 }
