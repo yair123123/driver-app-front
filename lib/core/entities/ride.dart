@@ -55,7 +55,7 @@ class Ride with _$Ride {
 class Location with _$Location {
   const factory Location({
     required String city,
-    required String neighborhood,
+    required String? neighborhood,
     required String? street,
   }) = _Location;
 

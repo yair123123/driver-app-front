@@ -22,8 +22,8 @@ class AccessGiveDialog extends StatelessWidget {
         children: [
           Lottie.asset(
             'assets/animations/check.json',
-            width: 80,
-            repeat: false,
+            
+            repeat: true,
           ),
           const SizedBox(height: 8),
           const Text(

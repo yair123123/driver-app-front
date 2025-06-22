@@ -24,24 +24,24 @@ final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     redirect: (context, state) {
       final auth = ref.watch(authProvider);
-      final init = ref.watch(appInitialProvider);
+      final init = ref.watch(appInitialProvider.select((e) => e.status));
 
       if (auth.authStatus == AuthStatus.unauthenticated) {
         print('redirect to /login');
         return '/login';
       }
       if (auth.authStatus == AuthStatus.authenticated &&
-          init.status == AppReadyStatus.loading) {
+          init == AppReadyStatus.loading) {
         print('redirect to /splash');
         return '/';
       }
       if (auth.authStatus == AuthStatus.authenticated &&
-          init.status == AppReadyStatus.error) {
+          init == AppReadyStatus.error) {
         print('redirect to /error');
         return '/error';
       }
       if (auth.authStatus == AuthStatus.authenticated &&
-          init.status == AppReadyStatus.ready &&
+          init == AppReadyStatus.ready &&
           (state.matchedLocation == '/login' || state.matchedLocation == '/')) {
         print('redirect to /rides/list');
         return '/rides/list';

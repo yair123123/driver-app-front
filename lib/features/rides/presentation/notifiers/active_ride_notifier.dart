@@ -4,6 +4,7 @@ import 'package:driver_app/features/main/presentation/providers/app_provider.dar
 import 'package:driver_app/features/rides/domain/usecases/cancel_ride_usecase.dart';
 import 'package:driver_app/features/rides/domain/usecases/complete_ride.dart';
 import 'package:driver_app/features/rides/domain/usecases/pickup.dart';
+import 'package:driver_app/features/rides/presentation/providers/rides_list_provider.dart';
 import 'package:driver_app/features/rides/presentation/states/ative_ride_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -12,30 +13,31 @@ class RideActiveNotifier extends StateNotifier<ActiveRideState?> {
   final PickupUsecase pickupUsecase;
   final CompleteRideUsecase completeRideUsecase;
   final CancelRideUsecase cancelRideUsecase;
-  RideActiveNotifier(this.ref,this.completeRideUsecase, this.pickupUsecase,this.cancelRideUsecase)
-    : super(null);
-  (String,String) get getData => 
-     {
-      RideNextStep.pickup: (
-        "סע ל־${state!.ride.origin.city} ${state!.ride.origin.neighborhood ?? ''}",
-        "אספתי"
-      ),
-      RideNextStep.completed: (
-        "סע ל־${state!.ride.destination.city} ${state!.ride.destination.neighborhood ?? ''}",
-        "סיים נסיעה"
-      ),
-    }[state!.step]!;
+  RideActiveNotifier(
+    this.ref,
+    this.completeRideUsecase,
+    this.pickupUsecase,
+    this.cancelRideUsecase,
+  ) : super(null);
+  (String, String) get getData =>
+      {
+        RideNextStep.pickup: (
+          "סע ל־${state!.ride.origin.city} ${state!.ride.origin.neighborhood ?? ''}",
+          "אספתי",
+        ),
+        RideNextStep.completed: (
+          "סע ל־${state!.ride.destination.city} ${state!.ride.destination.neighborhood ?? ''}",
+          "סיים נסיעה",
+        ),
+      }[state!.step]!;
 
   void startActiveRide(Ride ride) {
     ref.read(appInitialProvider.notifier).startRide();
     state = ActiveRideState.initial(ride);
   }
-  void cancel() {
 
-  }
-  void callPassenger(){
-    
-  }
+  void cancel() {}
+  void callPassenger() {}
   void next() {
     if (state == null) {
       return;
@@ -47,9 +49,9 @@ class RideActiveNotifier extends StateNotifier<ActiveRideState?> {
         break;
       case RideNextStep.completed:
         completeRideUsecase(state!.ride.id);
-    ref.read(appInitialProvider.notifier).finishingRide();
+        ref.read(appInitialProvider.notifier).finishingRide();
+        ref.read(rideNotifierProvider).copyWith(selectedRide: null);
         state = null;
     }
   }
-
 }

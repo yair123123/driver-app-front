@@ -12,11 +12,13 @@ class ActiveRideBanner extends ConsumerWidget {
 
     return AnimatedSwitcher(
       duration: const Duration(milliseconds: 300),
-      transitionBuilder: (child, anim) =>
-          SizeTransition(sizeFactor: anim, axisAlignment: -1, child: child),
-      child: state == null
-          ? const SizedBox.shrink()
-          : _BannerContent(key: const ValueKey('banner'), state: state),
+      transitionBuilder:
+          (child, anim) =>
+              SizeTransition(sizeFactor: anim, axisAlignment: -1, child: child),
+      child:
+          state == null
+              ? const SizedBox.shrink()
+              : _BannerContent(key: const ValueKey('banner'), state: state),
     );
   }
 }
@@ -60,15 +62,11 @@ class _BannerContent extends ConsumerWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
-                const Icon(Icons.expand_more),
+                ElevatedButton(
+                  onPressed: () => ref.read(activeRideProvider.notifier).next(),
+                  child: Text(notifier.getData.$2),
+                ),
               ],
-            ),
-            const SizedBox(height: 4),
-            Text(notifier.getData.$1),
-            const SizedBox(height: 8),
-            ElevatedButton(
-              onPressed: () => ref.read(activeRideProvider.notifier).next(),
-              child: Text(notifier.getData.$2),
             ),
           ],
         ),
@@ -115,13 +113,15 @@ class _RideDetailsDialog extends StatelessWidget {
                     ref.read(activeRideProvider.notifier).cancel();
                     Navigator.of(context).pop();
                   },
-                  child: const Text("בטל"),
+                  child: const Text("בטל תן"),
                 ),
               ),
               const SizedBox(width: 8),
               Expanded(
                 child: OutlinedButton(
-                  onPressed: () => ref.read(activeRideProvider.notifier).callPassenger(),
+                  onPressed:
+                      () =>
+                          ref.read(activeRideProvider.notifier).callPassenger(),
                   child: const Text("חייג לנוסע"),
                 ),
               ),

@@ -4,7 +4,7 @@ import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datas
 import 'package:driver_app/features/dispatcher/domain/entities/cancel_ride.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
-import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 
 class DispatchRepositoryImpl implements DispatchRepository {
   final DispatcherDatasource datasource;

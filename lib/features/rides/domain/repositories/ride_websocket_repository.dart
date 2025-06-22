@@ -1,4 +1,4 @@
-import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 
 abstract class RideRepository {
   Stream<RideMessageDto> getAckReserve();

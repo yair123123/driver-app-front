@@ -7,14 +7,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 class RideState {
   final Ride? selectedRide;
   final List<Station> stations;
-  final bool isLoading;
   final String? errorMessage;
   
   const RideState({
 
     required this.stations,
     this.selectedRide = null,
-    this.isLoading = false,
     this.errorMessage,
   });
 
@@ -27,7 +25,6 @@ class RideState {
     return RideState(
       selectedRide: selectedRide ?? this.selectedRide,
       stations: stations ?? this.stations,
-      isLoading: isLoading ?? this.isLoading,
       errorMessage: errorMessage,
     );
   }

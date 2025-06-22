@@ -1,13 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'ride_dto.dart';
+part of 'ride_message_dto.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$RideDtoImpl _$$RideDtoImplFromJson(Map<String, dynamic> json) =>
-    _$RideDtoImpl(
+_$RideMessageDtoImpl _$$RideMessageDtoImplFromJson(Map<String, dynamic> json) =>
+    _$RideMessageDtoImpl(
       operationCode: rideOperationCodeFromInt(
         (json['operation_code'] as num).toInt(),
       ),
@@ -15,9 +15,10 @@ _$RideDtoImpl _$$RideDtoImplFromJson(Map<String, dynamic> json) =>
       error: json['error'] as String,
     );
 
-Map<String, dynamic> _$$RideDtoImplToJson(_$RideDtoImpl instance) =>
-    <String, dynamic>{
-      'operation_code': rideOperationCodeToInt(instance.operationCode),
-      'content': instance.content,
-      'error': instance.error,
-    };
+Map<String, dynamic> _$$RideMessageDtoImplToJson(
+  _$RideMessageDtoImpl instance,
+) => <String, dynamic>{
+  'operation_code': rideOperationCodeToInt(instance.operationCode),
+  'content': instance.content,
+  'error': instance.error,
+};

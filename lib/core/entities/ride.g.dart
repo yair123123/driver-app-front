@@ -32,7 +32,7 @@ Map<String, dynamic> _$$RideImplToJson(_$RideImpl instance) =>
 _$LocationImpl _$$LocationImplFromJson(Map<String, dynamic> json) =>
     _$LocationImpl(
       city: json['city'] as String,
-      neighborhood: json['neighborhood'] as String,
+      neighborhood: json['neighborhood'] as String?,
       street: json['street'] as String?,
     );
 

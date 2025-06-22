@@ -15,7 +15,6 @@ class StationRidesScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isRideActive = ref.watch(appInitialProvider).isRideActive;
-
     final station = ref.watch(
       rideNotifierProvider.select(
         (s) => s.stations.firstWhereOrNull(
@@ -44,12 +43,7 @@ class StationRidesScreen extends ConsumerWidget {
       },
     );
 
-    final state = ref.watch(rideNotifierProvider);
-    if (state.isLoading) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
-      );
-    }
+    
 
     if (station == null) {
       return const Scaffold(
@@ -58,7 +52,6 @@ class StationRidesScreen extends ConsumerWidget {
     }
 
     return Scaffold(
-      appBar: AppBar(title: Text(station.station_name)),
       body: station.rides.isEmpty
           ? const Center(child: Text('אין הודעות להצגה.'))
           : _buildRidesList(station.rides, isRideActive, ref),
@@ -77,8 +70,6 @@ class StationRidesScreen extends ConsumerWidget {
         return RideCard(
           isRideActive: isRideActive,
           ride: ride,
-          onGiveRide: (r) =>
-              ref.read(rideNotifierProvider.notifier).giveRide(r),
         );
       },
     );

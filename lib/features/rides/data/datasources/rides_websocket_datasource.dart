@@ -1,7 +1,7 @@
 import 'package:driver_app/core/enums/websocket_typecode.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
-import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 
 class RidesWebSocketDatasource {
   final WebSocketService wbSocket;

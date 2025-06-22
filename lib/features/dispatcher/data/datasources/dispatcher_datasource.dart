@@ -2,7 +2,7 @@ import 'package:driver_app/core/enums/websocket_typecode.dart';
 import 'package:driver_app/core/websocket/websocket_dto.dart';
 import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';
-import 'package:driver_app/features/rides/domain/entities/ride_dto.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 import 'package:driver_app/utils/json_util.dart';
 
 class DispatcherDatasource {

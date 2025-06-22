@@ -386,7 +386,7 @@ Location _$LocationFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Location {
   String get city => throw _privateConstructorUsedError;
-  String get neighborhood => throw _privateConstructorUsedError;
+  String? get neighborhood => throw _privateConstructorUsedError;
   String? get street => throw _privateConstructorUsedError;
 
   /// Serializes this Location to a JSON map.
@@ -404,7 +404,7 @@ abstract class $LocationCopyWith<$Res> {
   factory $LocationCopyWith(Location value, $Res Function(Location) then) =
       _$LocationCopyWithImpl<$Res, Location>;
   @useResult
-  $Res call({String city, String neighborhood, String? street});
+  $Res call({String city, String? neighborhood, String? street});
 }
 
 /// @nodoc
@@ -423,7 +423,7 @@ class _$LocationCopyWithImpl<$Res, $Val extends Location>
   @override
   $Res call({
     Object? city = null,
-    Object? neighborhood = null,
+    Object? neighborhood = freezed,
     Object? street = freezed,
   }) {
     return _then(
@@ -434,10 +434,10 @@ class _$LocationCopyWithImpl<$Res, $Val extends Location>
                     : city // ignore: cast_nullable_to_non_nullable
                         as String,
             neighborhood:
-                null == neighborhood
+                freezed == neighborhood
                     ? _value.neighborhood
                     : neighborhood // ignore: cast_nullable_to_non_nullable
-                        as String,
+                        as String?,
             street:
                 freezed == street
                     ? _value.street
@@ -458,7 +458,7 @@ abstract class _$$LocationImplCopyWith<$Res>
   ) = __$$LocationImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String city, String neighborhood, String? street});
+  $Res call({String city, String? neighborhood, String? street});
 }
 
 /// @nodoc
@@ -476,7 +476,7 @@ class __$$LocationImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? city = null,
-    Object? neighborhood = null,
+    Object? neighborhood = freezed,
     Object? street = freezed,
   }) {
     return _then(
@@ -487,10 +487,10 @@ class __$$LocationImplCopyWithImpl<$Res>
                 : city // ignore: cast_nullable_to_non_nullable
                     as String,
         neighborhood:
-            null == neighborhood
+            freezed == neighborhood
                 ? _value.neighborhood
                 : neighborhood // ignore: cast_nullable_to_non_nullable
-                    as String,
+                    as String?,
         street:
             freezed == street
                 ? _value.street
@@ -516,7 +516,7 @@ class _$LocationImpl implements _Location {
   @override
   final String city;
   @override
-  final String neighborhood;
+  final String? neighborhood;
   @override
   final String? street;
 
@@ -557,7 +557,7 @@ class _$LocationImpl implements _Location {
 abstract class _Location implements Location {
   const factory _Location({
     required final String city,
-    required final String neighborhood,
+    required final String? neighborhood,
     required final String? street,
   }) = _$LocationImpl;
 
@@ -567,7 +567,7 @@ abstract class _Location implements Location {
   @override
   String get city;
   @override
-  String get neighborhood;
+  String? get neighborhood;
   @override
   String? get street;
 

@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'ride_dto.dart';
+part of 'ride_message_dto.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -15,12 +15,12 @@ final _privateConstructorUsedError = UnsupportedError(
   'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models',
 );
 
-RideMessageDto _$RideDtoFromJson(Map<String, dynamic> json) {
-  return _RideDto.fromJson(json);
+RideMessageDto _$RideMessageDtoFromJson(Map<String, dynamic> json) {
+  return _RideMessageDto.fromJson(json);
 }
 
 /// @nodoc
-mixin _$RideDto {
+mixin _$RideMessageDto {
   @JsonKey(
     name: 'operation_code',
     fromJson: rideOperationCodeFromInt,
@@ -30,19 +30,22 @@ mixin _$RideDto {
   dynamic get content => throw _privateConstructorUsedError;
   String get error => throw _privateConstructorUsedError;
 
-  /// Serializes this RideDto to a JSON map.
+  /// Serializes this RideMessageDto to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
 
-  /// Create a copy of RideDto
+  /// Create a copy of RideMessageDto
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $RideDtoCopyWith<RideMessageDto> get copyWith => throw _privateConstructorUsedError;
+  $RideMessageDtoCopyWith<RideMessageDto> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $RideDtoCopyWith<$Res> {
-  factory $RideDtoCopyWith(RideMessageDto value, $Res Function(RideMessageDto) then) =
-      _$RideDtoCopyWithImpl<$Res, RideMessageDto>;
+abstract class $RideMessageDtoCopyWith<$Res> {
+  factory $RideMessageDtoCopyWith(
+    RideMessageDto value,
+    $Res Function(RideMessageDto) then,
+  ) = _$RideMessageDtoCopyWithImpl<$Res, RideMessageDto>;
   @useResult
   $Res call({
     @JsonKey(
@@ -57,16 +60,16 @@ abstract class $RideDtoCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$RideDtoCopyWithImpl<$Res, $Val extends RideMessageDto>
-    implements $RideDtoCopyWith<$Res> {
-  _$RideDtoCopyWithImpl(this._value, this._then);
+class _$RideMessageDtoCopyWithImpl<$Res, $Val extends RideMessageDto>
+    implements $RideMessageDtoCopyWith<$Res> {
+  _$RideMessageDtoCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of RideDto
+  /// Create a copy of RideMessageDto
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
@@ -99,11 +102,12 @@ class _$RideDtoCopyWithImpl<$Res, $Val extends RideMessageDto>
 }
 
 /// @nodoc
-abstract class _$$RideDtoImplCopyWith<$Res> implements $RideDtoCopyWith<$Res> {
-  factory _$$RideDtoImplCopyWith(
-    _$RideDtoImpl value,
-    $Res Function(_$RideDtoImpl) then,
-  ) = __$$RideDtoImplCopyWithImpl<$Res>;
+abstract class _$$RideMessageDtoImplCopyWith<$Res>
+    implements $RideMessageDtoCopyWith<$Res> {
+  factory _$$RideMessageDtoImplCopyWith(
+    _$RideMessageDtoImpl value,
+    $Res Function(_$RideMessageDtoImpl) then,
+  ) = __$$RideMessageDtoImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call({
@@ -119,15 +123,15 @@ abstract class _$$RideDtoImplCopyWith<$Res> implements $RideDtoCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$RideDtoImplCopyWithImpl<$Res>
-    extends _$RideDtoCopyWithImpl<$Res, _$RideDtoImpl>
-    implements _$$RideDtoImplCopyWith<$Res> {
-  __$$RideDtoImplCopyWithImpl(
-    _$RideDtoImpl _value,
-    $Res Function(_$RideDtoImpl) _then,
+class __$$RideMessageDtoImplCopyWithImpl<$Res>
+    extends _$RideMessageDtoCopyWithImpl<$Res, _$RideMessageDtoImpl>
+    implements _$$RideMessageDtoImplCopyWith<$Res> {
+  __$$RideMessageDtoImplCopyWithImpl(
+    _$RideMessageDtoImpl _value,
+    $Res Function(_$RideMessageDtoImpl) _then,
   ) : super(_value, _then);
 
-  /// Create a copy of RideDto
+  /// Create a copy of RideMessageDto
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
@@ -137,7 +141,7 @@ class __$$RideDtoImplCopyWithImpl<$Res>
     Object? error = null,
   }) {
     return _then(
-      _$RideDtoImpl(
+      _$RideMessageDtoImpl(
         operationCode:
             null == operationCode
                 ? _value.operationCode
@@ -160,8 +164,8 @@ class __$$RideDtoImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$RideDtoImpl implements _RideDto {
-  const _$RideDtoImpl({
+class _$RideMessageDtoImpl implements _RideMessageDto {
+  const _$RideMessageDtoImpl({
     @JsonKey(
       name: 'operation_code',
       fromJson: rideOperationCodeFromInt,
@@ -172,8 +176,8 @@ class _$RideDtoImpl implements _RideDto {
     required this.error,
   });
 
-  factory _$RideDtoImpl.fromJson(Map<String, dynamic> json) =>
-      _$$RideDtoImplFromJson(json);
+  factory _$RideMessageDtoImpl.fromJson(Map<String, dynamic> json) =>
+      _$$RideMessageDtoImplFromJson(json);
 
   @override
   @JsonKey(
@@ -189,14 +193,14 @@ class _$RideDtoImpl implements _RideDto {
 
   @override
   String toString() {
-    return 'RideDto(operationCode: $operationCode, content: $content, error: $error)';
+    return 'RideMessageDto(operationCode: $operationCode, content: $content, error: $error)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$RideDtoImpl &&
+            other is _$RideMessageDtoImpl &&
             (identical(other.operationCode, operationCode) ||
                 other.operationCode == operationCode) &&
             const DeepCollectionEquality().equals(other.content, content) &&
@@ -212,22 +216,25 @@ class _$RideDtoImpl implements _RideDto {
     error,
   );
 
-  /// Create a copy of RideDto
+  /// Create a copy of RideMessageDto
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
-  _$$RideDtoImplCopyWith<_$RideDtoImpl> get copyWith =>
-      __$$RideDtoImplCopyWithImpl<_$RideDtoImpl>(this, _$identity);
+  _$$RideMessageDtoImplCopyWith<_$RideMessageDtoImpl> get copyWith =>
+      __$$RideMessageDtoImplCopyWithImpl<_$RideMessageDtoImpl>(
+        this,
+        _$identity,
+      );
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$RideDtoImplToJson(this);
+    return _$$RideMessageDtoImplToJson(this);
   }
 }
 
-abstract class _RideDto implements RideMessageDto {
-  const factory _RideDto({
+abstract class _RideMessageDto implements RideMessageDto {
+  const factory _RideMessageDto({
     @JsonKey(
       name: 'operation_code',
       fromJson: rideOperationCodeFromInt,
@@ -236,9 +243,10 @@ abstract class _RideDto implements RideMessageDto {
     required final RideOperationCode operationCode,
     required final dynamic content,
     required final String error,
-  }) = _$RideDtoImpl;
+  }) = _$RideMessageDtoImpl;
 
-  factory _RideDto.fromJson(Map<String, dynamic> json) = _$RideDtoImpl.fromJson;
+  factory _RideMessageDto.fromJson(Map<String, dynamic> json) =
+      _$RideMessageDtoImpl.fromJson;
 
   @override
   @JsonKey(
@@ -252,10 +260,10 @@ abstract class _RideDto implements RideMessageDto {
   @override
   String get error;
 
-  /// Create a copy of RideDto
+  /// Create a copy of RideMessageDto
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$RideDtoImplCopyWith<_$RideDtoImpl> get copyWith =>
+  _$$RideMessageDtoImplCopyWith<_$RideMessageDtoImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

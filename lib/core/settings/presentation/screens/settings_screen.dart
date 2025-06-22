@@ -9,7 +9,6 @@ class SettingsScreen extends ConsumerWidget {
     final settings = ref.watch(settingsProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('הגדרות')),
       body: settings == null
           ? const Center(child: CircularProgressIndicator())
           : ListView(
