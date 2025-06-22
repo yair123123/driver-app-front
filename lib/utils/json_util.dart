@@ -3,7 +3,8 @@ import 'package:flutter/services.dart' show rootBundle;
 
 Future<List<String>> loadJsonList(String path) async {
   final String data = await rootBundle.loadString(path);
-  return List<String>.from(json.decode(data));
+  print("data is $data");
+  return List<String>.from(json.decode(data));  
 }
 
 Future<Map<String, T>> loadJsonMap<T>(
@@ -11,6 +12,7 @@ Future<Map<String, T>> loadJsonMap<T>(
   T Function(dynamic json) fromJson,
 ) async {
   final String data = await rootBundle.loadString(path);
+  print("data is $data");
   final map = json.decode(data) as Map<String, dynamic>;
   return map.map((key, value) => MapEntry(key, fromJson(value)));
 }
