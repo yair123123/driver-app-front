@@ -25,7 +25,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   void onPressTemplate(String template) {
     ref
         .read(logicScreenNotifierProvider.notifier)
-        .onPressTemplate(controller, template);
+        .onPressTemplate(template,controller);
   }
 
   void onChange() {
@@ -96,7 +96,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
                                     ),
                                   )
                                   .toList(),
-                          value: ref.read(dispatchNotifierProvider).station,
+                          value: provider.stations.first,
                           onChanged: onChangeStation,
                         ),
                         Header(),

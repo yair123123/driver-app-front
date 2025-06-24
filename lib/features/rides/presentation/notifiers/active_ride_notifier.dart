@@ -7,6 +7,7 @@ import 'package:driver_app/features/rides/domain/usecases/pickup.dart';
 import 'package:driver_app/features/rides/presentation/providers/rides_list_provider.dart';
 import 'package:driver_app/features/rides/presentation/states/ative_ride_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class RideActiveNotifier extends StateNotifier<ActiveRideState?> {
   final Ref ref;
@@ -36,8 +37,18 @@ class RideActiveNotifier extends StateNotifier<ActiveRideState?> {
     state = ActiveRideState.initial(ride);
   }
 
-  void cancel() {}
-  void callPassenger() {}
+  void cancel() {
+    
+  }
+  Future<void> callPassenger() async{
+    final Uri uri = Uri(scheme: 'tel', path: state!.ride.passengerPhone);
+    if (await canLaunchUrl(uri) ){
+      await launchUrl(uri);
+    } else {
+      print("cant open the phone");
+    }
+  }
+
   void next() {
     if (state == null) {
       return;

@@ -81,7 +81,7 @@ final routerProvider = Provider<GoRouter>((ref) {
             ],
           ),
           ShellRoute(
-            builder: (context, state, child) => (ShellDispatch()),
+            builder: (context, state, child) => (ShellDispatch(child:child)),
             routes: [
               GoRoute(
                 path: '/dispatcher/summary',

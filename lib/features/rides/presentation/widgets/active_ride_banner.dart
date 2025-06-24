@@ -1,3 +1,4 @@
+import 'package:driver_app/core/enums/ride_step.dart';
 import 'package:driver_app/features/rides/presentation/providers/active_ride_provider.dart';
 import 'package:driver_app/features/rides/presentation/states/ative_ride_state.dart';
 import 'package:flutter/material.dart';
@@ -105,6 +106,7 @@ class _RideDetailsDialog extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 8),
+              if (state.step == RideNextStep.pickup)
           Row(
             children: [
               Expanded(

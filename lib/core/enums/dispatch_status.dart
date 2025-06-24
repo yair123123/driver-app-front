@@ -1,0 +1,1 @@
+enum DispatchStatus {waiting,taken,onWay,complete,canceled}
