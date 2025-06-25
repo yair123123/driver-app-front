@@ -20,19 +20,20 @@ class _MainTabsShellState extends ConsumerState<MainTabsShell> {
 
   @override
   Widget build(BuildContext context) {
+    final user = ref.watch(userProvider)!;
+    final bool isDispatcher = user.is_dispatcher;
     final List<String> routes = [
       "/rides/list",
-      "/dispatcher/summary",
+      if (isDispatcher) "/dispatcher/summary",
       "/chats",
       "/settings",
     ];
-    final user = ref.watch(userProvider)!;
     final List<BottomNavigationBarItem> navItems = [
       const BottomNavigationBarItem(
         icon: Icon(Icons.local_taxi),
         label: "נסיעות",
       ),
-      if (user.is_dispatcher)
+      if (isDispatcher)
         const BottomNavigationBarItem(
           icon: Icon(Icons.manage_accounts),
           label: "סדרנות",
@@ -49,13 +50,12 @@ class _MainTabsShellState extends ConsumerState<MainTabsShell> {
 
     if (currentLocation.startsWith("/rides")) {
       currentIndex = 0;
-    } else if (user.is_dispatcher &&
-        currentLocation.startsWith("/dispatcher")) {
+    } else if (isDispatcher && currentLocation.startsWith("/dispatcher")) {
       currentIndex = 1;
     } else if (currentLocation.startsWith("/chats")) {
-      currentIndex = user.is_dispatcher ? 2 : 1;
+      currentIndex = isDispatcher ? 2 : 1;
     } else if (currentLocation.startsWith("/settings")) {
-      currentIndex = user.is_dispatcher ? 3 : 2;
+      currentIndex = isDispatcher ? 3 : 2;
     }
 
     return Scaffold(
