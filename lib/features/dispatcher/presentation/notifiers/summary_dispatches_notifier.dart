@@ -9,7 +9,6 @@ void addDispatch(Ride ride) {
   final newState = [...state, SummaryDispatchState.initialFromRide(ride)];
   state = newState;
 
-  print(state.single); 
 }
 
 
