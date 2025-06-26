@@ -1,4 +1,4 @@
-import 'package:driver_app/core/providers/settings_provider.dart';
+import 'package:driver_app/core/settings/presentation/providers/settings_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 class SettingsScreen extends ConsumerWidget {

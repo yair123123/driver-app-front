@@ -1,7 +1,7 @@
-import 'package:driver_app/features/auth/domain/repositories/auth_repository.dart';
+import 'package:driver_app/features/auth/domain/repositories/app_initial_repository.dart';
 
 class ClearToken {
-  AuthRepository repository;
+  AppInitialRepository repository;
 
   ClearToken(this.repository);
 

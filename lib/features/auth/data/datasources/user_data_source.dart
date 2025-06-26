@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:driver_app/features/main/domein/entities/response_user.dart';
-import 'package:driver_app/features/main/domein/entities/user.dart';
+import 'package:driver_app/features/auth/domain/entities/user.dart';
+import 'package:driver_app/features/auth/domain/entities/response_user.dart';
 import 'package:http/http.dart' as http;
 
 class UserDataSource {

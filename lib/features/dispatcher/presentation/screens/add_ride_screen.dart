@@ -1,5 +1,5 @@
+import 'package:driver_app/core/widgets/error_message.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
-import 'package:driver_app/features/dispatcher/presentation/widgets/error_message.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_details_field.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_header.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/templates_list.dart';

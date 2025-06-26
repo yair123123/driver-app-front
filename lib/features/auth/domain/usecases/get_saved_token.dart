@@ -1,7 +1,7 @@
-import 'package:driver_app/features/auth/domain/repositories/auth_repository.dart';
+import 'package:driver_app/features/auth/domain/repositories/app_initial_repository.dart';
 
 class GetSavedToken {
-  final AuthRepository authRepository;
+  final AppInitialRepository authRepository;
   GetSavedToken(this.authRepository);
 
   Future<String?> call() async{
