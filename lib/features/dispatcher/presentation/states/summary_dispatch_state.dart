@@ -1,5 +1,5 @@
-import 'package:driver_app/core/entities/ride.dart';
 import 'package:driver_app/core/enums/dispatch_status.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 
 class SummaryDispatchState {
   final String id;

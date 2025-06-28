@@ -43,9 +43,13 @@ class RideRepositoryImpl implements RideRepository {
   }
 
   @override
-  Future<void> completeRide(String takeRide) async {
-    // RideMessageDto rideDto = RideMessageDto(operationCode: RideOperationCode., content: takeRide, error: "");
-    // datasource.sendRideAction(rideDto);
+  Future<void> completeRide(String rideId) async {
+    RideMessageDto rideDto = RideMessageDto(
+      operationCode: RideOperationCode.finishingRide,
+      content: {"id": rideId},
+      error: "",
+    );
+    datasource.sendRideAction(rideDto);
   }
 
   @override
@@ -53,7 +57,9 @@ class RideRepositoryImpl implements RideRepository {
     return datasource.rideEvents.where(
       (event) =>
           event.operationCode == RideOperationCode.confirmReserve ||
-          event.operationCode == RideOperationCode.alreadyTaken,
+          event.operationCode == RideOperationCode.alreadyTaken || 
+          event.operationCode == RideOperationCode.confirmPickup ||
+          event.operationCode == RideOperationCode.confirmFinishingRide,
     );
   }
 }

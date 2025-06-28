@@ -1,5 +1,5 @@
 import 'package:driver_app/core/http/http_response_handler.dart';
-import 'package:driver_app/features/main/domein/entities/station.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
 import 'package:http/http.dart' as http;
 
 class RideHttpDatasource {

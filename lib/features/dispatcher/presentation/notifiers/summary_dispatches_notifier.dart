@@ -1,4 +1,4 @@
-import 'package:driver_app/core/entities/ride.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/summary_dispatch_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

@@ -1,5 +1,5 @@
 
-import 'package:driver_app/core/entities/ride.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:flutter/material.dart';
 
 class RideRouteLine extends StatelessWidget {

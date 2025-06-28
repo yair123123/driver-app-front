@@ -9,6 +9,9 @@ class LogicScreenNotifier extends StateNotifier<LogicScreenState> {
 
   LogicScreenNotifier(this.ref)
     : super(LogicScreenState.initial(ref.watch(initialScreenProvider).value!));
+  void resetForm(){
+    state = LogicScreenState.initial(ref.watch(initialScreenProvider).value!);
+  }
   void onPressTemplate(String template, TextEditingController controller) {
     final index = state.lines.indexWhere(
       (line) => line.step == state.currentStep,
@@ -23,10 +26,6 @@ class LogicScreenNotifier extends StateNotifier<LogicScreenState> {
 
     final updatedLines = [...state.lines];
     updatedLines[index] = updatedLine;
-
-    if (index == updatedLines.length - 1) {
-      updatedLines.add(FormLine(value: '', step: null));
-    }
 
     controller.text = updatedLines.map((e) => e.value).join('\n');
     controller.selection = TextSelection.fromPosition(

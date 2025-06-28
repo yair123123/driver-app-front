@@ -1,5 +1,5 @@
-import 'package:driver_app/core/entities/ride.dart';
 import 'package:driver_app/core/enums/ride_step.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 class ActiveRideState {
   final RideNextStep step;
   final Ride ride;

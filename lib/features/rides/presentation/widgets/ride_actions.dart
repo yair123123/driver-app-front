@@ -1,13 +1,15 @@
-import 'package:driver_app/core/entities/ride.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:flutter/material.dart';
 
 class RideActions extends StatelessWidget {
   final bool isRideActive;
   final Ride ride;
-  final void Function(Ride) onGiveRide;
+  final bool isLoading;
+  final VoidCallback onGiveRide;
 
   const RideActions({
     super.key,
+    required this.isLoading,
     required this.isRideActive,
     required this.ride,
     required this.onGiveRide,
@@ -21,7 +23,7 @@ class RideActions extends StatelessWidget {
         children: [
           ElevatedButton(
             child: const Text('תן'),
-            onPressed: isRideActive ? null : () =>  onGiveRide(ride),
+          onPressed: isRideActive ? null : onGiveRide,
           ),
           TextButton(
             child: const Text('צאט עם הסדרן'),

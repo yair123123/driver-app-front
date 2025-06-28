@@ -1,9 +1,9 @@
 import 'package:driver_app/core/widgets/error_message.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_details_field.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/ride_header.dart';
 import 'package:driver_app/features/dispatcher/presentation/widgets/templates_list.dart';
-import 'package:driver_app/features/main/domein/entities/station.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
@@ -35,6 +35,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   void clearForm() {
     controller.clear();
     ref.read(dispatchNotifierProvider.notifier).resetForm();
+    ref.read(logicScreenNotifierProvider.notifier).resetForm();
   }
 
   @override

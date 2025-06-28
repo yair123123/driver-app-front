@@ -1,4 +1,4 @@
-import 'package:driver_app/features/main/domein/entities/station.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
 
 class Settings {
   bool isDarkMode;

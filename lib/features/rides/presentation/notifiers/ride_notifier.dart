@@ -1,12 +1,10 @@
 import 'dart:async';
-
-import 'package:driver_app/core/entities/ride.dart';
 import 'package:driver_app/core/enums/ride_operation_code.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:driver_app/features/rides/domain/entities/event.dart';
 import 'package:driver_app/features/rides/domain/usecases/give_ride_usecase.dart';
 import 'package:driver_app/features/rides/domain/usecases/listen_to_new_rides.dart';
 import 'package:driver_app/features/rides/presentation/providers/active_ride_provider.dart';
-import 'package:driver_app/features/rides/presentation/providers/card_ride_provider.dart';
 import 'package:driver_app/features/rides/presentation/states/ride_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -37,7 +35,9 @@ class RideNotifier extends StateNotifier<RideState> {
     _subscription.cancel();
     super.dispose();
   }
-
+  void setSelectedRide({Ride? selectedRide}) {
+    state = state.copyWith(selectedRide: selectedRide);
+  }
   void newRide(Ride ride) {
     print("new ride");
     state = state.copyWith(
@@ -50,22 +50,18 @@ class RideNotifier extends StateNotifier<RideState> {
     );
   }
 
-  void giveRide(Ride ride) async {
+  Future<void> giveRide(Ride ride) async {
     _giveRideUsecase(ride.id);
-    ref.read(cardRideProvider.notifier).state = true;
     final res = await _confirmGiveRideUsecase(ride.id);
     if (res != null) {
       if (res.operationCode == RideOperationCode.alreadyTaken) {
-        ref.read(cardRideProvider.notifier).state = false;
         state = state.copyWith(errorMessage: "נסיעה כבר נמכרה");
         return;
       }
-      ref.read(cardRideProvider.notifier).state = false;
       state = state.copyWith(selectedRide: ride);
 
       ref.read(activeRideProvider.notifier).startActiveRide(ride);
     } else {
-      ref.read(cardRideProvider.notifier).state = false;
       state = state.copyWith(errorMessage: 'לא הצלחנו לקבל את הנסיעה נסה שוב');
     }
   }

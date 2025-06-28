@@ -1,6 +1,6 @@
-import 'package:driver_app/core/providers/settings_provider.dart';
+import 'package:driver_app/core/app/app_state_notifier.dart';
 import 'package:driver_app/core/router/app_router.dart';
-import 'package:driver_app/features/main/presentation/providers/app_provider.dart';
+import 'package:driver_app/features/bootstrap/presentation/providers/app_initial_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -11,10 +11,8 @@ class MyApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    ref.watch(authInitListenerProvider);
-    final settingsState = ref.watch(settingsProvider);
-    final router = ref.watch(routerProvider);
-  final app = ref.watch(appInitialProvider);
+    final router = ref.read(routerProvider);
+  final app = ref.watch(appStateNotifierProvider);
     return MaterialApp.router(
       routerConfig: router,
       debugShowCheckedModeBanner: false,
@@ -27,10 +25,10 @@ class MyApp extends ConsumerWidget {
       ],
       
       title: "דרייבר 10",
-      theme: app.isRideActive ? AppTheme.activeRideTheme : AppTheme.lightTheme ,
+      theme: app.activeRide != null ? AppTheme.activeRideTheme : AppTheme.lightTheme ,
       darkTheme: AppTheme.darkTheme,
       themeMode:
-          settingsState?.isDarkMode == true ? ThemeMode.dark : ThemeMode.light,
+          app.settings?.isDarkMode == true ? ThemeMode.dark : ThemeMode.light,
     );
   }
 }
