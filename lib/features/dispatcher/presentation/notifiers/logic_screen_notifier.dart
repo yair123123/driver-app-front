@@ -9,7 +9,7 @@ class LogicScreenNotifier extends StateNotifier<LogicScreenState> {
 
   LogicScreenNotifier(this.ref)
     : super(LogicScreenState.initial(ref.watch(initialScreenProvider).value!));
-  void resetForm(){
+  void resetLogic(){
     state = LogicScreenState.initial(ref.watch(initialScreenProvider).value!);
   }
   void onPressTemplate(String template, TextEditingController controller) {

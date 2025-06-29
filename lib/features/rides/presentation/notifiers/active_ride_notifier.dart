@@ -2,9 +2,6 @@ import 'package:driver_app/core/app/app_state_notifier.dart';
 import 'package:driver_app/core/enums/ride_step.dart';
 import 'package:driver_app/core/providers/rides_provider.dart';
 import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
-import 'package:driver_app/features/rides/domain/usecases/complete_ride.dart';
-import 'package:driver_app/features/rides/domain/usecases/give_ride_usecase.dart';
-import 'package:driver_app/features/rides/presentation/providers/active_ride_provider.dart';
 
 import 'package:driver_app/features/rides/presentation/providers/rides_list_provider.dart';
 import 'package:driver_app/features/rides/presentation/states/ative_ride_state.dart';

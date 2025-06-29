@@ -41,13 +41,28 @@ class StationsListScreen extends ConsumerWidget {
                 subtitle: Text(
                   station.rides.isNotEmpty ? (station.rides[0].comments) : '',
                 ),
+                trailing: Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
+                  decoration: BoxDecoration(
+                    color: Colors.green.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Text(
+                    '${station.rides.length} נסיעות',
+                    style: const TextStyle(
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 14,
+                    ),
+                  ),
+                ),
                 onTap: () {
-                  context.go(
-                    '/rides/list/station/${station.station_id}',
-                  );
+                  context.go('/rides/list/station/${station.station_id}');
                 },
               ),
-
               if (isVip) const VipTag(),
             ],
           ),

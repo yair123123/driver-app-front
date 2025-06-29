@@ -1,8 +1,8 @@
 import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
+import 'package:driver_app/features/bootstrap/presentation/providers/settings_provider.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/dispatch_ride_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/get_ack_dispatch_usecase.dart';
 import 'package:driver_app/features/dispatcher/presentation/notifiers/parser_util.dart';
-import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
 import 'package:driver_app/features/dispatcher/presentation/providers/summary_dispatches_provider.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -16,13 +16,11 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
     this.ref,
     this.getAckDispatch,
   ) : super(
-        DispatchState.initial(
-          ref.read(initialScreenProvider).valueOrNull?.stations.first,
-        ),
+        DispatchState.initial(ref),
       );
   void resetForm() {
     state = DispatchState.initial(
-      ref.read(initialScreenProvider).value!.stations.first,
+      ref,
     );
   }
 
@@ -32,8 +30,9 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
 
   Future<void> addRide(String text) async {
     state = state.copyWith(isLoading: true);
+    ref.read(settingsProvider.notifier).updateDefaultStation(state.station);
     try {
-      final result = parseRideFromText(text, state.station?.station_id);
+      final result = parseRideFromText(text, state.station.station_id);
 
       if (!result.isSuccess) {
         state = state.copyWith(isLoading: false, errorMessage: result.error);

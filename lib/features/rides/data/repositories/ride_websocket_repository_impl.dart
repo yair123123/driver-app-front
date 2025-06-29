@@ -57,7 +57,7 @@ class RideRepositoryImpl implements RideRepository {
     return datasource.rideEvents.where(
       (event) =>
           event.operationCode == RideOperationCode.confirmReserve ||
-          event.operationCode == RideOperationCode.alreadyTaken || 
+          event.operationCode == RideOperationCode.alreadyTaken ||
           event.operationCode == RideOperationCode.confirmPickup ||
           event.operationCode == RideOperationCode.confirmFinishingRide,
     );

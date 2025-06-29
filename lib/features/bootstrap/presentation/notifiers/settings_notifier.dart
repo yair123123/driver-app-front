@@ -1,35 +1,27 @@
+import 'package:driver_app/core/app/app_state_notifier.dart';
 import 'package:driver_app/core/settings/domain/entities/settings_entity.dart';
 import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
 import 'package:driver_app/features/bootstrap/domain/usecases/get_settings.dart';
 import 'package:driver_app/features/bootstrap/domain/usecases/set_settings.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-class SettingsNotifier extends StateNotifier<Settings?> {
+class SettingsNotifier extends StateNotifier<Settings> {
+  Ref ref;
   final GetSettings getSettings;
   final SetSettings setSettings;
-
-  SettingsNotifier(this.getSettings, this.setSettings) : super(null);
-
-  Future<void> fetchSettings() async {
-    try {
-      final settings = await getSettings();
-      state = settings;
-    } catch (e) {
-      state = null;
-      rethrow;
-    }
-  }
+  final Settings initialSettings;
+  SettingsNotifier(this.getSettings, this.setSettings,this.initialSettings,this.ref) : super(initialSettings);
 
   Future<void> updateDarkMode(bool isDarkMode) async {
-    if (state == null) return;
-    final updated = state!.copyWith(isDarkMode: isDarkMode);
+    final updated = state.copyWith(isDarkMode: isDarkMode);
+    ref.read(appStateNotifierProvider.notifier).setSettings(state);
     state = updated;
-    await setSettings(updated);
+    setSettings(updated);
   }
 
   Future<void> updateDefaultStation(Station station) async {
-    if (state == null) return;
-    final updated = state!.copyWith(defaultStation: station);
+    final updated = state.copyWith(defaultStationId: station.station_id);
     state = updated;
-    await setSettings(updated);
+    ref.read(appStateNotifierProvider.notifier).setSettings(state);
+    setSettings(updated);
   }
 }

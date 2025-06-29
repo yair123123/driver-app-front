@@ -1,6 +1,6 @@
 import 'package:driver_app/features/bootstrap/presentation/notifiers/bootstrap_ctrl.dart';
 import 'package:driver_app/features/bootstrap/presentation/states/boot_state.dart';
-import 'package:driver_app/features/bootstrap/presentation/notifiers/bootstrap_ctrl.dart'; // Ensure this import provides bootStrapProvider
+// Ensure this import provides bootStrapProvider
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

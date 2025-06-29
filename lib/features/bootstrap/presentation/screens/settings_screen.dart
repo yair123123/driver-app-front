@@ -7,18 +7,17 @@ class SettingsScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final settings = ref.watch(settingsProvider);
+    final nutifier = ref.read(settingsProvider.notifier);
 
     return Scaffold(
-      body: settings == null
-          ? const Center(child: CircularProgressIndicator())
-          : ListView(
+      body:ListView(
               padding: const EdgeInsets.all(16),
               children: [
                 SwitchListTile(
                   value: settings.isDarkMode,
                   title: const Text('מצב כהה'),
                   onChanged: (value) =>
-                      ref.read(settingsProvider.notifier).updateDarkMode(value),
+                      nutifier.updateDarkMode(value),
                 ),
               ],
             ),

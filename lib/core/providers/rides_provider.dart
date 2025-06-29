@@ -20,7 +20,7 @@ final confirmfinishingRideUsecaseProvider = Provider<ConfirmFinishingRideUsecase
 final confirmPickUpUsecaseProvider = Provider<ConfirmGiveRideUsecase>(
   (ref) =>
       ConfirmGiveRideUsecase(rideRepository: ref.watch(rideRepositoryProvider)),
-);
+);  
 
 final giveRideUsecaseProvider = Provider<GiveRideUsecase>(
   (ref) => GiveRideUsecase(ref.watch(rideRepositoryProvider)),

@@ -25,7 +25,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   void onPressTemplate(String template) {
     ref
         .read(logicScreenNotifierProvider.notifier)
-        .onPressTemplate(template,controller);
+        .onPressTemplate(template, controller);
   }
 
   void onChange() {
@@ -35,7 +35,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
   void clearForm() {
     controller.clear();
     ref.read(dispatchNotifierProvider.notifier).resetForm();
-    ref.read(logicScreenNotifierProvider.notifier).resetForm();
+    ref.read(logicScreenNotifierProvider.notifier).resetLogic();
   }
 
   @override
@@ -72,6 +72,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
         .watch(initialScreenProvider)
         .when(
           data: (provider) {
+            final state = ref.read(dispatchNotifierProvider);
             return Scaffold(
               appBar: AppBar(
                 title: const Text("פרסום נסיעה"),
@@ -97,7 +98,7 @@ class _AddRideScreenState extends ConsumerState<AddRideScreen> {
                                     ),
                                   )
                                   .toList(),
-                          value: provider.stations.first,
+                          value: state.station,
                           onChanged: onChangeStation,
                         ),
                         Header(),
