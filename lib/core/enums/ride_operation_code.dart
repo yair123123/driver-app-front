@@ -70,9 +70,6 @@ finishingRide,
 /// Confirms that the ride completion was acknowledged by the server.
 /// Ensures the ride is marked as finished on both client and server sides.
 confirmFinishingRide,
-
-
-
 }
 
 const Map<RideOperationCode, int> rideOperationCodeValues = {
@@ -95,6 +92,7 @@ const Map<RideOperationCode, int> rideOperationCodeValues = {
   RideOperationCode.confirmFinishingRide: 219,
   RideOperationCode.alreadyTaken: 220,
 };
+
 
 RideOperationCode rideOperationCodeFromInt(int value) {
   return rideOperationCodeValues.entries

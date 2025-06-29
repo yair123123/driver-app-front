@@ -13,7 +13,7 @@ class RideDetailsField extends StatelessWidget {
         border: OutlineInputBorder(),
       ),
       keyboardType: TextInputType.multiline,
-      maxLines: 8,
+      maxLines: 12,
     );
   }
 }

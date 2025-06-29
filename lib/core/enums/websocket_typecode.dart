@@ -1,7 +1,7 @@
-enum WebSocketTypeCode { code, location, rides, chat }
+enum WebSocketTypeCode { code, connected, rides, chat }
 
 const Map<WebSocketTypeCode, int> webSocketTypeCodeValues = {
-  WebSocketTypeCode.location: 1,
+  WebSocketTypeCode.connected: 0,
   WebSocketTypeCode.rides: 2,
   WebSocketTypeCode.chat: 3,
 };

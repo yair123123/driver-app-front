@@ -1,9 +1,10 @@
-import 'package:driver_app/core/entities/ride.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
+import 'package:driver_app/features/bootstrap/presentation/providers/settings_provider.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/dispatch_ride_usecase.dart';
 import 'package:driver_app/features/dispatcher/domain/usecases/get_ack_dispatch_usecase.dart';
-import 'package:driver_app/features/dispatcher/presentation/providers/dispatch_provider.dart';
+import 'package:driver_app/features/dispatcher/presentation/notifiers/parser_util.dart';
+import 'package:driver_app/features/dispatcher/presentation/providers/summary_dispatches_provider.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
-import 'package:driver_app/features/main/domein/entities/station.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class FormDispatchNotifier extends StateNotifier<DispatchState> {
@@ -15,13 +16,11 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
     this.ref,
     this.getAckDispatch,
   ) : super(
-        DispatchState.initial(
-          ref.read(initialScreenProvider).valueOrNull?.stations.first,
-        ),
+        DispatchState.initial(ref),
       );
   void resetForm() {
     state = DispatchState.initial(
-      ref.read(initialScreenProvider).value!.stations.first,
+      ref,
     );
   }
 
@@ -31,28 +30,21 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
 
   Future<void> addRide(String text) async {
     state = state.copyWith(isLoading: true);
+    ref.read(settingsProvider.notifier).updateDefaultStation(state.station);
     try {
-      final rideDetails = text;
-      final lines = rideDetails.split('\n');
-      if (lines.length < 7) {
-        state = state.copyWith(
-          isLoading: false,
-          errorMessage: 'אנא ודא שמילאת את כל השדות.',
-        );
+      final result = parseRideFromText(text, state.station.station_id);
+
+      if (!result.isSuccess) {
+        state = state.copyWith(isLoading: false, errorMessage: result.error);
         return;
       }
-      final cost = int.tryParse(lines[4]);
-      if (cost == null) {
-        state = state.copyWith(
-          isLoading: false,
-          errorMessage: 'המחיר חייב להיות מספר.',
-        );
-        return;
-      }
-      final ride = Ride.initialRideFromLines(lines, state.station!.station_id);
+
+      final ride = result.ride!;
+
       dispatchNewRideUsecase(ride);
       final ack = await getAckDispatch(ride.id);
       if (ack) {
+        ref.read(summaryRidesProvider.notifier).addDispatch(ride);
         state = state.copyWith(send: true, isLoading: false);
       } else {
         state = state.copyWith(
@@ -63,6 +55,7 @@ class FormDispatchNotifier extends StateNotifier<DispatchState> {
     } catch (e) {
       state = state.copyWith(
         send: false,
+        isLoading: false,
         errorMessage: 'שגיאה בשליחת נסיעה: $e',
       );
     }

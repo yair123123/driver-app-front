@@ -1,7 +1,7 @@
 // ride_state.dart
-import 'package:driver_app/core/entities/ride.dart';
-import 'package:driver_app/core/providers/user_provider.dart';
-import 'package:driver_app/features/main/domein/entities/station.dart';
+import 'package:driver_app/core/app/app_state_notifier.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class RideState {
@@ -29,6 +29,5 @@ class RideState {
     );
   }
   factory RideState.initial(Ref ref) =>
-  RideState(stations:  ref.watch(userProvider)!.driver_stations);
-
+  RideState(stations:  ref.read(appStateNotifierProvider).user!.driver_stations);
 }

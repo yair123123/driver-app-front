@@ -1,5 +1,5 @@
-import 'package:driver_app/core/entities/ride.dart';
 import 'package:driver_app/core/enums/ride_operation_code.dart';
+import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datasource.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/cancel_ride.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';

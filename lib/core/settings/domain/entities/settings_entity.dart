@@ -1,15 +1,14 @@
-import 'package:driver_app/features/main/domein/entities/station.dart';
 
 class Settings {
   bool isDarkMode;
-  Station? defaultStation;
+  int? defaultStationId;
 
-  Settings({required this.isDarkMode,this.defaultStation});
+  Settings({required this.isDarkMode,this.defaultStationId});
 
-  Settings copyWith({bool? isDarkMode,Station? defaultStation}) {
+  Settings copyWith({bool? isDarkMode,int? defaultStationId}) {
     return Settings(
       isDarkMode: isDarkMode ?? this.isDarkMode,
-      defaultStation: defaultStation ?? this.defaultStation
+      defaultStationId: defaultStationId ?? this.defaultStationId
       
     );
   }

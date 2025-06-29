@@ -1,5 +1,5 @@
+import 'package:driver_app/features/bootstrap/domain/entities/user/user.dart';
 import 'package:flutter/material.dart';
-import 'package:driver_app/features/main/domein/entities/user.dart';
 
 class DriverAppBar extends StatelessWidget implements PreferredSizeWidget {
   final User user;

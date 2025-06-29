@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class Header extends ConsumerWidget {
-  final Map<FormStep, String> fieldNames = {
+  const Header({super.key});
+
+  static const Map<FormStep, String> fieldNames = {
     FormStep.originCity: "מוצא עיר",
     FormStep.originNeighborhood: "מוצא שכונה",
     FormStep.destinationCity: "יעד עיר",
@@ -13,10 +15,12 @@ class Header extends ConsumerWidget {
     FormStep.phone: "טלפון",
     FormStep.comment: "פרטים נוספים",
   };
+
   @override
-  Widget build(BuildContext context,WidgetRef ref) {
-    final currentField =  fieldNames[ref.watch(logicScreenNotifierProvider.select((s)=> s.step))];
-    
+  Widget build(BuildContext context, WidgetRef ref) {
+    final currentStep = ref.watch(logicScreenNotifierProvider).currentStep;
+    final currentField = fieldNames[currentStep] ?? "שדה לא ידוע";
+
     return Container(
       padding: const EdgeInsets.all(12),
       width: double.infinity,
@@ -30,6 +34,7 @@ class Header extends ConsumerWidget {
           fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
+        textDirection: TextDirection.rtl,
       ),
     );
   }

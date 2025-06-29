@@ -1,5 +1,5 @@
+import 'package:driver_app/core/app/app_state_notifier.dart';
 import 'package:driver_app/core/providers/dispatch_provider.dart';
-import 'package:driver_app/core/providers/user_provider.dart';
 import 'package:driver_app/features/dispatcher/presentation/notifiers/form_dispatch_notifier.dart';
 import 'package:driver_app/features/dispatcher/presentation/notifiers/logic_screen_notifier.dart';
 import 'package:driver_app/features/dispatcher/presentation/states/form_dispatch_state.dart';
@@ -23,7 +23,7 @@ final logicScreenNotifierProvider =
 final FutureProvider<InitialScreenState> initialScreenProvider = FutureProvider(
   (ref) async {
     final initialScreen = await ref.read(initialScreenUseCaseProvider)();
-    final stations = ref.read(userProvider)!.dispatcher_stations;
+    final stations = ref.read(appStateNotifierProvider).user!.dispatcher_stations;
     return InitialScreenState.fromModel(
       initialScreen: initialScreen,
       stations: stations,

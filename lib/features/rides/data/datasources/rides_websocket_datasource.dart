@@ -23,8 +23,8 @@ class RidesWebSocketDatasource {
   }
 
   void sendRideAction(RideMessageDto ride) {
-    wbSocket.send(WebSocketDto(content: ride, typeCode: WebSocketTypeCode.rides, error: ""));
+    wbSocket.send(
+      WebSocketDto(content: ride, typeCode: WebSocketTypeCode.rides, error: ""),
+    );
   }
-
-
 }

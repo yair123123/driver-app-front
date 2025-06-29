@@ -10,21 +10,17 @@ class DispatcherDatasource {
   DispatcherDatasource(this.webSocketService);
 
   Future<InitialScreen> initialScreen() async {
-    try {
-      List<String> cities = await loadJsonList("assets/cities.json");
-      Map<String, List<String>> neighborhoods = await loadJsonMap(
-        "assets/neighborhoods.json",
-        (value) => List<String>.from(value),
-      );
-      Map<String, List<int>> prices = await loadJsonMap<List<int>>(
-        "assets/prices.json",
-        (value) => List<int>.from(value.map((e) => int.parse(e.toString()))),
-      );
-      return InitialScreen(cities, neighborhoods, prices);
-    } catch (e) {
-      print("catch error $e");
-      return InitialScreen([], {}, {});
-    }
+    List<String> cities = await loadJsonList("cities.json");
+    Map<String, List<String>> neighborhoods = await loadJsonMap(
+      "neighborhoods.json",
+      (value) => List<String>.from(value),
+    );
+    Map<String, List<int>> prices = await loadJsonMap<List<int>>(
+      "prices.json",
+      (value) => List<int>.from(value.map((e) => int.parse(e.toString()))),
+    );
+    List<String> comments = await loadJsonList("comments.json");
+    return InitialScreen(cities, neighborhoods, prices, comments);
   }
 
   void sendRideAction(RideMessageDto ride) {
