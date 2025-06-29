@@ -58,6 +58,5 @@ class Location with _$Location {
       _$LocationFromJson(json);
 }
 
-
 Ride rideFromJson(String str) => Ride.fromJson(json.decode(str));
 String rideToJson(Ride data) => json.encode(data.toJson());

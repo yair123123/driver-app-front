@@ -56,8 +56,8 @@ class AppTheme {
       foregroundColor: Colors.white,
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: _activePrimary,
-      foregroundColor: Colors.white,
+      backgroundColor: Colors.white,
+      foregroundColor:   _activePrimary,
     ),
     useMaterial3: true,
   );
