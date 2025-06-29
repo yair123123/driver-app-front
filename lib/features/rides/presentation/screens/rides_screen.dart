@@ -52,6 +52,10 @@ class StationRidesScreen extends ConsumerWidget {
     }
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text(station.station_name),
+        
+      ),
       body: station.rides.isEmpty
           ? const Center(child: Text('אין הודעות להצגה.'))
           : _buildRidesList(station.rides, isRideActive != null, ref),

@@ -13,8 +13,8 @@ class SettingsNotifier extends StateNotifier<Settings> {
 
   Future<void> updateDarkMode(bool isDarkMode) async {
     final updated = state.copyWith(isDarkMode: isDarkMode);
-    ref.read(appStateNotifierProvider.notifier).setSettings(state);
     state = updated;
+    ref.read(appStateNotifierProvider.notifier).setSettings(state);
     setSettings(updated);
   }
 

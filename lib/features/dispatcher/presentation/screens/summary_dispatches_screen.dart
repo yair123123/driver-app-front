@@ -6,45 +6,57 @@ import 'package:go_router/go_router.dart';
 
 class SummaryDispatchesScreen extends ConsumerWidget {
   const SummaryDispatchesScreen({super.key});
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final List<SummaryDispatchState> rides = ref.watch(summaryRidesProvider);
-    print(rides);
+
     return Scaffold(
-      body: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: DataTable(
-          columns: [
-            DataColumn(label: Text("מזהה נסיעה")),
-            DataColumn(label: Text("מוצא")),
-            DataColumn(label: Text("יעד")),
-            DataColumn(label: Text("סטטוס נסיעה")),
-            DataColumn(label: Text("נהג")),
-            DataColumn(label: Text("צאט עם נהג")),
-          ],
-          rows:
-              rides
-                  .map(
-                    (r) => DataRow(
+      appBar: AppBar(title: const Text("סיכום נסיעות")),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: DataTable(
+              columnSpacing: 20,
+              headingRowColor: WidgetStateProperty.all(Colors.grey[200]),
+              columns: const [
+                DataColumn(label: Text("מזהה נסיעה")),
+                DataColumn(label: Text("מוצא")),
+                DataColumn(label: Text("יעד")),
+                DataColumn(label: Text("סטטוס נסיעה")),
+                DataColumn(label: Text("נהג")),
+                DataColumn(label: Text("צ'אט עם נהג")),
+              ],
+              rows:
+                  rides.map((r) {
+                    return DataRow(
                       cells: [
-                        DataCell(Text(r.id)),
-                        DataCell(Text(r.origin)),
-                        DataCell(Text(r.destination)),
+                        DataCell(Text(r.id.substring(0, 6))), // קיצור מזהה
+                        DataCell(
+                          Text(r.origin, overflow: TextOverflow.ellipsis),
+                        ),
+                        DataCell(
+                          Text(r.destination, overflow: TextOverflow.ellipsis),
+                        ),
                         DataCell(Text(r.status.name)),
-                        DataCell(Text(r.driverName ?? " ")),
+                        DataCell(Text(r.driverName ?? "לא שובץ")),
                         DataCell(
                           r.driverName != null
-                              ? TextButton(
-                                child: Text("עבור לצאט"),
-                                onPressed: () => context.go('chats/driverId'),
+                              ? ElevatedButton.icon(
+                                onPressed:
+                                    () => context.go('/chats/${r.driverName}'),
+                                icon: const Icon(Icons.chat_bubble_outline),
+                                label: const Text("צ'אט"),
                               )
-                              : Text(""),
+                              : const Text("-"),
                         ),
                       ],
-                    ),
-                  )
-                  .toList(),
+                    );
+                  }).toList(),
+            ),
+          ),
         ),
       ),
     );
