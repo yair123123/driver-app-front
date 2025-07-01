@@ -4,30 +4,30 @@ import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class RideState {
+class RidesScreenState {
   final Ride? selectedRide;
   final List<Station> stations;
   final String? errorMessage;
   
-  const RideState({
+  const RidesScreenState({
 
     required this.stations,
     this.selectedRide = null,
     this.errorMessage,
   });
 
-  RideState copyWith({
+  RidesScreenState copyWith({
     Ride? selectedRide,
     List<Station>? stations,
     bool? isLoading,
     String? errorMessage,
   }) {
-    return RideState(
+    return RidesScreenState(
       selectedRide: selectedRide ?? this.selectedRide,
       stations: stations ?? this.stations,
       errorMessage: errorMessage,
     );
   }
-  factory RideState.initial(Ref ref) =>
-  RideState(stations:  ref.read(appStateNotifierProvider).user!.driver_stations);
+  factory RidesScreenState.initial(Ref ref) =>
+  RidesScreenState(stations:  ref.read(appStateNotifierProvider).user!.driver_stations);
 }

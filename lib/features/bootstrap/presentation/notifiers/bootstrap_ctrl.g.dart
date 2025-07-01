@@ -6,7 +6,7 @@ part of 'bootstrap_ctrl.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$bootstrapCtrlHash() => r'98cd13bb8d6c24b63696ad11418596ca0091dcbe';
+String _$bootstrapCtrlHash() => r'61f0c1a569e89e8e63b52ce5d10652a36da9afe6';
 
 /// See also [BootstrapCtrl].
 @ProviderFor(BootstrapCtrl)

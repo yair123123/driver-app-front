@@ -8,7 +8,7 @@ import 'package:driver_app/features/rides/presentation/providers/active_ride_pro
 import 'package:driver_app/features/rides/presentation/states/ride_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class RideNotifier extends StateNotifier<RideState> {
+class RideNotifier extends StateNotifier<RidesScreenState> {
   final ListenToNewEventsUsecase listenToNewEvents;
   final GiveRideUsecase _giveRideUsecase;
   final ConfirmGiveRideUsecase _confirmGiveRideUsecase;
@@ -21,7 +21,7 @@ class RideNotifier extends StateNotifier<RideState> {
     this.listenToNewEvents,
     this._giveRideUsecase,
     this._confirmGiveRideUsecase,
-  ) : super(RideState.initial(ref)) {
+  ) : super(RidesScreenState.initial(ref)) {
     _subscription = listenToNewEvents().listen((event) {
       if (event is NewRideEvent) {
         newRide(event.ride);
@@ -54,7 +54,7 @@ class RideNotifier extends StateNotifier<RideState> {
     _giveRideUsecase(ride.id);
     final res = await _confirmGiveRideUsecase(ride.id);
     if (res != null) {
-      if (res.operationCode == RideOperationCode.alreadyTaken) {
+      if (res.operationCode == RideOperationCode.rideRequestDeniedAlreadyTaken) {
         state = state.copyWith(errorMessage: "נסיעה כבר נמכרה");
         return;
       }

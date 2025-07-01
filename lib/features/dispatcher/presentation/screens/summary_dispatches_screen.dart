@@ -10,55 +10,115 @@ class SummaryDispatchesScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final List<SummaryDispatchState> rides = ref.watch(summaryRidesProvider);
 
+
     return Scaffold(
-      appBar: AppBar(title: const Text("סיכום נסיעות")),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: DataTable(
-              columnSpacing: 20,
-              headingRowColor: WidgetStateProperty.all(Colors.grey[200]),
-              columns: const [
-                DataColumn(label: Text("מזהה נסיעה")),
-                DataColumn(label: Text("מוצא")),
-                DataColumn(label: Text("יעד")),
-                DataColumn(label: Text("סטטוס נסיעה")),
-                DataColumn(label: Text("נהג")),
-                DataColumn(label: Text("צ'אט עם נהג")),
-              ],
-              rows:
-                  rides.map((r) {
-                    return DataRow(
-                      cells: [
-                        DataCell(Text(r.id.substring(0, 6))), // קיצור מזהה
-                        DataCell(
-                          Text(r.origin, overflow: TextOverflow.ellipsis),
-                        ),
-                        DataCell(
-                          Text(r.destination, overflow: TextOverflow.ellipsis),
-                        ),
-                        DataCell(Text(r.status.name)),
-                        DataCell(Text(r.driverName ?? "לא שובץ")),
-                        DataCell(
-                          r.driverName != null
-                              ? ElevatedButton.icon(
-                                onPressed:
-                                    () => context.go('/chats/${r.driverName}'),
-                                icon: const Icon(Icons.chat_bubble_outline),
-                                label: const Text("צ'אט"),
-                              )
-                              : const Text("-"),
-                        ),
-                      ],
-                    );
-                  }).toList(),
-            ),
-          ),
-        ),
+      appBar: AppBar(
+        title: Text('סיכום נסיעות'),
       ),
+      body: rides.isEmpty
+          ? Center(child: Text("לא נמצאו נסיעות"))
+          : ListView.separated(
+              padding: const EdgeInsets.all(16),
+              itemCount: rides.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 16),
+              itemBuilder: (context, i) {
+                final ride = rides[i];
+                return Card(
+                  elevation: 6,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18),
+                  ),
+                  color: Theme.of(context).colorScheme.surfaceVariant,
+                  shadowColor: Theme.of(context).colorScheme.primary.withOpacity(0.18),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Icon(Icons.directions_car, color: Theme.of(context).colorScheme.primary),
+                            const SizedBox(width: 8),
+                            Text(
+                              "נסיעה #${ride.id.substring(0,6)}",
+                              style: Theme.of(context).textTheme.titleLarge,
+                            ),
+                            const Spacer(),
+                            Chip(
+                              label: Text(
+                                ride.status.name,
+                                style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                                  color: Theme.of(context).colorScheme.onPrimary,
+                                ),
+                              ),
+                              backgroundColor: Theme.of(context).colorScheme.primary,
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 14),
+                        Row(
+                          children: [
+                            Icon(Icons.place, size: 20, color: Theme.of(context).colorScheme.secondary),
+                            const SizedBox(width: 4),
+                            Expanded(
+                              child: Text(
+                                "מוצא: ${ride.origin}",
+                                style: Theme.of(context).textTheme.bodyMedium,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 4),
+                        Row(
+                          children: [
+                            Icon(Icons.flag, size: 20, color: Theme.of(context).colorScheme.tertiary),
+                            const SizedBox(width: 4),
+                            Expanded(
+                              child: Text(
+                                "יעד: ${ride.destination}",
+                                style: Theme.of(context).textTheme.bodyMedium,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        Row(
+                          children: [
+                            Icon(Icons.person, size: 20, color: Theme.of(context).colorScheme.secondary),
+                            const SizedBox(width: 4),
+                            Text(
+                              "נהג: ${ride.driverName ?? "לא שובץ"}",
+                              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 12),
+                        if (ride.driverName != null)
+                          Align(
+                            alignment: Alignment.centerLeft,
+                            child: ElevatedButton.icon(
+                              onPressed: () => context.go('chats/driverId'), // אפשר להכניס את ה-ID
+                              icon: Icon(Icons.chat),
+                              label: Text("עבור לצ'אט"),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Theme.of(context).colorScheme.primary,
+                                foregroundColor: Theme.of(context).colorScheme.onPrimary,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            ),
     );
   }
 }

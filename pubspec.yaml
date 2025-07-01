@@ -6,20 +6,16 @@ environment:
   sdk: ^3.7.0
   flutter: ">=3.22.0"
 
-# ─────────────────────────────────────────────────────────
-# ⬇︎ RUNTIME DEPENDENCIES
-# ─────────────────────────────────────────────────────────
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
 
-  # Core state-management
-  flutter_riverpod: ^2.6.1        # stable (Oct-2024)
-  riverpod_annotation: ^2.6.1     # מאקרו @Riverpod / @riverpod
+  flutter_riverpod: ^2.6.1        
+  riverpod_annotation: ^2.6.1     
 
-  go_router: ^15.1.2              # תומך ב-Riverpod listenable
+  go_router: ^15.1.2              
 
   # HTTP / WS / Storage
   http: ^1.3.0
@@ -37,8 +33,6 @@ dependencies:
   country_flags: ^3.2.0
   cupertino_icons: ^1.0.8
 
-  # (אופציונלי) עדיין משתמש ב-provider?
-  provider: ^6.0.0     # הסר אם עברתם 100 % ל-Riverpod
 
   # Data classes
   freezed_annotation: ^2.4.1

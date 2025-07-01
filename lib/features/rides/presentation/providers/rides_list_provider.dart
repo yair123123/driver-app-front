@@ -3,7 +3,7 @@ import 'package:driver_app/features/rides/presentation/notifiers/ride_notifier.d
 import 'package:driver_app/features/rides/presentation/states/ride_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final rideNotifierProvider = StateNotifierProvider<RideNotifier, RideState>((
+final rideNotifierProvider = StateNotifierProvider<RideNotifier, RidesScreenState>((
   ref,
 ) {
   final listenToNewRides = ref.watch(listenToNewRidesUseCaseProvider);

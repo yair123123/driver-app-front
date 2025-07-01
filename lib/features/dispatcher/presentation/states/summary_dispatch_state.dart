@@ -8,7 +8,6 @@ class SummaryDispatchState {
   final DispatchStatus status;
   final String? driverName;
   final String passengerPhone;
-
   SummaryDispatchState({
     required this.id,
     required this.origin,
@@ -18,6 +17,23 @@ class SummaryDispatchState {
     required this.passengerPhone,
   });
 
+  SummaryDispatchState copyWith({
+    String? id,
+    String? origin,
+    String? destination,
+    DispatchStatus? status,
+    String? driverName,
+    String? passengerPhone,
+  }) {
+    return SummaryDispatchState(
+      id: id ?? this.id,
+      origin: origin ?? this.origin,
+      destination: destination ?? this.destination,
+      status: status ?? this.status,
+      driverName: driverName ?? this.driverName,
+      passengerPhone: passengerPhone ?? this.passengerPhone,
+    );
+  }
   factory SummaryDispatchState.initialFromRide(Ride ride) {
     return SummaryDispatchState(
       id: ride.id,

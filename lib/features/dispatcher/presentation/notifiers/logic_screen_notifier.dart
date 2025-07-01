@@ -8,9 +8,9 @@ class LogicScreenNotifier extends StateNotifier<LogicScreenState> {
   final Ref ref;
 
   LogicScreenNotifier(this.ref)
-    : super(LogicScreenState.initial(ref.watch(initialScreenProvider).value!));
+    : super(LogicScreenState.initial(ref.watch(formDispatchNotifierProvider).value!));
   void resetLogic(){
-    state = LogicScreenState.initial(ref.watch(initialScreenProvider).value!);
+    state = LogicScreenState.initial(ref.watch(formDispatchNotifierProvider).value!);
   }
   void onPressTemplate(String template, TextEditingController controller) {
     final index = state.lines.indexWhere(
