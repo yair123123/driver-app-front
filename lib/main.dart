@@ -9,6 +9,5 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (!kIsWeb) await dotenv.load();
   Env.init();
-  runApp(const ProviderScope(child:MyApp()));
+  runApp(const ProviderScope(child: MyApp()));
 }
-
