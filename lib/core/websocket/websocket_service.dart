@@ -55,6 +55,7 @@ class WebSocketService {
 
     return completer.future;
   } catch (e, st) {
+    print(e);
     _controller.addError(e, st);
     return false;
   }
