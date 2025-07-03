@@ -28,7 +28,7 @@ class SummaryDispatchesScreen extends ConsumerWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18),
                   ),
-                  color: Theme.of(context).colorScheme.surfaceVariant,
+                  color: Theme.of(context).colorScheme.surfaceContainerHighest,
                   shadowColor: Theme.of(context).colorScheme.primary.withOpacity(0.18),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
