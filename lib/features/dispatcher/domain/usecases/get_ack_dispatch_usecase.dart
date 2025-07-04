@@ -6,18 +6,16 @@ class GetAckDispatchUsecase {
   final DispatchRepository repository;
   GetAckDispatchUsecase(this.repository);
 
-  Future<bool> call(String rideId) async {
+  Future<void> call(String rideId) async {
     try {
       await repository
           .getAckDispatch()
           .firstWhere((ack) => ack['id'] == rideId)
           .timeout(Duration(seconds: 10));
-      return true;
     } on TimeoutException {
-      return false;
+      throw('Error getting dispatch acknowledgment: Timeout');
     } catch (e) {
-      print('Error getting dispatch acknowledgment: $e');
-      return false;
+      throw('Error getting dispatch acknowledgment: $e');
     }
   }
 }

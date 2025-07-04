@@ -15,7 +15,7 @@ class ListenToNewEventsUsecase {
         .map((dto) {
           if (dto.operationCode == RideOperationCode.advertiseToDrivers) {
             return NewRideEvent(Ride.fromJson(dto.content));
-          } else if (dto.operationCode == RideOperationCode.advertiseTaken) {
+          } else if (dto.operationCode == RideOperationCode.rideRequestDeniedAlreadyTaken) {
             return CancelRideEvent(dto.content['id']);
           } else {
             return null;

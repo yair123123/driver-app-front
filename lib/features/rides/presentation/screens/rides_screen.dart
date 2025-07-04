@@ -23,7 +23,7 @@ class StationRidesScreen extends ConsumerWidget {
       ),
     );
 
-    ref.listen<RideState>(
+    ref.listen<RidesScreenState>(
       rideNotifierProvider,
       (previous, next) {
         if (next.errorMessage != null &&

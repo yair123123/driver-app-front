@@ -1,19 +1,22 @@
 import 'package:driver_app/core/enums/ride_operation_code.dart';
 import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
-import 'package:driver_app/features/dispatcher/data/datasources/dispatcher_datasource.dart';
+import 'package:driver_app/features/dispatcher/data/datasources/http_datasource.dart';
+import 'package:driver_app/features/dispatcher/data/datasources/websocket_datasource.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/cancel_ride.dart';
-import 'package:driver_app/features/dispatcher/domain/entities/initail_screen.dart';
+import 'package:driver_app/features/dispatcher/domain/entities/initial_screen.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
 import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 
 class DispatchRepositoryImpl implements DispatchRepository {
-  final DispatcherDatasource datasource;
+  final HttpDatasource httoDatasource;
+  final WebsocketDatasource websocketDatasource;
 
-  DispatchRepositoryImpl(this.datasource);
+  DispatchRepositoryImpl(this.httoDatasource,this.websocketDatasource);
 
-  Future<InitialScreen> initialScreen(){
-    return datasource.initialScreen();
+  Future<InitialScreen> initialScreen() {
+    return httoDatasource.initialScreenByApi();
   }
+
   @override
   void cancelRide(CancelRide cancel) {
     RideMessageDto rideDto = RideMessageDto(
@@ -21,7 +24,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
       content: cancel,
       error: "",
     );
-    datasource.sendRideAction(rideDto);
+    websocketDatasource.sendRideAction(rideDto);
   }
 
   @override
@@ -31,7 +34,7 @@ class DispatchRepositoryImpl implements DispatchRepository {
       content: ride,
       error: "",
     );
-    datasource.sendRideAction(rideDto);
+    websocketDatasource.sendRideAction(rideDto);
   }
 
   @override
@@ -41,12 +44,32 @@ class DispatchRepositoryImpl implements DispatchRepository {
       content: ride,
       error: "",
     );
-    datasource.sendRideAction(rideDto);
+    websocketDatasource.sendRideAction(rideDto);
   }
+
   @override
-  Stream<Map<String,String>> getAckDispatch(){
-    return datasource.getRidesEvents()
-        .where((event) => event.operationCode == RideOperationCode.confirmDispatch)
-        .map((event) => Map<String,String>.from(event.content));
+  Stream<Map<String, String>> getAckDispatch() {
+    return websocketDatasource
+        .getRidesEvents()
+        .where(
+          (event) => event.operationCode == RideOperationCode.confirmDispatch,
+        )
+        .map((event) => Map<String, String>.from(event.content));
   }
+
+  @override
+  Stream<RideMessageDto > getEventsActiveRide() {
+    return websocketDatasource
+        .getRidesEvents()
+        .where(
+          (event) =>
+              event.operationCode ==
+                  RideOperationCode.notifyDispatcherPassengerWasPickedUp ||
+              event.operationCode ==
+                  RideOperationCode.notifyDispatcherRideWasTaken ||
+              event.operationCode ==
+                  RideOperationCode.notifyDispatcherRideEnded ||
+              event.operationCode ==
+                  RideOperationCode.notifyDispatcherRideRequestWasCanceled,
+        );  }
 }

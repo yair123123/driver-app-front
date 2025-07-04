@@ -15,7 +15,8 @@ class BootstrapCtrl extends _$BootstrapCtrl {
   Future<BootState> build() async {
     final token = await ref.read(getSavedTokenProvider)();
     if (token == null) return const BootState.unauthenticated();
-
+    final validate = await ref.read(validateTokenProvider)(token);
+    if (!validate) return const BootState.unauthenticated();
     state = const AsyncData(BootState.warmingUp(BootStep.socket));
     final socketOk = await ref.read(webSocketServiceInstanceProvider).connect(token);
     if (!socketOk) return const BootState.error('WebSocket failed');

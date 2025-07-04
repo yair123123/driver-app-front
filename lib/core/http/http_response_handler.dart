@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 Future<T> responseHandler<T>(
   http.Response response,
   T Function(Object?) fromJsonT,
-) {
+) { 
   final data = json.decode(response.body);
 
   switch (response.statusCode) {

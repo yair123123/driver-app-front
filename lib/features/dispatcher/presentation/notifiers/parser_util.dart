@@ -29,20 +29,17 @@ RideParseResult parseRideFromText(String text, int? stationId) {
     'הערות',
   ];
 
-  // בדוק אם חסרים שדות
   for (int i = 0; i < 6; i++) {
     if (i >= lines.length || lines[i].isEmpty) {
       return RideParseResult.failure('השדה "${requiredFields[i]}" חסר או ריק.');
     }
   }
 
-  // בדיקת מחיר
   final cost = int.tryParse(lines[4]);
   if (cost == null) {
     return RideParseResult.failure('המחיר חייב להיות מספר תקין.');
   }
 
-  // בדיקת טלפון
   final phone = lines[5];
   try {
     final parsedPhone = PhoneNumber.parse(phone, callerCountry: IsoCode.IL);
@@ -53,7 +50,6 @@ RideParseResult parseRideFromText(String text, int? stationId) {
     return RideParseResult.failure('מספר טלפון לא תקין בפורמט.');
   }
 
-  // הערות אינן חובה אך מוספות אם קיימות
   final comments = lines.length > 6 ? lines.sublist(6).join('\n') : '';
 
   final ride = Ride(

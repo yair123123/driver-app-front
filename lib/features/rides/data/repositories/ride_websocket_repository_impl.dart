@@ -15,7 +15,7 @@ class RideRepositoryImpl implements RideRepository {
   @override
   Future<void> giveRide(String rideId) async {
     RideMessageDto rideDto = RideMessageDto(
-      operationCode: RideOperationCode.reserve,
+      operationCode: RideOperationCode.requestRide,
       content: {"id": rideId},
       error: "",
     );
@@ -25,7 +25,7 @@ class RideRepositoryImpl implements RideRepository {
   @override
   Future<void> pickup(String takeRide) async {
     RideMessageDto rideDto = RideMessageDto(
-      operationCode: RideOperationCode.pickup,
+      operationCode: RideOperationCode.pickedUpPassenger,
       content: {"id": takeRide},
       error: "",
     );
@@ -35,7 +35,7 @@ class RideRepositoryImpl implements RideRepository {
   @override
   Future<void> cancelRide(String rideId) async {
     RideMessageDto rideDto = RideMessageDto(
-      operationCode: RideOperationCode.cancelGive,
+      operationCode: RideOperationCode.cancelTen,
       content: {"id": rideId},
       error: "",
     );
@@ -45,7 +45,7 @@ class RideRepositoryImpl implements RideRepository {
   @override
   Future<void> completeRide(String rideId) async {
     RideMessageDto rideDto = RideMessageDto(
-      operationCode: RideOperationCode.finishingRide,
+      operationCode: RideOperationCode.endRide,
       content: {"id": rideId},
       error: "",
     );
@@ -56,10 +56,10 @@ class RideRepositoryImpl implements RideRepository {
   Stream<RideMessageDto> getAckReserve() {
     return datasource.rideEvents.where(
       (event) =>
-          event.operationCode == RideOperationCode.confirmReserve ||
-          event.operationCode == RideOperationCode.alreadyTaken ||
-          event.operationCode == RideOperationCode.confirmPickup ||
-          event.operationCode == RideOperationCode.confirmFinishingRide,
+          event.operationCode == RideOperationCode.rideRequestGranted ||
+          event.operationCode == RideOperationCode.rideRequestDeniedAlreadyTaken ||
+          event.operationCode == RideOperationCode.confirmPassengerWasPickedUp ||
+          event.operationCode == RideOperationCode.endRideAck,
     );
   }
 }

@@ -1,45 +1,45 @@
-import 'package:driver_app/core/app/app_state_notifier.dart';
-import 'package:driver_app/features/bootstrap/domain/entities/station/station.dart';
-import 'package:driver_app/features/bootstrap/presentation/providers/settings_provider.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:driver_app/features/dispatcher/domain/entities/initial_screen.dart';
+import 'package:driver_app/features/dispatcher/domain/entities/location/city.dart';
 
 class DispatchState {
-  final Station station;
-  final bool isSending;
-  final bool isLoading;
-  final String errorMessage;
+  final String?  error;
+  final int? defoultStationId;
+  final bool sent;
+  final List<City>? cities;
+  final Map<String, List<int>>? prices;
+  final List<String>? comments;
   DispatchState({
-    required this.station,
-    required this.isSending,
-    required this.isLoading,
-    required this.errorMessage,
+    this.error,
+    required this.sent,
+    this.defoultStationId,
+    this.cities,
+    this.prices,
+    this.comments,
   });
   DispatchState copyWith({
-    Station? station, 
+    String? error,
+    int? station,
     bool? send,
-    bool? isLoading,
-    String? errorMessage,
+    List<City>? cities,
+    Map<String, List<int>>? prices,
+    List<String>? comments,
   }) {
     return DispatchState(
-      station: station ?? this.station,
-      isSending: send ?? this.isSending,
-      isLoading: isLoading ?? this.isLoading,
-      errorMessage: errorMessage ?? this.errorMessage,
+      error: error ?? this.error,
+      defoultStationId: station ?? this.defoultStationId,
+      sent: send ?? this.sent,
+      cities: cities ?? this.cities,
+      prices: prices ?? this.prices,
+      comments: comments ?? this.comments,
     );
   }
 
-  static DispatchState initial(Ref ref) {
-    final stationId = ref.read(settingsProvider).defaultStationId;
-    final stations = ref.read(appStateNotifierProvider).user!.dispatcher_stations;
-    final station = stations.firstWhere(
-      (s) => s.station_id == stationId,
-      orElse: () => stations.first
-    );
+  static DispatchState initial(InitialScreen initState) {
     return DispatchState(
-      station: station,
-      isSending: false,
-      isLoading: false,
-      errorMessage: "",
-    );
+      cities: initState.cities,
+      prices: initState.prices,
+      comments: initState.comments,
+      sent: false
+      );
   }
 }

@@ -1,11 +1,296 @@
 [
-    "חיפה",
-    "ירושלים",
-    "בני ברק",
-    "ראש העין",
-    "ביתר",
-    "בית שמש",
-    "אשדוד",
-    "קרית גת",
-    "פתח תקווה"
+    {
+        "name": "תל אביב",
+        "frequency": 1.0,
+        "neighborhoods": [
+            {
+                "name": "הצפון הישן",
+                "frequency": 0.5,
+                "streets": [
+                    {
+                        "name": "דיזנגוף",
+                        "frequency": 0.2
+                    },
+                    {
+                        "name": "אבן גבירול",
+                        "frequency": 0.3
+                    },
+                    {
+                        "name": "בן יהודה",
+                        "frequency": 0.15
+                    },
+                    {
+                        "name": "ירמיהו",
+                        "frequency": 0.1
+                    }
+                ]
+            },
+            {
+                "name": "המרכז",
+                "frequency": 0.6,
+                "streets": [
+                    {
+                        "name": "אלנבי",
+                        "frequency": 0.4
+                    },
+                    {
+                        "name": "נחלת בנימין",
+                        "frequency": 0.12
+                    },
+                    {
+                        "name": "שינקין",
+                        "frequency": 0.11
+                    }
+                ]
+            },
+            {
+                "name": "פלורנטין",
+                "frequency": 0.4,
+                "streets": [
+                    {
+                        "name": "הרצל",
+                        "frequency": 0.16
+                    },
+                    {
+                        "name": "ויטל",
+                        "frequency": 0.14
+                    },
+                    {
+                        "name": "פלורנטין",
+                        "frequency": 0.13
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ירושלים",
+        "frequency": 1.5,
+        "neighborhoods": [
+            {
+                "name": "רחביה",
+                "frequency": 0.7,
+                "streets": [
+                    {
+                        "name": "קינג ג'ורג'",
+                        "frequency": 0.3
+                    },
+                    {
+                        "name": "אבן שפרוט",
+                        "frequency": 0.17
+                    },
+                    {
+                        "name": "בן מימון",
+                        "frequency": 0.14
+                    }
+                ]
+            },
+            {
+                "name": "עיר העתיקה",
+                "frequency": 0.8,
+                "streets": [
+                    {
+                        "name": "הפטריארכיה היוונית",
+                        "frequency": 0.2
+                    },
+                    {
+                        "name": "השווקים",
+                        "frequency": 0.1
+                    }
+                ]
+            },
+            {
+                "name": "גבעת שאול",
+                "frequency": 0.65,
+                "streets": [
+                    {
+                        "name": "כנפי נשרים",
+                        "frequency": 0.21
+                    },
+                    {
+                        "name": "בית הדפוס",
+                        "frequency": 0.18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "חיפה",
+        "frequency": 1.3,
+        "neighborhoods": [
+            {
+                "name": "הדר",
+                "frequency": 0.8,
+                "streets": [
+                    {
+                        "name": "הרצל",
+                        "frequency": 0.15
+                    },
+                    {
+                        "name": "הנביאים",
+                        "frequency": 0.12
+                    },
+                    {
+                        "name": "שלמה המלך",
+                        "frequency": 0.11
+                    }
+                ]
+            },
+            {
+                "name": "כרמל מרכזי",
+                "frequency": 0.9,
+                "streets": [
+                    {
+                        "name": "מוריה",
+                        "frequency": 0.2
+                    },
+                    {
+                        "name": "ויצמן",
+                        "frequency": 0.13
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "רמת גן",
+        "frequency": 1.1,
+        "neighborhoods": [
+            {
+                "name": "מרכז העיר",
+                "frequency": 0.5,
+                "streets": [
+                    {
+                        "name": "ביאליק",
+                        "frequency": 0.13
+                    },
+                    {
+                        "name": "הירדן",
+                        "frequency": 0.1
+                    },
+                    {
+                        "name": "אלוף שדה",
+                        "frequency": 0.09
+                    }
+                ]
+            },
+            {
+                "name": "רמת חן",
+                "frequency": 0.45,
+                "streets": [
+                    {
+                        "name": "רפאל איתן",
+                        "frequency": 0.08
+                    },
+                    {
+                        "name": "הגליל",
+                        "frequency": 0.07
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "באר שבע",
+        "frequency": 1.2,
+        "neighborhoods": [
+            {
+                "name": "נאות לון",
+                "frequency": 0.6,
+                "streets": [
+                    {
+                        "name": "שדרות ירושלים",
+                        "frequency": 0.15
+                    },
+                    {
+                        "name": "ארלוזורוב",
+                        "frequency": 0.11
+                    }
+                ]
+            },
+            {
+                "name": "שכונה ג'",
+                "frequency": 0.7,
+                "streets": [
+                    {
+                        "name": "הרצל",
+                        "frequency": 0.13
+                    },
+                    {
+                        "name": "יצחק שדה",
+                        "frequency": 0.12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "אשדוד",
+        "frequency": 1.05,
+        "neighborhoods": [
+            {
+                "name": "רובע א'",
+                "frequency": 0.42,
+                "streets": [
+                    {
+                        "name": "המשלט",
+                        "frequency": 0.13
+                    },
+                    {
+                        "name": "הרב ניסנבוים",
+                        "frequency": 0.11
+                    }
+                ]
+            },
+            {
+                "name": "רובע ט'",
+                "frequency": 0.39,
+                "streets": [
+                    {
+                        "name": "שד' בן גוריון",
+                        "frequency": 0.14
+                    },
+                    {
+                        "name": "העבודה",
+                        "frequency": 0.12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "פתח תקווה",
+        "frequency": 1.18,
+        "neighborhoods": [
+            {
+                "name": "מרכז העיר",
+                "frequency": 0.5,
+                "streets": [
+                    {
+                        "name": "חובבי ציון",
+                        "frequency": 0.11
+                    },
+                    {
+                        "name": "רוטשילד",
+                        "frequency": 0.09
+                    }
+                ]
+            },
+            {
+                "name": "כפר גנים",
+                "frequency": 0.55,
+                "streets": [
+                    {
+                        "name": "יצחק רבין",
+                        "frequency": 0.1
+                    },
+                    {
+                        "name": "מנחם בגין",
+                        "frequency": 0.08
+                    }
+                ]
+            }
+        ]
+    }
 ]
