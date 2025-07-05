@@ -1,28 +1,59 @@
+import 'dart:async';
+
 import 'package:driver_app/features/bootstrap/domain/entities/user/user.dart';
 import 'package:flutter/material.dart';
+import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 
-class DriverAppBar extends StatelessWidget implements PreferredSizeWidget {
+class DriverAppBar extends StatefulWidget implements PreferredSizeWidget {
   final User user;
-
   const DriverAppBar({super.key, required this.user});
-
   @override
+  State<StatefulWidget> createState() => _DriverAppBarState();
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+}
+
+class _DriverAppBarState extends State<DriverAppBar> {
+  bool isConnectingToIternet = false;
+  late final StreamSubscription<InternetStatus> internetStatusSubscription;
+  late final AppLifecycleListener? appLifecycleListener;
+  @override
+  void initState() {
+    super.initState();
+    internetStatusSubscription = InternetConnection().onStatusChange.listen((
+      status,
+    ) {
+      switch (status) {
+        case InternetStatus.connected:
+          setState(() {
+            isConnectingToIternet = true;
+          });
+          break;
+        case InternetStatus.disconnected:
+          setState(() {
+            isConnectingToIternet = false;
+          });
+          break;
+      }
+    });
+  }
+
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final textColor = theme.colorScheme.onPrimary;
 
     return AppBar(
-      automaticallyImplyLeading: false, // אם לא רוצים חץ חזור אוטומטי
+      automaticallyImplyLeading: false,
       backgroundColor: theme.colorScheme.primary,
+
       elevation: 2,
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // שם ותווית סדרן
           Row(
             children: [
               Text(
-                user.username,
+                widget.user.username,
                 style: theme.textTheme.titleLarge?.copyWith(
                   color: textColor,
                   fontWeight: FontWeight.bold,
@@ -31,9 +62,12 @@ class DriverAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ),
               ),
               const SizedBox(width: 8),
-              if (user.is_dispatcher)
+              if (widget.user.is_dispatcher)
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 2,
+                  ),
                   decoration: BoxDecoration(
                     color: theme.colorScheme.secondary,
                     borderRadius: BorderRadius.circular(10),
@@ -50,25 +84,24 @@ class DriverAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ),
             ],
           ),
-          // דירוג
           Row(
             children: [
               Icon(Icons.star, color: Colors.amber[700], size: 20),
               const SizedBox(width: 4),
               Text(
-                "${user.rating}",
+                "${widget.user.rating}",
                 style: theme.textTheme.bodyLarge?.copyWith(
                   color: textColor,
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              const SizedBox(width: 16),
+              if (!isConnectingToIternet)
+                const Icon(Icons.signal_wifi_off, color: Colors.red, size: 20),
             ],
           ),
         ],
       ),
     );
   }
-
-  @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
