@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'http_dto.dart';
+part of 'response_user.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -15,49 +15,49 @@ final _privateConstructorUsedError = UnsupportedError(
   'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models',
 );
 
-HttpDto<T> _$HttpDtoFromJson<T>(
-  Map<String, dynamic> json,
-  T Function(Object?) fromJsonT,
-) {
-  return _HttpDto<T>.fromJson(json, fromJsonT);
+ResponseUser _$ResponseUserFromJson(Map<String, dynamic> json) {
+  return _ResponseUser.fromJson(json);
 }
 
 /// @nodoc
-mixin _$HttpDto<T> {
-  T get content => throw _privateConstructorUsedError;
+mixin _$ResponseUser {
+  User? get content => throw _privateConstructorUsedError;
   bool get success => throw _privateConstructorUsedError;
   String get error => throw _privateConstructorUsedError;
 
-  /// Serializes this HttpDto to a JSON map.
-  Map<String, dynamic> toJson(Object? Function(T) toJsonT) =>
-      throw _privateConstructorUsedError;
+  /// Serializes this ResponseUser to a JSON map.
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
 
-  /// Create a copy of HttpDto
+  /// Create a copy of ResponseUser
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $HttpDtoCopyWith<T, HttpDto<T>> get copyWith =>
+  $ResponseUserCopyWith<ResponseUser> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $HttpDtoCopyWith<T, $Res> {
-  factory $HttpDtoCopyWith(HttpDto<T> value, $Res Function(HttpDto<T>) then) =
-      _$HttpDtoCopyWithImpl<T, $Res, HttpDto<T>>;
+abstract class $ResponseUserCopyWith<$Res> {
+  factory $ResponseUserCopyWith(
+    ResponseUser value,
+    $Res Function(ResponseUser) then,
+  ) = _$ResponseUserCopyWithImpl<$Res, ResponseUser>;
   @useResult
-  $Res call({T content, bool success, String error});
+  $Res call({User? content, bool success, String error});
+
+  $UserCopyWith<$Res>? get content;
 }
 
 /// @nodoc
-class _$HttpDtoCopyWithImpl<T, $Res, $Val extends HttpDto<T>>
-    implements $HttpDtoCopyWith<T, $Res> {
-  _$HttpDtoCopyWithImpl(this._value, this._then);
+class _$ResponseUserCopyWithImpl<$Res, $Val extends ResponseUser>
+    implements $ResponseUserCopyWith<$Res> {
+  _$ResponseUserCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of HttpDto
+  /// Create a copy of ResponseUser
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
@@ -72,7 +72,7 @@ class _$HttpDtoCopyWithImpl<T, $Res, $Val extends HttpDto<T>>
                 freezed == content
                     ? _value.content
                     : content // ignore: cast_nullable_to_non_nullable
-                        as T,
+                        as User?,
             success:
                 null == success
                     ? _value.success
@@ -87,30 +87,47 @@ class _$HttpDtoCopyWithImpl<T, $Res, $Val extends HttpDto<T>>
           as $Val,
     );
   }
+
+  /// Create a copy of ResponseUser
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $UserCopyWith<$Res>? get content {
+    if (_value.content == null) {
+      return null;
+    }
+
+    return $UserCopyWith<$Res>(_value.content!, (value) {
+      return _then(_value.copyWith(content: value) as $Val);
+    });
+  }
 }
 
 /// @nodoc
-abstract class _$$HttpDtoImplCopyWith<T, $Res>
-    implements $HttpDtoCopyWith<T, $Res> {
-  factory _$$HttpDtoImplCopyWith(
-    _$HttpDtoImpl<T> value,
-    $Res Function(_$HttpDtoImpl<T>) then,
-  ) = __$$HttpDtoImplCopyWithImpl<T, $Res>;
+abstract class _$$ResponseUserImplCopyWith<$Res>
+    implements $ResponseUserCopyWith<$Res> {
+  factory _$$ResponseUserImplCopyWith(
+    _$ResponseUserImpl value,
+    $Res Function(_$ResponseUserImpl) then,
+  ) = __$$ResponseUserImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({T content, bool success, String error});
+  $Res call({User? content, bool success, String error});
+
+  @override
+  $UserCopyWith<$Res>? get content;
 }
 
 /// @nodoc
-class __$$HttpDtoImplCopyWithImpl<T, $Res>
-    extends _$HttpDtoCopyWithImpl<T, $Res, _$HttpDtoImpl<T>>
-    implements _$$HttpDtoImplCopyWith<T, $Res> {
-  __$$HttpDtoImplCopyWithImpl(
-    _$HttpDtoImpl<T> _value,
-    $Res Function(_$HttpDtoImpl<T>) _then,
+class __$$ResponseUserImplCopyWithImpl<$Res>
+    extends _$ResponseUserCopyWithImpl<$Res, _$ResponseUserImpl>
+    implements _$$ResponseUserImplCopyWith<$Res> {
+  __$$ResponseUserImplCopyWithImpl(
+    _$ResponseUserImpl _value,
+    $Res Function(_$ResponseUserImpl) _then,
   ) : super(_value, _then);
 
-  /// Create a copy of HttpDto
+  /// Create a copy of ResponseUser
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
@@ -120,12 +137,12 @@ class __$$HttpDtoImplCopyWithImpl<T, $Res>
     Object? error = null,
   }) {
     return _then(
-      _$HttpDtoImpl<T>(
+      _$ResponseUserImpl(
         content:
             freezed == content
                 ? _value.content
                 : content // ignore: cast_nullable_to_non_nullable
-                    as T,
+                    as User?,
         success:
             null == success
                 ? _value.success
@@ -142,21 +159,19 @@ class __$$HttpDtoImplCopyWithImpl<T, $Res>
 }
 
 /// @nodoc
-@JsonSerializable(genericArgumentFactories: true)
-class _$HttpDtoImpl<T> implements _HttpDto<T> {
-  const _$HttpDtoImpl({
-    required this.content,
+@JsonSerializable()
+class _$ResponseUserImpl implements _ResponseUser {
+  const _$ResponseUserImpl({
+    this.content,
     required this.success,
     required this.error,
   });
 
-  factory _$HttpDtoImpl.fromJson(
-    Map<String, dynamic> json,
-    T Function(Object?) fromJsonT,
-  ) => _$$HttpDtoImplFromJson(json, fromJsonT);
+  factory _$ResponseUserImpl.fromJson(Map<String, dynamic> json) =>
+      _$$ResponseUserImplFromJson(json);
 
   @override
-  final T content;
+  final User? content;
   @override
   final bool success;
   @override
@@ -164,65 +179,58 @@ class _$HttpDtoImpl<T> implements _HttpDto<T> {
 
   @override
   String toString() {
-    return 'HttpDto<$T>(content: $content, success: $success, error: $error)';
+    return 'ResponseUser(content: $content, success: $success, error: $error)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$HttpDtoImpl<T> &&
-            const DeepCollectionEquality().equals(other.content, content) &&
+            other is _$ResponseUserImpl &&
+            (identical(other.content, content) || other.content == content) &&
             (identical(other.success, success) || other.success == success) &&
             (identical(other.error, error) || other.error == error));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(
-    runtimeType,
-    const DeepCollectionEquality().hash(content),
-    success,
-    error,
-  );
+  int get hashCode => Object.hash(runtimeType, content, success, error);
 
-  /// Create a copy of HttpDto
+  /// Create a copy of ResponseUser
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
-  _$$HttpDtoImplCopyWith<T, _$HttpDtoImpl<T>> get copyWith =>
-      __$$HttpDtoImplCopyWithImpl<T, _$HttpDtoImpl<T>>(this, _$identity);
+  _$$ResponseUserImplCopyWith<_$ResponseUserImpl> get copyWith =>
+      __$$ResponseUserImplCopyWithImpl<_$ResponseUserImpl>(this, _$identity);
 
   @override
-  Map<String, dynamic> toJson(Object? Function(T) toJsonT) {
-    return _$$HttpDtoImplToJson<T>(this, toJsonT);
+  Map<String, dynamic> toJson() {
+    return _$$ResponseUserImplToJson(this);
   }
 }
 
-abstract class _HttpDto<T> implements HttpDto<T> {
-  const factory _HttpDto({
-    required final T content,
+abstract class _ResponseUser implements ResponseUser {
+  const factory _ResponseUser({
+    final User? content,
     required final bool success,
     required final String error,
-  }) = _$HttpDtoImpl<T>;
+  }) = _$ResponseUserImpl;
 
-  factory _HttpDto.fromJson(
-    Map<String, dynamic> json,
-    T Function(Object?) fromJsonT,
-  ) = _$HttpDtoImpl<T>.fromJson;
+  factory _ResponseUser.fromJson(Map<String, dynamic> json) =
+      _$ResponseUserImpl.fromJson;
 
   @override
-  T get content;
+  User? get content;
   @override
   bool get success;
   @override
   String get error;
 
-  /// Create a copy of HttpDto
+  /// Create a copy of ResponseUser
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$HttpDtoImplCopyWith<T, _$HttpDtoImpl<T>> get copyWith =>
+  _$$ResponseUserImplCopyWith<_$ResponseUserImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

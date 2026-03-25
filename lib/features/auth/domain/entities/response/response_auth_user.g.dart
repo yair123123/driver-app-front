@@ -1,25 +1,26 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'http_dto.dart';
+part of 'response_auth_user.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$HttpDtoImpl<T> _$$HttpDtoImplFromJson<T>(
+_$ResponseAuthUserImpl _$$ResponseAuthUserImplFromJson(
   Map<String, dynamic> json,
-  T Function(Object? json) fromJsonT,
-) => _$HttpDtoImpl<T>(
-  content: fromJsonT(json['content']),
+) => _$ResponseAuthUserImpl(
+  content:
+      json['content'] == null
+          ? null
+          : AuthUser.fromJson(json['content'] as Map<String, dynamic>),
   success: json['success'] as bool,
   error: json['error'] as String,
 );
 
-Map<String, dynamic> _$$HttpDtoImplToJson<T>(
-  _$HttpDtoImpl<T> instance,
-  Object? Function(T value) toJsonT,
+Map<String, dynamic> _$$ResponseAuthUserImplToJson(
+  _$ResponseAuthUserImpl instance,
 ) => <String, dynamic>{
-  'content': toJsonT(instance.content),
+  'content': instance.content,
   'success': instance.success,
   'error': instance.error,
 };
