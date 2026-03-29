@@ -1,6 +1,11 @@
 import 'package:driver_app/core/error/failure.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
+import 'package:driver_app/theme/app_colors.dart';
+import 'package:driver_app/theme/app_spacing.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+
+import 'error_message_helper.dart';
 
 
 class ErrorBody extends HookWidget {

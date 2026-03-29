@@ -1,0 +1,730 @@
+{
+  "@@locale": "el",
+  "back": "πίσω",
+  "saveChangesTitle": "Αποθήκευση αλλαγών",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Νέο στην εφαρμογή",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Μεταβείτε στη σελίδα των ομάδων",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Μια νέα περιοχή για τα κανάλια WhatsApp και Telegram με βίντεο, εικόνες και ενημερώσεις – όλο το πιο ενδιαφέρον περιεχόμενο σε ένα μέρος.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Νέα μηνύματα",
+  "addArea": "Προσθήκη περιοχής",
+  "removeArea": "Αφαίρεση περιοχής",
+  "removeAreaConfirmContent": "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το {area} από τις επιλεγμένες περιοχές σας;",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Κανάλια",
+  "contactUsSuccessTitle": "Στάλθηκε με επιτυχία ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Ευχαριστώ! Λάβαμε το μήνυμά σας και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Επιλέξτε Χώρα",
+  "areaManagmentTitle": "Περιοχή Κατανάλωσης Ειδήσεων",
+  "areaManagmentSubtitle": "Οι χώρες μου",
+  "sharedFromApp": "Κοινή χρήση από",
+  "textCopied": "Το κείμενο αντιγράφηκε",
+  "queryIsEmpty": "Το ερώτημα είναι κενό",
+  "queryIsEmptyTitle": "Η αναζήτηση είναι κενή.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Η περιοχή αφαιρέθηκε με επιτυχία",
+  "areaWereAdded": "Η περιοχή προστέθηκε με επιτυχία",
+  "saveChangesMessage": "Θέλετε να αποθηκεύσετε τις αλλαγές που κάνατε;",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Σχεδόν προσγειωνόμαστε…",
+  "busyLandingSubtitle": "Ετοιμάζουμε τα νέα σας",
+  "changeCountryTitle": "Σε ποια χώρα πρέπει να μεταβούμε;",
+  "changeCountrySubtitle": "Όταν επιλέγετε μια χώρα, όλο το περιεχόμενο της εφαρμογής θα ενημερώνεται σύμφωνα με την επιλογή σας.",
+  "dailySummary": "Ημερήσια περίληψη",
+  "lastUpdated": "Τελευταία ενημέρωση",
+  "saveChangesSubtitle": "Θέλετε να αποθηκεύσετε τις αλλαγές που κάνατε;",
+  "readMore": "Διαβάστε περισσότερα",
+  "searchPageNoResultsPrefix": "Δεν βρέθηκαν αποτελέσματα για ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Δεν βρέθηκαν αποτελέσματα για \n",
+  "searchPageNoResultsForThisCategorySuffix": " σε αυτή την κατηγορία",
+  "toPowerOn": "να ενεργοποιηθεί",
+  "notificationsOffTitle": "Οι ειδοποιήσεις απενεργοποιημένες",
+  "notificationsOffSubtitle": "Φαίνεται ότι η πρόσβαση στις ειδοποιήσεις δεν έχει ενεργοποιηθεί ακόμα.",
+  "newArticles": "Νέα άρθρα",
+  "home": "σπίτι",
+  "changesApplyOnNextLaunch": "Οι αλλαγές θα εφαρμοστούν στην επόμενη κυκλοφορία της εφαρμογής.",
+  "@back": {},
+  "enable": "Ενεργοποίηση",
+  "stayUpdatedWithLatestNews": "Μείνετε ενημερωμένοι με τα τελευταία νέα",
+  "enableNotifications": "Ενεργοποίηση Ειδοποιήσεων",
+  "error_details": "Λεπτομέρειες σφάλματος",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ωχ κάτι δεν πάει καλά",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Δωρεάν Αναζήτηση",
+  "aiPageSubtitle": "Αυτή η δυνατότητα βρίσκεται ακόμη σε εξέλιξη \n αξίζει να το ελέγξετε ξανά σύντομα.",
+  "topicsSelectionTitle": "Επιλογή θεμάτων ειδήσεων",
+  "groups": "Ομάδες",
+  "aiPageTitle": "Προσεχώς: θα μπορείτε να συνομιλείτε με την τεχνητή νοημοσύνη μας για τα νέα!",
+  "topicsSelectionSubtitle": "Επιλέξτε θέματα ή υποθέματα που θέλετε να δείτε στη ροή σας. Μπορείτε πάντα να τα αλλάξετε εδώ.",
+  "failedToLoadTopics": "Η φόρτωση των θεμάτων απέτυχε",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Μπορείτε να επεξεργαστείτε τις ρυθμίσεις ανά πάσα στιγμή",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Γλώσσα",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Δεν ήταν δυνατή η φόρτωση των δεδομένων. Ελέγξτε τη σύνδεσή σας στο Διαδίκτυο και δοκιμάστε ξανά.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Άλλαξε γλώσσα",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Όχι τώρα",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Η ενεργοποίηση των ειδοποιήσεων σάς επιτρέπει να είστε ενημερωμένοι με σημαντικές ειδήσεις, επείγουσες ενημερώσεις και εξατομικευμένο περιεχόμενο – ώστε να μην χάνετε ποτέ τίποτα που έχει σημασία για εσάς.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Μεταβείτε στο περιεχόμενο που επιλέξαμε για εσάς",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Ας πάμε",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Συνεχίζω!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Παράλειψη",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Αποθήκευση",
+  "@save": {
+    "description": ""
+  },
+  "next": "Επόμενο",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Επιλέξτε μια γλώσσα",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Επιλέξτε τουλάχιστον ένα θέμα",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Θέλετε να μείνετε ενημερωμένοι;",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Αναζήτηση",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Τι θα θέλατε να αναζητήσετε;",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Πληκτρολογήστε μια λέξη-κλειδί ή ένα θέμα για αναζήτηση",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Μπορείτε να ενεργοποιήσετε τις αναδυόμενες ειδοποιήσεις για οποιοδήποτε θέμα σας ενδιαφέρει.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Αυτό που σε ενδιαφέρει",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Για να στείλετε μόνο ό,τι είναι πραγματικά σχετικό, ας σημειώσουμε πρώτα αυτό που σας ενδιαφέρει.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Ξεκινήστε",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Προσπαθήστε ξανά",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Να επιτρέπεται",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Χωρίς δικαιώματα",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Προτάσεις λύσεων",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Να επιτρέπονται οι ειδοποιήσεις",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Ειδοποιήσεις",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Οι ειδοποιήσεις ενεργοποιήθηκαν",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Οι ειδοποιήσεις απορρίφθηκαν",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Παρακαλώ περιμένετε",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "όλα",
+  "@all": {},
+  "cancel": "Ακύρωση",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Ανοίξτε τις Ρυθμίσεις",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Μπορείτε να ενεργοποιήσετε τις αναδυόμενες ειδοποιήσεις για κάθε θέμα που σας ενδιαφέρει.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Συμβουλές αντιμετώπισης προβλημάτων",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Καλώς ήρθατε στην εφαρμογή ειδήσεων, εξατομικευμένη μόνο για εσάς!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Συνεχίστε την ανάγνωση",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Κοινή χρήση",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Περιοχή",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Επιλέξτε την περιοχή σας για να λαμβάνετε τοπικές ενημερώσεις ειδήσεων",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Επιλέξτε την περιοχή ειδήσεων που θέλετε.\nΜέσα στην εφαρμογή, μπορείτε επίσης να επιλέξετε επιπλέον χώρες.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Επιλέξτε τη γλώσσα σας, μπορείτε πάντα να την αλλάξετε αργότερα.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Θέματα",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Επιλέξτε τα θέματα που σας ενδιαφέρουν, μπορείτε πάντα να τα αλλάξετε στις ρυθμίσεις.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Κατηγορίες",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Διαχείριση ειδοποιήσεων",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Γλώσσα και περιοχή",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Περίπου",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Πολιτική απορρήτου",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Επικοινωνήστε μαζί μας",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Πρόβλημα διακομιστή",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Δεν υπάρχει σύνδεση στο διαδίκτυο",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Μπορούμε να φτάσουμε στο Διαδίκτυο αλλά όχι στον διακομιστή.\\nΔοκιμάστε ξανά σε λίγο.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Δεν υπάρχει σύνδεση στο διαδίκτυο. Εμφανίζουμε παλαιότερα άρθρα. συνδεθείτε στο διαδίκτυο για να δείτε τις τελευταίες ιστορίες.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Σύνδεση στο Διαδίκτυο",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Σύνδεση διακομιστή",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Κατάλαβα",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Συνδεδεμένος",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Δεν είναι συνδεδεμένο",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Λειτουργία εκτός σύνδεσης",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Οι αλλαγές αποθηκεύτηκαν με επιτυχία",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Δεν είναι δυνατή η αποθήκευση αλλαγών",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Αναδυόμενες ειδοποιήσεις",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Προσαρμόστε τις ειδοποιήσεις σας εύκολα. Ενεργοποιήστε ή απενεργοποιήστε τις ειδοποιήσεις push για οποιοδήποτε θέμα σας ενδιαφέρει.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Ενημέρωση καθ' οδόν!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Σύντομα θα μπορείτε να επιλέξετε από ποιες περιοχές του κόσμου θέλετε να λαμβάνετε νέα και ενημερώσεις.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Πληροφορίες",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Επιτυχία",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Αποθήκευση αλλαγών",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Θέλετε να αποθηκεύσετε τις αλλαγές σας;",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Επιβεβαίωση",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Δεν είναι δυνατό το άνοιγμα αυτής της αναφοράς",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Δεν βρέθηκαν αποτελέσματα για \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Δεν βρέθηκαν αποτελέσματα για \"{query}\" σε αυτή την κατηγορία",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Θέματα ειδήσεων",
+  "@newsTopics": {},
+  "errorNoInternet": "Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Δεν υπάρχει σύνδεση στο διαδίκτυο.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Το χρονικό όριο του αιτήματος έληξε. Δοκιμάστε ξανά αργότερα.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Το χρονικό όριο του αιτήματος έληξε.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Παρουσιάστηκε σφάλμα διακομιστή. Δοκιμάστε ξανά.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Σφάλμα διακομιστή.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Δεν είστε εξουσιοδοτημένοι. Συνδεθείτε και προσπαθήστε ξανά.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Μη εξουσιοδοτημένο.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Δεν έχετε άδεια να εκτελέσετε αυτήν την ενέργεια.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Δεν επιτρέπεται η πρόσβαση.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Δεν μπορέσαμε να βρούμε αυτό που ψάχνατε.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Δεν βρέθηκε.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Περισσότερες λεπτομέρειες έχουν ενημερωθεί",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Ορισμένες πληροφορίες φαίνονται άκυρες. Ελέγξτε και δοκιμάστε ξανά.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Συμφωνώ να λαμβάνω ενημερώσεις και ενημερωτικά δελτία μέσω email.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Στείλτε μας ένα email",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Απόρριψη αλλαγών;",
+  "discardChangesMessage": "Έχετε μη αποθηκευμένες αλλαγές. Αν συνεχίσεις, θα χαθούν.",
+  "discardButton": "Απορρίψτε",
+  "stayButton": "Μείνε",
+  "changeCountryConfirm": "Αλλαγή προορισμού ειδήσεων",
+  "otherWaysToContact": "Άλλοι τρόποι επικοινωνίας",
+  "agreePrivacy": "Έχω διαβάσει και συμφωνώ με το ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Μη διστάσετε να επικοινωνήσετε μαζί μας χρησιμοποιώντας την παρακάτω φόρμα.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Πλήρες όνομα",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Μήνυμα",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Μη έγκυρη εισαγωγή.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Παρόμοιες πηγές",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Αποστολή",
+  "errorGeneric": "Κάτι πήγε στραβά. Δοκιμάστε ξανά.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Κάτι πήγε στραβά.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Δεν υπάρχουν αποτελέσματα που να ταιριάζουν",
+  "emptyResults_noResults": "Δεν βρέθηκαν αποτελέσματα.",
+  "emptyResults_bottomWithTopic": "Δοκιμάστε να αλλάξετε τις λέξεις-κλειδιά σας ή επιλέξτε άλλο θέμα.",
+  "emptyResults_bottomWithoutTopic": "Δοκιμάστε να αλλάξετε τις λέξεις-κλειδιά σας.",
+  "emptyResults_inThisTopic": "σε αυτό το θέμα",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Κακό αίτημα.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Το αίτημα ήταν άκυρο. Δοκιμάστε ξανά.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Δεν τροποποιήθηκε.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Δεν έχει αλλάξει τίποτα από το τελευταίο σας αίτημα.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Σφάλμα δικτύου.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Δεν μπορέσαμε να φτάσουμε στο δίκτυο. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Δεν υπάρχουν διαθέσιμα δεδομένα.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Δεν μπορέσαμε να βρούμε δεδομένα για εμφάνιση.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Σύγκρουση.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Το αίτημα ήταν σε διένεξη με τα υπάρχοντα δεδομένα. Δοκιμάστε ξανά.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Σφάλμα επικύρωσης.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Ο διακομιστής απέρριψε ορισμένα δεδομένα. Ελέγξτε και δοκιμάστε ξανά.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Η εγγραφή απέτυχε.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Δεν ήταν δυνατή η αποθήκευση του αρχείου. Δοκιμάστε ξανά.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Η ανάγνωση απέτυχε.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Δεν μπορούσαμε να διαβάσουμε το αρχείο. Δοκιμάστε ξανά.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Το αρχείο δεν βρέθηκε.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Δεν μπορέσαμε να βρούμε το αρχείο που ψάχνετε.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Δεν υπάρχει αρκετός χώρος αποθήκευσης.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Ελευθερώστε χώρο και δοκιμάστε ξανά.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Σφάλμα ανάγνωσης βάσης δεδομένων.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Δεν μπορούσαμε να διαβάσουμε από τη βάση δεδομένων.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Σφάλμα εγγραφής βάσης δεδομένων.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Δεν ήταν δυνατή η αποθήκευση στη βάση δεδομένων.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Σφάλμα σύνδεσης βάσης δεδομένων.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Δεν μπορέσαμε να συνδεθούμε στη βάση δεδομένων.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Σφάλμα ελέγχου ταυτότητας.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Συνδεθείτε και προσπαθήστε ξανά.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Μη έγκυρα διαπιστευτήρια.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Το όνομα χρήστη ή ο κωδικός πρόσβασης είναι λανθασμένο.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Σφάλμα ανάγνωσης ασφαλούς αποθήκευσης.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Δεν μπορούσαμε να διαβάσουμε από ασφαλή χώρο αποθήκευσης.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Σφάλμα εγγραφής ασφαλούς αποθήκευσης.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Δεν ήταν δυνατή η εγγραφή σε ασφαλή αποθηκευτικό χώρο.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Σφάλμα διαγραφής ασφαλούς αποθήκευσης.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Δεν ήταν δυνατή η εκκαθάριση του ασφαλούς αποθηκευτικού χώρου.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Η συνεδρία έληξε.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Παρακαλώ συνδεθείτε ξανά.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Ο χρήστης δεν βρέθηκε.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Δεν μπορέσαμε να βρούμε αυτόν τον χρήστη.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Η άδεια απορρίφθηκε.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Δεν έχετε άδεια να εκτελέσετε αυτήν την ενέργεια.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Κανένα αποτέλεσμα.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Δεν μπορέσαμε να βρούμε κανένα αποτέλεσμα.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Μη έγκυρη εισαγωγή.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Παρακαλούμε ελέγξτε τα στοιχεία σας και δοκιμάστε ξανά.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Δεν επιλέχθηκαν θέματα.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Επιλέξτε τουλάχιστον ένα θέμα.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Σφάλμα ανάλυσης.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Δεν μπορέσαμε να επεξεργαστούμε τα δεδομένα.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Άγνωστο σφάλμα.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Παρουσιάστηκε απροσδόκητο σφάλμα.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

@@ -1,6 +1,7 @@
-import 'package:news_app/core/error/failure.dart';
-import 'package:news_app/core/media/hashtag_image_resolver.dart';
-import 'package:news_app/l10n/app_localizations.dart';
+
+import 'package:driver_app/core/error/failure.dart';
+import 'package:driver_app/core/media/hashtag_image_resolver.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
 
 class FailureUiData {
   final String title;

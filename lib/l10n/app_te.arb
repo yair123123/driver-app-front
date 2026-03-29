@@ -1,0 +1,730 @@
+{
+  "@@locale": "te",
+  "back": "తిరిగి",
+  "saveChangesTitle": "మార్పులను సేవ్ చేయండి",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "యాప్‌లో కొత్తది",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "సమూహాల పేజీకి వెళ్లండి",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "వీడియోలు, చిత్రాలు మరియు అప్‌డేట్‌లతో WhatsApp మరియు టెలిగ్రామ్ ఛానెల్‌ల కోసం కొత్త ప్రాంతం - ఒకే చోట అత్యంత ఆసక్తికరమైన కంటెంట్.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "కొత్త సందేశాలు",
+  "addArea": "ప్రాంతాన్ని జోడించండి",
+  "removeArea": "ప్రాంతాన్ని తీసివేయండి",
+  "removeAreaConfirmContent": "మీరు ఎంచుకున్న ప్రాంతాల నుండి {area}ని ఖచ్చితంగా తీసివేయాలనుకుంటున్నారా?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "ఛానెల్‌లు",
+  "contactUsSuccessTitle": "విజయవంతంగా పంపబడింది ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "ధన్యవాదాలు! మేము మీ సందేశాన్ని అందుకున్నాము మరియు వీలైనంత త్వరగా మిమ్మల్ని సంప్రదిస్తాము.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "దేశాన్ని ఎంచుకోండి",
+  "areaManagmentTitle": "వార్తల వినియోగ ప్రాంతం",
+  "areaManagmentSubtitle": "నా దేశాలు",
+  "sharedFromApp": "నుండి భాగస్వామ్యం చేయబడింది",
+  "textCopied": "వచనం కాపీ చేయబడింది",
+  "queryIsEmpty": "ప్రశ్న ఖాళీగా ఉంది",
+  "queryIsEmptyTitle": "శోధన ఖాళీగా ఉంది.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "ప్రాంతం విజయవంతంగా తీసివేయబడింది",
+  "areaWereAdded": "ప్రాంతం విజయవంతంగా జోడించబడింది",
+  "saveChangesMessage": "మీరు చేసిన మార్పులను సేవ్ చేయాలనుకుంటున్నారా?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "మేము దాదాపు ల్యాండింగ్ చేస్తున్నాము…",
+  "busyLandingSubtitle": "మేము మీ వార్తలను సిద్ధం చేస్తున్నాము",
+  "changeCountryTitle": "మనం ఏ దేశానికి మారాలి?",
+  "changeCountrySubtitle": "మీరు దేశాన్ని ఎంచుకున్నప్పుడు, యాప్‌లోని మొత్తం కంటెంట్ మీ ఎంపిక ప్రకారం అప్‌డేట్ అవుతుంది.",
+  "dailySummary": "రోజువారీ సారాంశం",
+  "lastUpdated": "చివరిగా నవీకరించబడింది",
+  "saveChangesSubtitle": "మీరు చేసిన మార్పులను సేవ్ చేయాలనుకుంటున్నారా?",
+  "readMore": "మరింత చదవండి",
+  "searchPageNoResultsPrefix": "దీని కోసం ఫలితాలు కనుగొనబడలేదు ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "దీని కోసం ఫలితాలు కనుగొనబడలేదు \n",
+  "searchPageNoResultsForThisCategorySuffix": " ఈ వర్గంలో",
+  "toPowerOn": "పవర్ ఆన్ చేయడానికి",
+  "notificationsOffTitle": "నోటిఫికేషన్‌లు ఆఫ్",
+  "notificationsOffSubtitle": "నోటిఫికేషన్ యాక్సెస్ ఇంకా ప్రారంభించబడనట్లు కనిపిస్తోంది.",
+  "newArticles": "కొత్త వ్యాసాలు",
+  "home": "ఇల్లు",
+  "changesApplyOnNextLaunch": "తదుపరి యాప్ లాంచ్‌లో మార్పులు వర్తింపజేయబడతాయి.",
+  "@back": {},
+  "enable": "ప్రారంభించు",
+  "stayUpdatedWithLatestNews": "తాజా వార్తలతో అప్‌డేట్‌గా ఉండండి",
+  "enableNotifications": "నోటిఫికేషన్‌లను ప్రారంభించండి",
+  "error_details": "లోపం వివరాలు",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "అయ్యో ఏదో తప్పు",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "ఉచిత శోధన",
+  "aiPageSubtitle": "ఈ ఫీచర్ ఇంకా అభివృద్ధిలో ఉంది \n త్వరలో తిరిగి తనిఖీ చేయడం విలువ.",
+  "topicsSelectionTitle": "వార్తల అంశాల ఎంపిక",
+  "groups": "గుంపులు",
+  "aiPageTitle": "త్వరలో వస్తుంది: మీరు వార్తల గురించి మా AIతో చాట్ చేయగలరు!",
+  "topicsSelectionSubtitle": "మీరు మీ ఫీడ్‌లో చూడాలనుకుంటున్న అంశాలు లేదా ఉపాంశాలను ఎంచుకోండి. మీరు వాటిని ఎల్లప్పుడూ ఇక్కడ మార్చవచ్చు.",
+  "failedToLoadTopics": "అంశాలను లోడ్ చేయడంలో విఫలమైంది",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "మీరు ఎప్పుడైనా సెట్టింగ్‌లను సవరించవచ్చు",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "భాష",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "మేము డేటాను లోడ్ చేయలేకపోయాము. దయచేసి మీ ఇంటర్నెట్ కనెక్షన్‌ని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "భాషను మార్చండి",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "ఇప్పుడు కాదు",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "నోటిఫికేషన్‌లను ప్రారంభించడం వలన మీరు ముఖ్యమైన వార్తలు, తక్షణ అప్‌డేట్‌లు మరియు వ్యక్తిగతీకరించిన కంటెంట్‌తో తాజాగా ఉండగలుగుతారు - కాబట్టి మీకు ముఖ్యమైన ఏదీ మీరు ఎప్పటికీ కోల్పోరు.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "మేము మీ కోసం ఎంచుకున్న కంటెంట్‌కు స్కిప్ చేయండి",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "వెళ్దాం",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "కొనసాగించు!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "దాటవేయి",
+  "@skip": {
+    "description": ""
+  },
+  "save": "సేవ్ చేయండి",
+  "@save": {
+    "description": ""
+  },
+  "next": "తదుపరి",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "దయచేసి ఒక భాషను ఎంచుకోండి",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "కనీసం ఒక అంశాన్ని ఎంచుకోండి",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "అప్‌డేట్‌గా ఉండాలనుకుంటున్నారా?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "శోధించండి",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "మీరు ఏమి శోధించాలనుకుంటున్నారు?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "శోధించడానికి కీవర్డ్ లేదా టాపిక్ టైప్ చేయండి",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "మీకు ఆసక్తి ఉన్న ఏదైనా అంశం కోసం మీరు పాప్-అప్ నోటిఫికేషన్‌లను ఆన్ చేయవచ్చు.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "మీకు ఏది ఆసక్తి",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "నిజంగా సంబంధితమైన వాటిని మాత్రమే పంపడానికి, ముందుగా మీకు ఆసక్తి ఉన్నవాటిని గుర్తించండి.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "ప్రారంభించండి",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "మళ్లీ ప్రయత్నించండి",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "అనుమతించు",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "అనుమతులు లేవు",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "పరిష్కార సూచనలు",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "నోటిఫికేషన్‌లను అనుమతించండి",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "నోటిఫికేషన్‌లు",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "నోటిఫికేషన్‌లు ప్రారంభించబడ్డాయి",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "నోటిఫికేషన్‌లు తిరస్కరించబడ్డాయి",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "దయచేసి వేచి ఉండండి",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "అన్ని",
+  "@all": {},
+  "cancel": "రద్దు చేయి",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "సెట్టింగ్‌లను తెరవండి",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "మీకు ఆసక్తి ఉన్న ప్రతి అంశానికి మీరు పాప్-అప్ నోటిఫికేషన్‌లను ప్రారంభించవచ్చు.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "ట్రబుల్షూటింగ్ చిట్కాలు",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "మీ కోసం వ్యక్తిగతీకరించబడిన వార్తల యాప్‌కు స్వాగతం!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "చదవడం కొనసాగించండి",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "షేర్ చేయండి",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "ప్రాంతం",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "స్థానికీకరించిన వార్తల నవీకరణలను పొందడానికి మీ ప్రాంతాన్ని ఎంచుకోండి",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "మీకు కావలసిన వార్తల ప్రాంతాన్ని ఎంచుకోండి.\nయాప్‌లో, మీరు అదనపు దేశాలను కూడా ఎంచుకోవచ్చు.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "మీ భాషను ఎంచుకోండి, మీరు దానిని తర్వాత ఎప్పుడైనా మార్చవచ్చు.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "అంశాలు",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "మీకు ఆసక్తి ఉన్న అంశాలను ఎంచుకోండి, మీరు వాటిని ఎల్లప్పుడూ సెట్టింగ్‌లలో మార్చవచ్చు.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "వర్గాలు",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "నోటిఫికేషన్‌లను నిర్వహించండి",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "భాష & ప్రాంతం",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "గురించి",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "గోప్యతా విధానం",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "మమ్మల్ని సంప్రదించండి",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "సర్వర్ సమస్య",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "ఇంటర్నెట్ కనెక్షన్ లేదు",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "మేము ఇంటర్నెట్‌ని చేరుకోగలము కానీ సర్వర్‌ని చేరుకోలేము.\\nకాసేపట్లో మళ్లీ ప్రయత్నించండి.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "ఇంటర్నెట్ కనెక్షన్ లేదు. మేము పాత కథనాలను చూపుతున్నాము; తాజా కథనాలను చూడటానికి ఇంటర్నెట్‌కి కనెక్ట్ చేయండి.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "ఇంటర్నెట్ కనెక్షన్",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "సర్వర్ కనెక్షన్",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "అర్థమైంది",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "కనెక్ట్ చేయబడింది",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "కనెక్ట్ కాలేదు",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "ఆఫ్‌లైన్ మోడ్",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "మార్పులు విజయవంతంగా సేవ్ చేయబడ్డాయి",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "మార్పులను సేవ్ చేయడం సాధ్యపడలేదు",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "పాప్-అప్ నోటిఫికేషన్‌లు",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "మీ హెచ్చరికలను సులభంగా అనుకూలీకరించండి. మీకు ఆసక్తి ఉన్న ఏదైనా అంశం కోసం పుష్ నోటిఫికేషన్‌లను ఆన్ లేదా ఆఫ్ చేయండి.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "మార్గంలో నవీకరణ!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "త్వరలో మీరు ప్రపంచంలోని ఏ ప్రాంతాల నుండి వార్తలు మరియు అప్‌డేట్‌లను పొందాలనుకుంటున్నారో ఎంచుకోగలుగుతారు.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "సమాచారం",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "విజయం",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "మార్పులను సేవ్ చేయండి",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "మీరు మీ మార్పులను సేవ్ చేయాలనుకుంటున్నారా?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "నిర్ధారించండి",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "ఈ సూచనను తెరవడం సాధ్యపడలేదు",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\" కోసం ఫలితాలు కనుగొనబడలేదు",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "ఈ వర్గంలో \"{query}\" కోసం ఫలితాలు ఏవీ కనుగొనబడలేదు",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "వార్తల విషయాలు",
+  "@newsTopics": {},
+  "errorNoInternet": "దయచేసి మీ కనెక్షన్‌ని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "ఇంటర్నెట్ కనెక్షన్ లేదు.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "అభ్యర్థన సమయం ముగిసింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "అభ్యర్థన సమయం ముగిసింది.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "సర్వర్ లోపం సంభవించింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "సర్వర్ లోపం.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "మీకు అధికారం లేదు. దయచేసి సైన్ ఇన్ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "అనధికారమైనది.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "ఈ చర్యను నిర్వహించడానికి మీకు అనుమతి లేదు.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "యాక్సెస్ నిరాకరించబడింది.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "మీరు వెతుకుతున్నది మేము కనుగొనలేకపోయాము.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "దొరకలేదు.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "మరిన్ని వివరాలు నవీకరించబడ్డాయి",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "కొంత సమాచారం చెల్లదు. దయచేసి సమీక్షించి, మళ్లీ ప్రయత్నించండి.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "నేను ఇమెయిల్ ద్వారా అప్‌డేట్‌లు మరియు వార్తాలేఖలను స్వీకరించడానికి అంగీకరిస్తున్నాను.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "మాకు ఇమెయిల్ పంపండి",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "మార్పులను విస్మరించాలా?",
+  "discardChangesMessage": "మీరు సేవ్ చేయని మార్పులను కలిగి ఉన్నారు. మీరు కొనసాగితే, అవి పోతాయి.",
+  "discardButton": "విస్మరించండి",
+  "stayButton": "ఉండు",
+  "changeCountryConfirm": "వార్తల గమ్యస్థానాన్ని మార్చండి",
+  "otherWaysToContact": "సంప్రదించడానికి ఇతర మార్గాలు",
+  "agreePrivacy": "నేను చదివి అంగీకరించాను ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "దిగువ ఫారమ్‌ని ఉపయోగించి మమ్మల్ని సంప్రదించడానికి సంకోచించకండి.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "పూర్తి పేరు",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "ఇమెయిల్ చిరునామా",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "సందేశం",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "చెల్లని ఇన్‌పుట్.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "ఇలాంటి మూలాధారాలు",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "పంపండి",
+  "errorGeneric": "ఏదో తప్పు జరిగింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "ఏదో తప్పు జరిగింది.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "సరిపోలే ఫలితాలు లేవు",
+  "emptyResults_noResults": "ఫలితాలు ఏవీ కనుగొనబడలేదు.",
+  "emptyResults_bottomWithTopic": "మీ కీలకపదాలను మార్చడానికి ప్రయత్నించండి లేదా మరొక అంశాన్ని ఎంచుకోండి.",
+  "emptyResults_bottomWithoutTopic": "మీ కీలకపదాలను మార్చడానికి ప్రయత్నించండి.",
+  "emptyResults_inThisTopic": "ఈ అంశంలో",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "తప్పుడు అభ్యర్థన.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "అభ్యర్థన చెల్లదు. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "సవరించబడలేదు.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "మీ చివరి అభ్యర్థన నుండి ఏదీ మారలేదు.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "నెట్‌వర్క్ లోపం.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "మేము నెట్‌వర్క్‌ని చేరుకోలేకపోయాము. మీ కనెక్షన్‌ని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "డేటా అందుబాటులో లేదు.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "మేము ప్రదర్శించడానికి ఏ డేటాను కనుగొనలేకపోయాము.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "సంఘర్షణ.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "అభ్యర్థన ఇప్పటికే ఉన్న డేటాతో వైరుధ్యంగా ఉంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "ధృవీకరణ లోపం.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "సర్వర్ కొంత డేటాను తిరస్కరించింది. దయచేసి సమీక్షించి, మళ్లీ ప్రయత్నించండి.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "రాయడం విఫలమైంది.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "మేము ఫైల్‌ను సేవ్ చేయలేకపోయాము. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "చదవడం విఫలమైంది.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "మేము ఫైల్‌ని చదవలేకపోయాము. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "ఫైల్ కనుగొనబడలేదు.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "మీరు వెతుకుతున్న ఫైల్‌ని మేము కనుగొనలేకపోయాము.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "తగినంత నిల్వ లేదు.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "స్థలాన్ని ఖాళీ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "డేటాబేస్ రీడ్ ఎర్రర్.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "మేము డేటాబేస్ నుండి చదవలేకపోయాము.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "డేటాబేస్ వ్రాయడంలో లోపం.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "మేము డేటాబేస్‌లో సేవ్ చేయలేకపోయాము.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "డేటాబేస్ కనెక్షన్ లోపం.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "మేము డేటాబేస్కు కనెక్ట్ చేయలేకపోయాము.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "ప్రమాణీకరణ లోపం.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "దయచేసి సైన్ ఇన్ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "చెల్లని ఆధారాలు.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "వినియోగదారు పేరు లేదా పాస్‌వర్డ్ తప్పు.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "సురక్షిత నిల్వ రీడ్ ఎర్రర్.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "మేము సురక్షిత నిల్వ నుండి చదవలేకపోయాము.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "సురక్షిత నిల్వ వ్రాసే లోపం.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "సురక్షిత నిల్వకు మేము వ్రాయలేకపోయాము.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "సురక్షిత నిల్వ క్లియర్ ఎర్రర్.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "మేము సురక్షిత నిల్వను క్లియర్ చేయలేకపోయాము.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "సెషన్ గడువు ముగిసింది.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "దయచేసి మళ్లీ సైన్ ఇన్ చేయండి.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "వినియోగదారు కనుగొనబడలేదు.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "మేము ఆ వినియోగదారుని కనుగొనలేకపోయాము.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "అనుమతి నిరాకరించబడింది.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "ఈ చర్యను నిర్వహించడానికి మీకు అనుమతి లేదు.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "ఫలితాలు లేవు.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "మేము ఏ ఫలితాలను కనుగొనలేకపోయాము.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "చెల్లని ఇన్‌పుట్.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "దయచేసి మీ ఇన్‌పుట్‌ని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "అంశాలు ఏవీ ఎంచుకోబడలేదు.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "దయచేసి కనీసం ఒక అంశాన్ని ఎంచుకోండి.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "పార్సింగ్ లోపం.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "మేము డేటాను ప్రాసెస్ చేయలేకపోయాము.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "తెలియని లోపం.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "ఊహించని లోపం సంభవించింది.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

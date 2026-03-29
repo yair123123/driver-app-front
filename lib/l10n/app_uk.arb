@@ -1,0 +1,730 @@
+{
+  "@@locale": "uk",
+  "back": "назад",
+  "saveChangesTitle": "Зберегти зміни",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Нове в додатку",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Перейдіть на сторінку груп",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Нова область для каналів WhatsApp і Telegram з відео, зображеннями та оновленнями – весь найцікавіший контент в одному місці.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Нові повідомлення",
+  "addArea": "Додати область",
+  "removeArea": "Видалити область",
+  "removeAreaConfirmContent": "Ви впевнені, що хочете видалити {area} із вибраних областей?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Канали",
+  "contactUsSuccessTitle": "Успішно відправлено ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "дякую! Ми отримали ваше повідомлення і зв’яжемося з вами якомога швидше.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Виберіть країну",
+  "areaManagmentTitle": "Зона споживання новин",
+  "areaManagmentSubtitle": "Мої Країни",
+  "sharedFromApp": "Поділився з",
+  "textCopied": "Текст скопійовано",
+  "queryIsEmpty": "Запит порожній",
+  "queryIsEmptyTitle": "Пошук порожній.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Область успішно видалено",
+  "areaWereAdded": "Область успішно додано",
+  "saveChangesMessage": "Бажаєте зберегти внесені зміни?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Ми майже приземляємось…",
+  "busyLandingSubtitle": "Готуємо ваші новини",
+  "changeCountryTitle": "До якої країни нам перейти?",
+  "changeCountrySubtitle": "Коли ви обираєте країну, увесь вміст програми оновлюватиметься відповідно до вашого вибору.",
+  "dailySummary": "Щоденний підсумок",
+  "lastUpdated": "Останнє оновлення",
+  "saveChangesSubtitle": "Бажаєте зберегти внесені зміни?",
+  "readMore": "Читати далі",
+  "searchPageNoResultsPrefix": "Не знайдено результатів для ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Не знайдено результатів для \n",
+  "searchPageNoResultsForThisCategorySuffix": " в цій категорії",
+  "toPowerOn": "щоб увімкнути",
+  "notificationsOffTitle": "Сповіщення вимкнено",
+  "notificationsOffSubtitle": "Схоже, доступ до сповіщень ще не ввімкнено.",
+  "newArticles": "Нові статті",
+  "home": "додому",
+  "changesApplyOnNextLaunch": "Зміни буде застосовано під час наступного запуску програми.",
+  "@back": {},
+  "enable": "Увімкнути",
+  "stayUpdatedWithLatestNews": "Будьте в курсі останніх новин",
+  "enableNotifications": "Увімкнути сповіщення",
+  "error_details": "Деталі помилки",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ой, щось не так",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Безкоштовний пошук",
+  "aiPageSubtitle": "Ця функція ще в розробці \n варто незабаром перевірити.",
+  "topicsSelectionTitle": "Вибір тем новин",
+  "groups": "Групи",
+  "aiPageTitle": "Незабаром: ви зможете поспілкуватися з нашим ШІ про новини!",
+  "topicsSelectionSubtitle": "Виберіть теми чи підтеми, які ви хотіли б бачити у своїй стрічці. Ви завжди можете змінити їх тут.",
+  "failedToLoadTopics": "Не вдалося завантажити теми",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Ви можете будь-коли змінити налаштування",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Мова",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Не вдалося завантажити дані. Перевірте підключення до Інтернету та повторіть спробу.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Змінити мову",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Не зараз",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Увімкнення сповіщень дає змогу бути в курсі важливих новин, термінових оновлень і персоналізованого вмісту, тож ви ніколи не пропустите нічого важливого для вас.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Перейдіть до вмісту, який ми вибрали для вас",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "ходімо",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Продовжуйте!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Пропустити",
+  "@skip": {
+    "description": ""
+  },
+  "save": "зберегти",
+  "@save": {
+    "description": ""
+  },
+  "next": "Далі",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Будь ласка, виберіть мову",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Виберіть хоча б одну тему",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Хочете бути в курсі подій?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Пошук",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Що б ви хотіли шукати?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Введіть ключове слово або тему для пошуку",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Ви можете ввімкнути спливаючі сповіщення для будь-якої теми, яка вас цікавить.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Що вас цікавить",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Щоб надсилати лише те, що дійсно актуально, давайте спочатку відзначимо те, що вас цікавить.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Почніть роботу",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Спробуйте знову",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Дозволити",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Немає дозволів",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Пропозиції щодо вирішення",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Дозволити сповіщення",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Сповіщення",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Сповіщення ввімкнено",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Сповіщення відхилено",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Будь ласка, зачекайте",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "все",
+  "@all": {},
+  "cancel": "Скасувати",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Відкрийте налаштування",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Ви можете ввімкнути спливаючі сповіщення для кожної теми, яка вас цікавить.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Поради щодо усунення несправностей",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Ласкаво просимо до програми новин, персоналізованої спеціально для вас!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Читайте далі",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Поділіться",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Площа",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Виберіть свій регіон, щоб отримувати локалізовані оновлення новин",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Виберіть потрібний регіон новин.\nУ програмі також можна вибрати додаткові країни.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Виберіть свою мову, ви завжди можете змінити її пізніше.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Теми",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Вибирайте теми, які вас цікавлять, ви завжди можете змінити їх у налаштуваннях.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Категорії",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Керувати сповіщеннями",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Мова та регіон",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "про",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Політика конфіденційності",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Зв'яжіться з нами",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Проблема з сервером",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Немає підключення до Інтернету",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Ми можемо отримати доступ до Інтернету, але не до сервера.\\nСпробуйте ще раз за мить.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Немає підключення до Інтернету. Ми показуємо старіші статті; підключіться до Інтернету, щоб переглянути останні новини.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "підключення до Інтернету",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Підключення до сервера",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "зрозумів",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Підключено",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Не підключено",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Автономний режим",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Зміни успішно збережено",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Не вдалося зберегти зміни",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Спливаючі повідомлення",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Легко налаштуйте свої сповіщення. Увімкніть або вимкніть push-повідомлення для будь-якої теми, яка вас цікавить.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Update on the way!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Незабаром ви зможете вибрати, з яких регіонів світу ви хочете отримувати новини та оновлення.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Інформація",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Успіх",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Зберегти зміни",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Бажаєте зберегти зміни?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Підтвердити",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Неможливо відкрити це посилання",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Немає результатів для \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "У цій категорії не знайдено результатів для \"{query}\".",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Теми новин",
+  "@newsTopics": {},
+  "errorNoInternet": "Перевірте підключення та повторіть спробу.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Немає підключення до Інтернету.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Час очікування запиту минув. Спробуйте пізніше.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Час очікування запиту минув.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Сталася помилка сервера. Спробуйте ще раз.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Помилка сервера.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Ви не авторизовані. Увійдіть і повторіть спробу.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Несанкціонований.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Ви не маєте дозволу на виконання цієї дії.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Доступ заборонено.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Ми не змогли знайти те, що ви шукали.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Не знайдено.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Більш детальну інформацію оновлено",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Деяка інформація виглядає недійсною. Будь ласка, перегляньте та повторіть спробу.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Я погоджуюся отримувати оновлення та інформаційні бюлетені електронною поштою.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Надішліть нам електронний лист",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Скасувати зміни?",
+  "discardChangesMessage": "У вас є незбережені зміни. Якщо ви продовжите, вони будуть втрачені.",
+  "discardButton": "Відкинути",
+  "stayButton": "Залишся",
+  "changeCountryConfirm": "Змінити призначення новин",
+  "otherWaysToContact": "Інші способи зв'язку",
+  "agreePrivacy": "Я прочитав і погоджуюся з ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Не соромтеся зв’язатися з нами за допомогою форми нижче.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "ПІБ",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Адреса електронної пошти",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "повідомлення",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Невірний вхід.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Подібні джерела",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Надіслати",
+  "errorGeneric": "Щось пішло не так. Спробуйте ще раз.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Щось пішло не так.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Немає відповідних результатів",
+  "emptyResults_noResults": "Результатів не знайдено.",
+  "emptyResults_bottomWithTopic": "Спробуйте змінити ключові слова або виберіть іншу тему.",
+  "emptyResults_bottomWithoutTopic": "Спробуйте змінити ключові слова.",
+  "emptyResults_inThisTopic": "в цій темі",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Поганий запит.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Запит був недійсним. Спробуйте ще раз.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Не змінено.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "З часу вашого останнього запиту нічого не змінилося.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Помилка мережі.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Не вдалося підключитися до мережі. Перевірте підключення та повторіть спробу.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Немає даних.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Не вдалося знайти дані для відображення.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Конфлікт.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Запит суперечив наявним даним. Спробуйте ще раз.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Помилка підтвердження.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Сервер відхилив деякі дані. Будь ласка, перегляньте та повторіть спробу.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Помилка запису.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Не вдалося зберегти файл. Спробуйте ще раз.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Прочитати не вдалося.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Не вдалося прочитати файл. Спробуйте ще раз.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Файл не знайдено.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Нам не вдалося знайти файл, який ви шукаєте.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Недостатньо пам'яті.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Звільніть місце та повторіть спробу.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Помилка читання бази даних.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Ми не змогли прочитати з бази даних.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Помилка запису бази даних.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Не вдалося зберегти в базі даних.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Помилка підключення до бази даних.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Не вдалося підключитися до бази даних.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Помилка автентифікації.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Увійдіть і повторіть спробу.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Недійсні облікові дані.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Ім'я користувача або пароль неправильні.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Помилка читання безпечного сховища.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Не вдалося прочитати з безпечного сховища.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Помилка запису в безпечне сховище.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Не вдалося записати в безпечне сховище.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Помилка очищення безпечного сховища.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Не вдалося очистити безпечне сховище.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Сеанс закінчився.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Увійдіть знову.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Користувача не знайдено.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Нам не вдалося знайти цього користувача.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "У дозволі відмовлено.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Ви не маєте дозволу на виконання цієї дії.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Результатів немає.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Не вдалося знайти жодного результату.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Невірний вхід.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Перевірте введені дані та повторіть спробу.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Теми не вибрано.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Виберіть принаймні одну тему.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Помилка аналізу.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Не вдалося обробити дані.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Невідома помилка.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Сталася неочікувана помилка.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

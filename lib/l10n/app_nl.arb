@@ -1,0 +1,730 @@
+{
+  "@@locale": "nl",
+  "back": "terug",
+  "saveChangesTitle": "Wijzigingen opslaan",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Nieuw in de app",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Ga naar de groepenpagina",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Een nieuw gebied voor WhatsApp- en Telegram-kanalen met video's, afbeeldingen en updates – alle interessante inhoud op één plek.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Nieuwe berichten",
+  "addArea": "Gebied toevoegen",
+  "removeArea": "Gebied verwijderen",
+  "removeAreaConfirmContent": "Weet u zeker dat u {area} uit de door u geselecteerde gebieden wilt verwijderen?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Kanalen",
+  "contactUsSuccessTitle": "Succesvol verzonden ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Dank je! Wij hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Selecteer Land",
+  "areaManagmentTitle": "Nieuwsconsumptiegebied",
+  "areaManagmentSubtitle": "Mijn landen",
+  "sharedFromApp": "Gedeeld van",
+  "textCopied": "Tekst gekopieerd",
+  "queryIsEmpty": "Zoekopdracht is leeg",
+  "queryIsEmptyTitle": "Zoeken is leeg.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Gebied is succesvol verwijderd",
+  "areaWereAdded": "Gebied is succesvol toegevoegd",
+  "saveChangesMessage": "Wilt u de aangebrachte wijzigingen opslaan?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "We landen bijna...",
+  "busyLandingSubtitle": "Wij bereiden uw nieuws voor",
+  "changeCountryTitle": "Naar welk land moeten we overstappen?",
+  "changeCountrySubtitle": "Wanneer u een land kiest, wordt alle inhoud in de app bijgewerkt op basis van uw selectie.",
+  "dailySummary": "Dagelijkse samenvatting",
+  "lastUpdated": "Laatst bijgewerkt",
+  "saveChangesSubtitle": "Wilt u de aangebrachte wijzigingen opslaan?",
+  "readMore": "Lees meer",
+  "searchPageNoResultsPrefix": "Er zijn geen resultaten gevonden voor ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Er zijn geen resultaten gevonden voor \n",
+  "searchPageNoResultsForThisCategorySuffix": " in deze categorie",
+  "toPowerOn": "aan te zetten",
+  "notificationsOffTitle": "Meldingen uitgeschakeld",
+  "notificationsOffSubtitle": "Het lijkt erop dat toegang tot meldingen nog niet is ingeschakeld.",
+  "newArticles": "Nieuwe artikelen",
+  "home": "thuis",
+  "changesApplyOnNextLaunch": "Wijzigingen worden toegepast bij de volgende lancering van de app.",
+  "@back": {},
+  "enable": "Inschakelen",
+  "stayUpdatedWithLatestNews": "Blijf op de hoogte van het laatste nieuws",
+  "enableNotifications": "Meldingen inschakelen",
+  "error_details": "Foutdetails",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Oeps, er is iets mis",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Gratis zoeken",
+  "aiPageSubtitle": "Deze functie is nog in ontwikkeling \n de moeite waard om binnenkort nog eens terug te komen.",
+  "topicsSelectionTitle": "Selectie van nieuwsonderwerpen",
+  "groups": "Groepen",
+  "aiPageTitle": "Binnenkort beschikbaar: je kunt met onze AI chatten over het nieuws!",
+  "topicsSelectionSubtitle": "Kies onderwerpen of subonderwerpen die u graag in uw feed wilt zien. Je kunt ze hier altijd wijzigen.",
+  "failedToLoadTopics": "Kan onderwerpen niet laden",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "U kunt de instellingen op elk gewenst moment bewerken",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Taal",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "We konden de gegevens niet laden. Controleer uw internetverbinding en probeer het opnieuw.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Taal wijzigen",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Niet nu",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Door meldingen in te schakelen, blijft u op de hoogte van belangrijk nieuws, urgente updates en gepersonaliseerde inhoud, zodat u nooit meer iets mist dat voor u belangrijk is.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Ga naar de inhoud die we voor u hebben uitgekozen",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Laten we gaan",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Blijf doorgaan!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Overslaan",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Opslaan",
+  "@save": {
+    "description": ""
+  },
+  "next": "Volgende",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Selecteer een taal",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Selecteer minimaal één onderwerp",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Wil je op de hoogte blijven?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Zoeken",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Wat zou je willen zoeken?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Typ een trefwoord of onderwerp om te zoeken",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "U kunt pop-upmeldingen inschakelen voor elk onderwerp dat u interesseert.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Wat interesseert jou",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Om alleen te sturen wat echt relevant is, moeten we eerst markeren wat u interesseert.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Aan de slag",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Probeer het opnieuw",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Toestaan",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Geen machtigingen",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Suggesties voor oplossingen",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Meldingen toestaan",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Meldingen",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Meldingen ingeschakeld",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Meldingen geweigerd",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Wacht alstublieft",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "allemaal",
+  "@all": {},
+  "cancel": "Annuleer",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Instellingen openen",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "U kunt pop-upmeldingen inschakelen voor elk onderwerp dat u interesseert.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Tips voor het oplossen van problemen",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Welkom bij de nieuws-app, speciaal voor jou gepersonaliseerd!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Lees verder",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Deel",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Gebied",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Kies uw regio om gelokaliseerde nieuwsupdates te ontvangen",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Kies de gewenste nieuwsregio.\nBinnen de app kun je ook extra landen selecteren.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Kies uw taal, u kunt deze later altijd wijzigen.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Onderwerpen",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Kies de onderwerpen die u interesseren, u kunt deze altijd wijzigen in de instellingen.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Categorieën",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Beheer meldingen",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Taal & regio",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Over",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Privacybeleid",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Neem contact met ons op",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Serverprobleem",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Geen internetverbinding",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "We kunnen het internet bereiken, maar niet de server.\\nProbeer het zo opnieuw.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Geen internetverbinding. We tonen oudere artikelen; maak verbinding met internet om de nieuwste verhalen te zien.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Internetverbinding",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Serververbinding",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Ik heb het",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Verbonden",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Niet verbonden",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Offline-modus",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Wijzigingen zijn succesvol opgeslagen",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Kan wijzigingen niet opslaan",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Pop-upmeldingen",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Pas uw waarschuwingen eenvoudig aan. Schakel pushmeldingen in of uit voor elk onderwerp dat u interesseert.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Update onderweg!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Binnenkort kun je kiezen uit welke regio's van de wereld je nieuws en updates wilt ontvangen.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Succes",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Wijzigingen opslaan",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Wilt u uw wijzigingen opslaan?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Bevestig",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Kan deze referentie niet openen",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Er zijn geen resultaten gevonden voor '{query}'",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Er zijn geen resultaten gevonden voor \"{query}\" in deze categorie",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Nieuws onderwerpen",
+  "@newsTopics": {},
+  "errorNoInternet": "Controleer uw verbinding en probeer het opnieuw.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Geen internetverbinding.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Er is een time-out opgetreden voor het verzoek. Probeer het later opnieuw.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Verzoek is verlopen.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Er is een serverfout opgetreden. Probeer het opnieuw.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Serverfout.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "U bent niet bevoegd. Meld u aan en probeer het opnieuw.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Ongeautoriseerd.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "U heeft geen toestemming om deze actie uit te voeren.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Toegang geweigerd.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Wij konden niet vinden wat u zocht.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Niet gevonden.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Er zijn meer details bijgewerkt",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Sommige informatie lijkt ongeldig. Controleer het en probeer het opnieuw.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Ik ga ermee akkoord om updates en nieuwsbrieven per e-mail te ontvangen.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Stuur ons een e-mail",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Wijzigingen weggooien?",
+  "discardChangesMessage": "U heeft niet-opgeslagen wijzigingen. Als je doorgaat, gaan ze verloren.",
+  "discardButton": "Gooi weg",
+  "stayButton": "Blijf",
+  "changeCountryConfirm": "Nieuwsbestemming wijzigen",
+  "otherWaysToContact": "Andere manieren om contact op te nemen",
+  "agreePrivacy": "Ik heb de gelezen en ga ermee akkoord ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Neem gerust contact met ons op via onderstaand formulier.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Volledige naam",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "E-mailadres",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Bericht",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Ongeldige invoer.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Soortgelijke bronnen",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Verzenden",
+  "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Er is iets misgegaan.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Geen overeenkomende resultaten",
+  "emptyResults_noResults": "Geen resultaten gevonden.",
+  "emptyResults_bottomWithTopic": "Probeer uw zoekwoorden te wijzigen of kies een ander onderwerp.",
+  "emptyResults_bottomWithoutTopic": "Probeer uw zoekwoorden te wijzigen.",
+  "emptyResults_inThisTopic": "in dit onderwerp",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Slecht verzoek.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Het verzoek was ongeldig. Probeer het opnieuw.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Niet gewijzigd.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Er is niets veranderd sinds uw laatste verzoek.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Netwerkfout.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "We konden het netwerk niet bereiken. Controleer uw verbinding en probeer het opnieuw.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Geen gegevens beschikbaar.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "We konden geen gegevens vinden om weer te geven.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Conflicten.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Het verzoek was in strijd met bestaande gegevens. Probeer het opnieuw.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Validatiefout.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "De server heeft bepaalde gegevens afgewezen. Controleer het en probeer het opnieuw.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Schrijven is mislukt.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "We konden het bestand niet opslaan. Probeer het opnieuw.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Lezen mislukt.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "We konden het bestand niet lezen. Probeer het opnieuw.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Bestand niet gevonden.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "We kunnen het bestand dat u zoekt niet vinden.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Niet genoeg opslagruimte.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Maak ruimte vrij en probeer het opnieuw.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Leesfout database.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "We konden niet uit de database lezen.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Schrijffout in database.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "We konden niet opslaan in de database.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Databaseverbindingsfout.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "We konden geen verbinding maken met de database.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Authenticatiefout.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Meld u aan en probeer het opnieuw.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Ongeldige inloggegevens.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "De gebruikersnaam of het wachtwoord is onjuist.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Leesfout bij beveiligde opslag.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "We konden niet lezen vanuit de beveiligde opslag.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Schrijffout bij beveiligde opslag.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "We konden niet naar de beveiligde opslag schrijven.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Veilige opslag duidelijke fout.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "We kunnen de beveiligde opslag niet vrijmaken.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Sessie verlopen.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Meld u opnieuw aan.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Gebruiker niet gevonden.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "We konden die gebruiker niet vinden.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Toestemming geweigerd.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "U heeft geen toestemming om deze actie uit te voeren.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Geen resultaten.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "We konden geen resultaten vinden.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Ongeldige invoer.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Controleer uw invoer en probeer het opnieuw.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Geen onderwerpen geselecteerd.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Selecteer minimaal één onderwerp.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Parseringsfout.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "We konden de gegevens niet verwerken.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Onbekende fout.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Er is een onverwachte fout opgetreden.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

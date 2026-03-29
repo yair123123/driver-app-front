@@ -1,0 +1,42 @@
+import 'package:news_app/core/error/failure.dart';
+import 'package:news_app/features/system_messages/domain/system_message.dart';
+
+SystemMessageId mapFailureToMessageId(Failure f) {
+  return switch (f) {
+    NoInternetFailure() => SystemMessageId.noInternet,
+    TimeoutFailure() => SystemMessageId.timeout,
+    NetworkFailure() => SystemMessageId.network,
+    ServerFailure() => SystemMessageId.server,
+    DataIsEmpty() => SystemMessageId.dataIsEmpty,
+    BadRequestFailure() => SystemMessageId.badRequest,
+    NotModified() => SystemMessageId.notModified,
+    UnauthorizedFailure() => SystemMessageId.unauthorized,
+    ForbiddenFailure() => SystemMessageId.forbidden,
+    NotFoundFailure() => SystemMessageId.notFound,
+    ConflictFailure() => SystemMessageId.conflict,
+    ServerValidationFailure() => SystemMessageId.serverValidation,
+    WriteFileFailure() => SystemMessageId.writeFile,
+    ReadFileFailure() => SystemMessageId.readFile,
+    FileNotFoundFailure() => SystemMessageId.fileNotFound,
+    InsufficientStorageFailure() => SystemMessageId.insufficientStorage,
+    DatabaseReadFailure() => SystemMessageId.databaseRead,
+    DatabaseWriteFailure() => SystemMessageId.databaseWrite,
+    DatabaseConnectionFailure() => SystemMessageId.databaseConnection,
+    AuthFailure() => SystemMessageId.auth,
+    InvalidCredentialsFailure() => SystemMessageId.invalidCredentials,
+    SecureStorageReadFailure() => SystemMessageId.secureStorageRead,
+    SecureStorageWriteFailure() => SystemMessageId.secureStorageWrite,
+    SecureStorageClearFailure() => SystemMessageId.secureStorageClear,
+    TokenExpiredFailure() => SystemMessageId.tokenExpired,
+    UserNotFoundFailure() => SystemMessageId.userNotFound,
+    PermissionDeniedFailure() => SystemMessageId.permissionDenied,
+    EmptyResultFailure() => SystemMessageId.emptyResult,
+    InvalidInputFailure() => SystemMessageId.invalidInput,
+    ValidationFailure() => SystemMessageId.validationError,
+    QueryIsEmpty() => SystemMessageId.queryIsEmpty,
+    EmptyTopicsFailure() => SystemMessageId.emptyTopics,
+    ParsingFailure() => SystemMessageId.parsing,
+    UnknownFailure() => SystemMessageId.unknown,
+    _ => SystemMessageId.genericError,
+  };
+}

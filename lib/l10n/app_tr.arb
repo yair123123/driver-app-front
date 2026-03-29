@@ -1,0 +1,730 @@
+{
+  "@@locale": "tr",
+  "back": "geri",
+  "saveChangesTitle": "Değişiklikleri Kaydet",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Uygulamada yeni",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Gruplar sayfasına gidin",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "WhatsApp ve Telegram kanalları için videolar, resimler ve güncellemeler içeren yeni bir alan; en ilgi çekici içeriklerin tümü tek bir yerde.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Yeni Mesajlar",
+  "addArea": "Alan Ekle",
+  "removeArea": "Alanı Kaldır",
+  "removeAreaConfirmContent": "{area}'yi seçtiğiniz alanlardan kaldırmak istediğinizden emin misiniz?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Kanallar",
+  "contactUsSuccessTitle": "Başarıyla gönderildi ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Teşekkür ederim! Mesajınızı aldık ve en kısa sürede size geri döneceğiz.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Ülke Seçiniz",
+  "areaManagmentTitle": "Haber Tüketim Alanı",
+  "areaManagmentSubtitle": "Ülkelerim",
+  "sharedFromApp": "Şuradan paylaşıldı:",
+  "textCopied": "Metin kopyalandı",
+  "queryIsEmpty": "Sorgu boş",
+  "queryIsEmptyTitle": "Arama boş.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Alan başarıyla kaldırıldı",
+  "areaWereAdded": "Alan başarıyla eklendi",
+  "saveChangesMessage": "Yaptığınız değişiklikleri kaydetmek istiyor musunuz?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Neredeyse iniyoruz…",
+  "busyLandingSubtitle": "Haberlerinizi hazırlıyoruz",
+  "changeCountryTitle": "Hangi ülkeye geçmeliyiz?",
+  "changeCountrySubtitle": "Bir ülke seçtiğinizde uygulamadaki tüm içerik seçiminize göre güncellenecektir.",
+  "dailySummary": "Günlük özet",
+  "lastUpdated": "Son güncelleme",
+  "saveChangesSubtitle": "Yaptığınız değişiklikleri kaydetmek istiyor musunuz?",
+  "readMore": "Devamını oku",
+  "searchPageNoResultsPrefix": "için sonuç bulunamadı ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "için sonuç bulunamadı \n",
+  "searchPageNoResultsForThisCategorySuffix": " bu kategoride",
+  "toPowerOn": "açmak",
+  "notificationsOffTitle": "Bildirimler kapalı",
+  "notificationsOffSubtitle": "Görünüşe göre bildirim erişimi henüz etkinleştirilmemiş.",
+  "newArticles": "Yeni Makaleler",
+  "home": "ev",
+  "changesApplyOnNextLaunch": "Değişiklikler bir sonraki uygulama açılışında uygulanacaktır.",
+  "@back": {},
+  "enable": "Etkinleştir",
+  "stayUpdatedWithLatestNews": "En son haberlerle güncel kalın",
+  "enableNotifications": "Bildirimleri Etkinleştir",
+  "error_details": "Hata ayrıntıları",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ah bir sorun var",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Ücretsiz Arama",
+  "aiPageSubtitle": "Bu özellik hâlâ geliştirilme aşamasındadır \n yakında tekrar kontrol etmeye değer.",
+  "topicsSelectionTitle": "Haber Konuları Seçimi",
+  "groups": "Gruplar",
+  "aiPageTitle": "Çok yakında: Yapay zekamızla haberler hakkında sohbet edebileceksiniz!",
+  "topicsSelectionSubtitle": "Feed'inizde görmek istediğiniz konuları veya alt konuları seçin. Bunları her zaman buradan değiştirebilirsiniz.",
+  "failedToLoadTopics": "Konular yüklenemedi",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Ayarları istediğiniz zaman düzenleyebilirsiniz",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Dil",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Verileri yükleyemedik. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Dili değiştir",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Şimdi Değil",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Bildirimleri etkinleştirmek önemli haberler, acil güncellemeler ve kişiselleştirilmiş içeriklerden haberdar olmanızı sağlar; böylece sizin için önemli olan hiçbir şeyi kaçırmazsınız.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Sizin için seçtiğimiz içeriğe atlayın",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Hadi gidelim",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Devam etmek!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Atla",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Kaydet",
+  "@save": {
+    "description": ""
+  },
+  "next": "Sonraki",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "lütfen bir Dil Seçin",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "En az bir konu seçin",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Güncel kalmak ister misiniz?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Ara",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Neyi aramak istersiniz?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Aramak için bir anahtar kelime veya konu yazın",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "İlginizi çeken herhangi bir konu için açılır bildirimleri açabilirsiniz.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Seni ilgilendiren şey",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Yalnızca gerçekten alakalı olanları göndermek için öncelikle sizi ilgilendiren şeyleri işaretleyelim.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Başlayın",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Tekrar dene",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "İzin ver",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "İzin Yok",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Çözüm önerileri",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Bildirimlere İzin Ver",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Bildirimler",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Bildirimler Etkin",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Bildirimler Reddedildi",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Lütfen Bekleyin",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "hepsi",
+  "@all": {},
+  "cancel": "İptal",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Ayarları Aç",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "İlginizi çeken her konu için açılır bildirimleri etkinleştirebilirsiniz.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Sorun Giderme İpuçları",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Sadece sizin için kişiselleştirilmiş haber uygulamasına hoş geldiniz!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Okumaya devam et",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Paylaş",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Alan",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Yerelleştirilmiş haber güncellemelerini almak için bölgenizi seçin",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "İstediğiniz haber bölgesini seçin.\nUygulamanın içinde ek ülkeleri de seçebilirsiniz.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Dilinizi seçin, daha sonra istediğiniz zaman değiştirebilirsiniz.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Konular",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "İlginizi çeken konuları seçin, bunları istediğiniz zaman ayarlardan değiştirebilirsiniz.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Kategoriler",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Bildirimleri yönet",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Dil ve bölge",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Hakkında",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Gizlilik politikası",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Bize ulaşın",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Sunucu sorunu",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "İnternet bağlantısı yok",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "İnternete ulaşabiliyoruz ama sunucuya ulaşamıyoruz.\\nBirazdan tekrar deneyin.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "İnternet bağlantısı yok. Daha eski makaleleri gösteriyoruz; En son hikayeleri görmek için internete bağlanın.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "İnternet bağlantısı",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Sunucu bağlantısı",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Anladım",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Bağlı",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Bağlı değil",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Çevrimdışı mod",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Değişiklikler başarıyla kaydedildi",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Değişiklikler kaydedilemiyor",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Açılır bildirimler",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Uyarılarınızı kolayca özelleştirin. İlginizi çeken herhangi bir konu için anlık bildirimleri açın veya kapatın.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Güncelleme yolda!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Yakında dünyanın hangi bölgelerinden haber ve güncelleme almak istediğinizi seçebileceksiniz.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Bilgi",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Başarı",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Değişiklikleri kaydet",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Değişikliklerinizi kaydetmek istiyor musunuz?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Onayla",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Bu referans açılamıyor",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\" için sonuç bulunamadı",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Bu kategoride \"{query}\" için sonuç bulunamadı",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Haber konuları",
+  "@newsTopics": {},
+  "errorNoInternet": "Lütfen bağlantınızı kontrol edip tekrar deneyin.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "İnternet bağlantısı yok.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "İstek zaman aşımına uğradı. Lütfen daha sonra tekrar deneyin.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "İstek zaman aşımına uğradı.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Sunucu hatası oluştu. Lütfen tekrar deneyin.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Sunucu hatası.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Yetkili değilsiniz. Lütfen oturum açın ve tekrar deneyin.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Yetkisiz.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Bu eylemi gerçekleştirme izniniz yok.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Erişim reddedildi.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Aradığınızı bulamadık.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Bulunamadı.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Daha fazla ayrıntı güncellendi",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Bazı bilgiler geçersiz görünüyor. Lütfen inceleyip tekrar deneyin.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Güncellemeleri ve haber bültenlerini e-postayla almayı kabul ediyorum.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Bize bir e-posta gönderin",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Değişiklikler silinsin mi?",
+  "discardChangesMessage": "Kaydedilmemiş değişiklikleriniz var. Devam ederseniz kaybolacaklar.",
+  "discardButton": "At",
+  "stayButton": "Kal",
+  "changeCountryConfirm": "Haber hedefini değiştir",
+  "otherWaysToContact": "İletişim kurmanın diğer yolları",
+  "agreePrivacy": "okudum ve kabul ediyorum ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Aşağıdaki formu kullanarak bizimle iletişime geçmekten çekinmeyin.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Tam ad",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "E-posta adresi",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Mesaj",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Geçersiz giriş.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Benzer kaynaklar",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Gönder",
+  "errorGeneric": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Bir şeyler ters gitti.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Eşleşen sonuç yok",
+  "emptyResults_noResults": "Sonuç bulunamadı.",
+  "emptyResults_bottomWithTopic": "Anahtar kelimelerinizi değiştirmeyi deneyin veya başka bir konu seçin.",
+  "emptyResults_bottomWithoutTopic": "Anahtar kelimelerinizi değiştirmeyi deneyin.",
+  "emptyResults_inThisTopic": "bu başlıkta",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Kötü istek.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "İstek geçersizdi. Lütfen tekrar deneyin.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Değiştirilmedi.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Son isteğinizden bu yana hiçbir şey değişmedi.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Ağ hatası.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Ağa ulaşamadık. Bağlantınızı kontrol edip tekrar deneyin.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Veri yok.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Görüntülenecek herhangi bir veri bulamadık.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Çatışma.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "İstek mevcut verilerle çelişiyordu. Lütfen tekrar deneyin.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Doğrulama hatası.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Sunucu bazı verileri reddetti. Lütfen inceleyip tekrar deneyin.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Yazma başarısız oldu.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Dosyayı kaydedemedik. Lütfen tekrar deneyin.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Okuma başarısız oldu.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Dosyayı okuyamadık. Lütfen tekrar deneyin.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Dosya bulunamadı.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Aradığınız dosyayı bulamadık.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Yeterli depolama alanı yok.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Yer açın ve tekrar deneyin.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Veritabanı okuma hatası.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Veritabanından okuyamadık.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Veritabanı yazma hatası.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Veritabanına kaydedemedik.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Veritabanı bağlantı hatası.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Veritabanına bağlanamadık.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Kimlik doğrulama hatası.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Lütfen oturum açın ve tekrar deneyin.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Geçersiz kimlik bilgileri.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Kullanıcı adı veya şifre yanlış.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Güvenli depolama okuma hatası.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Güvenli depolama alanından okuyamadık.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Güvenli depolama yazma hatası.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Güvenli depolamaya yazamadık.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Güvenli depolama temizleme hatası.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Güvenli depolama alanını temizleyemedik.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Oturumun süresi doldu.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Lütfen tekrar oturum açın.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Kullanıcı bulunamadı.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "O kullanıcıyı bulamadık.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "İzin reddedildi.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Bu işlemi gerçekleştirme izniniz yok.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Sonuç yok.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Herhangi bir sonuç bulamadık.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Geçersiz giriş.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Lütfen girişinizi kontrol edip tekrar deneyin.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Hiçbir konu seçilmedi.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Lütfen en az bir konu seçin.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Ayrıştırma hatası.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Verileri işleyemedik.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Bilinmeyen hata.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Beklenmeyen bir hata oluştu.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "@@locale": "ru",
+  "back": "назад",
+  "saveChangesTitle": "Сохранить изменения",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Новое в приложении",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Перейти на страницу группы",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Новая область для каналов WhatsApp и Telegram с видео, изображениями и обновлениями — весь самый интересный контент в одном месте.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Новые сообщения",
+  "addArea": "Добавить область",
+  "removeArea": "Удалить область",
+  "removeAreaConfirmContent": "Вы уверены, что хотите удалить {area} из выбранных вами областей?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Каналы",
+  "contactUsSuccessTitle": "Отправлено успешно ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Спасибо! Мы получили ваше сообщение и свяжемся с вами как можно скорее.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Выберите страну",
+  "areaManagmentTitle": "Новости Область потребления",
+  "areaManagmentSubtitle": "Мои страны",
+  "sharedFromApp": "Доступно из",
+  "textCopied": "Текст скопирован",
+  "queryIsEmpty": "Запрос пуст",
+  "queryIsEmptyTitle": "Поиск пуст.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Область успешно удалена",
+  "areaWereAdded": "Область успешно добавлена",
+  "saveChangesMessage": "Хотите сохранить внесенные изменения?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Мы почти приземляемся…",
+  "busyLandingSubtitle": "Мы готовим ваши новости",
+  "changeCountryTitle": "В какую страну нам следует переключиться?",
+  "changeCountrySubtitle": "Когда вы выберете страну, весь контент в приложении обновится в соответствии с вашим выбором.",
+  "dailySummary": "Ежедневная сводка",
+  "lastUpdated": "Последнее обновление",
+  "saveChangesSubtitle": "Хотите сохранить внесенные изменения?",
+  "readMore": "Подробнее",
+  "searchPageNoResultsPrefix": "Результаты не найдены для ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Результаты не найдены для \n",
+  "searchPageNoResultsForThisCategorySuffix": " в этой категории",
+  "toPowerOn": "включить питание",
+  "notificationsOffTitle": "Уведомления отключены",
+  "notificationsOffSubtitle": "Похоже, доступ к уведомлениям еще не включен.",
+  "newArticles": "Новые статьи",
+  "home": "дом",
+  "changesApplyOnNextLaunch": "Изменения вступят в силу при следующем запуске приложения.",
+  "@back": {},
+  "enable": "Включить",
+  "stayUpdatedWithLatestNews": "Будьте в курсе последних новостей",
+  "enableNotifications": "Включить уведомления",
+  "error_details": "Подробности ошибки",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ой, что-то не так",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Бесплатный поиск",
+  "aiPageSubtitle": "Эта функция все еще находится в разработке \n стоит вернуться сюда в ближайшее время.",
+  "topicsSelectionTitle": "Выбор тем новостей",
+  "groups": "Группы",
+  "aiPageTitle": "Скоро: вы сможете общаться с нашим искусственным интеллектом о новостях!",
+  "topicsSelectionSubtitle": "Выберите темы или подтемы, которые вы хотели бы видеть в своей ленте. Вы всегда можете изменить их здесь.",
+  "failedToLoadTopics": "Не удалось загрузить темы.",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Вы можете редактировать настройки в любое время",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Язык",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Нам не удалось загрузить данные. Пожалуйста, проверьте подключение к Интернету и повторите попытку.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Изменить язык",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Не сейчас",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Включение уведомлений позволяет вам быть в курсе важных новостей, срочных обновлений и персонализированного контента, поэтому вы никогда не пропустите ничего важного для вас.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Перейти к контенту, который мы выбрали для вас",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Поехали",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Продолжать идти!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Пропустить",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Сохранить",
+  "@save": {
+    "description": ""
+  },
+  "next": "Далее",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "пожалуйста, выберите язык",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Выберите хотя бы одну тему",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Хотите оставаться в курсе?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Поиск",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Что бы вы хотели найти?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Введите ключевое слово или тему для поиска",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Вы можете включить всплывающие уведомления по любой интересующей вас теме.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Что вас интересует",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Чтобы отправлять только то, что действительно актуально, давайте сначала отметим то, что вас интересует.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Начать",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Попробуйте еще раз",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Разрешить",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Нет разрешений",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Предложения по решению",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Разрешить уведомления",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Уведомления",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Уведомления включены",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Уведомления отклонены",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Пожалуйста, подождите",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "все",
+  "@all": {},
+  "cancel": "Отмена",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Открыть настройки",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Вы можете включить всплывающие уведомления по каждой интересующей вас теме.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Советы по устранению неполадок",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Добро пожаловать в новостное приложение, персонализированное специально для вас!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Продолжить чтение",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Поделиться",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Площадь",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Выберите свой регион, чтобы получать локализованные обновления новостей",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Выберите нужный регион новостей.\nВ приложении вы также можете выбрать дополнительные страны.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Выберите язык, вы всегда сможете изменить его позже.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Темы",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Выбирайте темы, которые вас интересуют, вы всегда можете изменить их в настройках.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Категории",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Управление уведомлениями",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Язык и регион",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "О",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Политика конфиденциальности",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Свяжитесь с нами",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Проблема с сервером",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Нет подключения к Интернету",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Мы можем подключиться к Интернету, но не к серверу.\\nПовторите попытку через минуту.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Нет подключения к Интернету. Мы показываем старые статьи; подключитесь к Интернету, чтобы увидеть последние новости.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "подключение к Интернету",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Подключение к серверу",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "понял",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Подключено",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Не подключено",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Офлайн-режим",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Изменения успешно сохранены",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Не удалось сохранить изменения",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Всплывающие уведомления",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Легко настройте свои оповещения. Включите или отключите push-уведомления для любой темы, которая вас интересует.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Обновление уже в пути!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Вскоре вы сможете выбирать, из каких регионов мира вы хотите получать новости и обновления.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Информация",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Успех",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Сохранить изменения",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Хотите сохранить изменения?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Подтвердить",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Невозможно открыть эту ссылку",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "По запросу \"{query}\" результатов не найдено.",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "В этой категории результатов не найдено по запросу «{query}».",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Темы новостей",
+  "@newsTopics": {},
+  "errorNoInternet": "Пожалуйста, проверьте подключение и повторите попытку.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Нет подключения к Интернету.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Время запроса истекло. Пожалуйста, повторите попытку позже.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Время запроса истекло.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Произошла ошибка сервера. Пожалуйста, попробуйте еще раз.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Ошибка сервера.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Вы не авторизованы. Пожалуйста, войдите в систему и повторите попытку.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Несанкционированный.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "У вас нет разрешения на выполнение этого действия.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Доступ запрещен.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Мы не смогли найти то, что вы искали.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Не найден.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Более подробная информация обновлена",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Некоторая информация выглядит недействительной. Пожалуйста, просмотрите и повторите попытку.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Я согласен получать обновления и информационные бюллетени по электронной почте.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Отправьте нам электронное письмо",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Отменить изменения?",
+  "discardChangesMessage": "У вас есть несохраненные изменения. Если вы продолжите, они будут потеряны.",
+  "discardButton": "Отбросить",
+  "stayButton": "Останься",
+  "changeCountryConfirm": "Переключить направление новостей",
+  "otherWaysToContact": "Другие способы связи",
+  "agreePrivacy": "Я прочитал и согласен с ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Не стесняйтесь обращаться к нам, используя форму ниже.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Полное имя",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Адрес электронной почты",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Сообщение",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Неверный ввод.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Похожие источники",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Отправить",
+  "errorGeneric": "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Что-то пошло не так.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Нет соответствующих результатов",
+  "emptyResults_noResults": "Результаты не найдены.",
+  "emptyResults_bottomWithTopic": "Попробуйте изменить ключевые слова или выбрать другую тему.",
+  "emptyResults_bottomWithoutTopic": "Попробуйте изменить ключевые слова.",
+  "emptyResults_inThisTopic": "в этой теме",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Плохой запрос.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Запрос недействителен. Пожалуйста, попробуйте еще раз.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Не модифицировано.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "С момента вашего последнего запроса ничего не изменилось.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Ошибка сети.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Мы не смогли подключиться к сети. Проверьте подключение и повторите попытку.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Данные отсутствуют.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Нам не удалось найти данные для отображения.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Конфликт.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Запрос противоречил существующим данным. Пожалуйста, попробуйте еще раз.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Ошибка валидации.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Сервер отклонил некоторые данные. Пожалуйста, просмотрите и повторите попытку.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Записать не удалось.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Нам не удалось сохранить файл. Пожалуйста, попробуйте еще раз.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Прочитать не удалось.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Мы не смогли прочитать файл. Пожалуйста, попробуйте еще раз.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Файл не найден.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Нам не удалось найти файл, который вы ищете.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Недостаточно места для хранения.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Освободите место и повторите попытку.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Ошибка чтения базы данных.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Мы не смогли прочитать данные из базы данных.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Ошибка записи базы данных.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Мы не смогли сохранить в базу данных.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Ошибка подключения к базе данных.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Нам не удалось подключиться к базе данных.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Ошибка аутентификации.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Пожалуйста, войдите в систему и повторите попытку.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Неверные учетные данные.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Имя пользователя или пароль неверны.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Ошибка чтения безопасного хранилища.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Нам не удалось прочитать данные из безопасного хранилища.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Ошибка записи в безопасное хранилище.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Мы не смогли записать данные в безопасное хранилище.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Ошибка очистки безопасного хранилища.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Не удалось очистить безопасное хранилище.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Сессия истекла.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Пожалуйста, войдите снова.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Пользователь не найден.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Нам не удалось найти этого пользователя.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Разрешение отклонено.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "У вас нет разрешения на выполнение этого действия.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Никаких результатов.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Мы не смогли найти никаких результатов.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Неверный ввод.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Пожалуйста, проверьте введенные данные и повторите попытку.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Темы не выбраны.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Пожалуйста, выберите хотя бы одну тему.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Ошибка разбора.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Мы не смогли обработать данные.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Неизвестная ошибка.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Произошла непредвиденная ошибка.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

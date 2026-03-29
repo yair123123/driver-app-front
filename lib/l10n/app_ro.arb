@@ -1,0 +1,730 @@
+{
+  "@@locale": "ro",
+  "back": "înapoi",
+  "saveChangesTitle": "Salvați modificările",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Nou în aplicație",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Accesați pagina de grupuri",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "O nouă zonă pentru canalele WhatsApp și Telegram cu videoclipuri, imagini și actualizări – tot cel mai interesant conținut într-un singur loc.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Mesaje noi",
+  "addArea": "Adăugați zonă",
+  "removeArea": "Eliminați zona",
+  "removeAreaConfirmContent": "Sigur doriți să eliminați {area} din zonele selectate?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Canale",
+  "contactUsSuccessTitle": "Trimis cu succes ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Multumesc! Am primit mesajul dvs. și vă vom contacta cât mai curând posibil.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Selectați Țara",
+  "areaManagmentTitle": "Zona Consum de Știri",
+  "areaManagmentSubtitle": "Țările Mele",
+  "sharedFromApp": "Distribuit de la",
+  "textCopied": "Text copiat",
+  "queryIsEmpty": "Interogarea este goală",
+  "queryIsEmptyTitle": "Căutarea este goală.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Zona au fost eliminate cu succes",
+  "areaWereAdded": "Zona au fost adăugate cu succes",
+  "saveChangesMessage": "Doriți să salvați modificările pe care le-ați făcut?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Aproape aterizam...",
+  "busyLandingSubtitle": "Vă pregătim știrile",
+  "changeCountryTitle": "În ce țară ar trebui să trecem?",
+  "changeCountrySubtitle": "Când alegeți o țară, tot conținutul din aplicație se va actualiza în funcție de selecția dvs.",
+  "dailySummary": "Rezumat zilnic",
+  "lastUpdated": "Ultima actualizare",
+  "saveChangesSubtitle": "Doriți să salvați modificările pe care le-ați făcut?",
+  "readMore": "Citiți mai multe",
+  "searchPageNoResultsPrefix": "Nu s-au găsit rezultate pentru ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Nu s-au găsit rezultate pentru \n",
+  "searchPageNoResultsForThisCategorySuffix": " în această categorie",
+  "toPowerOn": "a porni",
+  "notificationsOffTitle": "Notificări dezactivate",
+  "notificationsOffSubtitle": "Se pare că accesul la notificări nu a fost încă activat.",
+  "newArticles": "Articole noi",
+  "home": "acasă",
+  "changesApplyOnNextLaunch": "Modificările vor fi aplicate la următoarea lansare a aplicației.",
+  "@back": {},
+  "enable": "Activați",
+  "stayUpdatedWithLatestNews": "Rămâneți la curent cu cele mai recente știri",
+  "enableNotifications": "Activați notificările",
+  "error_details": "Detalii despre eroare",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Hopa, ceva în neregulă",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Căutare gratuită",
+  "aiPageSubtitle": "Această caracteristică este încă în dezvoltare \n merită verificat în curând.",
+  "topicsSelectionTitle": "Selecția subiectelor de știri",
+  "groups": "Grupuri",
+  "aiPageTitle": "În curând: veți putea discuta cu AI-ul nostru despre noutăți!",
+  "topicsSelectionSubtitle": "Alegeți subiecte sau subsubiecte pe care doriți să le vedeți în feed. Le poți schimba oricând aici.",
+  "failedToLoadTopics": "Nu s-au încărcat subiectele",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Puteți edita oricând setările",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Limba",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Nu am putut încărca datele. Vă rugăm să vă verificați conexiunea la internet și să încercați din nou.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Schimbați limba",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Nu acum",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Activarea notificărilor vă permite să fiți la curent cu știri importante, actualizări urgente și conținut personalizat, astfel încât să nu ratați niciodată nimic care contează pentru dvs.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Treci la conținutul pe care l-am ales pentru tine",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Să mergem",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Continuă!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Sari peste",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Salvați",
+  "@save": {
+    "description": ""
+  },
+  "next": "În continuare",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Vă rugăm să selectați o limbă",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Selectați cel puțin un subiect",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Vrei să fii la curent?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Caută",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Ce ai vrea să cauți?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Introduceți un cuvânt cheie sau un subiect de căutat",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Puteți activa notificările pop-up pentru orice subiect care vă interesează.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Ce te interesează",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Pentru a trimite doar ceea ce este cu adevărat relevant, să marchem mai întâi ceea ce te interesează.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Începeți",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Încercați din nou",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Permite",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Fără permisiuni",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Sugestii de soluții",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Permite notificări",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Notificări",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Notificări activate",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Notificări refuzate",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Vă rugăm să așteptați",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "toate",
+  "@all": {},
+  "cancel": "Anulează",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Deschide Setări",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Puteți activa notificările pop-up pentru fiecare subiect care vă interesează.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Sfaturi de depanare",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Bun venit la aplicația de știri, personalizată doar pentru tine!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Continuă să citești",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Distribuie",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Zona",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Alegeți zona dvs. pentru a primi actualizări de știri localizate",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Alegeți regiunea de știri dorită.\nÎn cadrul aplicației, puteți selecta și alte țări.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Alegeți limba dvs., o puteți schimba oricând ulterior.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Subiecte",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Alege subiectele care te interesează, le poți schimba oricând în setări.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Categorii",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Gestionați notificările",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Limbă și regiune",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Despre",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Politica de confidențialitate",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Contactați-ne",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Problema cu serverul",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Fără conexiune la internet",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Putem accesa internetul, dar nu și serverul.\\nÎncercați din nou peste un moment.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Fără conexiune la internet. Afișăm articole mai vechi; conectați-vă la internet pentru a vedea cele mai recente povești.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "conexiune la internet",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Conexiune la server",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Am înțeles",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Conectat",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Nu este conectat",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Modul offline",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Modificările au fost salvate cu succes",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Nu se pot salva modificările",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Notificări pop-up",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Personalizați-vă alertele cu ușurință. Activați sau dezactivați notificările push pentru orice subiect care vă interesează.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Actualizare pe drum!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "În curând, veți putea alege din ce regiuni ale lumii doriți să primiți știri și actualizări.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Succes",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Salvați modificările",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Doriți să salvați modificările?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Confirmați",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Nu se poate deschide această referință",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Nu s-au găsit rezultate pentru „{query}”",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Nu s-au găsit rezultate pentru „{query}” în această categorie",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Subiecte de știri",
+  "@newsTopics": {},
+  "errorNoInternet": "Vă rugăm să vă verificați conexiunea și să încercați din nou.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Fără conexiune la internet.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Solicitarea a expirat. Vă rugăm să încercați din nou mai târziu.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Solicitarea a expirat.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "A apărut o eroare de server. Vă rugăm să încercați din nou.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Eroare de server.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Nu esti autorizat. Conectați-vă și încercați din nou.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Neautorizat.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Nu aveți permisiunea de a efectua această acțiune.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Acces refuzat.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Nu am putut găsi ceea ce căutați.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Nu a fost găsit.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Mai multe detalii au fost actualizate",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Unele informații par nevalide. Vă rugăm să examinați și să încercați din nou.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Sunt de acord să primesc actualizări și buletine informative prin e-mail.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Trimite-ne un e-mail",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Renunțați la modificări?",
+  "discardChangesMessage": "Aveți modificări nesalvate. Dacă continuați, se vor pierde.",
+  "discardButton": "Aruncă",
+  "stayButton": "Stai",
+  "changeCountryConfirm": "Schimbați destinația știrilor",
+  "otherWaysToContact": "Alte moduri de contact",
+  "agreePrivacy": "Am citit și sunt de acord cu ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Nu ezitați să ne contactați folosind formularul de mai jos.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Nume complet",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Adresă de e-mail",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Mesaj",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Intrare nevalidă.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Surse similare",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Trimite",
+  "errorGeneric": "Ceva a mers prost. Vă rugăm să încercați din nou.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Ceva a mers prost.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Niciun rezultat potrivit",
+  "emptyResults_noResults": "Nu s-au găsit rezultate.",
+  "emptyResults_bottomWithTopic": "Încercați să vă schimbați cuvintele cheie sau alegeți un alt subiect.",
+  "emptyResults_bottomWithoutTopic": "Încercați să vă schimbați cuvintele cheie.",
+  "emptyResults_inThisTopic": "in acest subiect",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Cerere proastă.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Solicitarea a fost nevalidă. Vă rugăm să încercați din nou.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Nemodificat.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Nu s-a schimbat nimic de la ultima ta cerere.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Eroare de rețea.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Nu am putut ajunge la rețea. Verificați conexiunea și încercați din nou.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Nu există date disponibile.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Nu am putut găsi date de afișat.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Conflict.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Solicitarea a intrat în conflict cu datele existente. Vă rugăm să încercați din nou.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Eroare de validare.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Serverul a respins unele date. Vă rugăm să examinați și să încercați din nou.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Scrierea a eșuat.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Nu am putut salva fișierul. Vă rugăm să încercați din nou.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Citirea eșuată.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Nu am putut citi fișierul. Vă rugăm să încercați din nou.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Fișierul nu a fost găsit.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Nu am putut găsi fișierul pe care îl căutați.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Nu este suficient spațiu de stocare.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Eliberați spațiu și încercați din nou.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Eroare de citire a bazei de date.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Nu am putut citi din baza de date.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Eroare la scrierea bazei de date.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Nu am putut salva în baza de date.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Eroare de conectare la baza de date.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Nu ne-am putut conecta la baza de date.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Eroare de autentificare.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Conectați-vă și încercați din nou.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Acreditări nevalide.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Numele de utilizator sau parola sunt incorecte.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Eroare de citire a stocării securizate.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Nu am putut citi din stocarea securizată.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Eroare de scriere în stocare securizată.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Nu am putut scrie în stocarea securizată.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Eroare de eliminare a stocării securizate.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Nu am putut șterge spațiul de stocare securizat.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Sesiunea a expirat.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Vă rugăm să vă conectați din nou.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Utilizatorul nu a fost găsit.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Nu am putut găsi acel utilizator.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Permisiune refuzată.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Nu aveți permisiunea de a efectua această acțiune.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Niciun rezultat.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Nu am putut găsi niciun rezultat.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Intrare nevalidă.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Vă rugăm să verificați datele introduse și să încercați din nou.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Nu au fost selectate subiecte.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Vă rugăm să selectați cel puțin un subiect.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Eroare de analiză.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Nu am putut procesa datele.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Eroare necunoscută.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "A apărut o eroare neașteptată.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

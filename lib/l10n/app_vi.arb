@@ -1,0 +1,730 @@
+{
+  "@@locale": "vi",
+  "back": "trở lại",
+  "saveChangesTitle": "Lưu thay đổi",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Mới trong ứng dụng",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Đi tới trang nhóm",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Một khu vực mới dành cho các kênh WhatsApp và Telegram với video, hình ảnh và thông tin cập nhật – tất cả nội dung thú vị nhất ở cùng một nơi.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Tin nhắn mới",
+  "addArea": "Thêm khu vực",
+  "removeArea": "Xóa khu vực",
+  "removeAreaConfirmContent": "Bạn có chắc chắn muốn xóa {area} khỏi các khu vực đã chọn của mình không?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Kênh",
+  "contactUsSuccessTitle": "Đã gửi thành công ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Cảm ơn bạn! Chúng tôi đã nhận được tin nhắn của bạn và sẽ liên hệ lại với bạn sớm nhất có thể.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Chọn quốc gia",
+  "areaManagmentTitle": "Khu vực tiêu thụ tin tức",
+  "areaManagmentSubtitle": "Quốc gia của tôi",
+  "sharedFromApp": "Được chia sẻ từ",
+  "textCopied": "Đã sao chép văn bản",
+  "queryIsEmpty": "Truy vấn trống",
+  "queryIsEmptyTitle": "Tìm kiếm trống rỗng.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Khu vực đã được xóa thành công",
+  "areaWereAdded": "Khu vực đã được thêm thành công",
+  "saveChangesMessage": "Bạn có muốn lưu những thay đổi bạn đã thực hiện không?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Chúng ta sắp hạ cánh rồi…",
+  "busyLandingSubtitle": "Chúng tôi đang chuẩn bị tin tức của bạn",
+  "changeCountryTitle": "Chúng ta nên chuyển sang nước nào?",
+  "changeCountrySubtitle": "Khi bạn chọn quốc gia, tất cả nội dung trong ứng dụng sẽ cập nhật theo lựa chọn của bạn.",
+  "dailySummary": "Tóm tắt hàng ngày",
+  "lastUpdated": "Cập nhật lần cuối",
+  "saveChangesSubtitle": "Bạn có muốn lưu những thay đổi bạn đã thực hiện không?",
+  "readMore": "Đọc thêm",
+  "searchPageNoResultsPrefix": "Không tìm thấy kết quả nào cho ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Không tìm thấy kết quả nào cho \n",
+  "searchPageNoResultsForThisCategorySuffix": " trong danh mục này",
+  "toPowerOn": "bật nguồn",
+  "notificationsOffTitle": "Tắt thông báo",
+  "notificationsOffSubtitle": "Có vẻ như quyền truy cập thông báo chưa được bật.",
+  "newArticles": "Bài viết mới",
+  "home": "nhà",
+  "changesApplyOnNextLaunch": "Những thay đổi sẽ được áp dụng vào lần ra mắt ứng dụng tiếp theo.",
+  "@back": {},
+  "enable": "Kích hoạt",
+  "stayUpdatedWithLatestNews": "Luôn cập nhật những tin tức mới nhất",
+  "enableNotifications": "Bật thông báo",
+  "error_details": "Chi tiết lỗi",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Rất tiếc có gì đó không ổn",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Tìm kiếm miễn phí",
+  "aiPageSubtitle": "Tính năng này vẫn đang được phát triển \n đáng để kiểm tra lại sớm.",
+  "topicsSelectionTitle": "Lựa chọn chủ đề tin tức",
+  "groups": "Nhóm",
+  "aiPageTitle": "Sắp ra mắt: bạn sẽ có thể trò chuyện với AI của chúng tôi về tin tức!",
+  "topicsSelectionSubtitle": "Chọn chủ đề hoặc chủ đề phụ bạn muốn xem trong nguồn cấp dữ liệu của mình. Bạn luôn có thể thay đổi chúng ở đây.",
+  "failedToLoadTopics": "Không tải được chủ đề",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Bạn có thể chỉnh sửa cài đặt bất cứ lúc nào",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Ngôn ngữ",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Chúng tôi không thể tải dữ liệu. Vui lòng kiểm tra kết nối internet của bạn và thử lại.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Thay đổi ngôn ngữ",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Không phải bây giờ",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Việc bật thông báo cho phép bạn cập nhật các tin tức quan trọng, cập nhật khẩn cấp và nội dung được cá nhân hóa – để bạn không bao giờ bỏ lỡ bất kỳ điều gì quan trọng đối với mình.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Chuyển đến nội dung chúng tôi đã chọn cho bạn",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "đi thôi",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Tiếp tục đi!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Bỏ qua",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Lưu",
+  "@save": {
+    "description": ""
+  },
+  "next": "Tiếp theo",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "vui lòng chọn một ngôn ngữ",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Chọn ít nhất một chủ đề",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Bạn muốn cập nhật?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Tìm kiếm",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Bạn muốn tìm kiếm gì?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Nhập từ khóa hoặc chủ đề để tìm kiếm",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Bạn có thể bật thông báo bật lên cho bất kỳ chủ đề nào mà bạn quan tâm.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Điều bạn quan tâm",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Để chỉ gửi những gì thực sự phù hợp, trước tiên hãy đánh dấu những gì bạn quan tâm.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Bắt đầu",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Thử lại",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Cho phép",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Không có quyền",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Đề xuất giải pháp",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Cho phép thông báo",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Thông báo",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Đã bật thông báo",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Thông báo bị từ chối",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Vui lòng đợi",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "tất cả",
+  "@all": {},
+  "cancel": "Hủy bỏ",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Mở Cài đặt",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Bạn có thể bật thông báo bật lên cho mọi chủ đề mà bạn quan tâm.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Mẹo khắc phục sự cố",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Chào mừng bạn đến với ứng dụng tin tức, được cá nhân hóa dành riêng cho bạn!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Tiếp tục đọc",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Chia sẻ",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Khu vực",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Chọn khu vực của bạn để nhận thông tin cập nhật tin tức được bản địa hóa",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Chọn vùng tin tức bạn muốn.\nTrong ứng dụng, bạn cũng có thể chọn các quốc gia bổ sung.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Chọn ngôn ngữ của bạn, bạn luôn có thể thay đổi nó sau.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "chủ đề",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Chọn chủ đề mà bạn quan tâm, bạn luôn có thể thay đổi chúng trong cài đặt.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Danh mục",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Quản lý thông báo",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Ngôn ngữ & khu vực",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Giới thiệu",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Chính sách bảo mật",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Liên hệ với chúng tôi",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Sự cố máy chủ",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Không có kết nối internet",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Chúng tôi có thể truy cập Internet nhưng không thể truy cập máy chủ.\\nHãy thử lại sau giây lát.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Không có kết nối internet. Chúng tôi đang hiển thị các bài viết cũ hơn; kết nối internet để xem những câu chuyện mới nhất.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Kết nối Internet",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Kết nối máy chủ",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "hiểu rồi",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Đã kết nối",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Không được kết nối",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Chế độ ngoại tuyến",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Đã lưu thay đổi thành công",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Không thể lưu thay đổi",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Thông báo bật lên",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Tùy chỉnh cảnh báo của bạn một cách dễ dàng. Bật hoặc tắt thông báo đẩy cho bất kỳ chủ đề nào mà bạn quan tâm.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Đang trên đường cập nhật!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Bạn sẽ sớm có thể chọn khu vực nào trên thế giới mà bạn muốn nhận tin tức và thông tin cập nhật từ đó.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Thông tin",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "thành công",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Lưu thay đổi",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Bạn có muốn lưu các thay đổi của mình không?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Xác nhận",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Không thể mở tài liệu tham khảo này",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Không tìm thấy kết quả nào cho \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Không tìm thấy kết quả nào cho \"{query}\" trong danh mục này",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Chủ đề tin tức",
+  "@newsTopics": {},
+  "errorNoInternet": "Vui lòng kiểm tra kết nối của bạn và thử lại.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Không có kết nối internet.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Yêu cầu đã hết thời gian chờ. Vui lòng thử lại sau.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Yêu cầu đã hết thời gian chờ.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Đã xảy ra lỗi máy chủ. Vui lòng thử lại.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Lỗi máy chủ.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Bạn không được ủy quyền. Vui lòng đăng nhập và thử lại.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Không được phép.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Bạn không có quyền thực hiện hành động này.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Truy cập bị từ chối.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Không tìm thấy.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Thông tin chi tiết đã được cập nhật",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Một số thông tin có vẻ không hợp lệ. Vui lòng xem lại và thử lại.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Tôi đồng ý nhận thông tin cập nhật và bản tin qua email.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Gửi email cho chúng tôi",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Hủy thay đổi?",
+  "discardChangesMessage": "Bạn có những thay đổi chưa được lưu. Nếu bạn tiếp tục, họ sẽ bị mất.",
+  "discardButton": "Loại bỏ",
+  "stayButton": "ở lại",
+  "changeCountryConfirm": "Chuyển đổi điểm đến tin tức",
+  "otherWaysToContact": "Những cách khác để liên lạc",
+  "agreePrivacy": "Tôi đã đọc và đồng ý với ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Hãy liên hệ với chúng tôi bằng cách sử dụng mẫu dưới đây.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Tên đầy đủ",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Địa chỉ email",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Tin nhắn",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Đầu vào không hợp lệ.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Nguồn tương tự",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Gửi",
+  "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Đã xảy ra lỗi.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Không có kết quả phù hợp",
+  "emptyResults_noResults": "Không tìm thấy kết quả nào.",
+  "emptyResults_bottomWithTopic": "Hãy thử thay đổi từ khóa của bạn hoặc chọn một chủ đề khác.",
+  "emptyResults_bottomWithoutTopic": "Hãy thử thay đổi từ khóa của bạn.",
+  "emptyResults_inThisTopic": "trong chủ đề này",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Yêu cầu xấu.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Yêu cầu không hợp lệ. Vui lòng thử lại.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Không được sửa đổi.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Không có gì thay đổi kể từ yêu cầu cuối cùng của bạn.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Lỗi mạng.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Chúng tôi không thể truy cập mạng. Hãy kiểm tra kết nối của bạn và thử lại.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Không có dữ liệu có sẵn.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Chúng tôi không thể tìm thấy bất kỳ dữ liệu nào để hiển thị.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Xung đột.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Yêu cầu xung đột với dữ liệu hiện có. Vui lòng thử lại.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Lỗi xác thực.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Máy chủ từ chối một số dữ liệu. Vui lòng xem lại và thử lại.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Viết không thành công.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Chúng tôi không thể lưu tập tin. Vui lòng thử lại.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Đọc không thành công.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Chúng tôi không thể đọc tập tin. Vui lòng thử lại.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Không tìm thấy tập tin.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Chúng tôi không thể tìm thấy tập tin bạn đang tìm kiếm.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Không đủ dung lượng lưu trữ.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Hãy giải phóng dung lượng và thử lại.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Lỗi đọc cơ sở dữ liệu.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Chúng tôi không thể đọc từ cơ sở dữ liệu.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Lỗi ghi cơ sở dữ liệu.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Chúng tôi không thể lưu vào cơ sở dữ liệu.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Lỗi kết nối cơ sở dữ liệu.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Chúng tôi không thể kết nối với cơ sở dữ liệu.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Lỗi xác thực.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Vui lòng đăng nhập và thử lại.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Thông tin xác thực không hợp lệ.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Tên người dùng hoặc mật khẩu không chính xác.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Lỗi đọc lưu trữ an toàn.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Chúng tôi không thể đọc từ bộ nhớ an toàn.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Lỗi ghi lưu trữ an toàn.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Chúng tôi không thể ghi vào bộ nhớ an toàn.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Lỗi xóa bộ nhớ an toàn.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Chúng tôi không thể xóa bộ nhớ an toàn.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Phiên đã hết hạn.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Vui lòng đăng nhập lại.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Không tìm thấy người dùng.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Chúng tôi không thể tìm thấy người dùng đó.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Quyền bị từ chối.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Bạn không có quyền thực hiện hành động này.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Không có kết quả.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Chúng tôi không thể tìm thấy bất kỳ kết quả nào.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Đầu vào không hợp lệ.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Vui lòng kiểm tra đầu vào của bạn và thử lại.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Không có chủ đề nào được chọn.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Vui lòng chọn ít nhất một chủ đề.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Lỗi phân tích cú pháp.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Chúng tôi không thể xử lý dữ liệu.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Lỗi không xác định.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Đã xảy ra lỗi không mong muốn.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

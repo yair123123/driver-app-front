@@ -1,0 +1,739 @@
+{
+  "@@locale": "he",
+  "back": "בחזרה",
+  "saveChangesTitle": "שמור שינויים",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "חדש באפליקציה",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "עבור לדף הקבוצות",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "sharedViaApp": "*שותף על ידי {appName}*",
+  "downloadAndroid": "להורדה באנדרואיד 👈 {url}",
+  "downloadIOS": "להורדה באייפון 👈 {url}",
+  "shareMessageTitle": "שיתוף הודעה",
+  "shareMessageSubtitle": "בחר איך לשתף את ההודעה",
+  "shareMessageOptionLinkTitle": "שתף קישור",
+  "shareMessageOptionLinkSubtitle": "ישלח קישור ישיר להודעה",
+  "shareMessageOptionContentTitle": "שתף טקסט ומדיה",
+  "shareMessageOptionContentSubtitle": "ישלח את הטקסט והמדיה של ההודעה",
+  "channels_section_description": "אזור חדש לערוצי וואטסאפ וטלגרם עם סרטונים, תמונות ועדכונים - כל התוכן הכי מעניין במקום אחד.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "הודעות חדשות",
+  "addArea": "הוסף אזור",
+  "removeArea": "הסר אזור",
+  "removeAreaConfirmContent": "האם אתה בטוח שברצונך להסיר את {area} מהאזורים שבחרת?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "ערוצים",
+  "contactUsSuccessTitle": "נשלח בהצלחה ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "תודה לך! קיבלנו את הודעתך ונחזור אליך בהקדם האפשרי.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "בחר מדינה",
+  "areaManagmentTitle": "חדשות אזור צריכה",
+  "areaManagmentSubtitle": "המדינות שלי",
+  "sharedFromApp": "משותף מ",
+  "textCopied": "הטקסט הועתק",
+  "queryIsEmpty": "השאילתה ריקה",
+  "queryIsEmptyTitle": "החיפוש ריק.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "האזור הוסר בהצלחה",
+  "areaWereAdded": "אזור נוסף בהצלחה",
+  "saveChangesMessage": "האם ברצונך לשמור את השינויים שביצעת?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "אנחנו כמעט נוחתים…",
+  "busyLandingSubtitle": "אנחנו מכינים את החדשות שלך",
+  "changeCountryTitle": "לאיזו מדינה נעבור עכשיו?",
+  "changeCountrySubtitle": "כאשר תבחר מדינה, כל התוכן באפליקציה יתעדכן בהתאם לבחירתך.",
+  "dailySummary": "סיכום יומי",
+  "lastUpdated": "עודכן לאחרונה",
+  "saveChangesSubtitle": "האם ברצונך לשמור את השינויים שביצעת?",
+  "readMore": "קרא עוד",
+  "searchPageNoResultsPrefix": "לא נמצאו תוצאות עבור ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "לא נמצאו תוצאות עבור \n",
+  "searchPageNoResultsForThisCategorySuffix": " בקטגוריה זו",
+  "toPowerOn": "להדליק",
+  "notificationsOffTitle": "הודעות כבויות",
+  "notificationsOffSubtitle": "נראה שגישה להתראות עדיין לא הופעלה.",
+  "newArticles": "מאמרים חדשים",
+  "home": "הביתה",
+  "changesApplyOnNextLaunch": "השינויים יחולו בהשקת האפליקציה הבאה.",
+  "@back": {},
+  "enable": "אפשר",
+  "stayUpdatedWithLatestNews": "הישאר מעודכן בחדשות האחרונות",
+  "enableNotifications": "הפעל התראות",
+  "error_details": "פרטי שגיאה",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "אופס משהו לא בסדר",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "חיפוש חינם",
+  "aiPageSubtitle": "תכונה זו עדיין בפיתוח \n שווה לבדוק שוב בקרוב.",
+  "topicsSelectionTitle": "בחירת נושאי חדשות",
+  "groups": "קבוצות",
+  "aiPageTitle": "בקרוב: תוכל לשוחח עם הבינה המלאכותית שלנו על החדשות!",
+  "topicsSelectionSubtitle": "בחר נושאים או תת-נושאים שתרצה לראות בעדכון שלך. אתה תמיד יכול לשנות אותם כאן.",
+  "failedToLoadTopics": "טעינת הנושאים נכשלה",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "אתה יכול לערוך את ההגדרות בכל עת",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "שפה",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "לא הצלחנו לטעון את הנתונים. אנא בדוק את חיבור האינטרנט שלך ונסה שוב.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "שנה שפה",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "לא עכשיו",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "הפעלת התראות מאפשרת לך להישאר מעודכן בחדשות חשובות, עדכונים דחופים ותוכן מותאם אישית - כך שלעולם לא תחמיץ שום דבר שחשוב לך.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "דלג לתוכן שבחרנו עבורך",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "בוא נלך",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "לְהַמשִׁיך לָלֶכֶת!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "דלג",
+  "@skip": {
+    "description": ""
+  },
+  "save": "שמור",
+  "@save": {
+    "description": ""
+  },
+  "next": "הבא",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "אנא בחר שפה",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "בחר לפחות נושא אחד",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "רוצים להישאר מעודכנים?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "חפש",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "מה תרצה לחפש?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "הקלד מילת מפתח או נושא לחיפוש",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "אתה יכול להפעיל התראות קופצות עבור כל נושא שמעניין אותך.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "מה מעניין אותך",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "כדי לשלוח רק את מה שבאמת רלוונטי, תחילה נסמן את מה שמעניין אותך.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "התחל",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "נסה שוב",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "אפשר",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "אין הרשאות",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "הצעות לפתרון",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "אפשר הודעות",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "התראות",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "התראות מופעלות",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "הודעות נדחו",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "אנא המתן",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "הכל",
+  "@all": {},
+  "cancel": "בטל",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "פתח את ההגדרות",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "אתה יכול להפעיל התראות קופצות עבור כל נושא שמעניין אותך.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "עצות לפתרון בעיות",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "ברוכים הבאים לאפליקציית החדשות, בהתאמה אישית רק בשבילך!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "המשך לקרוא",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "שתף",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "אזור",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "בחר את האזור שלך כדי לקבל עדכוני חדשות מקומיים",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "בחר את אזור החדשות שאתה רוצה.\nבתוך האפליקציה, תוכל לבחור גם מדינות נוספות.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "בחר את השפה שלך, אתה תמיד יכול לשנות אותה מאוחר יותר.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "נושאים",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "בחר את הנושאים שמעניינים אותך, אתה תמיד יכול לשנות אותם בהגדרות.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "קטגוריות",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "נהל התראות",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "שפה ואזור",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "בערך",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "מדיניות הפרטיות",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "צור איתנו קשר",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "בעיה בשרת",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "אין חיבור לאינטרנט",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "אנחנו יכולים להגיע לאינטרנט אבל לא לשרת.\\nנסה שוב בעוד רגע.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "אין חיבור לאינטרנט. אנו מציגים מאמרים ישנים יותר; התחבר לאינטרנט כדי לראות את הסיפורים האחרונים.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "חיבור לאינטרנט",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "חיבור לשרת",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "הבנתי",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "מחובר",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "לא מחובר",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "מצב לא מקוון",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "השינויים נשמרו בהצלחה",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "לא ניתן לשמור שינויים",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "הודעות קופצות",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "התאם אישית את ההתראות שלך בקלות. הפעל או כבה התראות דחיפה עבור כל נושא שמעניין אותך.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "עדכון בדרך!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "בקרוב תוכל לבחור מאילו אזורים בעולם אתה רוצה לקבל חדשות ועדכונים.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "מידע",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "הצלחה",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "שמור שינויים",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "האם ברצונך לשמור את השינויים שלך?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "אשר",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "לא ניתן לפתוח הפניה זו",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "לא נמצאו תוצאות עבור \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "לא נמצאו תוצאות עבור \"{query}\" בקטגוריה זו",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "נושאי חדשות",
+  "@newsTopics": {},
+  "errorNoInternet": "אנא בדוק את החיבור שלך ונסה שוב.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "אין חיבור לאינטרנט.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "תם הזמן הקצוב לבקשה. אנא נסה שוב מאוחר יותר.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "תם הזמן הקצוב לבקשה.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "אירעה שגיאת שרת. אנא נסה שוב.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "שגיאת שרת.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "אתה לא מורשה. אנא היכנס ונסה שוב.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "לא מורשה.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "אין לך הרשאה לבצע פעולה זו.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "הגישה נדחתה.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "לא הצלחנו למצוא את מה שחיפשת.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "לא נמצא.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "פרטים נוספים עודכנו",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "חלק מהמידע נראה לא חוקי. אנא בדוק ונסה שוב.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "אני מסכים לקבל עדכונים וניוזלטרים במייל.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "שלחו לנו מייל",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "למחוק שינויים?",
+  "discardChangesMessage": "יש לך שינויים שלא נשמרו. אם תמשיך, הם יאבדו.",
+  "discardButton": "לזרוק",
+  "stayButton": "הישארו",
+  "changeCountryConfirm": "החלף יעד חדשות",
+  "otherWaysToContact": "דרכים אחרות ליצור קשר",
+  "agreePrivacy": "קראתי ואני מסכים ל ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "אל תהסס לפנות אלינו באמצעות הטופס למטה.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "שם מלא",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "כתובת אימייל",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "הודעה",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "קלט לא חוקי.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "מקורות דומים",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "שלח",
+  "errorGeneric": "משהו השתבש. אנא נסה שוב.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "משהו השתבש.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "אין תוצאות תואמות",
+  "emptyResults_noResults": "לא נמצאו תוצאות.",
+  "emptyResults_bottomWithTopic": "נסה לשנות את מילות המפתח שלך או בחר נושא אחר.",
+  "emptyResults_bottomWithoutTopic": "נסה לשנות את מילות המפתח שלך.",
+  "emptyResults_inThisTopic": "בנושא זה",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "בקשה גרועה.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "הבקשה לא הייתה חוקית. אנא נסה שוב.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "לא שונה.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "שום דבר לא השתנה מאז הבקשה האחרונה שלך.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "שגיאת רשת.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "לא הצלחנו להגיע לרשת. בדוק את החיבור שלך ונסה שוב.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "אין נתונים זמינים.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "לא הצלחנו למצוא נתונים להצגה.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "קונפליקט.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "הבקשה התנגשה עם הנתונים הקיימים. אנא נסה שוב.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "שגיאת אימות.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "השרת דחה נתונים מסוימים. אנא בדוק ונסה שוב.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "הכתיבה נכשלה.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "לא הצלחנו לשמור את הקובץ. אנא נסה שוב.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "הקריאה נכשלה.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "לא הצלחנו לקרוא את הקובץ. אנא נסה שוב.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "הקובץ לא נמצא.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "לא הצלחנו למצוא את הקובץ שאתה מחפש.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "אין מספיק אחסון.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "פנה מקום ונסה שוב.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "שגיאת קריאת מסד נתונים.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "לא הצלחנו לקרוא ממסד הנתונים.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "שגיאת כתיבה של מסד נתונים.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "לא הצלחנו לשמור במסד הנתונים.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "שגיאת חיבור למסד נתונים.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "לא הצלחנו להתחבר למסד הנתונים.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "שגיאת אימות.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "אנא היכנס ונסה שוב.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "אישורים לא חוקיים.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "שם המשתמש או הסיסמה שגויים.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "שגיאת קריאת אחסון מאובטח.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "לא הצלחנו לקרוא מאחסון מאובטח.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "שגיאת כתיבה של אחסון מאובטח.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "לא יכולנו לכתוב לאחסון מאובטח.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "שגיאת ניקוי אחסון מאובטח.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "לא הצלחנו לפנות אחסון מאובטח.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "פג תוקף ההפעלה.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "נא להיכנס שוב.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "המשתמש לא נמצא.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "לא הצלחנו למצוא את המשתמש הזה.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "הרשות נדחתה.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "אין לך הרשאה לבצע פעולה זו.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "אין תוצאות.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "לא מצאנו תוצאות.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "קלט לא חוקי.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "אנא בדוק את הקלט שלך ונסה שוב.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "לא נבחרו נושאים.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "אנא בחר לפחות נושא אחד.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "שגיאת ניתוח.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "לא יכולנו לעבד את הנתונים.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "שגיאה לא ידועה.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "אירעה שגיאה בלתי צפויה.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

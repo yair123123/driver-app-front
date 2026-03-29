@@ -1,0 +1,730 @@
+{
+  "@@locale": "ta",
+  "back": "மீண்டும்",
+  "saveChangesTitle": "மாற்றங்களைச் சேமிக்கவும்",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "பயன்பாட்டில் புதியது",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "குழுக்கள் பக்கத்திற்குச் செல்லவும்",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "வாட்ஸ்அப் மற்றும் டெலிகிராம் சேனல்களுக்கான புதிய பகுதி வீடியோக்கள், படங்கள் மற்றும் புதுப்பிப்புகள் - ஒரே இடத்தில் மிகவும் சுவாரஸ்யமான உள்ளடக்கம்.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "புதிய செய்திகள்",
+  "addArea": "பகுதியைச் சேர்க்கவும்",
+  "removeArea": "பகுதியை அகற்று",
+  "removeAreaConfirmContent": "நீங்கள் தேர்ந்தெடுத்த பகுதிகளிலிருந்து {area} ஐ நிச்சயமாக அகற்ற விரும்புகிறீர்களா?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "சேனல்கள்",
+  "contactUsSuccessTitle": "வெற்றிகரமாக அனுப்பப்பட்டது ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "நன்றி! உங்கள் செய்தியைப் பெற்றுள்ளோம், விரைவில் உங்களைத் தொடர்புகொள்வோம்.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "நாட்டைத் தேர்ந்தெடுக்கவும்",
+  "areaManagmentTitle": "செய்தி நுகர்வு பகுதி",
+  "areaManagmentSubtitle": "எனது நாடுகள்",
+  "sharedFromApp": "இருந்து பகிரப்பட்டது",
+  "textCopied": "உரை நகலெடுக்கப்பட்டது",
+  "queryIsEmpty": "வினவல் காலியாக உள்ளது",
+  "queryIsEmptyTitle": "தேடல் காலியாக உள்ளது.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "பகுதி வெற்றிகரமாக அகற்றப்பட்டது",
+  "areaWereAdded": "பகுதி வெற்றிகரமாக சேர்க்கப்பட்டது",
+  "saveChangesMessage": "நீங்கள் செய்த மாற்றங்களைச் சேமிக்க விரும்புகிறீர்களா?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "நாங்கள் கிட்டத்தட்ட தரையிறங்குகிறோம்…",
+  "busyLandingSubtitle": "உங்கள் செய்தியை நாங்கள் தயார் செய்கிறோம்",
+  "changeCountryTitle": "எந்த நாட்டுக்கு மாற வேண்டும்?",
+  "changeCountrySubtitle": "நீங்கள் ஒரு நாட்டைத் தேர்ந்தெடுக்கும்போது, ஆப்ஸில் உள்ள எல்லா உள்ளடக்கமும் உங்கள் தேர்வுக்கு ஏற்ப புதுப்பிக்கப்படும்.",
+  "dailySummary": "தினசரி சுருக்கம்",
+  "lastUpdated": "கடைசியாக புதுப்பிக்கப்பட்டது",
+  "saveChangesSubtitle": "நீங்கள் செய்த மாற்றங்களைச் சேமிக்க விரும்புகிறீர்களா?",
+  "readMore": "மேலும் படிக்கவும்",
+  "searchPageNoResultsPrefix": "இதற்கான முடிவுகள் எதுவும் கிடைக்கவில்லை ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "இதற்கான முடிவுகள் எதுவும் கிடைக்கவில்லை \n",
+  "searchPageNoResultsForThisCategorySuffix": " இந்த வகையில்",
+  "toPowerOn": "அதிகாரத்திற்கு",
+  "notificationsOffTitle": "அறிவிப்புகள் முடக்கப்பட்டுள்ளன",
+  "notificationsOffSubtitle": "அறிவிப்பு அணுகல் இன்னும் இயக்கப்படவில்லை போல் தெரிகிறது.",
+  "newArticles": "புதிய கட்டுரைகள்",
+  "home": "வீடு",
+  "changesApplyOnNextLaunch": "அடுத்த ஆப்ஸ் வெளியீட்டில் மாற்றங்கள் செயல்படுத்தப்படும்.",
+  "@back": {},
+  "enable": "இயக்கு",
+  "stayUpdatedWithLatestNews": "சமீபத்திய செய்திகளுடன் புதுப்பித்த நிலையில் இருங்கள்",
+  "enableNotifications": "அறிவிப்புகளை இயக்கு",
+  "error_details": "பிழை விவரங்கள்",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "அச்சச்சோ ஏதோ தவறு",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "இலவச தேடல்",
+  "aiPageSubtitle": "இந்த அம்சம் இன்னும் வளர்ச்சியில் உள்ளது \n விரைவில் மீண்டும் சரிபார்க்க வேண்டும்.",
+  "topicsSelectionTitle": "செய்தி தலைப்புகள் தேர்வு",
+  "groups": "குழுக்கள்",
+  "aiPageTitle": "விரைவில்: நீங்கள் எங்கள் AI உடன் செய்திகளைப் பற்றி அரட்டையடிக்க முடியும்!",
+  "topicsSelectionSubtitle": "உங்கள் ஊட்டத்தில் நீங்கள் பார்க்க விரும்பும் தலைப்புகள் அல்லது துணை தலைப்புகளைத் தேர்ந்தெடுக்கவும். நீங்கள் எப்போதும் இங்கே அவற்றை மாற்றலாம்.",
+  "failedToLoadTopics": "தலைப்புகளை ஏற்ற முடியவில்லை",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "You can edit the settings anytime",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "மொழி",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "எங்களால் தரவை ஏற்ற முடியவில்லை. உங்கள் இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "மொழியை மாற்றவும்",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "இப்போது இல்லை",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "அறிவிப்புகளை இயக்குவது, முக்கியமான செய்திகள், அவசர அறிவிப்புகள் மற்றும் தனிப்பயனாக்கப்பட்ட உள்ளடக்கம் ஆகியவற்றைப் புதுப்பித்த நிலையில் வைத்திருக்க உங்களை அனுமதிக்கிறது - எனவே உங்களுக்கு முக்கியமான எதையும் நீங்கள் தவறவிட மாட்டீர்கள்.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "உங்களுக்காக நாங்கள் தேர்ந்தெடுத்த உள்ளடக்கத்திற்குச் செல்லவும்",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "போகலாம்",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "தொடருங்கள்!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "தவிர்க்கவும்",
+  "@skip": {
+    "description": ""
+  },
+  "save": "சேமிக்கவும்",
+  "@save": {
+    "description": ""
+  },
+  "next": "அடுத்து",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "தயவுசெய்து ஒரு மொழியைத் தேர்ந்தெடுக்கவும்",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "குறைந்தது ஒரு தலைப்பையாவது தேர்ந்தெடுக்கவும்",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "புதுப்பித்த நிலையில் இருக்க வேண்டுமா?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "தேடு",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "நீங்கள் எதைத் தேட விரும்புகிறீர்கள்?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "தேடுவதற்கு ஒரு முக்கிய சொல் அல்லது தலைப்பை உள்ளிடவும்",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "உங்களுக்கு விருப்பமான எந்த தலைப்புக்கும் பாப்-அப் அறிவிப்புகளை இயக்கலாம்.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "உங்களுக்கு என்ன ஆர்வம்",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "உண்மையிலேயே பொருத்தமானதை மட்டும் அனுப்ப, முதலில் உங்களுக்கு விருப்பமானதைக் குறிக்கவும்.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "தொடங்குங்கள்",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "மீண்டும் முயற்சிக்கவும்",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "அனுமதி",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "அனுமதிகள் இல்லை",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "தீர்வு பரிந்துரைகள்",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "அறிவிப்புகளை அனுமதிக்கவும்",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "அறிவிப்புகள்",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "அறிவிப்புகள் இயக்கப்பட்டன",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "அறிவிப்புகள் மறுக்கப்பட்டன",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "தயவுசெய்து காத்திருங்கள்",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "அனைத்து",
+  "@all": {},
+  "cancel": "ரத்து செய்",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "அமைப்புகளைத் திறக்கவும்",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "உங்களுக்கு விருப்பமான ஒவ்வொரு தலைப்புக்கும் பாப்-அப் அறிவிப்புகளை இயக்கலாம்.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "பிழைகாணல் குறிப்புகள்",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "உங்களுக்காக தனிப்பயனாக்கப்பட்ட செய்தி பயன்பாட்டிற்கு வரவேற்கிறோம்!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "தொடர்ந்து படிக்கவும்",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "பகிரவும்",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "பகுதி",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "உள்ளூர் செய்தி அறிவிப்புகளைப் பெற உங்கள் பகுதியைத் தேர்ந்தெடுக்கவும்",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "நீங்கள் விரும்பும் செய்திப் பகுதியைத் தேர்ந்தெடுக்கவும்.\nபயன்பாட்டிற்குள், நீங்கள் கூடுதல் நாடுகளையும் தேர்ந்தெடுக்கலாம்.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "உங்கள் மொழியைத் தேர்ந்தெடுங்கள், பின்னர் எப்போது வேண்டுமானாலும் மாற்றலாம்.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "தலைப்புகள்",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "உங்களுக்கு விருப்பமான தலைப்புகளைத் தேர்வுசெய்யவும், அவற்றை எப்போதும் அமைப்புகளில் மாற்றலாம்.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "வகைகள்",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "அறிவிப்புகளை நிர்வகிக்கவும்",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "மொழி & பகுதி",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "பற்றி",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "தனியுரிமைக் கொள்கை",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "எங்களை தொடர்பு கொள்ளவும்",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "சர்வர் பிரச்சனை",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "இணைய இணைப்பு இல்லை",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "நாங்கள் இணையத்தை அணுகலாம் ஆனால் சேவையகத்தை அணுக முடியாது.\\nசிறிது நேரத்தில் மீண்டும் முயற்சிக்கவும்.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "இணைய இணைப்பு இல்லை. நாங்கள் பழைய கட்டுரைகளைக் காட்டுகிறோம்; சமீபத்திய கதைகளைப் பார்க்க இணையத்துடன் இணைக்கவும்.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "இணைய இணைப்பு",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "சேவையக இணைப்பு",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "கிடைத்தது",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "இணைக்கப்பட்டது",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "இணைக்கப்படவில்லை",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "ஆஃப்லைன் பயன்முறை",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "மாற்றங்கள் வெற்றிகரமாக சேமிக்கப்பட்டன",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "மாற்றங்களைச் சேமிக்க முடியவில்லை",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "பாப்-அப் அறிவிப்புகள்",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "உங்கள் விழிப்பூட்டல்களை எளிதாகத் தனிப்பயனாக்குங்கள். உங்களுக்கு விருப்பமான எந்தவொரு தலைப்பிற்கும் புஷ் அறிவிப்புகளை இயக்கவும் அல்லது முடக்கவும்.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "வழியில் புதுப்பிப்பு!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "விரைவில் நீங்கள் உலகின் எந்தப் பகுதிகளிலிருந்து செய்திகளையும் அறிவிப்புகளையும் பெற விரும்புகிறீர்கள் என்பதைத் தேர்வுசெய்ய முடியும்.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "தகவல்",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "வெற்றி",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "மாற்றங்களைச் சேமிக்கவும்",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "உங்கள் மாற்றங்களைச் சேமிக்க விரும்புகிறீர்களா?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "உறுதிப்படுத்தவும்",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "இந்தக் குறிப்பைத் திறக்க முடியவில்லை",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\" க்கான முடிவுகள் எதுவும் இல்லை",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "இந்த வகையில் \"{query}\" க்கான முடிவுகள் எதுவும் இல்லை",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "செய்தி தலைப்புகள்",
+  "@newsTopics": {},
+  "errorNoInternet": "உங்கள் இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "இணைய இணைப்பு இல்லை.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "கோரிக்கை நேரம் முடிந்தது. பிறகு முயற்சிக்கவும்.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "கோரிக்கை நேரம் முடிந்தது.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "சர்வர் பிழை ஏற்பட்டது. மீண்டும் முயற்சிக்கவும்.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "சர்வர் பிழை.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "நீங்கள் அங்கீகரிக்கப்படவில்லை. உள்நுழைந்து மீண்டும் முயற்சிக்கவும்.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "அங்கீகரிக்கப்படாதது.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "இந்தச் செயலைச் செய்ய உங்களுக்கு அனுமதி இல்லை.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "அணுகல் மறுக்கப்பட்டது.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "நீங்கள் தேடுவதை எங்களால் கண்டுபிடிக்க முடியவில்லை.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "காணப்படவில்லை.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "மேலும் விவரங்கள் புதுப்பிக்கப்பட்டுள்ளன",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "சில தகவல்கள் தவறானதாகத் தெரிகிறது. மதிப்பாய்வு செய்து மீண்டும் முயற்சிக்கவும்.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "மின்னஞ்சல் மூலம் புதுப்பிப்புகள் மற்றும் செய்திமடல்களைப் பெற ஒப்புக்கொள்கிறேன்.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "எங்களுக்கு ஒரு மின்னஞ்சல் அனுப்பவும்",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "மாற்றங்களை நிராகரிக்கவா?",
+  "discardChangesMessage": "உங்களிடம் சேமிக்கப்படாத மாற்றங்கள் உள்ளன. நீங்கள் தொடர்ந்தால், அவர்கள் இழக்கப்படுவார்கள்.",
+  "discardButton": "நிராகரி",
+  "stayButton": "இருங்கள்",
+  "changeCountryConfirm": "செய்தி இலக்கை மாற்றவும்",
+  "otherWaysToContact": "தொடர்பு கொள்வதற்கான பிற வழிகள்",
+  "agreePrivacy": "நான் படித்து ஒப்புக்கொண்டேன் ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "கீழே உள்ள படிவத்தைப் பயன்படுத்தி எங்களைத் தொடர்புகொள்ள தயங்க வேண்டாம்.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "முழுப் பெயர்",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "மின்னஞ்சல் முகவரி",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "செய்தி",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "தவறான உள்ளீடு.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "இதே போன்ற ஆதாரங்கள்",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "அனுப்பு",
+  "errorGeneric": "ஏதோ தவறாகிவிட்டது. மீண்டும் முயற்சிக்கவும்.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "ஏதோ தவறாகிவிட்டது.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "பொருந்தக்கூடிய முடிவுகள் இல்லை",
+  "emptyResults_noResults": "முடிவுகள் எதுவும் கிடைக்கவில்லை.",
+  "emptyResults_bottomWithTopic": "உங்கள் முக்கிய வார்த்தைகளை மாற்ற முயற்சிக்கவும் அல்லது வேறு தலைப்பை தேர்வு செய்யவும்.",
+  "emptyResults_bottomWithoutTopic": "உங்கள் முக்கிய வார்த்தைகளை மாற்ற முயற்சிக்கவும்.",
+  "emptyResults_inThisTopic": "இந்த தலைப்பில்",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "தவறான கோரிக்கை.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "கோரிக்கை தவறானது. மீண்டும் முயற்சிக்கவும்.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "மாற்றியமைக்கப்படவில்லை.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "உங்கள் கடைசி கோரிக்கைக்குப் பிறகு எதுவும் மாறவில்லை.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "நெட்வொர்க் பிழை.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "நெட்வொர்க்கை எங்களால் அடைய முடியவில்லை. உங்கள் இணைப்பைச் சரிபார்த்து மீண்டும் முயலவும்.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "தரவு எதுவும் கிடைக்கவில்லை.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "காண்பிக்க எந்த தரவையும் எங்களால் கண்டுபிடிக்க முடியவில்லை.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "மோதல்.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "கோரிக்கை ஏற்கனவே உள்ள தரவுகளுடன் முரண்படுகிறது. மீண்டும் முயற்சிக்கவும்.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "சரிபார்ப்பு பிழை.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "சேவையகம் சில தரவை நிராகரித்தது. மதிப்பாய்வு செய்து மீண்டும் முயற்சிக்கவும்.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "எழுத முடியவில்லை.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "கோப்பைச் சேமிக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "படிக்க முடியவில்லை.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "எங்களால் கோப்பைப் படிக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "கோப்பு கிடைக்கவில்லை.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "நீங்கள் தேடும் கோப்பை எங்களால் கண்டுபிடிக்க முடியவில்லை.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "போதுமான சேமிப்பு இல்லை.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "இடத்தைக் காலி செய்து மீண்டும் முயலவும்.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "தரவுத்தள வாசிப்பு பிழை.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "தரவுத்தளத்திலிருந்து எங்களால் படிக்க முடியவில்லை.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "தரவுத்தளத்தில் எழுதும் பிழை.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "எங்களால் தரவுத்தளத்தில் சேமிக்க முடியவில்லை.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "தரவுத்தள இணைப்பு பிழை.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "எங்களால் தரவுத்தளத்துடன் இணைக்க முடியவில்லை.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "அங்கீகார பிழை.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "உள்நுழைந்து மீண்டும் முயற்சிக்கவும்.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "தவறான சான்றுகள்.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "பயனர் பெயர் அல்லது கடவுச்சொல் தவறானது.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "பாதுகாப்பான சேமிப்பக வாசிப்பு பிழை.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "பாதுகாப்பான சேமிப்பகத்திலிருந்து எங்களால் படிக்க முடியவில்லை.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "பாதுகாப்பான சேமிப்பக எழுத்து பிழை.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "சேமிப்பகத்தைப் பாதுகாக்க எங்களால் எழுத முடியவில்லை.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "பாதுகாப்பான சேமிப்பக தெளிவான பிழை.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "பாதுகாப்பான சேமிப்பிடத்தை எங்களால் அழிக்க முடியவில்லை.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "அமர்வு காலாவதியானது.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "மீண்டும் உள்நுழையவும்.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "பயனர் கிடைக்கவில்லை.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "அந்த பயனரை எங்களால் கண்டுபிடிக்க முடியவில்லை.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "அனுமதி மறுக்கப்பட்டது.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "இந்தச் செயலைச் செய்ய உங்களுக்கு அனுமதி இல்லை.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "முடிவுகள் இல்லை.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "எங்களால் எந்த முடிவுகளையும் கண்டுபிடிக்க முடியவில்லை.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "தவறான உள்ளீடு.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "உங்கள் உள்ளீட்டைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "தலைப்புகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "குறைந்தது ஒரு தலைப்பையாவது தேர்ந்தெடுக்கவும்.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "பாகுபடுத்தும் பிழை.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "எங்களால் தரவைச் செயலாக்க முடியவில்லை.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "அறியப்படாத பிழை.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "எதிர்பாராத பிழை ஏற்பட்டது.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

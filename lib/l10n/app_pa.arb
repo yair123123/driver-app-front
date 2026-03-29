@@ -1,0 +1,730 @@
+{
+  "@@locale": "pa",
+  "back": "ਵਾਪਸ",
+  "saveChangesTitle": "ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "ਐਪ ਵਿੱਚ ਨਵਾਂ",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "ਗਰੁੱਪ ਪੇਜ 'ਤੇ ਜਾਓ",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "ਵੀਡੀਓ, ਚਿੱਤਰਾਂ ਅਤੇ ਅੱਪਡੇਟਾਂ ਦੇ ਨਾਲ WhatsApp ਅਤੇ ਟੈਲੀਗ੍ਰਾਮ ਚੈਨਲਾਂ ਲਈ ਇੱਕ ਨਵਾਂ ਖੇਤਰ - ਇੱਕ ਥਾਂ 'ਤੇ ਸਭ ਤੋਂ ਦਿਲਚਸਪ ਸਮੱਗਰੀ।",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "ਨਵੇਂ ਸੁਨੇਹੇ",
+  "addArea": "ਖੇਤਰ ਸ਼ਾਮਲ ਕਰੋ",
+  "removeArea": "ਖੇਤਰ ਹਟਾਓ",
+  "removeAreaConfirmContent": "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਆਪਣੇ ਚੁਣੇ ਹੋਏ ਖੇਤਰਾਂ ਵਿੱਚੋਂ {area} ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "ਚੈਨਲ",
+  "contactUsSuccessTitle": "ਸਫਲਤਾਪੂਰਵਕ ਭੇਜਿਆ ਗਿਆ ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "ਧੰਨਵਾਦ! ਸਾਨੂੰ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਹੋਇਆ ਹੈ ਅਤੇ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਤੁਹਾਡੇ ਕੋਲ ਵਾਪਸ ਆਵਾਂਗੇ।",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "ਦੇਸ਼ ਚੁਣੋ",
+  "areaManagmentTitle": "ਖ਼ਬਰਾਂ ਦੀ ਖਪਤ ਖੇਤਰ",
+  "areaManagmentSubtitle": "ਮੇਰੇ ਦੇਸ਼",
+  "sharedFromApp": "ਤੋਂ ਸਾਂਝਾ ਕੀਤਾ ਗਿਆ",
+  "textCopied": "ਟੈਕਸਟ ਕਾਪੀ ਕੀਤਾ ਗਿਆ",
+  "queryIsEmpty": "ਪੁੱਛਗਿੱਛ ਖਾਲੀ ਹੈ",
+  "queryIsEmptyTitle": "ਖੋਜ ਖਾਲੀ ਹੈ।",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "ਖੇਤਰ ਨੂੰ ਸਫਲਤਾਪੂਰਵਕ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਸੀ",
+  "areaWereAdded": "ਖੇਤਰ ਸਫਲਤਾਪੂਰਵਕ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ ਸੀ",
+  "saveChangesMessage": "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਵੱਲੋਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "ਅਸੀਂ ਲਗਭਗ ਉਤਰ ਰਹੇ ਹਾਂ...",
+  "busyLandingSubtitle": "ਅਸੀਂ ਤੁਹਾਡੀਆਂ ਖਬਰਾਂ ਤਿਆਰ ਕਰ ਰਹੇ ਹਾਂ",
+  "changeCountryTitle": "ਸਾਨੂੰ ਕਿਹੜੇ ਦੇਸ਼ ਵਿੱਚ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ?",
+  "changeCountrySubtitle": "ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਦੇਸ਼ ਚੁਣਦੇ ਹੋ, ਤਾਂ ਐਪ ਵਿੱਚ ਸਾਰੀ ਸਮੱਗਰੀ ਤੁਹਾਡੀ ਚੋਣ ਦੇ ਅਨੁਸਾਰ ਅੱਪਡੇਟ ਹੋ ਜਾਵੇਗੀ।",
+  "dailySummary": "ਰੋਜ਼ਾਨਾ ਸੰਖੇਪ",
+  "lastUpdated": "ਆਖਰੀ ਵਾਰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ",
+  "saveChangesSubtitle": "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਵੱਲੋਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "readMore": "ਹੋਰ ਪੜ੍ਹੋ",
+  "searchPageNoResultsPrefix": "ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ \n",
+  "searchPageNoResultsForThisCategorySuffix": " ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ",
+  "toPowerOn": "ਚਾਲੂ ਕਰਨ ਲਈ",
+  "notificationsOffTitle": "ਸੂਚਨਾਵਾਂ ਬੰਦ",
+  "notificationsOffSubtitle": "ਇੰਝ ਜਾਪਦਾ ਹੈ ਕਿ ਸੂਚਨਾ ਪਹੁੰਚ ਅਜੇ ਚਾਲੂ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ।",
+  "newArticles": "ਨਵੇਂ ਲੇਖ",
+  "home": "ਘਰ",
+  "changesApplyOnNextLaunch": "ਅਗਲੇ ਐਪ ਲਾਂਚ 'ਤੇ ਬਦਲਾਅ ਲਾਗੂ ਕੀਤੇ ਜਾਣਗੇ।",
+  "@back": {},
+  "enable": "ਯੋਗ ਕਰੋ",
+  "stayUpdatedWithLatestNews": "ਤਾਜ਼ਾ ਖਬਰਾਂ ਨਾਲ ਅਪਡੇਟ ਰਹੋ",
+  "enableNotifications": "ਸੂਚਨਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ",
+  "error_details": "ਗੜਬੜ ਵੇਰਵੇ",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "ਓਹੋ ਕੁਝ ਗਲਤ ਹੈ",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "ਮੁਫ਼ਤ ਖੋਜ",
+  "aiPageSubtitle": "ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਅਜੇ ਵੀ ਵਿਕਾਸ ਵਿੱਚ ਹੈ \n ਜਲਦੀ ਹੀ ਵਾਪਸ ਜਾਂਚ ਕਰਨ ਦੇ ਯੋਗ।",
+  "topicsSelectionTitle": "ਖ਼ਬਰਾਂ ਦੇ ਵਿਸ਼ਿਆਂ ਦੀ ਚੋਣ",
+  "groups": "ਸਮੂਹ",
+  "aiPageTitle": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ: ਤੁਸੀਂ ਖਬਰਾਂ ਬਾਰੇ ਸਾਡੇ AI ਨਾਲ ਗੱਲਬਾਤ ਕਰਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ!",
+  "topicsSelectionSubtitle": "ਵਿਸ਼ਿਆਂ ਜਾਂ ਉਪ-ਵਿਸ਼ਿਆਂ ਨੂੰ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਆਪਣੀ ਫੀਡ ਵਿੱਚ ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਇੱਥੇ ਬਦਲ ਸਕਦੇ ਹੋ।",
+  "failedToLoadTopics": "ਵਿਸ਼ਿਆਂ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰ ਸਕਦੇ ਹੋ",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "ਭਾਸ਼ਾ",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "ਅਸੀਂ ਡਾਟਾ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "ਭਾਸ਼ਾ ਬਦਲੋ",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "ਹੁਣ ਨਹੀਂ",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਮਹੱਤਵਪੂਰਨ ਖਬਰਾਂ, ਜ਼ਰੂਰੀ ਅੱਪਡੇਟਾਂ ਅਤੇ ਵਿਅਕਤੀਗਤ ਸਮੱਗਰੀ ਨਾਲ ਅੱਪ-ਟੂ-ਡੇਟ ਰਹਿ ਸਕਦੇ ਹੋ - ਤਾਂ ਜੋ ਤੁਸੀਂ ਕਦੇ ਵੀ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਤੋਂ ਖੁੰਝ ਨਾ ਜਾਓ ਜੋ ਤੁਹਾਡੇ ਲਈ ਮਹੱਤਵਪੂਰਣ ਹੈ।",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਚੁਣੀ ਸਮੱਗਰੀ 'ਤੇ ਜਾਓ",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "ਚਲੋ ਚੱਲੀਏ",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "ਚੱਲਦੇ ਰਹੋ!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "ਛੱਡੋ",
+  "@skip": {
+    "description": ""
+  },
+  "save": "ਸੇਵ ਕਰੋ",
+  "@save": {
+    "description": ""
+  },
+  "next": "ਅੱਗੇ",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਭਾਸ਼ਾ ਚੁਣੋ",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵਿਸ਼ਾ ਚੁਣੋ",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "ਅੱਪਡੇਟ ਰਹਿਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "ਖੋਜ",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "ਤੁਸੀਂ ਕੀ ਖੋਜਣਾ ਚਾਹੋਗੇ?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "ਖੋਜ ਕਰਨ ਲਈ ਕੋਈ ਕੀਵਰਡ ਜਾਂ ਵਿਸ਼ਾ ਟਾਈਪ ਕਰੋ",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "ਤੁਸੀਂ ਆਪਣੀ ਦਿਲਚਸਪੀ ਵਾਲੇ ਕਿਸੇ ਵੀ ਵਿਸ਼ੇ ਲਈ ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਕੀ ਹੈ",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "ਸਿਰਫ਼ ਉਹੀ ਭੇਜਣ ਲਈ ਜੋ ਅਸਲ ਵਿੱਚ ਢੁਕਵਾਂ ਹੈ, ਆਓ ਪਹਿਲਾਂ ਨਿਸ਼ਾਨਦੇਹੀ ਕਰੀਏ ਕਿ ਤੁਹਾਡੀ ਕੀ ਦਿਲਚਸਪੀ ਹੈ।",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "ਸ਼ੁਰੂ ਕਰੋ",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "ਇਜਾਜ਼ਤ ਦਿਓ",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "ਕੋਈ ਇਜਾਜ਼ਤ ਨਹੀਂ",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "ਹੱਲ ਸੁਝਾਅ",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "ਸੂਚਨਾਵਾਂ ਦੀ ਆਗਿਆ ਦਿਓ",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "ਸੂਚਨਾਵਾਂ",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "ਸੂਚਨਾਵਾਂ ਚਾਲੂ ਕੀਤੀਆਂ ਗਈਆਂ",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "ਸੂਚਨਾਵਾਂ ਅਸਵੀਕਾਰ ਕੀਤੀਆਂ ਗਈਆਂ",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "ਸਾਰੇ",
+  "@all": {},
+  "cancel": "ਰੱਦ ਕਰੋ",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "ਤੁਸੀਂ ਹਰ ਉਸ ਵਿਸ਼ੇ ਲਈ ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਕਰ ਸਕਦੇ ਹੋ ਜਿਸ ਵਿੱਚ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਹੈ।",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ ਕਰਨ ਲਈ ਸੁਝਾਅ",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "ਨਿਊਜ਼ ਐਪ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ, ਸਿਰਫ਼ ਤੁਹਾਡੇ ਲਈ ਵਿਅਕਤੀਗਤ ਬਣਾਇਆ ਗਿਆ ਹੈ!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖੋ",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "ਸ਼ੇਅਰ ਕਰੋ",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "ਖੇਤਰ",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "ਸਥਾਨਕ ਖਬਰਾਂ ਦੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਆਪਣਾ ਖੇਤਰ ਚੁਣੋ",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "ਉਹ ਖਬਰ ਖੇਤਰ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ।\nਐਪ ਦੇ ਅੰਦਰ, ਤੁਸੀਂ ਵਾਧੂ ਦੇਸ਼ਾਂ ਨੂੰ ਵੀ ਚੁਣ ਸਕਦੇ ਹੋ।",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ, ਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਹਮੇਸ਼ਾ ਬਦਲ ਸਕਦੇ ਹੋ।",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "ਵਿਸ਼ੇ",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "ਉਹਨਾਂ ਵਿਸ਼ਿਆਂ ਨੂੰ ਚੁਣੋ ਜੋ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਰੱਖਦੇ ਹਨ, ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਬਦਲ ਸਕਦੇ ਹੋ।",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "ਸ਼੍ਰੇਣੀਆਂ",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "ਸੂਚਨਾਵਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "ਭਾਸ਼ਾ ਅਤੇ ਖੇਤਰ",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "ਬਾਰੇ",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "ਗੋਪਨੀਯਤਾ ਨੀਤੀ",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "ਸਰਵਰ ਸਮੱਸਿਆ",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "ਅਸੀਂ ਇੰਟਰਨੈੱਟ ਤੱਕ ਪਹੁੰਚ ਸਕਦੇ ਹਾਂ ਪਰ ਸਰਵਰ ਤੱਕ ਨਹੀਂ।\\nਇੱਕ ਪਲ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ। ਅਸੀਂ ਪੁਰਾਣੇ ਲੇਖ ਦਿਖਾ ਰਹੇ ਹਾਂ; ਨਵੀਨਤਮ ਕਹਾਣੀਆਂ ਦੇਖਣ ਲਈ ਇੰਟਰਨੈਟ ਨਾਲ ਜੁੜੋ।",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "ਸਰਵਰ ਕਨੈਕਸ਼ਨ",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "ਸਮਝ ਲਿਆ",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "ਜੁੜਿਆ",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "ਕਨੈਕਟ ਨਹੀਂ ਹੈ",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "ਔਫਲਾਈਨ ਮੋਡ",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "ਤਬਦੀਲੀਆਂ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "ਆਪਣੀਆਂ ਚੇਤਾਵਨੀਆਂ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਅਨੁਕੂਲਿਤ ਕਰੋ। ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਵਾਲੇ ਕਿਸੇ ਵੀ ਵਿਸ਼ੇ ਲਈ ਪੁਸ਼ ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰੋ।",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "ਰਾਹ 'ਤੇ ਅੱਪਡੇਟ!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "ਜਲਦੀ ਹੀ ਤੁਸੀਂ ਇਹ ਚੁਣਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ ਕਿ ਤੁਸੀਂ ਦੁਨੀਆ ਦੇ ਕਿਹੜੇ ਖੇਤਰਾਂ ਤੋਂ ਖਬਰਾਂ ਅਤੇ ਅਪਡੇਟਸ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "ਜਾਣਕਾਰੀ",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "ਸਫਲਤਾ",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "ਕੀ ਤੁਸੀਂ ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "ਇਸ ਹਵਾਲੇ ਨੂੰ ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਮਰੱਥ",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\" ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ \"{query}\" ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "ਖ਼ਬਰਾਂ ਦੇ ਵਿਸ਼ੇ",
+  "@newsTopics": {},
+  "errorNoInternet": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ।",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋਇਆ।",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "ਸਰਵਰ ਗਲਤੀ ਆਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "ਸਰਵਰ ਗੜਬੜ।",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "ਤੁਸੀਂ ਅਧਿਕਾਰਤ ਨਹੀਂ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "ਅਣਅਧਿਕਾਰਤ।",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "ਤੁਹਾਨੂੰ ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਗਿਆ।",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "ਅਸੀਂ ਉਹ ਨਹੀਂ ਲੱਭ ਸਕੇ ਜੋ ਤੁਸੀਂ ਲੱਭ ਰਹੇ ਸੀ।",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "ਨਹੀਂ ਮਿਲਿਆ।",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "ਹੋਰ ਵੇਰਵਿਆਂ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "ਕੁਝ ਜਾਣਕਾਰੀ ਅਵੈਧ ਜਾਪਦੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "ਮੈਂ ਈਮੇਲ ਦੁਆਰਾ ਅੱਪਡੇਟ ਅਤੇ ਨਿਊਜ਼ਲੈਟਰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹਾਂ।",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "ਸਾਨੂੰ ਇੱਕ ਈਮੇਲ ਭੇਜੋ",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "ਕੀ ਤਬਦੀਲੀਆਂ ਨੂੰ ਰੱਦ ਕਰਨਾ ਹੈ?",
+  "discardChangesMessage": "ਤੁਹਾਡੇ ਕੋਲ ਅਣਰੱਖਿਅਤ ਤਬਦੀਲੀਆਂ ਹਨ। ਜੇਕਰ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਦੇ ਹੋ, ਤਾਂ ਉਹ ਖਤਮ ਹੋ ਜਾਣਗੇ।",
+  "discardButton": "ਰੱਦ ਕਰੋ",
+  "stayButton": "ਰਹੋ",
+  "changeCountryConfirm": "ਖਬਰਾਂ ਦੀ ਮੰਜ਼ਿਲ ਬਦਲੋ",
+  "otherWaysToContact": "ਸੰਪਰਕ ਕਰਨ ਦੇ ਹੋਰ ਤਰੀਕੇ",
+  "agreePrivacy": "ਮੈਂ ਪੜ੍ਹ ਲਿਆ ਹੈ ਅਤੇ ਇਸ ਨਾਲ ਸਹਿਮਤ ਹਾਂ ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "ਹੇਠਾਂ ਦਿੱਤੇ ਫਾਰਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਲਈ ਬੇਝਿਜਕ ਮਹਿਸੂਸ ਕਰੋ।",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "ਪੂਰਾ ਨਾਮ",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "ਈਮੇਲ ਪਤਾ",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "ਸੁਨੇਹਾ",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "ਅਵੈਧ ਇਨਪੁਟ।",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "ਸਮਾਨ ਸਰੋਤ",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "ਭੇਜੋ",
+  "errorGeneric": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ।",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "ਕੋਈ ਮੇਲ ਖਾਂਦੇ ਨਤੀਜੇ ਨਹੀਂ ਹਨ",
+  "emptyResults_noResults": "ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ।",
+  "emptyResults_bottomWithTopic": "ਆਪਣੇ ਕੀਵਰਡਸ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਕੋਈ ਹੋਰ ਵਿਸ਼ਾ ਚੁਣੋ।",
+  "emptyResults_bottomWithoutTopic": "ਆਪਣੇ ਕੀਵਰਡਸ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "emptyResults_inThisTopic": "ਇਸ ਵਿਸ਼ੇ ਵਿੱਚ",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "ਮਾੜੀ ਬੇਨਤੀ।",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "ਬੇਨਤੀ ਅਵੈਧ ਸੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "ਸੋਧਿਆ ਨਹੀਂ ਗਿਆ।",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "ਤੁਹਾਡੀ ਪਿਛਲੀ ਬੇਨਤੀ ਤੋਂ ਬਾਅਦ ਕੁਝ ਵੀ ਨਹੀਂ ਬਦਲਿਆ ਹੈ।",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "ਨੈੱਟਵਰਕ ਗੜਬੜ।",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "ਅਸੀਂ ਨੈੱਟਵਰਕ ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕੇ। ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "ਕੋਈ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "ਅਸੀਂ ਡਿਸਪਲੇ ਕਰਨ ਲਈ ਕੋਈ ਡਾਟਾ ਨਹੀਂ ਲੱਭ ਸਕੇ।",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "ਟਕਰਾਅ।",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "ਬੇਨਤੀ ਮੌਜੂਦਾ ਡੇਟਾ ਨਾਲ ਟਕਰਾ ਗਈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "ਪ੍ਰਮਾਣਿਕਤਾ ਗੜਬੜ।",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "ਸਰਵਰ ਨੇ ਕੁਝ ਡੇਟਾ ਨੂੰ ਅਸਵੀਕਾਰ ਕੀਤਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "ਲਿਖਣਾ ਅਸਫਲ ਰਿਹਾ।",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "ਅਸੀਂ ਫ਼ਾਈਲ ਨੂੰ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "ਪੜ੍ਹਨਾ ਅਸਫਲ ਰਿਹਾ।",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "ਅਸੀਂ ਫ਼ਾਈਲ ਨੂੰ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ।",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "ਅਸੀਂ ਉਹ ਫ਼ਾਈਲ ਨਹੀਂ ਲੱਭ ਸਕੇ ਜੋ ਤੁਸੀਂ ਲੱਭ ਰਹੇ ਹੋ।",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "ਕਾਫ਼ੀ ਸਟੋਰੇਜ ਨਹੀਂ ਹੈ।",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "ਜਗ੍ਹਾ ਖਾਲੀ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "ਡਾਟਾਬੇਸ ਰੀਡ ਅਸ਼ੁੱਧੀ।",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "ਅਸੀਂ ਡੇਟਾਬੇਸ ਤੋਂ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ।",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "ਡਾਟਾਬੇਸ ਲਿਖਣ ਵਿੱਚ ਗਲਤੀ।",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "ਅਸੀਂ ਡੇਟਾਬੇਸ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕਰ ਸਕੇ।",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "ਡਾਟਾਬੇਸ ਕਨੈਕਸ਼ਨ ਗਲਤੀ।",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "ਅਸੀਂ ਡੇਟਾਬੇਸ ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕਰ ਸਕੇ।",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "ਪ੍ਰਮਾਣੀਕਰਨ ਗੜਬੜ।",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "ਅਵੈਧ ਪ੍ਰਮਾਣ ਪੱਤਰ।",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "ਉਪਭੋਗਤਾ ਨਾਮ ਜਾਂ ਪਾਸਵਰਡ ਗਲਤ ਹੈ।",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਰੀਡ ਅਸ਼ੁੱਧੀ।",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਤੋਂ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ।",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਲਿਖਣ ਦੀ ਗਲਤੀ।",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਲਈ ਨਹੀਂ ਲਿਖ ਸਕੇ।",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਸਾਫ਼ ਗਲਤੀ.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਨੂੰ ਸਾਫ਼ ਨਹੀਂ ਕਰ ਸਕੇ।",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "ਸੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ।",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਸਾਈਨ ਇਨ ਕਰੋ।",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "ਉਪਭੋਗਤਾ ਨਹੀਂ ਮਿਲਿਆ।",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "ਅਸੀਂ ਉਸ ਉਪਭੋਗਤਾ ਨੂੰ ਨਹੀਂ ਲੱਭ ਸਕੇ।",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "ਇਜਾਜ਼ਤ ਅਸਵੀਕਾਰ ਕੀਤੀ ਗਈ।",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ।",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "ਅਸੀਂ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਲੱਭ ਸਕੇ।",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "ਅਵੈਧ ਇਨਪੁਟ।",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇਨਪੁਟ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ।",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵਿਸ਼ਾ ਚੁਣੋ।",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "ਪਾਰਸਿੰਗ ਗਲਤੀ।",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "ਅਸੀਂ ਡੇਟਾ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨਹੀਂ ਕਰ ਸਕੇ।",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "ਅਗਿਆਤ ਤਰੁੱਟੀ।",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "ਇੱਕ ਅਚਾਨਕ ਗਲਤੀ ਆਈ ਹੈ।",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

@@ -10,7 +10,6 @@ class AppState with _$AppState {
   const factory AppState({
     User?     user,
     Settings? settings,
-    @Default(false) bool socketConnected,
     Ride?     activeRide,
   }) = _AppState;
 

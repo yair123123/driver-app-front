@@ -1,0 +1,730 @@
+{
+  "@@locale": "ar",
+  "back": "العودة",
+  "saveChangesTitle": "حفظ التغييرات",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "الجديد في التطبيق",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "انتقل إلى صفحة المجموعات",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "منطقة جديدة لقنوات WhatsApp وTelegram تحتوي على مقاطع فيديو وصور وتحديثات - كل المحتوى الأكثر إثارة للاهتمام في مكان واحد.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "رسائل جديدة",
+  "addArea": "أضف منطقة",
+  "removeArea": "إزالة المنطقة",
+  "removeAreaConfirmContent": "هل أنت متأكد من رغبتك في إزالة {area} من المناطق المحددة؟",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "القنوات",
+  "contactUsSuccessTitle": "تم الإرسال بنجاح ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "شكرا لك! لقد تلقينا رسالتك وسوف نقوم بالرد عليك في أقرب وقت ممكن.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "اختر البلد",
+  "areaManagmentTitle": "منطقة استهلاك الأخبار",
+  "areaManagmentSubtitle": "بلدي",
+  "sharedFromApp": "مشترك من",
+  "textCopied": "تم نسخ النص",
+  "queryIsEmpty": "الاستعلام فارغ",
+  "queryIsEmptyTitle": "البحث فارغ.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "تمت إزالة المنطقة بنجاح",
+  "areaWereAdded": "تمت إضافة المنطقة بنجاح",
+  "saveChangesMessage": "هل تريد حفظ التغييرات التي قمت بها؟",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "نحن على وشك الهبوط…",
+  "busyLandingSubtitle": "نحن نجهز أخبارك",
+  "changeCountryTitle": "ما هي الدولة التي يجب أن نتحول إليها؟",
+  "changeCountrySubtitle": "عندما تختار بلدًا، سيتم تحديث كل المحتوى الموجود في التطبيق وفقًا لاختيارك.",
+  "dailySummary": "ملخص يومي",
+  "lastUpdated": "آخر تحديث",
+  "saveChangesSubtitle": "هل تريد حفظ التغييرات التي قمت بها؟",
+  "readMore": "اقرأ المزيد",
+  "searchPageNoResultsPrefix": "لم يتم العثور على نتائج ل ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "لم يتم العثور على نتائج ل \n",
+  "searchPageNoResultsForThisCategorySuffix": " في هذه الفئة",
+  "toPowerOn": "لتشغيل",
+  "notificationsOffTitle": "الإخطارات معطلة",
+  "notificationsOffSubtitle": "يبدو أنه لم يتم تمكين الوصول إلى الإشعارات بعد.",
+  "newArticles": "مقالات جديدة",
+  "home": "المنزل",
+  "changesApplyOnNextLaunch": "سيتم تطبيق التغييرات عند إطلاق التطبيق التالي.",
+  "@back": {},
+  "enable": "تمكين",
+  "stayUpdatedWithLatestNews": "ابق على اطلاع بأحدث الأخبار",
+  "enableNotifications": "تمكين الإخطارات",
+  "error_details": "تفاصيل الخطأ",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "عفوا هناك خطأ ما",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "بحث مجاني",
+  "aiPageSubtitle": "هذه الميزة لا تزال قيد التطوير \n يستحق التحقق مرة أخرى قريبا.",
+  "topicsSelectionTitle": "اختيار موضوعات الأخبار",
+  "groups": "المجموعات",
+  "aiPageTitle": "قريبًا: ستتمكن من الدردشة مع الذكاء الاصطناعي الخاص بنا حول الأخبار!",
+  "topicsSelectionSubtitle": "اختر المواضيع أو المواضيع الفرعية التي ترغب في رؤيتها في خلاصتك. يمكنك دائمًا تغييرها هنا.",
+  "failedToLoadTopics": "فشل تحميل المواضيع",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "يمكنك تعديل الإعدادات في أي وقت",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "اللغة",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "لم نتمكن من تحميل البيانات. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "تغيير اللغة",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "ليس الآن",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "يتيح لك تمكين الإشعارات البقاء على اطلاع دائم بالأخبار المهمة والتحديثات العاجلة والمحتوى المخصص - حتى لا يفوتك أي شيء يهمك أبدًا.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "انتقل إلى المحتوى الذي اخترناه لك",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "دعنا نذهب",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "يستمر في التقدم!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "تخطي",
+  "@skip": {
+    "description": ""
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": ""
+  },
+  "next": "التالي",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "الرجاء تحديد اللغة",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "حدد موضوعًا واحدًا على الأقل",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "هل ترغب في البقاء على اطلاع دائم؟",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "بحث",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "ماذا تريد أن تبحث؟",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "اكتب كلمة أساسية أو موضوعًا للبحث فيه",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "يمكنك تشغيل الإشعارات المنبثقة لأي موضوع يهمك.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "ما يهمك",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "لإرسال ما هو ذي صلة حقًا فقط، دعنا أولاً نحدد ما يثير اهتمامك.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "ابدأ",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "حاول مرة أخرى",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "السماح",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "لا أذونات",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "اقتراحات الحل",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "السماح بالإخطارات",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "الإخطارات",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "تم تمكين الإخطارات",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "تم رفض الإخطارات",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "من فضلك انتظر",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "الكل",
+  "@all": {},
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "افتح الإعدادات",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "يمكنك تفعيل الإشعارات المنبثقة لكل موضوع يهمك.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "نصائح لاستكشاف الأخطاء وإصلاحها",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "مرحبًا بك في تطبيق الأخبار المخصص لك فقط!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "مواصلة القراءة",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "شارك",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "المنطقة",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "اختر منطقتك للحصول على تحديثات الأخبار المحلية",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "اختر منطقة الأخبار التي تريدها.\nداخل التطبيق، يمكنك تحديد بلدان إضافية أيضًا.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "اختر لغتك، ويمكنك دائمًا تغييرها لاحقًا.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "المواضيع",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "اختر المواضيع التي تهمك، ويمكنك دائمًا تغييرها في الإعدادات.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "الفئات",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "إدارة الإخطارات",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "اللغة والمنطقة",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "حول",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "سياسة الخصوصية",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "اتصل بنا",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "مشكلة الخادم",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "لا يوجد اتصال بالإنترنت",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "يمكننا الوصول إلى الإنترنت ولكن ليس إلى الخادم.\\nحاول مرة أخرى بعد قليل.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "لا يوجد اتصال بالإنترنت. نحن نعرض المقالات القديمة. اتصل بالإنترنت لرؤية أحدث القصص.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "اتصال بالإنترنت",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "اتصال الخادم",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "حصلت عليه",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "متصل",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "غير متصل",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "وضع غير متصل بالشبكة",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "تم حفظ التغييرات بنجاح",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "غير قادر على حفظ التغييرات",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "الإخطارات المنبثقة",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "تخصيص التنبيهات الخاصة بك بسهولة. قم بتشغيل أو إيقاف تشغيل الإشعارات لأي موضوع يثير اهتمامك.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "تحديث على الطريق!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "ستتمكن قريبًا من اختيار مناطق العالم التي ترغب في الحصول على الأخبار والتحديثات منها.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "معلومات",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "النجاح",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "حفظ التغييرات",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "هل تريد حفظ تغييراتك؟",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "غير قادر على فتح هذا المرجع",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "لم يتم العثور على أي نتائج \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "لم يتم العثور على أي نتائج ل \"{query}\" في هذا التصنيف",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "موضوعات الأخبار",
+  "@newsTopics": {},
+  "errorNoInternet": "يرجى التحقق من اتصالك والمحاولة مرة أخرى.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "لا يوجد اتصال بالإنترنت.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "انتهت مهلة الطلب. يرجى المحاولة مرة أخرى في وقت لاحق.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "انتهت مهلة الطلب.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "حدث خطأ في الخادم. يرجى المحاولة مرة أخرى.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "خطأ في الخادم.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "أنت غير مصرح لك. الرجاء تسجيل الدخول والمحاولة مرة أخرى.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "غير مصرح به.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "ليس لديك الإذن للقيام بهذا الإجراء.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "تم رفض الوصول.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "لم نتمكن من العثور على ما كنت تبحث عنه.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "لم يتم العثور عليه.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "تم تحديث المزيد من التفاصيل",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "بعض المعلومات تبدو غير صالحة. يرجى المراجعة والمحاولة مرة أخرى.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "أوافق على تلقي التحديثات والرسائل الإخبارية عبر البريد الإلكتروني.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "أرسل لنا رسالة بالبريد الإلكتروني",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "هل تريد تجاهل التغييرات؟",
+  "discardChangesMessage": "لديك تغييرات غير محفوظة. إذا واصلت، وسوف تضيع.",
+  "discardButton": "تجاهل",
+  "stayButton": "البقاء",
+  "changeCountryConfirm": "تبديل وجهة الأخبار",
+  "otherWaysToContact": "طرق أخرى للاتصال",
+  "agreePrivacy": "لقد قرأت ووافقت على ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "لا تتردد في الاتصال بنا باستخدام النموذج أدناه.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "الاسم الكامل",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "عنوان البريد الإلكتروني",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "رسالة",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "إدخال غير صالح.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "مصادر مماثلة",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "أرسل",
+  "errorGeneric": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "حدث خطأ ما.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "لا توجد نتائج مطابقة",
+  "emptyResults_noResults": "لم يتم العثور على نتائج.",
+  "emptyResults_bottomWithTopic": "حاول تغيير كلماتك الرئيسية أو اختر موضوعًا آخر.",
+  "emptyResults_bottomWithoutTopic": "حاول تغيير كلماتك الرئيسية.",
+  "emptyResults_inThisTopic": "في هذا الموضوع",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "طلب سيء.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "الطلب غير صالح. يرجى المحاولة مرة أخرى.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "لم يتم تعديله.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "لم يتغير شيء منذ طلبك الأخير.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "خطأ في الشبكة.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "لم نتمكن من الوصول إلى الشبكة. تحقق من اتصالك وحاول مرة أخرى.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "لا توجد بيانات متاحة.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "لم نتمكن من العثور على أي بيانات لعرضها.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "الصراع.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "يتعارض الطلب مع البيانات الموجودة. يرجى المحاولة مرة أخرى.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "خطأ في التحقق.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "رفض الخادم بعض البيانات. يرجى المراجعة والمحاولة مرة أخرى.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "فشلت الكتابة.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "لم نتمكن من حفظ الملف. يرجى المحاولة مرة أخرى.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "فشلت القراءة.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "لم نتمكن من قراءة الملف. يرجى المحاولة مرة أخرى.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "لم يتم العثور على الملف.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "لم نتمكن من العثور على الملف الذي تبحث عنه.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "لا توجد مساحة تخزين كافية.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "قم بتحرير مساحة وحاول مرة أخرى.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "خطأ في قراءة قاعدة البيانات.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "لم نتمكن من القراءة من قاعدة البيانات.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "خطأ في كتابة قاعدة البيانات.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "لم نتمكن من الحفظ في قاعدة البيانات.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "خطأ في الاتصال بقاعدة البيانات.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "لم نتمكن من الاتصال بقاعدة البيانات.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "خطأ في المصادقة.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "الرجاء تسجيل الدخول والمحاولة مرة أخرى.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "بيانات اعتماد غير صالحة.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "اسم المستخدم أو كلمة المرور غير صحيحة.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "خطأ في قراءة التخزين الآمن.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "لم نتمكن من القراءة من التخزين الآمن.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "خطأ في الكتابة للتخزين الآمن.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "لم نتمكن من الكتابة لتأمين التخزين.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "التخزين الآمن خطأ واضح.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "لم نتمكن من مسح مساحة التخزين الآمنة.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "انتهت صلاحية الجلسة.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "الرجاء تسجيل الدخول مرة أخرى.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "لم يتم العثور على المستخدم.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "لم نتمكن من العثور على هذا المستخدم.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "تم رفض الإذن.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "ليس لديك الإذن بتنفيذ هذا الإجراء.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "لا توجد نتائج.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "لم نتمكن من العثور على أي نتائج.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "إدخال غير صالح.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "يرجى التحقق من المدخلات الخاصة بك وحاول مرة أخرى.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "لم يتم اختيار أي مواضيع.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "الرجاء تحديد موضوع واحد على الأقل.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "خطأ في التحليل.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "لم نتمكن من معالجة البيانات.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "خطأ غير معروف.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "حدث خطأ غير متوقع.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

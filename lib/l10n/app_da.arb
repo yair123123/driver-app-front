@@ -1,0 +1,730 @@
+{
+  "@@locale": "da",
+  "back": "tilbage",
+  "saveChangesTitle": "Gem ændringer",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Nyt i appen",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Gå til gruppesiden",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Et nyt område for WhatsApp- og Telegram-kanaler med videoer, billeder og opdateringer – alt det mest interessante indhold på ét sted.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Nye beskeder",
+  "addArea": "Tilføj område",
+  "removeArea": "Fjern område",
+  "removeAreaConfirmContent": "Er du sikker på, at du vil fjerne {area} fra dine valgte områder?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Kanaler",
+  "contactUsSuccessTitle": "Sendt med succes ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Tak! Vi har modtaget din besked og vender tilbage til dig hurtigst muligt.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Vælg Land",
+  "areaManagmentTitle": "Nyheder Consumption Area",
+  "areaManagmentSubtitle": "Mine lande",
+  "sharedFromApp": "Delt fra",
+  "textCopied": "Tekst kopieret",
+  "queryIsEmpty": "Forespørgslen er tom",
+  "queryIsEmptyTitle": "Søgningen er tom.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Området blev fjernet",
+  "areaWereAdded": "Området blev tilføjet",
+  "saveChangesMessage": "Vil du gemme de ændringer, du har foretaget?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Vi er næsten ved at lande...",
+  "busyLandingSubtitle": "Vi er ved at forberede dine nyheder",
+  "changeCountryTitle": "Hvilket land skal vi skifte til?",
+  "changeCountrySubtitle": "Når du vælger et land, opdateres alt indhold i appen i henhold til dit valg.",
+  "dailySummary": "Daglig oversigt",
+  "lastUpdated": "Sidst opdateret",
+  "saveChangesSubtitle": "Vil du gemme de ændringer, du har foretaget?",
+  "readMore": "Læs mere",
+  "searchPageNoResultsPrefix": "Ingen resultater fundet for ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Ingen resultater fundet for \n",
+  "searchPageNoResultsForThisCategorySuffix": " i denne kategori",
+  "toPowerOn": "at tænde",
+  "notificationsOffTitle": "Notifikationer slået fra",
+  "notificationsOffSubtitle": "Det ser ud til, at meddelelsesadgang ikke er blevet aktiveret endnu.",
+  "newArticles": "Nye artikler",
+  "home": "hjem",
+  "changesApplyOnNextLaunch": "Ændringer vil blive anvendt ved næste app-lancering.",
+  "@back": {},
+  "enable": "Aktiver",
+  "stayUpdatedWithLatestNews": "Hold dig opdateret med de seneste nyheder",
+  "enableNotifications": "Aktiver meddelelser",
+  "error_details": "Fejldetaljer",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ups der er noget galt",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Gratis søgning",
+  "aiPageSubtitle": "Denne funktion er stadig under udvikling \n værd at tjekke tilbage snart.",
+  "topicsSelectionTitle": "Udvælgelse af nyheder",
+  "groups": "Grupper",
+  "aiPageTitle": "Kommer snart: Du vil være i stand til at chatte med vores AI om nyhederne!",
+  "topicsSelectionSubtitle": "Vælg emner eller underemner, du gerne vil se i dit feed. Du kan altid ændre dem her.",
+  "failedToLoadTopics": "Emner kunne ikke indlæses",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Du kan til enhver tid redigere indstillingerne",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Sprog",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Vi kunne ikke indlæse dataene. Tjek venligst din internetforbindelse, og prøv igen.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Skift sprog",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Ikke nu",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Aktivering af notifikationer giver dig mulighed for at holde dig opdateret med vigtige nyheder, presserende opdateringer og personligt indhold – så du aldrig går glip af noget, der betyder noget for dig.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Gå videre til det indhold, vi har valgt til dig",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Lad os gå",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Fortsæt!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Spring over",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Gem",
+  "@save": {
+    "description": ""
+  },
+  "next": "Næste",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Vælg venligst et sprog",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Vælg mindst ét emne",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Vil du holde dig opdateret?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Søg",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Hvad vil du gerne søge?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Indtast et søgeord eller emne for at søge",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Du kan slå pop op-meddelelser til for ethvert emne, der interesserer dig.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Hvad interesserer dig",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "For kun at sende det, der virkelig er relevant, lad os først markere det, der interesserer dig.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Kom i gang",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Prøv igen",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Tillad",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Ingen tilladelser",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Løsningsforslag",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Tillad meddelelser",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Meddelelser",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Notifikationer aktiveret",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Meddelelser nægtet",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Vent venligst",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "alle",
+  "@all": {},
+  "cancel": "Annuller",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Åbn Indstillinger",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Du kan aktivere pop op-meddelelser for hvert emne, der interesserer dig.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Tips til fejlfinding",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Velkommen til nyhedsappen, tilpasset til dig!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Fortsæt med at læse",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Del",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Område",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Vælg dit område for at få lokaliserede nyhedsopdateringer",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Vælg den nyhedsregion, du ønsker.\nI appen kan du også vælge yderligere lande.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Vælg dit sprog, du kan altid ændre det senere.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Emner",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Vælg de emner, der interesserer dig, du kan altid ændre dem i indstillingerne.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Kategorier",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Administrer meddelelser",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Sprog & region",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Om",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Privatlivspolitik",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Kontakt os",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Server problem",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Ingen internetforbindelse",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Vi kan nå internettet, men ikke serveren.\\nPrøv igen om et øjeblik.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Ingen internetforbindelse. Vi viser ældre artikler; opret forbindelse til internettet for at se de seneste historier.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Internetforbindelse",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Serverforbindelse",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Forstår det",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Forbundet",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Ikke forbundet",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Offline tilstand",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Ændringer blev gemt",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Ændringerne kunne ikke gemmes",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Pop-up-meddelelser",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Tilpas dine advarsler nemt. Slå push-meddelelser til eller fra for ethvert emne, der interesserer dig.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Opdatering på vej!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Snart vil du være i stand til at vælge, hvilke regioner i verden du vil modtage nyheder og opdateringer fra.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Succes",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Gem ændringer",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Vil du gemme dine ændringer?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Bekræft",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Kan ikke åbne denne reference",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Ingen resultater fundet for \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Der blev ikke fundet nogen resultater for \"{query}\" i denne kategori",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Nyhedsemner",
+  "@newsTopics": {},
+  "errorNoInternet": "Tjek venligst din forbindelse og prøv igen.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Ingen internetforbindelse.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Anmodningen fik timeout. Prøv venligst igen senere.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Anmodningen fik timeout.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Serverfejl opstod. Prøv venligst igen.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Serverfejl.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Du er ikke autoriseret. Log venligst ind og prøv igen.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Uautoriseret.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Du har ikke tilladelse til at udføre denne handling.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Adgang nægtet.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Vi kunne ikke finde det, du ledte efter.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Ikke fundet.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Flere detaljer er blevet opdateret",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Nogle oplysninger ser ugyldige ud. Gennemgå venligst og prøv igen.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Jeg accepterer at modtage opdateringer og nyhedsbreve via e-mail.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Send os en e-mail",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Vil du kassere ændringer?",
+  "discardChangesMessage": "Du har ikke-gemte ændringer. Hvis du fortsætter, vil de gå tabt.",
+  "discardButton": "Kassér",
+  "stayButton": "Bliv",
+  "changeCountryConfirm": "Skift nyhedsdestination",
+  "otherWaysToContact": "Andre måder at kontakte på",
+  "agreePrivacy": "Jeg har læst og accepterer ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Du er velkommen til at kontakte os ved at bruge formularen nedenfor.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Fulde navn",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "E-mailadresse",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Besked",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Ugyldigt input.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Lignende kilder",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Send",
+  "errorGeneric": "Noget gik galt. Prøv venligst igen.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Noget gik galt.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Ingen matchende resultater",
+  "emptyResults_noResults": "Ingen resultater fundet.",
+  "emptyResults_bottomWithTopic": "Prøv at ændre dine søgeord, eller vælg et andet emne.",
+  "emptyResults_bottomWithoutTopic": "Prøv at ændre dine søgeord.",
+  "emptyResults_inThisTopic": "i dette emne",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Dårlig anmodning.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Anmodningen var ugyldig. Prøv venligst igen.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Ikke ændret.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Intet er ændret siden din sidste anmodning.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Netværksfejl.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Vi kunne ikke nå netværket. Tjek din forbindelse, og prøv igen.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Ingen tilgængelige data.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Vi kunne ikke finde nogen data at vise.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Konflikt.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Anmodningen var i konflikt med eksisterende data. Prøv venligst igen.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Valideringsfejl.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Serveren afviste nogle data. Gennemgå venligst og prøv igen.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Skrivning mislykkedes.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Vi kunne ikke gemme filen. Prøv venligst igen.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Læsning mislykkedes.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Vi kunne ikke læse filen. Prøv venligst igen.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Filen blev ikke fundet.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Vi kunne ikke finde den fil, du leder efter.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Ikke nok lagerplads.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Frigør plads, og prøv igen.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Fejl ved læsning af database.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Vi kunne ikke læse fra databasen.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Database skrivefejl.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Vi kunne ikke gemme i databasen.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Databaseforbindelsesfejl.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Vi kunne ikke oprette forbindelse til databasen.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Godkendelsesfejl.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Log venligst ind og prøv igen.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Ugyldige legitimationsoplysninger.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Brugernavnet eller adgangskoden er forkert.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Læsefejl i sikker lagring.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Vi kunne ikke læse fra sikker lagring.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Skrivefejl til sikker lagring.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Vi kunne ikke skrive til sikker lagerplads.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Sikker opbevaringsfejl.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Vi kunne ikke rydde sikker lagerplads.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Session udløb.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Log venligst ind igen.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Bruger ikke fundet.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Vi kunne ikke finde den bruger.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Tilladelse nægtet.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Du har ikke tilladelse til at udføre denne handling.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Ingen resultater.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Vi kunne ikke finde nogen resultater.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Ugyldigt input.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Tjek venligst dit input og prøv igen.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Der er ikke valgt nogen emner.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Vælg venligst mindst ét emne.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Parsing fejl.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Vi kunne ikke behandle dataene.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Ukendt fejl.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Der opstod en uventet fejl.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

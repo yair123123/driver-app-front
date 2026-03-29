@@ -1,6 +1,6 @@
+import 'package:driver_app/core/error/error_message_helper.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/core/error/error_message_helper.dart';
-import 'package:news_app/l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ErrorPage extends StatelessWidget {

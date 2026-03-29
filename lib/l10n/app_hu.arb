@@ -1,0 +1,730 @@
+{
+  "@@locale": "hu",
+  "back": "vissza",
+  "saveChangesTitle": "Módosítások mentése",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Új az alkalmazásban",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Menjen a csoportok oldalára",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "A WhatsApp és a Telegram csatornák új területe videókkal, képekkel és frissítésekkel – a legérdekesebb tartalom egy helyen.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Új üzenetek",
+  "addArea": "Terület hozzáadása",
+  "removeArea": "Terület eltávolítása",
+  "removeAreaConfirmContent": "Biztosan eltávolítja a {area}-t a kiválasztott területekről?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Csatornák",
+  "contactUsSuccessTitle": "Sikeresen elküldve ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Köszönöm! Megkaptuk üzenetét, és a lehető leghamarabb felvesszük Önnel a kapcsolatot.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Válassza az Ország lehetőséget",
+  "areaManagmentTitle": "Hírek Fogyasztási Terület",
+  "areaManagmentSubtitle": "Országaim",
+  "sharedFromApp": "Megosztva innen",
+  "textCopied": "Szöveg másolva",
+  "queryIsEmpty": "A lekérdezés üres",
+  "queryIsEmptyTitle": "A keresés üres.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "A terület sikeresen eltávolításra került",
+  "areaWereAdded": "A terület sikeresen hozzáadva",
+  "saveChangesMessage": "Menteni szeretné a változtatásokat?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Már majdnem leszállunk…",
+  "busyLandingSubtitle": "Készítjük híreit",
+  "changeCountryTitle": "Melyik országba váltsunk?",
+  "changeCountrySubtitle": "Ha országot választ, az alkalmazásban lévő összes tartalom az Ön választásának megfelelően frissül.",
+  "dailySummary": "Napi összefoglaló",
+  "lastUpdated": "Utoljára frissítve",
+  "saveChangesSubtitle": "Menteni szeretné a változtatásokat?",
+  "readMore": "Olvass tovább",
+  "searchPageNoResultsPrefix": "Nincs találat a következőre: ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Nincs találat a következőre: \n",
+  "searchPageNoResultsForThisCategorySuffix": " ebben a kategóriában",
+  "toPowerOn": "bekapcsolásához",
+  "notificationsOffTitle": "Értesítések kikapcsolva",
+  "notificationsOffSubtitle": "Úgy tűnik, hogy az értesítésekhez való hozzáférés még nincs engedélyezve.",
+  "newArticles": "Új cikkek",
+  "home": "haza",
+  "changesApplyOnNextLaunch": "A módosítások az alkalmazás következő indításakor lépnek életbe.",
+  "@back": {},
+  "enable": "Engedélyezés",
+  "stayUpdatedWithLatestNews": "Legyen naprakész a legfrissebb hírekkel",
+  "enableNotifications": "Értesítések engedélyezése",
+  "error_details": "Hiba részletei",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Hoppá, valami baj van",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Ingyenes keresés",
+  "aiPageSubtitle": "Ez a funkció még fejlesztés alatt áll \n érdemes hamarosan visszanézni.",
+  "topicsSelectionTitle": "Hírek témaválasztás",
+  "groups": "Csoportok",
+  "aiPageTitle": "Hamarosan: cseveghetsz mesterséges intelligenciánkkal a hírekről!",
+  "topicsSelectionSubtitle": "Válassza ki azokat a témákat vagy altémákat, amelyeket látni szeretne a hírcsatornájában. Itt bármikor megváltoztathatja őket.",
+  "failedToLoadTopics": "Nem sikerült betölteni a témákat",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "A beállításokat bármikor módosíthatja",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Nyelv",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Nem tudtuk betölteni az adatokat. Kérjük, ellenőrizze internetkapcsolatát, és próbálja újra.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Nyelv módosítása",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Most nem",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Az értesítések engedélyezésével naprakész maradhat a fontos hírekről, a sürgős frissítésekről és a személyre szabott tartalmakról – így soha nem marad le semmiről, ami számít Önnek.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Ugrás az általunk kiválasztott tartalomhoz",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "gyerünk",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Folytasd!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Kihagyás",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Mentés",
+  "@save": {
+    "description": ""
+  },
+  "next": "Következő",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Kérjük, válasszon nyelvet",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Válasszon ki legalább egy témát",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Szeretnél naprakész maradni?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Keresés",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Mit szeretne keresni?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Írjon be egy kulcsszót vagy témát a kereséshez",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Bármelyik témakörben bekapcsolhatja az előugró értesítéseket.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Mi érdekli",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Ahhoz, hogy csak azt küldje el, ami valóban releváns, először jelölje meg, mi érdekli Önt.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Kezdje el",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Próbáld újra",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Engedélyezze",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Nincs engedély",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Megoldási javaslatok",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Értesítések engedélyezése",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Értesítések",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Értesítések engedélyezve",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Értesítések elutasítva",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Kérem, várjon",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "minden",
+  "@all": {},
+  "cancel": "Mégse",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Nyissa meg a Beállítások lehetőséget",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Minden Önt érdeklő témához engedélyezheti az előugró értesítéseket.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Hibaelhárítási tippek",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Üdvözöljük a híralkalmazásban, amely csak az Ön számára személyre szabott!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Folytassa az olvasást",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Megosztás",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Terület",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Válassza ki a területet, hogy honosított híreket kapjon",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Válassza ki a kívánt hírrégiót.\nAz alkalmazáson belül további országokat is kiválaszthat.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Válassza ki a nyelvet, később bármikor módosíthatja.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Témák",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Válassza ki az Önt érdeklő témákat, ezeket bármikor módosíthatja a beállításokban.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Kategóriák",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Értesítések kezelése",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Nyelv és régió",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Körülbelül",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Adatvédelmi szabályzat",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Vegye fel velünk a kapcsolatot",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Szerver probléma",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Nincs internet kapcsolat",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "El tudjuk érni az internetet, de a szervert nem.\\nPróbálkozzon újra egy pillanat múlva.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Nincs internet kapcsolat. Régebbi cikkeket mutatunk; csatlakozzon az internethez a legújabb történetek megtekintéséhez.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Internet kapcsolat",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Szerver kapcsolat",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Értem",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Csatlakozva",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Nincs csatlakoztatva",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Offline mód",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Changes saved successfully",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Nem sikerült menteni a változtatásokat",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Előugró értesítések",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Customize your alerts easily. Kapcsolja be vagy ki a push értesítéseket az Önt érdeklő témákhoz.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Frissítés útközben!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Hamarosan kiválaszthatja, hogy a világ mely régióiról szeretne híreket és frissítéseket kapni.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Siker",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Módosítások mentése",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Szeretné menteni a változtatásokat?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Erősítse meg",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Ezt a hivatkozást nem lehet megnyitni",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Nincs találat a következőre: \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Nincs találat a \"{query}\" kifejezésre ebben a kategóriában",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Hírek témák",
+  "@newsTopics": {},
+  "errorNoInternet": "Kérjük, ellenőrizze a kapcsolatot, és próbálja újra.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Nincs internet kapcsolat.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "A kérés lejárt. Kérjük, próbálja újra később.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "A kérelem lejárt.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Szerverhiba történt. Kérjük, próbálja újra.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Szerver hiba.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Ön nem jogosult. Kérjük, jelentkezzen be, és próbálja újra.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Jogosulatlan.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Nincs engedélye ennek a műveletnek a végrehajtására.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Hozzáférés megtagadva.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Nem találtuk, amit keresett.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Nem található.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "További részletek frissültek",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Néhány információ érvénytelennek tűnik. Kérjük, tekintse át, és próbálja újra.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Hozzájárulok ahhoz, hogy e-mailben kapok frissítéseket és hírleveleket.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Küldjön nekünk egy e-mailt",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Elveti a módosításokat?",
+  "discardChangesMessage": "Nem mentett módosításai vannak. Ha folytatja, elvesznek.",
+  "discardButton": "Eldobni",
+  "stayButton": "Maradj",
+  "changeCountryConfirm": "Hírek célhelyének váltása",
+  "otherWaysToContact": "A kapcsolatfelvétel egyéb módjai",
+  "agreePrivacy": "Elolvastam és elfogadom a ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Forduljon hozzánk bizalommal az alábbi űrlap segítségével.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Teljes név",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "E-mail cím",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Üzenet",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Érvénytelen bevitel.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Hasonló források",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Küldés",
+  "errorGeneric": "Valami elromlott. Kérjük, próbálja újra.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Valami elromlott.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Nincsenek megfelelő eredmények",
+  "emptyResults_noResults": "Nincs találat.",
+  "emptyResults_bottomWithTopic": "Próbálja megváltoztatni a kulcsszavakat, vagy válasszon másik témát.",
+  "emptyResults_bottomWithoutTopic": "Próbálja megváltoztatni a kulcsszavakat.",
+  "emptyResults_inThisTopic": "ebben a témában",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Rossz kérés.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "A kérelem érvénytelen volt. Kérjük, próbálja újra.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Nincs módosítva.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Semmi sem változott legutóbbi kérése óta.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Hálózati hiba.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Nem tudtuk elérni a hálózatot. Ellenőrizze a kapcsolatot, és próbálja újra.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Nincs adat.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Nem találtunk megjeleníthető adatokat.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Konfliktus.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "A kérelem ütközött a meglévő adatokkal. Kérjük, próbálja újra.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Érvényesítési hiba.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "A szerver visszautasított néhány adatot. Kérjük, tekintse át, és próbálja újra.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Az írás nem sikerült.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Nem tudtuk menteni a fájlt. Kérjük, próbálja újra.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Az olvasás nem sikerült.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Nem tudtuk elolvasni a fájlt. Kérjük, próbálja újra.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "A fájl nem található.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Nem találtuk a keresett fájlt.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Nincs elég tárhely.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Szabadítson fel helyet, és próbálja újra.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Adatbázis olvasási hiba.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Nem tudtunk olvasni az adatbázisból.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Adatbázis írási hiba.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Nem tudtuk menteni az adatbázisba.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Adatbázis csatlakozási hiba.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Nem tudtunk csatlakozni az adatbázishoz.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Hitelesítési hiba.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Kérjük, jelentkezzen be, és próbálja újra.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Érvénytelen hitelesítő adatok.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "A felhasználónév vagy a jelszó helytelen.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Biztonságos tárhely olvasási hiba.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Nem tudtunk olvasni a biztonságos tárhelyről.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Biztonságos tárhely írási hiba.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Nem tudtunk biztonságos tárhelyre írni.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Biztonságos tárolás egyértelmű hiba.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Nem tudtuk törölni a biztonságos tárhelyet.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "A munkamenet lejárt.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Kérjük, jelentkezzen be újra.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Felhasználó nem található.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Nem találtuk a felhasználót.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Engedély megtagadva.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Nincs engedélye ennek a műveletnek a végrehajtására.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Nincs eredmény.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Nem találtunk eredményt.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Érvénytelen bevitel.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Kérjük, ellenőrizze a bevitelt, és próbálja újra.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Nincs kiválasztva téma.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Kérjük, válasszon legalább egy témát.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Elemzési hiba.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Nem tudtuk feldolgozni az adatokat.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Ismeretlen hiba.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Váratlan hiba történt.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

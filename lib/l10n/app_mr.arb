@@ -1,0 +1,730 @@
+{
+  "@@locale": "mr",
+  "back": "परत",
+  "saveChangesTitle": "बदल जतन करा",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "ॲपमध्ये नवीन",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "गट पृष्ठावर जा",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "व्हिडिओ, प्रतिमा आणि अद्यतनांसह WhatsApp आणि टेलिग्राम चॅनेलसाठी एक नवीन क्षेत्र – सर्व सर्वात मनोरंजक सामग्री एकाच ठिकाणी.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "नवीन संदेश",
+  "addArea": "क्षेत्र जोडा",
+  "removeArea": "क्षेत्र काढा",
+  "removeAreaConfirmContent": "तुमची खात्री आहे की तुम्ही तुमच्या निवडलेल्या क्षेत्रांमधून {area} काढू इच्छिता?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "चॅनेल",
+  "contactUsSuccessTitle": "यशस्वीरित्या पाठवले ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "धन्यवाद! आम्हाला तुमचा मेसेज मिळाला आहे आणि आम्ही लवकरात लवकर तुमच्याशी संपर्क साधू.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "देश निवडा",
+  "areaManagmentTitle": "बातम्या उपभोग क्षेत्र",
+  "areaManagmentSubtitle": "माझे देश",
+  "sharedFromApp": "पासून शेअर केले",
+  "textCopied": "मजकूर कॉपी केला",
+  "queryIsEmpty": "क्वेरी रिक्त आहे",
+  "queryIsEmptyTitle": "शोध रिकामा आहे.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "क्षेत्र यशस्वीरित्या काढले गेले",
+  "areaWereAdded": "क्षेत्र यशस्वीरित्या जोडले गेले",
+  "saveChangesMessage": "तुम्ही केलेले बदल तुम्हाला सेव्ह करायचे आहेत का?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "आम्ही जवळजवळ उतरत आहोत...",
+  "busyLandingSubtitle": "आम्ही तुमच्या बातम्या तयार करत आहोत",
+  "changeCountryTitle": "आपण कोणत्या देशात जावे?",
+  "changeCountrySubtitle": "तुम्ही देश निवडता तेव्हा, ॲपमधील सर्व सामग्री तुमच्या निवडीनुसार अपडेट होईल.",
+  "dailySummary": "दैनिक सारांश",
+  "lastUpdated": "शेवटचे अपडेट केले",
+  "saveChangesSubtitle": "तुम्ही केलेले बदल तुम्हाला सेव्ह करायचे आहेत का?",
+  "readMore": "अधिक वाचा",
+  "searchPageNoResultsPrefix": "साठी कोणतेही परिणाम आढळले नाहीत ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "साठी कोणतेही परिणाम आढळले नाहीत \n",
+  "searchPageNoResultsForThisCategorySuffix": " या वर्गात",
+  "toPowerOn": "चालू करण्यासाठी",
+  "notificationsOffTitle": "सूचना बंद",
+  "notificationsOffSubtitle": "सूचना प्रवेश अद्याप सक्षम केलेला नाही असे दिसते.",
+  "newArticles": "नवीन लेख",
+  "home": "घर",
+  "changesApplyOnNextLaunch": "पुढील ॲप लाँच झाल्यावर बदल लागू केले जातील.",
+  "@back": {},
+  "enable": "सक्षम करा",
+  "stayUpdatedWithLatestNews": "ताज्या बातम्यांसह अद्ययावत रहा",
+  "enableNotifications": "सूचना सक्षम करा",
+  "error_details": "त्रुटी तपशील",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "अरेरे काहीतरी चूक आहे",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "मोफत शोध",
+  "aiPageSubtitle": "हे वैशिष्ट्य अद्याप विकासात आहे \n लवकरच परत तपासण्यासारखे आहे.",
+  "topicsSelectionTitle": "बातम्या विषय निवड",
+  "groups": "गट",
+  "aiPageTitle": "लवकरच येत आहे: तुम्ही आमच्या AI शी बातम्यांबद्दल चॅट करू शकाल!",
+  "topicsSelectionSubtitle": "तुम्ही तुमच्या फीडमध्ये पाहू इच्छित असलेले विषय किंवा उपविषय निवडा. तुम्ही त्यांना येथे नेहमी बदलू शकता.",
+  "failedToLoadTopics": "विषय लोड करण्यात अयशस्वी",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "तुम्ही कधीही सेटिंग्ज संपादित करू शकता",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "भाषा",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "आम्ही डेटा लोड करू शकलो नाही. कृपया तुमचे इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "भाषा बदला",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "आता नाही",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "सूचना सक्षम केल्याने तुम्हाला महत्त्वाच्या बातम्या, तातडीच्या अपडेट्स आणि वैयक्तिकृत सामग्रीसह अद्ययावत राहता येते – त्यामुळे तुमच्यासाठी महत्त्वाची कोणतीही गोष्ट तुम्ही कधीही चुकणार नाही.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "आम्ही तुमच्यासाठी निवडलेल्या सामग्रीवर जा",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "चला जाऊया",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "चालू ठेवा!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "वगळा",
+  "@skip": {
+    "description": ""
+  },
+  "save": "जतन करा",
+  "@save": {
+    "description": ""
+  },
+  "next": "पुढे",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "कृपया एक भाषा निवडा",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "किमान एक विषय निवडा",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "अपडेट राहू इच्छिता?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "शोधा",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "तुम्हाला काय शोधायचे आहे?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "शोधण्यासाठी कीवर्ड किंवा विषय टाइप करा",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "तुम्हाला स्वारस्य असलेल्या कोणत्याही विषयासाठी तुम्ही पॉप-अप सूचना चालू करू शकता.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "आपल्याला काय स्वारस्य आहे",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "जे खरोखर संबंधित आहे तेच पाठवण्यासाठी, प्रथम तुम्हाला काय स्वारस्य आहे ते चिन्हांकित करू या.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "प्रारंभ करा",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "पुन्हा प्रयत्न करा",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "परवानगी द्या",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "कोणत्याही परवानग्या नाहीत",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "उपाय सूचना",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "सूचनांना अनुमती द्या",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "सूचना",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "सूचना सक्षम केल्या",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "सूचना नाकारल्या",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "कृपया प्रतीक्षा करा",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "सर्व",
+  "@all": {},
+  "cancel": "रद्द करा",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "सेटिंग्ज उघडा",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "तुम्हाला स्वारस्य असलेल्या प्रत्येक विषयासाठी तुम्ही पॉप-अप सूचना सक्षम करू शकता.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "समस्यानिवारण टिपा",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "बातम्या ॲपमध्ये आपले स्वागत आहे, फक्त तुमच्यासाठी वैयक्तिकृत!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "वाचन सुरू ठेवा",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "शेअर करा",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "क्षेत्रफळ",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "स्थानिक बातम्यांचे अपडेट मिळवण्यासाठी तुमचे क्षेत्र निवडा",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "तुम्हाला हवा असलेला बातम्यांचा प्रदेश निवडा.\nॲपमध्ये, तुम्ही अतिरिक्त देश देखील निवडू शकता.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "तुमची भाषा निवडा, तुम्ही ती नंतर कधीही बदलू शकता.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "विषय",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "तुम्हाला स्वारस्य असलेले विषय निवडा, तुम्ही ते नेहमी सेटिंग्जमध्ये बदलू शकता.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "श्रेण्या",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "सूचना व्यवस्थापित करा",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "भाषा आणि प्रदेश",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "बद्दल",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "गोपनीयता धोरण",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "आमच्याशी संपर्क साधा",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "सर्व्हर समस्या",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "इंटरनेट कनेक्शन नाही",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "आम्ही इंटरनेटवर पोहोचू शकतो पण सर्व्हरवर नाही.\\nक्षणात पुन्हा प्रयत्न करा.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "इंटरनेट कनेक्शन नाही. आम्ही जुने लेख दाखवत आहोत; नवीनतम कथा पाहण्यासाठी इंटरनेटशी कनेक्ट करा.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "इंटरनेट कनेक्शन",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "सर्व्हर कनेक्शन",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "समजले",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "जोडलेले",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "जोडलेले नाही",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "ऑफलाइन मोड",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "बदल यशस्वीरित्या जतन झाले",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "बदल जतन करण्यात अक्षम",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "पॉप-अप सूचना",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "तुमचे अलर्ट सहज सानुकूलित करा. तुम्हाला स्वारस्य असलेल्या कोणत्याही विषयासाठी पुश सूचना चालू किंवा बंद करा.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "वाटेत अपडेट!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "तुम्हाला जगातील कोणत्या प्रदेशातून बातम्या आणि अपडेट्स मिळवायचे आहेत ते लवकरच तुम्ही निवडण्यास सक्षम असाल.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "माहिती",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "यश",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "बदल जतन करा",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "तुम्ही तुमचे बदल जतन करू इच्छिता?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "पुष्टी करा",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "हा संदर्भ उघडण्यात अक्षम",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\" साठी आम्हाला कोणतेही परिणाम आढळले नाहीत",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "या वर्गात \"{query}\" साठी कोणतेही परिणाम आढळले नाहीत",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "बातम्यांचे विषय",
+  "@newsTopics": {},
+  "errorNoInternet": "कृपया तुमचे कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "इंटरनेट कनेक्शन नाही.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "विनंतीची वेळ संपली. कृपया नंतर पुन्हा प्रयत्न करा.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "विनंती कालबाह्य झाली.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "सर्व्हर त्रुटी आली. कृपया पुन्हा प्रयत्न करा.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "सर्व्हर त्रुटी.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "तुम्ही अधिकृत नाही. कृपया साइन इन करा आणि पुन्हा प्रयत्न करा.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "अनाधिकृत.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "तुम्हाला ही क्रिया करण्याची परवानगी नाही.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "प्रवेश नाकारला.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "तुम्ही जे शोधत आहात ते आम्हाला सापडले नाही.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "सापडले नाही.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "अधिक तपशील अद्यतनित केले गेले आहेत",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "काही माहिती अवैध दिसते. कृपया पुनरावलोकन करा आणि पुन्हा प्रयत्न करा.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "मी ईमेलद्वारे अद्यतने आणि वृत्तपत्रे प्राप्त करण्यास सहमत आहे.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "आम्हाला ईमेल पाठवा",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "बदल टाकून द्यायचे?",
+  "discardChangesMessage": "तुमच्याकडे जतन न केलेले बदल आहेत. आपण चालू ठेवल्यास, ते गमावले जातील.",
+  "discardButton": "टाकून द्या",
+  "stayButton": "मुक्काम",
+  "changeCountryConfirm": "बातम्यांचे गंतव्यस्थान स्विच करा",
+  "otherWaysToContact": "संपर्क करण्याचे इतर मार्ग",
+  "agreePrivacy": "मी वाचले आहे आणि सहमत आहे ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "खालील फॉर्म वापरून आमच्याशी मोकळ्या मनाने संपर्क साधा.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "पूर्ण नाव",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "ईमेल पत्ता",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "संदेश",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "अवैध इनपुट.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "तत्सम स्रोत",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "पाठवा",
+  "errorGeneric": "काहीतरी चूक झाली. कृपया पुन्हा प्रयत्न करा.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "काहीतरी चूक झाली.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "कोणतेही जुळणारे परिणाम नाहीत",
+  "emptyResults_noResults": "कोणतेही परिणाम आढळले नाहीत.",
+  "emptyResults_bottomWithTopic": "तुमचे कीवर्ड बदलण्याचा प्रयत्न करा किंवा दुसरा विषय निवडा.",
+  "emptyResults_bottomWithoutTopic": "तुमचे कीवर्ड बदलण्याचा प्रयत्न करा.",
+  "emptyResults_inThisTopic": "या विषयात",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "वाईट विनंती.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "विनंती अवैध होती. कृपया पुन्हा प्रयत्न करा.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "सुधारित नाही.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "तुमच्या शेवटच्या विनंतीनंतर काहीही बदललेले नाही.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "नेटवर्क त्रुटी.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "आम्ही नेटवर्कपर्यंत पोहोचू शकलो नाही. तुमचे कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "कोणताही डेटा उपलब्ध नाही.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "आम्हाला प्रदर्शित करण्यासाठी कोणताही डेटा सापडला नाही.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "संघर्ष.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "विनंतीचा विद्यमान डेटाशी विरोधाभास आहे. कृपया पुन्हा प्रयत्न करा.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "प्रमाणीकरण त्रुटी.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "सर्व्हरने काही डेटा नाकारला. कृपया पुनरावलोकन करा आणि पुन्हा प्रयत्न करा.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "लिहू शकलो नाही.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "आम्ही फाइल सेव्ह करू शकलो नाही. कृपया पुन्हा प्रयत्न करा.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "वाचा अयशस्वी.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "आम्ही फाइल वाचू शकलो नाही. कृपया पुन्हा प्रयत्न करा.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "फाइल सापडली नाही.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "तुम्ही शोधत असलेली फाइल आम्हाला सापडली नाही.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "पुरेसा स्टोरेज नाही.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "जागा मोकळी करा आणि पुन्हा प्रयत्न करा.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "डेटाबेस वाचण्यात त्रुटी.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "आम्ही डेटाबेसमधून वाचू शकलो नाही.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "डेटाबेस लिहिण्यात त्रुटी.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "आम्ही डेटाबेसमध्ये जतन करू शकलो नाही.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "डेटाबेस कनेक्शन त्रुटी.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "आम्ही डेटाबेसशी कनेक्ट करू शकलो नाही.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "प्रमाणीकरण त्रुटी.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "कृपया साइन इन करा आणि पुन्हा प्रयत्न करा.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "अवैध क्रेडेन्शियल.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "वापरकर्तानाव किंवा पासवर्ड चुकीचा आहे.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "सुरक्षित स्टोरेज वाचण्यात त्रुटी.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "आम्ही सुरक्षित स्टोरेजमधून वाचू शकलो नाही.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "सुरक्षित स्टोरेज लेखन त्रुटी.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "आम्ही सुरक्षित स्टोरेजवर लिहू शकलो नाही.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "सुरक्षित स्टोरेज साफ त्रुटी.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "आम्ही सुरक्षित स्टोरेज साफ करू शकलो नाही.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "सत्र कालबाह्य झाले.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "कृपया पुन्हा साइन इन करा.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "वापरकर्ता सापडला नाही.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "आम्हाला तो वापरकर्ता सापडला नाही.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "परवानगी नाकारली.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "तुम्हाला ही क्रिया करण्याची परवानगी नाही.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "कोणतेही परिणाम नाहीत.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "आम्हाला कोणतेही परिणाम सापडले नाहीत.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "अवैध इनपुट.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "कृपया तुमचे इनपुट तपासा आणि पुन्हा प्रयत्न करा.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "कोणतेही विषय निवडले नाहीत.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "कृपया किमान एक विषय निवडा.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "पार्सिंग त्रुटी.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "आम्ही डेटावर प्रक्रिया करू शकलो नाही.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "अज्ञात त्रुटी.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "एक अनपेक्षित त्रुटी आली.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

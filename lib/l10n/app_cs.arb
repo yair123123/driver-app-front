@@ -1,0 +1,730 @@
+{
+  "@@locale": "cs",
+  "back": "zpět",
+  "saveChangesTitle": "Uložit změny",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Novinka v aplikaci",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Přejděte na stránku skupin",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Nová oblast pro kanály WhatsApp a Telegram s videi, obrázky a aktualizacemi – veškerý nejzajímavější obsah na jednom místě.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Nové zprávy",
+  "addArea": "Přidat oblast",
+  "removeArea": "Odebrat oblast",
+  "removeAreaConfirmContent": "Opravdu chcete odstranit {area} z vybraných oblastí?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Kanály",
+  "contactUsSuccessTitle": "Úspěšně odesláno ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "děkuji! Vaši zprávu jsme obdrželi a co nejdříve se vám ozveme zpět.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Vyberte zemi",
+  "areaManagmentTitle": "Oblast spotřeby zpráv",
+  "areaManagmentSubtitle": "Moje země",
+  "sharedFromApp": "Sdíleno od",
+  "textCopied": "Text zkopírován",
+  "queryIsEmpty": "Dotaz je prázdný",
+  "queryIsEmptyTitle": "Vyhledávání je prázdné.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Oblast byla úspěšně odstraněna",
+  "areaWereAdded": "Oblast byla úspěšně přidána",
+  "saveChangesMessage": "Chcete uložit provedené změny?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Už skoro přistáváme…",
+  "busyLandingSubtitle": "Vaše novinky připravujeme",
+  "changeCountryTitle": "Do které země bychom měli přejít?",
+  "changeCountrySubtitle": "Když vyberete zemi, veškerý obsah v aplikaci se aktualizuje podle vašeho výběru.",
+  "dailySummary": "Denní shrnutí",
+  "lastUpdated": "Naposledy aktualizováno",
+  "saveChangesSubtitle": "Chcete uložit provedené změny?",
+  "readMore": "Přečtěte si více",
+  "searchPageNoResultsPrefix": "Pro dotaz nebyly nalezeny žádné výsledky ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Pro dotaz nebyly nalezeny žádné výsledky \n",
+  "searchPageNoResultsForThisCategorySuffix": " v této kategorii",
+  "toPowerOn": "zapnout",
+  "notificationsOffTitle": "Upozornění vypnuta",
+  "notificationsOffSubtitle": "Zdá se, že přístup k oznámením ještě nebyl povolen.",
+  "newArticles": "Nové články",
+  "home": "domů",
+  "changesApplyOnNextLaunch": "Změny se projeví při příštím spuštění aplikace.",
+  "@back": {},
+  "enable": "Povolit",
+  "stayUpdatedWithLatestNews": "Zůstaňte informováni o nejnovějších zprávách",
+  "enableNotifications": "Povolit oznámení",
+  "error_details": "Podrobnosti o chybě",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Jejda, něco je špatně",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Vyhledávání zdarma",
+  "aiPageSubtitle": "Tato funkce je stále ve vývoji \n stojí za to se brzy vrátit.",
+  "topicsSelectionTitle": "Výběr témat zpráv",
+  "groups": "Skupiny",
+  "aiPageTitle": "Již brzy: budete moci chatovat s naší AI o novinkách!",
+  "topicsSelectionSubtitle": "Vyberte témata nebo podtémata, která chcete ve svém zdroji vidět. Zde je můžete vždy změnit.",
+  "failedToLoadTopics": "Témata se nepodařilo načíst",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Nastavení můžete kdykoli upravit",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Jazyk",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Nepodařilo se nám načíst data. Zkontrolujte prosím připojení k internetu a zkuste to znovu.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Změnit jazyk",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Teď ne",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Povolení oznámení vám umožní zůstat v obraze o důležitých zprávách, naléhavých aktualizacích a přizpůsobeném obsahu – takže nikdy nezmeškáte nic, na čem vám záleží.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Přeskočte na obsah, který jsme pro vás vybrali",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Jdeme",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Pokračuj!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Přeskočit",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Uložit",
+  "@save": {
+    "description": ""
+  },
+  "next": "Další",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "prosím vyberte jazyk",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Vyberte alespoň jedno téma",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Chcete zůstat aktuální?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Hledat",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Co byste chtěli hledat?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Zadejte klíčové slovo nebo téma, které chcete vyhledat",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Můžete zapnout vyskakovací oznámení pro jakékoli téma, které vás zajímá.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Co tě zajímá",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Chcete-li posílat pouze to, co je skutečně relevantní, nejprve označte, co vás zajímá.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Začněte",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Zkuste to znovu",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Povolit",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Žádná oprávnění",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Návrhy řešení",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Povolit oznámení",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Oznámení",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Upozornění povolena",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Oznámení zamítnuto",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Čekejte prosím",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "všechny",
+  "@all": {},
+  "cancel": "Zrušit",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Otevřete Nastavení",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Můžete povolit vyskakovací oznámení pro každé téma, které vás zajímá.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Tipy pro odstraňování problémů",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Vítejte ve zpravodajské aplikaci, přizpůsobené právě pro vás!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Pokračujte ve čtení",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Sdílejte",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Oblast",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Vyberte svou oblast a získejte lokalizované novinky",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Vyberte požadovanou oblast zpráv.\nV aplikaci si můžete vybrat i další země.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Vyberte si svůj jazyk, později jej můžete kdykoli změnit.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Témata",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Vyberte si témata, která vás zajímají, vždy je můžete změnit v nastavení.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Kategorie",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Spravujte oznámení",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Jazyk a region",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "O",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Zásady ochrany osobních údajů",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Kontaktujte nás",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Problém se serverem",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Žádné připojení k internetu",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Můžeme se připojit k internetu, ale ne k serveru.\\nZkuste to znovu za chvíli.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Žádné připojení k internetu. Zobrazujeme starší články; připojte se k internetu a podívejte se na nejnovější příběhy.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Internetové připojení",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Připojení k serveru",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Rozumím",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Připojeno",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Nepřipojeno",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Offline režim",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Změny byly úspěšně uloženy",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Změny nelze uložit",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Vyskakovací oznámení",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Snadno přizpůsobte svá upozornění. Zapněte nebo vypněte oznámení push pro jakékoli téma, které vás zajímá.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Aktualizace na cestě!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Brzy si budete moci vybrat, ze kterých oblastí světa chcete dostávat novinky a aktualizace.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Úspěch",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Uložte změny",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Chcete uložit změny?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Potvrďte",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Tuto referenci nelze otevřít",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Pro \"{query}\" nebyly nalezeny žádné výsledky",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Pro \"{query}\" v této kategorii nebyly nalezeny žádné výsledky",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Témata zpráv",
+  "@newsTopics": {},
+  "errorNoInternet": "Zkontrolujte připojení a zkuste to znovu.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Žádné připojení k internetu.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Časový limit požadavku vypršel. Zkuste to znovu později.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Časový limit požadavku vypršel.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Došlo k chybě serveru. Zkuste to prosím znovu.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Chyba serveru.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Nemáte oprávnění. Přihlaste se prosím a zkuste to znovu.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Neoprávněný.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "K provedení této akce nemáte oprávnění.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Přístup odepřen.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Nenašli jsme, co jste hledali.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Nenalezeno.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Další podrobnosti byly aktualizovány",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Některé informace vypadají neplatné. Zkontrolujte prosím a zkuste to znovu.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Souhlasím se zasíláním novinek a novinek e-mailem.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Pošlete nám e-mail",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Zahodit změny?",
+  "discardChangesMessage": "Máte neuložené změny. Pokud budete pokračovat, budou ztraceny.",
+  "discardButton": "Zahodit",
+  "stayButton": "Zůstaň",
+  "changeCountryConfirm": "Přepnout cíl zpráv",
+  "otherWaysToContact": "Jiné způsoby kontaktu",
+  "agreePrivacy": "Přečetl jsem a souhlasím s ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Neváhejte nás kontaktovat pomocí formuláře níže.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Celé jméno",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Emailová adresa",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Zpráva",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Neplatný vstup.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Podobné zdroje",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Odeslat",
+  "errorGeneric": "Něco se pokazilo. Zkuste to prosím znovu.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Něco se pokazilo.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Žádné odpovídající výsledky",
+  "emptyResults_noResults": "Nebyly nalezeny žádné výsledky.",
+  "emptyResults_bottomWithTopic": "Zkuste změnit klíčová slova nebo zvolte jiné téma.",
+  "emptyResults_bottomWithoutTopic": "Zkuste změnit klíčová slova.",
+  "emptyResults_inThisTopic": "v tomto tématu",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Špatný požadavek.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Žádost byla neplatná. Zkuste to prosím znovu.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Neupraveno.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Od vaší poslední žádosti se nic nezměnilo.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Chyba sítě.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Nepodařilo se nám připojit k síti. Zkontrolujte připojení a zkuste to znovu.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Nejsou k dispozici žádné údaje.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Nenašli jsme žádná data k zobrazení.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Konflikt.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Požadavek byl v konfliktu s existujícími daty. Zkuste to prosím znovu.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Chyba ověření.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Server odmítl některá data. Zkontrolujte prosím a zkuste to znovu.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Zápis se nezdařil.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Soubor se nepodařilo uložit. Zkuste to prosím znovu.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Čtení se nezdařilo.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Soubor se nám nepodařilo přečíst. Zkuste to prosím znovu.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Soubor nenalezen.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Nenašli jsme soubor, který hledáte.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Nedostatek úložiště.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Uvolněte místo a zkuste to znovu.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Chyba čtení databáze.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Nemohli jsme číst z databáze.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Chyba zápisu do databáze.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Nepodařilo se nám uložit do databáze.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Chyba připojení k databázi.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Nepodařilo se nám připojit k databázi.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Chyba ověření.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Přihlaste se prosím a zkuste to znovu.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Neplatné přihlašovací údaje.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Uživatelské jméno nebo heslo je nesprávné.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Chyba čtení zabezpečeného úložiště.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Nemohli jsme číst ze zabezpečeného úložiště.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Chyba zápisu do zabezpečeného úložiště.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Nemohli jsme zapisovat do zabezpečeného úložiště.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Chyba vymazání zabezpečeného úložiště.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Nepodařilo se nám vymazat zabezpečené úložiště.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Platnost relace vypršela.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Přihlaste se prosím znovu.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Uživatel nenalezen.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Tohoto uživatele jsme nenašli.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Povolení odepřeno.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "K provedení této akce nemáte oprávnění.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Žádné výsledky.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Nenašli jsme žádné výsledky.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Neplatný vstup.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Zkontrolujte prosím svůj vstup a zkuste to znovu.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Nebyla vybrána žádná témata.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Vyberte prosím alespoň jedno téma.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Chyba analýzy.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Údaje se nám nepodařilo zpracovat.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Neznámá chyba.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Došlo k neočekávané chybě.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

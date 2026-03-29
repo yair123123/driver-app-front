@@ -1,0 +1,730 @@
+{
+  "@@locale": "ur",
+  "back": "واپس",
+  "saveChangesTitle": "تبدیلیاں محفوظ کریں۔",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "ایپ میں نیا",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "گروپس پیج پر جائیں۔",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "ویڈیوز، تصاویر اور اپ ڈیٹس کے ساتھ واٹس ایپ اور ٹیلیگرام چینلز کے لیے ایک نیا علاقہ – تمام دلچسپ مواد ایک جگہ پر۔",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "نئے پیغامات",
+  "addArea": "ایریا شامل کریں۔",
+  "removeArea": "ایریا کو ہٹا دیں۔",
+  "removeAreaConfirmContent": "کیا آپ واقعی اپنے منتخب کردہ علاقوں سے {area} کو ہٹانا چاہتے ہیں؟",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "چینلز",
+  "contactUsSuccessTitle": "کامیابی سے بھیج دیا گیا ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "شکریہ! ہمیں آپ کا پیغام موصول ہوا ہے اور جلد از جلد آپ سے رابطہ کریں گے۔",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "ملک منتخب کریں۔",
+  "areaManagmentTitle": "خبروں کی کھپت کا علاقہ",
+  "areaManagmentSubtitle": "میرے ممالک",
+  "sharedFromApp": "سے اشتراک کیا گیا۔",
+  "textCopied": "متن کاپی ہو گیا۔",
+  "queryIsEmpty": "استفسار خالی ہے۔",
+  "queryIsEmptyTitle": "تلاش خالی ہے۔",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "علاقے کو کامیابی سے ہٹا دیا گیا۔",
+  "areaWereAdded": "رقبہ کامیابی کے ساتھ شامل کیا گیا۔",
+  "saveChangesMessage": "کیا آپ اپنی تبدیلیوں کو محفوظ کرنا چاہتے ہیں؟",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "ہم تقریباً اترنے والے ہیں…",
+  "busyLandingSubtitle": "ہم آپ کی خبریں تیار کر رہے ہیں۔",
+  "changeCountryTitle": "ہمیں کس ملک میں جانا چاہئے؟",
+  "changeCountrySubtitle": "جب آپ کسی ملک کا انتخاب کرتے ہیں تو ایپ میں موجود تمام مواد آپ کے انتخاب کے مطابق اپ ڈیٹ ہو جائے گا۔",
+  "dailySummary": "روزانہ کا خلاصہ",
+  "lastUpdated": "آخری بار اپ ڈیٹ کیا گیا۔",
+  "saveChangesSubtitle": "کیا آپ اپنی تبدیلیوں کو محفوظ کرنا چاہتے ہیں؟",
+  "readMore": "مزید پڑھیں",
+  "searchPageNoResultsPrefix": "کے لیے کوئی نتیجہ نہیں ملا ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "کے لیے کوئی نتیجہ نہیں ملا \n",
+  "searchPageNoResultsForThisCategorySuffix": " اس زمرے میں",
+  "toPowerOn": "پاور آن کرنے کے لیے",
+  "notificationsOffTitle": "اطلاعات بند",
+  "notificationsOffSubtitle": "ایسا لگتا ہے کہ اطلاع تک رسائی ابھی تک فعال نہیں کی گئی ہے۔",
+  "newArticles": "نئے مضامین",
+  "home": "گھر",
+  "changesApplyOnNextLaunch": "تبدیلیاں اگلی ایپ لانچ پر لاگو ہوں گی۔",
+  "@back": {},
+  "enable": "فعال کریں۔",
+  "stayUpdatedWithLatestNews": "تازہ ترین خبروں کے ساتھ اپ ڈیٹ رہیں",
+  "enableNotifications": "اطلاعات کو فعال کریں۔",
+  "error_details": "خرابی کی تفصیلات",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "افوہ کچھ گڑبڑ ہے۔",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "مفت تلاش",
+  "aiPageSubtitle": "یہ خصوصیت اب بھی ترقی میں ہے۔ \n جلد ہی دوبارہ چیک کرنے کے قابل۔",
+  "topicsSelectionTitle": "خبروں کے عنوانات کا انتخاب",
+  "groups": "گروپس",
+  "aiPageTitle": "جلد آرہا ہے: آپ خبروں کے بارے میں ہمارے AI کے ساتھ بات چیت کر سکیں گے!",
+  "topicsSelectionSubtitle": "ایسے عنوانات یا ذیلی عنوانات کا انتخاب کریں جنہیں آپ اپنی فیڈ میں دیکھنا چاہتے ہیں۔ آپ انہیں ہمیشہ یہاں تبدیل کر سکتے ہیں۔",
+  "failedToLoadTopics": "عنوانات لوڈ کرنے میں ناکام",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "آپ کسی بھی وقت ترتیبات میں ترمیم کر سکتے ہیں۔",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "زبان",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "ہم ڈیٹا لوڈ نہیں کر سکے۔ براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "زبان بدلو",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "ابھی نہیں۔",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "اطلاعات کو فعال کرنے سے آپ کو اہم خبروں، فوری اپ ڈیٹس، اور ذاتی نوعیت کے مواد کے ساتھ تازہ ترین رہنے کی اجازت ملتی ہے – تاکہ آپ کو کبھی بھی ایسی کوئی چیز یاد نہ آئے جو آپ کے لیے اہم ہو۔",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "اس مواد پر جائیں جسے ہم نے آپ کے لیے منتخب کیا ہے۔",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "چلو",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "جاری رکھیں!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "چھوڑیں۔",
+  "@skip": {
+    "description": ""
+  },
+  "save": "محفوظ کریں۔",
+  "@save": {
+    "description": ""
+  },
+  "next": "اگلا",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "براہ کرم ایک زبان منتخب کریں۔",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "کم از کم ایک موضوع منتخب کریں۔",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "اپ ڈیٹ رہنا چاہتے ہیں؟",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "تلاش کریں۔",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "آپ کیا تلاش کرنا چاہیں گے؟",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "تلاش کرنے کے لیے کلیدی لفظ یا موضوع ٹائپ کریں۔",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "آپ اپنی دلچسپی کے کسی بھی موضوع کے لیے پاپ اپ اطلاعات کو آن کر سکتے ہیں۔",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "آپ کو کیا دلچسپی ہے",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "صرف وہی بھیجنے کے لیے جو واقعی متعلقہ ہے، آئیے پہلے نشان زد کریں کہ آپ کی دلچسپی کیا ہے۔",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "شروع کریں",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "دوبارہ کوشش کریں۔",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "اجازت دیں۔",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "کوئی اجازت نہیں۔",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "حل کی تجاویز",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "اطلاعات کی اجازت دیں۔",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "اطلاعات",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "اطلاعات فعال ہیں۔",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "اطلاعات کی تردید",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "برائے مہربانی انتظار کریں۔",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "تمام",
+  "@all": {},
+  "cancel": "منسوخ کریں۔",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "ترتیبات کھولیں۔",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "آپ ہر اس موضوع کے لیے پاپ اپ اطلاعات کو فعال کر سکتے ہیں جس میں آپ کی دلچسپی ہو۔",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "ٹربل شوٹنگ ٹپس",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "صرف آپ کے لیے ذاتی نوعیت کی نیوز ایپ میں خوش آمدید!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "پڑھنا جاری رکھیں",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "شیئر کریں۔",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "علاقہ",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "مقامی خبروں کی اپ ڈیٹس حاصل کرنے کے لیے اپنے علاقے کا انتخاب کریں۔",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "آپ جس خبر کا علاقہ چاہتے ہیں اسے منتخب کریں۔\nایپ کے اندر، آپ اضافی ممالک کو بھی منتخب کر سکتے ہیں۔",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "اپنی زبان کا انتخاب کریں، آپ اسے بعد میں ہمیشہ تبدیل کر سکتے ہیں۔",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "موضوعات",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "وہ عنوانات منتخب کریں جن میں آپ کی دلچسپی ہے، آپ انہیں ہمیشہ ترتیبات میں تبدیل کر سکتے ہیں۔",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "زمرہ جات",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "اطلاعات کا نظم کریں۔",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "زبان اور علاقہ",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "کے بارے میں",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "رازداری کی پالیسی",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "ہم سے رابطہ کریں۔",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "سرور کا مسئلہ",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "انٹرنیٹ کنکشن نہیں ہے۔",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "ہم انٹرنیٹ تک پہنچ سکتے ہیں لیکن سرور تک نہیں۔\\nایک لمحے میں دوبارہ کوشش کریں۔",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "انٹرنیٹ کنکشن نہیں ہے۔ ہم پرانے مضامین دکھا رہے ہیں؛ تازہ ترین کہانیاں دیکھنے کے لیے انٹرنیٹ سے جڑیں۔",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "انٹرنیٹ کنیکشن",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "سرور کنکشن",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "سمجھ گیا",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "جڑا ہوا",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "منسلک نہیں",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "آف لائن موڈ",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "تبدیلیاں کامیابی سے محفوظ ہو گئیں۔",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "تبدیلیاں محفوظ کرنے سے قاصر",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "پاپ اپ اطلاعات",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "اپنے انتباہات کو آسانی سے حسب ضرورت بنائیں۔ اپنی دلچسپی کے کسی بھی موضوع کے لیے پش اطلاعات کو آن یا آف کریں۔",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "راستے میں اپ ڈیٹ!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "جلد ہی آپ یہ انتخاب کر سکیں گے کہ آپ دنیا کے کن خطوں سے خبریں اور اپ ڈیٹس حاصل کرنا چاہتے ہیں۔",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "معلومات",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "کامیابی",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "تبدیلیاں محفوظ کریں۔",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "کیا آپ اپنی تبدیلیاں محفوظ کرنا چاہتے ہیں؟",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "تصدیق کریں۔",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "اس حوالہ کو کھولنے سے قاصر",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\" کے لیے کوئی نتیجہ نہیں ملا",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "اس زمرے میں \"{query}\" کے لیے کوئی نتیجہ نہیں ملا",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "خبروں کے موضوعات",
+  "@newsTopics": {},
+  "errorNoInternet": "براہ کرم اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "انٹرنیٹ کنکشن نہیں ہے۔",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "درخواست کا وقت ختم ہو گیا۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "درخواست کا وقت ختم ہو گیا۔",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "سرور کی خرابی پیش آگئی۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "سرور کی خرابی۔",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "آپ مجاز نہیں ہیں۔ براہ کرم سائن ان کریں اور دوبارہ کوشش کریں۔",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "غیر مجاز۔",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "آپ کو یہ کارروائی کرنے کی اجازت نہیں ہے۔",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "رسائی سے انکار کر دیا گیا۔",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "آپ جس چیز کی تلاش کر رہے تھے ہمیں وہ نہیں مل سکا۔",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "نہیں ملا۔",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "مزید تفصیلات کو اپ ڈیٹ کر دیا گیا ہے۔",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "کچھ معلومات غلط معلوم ہوتی ہیں۔ براہ کرم جائزہ لیں اور دوبارہ کوشش کریں۔",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "میں ای میل کے ذریعے اپ ڈیٹس اور نیوز لیٹر وصول کرنے سے اتفاق کرتا ہوں۔",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "ہمیں ایک ای میل بھیجیں۔",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "تبدیلیوں کو مسترد کریں؟",
+  "discardChangesMessage": "آپ کے پاس غیر محفوظ شدہ تبدیلیاں ہیں۔ اگر آپ جاری رکھیں گے تو وہ ضائع ہو جائیں گے۔",
+  "discardButton": "رد کر دیں۔",
+  "stayButton": "ٹھہرو",
+  "changeCountryConfirm": "خبروں کی منزل کو تبدیل کریں۔",
+  "otherWaysToContact": "رابطہ کرنے کے دوسرے طریقے",
+  "agreePrivacy": "میں نے پڑھا ہے اور اس سے اتفاق کرتا ہوں۔ ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "نیچے دیئے گئے فارم کا استعمال کرتے ہوئے ہم سے بلا جھجھک رابطہ کریں۔",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "پورا نام",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "ای میل ایڈریس",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "پیغام",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "غلط ان پٹ۔",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "اسی طرح کے ذرائع",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "بھیجیں۔",
+  "errorGeneric": "کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "کچھ غلط ہو گیا۔",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "کوئی مماثل نتائج نہیں ہیں۔",
+  "emptyResults_noResults": "کوئی نتیجہ نہیں ملا۔",
+  "emptyResults_bottomWithTopic": "اپنے مطلوبہ الفاظ کو تبدیل کرنے کی کوشش کریں یا کوئی اور موضوع منتخب کریں۔",
+  "emptyResults_bottomWithoutTopic": "اپنے مطلوبہ الفاظ کو تبدیل کرنے کی کوشش کریں۔",
+  "emptyResults_inThisTopic": "اس موضوع میں",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "بری درخواست۔",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "درخواست غلط تھی۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "ترمیم نہیں کی گئی۔",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "آپ کی آخری درخواست کے بعد سے کچھ نہیں بدلا ہے۔",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "نیٹ ورک کی خرابی۔",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "ہم نیٹ ورک تک نہیں پہنچ سکے۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "کوئی ڈیٹا دستیاب نہیں ہے۔",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "ہمیں ڈسپلے کرنے کے لیے کوئی ڈیٹا نہیں مل سکا۔",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "تنازعہ۔",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "درخواست موجودہ ڈیٹا سے متصادم ہے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "توثیق کی خرابی۔",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "سرور نے کچھ ڈیٹا کو مسترد کر دیا۔ براہ کرم جائزہ لیں اور دوبارہ کوشش کریں۔",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "لکھنا ناکام ہو گیا۔",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "ہم فائل کو محفوظ نہیں کر سکے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "پڑھنا ناکام ہو گیا۔",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "ہم فائل نہیں پڑھ سکے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "فائل نہیں ملی۔",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "ہم وہ فائل نہیں ڈھونڈ سکے جس کی آپ تلاش کر رہے ہیں۔",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "کافی ذخیرہ نہیں ہے۔",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "جگہ خالی کریں اور دوبارہ کوشش کریں۔",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "ڈیٹا بیس پڑھنے میں خرابی۔",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "ہم ڈیٹا بیس سے نہیں پڑھ سکے۔",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "ڈیٹا بیس لکھنے میں غلطی۔",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "ہم ڈیٹا بیس میں محفوظ نہیں کر سکے۔",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "ڈیٹا بیس کنکشن کی خرابی۔",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "ہم ڈیٹا بیس سے منسلک نہیں ہو سکے۔",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "تصدیق کی خرابی۔",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "براہ کرم سائن ان کریں اور دوبارہ کوشش کریں۔",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "غلط اسناد۔",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "صارف نام یا پاس ورڈ غلط ہے۔",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "محفوظ اسٹوریج پڑھنے میں خرابی۔",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "ہم محفوظ اسٹوریج سے نہیں پڑھ سکے۔",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "محفوظ اسٹوریج لکھنے میں خرابی۔",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "ہم محفوظ اسٹوریج پر نہیں لکھ سکے۔",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "محفوظ اسٹوریج واضح غلطی۔",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "ہم محفوظ اسٹوریج کو صاف نہیں کر سکے۔",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "سیشن ختم ہو گیا۔",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "براہ کرم دوبارہ سائن ان کریں۔",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "صارف نہیں ملا۔",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "ہم اس صارف کو تلاش نہیں کر سکے۔",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "اجازت نامنظور۔",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "آپ کو یہ کارروائی کرنے کی اجازت نہیں ہے۔",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "کوئی نتیجہ نہیں نکلا۔",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "ہمیں کوئی نتیجہ نہیں مل سکا۔",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "غلط ان پٹ۔",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "براہ کرم اپنا ان پٹ چیک کریں اور دوبارہ کوشش کریں۔",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "کوئی عنوان منتخب نہیں کیا گیا۔",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "براہ کرم کم از کم ایک موضوع منتخب کریں۔",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "تجزیہ کرنے میں خرابی۔",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "ہم ڈیٹا پر کارروائی نہیں کر سکے۔",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "نامعلوم خرابی۔",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "ایک غیر متوقع خرابی پیش آگئی۔",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

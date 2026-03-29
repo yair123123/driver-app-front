@@ -1,0 +1,730 @@
+{
+  "@@locale": "sv",
+  "back": "tillbaka",
+  "saveChangesTitle": "Spara ändringar",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Nytt i appen",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Gå till gruppsidan",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Ett nytt område för WhatsApp och Telegram-kanaler med videor, bilder och uppdateringar – allt det mest intressanta innehållet på ett ställe.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Nya meddelanden",
+  "addArea": "Lägg till område",
+  "removeArea": "Ta bort område",
+  "removeAreaConfirmContent": "Är du säker på att du vill ta bort {area} från dina valda områden?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Kanaler",
+  "contactUsSuccessTitle": "Skickat framgångsrikt ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Tack! Vi har tagit emot ditt meddelande och återkommer till dig så snart som möjligt.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Välj Land",
+  "areaManagmentTitle": "Företagsnyheter Consumption Area",
+  "areaManagmentSubtitle": "Mina länder",
+  "sharedFromApp": "Delas från",
+  "textCopied": "Text kopierad",
+  "queryIsEmpty": "Frågan är tom",
+  "queryIsEmptyTitle": "Sökningen är tom.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Området har tagits bort",
+  "areaWereAdded": "Område har lagts till",
+  "saveChangesMessage": "Vill du spara ändringarna du gjort?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Vi landar nästan...",
+  "busyLandingSubtitle": "Vi förbereder dina nyheter",
+  "changeCountryTitle": "Vilket land ska vi byta till?",
+  "changeCountrySubtitle": "När du väljer ett land kommer allt innehåll i appen att uppdateras enligt ditt val.",
+  "dailySummary": "Daglig sammanfattning",
+  "lastUpdated": "Senast uppdaterad",
+  "saveChangesSubtitle": "Vill du spara ändringarna du gjort?",
+  "readMore": "Läs mer",
+  "searchPageNoResultsPrefix": "Inga resultat hittades för ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Inga resultat hittades för \n",
+  "searchPageNoResultsForThisCategorySuffix": " i denna kategori",
+  "toPowerOn": "att slå på",
+  "notificationsOffTitle": "Aviseringar av",
+  "notificationsOffSubtitle": "Det verkar som om aviseringsåtkomst inte har aktiverats ännu.",
+  "newArticles": "Nya artiklar",
+  "home": "hem",
+  "changesApplyOnNextLaunch": "Ändringar kommer att tillämpas vid nästa applansering.",
+  "@back": {},
+  "enable": "Aktivera",
+  "stayUpdatedWithLatestNews": "Håll dig uppdaterad med de senaste nyheterna",
+  "enableNotifications": "Aktivera aviseringar",
+  "error_details": "Feldetaljer",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Oj, något fel",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Gratis sökning",
+  "aiPageSubtitle": "Denna funktion är fortfarande under utveckling \n värt att kolla upp snart.",
+  "topicsSelectionTitle": "Val av nyheter",
+  "groups": "Grupper",
+  "aiPageTitle": "Kommer snart: du kommer att kunna chatta med vår AI om nyheterna!",
+  "topicsSelectionSubtitle": "Välj ämnen eller underämnen som du vill se i ditt flöde. Du kan alltid ändra dem här.",
+  "failedToLoadTopics": "Det gick inte att läsa in ämnen",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Du kan redigera inställningarna när som helst",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Språk",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Vi kunde inte ladda data. Kontrollera din internetanslutning och försök igen.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Byt språk",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Inte nu",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Genom att aktivera aviseringar kan du hålla dig uppdaterad med viktiga nyheter, brådskande uppdateringar och personligt innehåll – så att du aldrig missar något som betyder något för dig.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Hoppa till innehållet vi valde åt dig",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Låt oss gå",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Fortsätta!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Hoppa över",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Spara",
+  "@save": {
+    "description": ""
+  },
+  "next": "Nästa",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "Välj ett språk",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Välj minst ett ämne",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Vill du hålla dig uppdaterad?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Sök",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Vad skulle du vilja söka efter?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Skriv ett nyckelord eller ämne för att söka",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Du kan aktivera popup-aviseringar för alla ämnen som intresserar dig.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Vad intresserar dig",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "För att bara skicka det som verkligen är relevant, låt oss först markera det som intresserar dig.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Kom igång",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Försök igen",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Tillåt",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Inga behörigheter",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Lösningsförslag",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Tillåt aviseringar",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Aviseringar",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Aviseringar aktiverade",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Aviseringar nekade",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Vänligen vänta",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "alla",
+  "@all": {},
+  "cancel": "Avbryt",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Öppna Inställningar",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Du kan aktivera popup-aviseringar för varje ämne som intresserar dig.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Felsökningstips",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Välkommen till nyhetsappen, anpassad just för dig!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Fortsätt läsa",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Dela",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Område",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Välj ditt område för att få lokala nyhetsuppdateringar",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Välj den nyhetsregion du vill ha.\nInom appen kan du också välja ytterligare länder.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Välj ditt språk, du kan alltid ändra det senare.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Ämnen",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Välj de ämnen som intresserar dig, du kan alltid ändra dem i inställningarna.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Kategorier",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Hantera aviseringar",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Språk & region",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Om",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Integritetspolicy",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Kontakta oss",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Serverproblem",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Ingen internetuppkoppling",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Vi kan nå internet men inte servern.\\nFörsök igen om ett ögonblick.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Ingen internetuppkoppling. Vi visar äldre artiklar; anslut till internet för att se de senaste berättelserna.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Internetanslutning",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Serveranslutning",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Jag förstår",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Ansluten",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Ej ansluten",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Offlineläge",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Ändringarna har sparats",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Det gick inte att spara ändringar",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Popup-aviseringar",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Anpassa dina varningar enkelt. Slå på eller av push-meddelanden för alla ämnen som intresserar dig.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Uppdatering på väg!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Snart kommer du att kunna välja vilka regioner i världen du vill få nyheter och uppdateringar från.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Framgång",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Spara ändringar",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Vill du spara dina ändringar?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Bekräfta",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Det gick inte att öppna denna referens",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Inga resultat hittades för \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Inga resultat hittades för \"{query}\" i denna kategori",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Nyhetsämnen",
+  "@newsTopics": {},
+  "errorNoInternet": "Kontrollera din anslutning och försök igen.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Ingen internetuppkoppling.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Förfrågan tog timeout. Försök igen senare.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Begäran tog timeout.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Serverfel uppstod. Försök igen.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Serverfel.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Du är inte auktoriserad. Logga in och försök igen.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Obehörig.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Du har inte behörighet att utföra den här åtgärden.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Åtkomst nekad.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Vi kunde inte hitta det du letade efter.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Hittade inte.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Mer information har uppdaterats",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Viss information verkar ogiltig. Granska och försök igen.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Jag samtycker till att få uppdateringar och nyhetsbrev via e-post.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Skicka ett mejl till oss",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Vill du ignorera ändringar?",
+  "discardChangesMessage": "Du har osparade ändringar. Om du fortsätter kommer de att gå förlorade.",
+  "discardButton": "Släng",
+  "stayButton": "Stanna",
+  "changeCountryConfirm": "Byt nyhetsdestination",
+  "otherWaysToContact": "Andra sätt att kontakta",
+  "agreePrivacy": "Jag har läst och godkänner ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Kontakta oss gärna genom att använda formuläret nedan.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Fullständigt namn",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "E-postadress",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Meddelande",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Ogiltig inmatning.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Liknande källor",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Skicka",
+  "errorGeneric": "Något gick fel. Försök igen.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Något gick fel.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Inga matchande resultat",
+  "emptyResults_noResults": "Inga resultat hittades.",
+  "emptyResults_bottomWithTopic": "Prova att ändra dina sökord eller välj ett annat ämne.",
+  "emptyResults_bottomWithoutTopic": "Prova att ändra dina sökord.",
+  "emptyResults_inThisTopic": "i detta ämne",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Dålig begäran.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Begäran var ogiltig. Försök igen.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Ej modifierad.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Ingenting har förändrats sedan din senaste begäran.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Nätverksfel.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Vi kunde inte nå nätverket. Kontrollera din anslutning och försök igen.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Inga data tillgängliga.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Vi kunde inte hitta någon data att visa.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Konflikt.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Begäran kom i konflikt med befintliga data. Försök igen.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Valideringsfel.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Servern avvisade vissa data. Granska och försök igen.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Skrivningen misslyckades.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Vi kunde inte spara filen. Försök igen.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Läsningen misslyckades.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Vi kunde inte läsa filen. Försök igen.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Filen hittades inte.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Vi kunde inte hitta filen du letade efter.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Inte tillräckligt med lagringsutrymme.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Frigör utrymme och försök igen.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Databas läsfel.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Vi kunde inte läsa från databasen.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Databasskrivfel.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Vi kunde inte spara till databasen.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Databasanslutningsfel.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Vi kunde inte ansluta till databasen.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Autentiseringsfel.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Logga in och försök igen.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Ogiltiga användaruppgifter.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Användarnamnet eller lösenordet är felaktigt.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Läsfel för säker lagring.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Vi kunde inte läsa från säker lagring.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Skrivfel för säker lagring.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Vi kunde inte skriva till säker lagring.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Rensa fel för säker lagring.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Vi kunde inte rensa säker lagring.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Sessionen har löpt ut.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Logga in igen.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Användaren hittades inte.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Vi kunde inte hitta den användaren.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Tillstånd nekad.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Du har inte behörighet att utföra den här åtgärden.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Inga resultat.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Vi kunde inte hitta några resultat.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Ogiltig inmatning.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Kontrollera din inmatning och försök igen.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Inga ämnen har valts.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Välj minst ett ämne.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Parsningsfel.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Vi kunde inte bearbeta uppgifterna.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Okänt fel.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Ett oväntat fel inträffade.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

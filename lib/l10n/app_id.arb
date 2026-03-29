@@ -1,0 +1,730 @@
+{
+  "@@locale": "id",
+  "back": "kembali",
+  "saveChangesTitle": "Simpan Perubahan",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Baru di aplikasi",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Buka halaman grup",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Area baru untuk saluran WhatsApp dan Telegram dengan video, gambar, dan pembaruan – semua konten paling menarik di satu tempat.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Pesan Baru",
+  "addArea": "Tambahkan Daerah",
+  "removeArea": "Hapus Area",
+  "removeAreaConfirmContent": "Apakah Anda yakin ingin menghapus {area} dari area pilihan Anda?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Saluran",
+  "contactUsSuccessTitle": "Berhasil terkirim ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Terima kasih! Kami telah menerima pesan Anda dan akan menghubungi Anda sesegera mungkin.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Pilih Negara",
+  "areaManagmentTitle": "Area Konsumsi Berita",
+  "areaManagmentSubtitle": "Negara Saya",
+  "sharedFromApp": "Dibagikan dari",
+  "textCopied": "Teks disalin",
+  "queryIsEmpty": "Kueri kosong",
+  "queryIsEmptyTitle": "Pencarian kosong.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "Area berhasil dihapus",
+  "areaWereAdded": "Area berhasil ditambahkan",
+  "saveChangesMessage": "Apakah Anda ingin menyimpan perubahan yang Anda buat?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Kami hampir mendarat…",
+  "busyLandingSubtitle": "Kami sedang mempersiapkan berita Anda",
+  "changeCountryTitle": "Ke negara mana kita harus beralih?",
+  "changeCountrySubtitle": "Saat Anda memilih negara, semua konten di aplikasi akan diperbarui sesuai pilihan Anda.",
+  "dailySummary": "Ringkasan harian",
+  "lastUpdated": "Terakhir diperbarui",
+  "saveChangesSubtitle": "Apakah Anda ingin menyimpan perubahan yang Anda buat?",
+  "readMore": "Baca selengkapnya",
+  "searchPageNoResultsPrefix": "Tidak ada hasil yang ditemukan untuk",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Tidak ada hasil yang ditemukan untuk",
+  "searchPageNoResultsForThisCategorySuffix": "dalam kategori ini",
+  "toPowerOn": "untuk menyalakan",
+  "notificationsOffTitle": "Notifikasi mati",
+  "notificationsOffSubtitle": "Sepertinya akses notifikasi belum diaktifkan.",
+  "newArticles": "Artikel Baru",
+  "home": "rumah",
+  "changesApplyOnNextLaunch": "Perubahan akan diterapkan pada peluncuran aplikasi berikutnya.",
+  "@back": {},
+  "enable": "Memungkinkan",
+  "stayUpdatedWithLatestNews": "Tetap update dengan berita terbaru",
+  "enableNotifications": "Aktifkan Notifikasi",
+  "error_details": "Detail kesalahan",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ups, ada yang salah",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Pencarian Gratis",
+  "aiPageSubtitle": "Fitur ini masih dalam pengembangan \n layak untuk segera diperiksa kembali.",
+  "topicsSelectionTitle": "Pemilihan Topik Berita",
+  "groups": "Grup",
+  "aiPageTitle": "Segera hadir: Anda dapat mengobrol dengan AI kami tentang berita!",
+  "topicsSelectionSubtitle": "Pilih topik atau subtopik yang ingin Anda lihat di feed Anda. Anda selalu dapat mengubahnya di sini.",
+  "failedToLoadTopics": "Gagal memuat topik",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Anda dapat mengedit pengaturan kapan saja",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Bahasa",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Kami tidak dapat memuat data. Silakan periksa koneksi internet Anda dan coba lagi.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Ubah bahasa",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Tidak Sekarang",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "Mengaktifkan notifikasi memungkinkan Anda tetap mengetahui berita penting, pembaruan mendesak, dan konten yang dipersonalisasi – sehingga Anda tidak akan melewatkan apa pun yang penting bagi Anda.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Lewati ke konten yang kami pilihkan untuk Anda",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Ayo pergi",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Terus berlanjut!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Melewati",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Menyimpan",
+  "@save": {
+    "description": ""
+  },
+  "next": "Berikutnya",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "silakan Pilih Bahasa",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Pilih setidaknya satu topik",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Ingin tetap mendapat informasi terkini?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Mencari",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "Apa yang ingin Anda cari?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Ketikkan kata kunci atau topik yang akan dicari",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Anda dapat mengaktifkan notifikasi pop-up untuk topik apa pun yang Anda minati.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "Apa yang menarik minat Anda",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Untuk hanya mengirimkan apa yang benar-benar relevan, pertama-tama tandai apa yang menarik minat Anda.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Memulai",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Coba lagi",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Mengizinkan",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Tidak Ada Izin",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Saran solusi",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Izinkan Pemberitahuan",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Pemberitahuan",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Notifikasi Diaktifkan",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Pemberitahuan Ditolak",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Harap tunggu",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "semua",
+  "@all": {},
+  "cancel": "Membatalkan",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Buka Pengaturan",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Anda dapat mengaktifkan notifikasi pop-up untuk setiap topik yang Anda minati.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Tip Mengatasi Masalah",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Selamat datang di aplikasi berita, dipersonalisasi hanya untuk Anda!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Lanjutkan membaca",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Membagikan",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Daerah",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Pilih wilayah Anda untuk mendapatkan pembaruan berita lokal",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Pilih wilayah berita yang Anda inginkan.\nDi dalam aplikasi, Anda juga dapat memilih negara tambahan.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Pilih bahasa Anda, Anda selalu dapat mengubahnya nanti.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Topik",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Pilih topik yang Anda minati, Anda selalu dapat mengubahnya di pengaturan.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Kategori",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Kelola notifikasi",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Bahasa & wilayah",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Tentang",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Kebijakan privasi",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Hubungi kami",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Masalah server",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Tidak ada koneksi internet",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Kami dapat menjangkau internet tetapi tidak dapat menjangkau server.\\nCoba lagi sebentar lagi.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Tidak ada koneksi internet. Kami menampilkan artikel lama; terhubung ke internet untuk melihat cerita terbaru.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Koneksi internet",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Koneksi server",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Mengerti",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Terhubung",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Tidak terhubung",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Modus luring",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Perubahan berhasil disimpan",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Tidak dapat menyimpan perubahan",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Notifikasi munculan",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Sesuaikan peringatan Anda dengan mudah. Aktifkan atau nonaktifkan pemberitahuan push untuk topik apa pun yang Anda minati.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Pembaruan sedang dalam perjalanan!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Anda akan segera dapat memilih wilayah mana di dunia yang ingin Anda dapatkan berita dan pembaruannya.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Informasi",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Kesuksesan",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Simpan perubahan",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Apakah Anda ingin menyimpan perubahan Anda?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Mengonfirmasi",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Tidak dapat membuka referensi ini",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Hasil pencarian \"{query}\" tidak dapat ditemukan",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Hasil pencarian \"{query}\" tidak ditemukan",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Topik berita",
+  "@newsTopics": {},
+  "errorNoInternet": "Silakan periksa koneksi Anda dan coba lagi.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Tidak ada koneksi internet.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "Waktu permintaan telah habis. Silakan coba lagi nanti.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "Waktu permintaan habis.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Terjadi kesalahan server. Silakan coba lagi.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Kesalahan server.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Anda tidak berwenang. Silakan masuk dan coba lagi.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Tidak sah.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Anda tidak memiliki izin untuk melakukan tindakan ini.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Akses ditolak.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Kami tidak dapat menemukan apa yang Anda cari.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Tidak ditemukan.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Detail lebih lanjut telah diperbarui",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Beberapa informasi tampaknya tidak valid. Harap tinjau dan coba lagi.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Saya setuju untuk menerima pembaruan dan buletin melalui email.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Kirimi kami email",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Hapus perubahan?",
+  "discardChangesMessage": "Anda memiliki perubahan yang belum disimpan. Jika Anda melanjutkan, mereka akan hilang.",
+  "discardButton": "Membuang",
+  "stayButton": "Tinggal",
+  "changeCountryConfirm": "Ganti tujuan berita",
+  "otherWaysToContact": "Cara lain untuk menghubungi",
+  "agreePrivacy": "Saya telah membaca dan menyetujuinya",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Jangan ragu untuk menghubungi kami menggunakan formulir di bawah ini.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Nama lengkap",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Alamat email",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Pesan",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Masukan tidak valid.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Sumber serupa",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Mengirim",
+  "errorGeneric": "Ada yang tidak beres. Silakan coba lagi.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Ada yang tidak beres.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Tidak ada hasil yang cocok",
+  "emptyResults_noResults": "Tidak ada hasil yang ditemukan.",
+  "emptyResults_bottomWithTopic": "Coba ubah kata kunci Anda atau pilih topik lain.",
+  "emptyResults_bottomWithoutTopic": "Coba ubah kata kunci Anda.",
+  "emptyResults_inThisTopic": "dalam topik ini",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Permintaan buruk.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "Permintaan itu tidak valid. Silakan coba lagi.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Tidak dimodifikasi.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Tidak ada yang berubah sejak permintaan terakhir Anda.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Kesalahan jaringan.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Kami tidak dapat menjangkau jaringan tersebut. Periksa koneksi Anda dan coba lagi.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Tidak ada data yang tersedia.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Kami tidak dapat menemukan data apa pun untuk ditampilkan.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Konflik.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "Permintaan tersebut bertentangan dengan data yang ada. Silakan coba lagi.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Kesalahan validasi.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "Server menolak beberapa data. Harap tinjau dan coba lagi.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Penulisan gagal.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Kami tidak dapat menyimpan file tersebut. Silakan coba lagi.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Gagal membaca.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Kami tidak dapat membaca file tersebut. Silakan coba lagi.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Berkas tidak ditemukan.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Kami tidak dapat menemukan file yang Anda cari.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Penyimpanan tidak cukup.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Kosongkan ruang dan coba lagi.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Kesalahan pembacaan basis data.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Kami tidak dapat membaca dari database.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Kesalahan penulisan basis data.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Kami tidak dapat menyimpan ke database.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Kesalahan koneksi basis data.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Kami tidak dapat terhubung ke database.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Kesalahan otentikasi.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Silakan masuk dan coba lagi.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Kredensial tidak valid.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "Nama pengguna atau kata sandi salah.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Kesalahan pembacaan penyimpanan aman.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Kami tidak dapat membaca dari penyimpanan aman.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Kesalahan penulisan penyimpanan aman.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Kami tidak dapat menulis ke penyimpanan yang aman.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Penyimpanan aman menghapus kesalahan.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Kami tidak dapat menghapus penyimpanan aman.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "Sesi berakhir.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Silakan masuk lagi.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Pengguna tidak ditemukan.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Kami tidak dapat menemukan pengguna itu.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Izin ditolak.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Anda tidak memiliki izin untuk melakukan tindakan ini.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Tidak ada hasil.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Kami tidak dapat menemukan hasil apa pun.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Masukan tidak valid.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Silakan periksa masukan Anda dan coba lagi.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Tidak ada topik yang dipilih.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Silakan pilih setidaknya satu topik.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Kesalahan penguraian.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Kami tidak dapat memproses datanya.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Kesalahan tidak diketahui.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Terjadi kesalahan yang tidak terduga.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

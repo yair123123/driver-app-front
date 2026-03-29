@@ -2,12 +2,11 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:driver_app/core/env/config_service.dart';
+import 'package:driver_app/core/error/failure.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:http/http.dart' as http;
-import 'package:news_app/core/env/config_service.dart';
-import 'package:news_app/core/error/failure.dart';
-
 class ApiClient {
   final String baseUrl;
   final http.Client httpClient;

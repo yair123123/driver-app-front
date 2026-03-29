@@ -1,0 +1,730 @@
+{
+  "@@locale": "ko",
+  "back": "뒤로",
+  "saveChangesTitle": "변경 사항 저장",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "앱의 새로운 기능",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "그룹 페이지로 이동",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "비디오, 이미지, 업데이트가 포함된 WhatsApp 및 Telegram 채널을 위한 새로운 영역 – 가장 흥미로운 콘텐츠가 모두 한곳에 있습니다.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "새 메시지",
+  "addArea": "지역 추가",
+  "removeArea": "영역 제거",
+  "removeAreaConfirmContent": "선택한 지역에서 {area}를 제거하시겠습니까?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "채널",
+  "contactUsSuccessTitle": "성공적으로 전송되었습니다 ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "감사합니다! 귀하의 메시지가 접수되었으며 최대한 빨리 연락드리겠습니다.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "국가 선택",
+  "areaManagmentTitle": "뉴스 소비 영역",
+  "areaManagmentSubtitle": "내 국가",
+  "sharedFromApp": "다음에서 공유됨",
+  "textCopied": "텍스트가 복사되었습니다.",
+  "queryIsEmpty": "쿼리가 비어 있습니다.",
+  "queryIsEmptyTitle": "검색어가 비어 있습니다.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "영역이 성공적으로 제거되었습니다.",
+  "areaWereAdded": "지역이 추가되었습니다.",
+  "saveChangesMessage": "변경사항을 저장하시겠습니까?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "거의 착륙 중입니다…",
+  "busyLandingSubtitle": "여러분의 소식을 준비하고 있습니다",
+  "changeCountryTitle": "어느 나라로 바꿔야 할까요?",
+  "changeCountrySubtitle": "국가를 선택하면 선택 사항에 따라 앱의 모든 콘텐츠가 업데이트됩니다.",
+  "dailySummary": "일일 요약",
+  "lastUpdated": "마지막 업데이트",
+  "saveChangesSubtitle": "변경사항을 저장하시겠습니까?",
+  "readMore": "더 읽어보세요",
+  "searchPageNoResultsPrefix": "에 대한 검색 결과가 없습니다. ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "에 대한 검색 결과가 없습니다. \n",
+  "searchPageNoResultsForThisCategorySuffix": " 이 카테고리에",
+  "toPowerOn": "전원을 켜다",
+  "notificationsOffTitle": "알림 꺼짐",
+  "notificationsOffSubtitle": "알림 액세스가 아직 활성화되지 않은 것 같습니다.",
+  "newArticles": "새로운 기사",
+  "home": "집",
+  "changesApplyOnNextLaunch": "변경사항은 다음 앱 실행 시 적용됩니다.",
+  "@back": {},
+  "enable": "활성화",
+  "stayUpdatedWithLatestNews": "최신 뉴스를 받아보세요",
+  "enableNotifications": "알림 활성화",
+  "error_details": "오류 세부정보",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "이런, 뭔가 잘못됐어",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "무료 검색",
+  "aiPageSubtitle": "이 기능은 아직 개발 중입니다. \n 곧 다시 확인해 볼 가치가 있습니다.",
+  "topicsSelectionTitle": "뉴스 주제 선택",
+  "groups": "그룹",
+  "aiPageTitle": "출시 예정: 뉴스에 대해 AI와 채팅할 수 있습니다!",
+  "topicsSelectionSubtitle": "피드에서 보고 싶은 주제나 하위 주제를 선택하세요. 여기에서 언제든지 변경할 수 있습니다.",
+  "failedToLoadTopics": "주제를 로드하지 못했습니다.",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "언제든지 설정을 편집할 수 있습니다.",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "언어",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "데이터를 로드할 수 없습니다. 인터넷 연결을 확인하고 다시 시도해 주세요.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "언어 변경",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "지금은 아님",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "알림을 활성화하면 중요한 뉴스, 긴급 업데이트, 맞춤 콘텐츠에 대한 최신 정보를 받아볼 수 있으므로 중요한 내용을 놓치지 않을 수 있습니다.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "우리가 당신을 위해 선택한 콘텐츠로 건너뛰기",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "가자",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "계속하세요!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "건너뛰기",
+  "@skip": {
+    "description": ""
+  },
+  "save": "저장",
+  "@save": {
+    "description": ""
+  },
+  "next": "다음",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "언어를 선택해주세요",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "주제를 하나 이상 선택하세요.",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "최신 소식을 받고 싶으신가요?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "검색",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "무엇을 검색하시겠습니까?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "검색할 키워드나 주제를 입력하세요",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "관심 있는 주제에 대해 팝업 알림을 켤 수 있습니다.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "당신이 관심을 갖는 것",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "정말 관련 있는 내용만 보내려면 먼저 관심 있는 내용을 표시해 보세요.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "시작하기",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "다시 시도하세요",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "허용",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "권한 없음",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "솔루션 제안",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "알림 허용",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "알림",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "알림 활성화됨",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "알림이 거부되었습니다",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "잠시만 기다려주세요",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "모두",
+  "@all": {},
+  "cancel": "취소",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "설정 열기",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "관심 있는 모든 주제에 대해 팝업 알림을 활성화할 수 있습니다.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "문제 해결 팁",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "당신만을 위한 맞춤형 뉴스 앱에 오신 것을 환영합니다!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "계속 읽기",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "공유",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "면적",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "현지화된 뉴스 업데이트를 받으려면 지역을 선택하세요.",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "원하는 뉴스 지역을 선택하세요.\n앱 내에서 추가 국가를 선택할 수도 있습니다.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "언어를 선택하세요. 나중에 언제든지 변경할 수 있습니다.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "주제",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "관심 있는 주제를 선택하세요. 언제든지 설정에서 변경할 수 있습니다.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "카테고리",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "알림 관리",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "언어 및 지역",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "소개",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "개인 정보 보호 정책",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "문의하기",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "서버 문제",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "인터넷에 연결되어 있지 않음",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "인터넷에는 연결할 수 있지만 서버에는 연결할 수 없습니다.\\n잠시 후에 다시 시도하세요.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "인터넷에 연결되어 있지 않습니다. 우리는 오래된 기사를 보여주고 있습니다. 최신 기사를 보려면 인터넷에 연결하세요.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "인터넷 연결",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "서버 연결",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "알았어요",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "연결됨",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "연결되지 않음",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "오프라인 모드",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "변경사항이 성공적으로 저장되었습니다.",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "변경사항을 저장할 수 없습니다.",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "팝업 알림",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "알림을 쉽게 사용자 정의하세요. 관심 있는 주제에 대해 푸시 알림을 켜거나 끄세요.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "가는 길에 업데이트하세요!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "곧 뉴스와 업데이트를 받아보고 싶은 지역을 선택할 수 있게 됩니다.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "정보",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "성공",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "변경사항 저장",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "변경 사항을 저장하시겠습니까?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "확인",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "이 참조를 열 수 없습니다.",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "\"{query}\"에 대한 검색결과가 없습니다.",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "이 카테고리에 \"{query}\"에 대한 검색결과가 없습니다.",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "뉴스 주제",
+  "@newsTopics": {},
+  "errorNoInternet": "연결을 확인하고 다시 시도해 주세요.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "인터넷에 연결되어 있지 않습니다.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "요청 시간이 초과되었습니다. 나중에 다시 시도해 주세요.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "요청 시간이 초과되었습니다.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "서버 오류가 발생했습니다. 다시 시도해 주세요.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "서버 오류입니다.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "귀하는 권한이 없습니다. 로그인한 후 다시 시도해 주세요.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "승인되지 않았습니다.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "이 작업을 수행할 권한이 없습니다.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "액세스가 거부되었습니다.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "귀하가 찾고 있는 것을 찾을 수 없습니다.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "찾을 수 없습니다.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "자세한 내용이 업데이트되었습니다",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "일부 정보가 잘못된 것 같습니다. 검토한 후 다시 시도해 주세요.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "이메일로 업데이트 및 뉴스레터를 받는 데 동의합니다.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "이메일을 보내주세요",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "변경사항을 취소하시겠습니까?",
+  "discardChangesMessage": "저장되지 않은 변경사항이 있습니다. 계속하면 해당 항목이 손실됩니다.",
+  "discardButton": "폐기",
+  "stayButton": "숙박",
+  "changeCountryConfirm": "뉴스 대상 전환",
+  "otherWaysToContact": "기타 연락 방법",
+  "agreePrivacy": "나는 다음 내용을 읽었으며 이에 동의합니다. ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "아래 양식을 사용하여 언제든지 문의해 주세요.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "이름",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "이메일 주소",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "메시지",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "입력이 잘못되었습니다.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "유사한 소스",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "보내기",
+  "errorGeneric": "문제가 발생했습니다. 다시 시도해 주세요.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "문제가 발생했습니다.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "일치하는 결과가 없습니다",
+  "emptyResults_noResults": "검색된 결과가 없습니다.",
+  "emptyResults_bottomWithTopic": "키워드를 변경하거나 다른 주제를 선택해 보세요.",
+  "emptyResults_bottomWithoutTopic": "키워드를 바꿔보세요.",
+  "emptyResults_inThisTopic": "이 주제에서는",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "요청이 잘못되었습니다.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "요청이 잘못되었습니다. 다시 시도해 주세요.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "수정되지 않았습니다.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "마지막 요청 이후 변경된 사항이 없습니다.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "네트워크 오류입니다.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "네트워크에 연결할 수 없습니다. 연결을 확인하고 다시 시도하세요.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "데이터가 없습니다.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "표시할 데이터를 찾을 수 없습니다.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "갈등.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "요청이 기존 데이터와 충돌했습니다. 다시 시도해 주세요.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "유효성 검사 오류입니다.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "서버가 일부 데이터를 거부했습니다. 검토한 후 다시 시도해 주세요.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "쓰기에 실패했습니다.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "파일을 저장할 수 없습니다. 다시 시도해 주세요.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "읽기에 실패했습니다.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "파일을 읽을 수 없습니다. 다시 시도해 주세요.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "파일을 찾을 수 없습니다.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "찾고 있는 파일을 찾을 수 없습니다.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "저장용량이 충분하지 않습니다.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "여유 공간을 확보한 후 다시 시도하세요.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "데이터베이스 읽기 오류입니다.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "데이터베이스에서 읽을 수 없습니다.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "데이터베이스 쓰기 오류입니다.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "데이터베이스에 저장할 수 없습니다.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "데이터베이스 연결 오류입니다.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "데이터베이스에 연결할 수 없습니다.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "인증 오류입니다.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "로그인한 후 다시 시도해 주세요.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "자격 증명이 잘못되었습니다.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "사용자 이름이나 비밀번호가 올바르지 않습니다.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "보안 저장소 읽기 오류입니다.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "보안 저장소에서 읽을 수 없습니다.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "보안 저장소 쓰기 오류입니다.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "보안 저장소에 쓸 수 없습니다.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "보안 저장소 삭제 오류입니다.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "보안 저장소를 지울 수 없습니다.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "세션이 만료되었습니다.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "다시 로그인해 주세요.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "사용자를 찾을 수 없습니다.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "해당 사용자를 찾을 수 없습니다.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "허가가 거부되었습니다.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "이 작업을 수행할 권한이 없습니다.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "결과가 없습니다.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "결과를 찾을 수 없습니다.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "입력이 잘못되었습니다.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "입력 내용을 확인하고 다시 시도해 주세요.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "선택한 주제가 없습니다.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "주제를 하나 이상 선택하세요.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "구문 분석 오류입니다.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "데이터를 처리할 수 없습니다.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "알 수 없는 오류입니다.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "예상치 못한 오류가 발생했습니다.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

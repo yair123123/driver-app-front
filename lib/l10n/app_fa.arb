@@ -1,0 +1,730 @@
+{
+  "@@locale": "fa",
+  "back": "برگشت",
+  "saveChangesTitle": "ذخیره تغییرات",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "جدید در برنامه",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "به صفحه گروه ها بروید",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "یک منطقه جدید برای کانال های واتس اپ و تلگرام با فیلم ها، تصاویر و به روز رسانی ها – همه جالب ترین مطالب در یک مکان.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "پیام های جدید",
+  "addArea": "اضافه کردن منطقه",
+  "removeArea": "منطقه را حذف کنید",
+  "removeAreaConfirmContent": "آیا مطمئن هستید که می خواهید {area} را از مناطق انتخابی خود حذف کنید؟",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "کانال ها",
+  "contactUsSuccessTitle": "با موفقیت ارسال شد✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "متشکرم! ما پیام شما را دریافت کردیم و در اسرع وقت با شما تماس خواهیم گرفت.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "کشور را انتخاب کنید",
+  "areaManagmentTitle": "حوزه مصرف اخبار",
+  "areaManagmentSubtitle": "کشورهای من",
+  "sharedFromApp": "به اشتراک گذاشته شده از",
+  "textCopied": "متن کپی شد",
+  "queryIsEmpty": "پرس و جو خالی است",
+  "queryIsEmptyTitle": "جستجو خالی است",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "منطقه با موفقیت حذف شد",
+  "areaWereAdded": "منطقه با موفقیت اضافه شد",
+  "saveChangesMessage": "آیا می خواهید تغییراتی را که ایجاد کرده اید ذخیره کنید؟",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "تقریبا داریم فرود می آییم…",
+  "busyLandingSubtitle": "در حال آماده سازی اخبار شما هستیم",
+  "changeCountryTitle": "به کدام کشور برویم؟",
+  "changeCountrySubtitle": "وقتی کشوری را انتخاب می کنید، تمام محتوای برنامه مطابق با انتخاب شما به روز می شود.",
+  "dailySummary": "خلاصه روزانه",
+  "lastUpdated": "آخرین به روز رسانی",
+  "saveChangesSubtitle": "آیا می خواهید تغییراتی را که ایجاد کرده اید ذخیره کنید؟",
+  "readMore": "ادامه مطلب",
+  "searchPageNoResultsPrefix": "هیچ نتیجه ای برای ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "هیچ نتیجه ای برای \n",
+  "searchPageNoResultsForThisCategorySuffix": " در این دسته",
+  "toPowerOn": "روشن کردن",
+  "notificationsOffTitle": "اعلان ها خاموش است",
+  "notificationsOffSubtitle": "به نظر می رسد دسترسی به اعلان هنوز فعال نشده است.",
+  "newArticles": "مقالات جدید",
+  "home": "خانه",
+  "changesApplyOnNextLaunch": "تغییرات در راه اندازی برنامه بعدی اعمال خواهد شد.",
+  "@back": {},
+  "enable": "فعال کردن",
+  "stayUpdatedWithLatestNews": "با آخرین اخبار به روز باشید",
+  "enableNotifications": "اعلان ها را فعال کنید",
+  "error_details": "جزئیات خطا",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "اوه مشکلی پیش اومده",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "جستجوی رایگان",
+  "aiPageSubtitle": "این ویژگی هنوز در حال توسعه است \n ارزش دوباره بررسی را دارد",
+  "topicsSelectionTitle": "انتخاب موضوعات خبری",
+  "groups": "گروه ها",
+  "aiPageTitle": "به زودی: شما می توانید با هوش مصنوعی ما در مورد اخبار چت کنید!",
+  "topicsSelectionSubtitle": "موضوعات یا موضوعات فرعی را که می خواهید در فید خود ببینید انتخاب کنید. شما همیشه می توانید آنها را در اینجا تغییر دهید.",
+  "failedToLoadTopics": "موضوعات بارگیری نشد",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "هر زمان که بخواهید می توانید تنظیمات را ویرایش کنید",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "زبان",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "ما نتوانستیم داده ها را بارگیری کنیم. لطفاً اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "تغییر زبان",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "نه در حال حاضر",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "فعال کردن اعلان‌ها به شما امکان می‌دهد از اخبار مهم، به‌روزرسانی‌های فوری و محتوای شخصی‌شده به‌روز باشید – بنابراین هرگز چیزی را که برایتان مهم است از دست ندهید.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "به محتوایی که برای شما انتخاب کردیم بروید",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "برویم",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "ادامه بده!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "پرش کنید",
+  "@skip": {
+    "description": ""
+  },
+  "save": "ذخیره کنید",
+  "@save": {
+    "description": ""
+  },
+  "next": "بعدی",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "لطفا یک زبان را انتخاب کنید",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "حداقل یک موضوع را انتخاب کنید",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "می خواهید به روز بمانید؟",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "جستجو کنید",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "دوست دارید چه چیزی را جستجو کنید؟",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "یک کلمه کلیدی یا موضوع را برای جستجو تایپ کنید",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "می‌توانید اعلان‌های بازشو را برای هر موضوعی که به آن علاقه دارید روشن کنید.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "آنچه به شما علاقه دارد",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "برای ارسال فقط مواردی که واقعاً مرتبط هستند، اجازه دهید ابتدا موارد مورد علاقه شما را علامت گذاری کنیم.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "شروع کنید",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "دوباره امتحان کنید",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "اجازه دهید",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "بدون مجوز",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "پیشنهادات راه حل",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "اجازه دادن به اعلان‌ها",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "اطلاعیه ها",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "اعلان ها فعال شد",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "اعلان ها رد شد",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "لطفا صبر کنید",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "همه",
+  "@all": {},
+  "cancel": "لغو کنید",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "تنظیمات را باز کنید",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "می توانید اعلان های پاپ آپ را برای هر موضوعی که به آن علاقه دارید فعال کنید.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "نکات عیب یابی",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "به برنامه خبری خوش آمدید که فقط برای شما شخصی سازی شده است!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "به خواندن ادامه دهید",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "به اشتراک بگذارید",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "منطقه",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "منطقه خود را برای دریافت به‌روزرسانی‌های خبری محلی انتخاب کنید",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "منطقه خبری مورد نظر خود را انتخاب کنید.\nدر داخل برنامه، می توانید کشورهای دیگری را نیز انتخاب کنید.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "زبان خود را انتخاب کنید، همیشه می توانید بعداً آن را تغییر دهید.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "موضوعات",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "موضوعات مورد علاقه خود را انتخاب کنید، همیشه می توانید آنها را در تنظیمات تغییر دهید.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "دسته بندی ها",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "مدیریت اعلان ها",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "زبان و منطقه",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "درباره",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "سیاست حفظ حریم خصوصی",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "با ما تماس بگیرید",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "مشکل سرور",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "بدون اتصال به اینترنت",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "ما می‌توانیم به اینترنت دسترسی پیدا کنیم، اما نه به سرور.\\nیک لحظه دیگر دوباره امتحان کنید.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "بدون اتصال به اینترنت ما مقالات قدیمی‌تری را نشان می‌دهیم. برای مشاهده آخرین داستان ها به اینترنت متصل شوید.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "اتصال به اینترنت",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "اتصال به سرور",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "متوجه شدم",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "متصل شد",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "متصل نیست",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "حالت آفلاین",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "تغییرات با موفقیت ذخیره شد",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "امکان ذخیره تغییرات وجود ندارد",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "اعلان های پاپ آپ",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "هشدارهای خود را به راحتی سفارشی کنید. اعلان‌های فشاری را برای هر موضوعی که به آن علاقه دارید روشن یا خاموش کنید.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "به روز رسانی در راه است!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "به زودی می توانید انتخاب کنید که از کدام مناطق جهان می خواهید اخبار و به روز رسانی ها را دریافت کنید.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "اطلاعات",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "موفقیت",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "ذخیره تغییرات",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "آیا می خواهید تغییرات خود را ذخیره کنید؟",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "تایید کنید",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "این مرجع باز نمی شود",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "نتیجه ای برای \"{query}\" یافت نشد",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "هیچ نتیجه ای برای \"{query}\" در این رده یافت نشد",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "موضوعات خبری",
+  "@newsTopics": {},
+  "errorNoInternet": "لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "بدون اتصال به اینترنت",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "زمان درخواست به پایان رسید. لطفاً بعداً دوباره امتحان کنید.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "زمان درخواست تمام شد.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "خطای سرور رخ داده است. لطفا دوباره امتحان کنید.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "خطای سرور",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "شما مجاز نیستید. لطفا وارد شوید و دوباره امتحان کنید.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "غیر مجاز",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "شما اجازه انجام این عمل را ندارید.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "دسترسی رد شد.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "ما نتوانستیم آنچه شما به دنبال آن بودید را پیدا کنیم.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "پیدا نشد.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "جزئیات بیشتر به روز شده است",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "برخی از اطلاعات نامعتبر به نظر می رسند. لطفا مرور کنید و دوباره امتحان کنید.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "من موافقت می کنم که به روز رسانی ها و خبرنامه ها را از طریق ایمیل دریافت کنم.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "برای ما ایمیل بفرستید",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "از تغییرات صرفنظر شود؟",
+  "discardChangesMessage": "شما تغییرات ذخیره نشده ای دارید. اگر ادامه دهید، آنها گم می شوند.",
+  "discardButton": "دور انداختن",
+  "stayButton": "بمان",
+  "changeCountryConfirm": "تغییر مقصد خبری",
+  "otherWaysToContact": "راه های دیگر تماس",
+  "agreePrivacy": "من خوانده ام و موافقم ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "با استفاده از فرم زیر با ما تماس بگیرید.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "نام کامل",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "آدرس ایمیل",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "پیام",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "ورودی نامعتبر است.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "منابع مشابه",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "ارسال کنید",
+  "errorGeneric": "مشکلی پیش آمد. لطفا دوباره امتحان کنید.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "مشکلی پیش آمد.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "نتایج منطبقی وجود ندارد",
+  "emptyResults_noResults": "هیچ نتیجه ای یافت نشد.",
+  "emptyResults_bottomWithTopic": "سعی کنید کلمات کلیدی خود را تغییر دهید یا موضوع دیگری را انتخاب کنید.",
+  "emptyResults_bottomWithoutTopic": "سعی کنید کلمات کلیدی خود را تغییر دهید.",
+  "emptyResults_inThisTopic": "در این تاپیک",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "درخواست بد",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "درخواست نامعتبر بود. لطفا دوباره امتحان کنید.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "اصلاح نشده است.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "از آخرین درخواست شما چیزی تغییر نکرده است.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "خطای شبکه",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "ما نتوانستیم به شبکه دسترسی پیدا کنیم. اتصال خود را بررسی کنید و دوباره امتحان کنید.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "هیچ داده ای در دسترس نیست.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "هیچ داده ای برای نمایش پیدا نکردیم.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "درگیری.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "درخواست با داده‌های موجود مغایرت داشت. لطفا دوباره امتحان کنید.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "خطای اعتبارسنجی",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "سرور برخی از داده ها را رد کرد. لطفا مرور کنید و دوباره امتحان کنید.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "نوشتن ناموفق بود.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "ما نتوانستیم فایل را ذخیره کنیم. لطفا دوباره امتحان کنید.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "خواندن ناموفق بود.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "ما نتوانستیم فایل را بخوانیم. لطفا دوباره امتحان کنید.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "فایل پیدا نشد",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "ما نتوانستیم فایل مورد نظر شما را پیدا کنیم.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "فضای ذخیره سازی کافی نیست.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "فضا را آزاد کنید و دوباره امتحان کنید.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "خطای خواندن پایگاه داده",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "ما نتوانستیم از پایگاه داده بخوانیم.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "خطای نوشتن پایگاه داده",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "ما نتوانستیم در پایگاه داده ذخیره کنیم.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "خطای اتصال پایگاه داده",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "ما نتوانستیم به پایگاه داده وصل شویم.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "خطای احراز هویت",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "لطفا وارد شوید و دوباره امتحان کنید.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "اعتبار نامعتبر",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "نام کاربری یا رمز عبور نادرست است.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "خطای خواندن حافظه امن",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "نمی‌توانیم از فضای ذخیره‌سازی ایمن بخوانیم.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "خطای نوشتن حافظه امن",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "نتوانستیم در فضای ذخیره‌سازی ایمن بنویسیم.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "خطای پاک کردن حافظه امن",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "نتوانستیم فضای ذخیره‌سازی ایمن را پاک کنیم.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "جلسه منقضی شد",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "لطفاً دوباره وارد شوید.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "کاربر پیدا نشد",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "ما نتوانستیم آن کاربر را پیدا کنیم.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "اجازه رد شد.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "شما اجازه انجام این عمل را ندارید.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "هیچ نتیجه ای وجود ندارد.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "هیچ نتیجه ای پیدا نکردیم",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "ورودی نامعتبر است.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "لطفا ورودی خود را بررسی کنید و دوباره امتحان کنید.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "هیچ موضوعی انتخاب نشده است.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "لطفا حداقل یک موضوع را انتخاب کنید.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "خطای تجزیه.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "ما نتوانستیم داده ها را پردازش کنیم.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "خطای ناشناخته",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "یک خطای غیرمنتظره رخ داد.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "@@locale": "pt",
+  "back": "de volta",
+  "saveChangesTitle": "Salvar alterações",
+  "@saveChangesTitle": {
+    "description": "Dialog title asking the user to confirm saving changes"
+  },
+  "channels_section_title": "Novidade no aplicativo",
+  "@channels_section_title": {
+    "description": "Title for the new WhatsApp and Telegram channels section"
+  },
+  "go_to_groups_page": "Vá para a página dos grupos",
+  "@go_to_groups_page": {
+    "description": "Button or link text for navigating to the groups page"
+  },
+  "channels_section_description": "Uma nova área para canais de WhatsApp e Telegram com vídeos, imagens e atualizações – todo o conteúdo mais interessante em um só lugar.",
+  "@channels_section_description": {
+    "description": "Description of the WhatsApp and Telegram channels area"
+  },
+  "newMessages": "Novas mensagens",
+  "addArea": "Adicionar área",
+  "removeArea": "Remover área",
+  "removeAreaConfirmContent": "Tem certeza de que deseja remover {area} das áreas selecionadas?",
+  "@removeAreaConfirmContent": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    },
+    "description": "Confirmation message for removing an area"
+  },
+  "channels": "Canais",
+  "contactUsSuccessTitle": "Enviado com sucesso ✅",
+  "@contactUsSuccessTitle": {
+    "description": "Title shown after contact form submitted successfully"
+  },
+  "contactUsSuccessMessage": "Obrigado! Recebemos sua mensagem e retornaremos o mais breve possível.",
+  "@contactUsSuccessMessage": {
+    "description": "Message shown after contact form submitted successfully"
+  },
+  "selectCountry": "Selecione o país",
+  "areaManagmentTitle": "Área de consumo de notícias",
+  "areaManagmentSubtitle": "Meus países",
+  "sharedFromApp": "Compartilhado de",
+  "textCopied": "Texto copiado",
+  "queryIsEmpty": "A consulta está vazia",
+  "queryIsEmptyTitle": "A pesquisa está vazia.",
+  "@queryIsEmptyTitle": {
+    "description": ""
+  },
+  "areaWereRemoved": "A área foi removida com sucesso",
+  "areaWereAdded": "A área foi adicionada com sucesso",
+  "saveChangesMessage": "Deseja salvar as alterações feitas?",
+  "@saveChangesMessage": {
+    "description": "Dialog message asking the user to confirm saving changes"
+  },
+  "busyLandingTitle": "Estamos quase pousando…",
+  "busyLandingSubtitle": "Estamos preparando suas novidades",
+  "changeCountryTitle": "Para qual país devemos mudar?",
+  "changeCountrySubtitle": "Ao escolher um país, todo o conteúdo do aplicativo será atualizado de acordo com sua seleção.",
+  "dailySummary": "Resumo diário",
+  "lastUpdated": "Última atualização",
+  "saveChangesSubtitle": "Deseja salvar as alterações feitas?",
+  "readMore": "Leia mais",
+  "searchPageNoResultsPrefix": "Nenhum resultado encontrado para ",
+  "searchPageNoResultsSuffix": "",
+  "searchPageNoResultsForThisCategoryPrefix": "Nenhum resultado encontrado para \n",
+  "searchPageNoResultsForThisCategorySuffix": " nesta categoria",
+  "toPowerOn": "para ligar",
+  "notificationsOffTitle": "Notificações desativadas",
+  "notificationsOffSubtitle": "Parece que o acesso às notificações ainda não foi ativado.",
+  "newArticles": "Novos artigos",
+  "home": "casa",
+  "changesApplyOnNextLaunch": "As alterações serão aplicadas na próxima inicialização do aplicativo.",
+  "@back": {},
+  "enable": "Habilitar",
+  "stayUpdatedWithLatestNews": "Fique atualizado com as últimas notícias",
+  "enableNotifications": "Habilitar notificações",
+  "error_details": "Detalhes do erro",
+  "@error_details": {
+    "description": ""
+  },
+  "error_title": "Ops, algo errado",
+  "@error_title": {
+    "description": ""
+  },
+  "freeSearch": "Pesquisa Gratuita",
+  "aiPageSubtitle": "Este recurso ainda está em desenvolvimento \n vale a pena conferir em breve.",
+  "topicsSelectionTitle": "Seleção de tópicos de notícias",
+  "groups": "Grupos",
+  "aiPageTitle": "Em breve: você poderá conversar com nossa IA sobre as novidades!",
+  "topicsSelectionSubtitle": "Escolha tópicos ou subtópicos que você gostaria de ver em seu feed. Você sempre pode alterá-los aqui.",
+  "failedToLoadTopics": "Falha ao carregar tópicos",
+  "@failedToLoadTopics": {
+    "description": ""
+  },
+  "settingsNote": "Você pode editar as configurações a qualquer momento",
+  "@settingsNote": {
+    "description": "Note about settings being editable anytime"
+  },
+  "lang": "Idioma",
+  "@lang": {
+    "description": ""
+  },
+  "failed_to_load_data": "Não foi possível carregar os dados. Verifique sua conexão com a Internet e tente novamente.",
+  "@failed_to_load_data": {
+    "description": ""
+  },
+  "changeLang": "Alterar idioma",
+  "@changeLang": {
+    "description": ""
+  },
+  "notNow": "Agora não",
+  "@notNow": {
+    "description": ""
+  },
+  "notificationsPermissionRationale": "A ativação de notificações permite que você se mantenha atualizado com notícias importantes, atualizações urgentes e conteúdo personalizado – para que você nunca perca nada que seja importante para você.",
+  "@notificationsPermissionRationale": {
+    "description": ""
+  },
+  "skipToSuggestedContent": "Pule para o conteúdo que escolhemos para você",
+  "@skipToSuggestedContent": {
+    "description": "Text for a button that skips to suggested content"
+  },
+  "lets_go": "Vamos",
+  "@lets_go": {
+    "description": ""
+  },
+  "keepGoing": "Continue!",
+  "@keepGoing": {
+    "description": ""
+  },
+  "skip": "Pular",
+  "@skip": {
+    "description": ""
+  },
+  "save": "Salvar",
+  "@save": {
+    "description": ""
+  },
+  "next": "Próximo",
+  "@next": {
+    "description": ""
+  },
+  "pleaseSelectLanguage": "selecione um idioma",
+  "@pleaseSelectLanguage": {
+    "description": ""
+  },
+  "pleaseSelectAtLeastOneTopic": "Selecione pelo menos um tópico",
+  "@pleaseSelectAtLeastOneTopic": {
+    "description": "Welcome message for the user"
+  },
+  "notificationTitle": "Quer ficar atualizado?",
+  "@notificationTitle": {
+    "description": "Welcome message for the user"
+  },
+  "search": "Pesquisar",
+  "@search": {
+    "description": "Welcome message for the user"
+  },
+  "searchPageEmptySubtitle": "O que você gostaria de pesquisar?",
+  "@searchPageEmptySubtitle": {
+    "description": ""
+  },
+  "searchPageEmptyTitle": "Digite uma palavra-chave ou tópico para pesquisar",
+  "@searchPageEmptyTitle": {
+    "description": ""
+  },
+  "notificationSubTitle": "Você pode ativar notificações pop-up para qualquer tópico de seu interesse.",
+  "@notificationSubTitle": {
+    "description": "Welcome message for the user"
+  },
+  "whatIsInteresting": "O que lhe interessa",
+  "@whatIsInteresting": {
+    "description": ""
+  },
+  "subTextWhatIsInteresting": "Para enviar apenas o que é realmente relevante, vamos primeiro marcar o que lhe interessa.",
+  "@subTextWhatIsInteresting": {
+    "description": ""
+  },
+  "getStarted": "Comece",
+  "@getStarted": {
+    "description": ""
+  },
+  "try_again": "Tente novamente",
+  "@try_again": {
+    "description": ""
+  },
+  "allow": "Permitir",
+  "@allow": {
+    "description": ""
+  },
+  "noPermissions": "Sem permissões",
+  "@noPermissions": {
+    "description": ""
+  },
+  "solution_suggestions": "Sugestões de solução",
+  "@solution_suggestions": {
+    "description": ""
+  },
+  "allowNotifications": "Permitir notificações",
+  "@allowNotifications": {
+    "description": ""
+  },
+  "notifications": "Notificações",
+  "@notifications": {
+    "description": ""
+  },
+  "notificationsEnabled": "Notificações ativadas",
+  "@notificationsEnabled": {
+    "description": ""
+  },
+  "notificationsDenied": "Notificações negadas",
+  "@notificationsDenied": {
+    "description": ""
+  },
+  "pleaseWait": "Por favor, espere",
+  "@pleaseWait": {
+    "description": ""
+  },
+  "all": "tudo",
+  "@all": {},
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": ""
+  },
+  "openSettings": "Abra Configurações",
+  "@openSettings": {
+    "description": ""
+  },
+  "subTextNotifications": "Você pode ativar notificações pop-up para cada tópico de seu interesse.",
+  "@subTextNotifications": {
+    "description": ""
+  },
+  "troubleshooting_tips": "Dicas para solução de problemas",
+  "@troubleshooting_tips": {
+    "description": ""
+  },
+  "welcome": "Bem vindo ao app de notícias, personalizado só para você!",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "continueReading": "Continuar lendo",
+  "@continueReading": {
+    "description": "Welcome message for the user"
+  },
+  "share": "Compartilhar",
+  "@share": {
+    "description": "Welcome message for the user"
+  },
+  "area": "Área",
+  "@area": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHint": "Escolha sua área para receber atualizações de notícias localizadas",
+  "@chooseYourAreaHint": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourAreaHintUnused": "Escolha a região de notícias desejada.\nDentro do aplicativo, você também pode selecionar países adicionais.",
+  "@chooseYourAreaHintUnused": {
+    "description": "Welcome message for the user"
+  },
+  "chooseYourLangHint": "Escolha o seu idioma, você sempre pode alterá-lo mais tarde.",
+  "@chooseYourLangHint": {
+    "description": "Welcome message for the user"
+  },
+  "topics": "Tópicos",
+  "@topics": {
+    "description": "Welcome message for the user"
+  },
+  "chooseTopicsHint": "Escolha os temas que lhe interessam, você sempre pode alterá-los nas configurações.",
+  "@chooseTopicsHint": {
+    "description": "Welcome message for the user"
+  },
+  "categories": "Categorias",
+  "@categories": {
+    "description": "Drawer item label for viewing categories"
+  },
+  "manageNotifications": "Gerenciar notificações",
+  "@manageNotifications": {
+    "description": "Drawer item label for managing notification settings"
+  },
+  "languageAndRegion": "Idioma e região",
+  "@languageAndRegion": {
+    "description": "Drawer item label for language and region settings"
+  },
+  "about": "Sobre",
+  "@about": {
+    "description": "Drawer item label linking to app information"
+  },
+  "privacyPolicy": "Política de privacidade",
+  "@privacyPolicy": {
+    "description": "Drawer item label linking to the privacy policy"
+  },
+  "contactUs": "Contate-nos",
+  "@contactUs": {
+    "description": "Drawer item label linking to contact information"
+  },
+  "networkStatusPartialTitle": "Problema no servidor",
+  "@networkStatusPartialTitle": {
+    "description": "Title shown when the device has internet access but cannot reach the server"
+  },
+  "networkStatusOfflineTitle": "Sem conexão com a internet",
+  "@networkStatusOfflineTitle": {
+    "description": "Title shown when there is no internet connectivity"
+  },
+  "networkStatusPartialMessage": "Conseguimos acessar a Internet, mas não o servidor.\\nTente novamente em alguns instantes.",
+  "@networkStatusPartialMessage": {
+    "description": "Message explaining partial connectivity when the server cannot be reached"
+  },
+  "networkStatusOfflineMessage": "Sem conexão com a internet. Estamos mostrando artigos mais antigos; conecte-se à internet para ver as últimas histórias.",
+  "@networkStatusOfflineMessage": {
+    "description": "Message explaining there is no internet access"
+  },
+  "networkStatusInternetLabel": "Conexão com a Internet",
+  "@networkStatusInternetLabel": {
+    "description": "Label for internet connectivity status"
+  },
+  "networkStatusServerLabel": "Conexão do servidor",
+  "@networkStatusServerLabel": {
+    "description": "Label for server connectivity status"
+  },
+  "networkStatusDismiss": "Entendi",
+  "@networkStatusDismiss": {
+    "description": "Button text to dismiss the network status dialog"
+  },
+  "networkStatusConnected": "Conectado",
+  "@networkStatusConnected": {
+    "description": "Label shown when a connection is active"
+  },
+  "networkStatusDisconnected": "Não conectado",
+  "@networkStatusDisconnected": {
+    "description": "Label shown when a connection is inactive"
+  },
+  "offlineMode": "Modo off-line",
+  "@offlineMode": {
+    "description": "Label showing the app is in offline mode"
+  },
+  "changesSavedSuccessfully": "Alterações salvas com sucesso",
+  "@changesSavedSuccessfully": {
+    "description": "Toast shown when changes are saved successfully"
+  },
+  "unableToSaveChanges": "Não foi possível salvar as alterações",
+  "@unableToSaveChanges": {
+    "description": "Shown when saving changes fails"
+  },
+  "dismissibleNoticeNotificationsTitle": "Notificações pop-up",
+  "@dismissibleNoticeNotificationsTitle": {
+    "description": "Title for the dismissible notification preferences notice"
+  },
+  "dismissibleNoticeNotificationsSubtitle": "Personalize seus alertas facilmente. Ative ou desative notificações push para qualquer tópico de seu interesse.",
+  "@dismissibleNoticeNotificationsSubtitle": {
+    "description": "Subtitle explaining notification customization options"
+  },
+  "dismissibleNoticeLangAndAreaTitle": "Atualização a caminho!",
+  "@dismissibleNoticeLangAndAreaTitle": {
+    "description": "Title for the language and region dismissible notice"
+  },
+  "dismissibleNoticeLangAndAreaSubtitle": "Em breve você poderá escolher de quais regiões do mundo deseja receber notícias e atualizações.",
+  "@dismissibleNoticeLangAndAreaSubtitle": {
+    "description": "Subtitle for upcoming language and region selection feature"
+  },
+  "info": "Informações",
+  "@info": {
+    "description": "Label for general informational messages"
+  },
+  "success": "Sucesso",
+  "@success": {
+    "description": "Label for successful action feedback"
+  },
+  "saveChanges": "Salvar alterações",
+  "@saveChanges": {
+    "description": "Action label for saving modifications"
+  },
+  "saveChangesConfirmation": "Quer salvar suas alterações?",
+  "@saveChangesConfirmation": {
+    "description": "Confirmation prompt before saving changes"
+  },
+  "confirm": "Confirmar",
+  "@confirm": {
+    "description": "Label for confirmation actions"
+  },
+  "unableToOpenReference": "Não foi possível abrir esta referência",
+  "@unableToOpenReference": {
+    "description": "Shown when opening a reference fails"
+  },
+  "searchPageNoResults": "Nenhum resultado encontrado para \"{query}\"",
+  "@searchPageNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "searchPageNoResultsForThisCategory": "Não foram encontrados resultados para \"{query}\" nesta categoria",
+  "@searchPageNoResultsForThisCategory": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    },
+    "description": ""
+  },
+  "newsTopics": "Tópicos de notícias",
+  "@newsTopics": {},
+  "errorNoInternet": "Verifique sua conexão e tente novamente.",
+  "@errorNoInternet": {
+    "description": ""
+  },
+  "errorNoInternetTitle": "Sem conexão com a internet.",
+  "@errorNoInternetTitle": {
+    "description": ""
+  },
+  "errorTimeout": "A solicitação expirou. Por favor, tente novamente mais tarde.",
+  "@errorTimeout": {
+    "description": ""
+  },
+  "errorTimeoutTitle": "A solicitação expirou.",
+  "@errorTimeoutTitle": {
+    "description": ""
+  },
+  "errorServer": "Ocorreu um erro no servidor. Por favor, tente novamente.",
+  "@errorServer": {
+    "description": ""
+  },
+  "errorServerTitle": "Erro no servidor.",
+  "@errorServerTitle": {
+    "description": ""
+  },
+  "errorUnauthorized": "Você não está autorizado. Faça login e tente novamente.",
+  "@errorUnauthorized": {
+    "description": ""
+  },
+  "errorUnauthorizedTitle": "Não autorizado.",
+  "@errorUnauthorizedTitle": {
+    "description": ""
+  },
+  "errorForbidden": "Você não tem permissão para executar esta ação.",
+  "@errorForbidden": {
+    "description": ""
+  },
+  "errorForbiddenTitle": "Acesso negado.",
+  "@errorForbiddenTitle": {
+    "description": ""
+  },
+  "errorNotFound": "Não conseguimos encontrar o que você procurava.",
+  "@errorNotFound": {
+    "description": ""
+  },
+  "errorNotFoundTitle": "Não encontrado.",
+  "@errorNotFoundTitle": {
+    "description": ""
+  },
+  "updateArticle": "Mais detalhes foram atualizados",
+  "@updateArticle": {
+    "description": ""
+  },
+  "errorValidation": "Algumas informações parecem inválidas. Revise e tente novamente.",
+  "@errorValidation": {
+    "description": ""
+  },
+  "agreeMail": "Concordo em receber atualizações e newsletters por e-mail.",
+  "@agreeMail": {
+    "description": "Checkbox text for agreeing to receive email updates and newsletters"
+  },
+  "sendUsEmail": "Envie-nos um e-mail",
+  "@sendUsEmail": {
+    "description": "CTA inviting the user to contact support via email"
+  },
+  "discardChangesTitle": "Descartar alterações?",
+  "discardChangesMessage": "Você tem alterações não salvas. Se você continuar, eles serão perdidos.",
+  "discardButton": "Descartar",
+  "stayButton": "Fique",
+  "changeCountryConfirm": "Mudar destino de notícias",
+  "otherWaysToContact": "Outras formas de contato",
+  "agreePrivacy": "Eu li e concordo com o ",
+  "@agreePrivacy": {
+    "description": "Checkbox text for accepting the privacy policy"
+  },
+  "contactUsSubtitle": "Sinta-se à vontade para nos contatar através do formulário abaixo.",
+  "@contactUsSubtitle": {
+    "description": "Subtitle text on Contact Us screen"
+  },
+  "fullName": "Nome completo",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "mail": "Endereço de e-mail",
+  "@mail": {
+    "description": "Label for email input field"
+  },
+  "message": "Mensagem",
+  "@message": {
+    "description": "Label for message input field"
+  },
+  "errorValidationTitle": "Entrada inválida.",
+  "@errorValidationTitle": {
+    "description": ""
+  },
+  "similarSources": "Fontes semelhantes",
+  "@similarSources": {
+    "description": ""
+  },
+  "send": "Enviar",
+  "errorGeneric": "Algo deu errado. Por favor, tente novamente.",
+  "@errorGeneric": {
+    "description": ""
+  },
+  "errorGenericTitle": "Algo deu errado.",
+  "@errorGenericTitle": {
+    "description": ""
+  },
+  "emptyResults_title": "Nenhum resultado correspondente",
+  "emptyResults_noResults": "Nenhum resultado encontrado.",
+  "emptyResults_bottomWithTopic": "Tente alterar suas palavras-chave ou escolha outro tópico.",
+  "emptyResults_bottomWithoutTopic": "Tente mudar suas palavras-chave.",
+  "emptyResults_inThisTopic": "neste tópico",
+  "@emptyResults_inThisTopic": {
+    "description": "Used as: in this topic"
+  },
+  "errorBadRequestTitle": "Pedido ruim.",
+  "@errorBadRequestTitle": {
+    "description": ""
+  },
+  "errorBadRequest": "A solicitação era inválida. Por favor, tente novamente.",
+  "@errorBadRequest": {
+    "description": ""
+  },
+  "errorNotModifiedTitle": "Não modificado.",
+  "@errorNotModifiedTitle": {
+    "description": ""
+  },
+  "errorNotModified": "Nada mudou desde sua última solicitação.",
+  "@errorNotModified": {
+    "description": ""
+  },
+  "errorNetworkTitle": "Erro de rede.",
+  "@errorNetworkTitle": {
+    "description": ""
+  },
+  "errorNetwork": "Não conseguimos acessar a rede. Verifique sua conexão e tente novamente.",
+  "@errorNetwork": {
+    "description": ""
+  },
+  "errorDataIsEmptyTitle": "Não há dados disponíveis.",
+  "@errorDataIsEmptyTitle": {
+    "description": ""
+  },
+  "errorDataIsEmpty": "Não foi possível encontrar nenhum dado para exibir.",
+  "@errorDataIsEmpty": {
+    "description": ""
+  },
+  "errorConflictTitle": "Conflito.",
+  "@errorConflictTitle": {
+    "description": ""
+  },
+  "errorConflict": "A solicitação entrou em conflito com os dados existentes. Por favor, tente novamente.",
+  "@errorConflict": {
+    "description": ""
+  },
+  "errorServerValidationTitle": "Erro de validação.",
+  "@errorServerValidationTitle": {
+    "description": ""
+  },
+  "errorServerValidation": "O servidor rejeitou alguns dados. Revise e tente novamente.",
+  "@errorServerValidation": {
+    "description": ""
+  },
+  "errorWriteFileTitle": "Falha na gravação.",
+  "@errorWriteFileTitle": {
+    "description": ""
+  },
+  "errorWriteFile": "Não foi possível salvar o arquivo. Por favor, tente novamente.",
+  "@errorWriteFile": {
+    "description": ""
+  },
+  "errorReadFileTitle": "Falha na leitura.",
+  "@errorReadFileTitle": {
+    "description": ""
+  },
+  "errorReadFile": "Não foi possível ler o arquivo. Por favor, tente novamente.",
+  "@errorReadFile": {
+    "description": ""
+  },
+  "errorFileNotFoundTitle": "Arquivo não encontrado.",
+  "@errorFileNotFoundTitle": {
+    "description": ""
+  },
+  "errorFileNotFound": "Não foi possível encontrar o arquivo que você procura.",
+  "@errorFileNotFound": {
+    "description": ""
+  },
+  "errorInsufficientStorageTitle": "Armazenamento insuficiente.",
+  "@errorInsufficientStorageTitle": {
+    "description": ""
+  },
+  "errorInsufficientStorage": "Libere espaço e tente novamente.",
+  "@errorInsufficientStorage": {
+    "description": ""
+  },
+  "errorDatabaseReadTitle": "Erro de leitura do banco de dados.",
+  "@errorDatabaseReadTitle": {
+    "description": ""
+  },
+  "errorDatabaseRead": "Não foi possível ler o banco de dados.",
+  "@errorDatabaseRead": {
+    "description": ""
+  },
+  "errorDatabaseWriteTitle": "Erro de gravação do banco de dados.",
+  "@errorDatabaseWriteTitle": {
+    "description": ""
+  },
+  "errorDatabaseWrite": "Não foi possível salvar no banco de dados.",
+  "@errorDatabaseWrite": {
+    "description": ""
+  },
+  "errorDatabaseConnectionTitle": "Erro de conexão com o banco de dados.",
+  "@errorDatabaseConnectionTitle": {
+    "description": ""
+  },
+  "errorDatabaseConnection": "Não foi possível conectar ao banco de dados.",
+  "@errorDatabaseConnection": {
+    "description": ""
+  },
+  "errorAuthTitle": "Erro de autenticação.",
+  "@errorAuthTitle": {
+    "description": ""
+  },
+  "errorAuth": "Faça login e tente novamente.",
+  "@errorAuth": {
+    "description": ""
+  },
+  "errorInvalidCredentialsTitle": "Credenciais inválidas.",
+  "@errorInvalidCredentialsTitle": {
+    "description": ""
+  },
+  "errorInvalidCredentials": "O nome de usuário ou senha está incorreto.",
+  "@errorInvalidCredentials": {
+    "description": ""
+  },
+  "errorSecureStorageReadTitle": "Erro de leitura de armazenamento seguro.",
+  "@errorSecureStorageReadTitle": {
+    "description": ""
+  },
+  "errorSecureStorageRead": "Não foi possível ler no armazenamento seguro.",
+  "@errorSecureStorageRead": {
+    "description": ""
+  },
+  "errorSecureStorageWriteTitle": "Erro de gravação de armazenamento seguro.",
+  "@errorSecureStorageWriteTitle": {
+    "description": ""
+  },
+  "errorSecureStorageWrite": "Não foi possível gravar no armazenamento seguro.",
+  "@errorSecureStorageWrite": {
+    "description": ""
+  },
+  "errorSecureStorageClearTitle": "Erro de limpeza do armazenamento seguro.",
+  "@errorSecureStorageClearTitle": {
+    "description": ""
+  },
+  "errorSecureStorageClear": "Não foi possível limpar o armazenamento seguro.",
+  "@errorSecureStorageClear": {
+    "description": ""
+  },
+  "errorTokenExpiredTitle": "A sessão expirou.",
+  "@errorTokenExpiredTitle": {
+    "description": ""
+  },
+  "errorTokenExpired": "Faça login novamente.",
+  "@errorTokenExpired": {
+    "description": ""
+  },
+  "errorUserNotFoundTitle": "Usuário não encontrado.",
+  "@errorUserNotFoundTitle": {
+    "description": ""
+  },
+  "errorUserNotFound": "Não foi possível encontrar esse usuário.",
+  "@errorUserNotFound": {
+    "description": ""
+  },
+  "errorPermissionDeniedTitle": "Permissão negada.",
+  "@errorPermissionDeniedTitle": {
+    "description": ""
+  },
+  "errorPermissionDenied": "Você não tem permissão para realizar esta ação.",
+  "@errorPermissionDenied": {
+    "description": ""
+  },
+  "errorEmptyResultTitle": "Sem resultados.",
+  "@errorEmptyResultTitle": {
+    "description": ""
+  },
+  "errorEmptyResult": "Não encontramos nenhum resultado.",
+  "@errorEmptyResult": {
+    "description": ""
+  },
+  "errorInvalidInputTitle": "Entrada inválida.",
+  "@errorInvalidInputTitle": {
+    "description": ""
+  },
+  "errorInvalidInput": "Verifique sua entrada e tente novamente.",
+  "@errorInvalidInput": {
+    "description": ""
+  },
+  "errorEmptyTopicsTitle": "Nenhum tópico selecionado.",
+  "@errorEmptyTopicsTitle": {
+    "description": ""
+  },
+  "errorEmptyTopics": "Selecione pelo menos um tópico.",
+  "@errorEmptyTopics": {
+    "description": ""
+  },
+  "errorParsingTitle": "Erro de análise.",
+  "@errorParsingTitle": {
+    "description": ""
+  },
+  "errorParsing": "Não foi possível processar os dados.",
+  "@errorParsing": {
+    "description": ""
+  },
+  "errorUnknownTitle": "Erro desconhecido.",
+  "@errorUnknownTitle": {
+    "description": ""
+  },
+  "errorUnknown": "Ocorreu um erro inesperado.",
+  "@errorUnknown": {
+    "description": ""
+  }
+}
