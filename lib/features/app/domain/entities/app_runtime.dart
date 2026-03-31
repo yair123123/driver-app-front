@@ -1,6 +1,6 @@
-
 import 'package:driver_app/features/permission/services/notification_permission_service.dart';
 
+/// Ephemeral runtime-only flags. These should not be persisted.
 enum AppBusyReason { changeArea }
 
 class AppBusy {
@@ -13,22 +13,27 @@ class AppBusy {
 }
 
 class AppRuntime {
-  static const _u = Object();
+  static const _unset = Object();
+
   final bool forceUpdate;
   final NotificationAuth? notificationAuth;
   final bool? isAuth;
+  final bool isArticlesLoaded;
+  final AppBusy appBusy;
   final bool? isActiveRide;
 
-  AppRuntime({
+  const AppRuntime({
     this.forceUpdate = false,
     this.notificationAuth,
     this.isAuth,
-    this.isActiveRide ,
+    this.isArticlesLoaded = false,
+    this.appBusy = AppBusy.idle,
+    this.isActiveRide,
   });
 
   AppRuntime copyWith({
     bool? forceUpdate,
-    Object? isAuth = _u,
+    Object? isAuth = _unset,
     bool? articlesLoaded,
     AppBusy? appBusy,
     NotificationAuth? notificationAuth,
@@ -36,7 +41,9 @@ class AppRuntime {
   }) {
     return AppRuntime(
       forceUpdate: forceUpdate ?? this.forceUpdate,
-      isAuth: isAuth == _u ? this.isAuth : isAuth as bool?,
+      isAuth: isAuth == _unset ? this.isAuth : isAuth as bool?,
+      isArticlesLoaded: articlesLoaded ?? this.isArticlesLoaded,
+      appBusy: appBusy ?? this.appBusy,
       notificationAuth: notificationAuth ?? this.notificationAuth,
       isActiveRide: isActiveRide ?? this.isActiveRide,
     );

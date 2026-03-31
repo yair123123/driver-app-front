@@ -11,7 +11,7 @@ import 'package:news_app/features/app/domain/use_cases/get_local_app_state.dart'
 import 'package:news_app/features/app/domain/use_cases/save_local_app_state.dart';
 import 'package:news_app/features/app/presentation/notifiers/app_notifier.dart';
 import 'package:news_app/features/app/presentation/notifiers/bootstrap_notifier.dart';
-import 'package:news_app/features/app/presentation/states/app_state.dart';
+import 'package:driver_app/features/app/presentation/states/app_state.dart';
 import 'package:news_app/features/auth/data/models/user_model.dart';
 import 'package:news_app/features/lang_and_area/presentation/lang_area_provider.dart';
 
@@ -49,7 +49,7 @@ final saveLocalAppStateUseCaseProvider = Provider<SaveLocalAppPrefsUseCase>((
   return SaveLocalAppPrefsUseCase(ref.watch(appStateRepositoryProvider));
 });
 
-final appProvider = NotifierProvider<AppStateNotifier, AppState>(
+final appProvider = NotifierProvider<AppStateNotifier, AppSessionState>(
 
   AppStateNotifier.new,
 );

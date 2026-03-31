@@ -1,20 +1,20 @@
 import 'dart:async';
 
-import 'package:driver_app/core/app/app_state.dart';
-import 'package:driver_app/core/services/device_info_service.dart';
+import 'package:driver_app/core/logger/firebase_logger.dart';
 import 'package:driver_app/features/app/domain/entities/app_prefs.dart';
 import 'package:driver_app/features/app/domain/entities/app_runtime.dart';
+import 'package:driver_app/features/app/presentation/providers/app_prefs_provider.dart';
+import 'package:driver_app/features/app/presentation/states/app_state.dart';
 import 'package:riverpod/riverpod.dart';
 
-class AppStateNotifier extends Notifier<AppState> {
+class AppStateNotifier extends Notifier<AppSessionState> {
   @override
-  AppState build() {
-    final deviceInfo = ref.read(deviceInfoProvider);
+  AppSessionState build() {
     final appPrefs = AppPrefs(
     );
 
     final appRuntime = AppRuntime();
-    return AppState(appPrefs: appPrefs, appRuntime: appRuntime);
+    return AppSessionState(appPrefs: appPrefs, appRuntime: appRuntime);
   }
 
   void loadFromCache(AppPrefs appPrefs) {
