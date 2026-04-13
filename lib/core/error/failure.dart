@@ -2,161 +2,190 @@ import 'package:equatable/equatable.dart';
 
 abstract class Failure extends Equatable {
   final String message;
+  final bool reportable;
 
-  const Failure(this.message);
+  const Failure(this.message, {this.reportable = true});
 
   @override
-  List<Object?> get props => [message];
+  List<Object?> get props => [message, reportable];
 }
 
 class NoInternetFailure extends Failure {
-  const NoInternetFailure() : super("No internet connection");
+  const NoInternetFailure()
+      : super('No internet connection', reportable: false);
 }
 
 class TimeoutFailure extends Failure {
-  const TimeoutFailure() : super("Request timed out");
+  const TimeoutFailure() : super('Request timed out', reportable: false);
 }
 
 class NetworkFailure extends Failure {
-  const NetworkFailure([super.message = "Network error"]);
+  const NetworkFailure([String message = 'Network error'])
+      : super(message, reportable: false);
 }
 
 class ServerFailure extends Failure {
-  const ServerFailure([super.message = "Server error"]);
+  const ServerFailure([String message = 'Server error']) : super(message);
 }
 
 class DataIsEmpty extends Failure {
-  const DataIsEmpty([super.message = "No data available"]);
+  const DataIsEmpty([String message = 'No data available'])
+      : super(message, reportable: false);
 }
 
 class BadRequestFailure extends Failure {
-  const BadRequestFailure([super.message = "Bad request"]);
+  const BadRequestFailure([String message = 'Bad request'])
+      : super(message, reportable: false);
 }
 
 class NotModified extends Failure {
-  const NotModified([super.message = "not modified"]);
+  const NotModified([String message = 'Not modified'])
+      : super(message, reportable: false);
 }
 
 class UnauthorizedFailure extends Failure {
-  const UnauthorizedFailure([super.message = "Unauthorized"]);
+  const UnauthorizedFailure([String message = 'Unauthorized'])
+      : super(message, reportable: false);
 }
 
 class ForbiddenFailure extends Failure {
-  const ForbiddenFailure([super.message = "Forbidden"]);
+  const ForbiddenFailure([String message = 'Forbidden'])
+      : super(message, reportable: false);
 }
 
 class NotFoundFailure extends Failure {
-  const NotFoundFailure([super.message = "Not found"]);
+  const NotFoundFailure([String message = 'Not found'])
+      : super(message, reportable: false);
 }
 
 class ConflictFailure extends Failure {
-  const ConflictFailure([super.message = "Conflict"]);
+  const ConflictFailure([String message = 'Conflict'])
+      : super(message, reportable: false);
 }
 
 class ServerValidationFailure extends Failure {
-  const ServerValidationFailure([super.message = "Validation error"]);
+  const ServerValidationFailure([String message = 'Validation error'])
+      : super(message, reportable: false);
 }
+
 class ServerNotReadyFailure extends Failure {
-  const ServerNotReadyFailure([super.message = "server not ready error"]);
+  const ServerNotReadyFailure([String message = 'Server not ready error'])
+      : super(message, reportable: false);
 }
 
 // ---------------------------------------------------------------------------
-// 📁 FILE SYSTEM FAILURES
+// FILE SYSTEM FAILURES
 // ---------------------------------------------------------------------------
 
 class WriteFileFailure extends Failure {
-  const WriteFileFailure([super.message = "Failed to write file"]);
+  const WriteFileFailure([String message = 'Failed to write file'])
+      : super(message);
 }
 
 class ReadFileFailure extends Failure {
-  const ReadFileFailure([super.message = "Failed to read file"]);
+  const ReadFileFailure([String message = 'Failed to read file'])
+      : super(message);
 }
 
 class FileNotFoundFailure extends Failure {
-  const FileNotFoundFailure([super.message = "File not found"]);
+  const FileNotFoundFailure([String message = 'File not found'])
+      : super(message, reportable: false);
 }
 
 class InsufficientStorageFailure extends Failure {
-  const InsufficientStorageFailure([super.message = "Insufficient storage"]);
+  const InsufficientStorageFailure([String message = 'Insufficient storage'])
+      : super(message);
 }
 
 class DatabaseReadFailure extends Failure {
-  const DatabaseReadFailure([super.message = "Database read error"]);
+  const DatabaseReadFailure([String message = 'Database read error'])
+      : super(message);
 }
 
 class DatabaseWriteFailure extends Failure {
-  const DatabaseWriteFailure([super.message = "Database write error"]);
+  const DatabaseWriteFailure([String message = 'Database write error'])
+      : super(message);
 }
 
 class DatabaseConnectionFailure extends Failure {
   const DatabaseConnectionFailure([
-    super.message = "Database connection error",
-  ]);
+    String message = 'Database connection error',
+  ]) : super(message);
 }
 
 class AuthFailure extends Failure {
-  const AuthFailure([super.message = "Authentication error"]);
+  const AuthFailure([String message = 'Authentication error']) : super(message);
 }
 
 class InvalidCredentialsFailure extends Failure {
   const InvalidCredentialsFailure([
-    super.message = "Invalid username or password",
-  ]);
+    String message = 'Invalid username or password',
+  ]) : super(message, reportable: false);
 }
 
 class SecureStorageReadFailure extends Failure {
   const SecureStorageReadFailure([
-    super.message = "Failed to read from secure storage",
-  ]);
+    String message = 'Failed to read from secure storage',
+  ]) : super(message);
 }
 
 class SecureStorageWriteFailure extends Failure {
   const SecureStorageWriteFailure([
-    super.message = "Failed to write to secure storage",
-  ]);
+    String message = 'Failed to write to secure storage',
+  ]) : super(message);
 }
 
 class SecureStorageClearFailure extends Failure {
   const SecureStorageClearFailure([
-    super.message = "Failed to clear secure storage",
-  ]);
+    String message = 'Failed to clear secure storage',
+  ]) : super(message);
 }
 
 class TokenExpiredFailure extends Failure {
-  const TokenExpiredFailure([super.message = "Token expired"]);
+  const TokenExpiredFailure([String message = 'Token expired'])
+      : super(message, reportable: false);
 }
 
 class UserNotFoundFailure extends Failure {
-  const UserNotFoundFailure([super.message = "User not found"]);
+  const UserNotFoundFailure([String message = 'User not found'])
+      : super(message, reportable: false);
 }
 
 class PermissionDeniedFailure extends Failure {
-  const PermissionDeniedFailure([super.message = "Permission denied"]);
+  const PermissionDeniedFailure([String message = 'Permission denied'])
+      : super(message, reportable: false);
 }
 
 class EmptyResultFailure extends Failure {
-  const EmptyResultFailure([super.message = "No results found"]);
+  const EmptyResultFailure([String message = 'No results found'])
+      : super(message, reportable: false);
 }
 
 class InvalidInputFailure extends Failure {
-  const InvalidInputFailure([super.message = "Invalid input"]);
+  const InvalidInputFailure([String message = 'Invalid input'])
+      : super(message, reportable: false);
 }
 
 class ValidationFailure extends Failure {
-  const ValidationFailure([super.message = "Validation failed"]);
+  const ValidationFailure([String message = 'Validation failed'])
+      : super(message, reportable: false);
 }
 
 class QueryIsEmpty extends Failure {
-  const QueryIsEmpty([super.message = "Query is empty"]);
+  const QueryIsEmpty([String message = 'Query is empty'])
+      : super(message, reportable: false);
 }
+
 class EmptyTopicsFailure extends Failure {
-  const EmptyTopicsFailure([super.message = "Topics is empty"]);
+  const EmptyTopicsFailure([String message = 'Topics is empty'])
+      : super(message, reportable: false);
 }
 
 class ParsingFailure extends Failure {
-  const ParsingFailure([super.message = "Parsing failed"]);
+  const ParsingFailure([String message = 'Parsing failed']) : super(message);
 }
 
 class UnknownFailure extends Failure {
-  const UnknownFailure([super.message = "Unknown error occurred"]);
+  const UnknownFailure([String message = 'Unknown error occurred'])
+      : super(message);
 }

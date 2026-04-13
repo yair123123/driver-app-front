@@ -1,11 +1,14 @@
 import 'dart:async';
+import 'dart:io';
 
-import 'package:driver_app/core/services/crash_reporting/crash_reporting_service.dart';
-import 'package:driver_app/core/services/crash_reporting/firebase_crash_reporting_service.dart';
+import 'package:news_app/core/services/crash_reporting/crash_reporting_service.dart';
+import 'package:news_app/core/services/crash_reporting/firebase_crash_reporting_service.dart';
+
+import '../error/failure.dart';
 
 class FirebaseLogger {
   static final CrashReportingService _crashReportingService =
-      FirebaseCrashReportingService();
+  FirebaseCrashReportingService();
 
   static Future<void> init() async {
     await _crashReportingService.init();
@@ -20,13 +23,16 @@ class FirebaseLogger {
   }
 
   static void e(
-    String msg, {
-    Object? error,
-    StackTrace? stack,
-    Map<String, Object?>? extra,
-  }) {
+      String msg, {
+        Object? error,
+        StackTrace? stack,
+        Map<String, Object?>? extra,
+      }) {
     _crashReportingService.log('[E] $msg', extra: extra);
+
     final effectiveError = error ?? Exception(msg);
+
+    if (!_shouldReport(effectiveError)) return;
 
     unawaited(
       _crashReportingService.recordNonFatal(
@@ -36,5 +42,17 @@ class FirebaseLogger {
         keys: extra,
       ),
     );
+  }
+
+  static bool _shouldReport(Object error) {
+    if (error is Failure) {
+      return error.reportable;
+    }
+
+    if (error is SocketException || error is TimeoutException) {
+      return false;
+    }
+
+    return true;
   }
 }
