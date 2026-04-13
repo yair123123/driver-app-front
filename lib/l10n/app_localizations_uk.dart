@@ -45,19 +45,16 @@ class AppLocalizationsUk extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Нова область для каналів WhatsApp і Telegram з відео, зображеннями та оновленнями – весь найцікавіший контент в одному місці.';
+  String get channels_section_description => 'Нова область для каналів WhatsApp і Telegram з відео, зображеннями та оновленнями – весь найцікавіший контент в одному місці.';
 
   @override
   String get newMessages => 'Нові повідомлення';
@@ -80,8 +77,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get contactUsSuccessTitle => 'Успішно відправлено ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'дякую! Ми отримали ваше повідомлення і зв’яжемося з вами якомога швидше.';
+  String get contactUsSuccessMessage => 'дякую! Ми отримали ваше повідомлення і зв’яжемося з вами якомога швидше.';
 
   @override
   String get selectCountry => 'Виберіть країну';
@@ -123,8 +119,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get changeCountryTitle => 'До якої країни нам перейти?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Коли ви обираєте країну, увесь вміст програми оновлюватиметься відповідно до вашого вибору.';
+  String get changeCountrySubtitle => 'Коли ви обираєте країну, увесь вміст програми оновлюватиметься відповідно до вашого вибору.';
 
   @override
   String get dailySummary => 'Щоденний підсумок';
@@ -145,8 +140,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Не знайдено результатів для \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Не знайдено результатів для \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' в цій категорії';
@@ -158,8 +152,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get notificationsOffTitle => 'Сповіщення вимкнено';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Схоже, доступ до сповіщень ще не ввімкнено.';
+  String get notificationsOffSubtitle => 'Схоже, доступ до сповіщень ще не ввімкнено.';
 
   @override
   String get newArticles => 'Нові статті';
@@ -168,8 +161,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get home => 'додому';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Зміни буде застосовано під час наступного запуску програми.';
+  String get changesApplyOnNextLaunch => 'Зміни буде застосовано під час наступного запуску програми.';
 
   @override
   String get enable => 'Увімкнути';
@@ -190,8 +182,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get freeSearch => 'Безкоштовний пошук';
 
   @override
-  String get aiPageSubtitle =>
-      'Ця функція ще в розробці \n варто незабаром перевірити.';
+  String get aiPageSubtitle => 'Ця функція ще в розробці \n варто незабаром перевірити.';
 
   @override
   String get topicsSelectionTitle => 'Вибір тем новин';
@@ -200,12 +191,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get groups => 'Групи';
 
   @override
-  String get aiPageTitle =>
-      'Незабаром: ви зможете поспілкуватися з нашим ШІ про новини!';
+  String get aiPageTitle => 'Незабаром: ви зможете поспілкуватися з нашим ШІ про новини!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Виберіть теми чи підтеми, які ви хотіли б бачити у своїй стрічці. Ви завжди можете змінити їх тут.';
+  String get topicsSelectionSubtitle => 'Виберіть теми чи підтеми, які ви хотіли б бачити у своїй стрічці. Ви завжди можете змінити їх тут.';
 
   @override
   String get failedToLoadTopics => 'Не вдалося завантажити теми';
@@ -217,8 +206,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get lang => 'Мова';
 
   @override
-  String get failed_to_load_data =>
-      'Не вдалося завантажити дані. Перевірте підключення до Інтернету та повторіть спробу.';
+  String get failed_to_load_data => 'Не вдалося завантажити дані. Перевірте підключення до Інтернету та повторіть спробу.';
 
   @override
   String get changeLang => 'Змінити мову';
@@ -227,12 +215,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get notNow => 'Не зараз';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Увімкнення сповіщень дає змогу бути в курсі важливих новин, термінових оновлень і персоналізованого вмісту, тож ви ніколи не пропустите нічого важливого для вас.';
+  String get notificationsPermissionRationale => 'Увімкнення сповіщень дає змогу бути в курсі важливих новин, термінових оновлень і персоналізованого вмісту, тож ви ніколи не пропустите нічого важливого для вас.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Перейдіть до вмісту, який ми вибрали для вас';
+  String get skipToSuggestedContent => 'Перейдіть до вмісту, який ми вибрали для вас';
 
   @override
   String get lets_go => 'ходімо';
@@ -265,19 +251,16 @@ class AppLocalizationsUk extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Що б ви хотіли шукати?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Введіть ключове слово або тему для пошуку';
+  String get searchPageEmptyTitle => 'Введіть ключове слово або тему для пошуку';
 
   @override
-  String get notificationSubTitle =>
-      'Ви можете ввімкнути спливаючі сповіщення для будь-якої теми, яка вас цікавить.';
+  String get notificationSubTitle => 'Ви можете ввімкнути спливаючі сповіщення для будь-якої теми, яка вас цікавить.';
 
   @override
   String get whatIsInteresting => 'Що вас цікавить';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Щоб надсилати лише те, що дійсно актуально, давайте спочатку відзначимо те, що вас цікавить.';
+  String get subTextWhatIsInteresting => 'Щоб надсилати лише те, що дійсно актуально, давайте спочатку відзначимо те, що вас цікавить.';
 
   @override
   String get getStarted => 'Почніть роботу';
@@ -319,15 +302,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get openSettings => 'Відкрийте налаштування';
 
   @override
-  String get subTextNotifications =>
-      'Ви можете ввімкнути спливаючі сповіщення для кожної теми, яка вас цікавить.';
+  String get subTextNotifications => 'Ви можете ввімкнути спливаючі сповіщення для кожної теми, яка вас цікавить.';
 
   @override
   String get troubleshooting_tips => 'Поради щодо усунення несправностей';
 
   @override
-  String get welcome =>
-      'Ласкаво просимо до програми новин, персоналізованої спеціально для вас!';
+  String get welcome => 'Ласкаво просимо до програми новин, персоналізованої спеціально для вас!';
 
   @override
   String get continueReading => 'Читайте далі';
@@ -339,23 +320,19 @@ class AppLocalizationsUk extends AppLocalizations {
   String get area => 'Площа';
 
   @override
-  String get chooseYourAreaHint =>
-      'Виберіть свій регіон, щоб отримувати локалізовані оновлення новин';
+  String get chooseYourAreaHint => 'Виберіть свій регіон, щоб отримувати локалізовані оновлення новин';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Виберіть потрібний регіон новин.\nУ програмі також можна вибрати додаткові країни.';
+  String get chooseYourAreaHintUnused => 'Виберіть потрібний регіон новин.\nУ програмі також можна вибрати додаткові країни.';
 
   @override
-  String get chooseYourLangHint =>
-      'Виберіть свою мову, ви завжди можете змінити її пізніше.';
+  String get chooseYourLangHint => 'Виберіть свою мову, ви завжди можете змінити її пізніше.';
 
   @override
   String get topics => 'Теми';
 
   @override
-  String get chooseTopicsHint =>
-      'Вибирайте теми, які вас цікавлять, ви завжди можете змінити їх у налаштуваннях.';
+  String get chooseTopicsHint => 'Вибирайте теми, які вас цікавлять, ви завжди можете змінити їх у налаштуваннях.';
 
   @override
   String get categories => 'Категорії';
@@ -382,12 +359,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Немає підключення до Інтернету';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Ми можемо отримати доступ до Інтернету, але не до сервера.\\nСпробуйте ще раз за мить.';
+  String get networkStatusPartialMessage => 'Ми можемо отримати доступ до Інтернету, але не до сервера.\\nСпробуйте ще раз за мить.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Немає підключення до Інтернету. Ми показуємо старіші статті; підключіться до Інтернету, щоб переглянути останні новини.';
+  String get networkStatusOfflineMessage => 'Немає підключення до Інтернету. Ми показуємо старіші статті; підключіться до Інтернету, щоб переглянути останні новини.';
 
   @override
   String get networkStatusInternetLabel => 'підключення до Інтернету';
@@ -417,15 +392,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Спливаючі повідомлення';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Легко налаштуйте свої сповіщення. Увімкніть або вимкніть push-повідомлення для будь-якої теми, яка вас цікавить.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Легко налаштуйте свої сповіщення. Увімкніть або вимкніть push-повідомлення для будь-якої теми, яка вас цікавить.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Update on the way!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Незабаром ви зможете вибрати, з яких регіонів світу ви хочете отримувати новини та оновлення.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Незабаром ви зможете вибрати, з яких регіонів світу ви хочете отримувати новини та оновлення.';
 
   @override
   String get info => 'Інформація';
@@ -477,8 +450,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorServerTitle => 'Помилка сервера.';
 
   @override
-  String get errorUnauthorized =>
-      'Ви не авторизовані. Увійдіть і повторіть спробу.';
+  String get errorUnauthorized => 'Ви не авторизовані. Увійдіть і повторіть спробу.';
 
   @override
   String get errorUnauthorizedTitle => 'Несанкціонований.';
@@ -499,12 +471,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get updateArticle => 'Більш детальну інформацію оновлено';
 
   @override
-  String get errorValidation =>
-      'Деяка інформація виглядає недійсною. Будь ласка, перегляньте та повторіть спробу.';
+  String get errorValidation => 'Деяка інформація виглядає недійсною. Будь ласка, перегляньте та повторіть спробу.';
 
   @override
-  String get agreeMail =>
-      'Я погоджуюся отримувати оновлення та інформаційні бюлетені електронною поштою.';
+  String get agreeMail => 'Я погоджуюся отримувати оновлення та інформаційні бюлетені електронною поштою.';
 
   @override
   String get sendUsEmail => 'Надішліть нам електронний лист';
@@ -513,8 +483,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get discardChangesTitle => 'Скасувати зміни?';
 
   @override
-  String get discardChangesMessage =>
-      'У вас є незбережені зміни. Якщо ви продовжите, вони будуть втрачені.';
+  String get discardChangesMessage => 'У вас є незбережені зміни. Якщо ви продовжите, вони будуть втрачені.';
 
   @override
   String get discardButton => 'Відкинути';
@@ -532,8 +501,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get agreePrivacy => 'Я прочитав і погоджуюся з ';
 
   @override
-  String get contactUsSubtitle =>
-      'Не соромтеся зв’язатися з нами за допомогою форми нижче.';
+  String get contactUsSubtitle => 'Не соромтеся зв’язатися з нами за допомогою форми нижче.';
 
   @override
   String get fullName => 'ПІБ';
@@ -566,12 +534,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get emptyResults_noResults => 'Результатів не знайдено.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Спробуйте змінити ключові слова або виберіть іншу тему.';
+  String get emptyResults_bottomWithTopic => 'Спробуйте змінити ключові слова або виберіть іншу тему.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Спробуйте змінити ключові слова.';
+  String get emptyResults_bottomWithoutTopic => 'Спробуйте змінити ключові слова.';
 
   @override
   String get emptyResults_inThisTopic => 'в цій темі';
@@ -586,15 +552,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorNotModifiedTitle => 'Не змінено.';
 
   @override
-  String get errorNotModified =>
-      'З часу вашого останнього запиту нічого не змінилося.';
+  String get errorNotModified => 'З часу вашого останнього запиту нічого не змінилося.';
 
   @override
   String get errorNetworkTitle => 'Помилка мережі.';
 
   @override
-  String get errorNetwork =>
-      'Не вдалося підключитися до мережі. Перевірте підключення та повторіть спробу.';
+  String get errorNetwork => 'Не вдалося підключитися до мережі. Перевірте підключення та повторіть спробу.';
 
   @override
   String get errorDataIsEmptyTitle => 'Немає даних.';
@@ -606,15 +570,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorConflictTitle => 'Конфлікт.';
 
   @override
-  String get errorConflict =>
-      'Запит суперечив наявним даним. Спробуйте ще раз.';
+  String get errorConflict => 'Запит суперечив наявним даним. Спробуйте ще раз.';
 
   @override
   String get errorServerValidationTitle => 'Помилка підтвердження.';
 
   @override
-  String get errorServerValidation =>
-      'Сервер відхилив деякі дані. Будь ласка, перегляньте та повторіть спробу.';
+  String get errorServerValidation => 'Сервер відхилив деякі дані. Будь ласка, перегляньте та повторіть спробу.';
 
   @override
   String get errorWriteFileTitle => 'Помилка запису.';
@@ -632,8 +594,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorFileNotFoundTitle => 'Файл не знайдено.';
 
   @override
-  String get errorFileNotFound =>
-      'Нам не вдалося знайти файл, який ви шукаєте.';
+  String get errorFileNotFound => 'Нам не вдалося знайти файл, який ви шукаєте.';
 
   @override
   String get errorInsufficientStorageTitle => 'Недостатньо пам\'яті.';
@@ -654,12 +615,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorDatabaseWrite => 'Не вдалося зберегти в базі даних.';
 
   @override
-  String get errorDatabaseConnectionTitle =>
-      'Помилка підключення до бази даних.';
+  String get errorDatabaseConnectionTitle => 'Помилка підключення до бази даних.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Не вдалося підключитися до бази даних.';
+  String get errorDatabaseConnection => 'Не вдалося підключитися до бази даних.';
 
   @override
   String get errorAuthTitle => 'Помилка автентифікації.';
@@ -671,28 +630,22 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Недійсні облікові дані.';
 
   @override
-  String get errorInvalidCredentials =>
-      'Ім\'я користувача або пароль неправильні.';
+  String get errorInvalidCredentials => 'Ім\'я користувача або пароль неправильні.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Помилка читання безпечного сховища.';
+  String get errorSecureStorageReadTitle => 'Помилка читання безпечного сховища.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Не вдалося прочитати з безпечного сховища.';
+  String get errorSecureStorageRead => 'Не вдалося прочитати з безпечного сховища.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Помилка запису в безпечне сховище.';
+  String get errorSecureStorageWriteTitle => 'Помилка запису в безпечне сховище.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Не вдалося записати в безпечне сховище.';
+  String get errorSecureStorageWrite => 'Не вдалося записати в безпечне сховище.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Помилка очищення безпечного сховища.';
+  String get errorSecureStorageClearTitle => 'Помилка очищення безпечного сховища.';
 
   @override
   String get errorSecureStorageClear => 'Не вдалося очистити безпечне сховище.';
@@ -713,8 +666,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'У дозволі відмовлено.';
 
   @override
-  String get errorPermissionDenied =>
-      'Ви не маєте дозволу на виконання цієї дії.';
+  String get errorPermissionDenied => 'Ви не маєте дозволу на виконання цієї дії.';
 
   @override
   String get errorEmptyResultTitle => 'Результатів немає.';

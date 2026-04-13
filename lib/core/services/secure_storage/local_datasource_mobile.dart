@@ -1,5 +1,5 @@
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:news_app/core/services/secure_storage/datasource_abstract.dart';
+import 'package:driver_app/core/services/secure_storage/datasource_abstract.dart';
 
 class LocalDatasourceMobile implements LocalDatasource {
   final FlutterSecureStorage storage;

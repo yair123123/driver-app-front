@@ -1,5 +1,5 @@
 
-import 'package:driver_app/features/app/data/datasources/app_state_local_data_source.dart';
+import 'package:driver_app/features/app/data/datasources/app_prefs_local_data_source.dart';
 import 'package:driver_app/features/app/domain/entities/app_prefs.dart';
 import 'package:driver_app/features/app/domain/mappers/app_prefs_mapper.dart';
 import 'package:driver_app/features/app/domain/repositories/app_state_repo.dart';

@@ -1,19 +1,21 @@
+import 'package:driver_app/core/error/failure.dart';
+
 class LoginState {
   bool isLoading;
-  String? errorMessage;
+  Failure? error;
 
   LoginState({
     this.isLoading = false,
-    this.errorMessage,
+    this.error,
   });
 
   LoginState copyWith({
     bool? isLoading,
-    String? errorMessage,
+    Failure? error,
   }) {
     return LoginState(
       isLoading: isLoading ?? this.isLoading,
-      errorMessage: errorMessage ?? this.errorMessage,
+      error: error ?? this.error,
     );
   }
 }

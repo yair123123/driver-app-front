@@ -6,22 +6,21 @@ part of 'login_controller_notifier.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$loginControllerHash() => r'070c02b1047cb0fd51a3da19d7c46a35dec3d16d';
+String _$loginControllerHash() => r'24c4a35733ed4c8950d8f6e909251a632ae142d5';
 
 /// See also [LoginController].
 @ProviderFor(LoginController)
 final loginControllerProvider =
-    AutoDisposeAsyncNotifierProvider<LoginController, void>.internal(
-      LoginController.new,
-      name: r'loginControllerProvider',
-      debugGetCreateSourceHash:
-          const bool.fromEnvironment('dart.vm.product')
-              ? null
-              : _$loginControllerHash,
-      dependencies: null,
-      allTransitiveDependencies: null,
-    );
+    AutoDisposeNotifierProvider<LoginController, LoginState>.internal(
+  LoginController.new,
+  name: r'loginControllerProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$loginControllerHash,
+  dependencies: null,
+  allTransitiveDependencies: null,
+);
 
-typedef _$LoginController = AutoDisposeAsyncNotifier<void>;
+typedef _$LoginController = AutoDisposeNotifier<LoginState>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

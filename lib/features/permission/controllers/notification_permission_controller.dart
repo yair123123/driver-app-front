@@ -1,5 +1,5 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:news_app/features/permission/services/notification_permission_service.dart';
+import 'package:driver_app/features/permission/services/notification_permission_service.dart';
 
 class NotificationPermissionState {
   final NotificationAuth status;

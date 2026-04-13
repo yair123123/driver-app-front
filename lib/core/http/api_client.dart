@@ -4,9 +4,13 @@ import 'dart:io';
 
 import 'package:driver_app/core/env/config_service.dart';
 import 'package:driver_app/core/error/failure.dart';
+import 'package:driver_app/core/http/auth_http_client.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:http/http.dart' as http;
+
+import '../../features/auth/presentation/notifiers/creds_notifier.dart';
+
 class ApiClient {
   final String baseUrl;
   final http.Client httpClient;
@@ -17,10 +21,11 @@ class ApiClient {
   Future<Either<Failure, T>> _request<T>(
     Future<http.Response> Function() call, {
     required T Function(dynamic json)? fromJson,
+    bool unwrapData = true,
   }) async {
     try {
       final response = await call().timeout(const Duration(seconds: 20));
-      return   _handleResponse<T>(response, fromJson);
+      return _handleResponse<T>(response, fromJson);
     } on SocketException {
       return const Left(NoInternetFailure());
     } on TimeoutException {
@@ -39,8 +44,9 @@ class ApiClient {
     Map<String, String>? headers,
     Map<String, dynamic>? queryParams,
     required T Function(dynamic json)? fromJson,
+    bool unwrapData = true,
   }) async {
-    final uri = Uri.https(
+    final uri = Uri.http(
       baseUrl,
       path,
       queryParams?.map((k, v) => MapEntry(k, v.toString())),
@@ -49,6 +55,7 @@ class ApiClient {
     return _request(
       () => httpClient.get(uri, headers: headers),
       fromJson: fromJson,
+      unwrapData: unwrapData,
     );
   }
 
@@ -57,8 +64,9 @@ class ApiClient {
     Map<String, String>? headers,
     Object? body,
     required T Function(dynamic json)? fromJson,
+    bool unwrapData = true,
   }) async {
-    final uri = Uri.https(baseUrl, path);
+    final uri = Uri.http(baseUrl, path);
 
     return _request(
       () => httpClient.post(
@@ -67,6 +75,7 @@ class ApiClient {
         body: body != null ? jsonEncode(body) : null,
       ),
       fromJson: fromJson,
+      unwrapData: unwrapData,
     );
   }
 
@@ -75,6 +84,7 @@ class ApiClient {
     Map<String, String>? headers,
     Object? body,
     required T Function(dynamic json)? fromJson,
+    bool unwrapData = true,
   }) async {
     final uri = Uri.https(baseUrl, path);
 
@@ -85,6 +95,7 @@ class ApiClient {
         body: body != null ? jsonEncode(body) : null,
       ),
       fromJson: fromJson,
+      unwrapData: unwrapData,
     );
   }
 
@@ -93,6 +104,7 @@ class ApiClient {
     Map<String, String>? headers,
     Object? body,
     required T Function(dynamic json)? fromJson,
+    bool unwrapData = true,
   }) async {
     final uri = Uri.https(baseUrl, path);
 
@@ -103,6 +115,7 @@ class ApiClient {
         body: body != null ? jsonEncode(body) : null,
       ),
       fromJson: fromJson,
+      unwrapData: unwrapData,
     );
   }
 
@@ -114,44 +127,27 @@ class ApiClient {
         response.statusCode >= 200 && response.statusCode < 300;
 
     dynamic decoded;
+    try {
+      decoded = response.body.isNotEmpty ? jsonDecode(response.body) : null;
+    } on FormatException catch (e) {
+      return Left(ParsingFailure('Failed to decode JSON: $e'));
+    }
 
     if (isSuccessStatus) {
       try {
-        decoded = jsonDecode(response.body);
-      } on FormatException catch (e) {
-        return Left(ParsingFailure('Failed to decode JSON: $e'));
-      }
-    } else {
-      try {
-        decoded = jsonDecode(response.body);
-      } on FormatException {
-        decoded = null;
-      }
-    }
-
-    if (isSuccessStatus && decoded is Map && decoded['ok'] == true) {
-      final data = decoded['data'];
-
-      try {
         if (fromJson != null) {
-          return Right(fromJson(data));
-        } else {
-          return Right(data as T);
+          return Right(fromJson(decoded));
         }
+        return Right(decoded as T);
       } on TypeError catch (e) {
         return Left(ParsingFailure('Failed to parse response to $T: $e'));
       }
     }
 
-    Map errorMap = {};
-    if (decoded is Map) {
-      errorMap = decoded;
-    }
-
-    final error = errorMap['error'];
-    final message = (error is Map && error['message'] != null)
-        ? error['message'].toString()
-        : (response.reasonPhrase ?? 'HTTP ${response.statusCode} error');
+    final message =
+        decoded is Map && decoded['message'] != null
+            ? decoded['message'].toString()
+            : (response.reasonPhrase ?? 'HTTP ${response.statusCode} error');
 
     switch (response.statusCode) {
       case 400:
@@ -170,10 +166,6 @@ class ApiClient {
         return Left(ServerValidationFailure(message));
       case 503:
         return Left(ServerNotReadyFailure(message));
-      case 500:
-      case 501:
-      case 502:
-        return Left(ServerFailure(message));
       default:
         return Left(ServerFailure(message));
     }
@@ -182,7 +174,8 @@ class ApiClient {
 
 final apiClientProvider = Provider<ApiClient>((ref) {
   final baseUrl = ref.read(appConfigProvider).publicApiUrl;
-  Future<String?> tokenGetter() async => ref.read(credsProvider)?.accessToken;
+  Future<String?> tokenGetter() async =>
+      ref.read(authSessionProvider)?.accessToken;
   final authClient = AuthHttpClient(http.Client(), tokenGetter);
 
   return ApiClient(baseUrl: baseUrl, client: authClient);

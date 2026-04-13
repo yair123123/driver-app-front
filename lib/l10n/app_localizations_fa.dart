@@ -45,19 +45,16 @@ class AppLocalizationsFa extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'یک منطقه جدید برای کانال های واتس اپ و تلگرام با فیلم ها، تصاویر و به روز رسانی ها – همه جالب ترین مطالب در یک مکان.';
+  String get channels_section_description => 'یک منطقه جدید برای کانال های واتس اپ و تلگرام با فیلم ها، تصاویر و به روز رسانی ها – همه جالب ترین مطالب در یک مکان.';
 
   @override
   String get newMessages => 'پیام های جدید';
@@ -80,8 +77,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get contactUsSuccessTitle => 'با موفقیت ارسال شد✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'متشکرم! ما پیام شما را دریافت کردیم و در اسرع وقت با شما تماس خواهیم گرفت.';
+  String get contactUsSuccessMessage => 'متشکرم! ما پیام شما را دریافت کردیم و در اسرع وقت با شما تماس خواهیم گرفت.';
 
   @override
   String get selectCountry => 'کشور را انتخاب کنید';
@@ -111,8 +107,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get areaWereAdded => 'منطقه با موفقیت اضافه شد';
 
   @override
-  String get saveChangesMessage =>
-      'آیا می خواهید تغییراتی را که ایجاد کرده اید ذخیره کنید؟';
+  String get saveChangesMessage => 'آیا می خواهید تغییراتی را که ایجاد کرده اید ذخیره کنید؟';
 
   @override
   String get busyLandingTitle => 'تقریبا داریم فرود می آییم…';
@@ -124,8 +119,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get changeCountryTitle => 'به کدام کشور برویم؟';
 
   @override
-  String get changeCountrySubtitle =>
-      'وقتی کشوری را انتخاب می کنید، تمام محتوای برنامه مطابق با انتخاب شما به روز می شود.';
+  String get changeCountrySubtitle => 'وقتی کشوری را انتخاب می کنید، تمام محتوای برنامه مطابق با انتخاب شما به روز می شود.';
 
   @override
   String get dailySummary => 'خلاصه روزانه';
@@ -134,8 +128,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get lastUpdated => 'آخرین به روز رسانی';
 
   @override
-  String get saveChangesSubtitle =>
-      'آیا می خواهید تغییراتی را که ایجاد کرده اید ذخیره کنید؟';
+  String get saveChangesSubtitle => 'آیا می خواهید تغییراتی را که ایجاد کرده اید ذخیره کنید؟';
 
   @override
   String get readMore => 'ادامه مطلب';
@@ -159,8 +152,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get notificationsOffTitle => 'اعلان ها خاموش است';
 
   @override
-  String get notificationsOffSubtitle =>
-      'به نظر می رسد دسترسی به اعلان هنوز فعال نشده است.';
+  String get notificationsOffSubtitle => 'به نظر می رسد دسترسی به اعلان هنوز فعال نشده است.';
 
   @override
   String get newArticles => 'مقالات جدید';
@@ -169,8 +161,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get home => 'خانه';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'تغییرات در راه اندازی برنامه بعدی اعمال خواهد شد.';
+  String get changesApplyOnNextLaunch => 'تغییرات در راه اندازی برنامه بعدی اعمال خواهد شد.';
 
   @override
   String get enable => 'فعال کردن';
@@ -191,8 +182,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get freeSearch => 'جستجوی رایگان';
 
   @override
-  String get aiPageSubtitle =>
-      'این ویژگی هنوز در حال توسعه است \n ارزش دوباره بررسی را دارد';
+  String get aiPageSubtitle => 'این ویژگی هنوز در حال توسعه است \n ارزش دوباره بررسی را دارد';
 
   @override
   String get topicsSelectionTitle => 'انتخاب موضوعات خبری';
@@ -201,26 +191,22 @@ class AppLocalizationsFa extends AppLocalizations {
   String get groups => 'گروه ها';
 
   @override
-  String get aiPageTitle =>
-      'به زودی: شما می توانید با هوش مصنوعی ما در مورد اخبار چت کنید!';
+  String get aiPageTitle => 'به زودی: شما می توانید با هوش مصنوعی ما در مورد اخبار چت کنید!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'موضوعات یا موضوعات فرعی را که می خواهید در فید خود ببینید انتخاب کنید. شما همیشه می توانید آنها را در اینجا تغییر دهید.';
+  String get topicsSelectionSubtitle => 'موضوعات یا موضوعات فرعی را که می خواهید در فید خود ببینید انتخاب کنید. شما همیشه می توانید آنها را در اینجا تغییر دهید.';
 
   @override
   String get failedToLoadTopics => 'موضوعات بارگیری نشد';
 
   @override
-  String get settingsNote =>
-      'هر زمان که بخواهید می توانید تنظیمات را ویرایش کنید';
+  String get settingsNote => 'هر زمان که بخواهید می توانید تنظیمات را ویرایش کنید';
 
   @override
   String get lang => 'زبان';
 
   @override
-  String get failed_to_load_data =>
-      'ما نتوانستیم داده ها را بارگیری کنیم. لطفاً اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید.';
+  String get failed_to_load_data => 'ما نتوانستیم داده ها را بارگیری کنیم. لطفاً اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید.';
 
   @override
   String get changeLang => 'تغییر زبان';
@@ -229,12 +215,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get notNow => 'نه در حال حاضر';
 
   @override
-  String get notificationsPermissionRationale =>
-      'فعال کردن اعلان‌ها به شما امکان می‌دهد از اخبار مهم، به‌روزرسانی‌های فوری و محتوای شخصی‌شده به‌روز باشید – بنابراین هرگز چیزی را که برایتان مهم است از دست ندهید.';
+  String get notificationsPermissionRationale => 'فعال کردن اعلان‌ها به شما امکان می‌دهد از اخبار مهم، به‌روزرسانی‌های فوری و محتوای شخصی‌شده به‌روز باشید – بنابراین هرگز چیزی را که برایتان مهم است از دست ندهید.';
 
   @override
-  String get skipToSuggestedContent =>
-      'به محتوایی که برای شما انتخاب کردیم بروید';
+  String get skipToSuggestedContent => 'به محتوایی که برای شما انتخاب کردیم بروید';
 
   @override
   String get lets_go => 'برویم';
@@ -267,19 +251,16 @@ class AppLocalizationsFa extends AppLocalizations {
   String get searchPageEmptySubtitle => 'دوست دارید چه چیزی را جستجو کنید؟';
 
   @override
-  String get searchPageEmptyTitle =>
-      'یک کلمه کلیدی یا موضوع را برای جستجو تایپ کنید';
+  String get searchPageEmptyTitle => 'یک کلمه کلیدی یا موضوع را برای جستجو تایپ کنید';
 
   @override
-  String get notificationSubTitle =>
-      'می‌توانید اعلان‌های بازشو را برای هر موضوعی که به آن علاقه دارید روشن کنید.';
+  String get notificationSubTitle => 'می‌توانید اعلان‌های بازشو را برای هر موضوعی که به آن علاقه دارید روشن کنید.';
 
   @override
   String get whatIsInteresting => 'آنچه به شما علاقه دارد';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'برای ارسال فقط مواردی که واقعاً مرتبط هستند، اجازه دهید ابتدا موارد مورد علاقه شما را علامت گذاری کنیم.';
+  String get subTextWhatIsInteresting => 'برای ارسال فقط مواردی که واقعاً مرتبط هستند، اجازه دهید ابتدا موارد مورد علاقه شما را علامت گذاری کنیم.';
 
   @override
   String get getStarted => 'شروع کنید';
@@ -321,15 +302,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get openSettings => 'تنظیمات را باز کنید';
 
   @override
-  String get subTextNotifications =>
-      'می توانید اعلان های پاپ آپ را برای هر موضوعی که به آن علاقه دارید فعال کنید.';
+  String get subTextNotifications => 'می توانید اعلان های پاپ آپ را برای هر موضوعی که به آن علاقه دارید فعال کنید.';
 
   @override
   String get troubleshooting_tips => 'نکات عیب یابی';
 
   @override
-  String get welcome =>
-      'به برنامه خبری خوش آمدید که فقط برای شما شخصی سازی شده است!';
+  String get welcome => 'به برنامه خبری خوش آمدید که فقط برای شما شخصی سازی شده است!';
 
   @override
   String get continueReading => 'به خواندن ادامه دهید';
@@ -341,23 +320,19 @@ class AppLocalizationsFa extends AppLocalizations {
   String get area => 'منطقه';
 
   @override
-  String get chooseYourAreaHint =>
-      'منطقه خود را برای دریافت به‌روزرسانی‌های خبری محلی انتخاب کنید';
+  String get chooseYourAreaHint => 'منطقه خود را برای دریافت به‌روزرسانی‌های خبری محلی انتخاب کنید';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'منطقه خبری مورد نظر خود را انتخاب کنید.\nدر داخل برنامه، می توانید کشورهای دیگری را نیز انتخاب کنید.';
+  String get chooseYourAreaHintUnused => 'منطقه خبری مورد نظر خود را انتخاب کنید.\nدر داخل برنامه، می توانید کشورهای دیگری را نیز انتخاب کنید.';
 
   @override
-  String get chooseYourLangHint =>
-      'زبان خود را انتخاب کنید، همیشه می توانید بعداً آن را تغییر دهید.';
+  String get chooseYourLangHint => 'زبان خود را انتخاب کنید، همیشه می توانید بعداً آن را تغییر دهید.';
 
   @override
   String get topics => 'موضوعات';
 
   @override
-  String get chooseTopicsHint =>
-      'موضوعات مورد علاقه خود را انتخاب کنید، همیشه می توانید آنها را در تنظیمات تغییر دهید.';
+  String get chooseTopicsHint => 'موضوعات مورد علاقه خود را انتخاب کنید، همیشه می توانید آنها را در تنظیمات تغییر دهید.';
 
   @override
   String get categories => 'دسته بندی ها';
@@ -384,12 +359,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get networkStatusOfflineTitle => 'بدون اتصال به اینترنت';
 
   @override
-  String get networkStatusPartialMessage =>
-      'ما می‌توانیم به اینترنت دسترسی پیدا کنیم، اما نه به سرور.\\nیک لحظه دیگر دوباره امتحان کنید.';
+  String get networkStatusPartialMessage => 'ما می‌توانیم به اینترنت دسترسی پیدا کنیم، اما نه به سرور.\\nیک لحظه دیگر دوباره امتحان کنید.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'بدون اتصال به اینترنت ما مقالات قدیمی‌تری را نشان می‌دهیم. برای مشاهده آخرین داستان ها به اینترنت متصل شوید.';
+  String get networkStatusOfflineMessage => 'بدون اتصال به اینترنت ما مقالات قدیمی‌تری را نشان می‌دهیم. برای مشاهده آخرین داستان ها به اینترنت متصل شوید.';
 
   @override
   String get networkStatusInternetLabel => 'اتصال به اینترنت';
@@ -419,15 +392,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'اعلان های پاپ آپ';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'هشدارهای خود را به راحتی سفارشی کنید. اعلان‌های فشاری را برای هر موضوعی که به آن علاقه دارید روشن یا خاموش کنید.';
+  String get dismissibleNoticeNotificationsSubtitle => 'هشدارهای خود را به راحتی سفارشی کنید. اعلان‌های فشاری را برای هر موضوعی که به آن علاقه دارید روشن یا خاموش کنید.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'به روز رسانی در راه است!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'به زودی می توانید انتخاب کنید که از کدام مناطق جهان می خواهید اخبار و به روز رسانی ها را دریافت کنید.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'به زودی می توانید انتخاب کنید که از کدام مناطق جهان می خواهید اخبار و به روز رسانی ها را دریافت کنید.';
 
   @override
   String get info => 'اطلاعات';
@@ -439,8 +410,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get saveChanges => 'ذخیره تغییرات';
 
   @override
-  String get saveChangesConfirmation =>
-      'آیا می خواهید تغییرات خود را ذخیره کنید؟';
+  String get saveChangesConfirmation => 'آیا می خواهید تغییرات خود را ذخیره کنید؟';
 
   @override
   String get confirm => 'تایید کنید';
@@ -462,15 +432,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get newsTopics => 'موضوعات خبری';
 
   @override
-  String get errorNoInternet =>
-      'لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید.';
+  String get errorNoInternet => 'لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید.';
 
   @override
   String get errorNoInternetTitle => 'بدون اتصال به اینترنت';
 
   @override
-  String get errorTimeout =>
-      'زمان درخواست به پایان رسید. لطفاً بعداً دوباره امتحان کنید.';
+  String get errorTimeout => 'زمان درخواست به پایان رسید. لطفاً بعداً دوباره امتحان کنید.';
 
   @override
   String get errorTimeoutTitle => 'زمان درخواست تمام شد.';
@@ -482,8 +450,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get errorServerTitle => 'خطای سرور';
 
   @override
-  String get errorUnauthorized =>
-      'شما مجاز نیستید. لطفا وارد شوید و دوباره امتحان کنید.';
+  String get errorUnauthorized => 'شما مجاز نیستید. لطفا وارد شوید و دوباره امتحان کنید.';
 
   @override
   String get errorUnauthorizedTitle => 'غیر مجاز';
@@ -495,8 +462,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get errorForbiddenTitle => 'دسترسی رد شد.';
 
   @override
-  String get errorNotFound =>
-      'ما نتوانستیم آنچه شما به دنبال آن بودید را پیدا کنیم.';
+  String get errorNotFound => 'ما نتوانستیم آنچه شما به دنبال آن بودید را پیدا کنیم.';
 
   @override
   String get errorNotFoundTitle => 'پیدا نشد.';
@@ -505,12 +471,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get updateArticle => 'جزئیات بیشتر به روز شده است';
 
   @override
-  String get errorValidation =>
-      'برخی از اطلاعات نامعتبر به نظر می رسند. لطفا مرور کنید و دوباره امتحان کنید.';
+  String get errorValidation => 'برخی از اطلاعات نامعتبر به نظر می رسند. لطفا مرور کنید و دوباره امتحان کنید.';
 
   @override
-  String get agreeMail =>
-      'من موافقت می کنم که به روز رسانی ها و خبرنامه ها را از طریق ایمیل دریافت کنم.';
+  String get agreeMail => 'من موافقت می کنم که به روز رسانی ها و خبرنامه ها را از طریق ایمیل دریافت کنم.';
 
   @override
   String get sendUsEmail => 'برای ما ایمیل بفرستید';
@@ -519,8 +483,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get discardChangesTitle => 'از تغییرات صرفنظر شود؟';
 
   @override
-  String get discardChangesMessage =>
-      'شما تغییرات ذخیره نشده ای دارید. اگر ادامه دهید، آنها گم می شوند.';
+  String get discardChangesMessage => 'شما تغییرات ذخیره نشده ای دارید. اگر ادامه دهید، آنها گم می شوند.';
 
   @override
   String get discardButton => 'دور انداختن';
@@ -571,12 +534,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get emptyResults_noResults => 'هیچ نتیجه ای یافت نشد.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'سعی کنید کلمات کلیدی خود را تغییر دهید یا موضوع دیگری را انتخاب کنید.';
+  String get emptyResults_bottomWithTopic => 'سعی کنید کلمات کلیدی خود را تغییر دهید یا موضوع دیگری را انتخاب کنید.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'سعی کنید کلمات کلیدی خود را تغییر دهید.';
+  String get emptyResults_bottomWithoutTopic => 'سعی کنید کلمات کلیدی خود را تغییر دهید.';
 
   @override
   String get emptyResults_inThisTopic => 'در این تاپیک';
@@ -597,8 +558,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get errorNetworkTitle => 'خطای شبکه';
 
   @override
-  String get errorNetwork =>
-      'ما نتوانستیم به شبکه دسترسی پیدا کنیم. اتصال خود را بررسی کنید و دوباره امتحان کنید.';
+  String get errorNetwork => 'ما نتوانستیم به شبکه دسترسی پیدا کنیم. اتصال خود را بررسی کنید و دوباره امتحان کنید.';
 
   @override
   String get errorDataIsEmptyTitle => 'هیچ داده ای در دسترس نیست.';
@@ -610,43 +570,37 @@ class AppLocalizationsFa extends AppLocalizations {
   String get errorConflictTitle => 'درگیری.';
 
   @override
-  String get errorConflict =>
-      'درخواست با داده‌های موجود مغایرت داشت. لطفا دوباره امتحان کنید.';
+  String get errorConflict => 'درخواست با داده‌های موجود مغایرت داشت. لطفا دوباره امتحان کنید.';
 
   @override
   String get errorServerValidationTitle => 'خطای اعتبارسنجی';
 
   @override
-  String get errorServerValidation =>
-      'سرور برخی از داده ها را رد کرد. لطفا مرور کنید و دوباره امتحان کنید.';
+  String get errorServerValidation => 'سرور برخی از داده ها را رد کرد. لطفا مرور کنید و دوباره امتحان کنید.';
 
   @override
   String get errorWriteFileTitle => 'نوشتن ناموفق بود.';
 
   @override
-  String get errorWriteFile =>
-      'ما نتوانستیم فایل را ذخیره کنیم. لطفا دوباره امتحان کنید.';
+  String get errorWriteFile => 'ما نتوانستیم فایل را ذخیره کنیم. لطفا دوباره امتحان کنید.';
 
   @override
   String get errorReadFileTitle => 'خواندن ناموفق بود.';
 
   @override
-  String get errorReadFile =>
-      'ما نتوانستیم فایل را بخوانیم. لطفا دوباره امتحان کنید.';
+  String get errorReadFile => 'ما نتوانستیم فایل را بخوانیم. لطفا دوباره امتحان کنید.';
 
   @override
   String get errorFileNotFoundTitle => 'فایل پیدا نشد';
 
   @override
-  String get errorFileNotFound =>
-      'ما نتوانستیم فایل مورد نظر شما را پیدا کنیم.';
+  String get errorFileNotFound => 'ما نتوانستیم فایل مورد نظر شما را پیدا کنیم.';
 
   @override
   String get errorInsufficientStorageTitle => 'فضای ذخیره سازی کافی نیست.';
 
   @override
-  String get errorInsufficientStorage =>
-      'فضا را آزاد کنید و دوباره امتحان کنید.';
+  String get errorInsufficientStorage => 'فضا را آزاد کنید و دوباره امتحان کنید.';
 
   @override
   String get errorDatabaseReadTitle => 'خطای خواندن پایگاه داده';
@@ -682,22 +636,19 @@ class AppLocalizationsFa extends AppLocalizations {
   String get errorSecureStorageReadTitle => 'خطای خواندن حافظه امن';
 
   @override
-  String get errorSecureStorageRead =>
-      'نمی‌توانیم از فضای ذخیره‌سازی ایمن بخوانیم.';
+  String get errorSecureStorageRead => 'نمی‌توانیم از فضای ذخیره‌سازی ایمن بخوانیم.';
 
   @override
   String get errorSecureStorageWriteTitle => 'خطای نوشتن حافظه امن';
 
   @override
-  String get errorSecureStorageWrite =>
-      'نتوانستیم در فضای ذخیره‌سازی ایمن بنویسیم.';
+  String get errorSecureStorageWrite => 'نتوانستیم در فضای ذخیره‌سازی ایمن بنویسیم.';
 
   @override
   String get errorSecureStorageClearTitle => 'خطای پاک کردن حافظه امن';
 
   @override
-  String get errorSecureStorageClear =>
-      'نتوانستیم فضای ذخیره‌سازی ایمن را پاک کنیم.';
+  String get errorSecureStorageClear => 'نتوانستیم فضای ذخیره‌سازی ایمن را پاک کنیم.';
 
   @override
   String get errorTokenExpiredTitle => 'جلسه منقضی شد';
@@ -727,8 +678,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get errorInvalidInputTitle => 'ورودی نامعتبر است.';
 
   @override
-  String get errorInvalidInput =>
-      'لطفا ورودی خود را بررسی کنید و دوباره امتحان کنید.';
+  String get errorInvalidInput => 'لطفا ورودی خود را بررسی کنید و دوباره امتحان کنید.';
 
   @override
   String get errorEmptyTopicsTitle => 'هیچ موضوعی انتخاب نشده است.';

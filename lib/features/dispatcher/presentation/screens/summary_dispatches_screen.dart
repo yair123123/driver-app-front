@@ -101,7 +101,7 @@ class SummaryDispatchesScreen extends ConsumerWidget {
                           Align(
                             alignment: Alignment.centerLeft,
                             child: ElevatedButton.icon(
-                              onPressed: () => context.go('chats/driverId'), // אפשר להכניס את ה-ID
+                              onPressed: () => context.go('chats/driverId'),
                               icon: Icon(Icons.chat),
                               label: Text("עבור לצ'אט"),
                               style: ElevatedButton.styleFrom(

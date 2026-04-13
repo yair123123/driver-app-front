@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
-import 'package:news_app/core/services/crash_reporting/crash_reporting_service.dart';
+import 'package:driver_app/core/services/crash_reporting/crash_reporting_service.dart';
 
 class FirebaseCrashReportingService extends CrashReportingService {
   factory FirebaseCrashReportingService() => _instance;

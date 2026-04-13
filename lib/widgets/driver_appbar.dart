@@ -1,8 +1,9 @@
 import 'dart:async';
 
-import 'package:driver_app/features/bootstrap/domain/entities/user/user.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
+
+import '../features/auth/domain/entities/user.dart';
 
 class DriverAppBar extends StatefulWidget implements PreferredSizeWidget {
   final User user;
@@ -62,7 +63,7 @@ class _DriverAppBarState extends State<DriverAppBar> {
                 ),
               ),
               const SizedBox(width: 8),
-              if (widget.user.is_dispatcher)
+              if (widget.user.isDispatcher)
                 Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 8,

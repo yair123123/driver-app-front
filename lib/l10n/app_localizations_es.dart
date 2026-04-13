@@ -45,19 +45,16 @@ class AppLocalizationsEs extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Una nueva área para los canales de WhatsApp y Telegram con vídeos, imágenes y actualizaciones: todo el contenido más interesante en un solo lugar.';
+  String get channels_section_description => 'Una nueva área para los canales de WhatsApp y Telegram con vídeos, imágenes y actualizaciones: todo el contenido más interesante en un solo lugar.';
 
   @override
   String get newMessages => 'Nuevos mensajes';
@@ -80,8 +77,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get contactUsSuccessTitle => 'Enviado exitosamente ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      '¡Gracias! Recibimos su mensaje y nos comunicaremos con usted lo antes posible.';
+  String get contactUsSuccessMessage => '¡Gracias! Recibimos su mensaje y nos comunicaremos con usted lo antes posible.';
 
   @override
   String get selectCountry => 'Seleccionar país';
@@ -123,8 +119,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get changeCountryTitle => '¿A qué país deberíamos cambiarnos?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Cuando eliges un país, todo el contenido de la aplicación se actualizará según tu selección.';
+  String get changeCountrySubtitle => 'Cuando eliges un país, todo el contenido de la aplicación se actualizará según tu selección.';
 
   @override
   String get dailySummary => 'Resumen diario';
@@ -145,8 +140,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'No se encontraron resultados para \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'No se encontraron resultados para \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' en esta categoría';
@@ -158,8 +152,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get notificationsOffTitle => 'Notificaciones desactivadas';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Parece que el acceso a las notificaciones aún no se ha habilitado.';
+  String get notificationsOffSubtitle => 'Parece que el acceso a las notificaciones aún no se ha habilitado.';
 
   @override
   String get newArticles => 'Nuevos artículos';
@@ -168,15 +161,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get home => 'casa';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Los cambios se aplicarán en el próximo lanzamiento de la aplicación.';
+  String get changesApplyOnNextLaunch => 'Los cambios se aplicarán en el próximo lanzamiento de la aplicación.';
 
   @override
   String get enable => 'Habilitar';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Manténgase actualizado con las últimas noticias';
+  String get stayUpdatedWithLatestNews => 'Manténgase actualizado con las últimas noticias';
 
   @override
   String get enableNotifications => 'Habilitar notificaciones';
@@ -191,8 +182,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get freeSearch => 'Búsqueda gratuita';
 
   @override
-  String get aiPageSubtitle =>
-      'Esta característica aún está en desarrollo. \n Vale la pena volver pronto.';
+  String get aiPageSubtitle => 'Esta característica aún está en desarrollo. \n Vale la pena volver pronto.';
 
   @override
   String get topicsSelectionTitle => 'Selección de temas de noticias';
@@ -201,26 +191,22 @@ class AppLocalizationsEs extends AppLocalizations {
   String get groups => 'Grupos';
 
   @override
-  String get aiPageTitle =>
-      'Próximamente: ¡podrás chatear con nuestra IA sobre las novedades!';
+  String get aiPageTitle => 'Próximamente: ¡podrás chatear con nuestra IA sobre las novedades!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Elija temas o subtemas que le gustaría ver en su feed. Siempre puedes cambiarlos aquí.';
+  String get topicsSelectionSubtitle => 'Elija temas o subtemas que le gustaría ver en su feed. Siempre puedes cambiarlos aquí.';
 
   @override
   String get failedToLoadTopics => 'No se pudieron cargar los temas';
 
   @override
-  String get settingsNote =>
-      'Puedes editar la configuración en cualquier momento.';
+  String get settingsNote => 'Puedes editar la configuración en cualquier momento.';
 
   @override
   String get lang => 'Idioma';
 
   @override
-  String get failed_to_load_data =>
-      'No pudimos cargar los datos. Por favor verifique su conexión a Internet e inténtelo nuevamente.';
+  String get failed_to_load_data => 'No pudimos cargar los datos. Por favor verifique su conexión a Internet e inténtelo nuevamente.';
 
   @override
   String get changeLang => 'Cambiar idioma';
@@ -229,12 +215,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get notNow => 'Ahora no';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Habilitar notificaciones te permite mantenerte actualizado con noticias importantes, actualizaciones urgentes y contenido personalizado, para que nunca te pierdas nada que te importe.';
+  String get notificationsPermissionRationale => 'Habilitar notificaciones te permite mantenerte actualizado con noticias importantes, actualizaciones urgentes y contenido personalizado, para que nunca te pierdas nada que te importe.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Saltar al contenido que seleccionamos para usted';
+  String get skipToSuggestedContent => 'Saltar al contenido que seleccionamos para usted';
 
   @override
   String get lets_go => 'vamos';
@@ -267,19 +251,16 @@ class AppLocalizationsEs extends AppLocalizations {
   String get searchPageEmptySubtitle => '¿Qué te gustaría buscar?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Escriba una palabra clave o tema para buscar';
+  String get searchPageEmptyTitle => 'Escriba una palabra clave o tema para buscar';
 
   @override
-  String get notificationSubTitle =>
-      'Puedes activar las notificaciones emergentes para cualquier tema que te interese.';
+  String get notificationSubTitle => 'Puedes activar las notificaciones emergentes para cualquier tema que te interese.';
 
   @override
   String get whatIsInteresting => 'que te interesa';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Para enviar sólo lo que es verdaderamente relevante, marquemos primero lo que te interesa.';
+  String get subTextWhatIsInteresting => 'Para enviar sólo lo que es verdaderamente relevante, marquemos primero lo que te interesa.';
 
   @override
   String get getStarted => 'Empezar';
@@ -321,15 +302,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get openSettings => 'Abrir configuración';
 
   @override
-  String get subTextNotifications =>
-      'Puede habilitar notificaciones emergentes para cada tema que le interese.';
+  String get subTextNotifications => 'Puede habilitar notificaciones emergentes para cada tema que le interese.';
 
   @override
   String get troubleshooting_tips => 'Consejos para solucionar problemas';
 
   @override
-  String get welcome =>
-      '¡Bienvenido a la aplicación de noticias, personalizada solo para ti!';
+  String get welcome => '¡Bienvenido a la aplicación de noticias, personalizada solo para ti!';
 
   @override
   String get continueReading => 'Continuar leyendo';
@@ -341,23 +320,19 @@ class AppLocalizationsEs extends AppLocalizations {
   String get area => 'Área';
 
   @override
-  String get chooseYourAreaHint =>
-      'Elija su área para recibir actualizaciones de noticias localizadas';
+  String get chooseYourAreaHint => 'Elija su área para recibir actualizaciones de noticias localizadas';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Elija la región de noticias que desee.\nDentro de la aplicación, también puedes seleccionar países adicionales.';
+  String get chooseYourAreaHintUnused => 'Elija la región de noticias que desee.\nDentro de la aplicación, también puedes seleccionar países adicionales.';
 
   @override
-  String get chooseYourLangHint =>
-      'Elige tu idioma, siempre podrás cambiarlo más tarde.';
+  String get chooseYourLangHint => 'Elige tu idioma, siempre podrás cambiarlo más tarde.';
 
   @override
   String get topics => 'Temas';
 
   @override
-  String get chooseTopicsHint =>
-      'Elige los temas que te interesen, siempre podrás cambiarlos en la configuración.';
+  String get chooseTopicsHint => 'Elige los temas que te interesen, siempre podrás cambiarlos en la configuración.';
 
   @override
   String get categories => 'Categorías';
@@ -384,12 +359,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Sin conexión a internet';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Podemos acceder a Internet pero no al servidor.\\nInténtalo de nuevo en un momento.';
+  String get networkStatusPartialMessage => 'Podemos acceder a Internet pero no al servidor.\\nInténtalo de nuevo en un momento.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Sin conexión a Internet. Mostramos artículos más antiguos; Conéctese a Internet para ver las últimas historias.';
+  String get networkStatusOfflineMessage => 'Sin conexión a Internet. Mostramos artículos más antiguos; Conéctese a Internet para ver las últimas historias.';
 
   @override
   String get networkStatusInternetLabel => 'conexión a internet';
@@ -410,8 +383,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get offlineMode => 'Modo sin conexión';
 
   @override
-  String get changesSavedSuccessfully =>
-      'Los cambios se guardaron correctamente';
+  String get changesSavedSuccessfully => 'Los cambios se guardaron correctamente';
 
   @override
   String get unableToSaveChanges => 'No se pueden guardar los cambios';
@@ -420,15 +392,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Notificaciones emergentes';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Personaliza tus alertas fácilmente. Activa o desactiva las notificaciones push para cualquier tema que te interese.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Personaliza tus alertas fácilmente. Activa o desactiva las notificaciones push para cualquier tema que te interese.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => '¡Actualización en camino!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Pronto podrás elegir de qué regiones del mundo deseas recibir noticias y actualizaciones.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Pronto podrás elegir de qué regiones del mundo deseas recibir noticias y actualizaciones.';
 
   @override
   String get info => 'Información';
@@ -462,30 +432,25 @@ class AppLocalizationsEs extends AppLocalizations {
   String get newsTopics => 'Temas de noticias';
 
   @override
-  String get errorNoInternet =>
-      'Por favor verifique su conexión e inténtelo nuevamente.';
+  String get errorNoInternet => 'Por favor verifique su conexión e inténtelo nuevamente.';
 
   @override
   String get errorNoInternetTitle => 'Sin conexión a Internet.';
 
   @override
-  String get errorTimeout =>
-      'La solicitud expiró. Inténtelo de nuevo más tarde.';
+  String get errorTimeout => 'La solicitud expiró. Inténtelo de nuevo más tarde.';
 
   @override
-  String get errorTimeoutTitle =>
-      'Se agotó el tiempo de espera de la solicitud.';
+  String get errorTimeoutTitle => 'Se agotó el tiempo de espera de la solicitud.';
 
   @override
-  String get errorServer =>
-      'Se produjo un error en el servidor. Por favor inténtalo de nuevo.';
+  String get errorServer => 'Se produjo un error en el servidor. Por favor inténtalo de nuevo.';
 
   @override
   String get errorServerTitle => 'Error del servidor.';
 
   @override
-  String get errorUnauthorized =>
-      'No estás autorizado. Por favor inicia sesión y vuelve a intentarlo.';
+  String get errorUnauthorized => 'No estás autorizado. Por favor inicia sesión y vuelve a intentarlo.';
 
   @override
   String get errorUnauthorizedTitle => 'No autorizado.';
@@ -506,12 +471,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get updateArticle => 'Se han actualizado más detalles.';
 
   @override
-  String get errorValidation =>
-      'Alguna información parece no válida. Por favor revíselo e inténtelo nuevamente.';
+  String get errorValidation => 'Alguna información parece no válida. Por favor revíselo e inténtelo nuevamente.';
 
   @override
-  String get agreeMail =>
-      'Acepto recibir actualizaciones y boletines por correo electrónico.';
+  String get agreeMail => 'Acepto recibir actualizaciones y boletines por correo electrónico.';
 
   @override
   String get sendUsEmail => 'Envíanos un correo electrónico';
@@ -520,8 +483,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get discardChangesTitle => '¿Descartar cambios?';
 
   @override
-  String get discardChangesMessage =>
-      'Tienes cambios sin guardar. Si continúas, se perderán.';
+  String get discardChangesMessage => 'Tienes cambios sin guardar. Si continúas, se perderán.';
 
   @override
   String get discardButton => 'Descartar';
@@ -539,8 +501,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get agreePrivacy => 'He leído y acepto las ';
 
   @override
-  String get contactUsSubtitle =>
-      'No dude en contactarnos utilizando el siguiente formulario.';
+  String get contactUsSubtitle => 'No dude en contactarnos utilizando el siguiente formulario.';
 
   @override
   String get fullName => 'nombre completo';
@@ -573,12 +534,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get emptyResults_noResults => 'No se encontraron resultados.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Intente cambiar sus palabras clave o elija otro tema.';
+  String get emptyResults_bottomWithTopic => 'Intente cambiar sus palabras clave o elija otro tema.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Intente cambiar sus palabras clave.';
+  String get emptyResults_bottomWithoutTopic => 'Intente cambiar sus palabras clave.';
 
   @override
   String get emptyResults_inThisTopic => 'en este tema';
@@ -587,8 +546,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get errorBadRequestTitle => 'Mala petición.';
 
   @override
-  String get errorBadRequest =>
-      'La solicitud no fue válida. Por favor inténtalo de nuevo.';
+  String get errorBadRequest => 'La solicitud no fue válida. Por favor inténtalo de nuevo.';
 
   @override
   String get errorNotModifiedTitle => 'No modificado.';
@@ -600,57 +558,49 @@ class AppLocalizationsEs extends AppLocalizations {
   String get errorNetworkTitle => 'Error de red.';
 
   @override
-  String get errorNetwork =>
-      'No pudimos alcanzar la red. Comprueba tu conexión y vuelve a intentarlo.';
+  String get errorNetwork => 'No pudimos alcanzar la red. Comprueba tu conexión y vuelve a intentarlo.';
 
   @override
   String get errorDataIsEmptyTitle => 'No hay datos disponibles.';
 
   @override
-  String get errorDataIsEmpty =>
-      'No pudimos encontrar ningún dato para mostrar.';
+  String get errorDataIsEmpty => 'No pudimos encontrar ningún dato para mostrar.';
 
   @override
   String get errorConflictTitle => 'Conflicto.';
 
   @override
-  String get errorConflict =>
-      'La solicitud entraba en conflicto con los datos existentes. Por favor inténtalo de nuevo.';
+  String get errorConflict => 'La solicitud entraba en conflicto con los datos existentes. Por favor inténtalo de nuevo.';
 
   @override
   String get errorServerValidationTitle => 'Error de validación.';
 
   @override
-  String get errorServerValidation =>
-      'El servidor rechazó algunos datos. Por favor revíselo e inténtelo nuevamente.';
+  String get errorServerValidation => 'El servidor rechazó algunos datos. Por favor revíselo e inténtelo nuevamente.';
 
   @override
   String get errorWriteFileTitle => 'Error de escritura.';
 
   @override
-  String get errorWriteFile =>
-      'No pudimos guardar el archivo. Por favor inténtalo de nuevo.';
+  String get errorWriteFile => 'No pudimos guardar el archivo. Por favor inténtalo de nuevo.';
 
   @override
   String get errorReadFileTitle => 'Error de lectura.';
 
   @override
-  String get errorReadFile =>
-      'No pudimos leer el archivo. Por favor inténtalo de nuevo.';
+  String get errorReadFile => 'No pudimos leer el archivo. Por favor inténtalo de nuevo.';
 
   @override
   String get errorFileNotFoundTitle => 'Archivo no encontrado.';
 
   @override
-  String get errorFileNotFound =>
-      'No pudimos encontrar el archivo que estás buscando.';
+  String get errorFileNotFound => 'No pudimos encontrar el archivo que estás buscando.';
 
   @override
   String get errorInsufficientStorageTitle => 'Almacenamiento insuficiente.';
 
   @override
-  String get errorInsufficientStorage =>
-      'Libera espacio y vuelve a intentarlo.';
+  String get errorInsufficientStorage => 'Libera espacio y vuelve a intentarlo.';
 
   @override
   String get errorDatabaseReadTitle => 'Error de lectura de base de datos.';
@@ -659,19 +609,16 @@ class AppLocalizationsEs extends AppLocalizations {
   String get errorDatabaseRead => 'No pudimos leer de la base de datos.';
 
   @override
-  String get errorDatabaseWriteTitle =>
-      'Error de escritura en la base de datos.';
+  String get errorDatabaseWriteTitle => 'Error de escritura en la base de datos.';
 
   @override
   String get errorDatabaseWrite => 'No pudimos guardar en la base de datos.';
 
   @override
-  String get errorDatabaseConnectionTitle =>
-      'Error de conexión a la base de datos.';
+  String get errorDatabaseConnectionTitle => 'Error de conexión a la base de datos.';
 
   @override
-  String get errorDatabaseConnection =>
-      'No pudimos conectarnos a la base de datos.';
+  String get errorDatabaseConnection => 'No pudimos conectarnos a la base de datos.';
 
   @override
   String get errorAuthTitle => 'Error de autenticación.';
@@ -683,32 +630,25 @@ class AppLocalizationsEs extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Credenciales no válidas.';
 
   @override
-  String get errorInvalidCredentials =>
-      'El nombre de usuario o contraseña es incorrecto.';
+  String get errorInvalidCredentials => 'El nombre de usuario o contraseña es incorrecto.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Error de lectura de almacenamiento seguro.';
+  String get errorSecureStorageReadTitle => 'Error de lectura de almacenamiento seguro.';
 
   @override
-  String get errorSecureStorageRead =>
-      'No pudimos leer desde el almacenamiento seguro.';
+  String get errorSecureStorageRead => 'No pudimos leer desde el almacenamiento seguro.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Error de escritura en almacenamiento seguro.';
+  String get errorSecureStorageWriteTitle => 'Error de escritura en almacenamiento seguro.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'No pudimos escribir en un almacenamiento seguro.';
+  String get errorSecureStorageWrite => 'No pudimos escribir en un almacenamiento seguro.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Error de borrado de almacenamiento seguro.';
+  String get errorSecureStorageClearTitle => 'Error de borrado de almacenamiento seguro.';
 
   @override
-  String get errorSecureStorageClear =>
-      'No pudimos borrar el almacenamiento seguro.';
+  String get errorSecureStorageClear => 'No pudimos borrar el almacenamiento seguro.';
 
   @override
   String get errorTokenExpiredTitle => 'La sesión expiró.';
@@ -726,8 +666,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Permiso denegado.';
 
   @override
-  String get errorPermissionDenied =>
-      'No tienes permiso para realizar esta acción.';
+  String get errorPermissionDenied => 'No tienes permiso para realizar esta acción.';
 
   @override
   String get errorEmptyResultTitle => 'Sin resultados.';
@@ -739,8 +678,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get errorInvalidInputTitle => 'Entrada no válida.';
 
   @override
-  String get errorInvalidInput =>
-      'Por favor verifique su entrada e inténtelo nuevamente.';
+  String get errorInvalidInput => 'Por favor verifique su entrada e inténtelo nuevamente.';
 
   @override
   String get errorEmptyTopicsTitle => 'No hay temas seleccionados.';

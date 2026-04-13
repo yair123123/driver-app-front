@@ -13,4 +13,7 @@ _$MessageImpl _$$MessageImplFromJson(Map<String, dynamic> json) =>
     );
 
 Map<String, dynamic> _$$MessageImplToJson(_$MessageImpl instance) =>
-    <String, dynamic>{'snederId': instance.snederId, 'text': instance.text};
+    <String, dynamic>{
+      'snederId': instance.snederId,
+      'text': instance.text,
+    };

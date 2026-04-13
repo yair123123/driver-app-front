@@ -1,30 +1,31 @@
-import 'package:driver_app/features/bootstrap/presentation/notifiers/bootstrap_ctrl.dart';
-import 'package:driver_app/features/bootstrap/presentation/states/boot_state.dart';
-// Ensure this import provides bootStrapProvider
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:driver_app/features/app/presentation/providers/app_prefs_provider.dart';
+import 'package:driver_app/features/app/presentation/states/app_state.dart';
 
 final appRouterNotifierProvider = Provider<AppRouterNotifier>(
-  (ref) => AppRouterNotifier(ref),
+      (ref) => AppRouterNotifier(ref),
 );
 
 class AppRouterNotifier extends ChangeNotifier {
-  AppRouterNotifier(this.ref) {
-    _subscription = ref.listen<AsyncValue<BootState>>(bootstrapCtrlProvider, (
-      prev,
-      next,
-    ) {
-      if (prev?.value != next.value) {
-        notifyListeners();
-      }
-    }, fireImmediately: true);
-  }
   final Ref ref;
-  late final ProviderSubscription<AsyncValue<BootState>> _subscription;
+  late final ProviderSubscription<AppSessionState> _subscription;
+
+  AppRouterNotifier(this.ref) {
+    _subscription = ref.listen<AppSessionState>(
+      appProvider,
+          (prev, next) {
+        if (prev != next) {
+          notifyListeners();
+        }
+      },
+      fireImmediately: true,
+    );
+  }
 
   @override
   void dispose() {
-    _subscription.close(); // מנקים את המאזין כשלא צריך
+    _subscription.close();
     super.dispose();
   }
 }

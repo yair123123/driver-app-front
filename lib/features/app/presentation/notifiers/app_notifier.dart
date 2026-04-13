@@ -7,6 +7,9 @@ import 'package:driver_app/features/app/presentation/providers/app_prefs_provide
 import 'package:driver_app/features/app/presentation/states/app_state.dart';
 import 'package:riverpod/riverpod.dart';
 
+import '../../../permission/services/notification_permission_service.dart';
+import '../../../rides/domain/entities/ride/ride.dart';
+
 class AppStateNotifier extends Notifier<AppSessionState> {
   @override
   AppSessionState build() {
@@ -24,6 +27,16 @@ class AppStateNotifier extends Notifier<AppSessionState> {
   void setIsAuth(bool isAuth) {
     state = state.copyWith(
       appRuntime: state.appRuntime.copyWith(isAuth: isAuth),
+    );
+  }  void setDefaultStation(int stationId) {
+    state = state.copyWith(
+      appPrefs: state.appPrefs.copyWith(defaultStationId: stationId),
+    );
+  }
+
+  void setIsRideActive(Ride? isRideActive) {
+    state = state.copyWith(
+      appRuntime: state.appRuntime.copyWith(isActiveRide: isRideActive),
     );
   }
 
@@ -57,12 +70,6 @@ class AppStateNotifier extends Notifier<AppSessionState> {
   void setAppBusy(AppBusy appBusy) {
     state = state.copyWith(
       appRuntime: state.appRuntime.copyWith(appBusy: appBusy),
-    );
-  }
-
-  void setArticlesLoaded(bool loaded) {
-    state = state.copyWith(
-      appRuntime: state.appRuntime.copyWith(articlesLoaded: loaded),
     );
   }
 

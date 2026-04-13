@@ -12,8 +12,7 @@ part of 'websocket_dto.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-  'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models',
-);
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
 WebSocketDto _$WebSocketDtoFromJson(Map<String, dynamic> json) {
   return _WebSocketDto.fromJson(json);
@@ -24,18 +23,13 @@ mixin _$WebSocketDto {
   dynamic get content => throw _privateConstructorUsedError;
   String get error => throw _privateConstructorUsedError;
   @JsonKey(
-    name: 'type_code',
-    fromJson: webSocketTypeCodeFromInt,
-    toJson: webSocketTypeCodeToInt,
-  )
+      name: 'type_code',
+      fromJson: webSocketTypeCodeFromInt,
+      toJson: webSocketTypeCodeToInt)
   WebSocketTypeCode get typeCode => throw _privateConstructorUsedError;
 
-  /// Serializes this WebSocketDto to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of WebSocketDto
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $WebSocketDtoCopyWith<WebSocketDto> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -43,20 +37,17 @@ mixin _$WebSocketDto {
 /// @nodoc
 abstract class $WebSocketDtoCopyWith<$Res> {
   factory $WebSocketDtoCopyWith(
-    WebSocketDto value,
-    $Res Function(WebSocketDto) then,
-  ) = _$WebSocketDtoCopyWithImpl<$Res, WebSocketDto>;
+          WebSocketDto value, $Res Function(WebSocketDto) then) =
+      _$WebSocketDtoCopyWithImpl<$Res, WebSocketDto>;
   @useResult
-  $Res call({
-    dynamic content,
-    String error,
-    @JsonKey(
-      name: 'type_code',
-      fromJson: webSocketTypeCodeFromInt,
-      toJson: webSocketTypeCodeToInt,
-    )
-    WebSocketTypeCode typeCode,
-  });
+  $Res call(
+      {dynamic content,
+      String error,
+      @JsonKey(
+          name: 'type_code',
+          fromJson: webSocketTypeCodeFromInt,
+          toJson: webSocketTypeCodeToInt)
+      WebSocketTypeCode typeCode});
 }
 
 /// @nodoc
@@ -69,8 +60,6 @@ class _$WebSocketDtoCopyWithImpl<$Res, $Val extends WebSocketDto>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of WebSocketDto
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -78,26 +67,20 @@ class _$WebSocketDtoCopyWithImpl<$Res, $Val extends WebSocketDto>
     Object? error = null,
     Object? typeCode = null,
   }) {
-    return _then(
-      _value.copyWith(
-            content:
-                freezed == content
-                    ? _value.content
-                    : content // ignore: cast_nullable_to_non_nullable
-                        as dynamic,
-            error:
-                null == error
-                    ? _value.error
-                    : error // ignore: cast_nullable_to_non_nullable
-                        as String,
-            typeCode:
-                null == typeCode
-                    ? _value.typeCode
-                    : typeCode // ignore: cast_nullable_to_non_nullable
-                        as WebSocketTypeCode,
-          )
-          as $Val,
-    );
+    return _then(_value.copyWith(
+      content: freezed == content
+          ? _value.content
+          : content // ignore: cast_nullable_to_non_nullable
+              as dynamic,
+      error: null == error
+          ? _value.error
+          : error // ignore: cast_nullable_to_non_nullable
+              as String,
+      typeCode: null == typeCode
+          ? _value.typeCode
+          : typeCode // ignore: cast_nullable_to_non_nullable
+              as WebSocketTypeCode,
+    ) as $Val);
   }
 }
 
@@ -105,21 +88,18 @@ class _$WebSocketDtoCopyWithImpl<$Res, $Val extends WebSocketDto>
 abstract class _$$WebSocketDtoImplCopyWith<$Res>
     implements $WebSocketDtoCopyWith<$Res> {
   factory _$$WebSocketDtoImplCopyWith(
-    _$WebSocketDtoImpl value,
-    $Res Function(_$WebSocketDtoImpl) then,
-  ) = __$$WebSocketDtoImplCopyWithImpl<$Res>;
+          _$WebSocketDtoImpl value, $Res Function(_$WebSocketDtoImpl) then) =
+      __$$WebSocketDtoImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({
-    dynamic content,
-    String error,
-    @JsonKey(
-      name: 'type_code',
-      fromJson: webSocketTypeCodeFromInt,
-      toJson: webSocketTypeCodeToInt,
-    )
-    WebSocketTypeCode typeCode,
-  });
+  $Res call(
+      {dynamic content,
+      String error,
+      @JsonKey(
+          name: 'type_code',
+          fromJson: webSocketTypeCodeFromInt,
+          toJson: webSocketTypeCodeToInt)
+      WebSocketTypeCode typeCode});
 }
 
 /// @nodoc
@@ -127,12 +107,9 @@ class __$$WebSocketDtoImplCopyWithImpl<$Res>
     extends _$WebSocketDtoCopyWithImpl<$Res, _$WebSocketDtoImpl>
     implements _$$WebSocketDtoImplCopyWith<$Res> {
   __$$WebSocketDtoImplCopyWithImpl(
-    _$WebSocketDtoImpl _value,
-    $Res Function(_$WebSocketDtoImpl) _then,
-  ) : super(_value, _then);
+      _$WebSocketDtoImpl _value, $Res Function(_$WebSocketDtoImpl) _then)
+      : super(_value, _then);
 
-  /// Create a copy of WebSocketDto
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -140,41 +117,34 @@ class __$$WebSocketDtoImplCopyWithImpl<$Res>
     Object? error = null,
     Object? typeCode = null,
   }) {
-    return _then(
-      _$WebSocketDtoImpl(
-        content:
-            freezed == content
-                ? _value.content
-                : content // ignore: cast_nullable_to_non_nullable
-                    as dynamic,
-        error:
-            null == error
-                ? _value.error
-                : error // ignore: cast_nullable_to_non_nullable
-                    as String,
-        typeCode:
-            null == typeCode
-                ? _value.typeCode
-                : typeCode // ignore: cast_nullable_to_non_nullable
-                    as WebSocketTypeCode,
-      ),
-    );
+    return _then(_$WebSocketDtoImpl(
+      content: freezed == content
+          ? _value.content
+          : content // ignore: cast_nullable_to_non_nullable
+              as dynamic,
+      error: null == error
+          ? _value.error
+          : error // ignore: cast_nullable_to_non_nullable
+              as String,
+      typeCode: null == typeCode
+          ? _value.typeCode
+          : typeCode // ignore: cast_nullable_to_non_nullable
+              as WebSocketTypeCode,
+    ));
   }
 }
 
 /// @nodoc
 @JsonSerializable()
 class _$WebSocketDtoImpl implements _WebSocketDto {
-  const _$WebSocketDtoImpl({
-    required this.content,
-    required this.error,
-    @JsonKey(
-      name: 'type_code',
-      fromJson: webSocketTypeCodeFromInt,
-      toJson: webSocketTypeCodeToInt,
-    )
-    required this.typeCode,
-  });
+  const _$WebSocketDtoImpl(
+      {required this.content,
+      required this.error,
+      @JsonKey(
+          name: 'type_code',
+          fromJson: webSocketTypeCodeFromInt,
+          toJson: webSocketTypeCodeToInt)
+      required this.typeCode});
 
   factory _$WebSocketDtoImpl.fromJson(Map<String, dynamic> json) =>
       _$$WebSocketDtoImplFromJson(json);
@@ -185,10 +155,9 @@ class _$WebSocketDtoImpl implements _WebSocketDto {
   final String error;
   @override
   @JsonKey(
-    name: 'type_code',
-    fromJson: webSocketTypeCodeFromInt,
-    toJson: webSocketTypeCodeToInt,
-  )
+      name: 'type_code',
+      fromJson: webSocketTypeCodeFromInt,
+      toJson: webSocketTypeCodeToInt)
   final WebSocketTypeCode typeCode;
 
   @override
@@ -207,18 +176,12 @@ class _$WebSocketDtoImpl implements _WebSocketDto {
                 other.typeCode == typeCode));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(
-    runtimeType,
-    const DeepCollectionEquality().hash(content),
-    error,
-    typeCode,
-  );
+  int get hashCode => Object.hash(runtimeType,
+      const DeepCollectionEquality().hash(content), error, typeCode);
 
-  /// Create a copy of WebSocketDto
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$WebSocketDtoImplCopyWith<_$WebSocketDtoImpl> get copyWith =>
@@ -226,21 +189,21 @@ class _$WebSocketDtoImpl implements _WebSocketDto {
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$WebSocketDtoImplToJson(this);
+    return _$$WebSocketDtoImplToJson(
+      this,
+    );
   }
 }
 
 abstract class _WebSocketDto implements WebSocketDto {
-  const factory _WebSocketDto({
-    required final dynamic content,
-    required final String error,
-    @JsonKey(
-      name: 'type_code',
-      fromJson: webSocketTypeCodeFromInt,
-      toJson: webSocketTypeCodeToInt,
-    )
-    required final WebSocketTypeCode typeCode,
-  }) = _$WebSocketDtoImpl;
+  const factory _WebSocketDto(
+      {required final dynamic content,
+      required final String error,
+      @JsonKey(
+          name: 'type_code',
+          fromJson: webSocketTypeCodeFromInt,
+          toJson: webSocketTypeCodeToInt)
+      required final WebSocketTypeCode typeCode}) = _$WebSocketDtoImpl;
 
   factory _WebSocketDto.fromJson(Map<String, dynamic> json) =
       _$WebSocketDtoImpl.fromJson;
@@ -251,16 +214,12 @@ abstract class _WebSocketDto implements WebSocketDto {
   String get error;
   @override
   @JsonKey(
-    name: 'type_code',
-    fromJson: webSocketTypeCodeFromInt,
-    toJson: webSocketTypeCodeToInt,
-  )
+      name: 'type_code',
+      fromJson: webSocketTypeCodeFromInt,
+      toJson: webSocketTypeCodeToInt)
   WebSocketTypeCode get typeCode;
-
-  /// Create a copy of WebSocketDto
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$WebSocketDtoImplCopyWith<_$WebSocketDtoImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

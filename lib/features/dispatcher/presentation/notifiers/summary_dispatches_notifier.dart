@@ -1,96 +1,113 @@
 import 'dart:async';
-
-import 'package:driver_app/core/enums/dispatch_status.dart';
-import 'package:driver_app/core/enums/ride_operation_code.dart';
-import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
-import 'package:driver_app/features/dispatcher/domain/usecases/get_event_active_ride.dart';
-import 'package:driver_app/features/dispatcher/presentation/states/summary_dispatch_state.dart';
-import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class SummaryDispatchesNotifier
-    extends StateNotifier<List<SummaryDispatchState>> {
-  final GetEventActiveRideUsecase listenToNewActiveRideEventsEvents;
+import '../../../../core/enums/dispatch_status.dart';
+import '../../../../core/enums/ride_operation_code.dart';
+import '../../../dispatch_realtime/domain/entities/dispatch_realtime_event.dart';
+import '../../../rides/domain/entities/ride/ride.dart';
+import '../../domain/usecases/get_event_active_ride.dart';
+import '../states/summary_dispatch_state.dart';
 
-  late StreamSubscription<RideMessageDto> _subscription;
+class SummaryDispatchesNotifier extends StateNotifier<List<SummaryDispatchState>> {
+  final GetEventActiveRideUsecase _listenToEvents;
+  StreamSubscription<DispatchRealtimeEvent>? _subscription;
 
-  SummaryDispatchesNotifier(this.listenToNewActiveRideEventsEvents)
-    : super([]) {
-    _subscription = listenToNewActiveRideEventsEvents().listen((event) {
-      switch (event.operationCode) {
-        case RideOperationCode.notifyDispatcherPassengerWasPickedUp:
-          driverPickupPassenger(event.content['id']);
-          break;
-        case RideOperationCode.notifyDispatcherRideEnded:
-          rideCompleted(event.content['id']);
-          break;
-        case RideOperationCode.notifyDispatcherRideWasTaken:
-          rideTaken(event.content['rideId'], event.content['driverId']);
-          break;
-        case RideOperationCode.notifyDispatcherRideRequestWasCanceled:
-          driverCanceledTen(event.content['id']);
-          break;
-        default:
-          print("Unknown operation code: ${event.operationCode}");
-          break;
-      }
-    });
-  }
-  @override
-  void dispose() {
-    _subscription.cancel();
-    super.dispose();
+  SummaryDispatchesNotifier(this._listenToEvents) : super([]) {
+    _subscription = _listenToEvents().listen(_handleEvent);
   }
 
-  void rideTaken(String rideId, int driverId) {
-    state =
-        state.map((e) {
-          if (e.id == rideId) {
-            return e.copyWith(
-              status: DispatchStatus.taken,
-              driverName: "Driver $driverId",
-            );
-          } else {
-            return e;
-          }
-        }).toList();
-  }
+  void _handleEvent(DispatchRealtimeEvent event) {
+    switch (event.message.operationCode) {
+      case RideOperationCode.notifyDispatcherPassengerWasPickedUp:
+        _updateRideStatus(
+          event.rideId ?? event.payload?['id']?.toString() ?? '',
+          DispatchStatus.onWay,
+        );
+        return;
+      case RideOperationCode.notifyDispatcherRideEnded:
+        _updateRideStatus(
+          event.rideId ?? event.payload?['id']?.toString() ?? '',
+          DispatchStatus.complete,
+        );
+        return;
+      case RideOperationCode.notifyDispatcherRideWasTaken:
+        _markRideTaken(
+          rideId: event.payload?['rideId']?.toString() ?? event.rideId ?? '',
+          driverId: event.payload?['driverId'] as int? ?? 0,
+        );
+        return;
+      case RideOperationCode.notifyDispatcherRideRequestWasCanceled:
+        _markRideWaiting(event.rideId ?? event.payload?['id']?.toString() ?? '');
+        return;
+      default:
+        break;
+    }
 
-  void driverPickupPassenger(String rideId) {
-    state =
-        state.map((e) {
-          if (e.id == rideId) {
-            return e.copyWith(status: DispatchStatus.onWay);
-          } else {
-            return e;
-          }
-        }).toList();
-  }
-
-  void rideCompleted(String rideId) {
-    state =
-        state.map((e) {
-          if (e.id == rideId) {
-            return e.copyWith(status: DispatchStatus.complete);
-          } else {
-            return e;
-          }
-        }).toList();
-  }
-
-  void driverCanceledTen(String rideId) {
-    state =
-        state.map((e) {
-          if (e.id == rideId) {
-            return e.copyWith(status: DispatchStatus.waiting, driverName: null);
-          } else {
-            return e;
-          }
-        }).toList();
+    switch (event.type) {
+      case DispatchRealtimeEventType.raw:
+        return;
+      case DispatchRealtimeEventType.rideCreated:
+      case DispatchRealtimeEventType.rideUpdated:
+      case DispatchRealtimeEventType.offerReceived:
+        return;
+      case DispatchRealtimeEventType.rideAssigned:
+        if (event.payload != null) {
+          _markRideTaken(
+            rideId: event.rideId ?? '',
+            driverId: event.payload!['driverId'] as int? ?? 0,
+          );
+        }
+        break;
+      case DispatchRealtimeEventType.rideRemoved:
+      case DispatchRealtimeEventType.offerExpired:
+      case DispatchRealtimeEventType.offerCancelled:
+        if (event.rideId != null) {
+          _markRideWaiting(event.rideId!);
+        }
+        return;
+    }
   }
 
   void addDispatch(Ride ride) {
-    final newState = [...state, SummaryDispatchState.initialFromRide(ride)];
-    state = newState;
+    final alreadyExists = state.any((e) => e.id == ride.id);
+    if (alreadyExists) return;
+
+    state = [...state, SummaryDispatchState.initialFromRide(ride)];
+  }
+
+  void _updateRideStatus(String rideId, DispatchStatus status) {
+    state = [
+      for (final item in state)
+        if (item.id == rideId) item.copyWith(status: status) else item,
+    ];
+  }
+
+  void _markRideTaken({required String rideId, required int driverId}) {
+    state = [
+      for (final item in state)
+        if (item.id == rideId)
+          item.copyWith(
+            status: DispatchStatus.taken,
+            driverName: 'Driver $driverId',
+          )
+        else
+          item,
+    ];
+  }
+
+  void _markRideWaiting(String rideId) {
+    state = [
+      for (final item in state)
+        if (item.id == rideId)
+          item.copyWith(status: DispatchStatus.waiting, driverName: null)
+        else
+          item,
+    ];
+  }
+
+  @override
+  void dispose() {
+    _subscription?.cancel();
+    super.dispose();
   }
 }

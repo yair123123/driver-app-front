@@ -1,8 +1,8 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:news_app/core/services/firebase/firebase_datasource.dart';
-import 'package:news_app/core/services/firebase/firebase_repository_impl.dart';
-import 'package:news_app/core/services/firebase/firebase_usecases.dart';
+import 'package:driver_app/core/services/firebase/firebase_datasource.dart';
+import 'package:driver_app/core/services/firebase/firebase_repository_impl.dart';
+import 'package:driver_app/core/services/firebase/firebase_usecases.dart';
 
 final firebaseMessagingProvider = Provider((ref) => FirebaseMessaging.instance);
 

@@ -1,29 +1,25 @@
+import 'package:driver_app/core/extensions/context_extention.dart';
+import 'package:driver_app/core/icons/app_svg_icon.dart';
+import 'package:driver_app/features/app/presentation/widgets/main_app_bar.dart';
+import 'package:driver_app/features/app/presentation/widgets/main_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:news_app/core/extensions/context_extention.dart';
-import 'package:news_app/core/icons/app_svg_icon.dart';
-import 'package:news_app/core/icons/custom_icon.dart';
-import 'package:news_app/core/media/media_utils.dart';
-import 'package:news_app/core/navigation/safe_navigation.dart';
-import 'package:news_app/features/app/presentation/providers/app_shell_provider.dart';
-import 'package:news_app/core/routes/app_router.dart';
-import 'package:news_app/core/services/notifications/parser/navigation_intent.dart';
-import 'package:news_app/core/widget/asynv_body_helper.dart';
-import 'package:news_app/core/widget/common_ui/custom_list_select_dialog.dart';
-import 'package:news_app/features/app/presentation/pages/app_busy.dart';
-import 'package:news_app/features/app/presentation/providers/app_prefs_provider.dart';
-import 'package:news_app/features/app/presentation/widgets/pop_scope_shell.dart';
-import 'package:news_app/features/home/presentation/pages/home_shell.dart';
-import 'package:news_app/features/home/presentation/riverpod/providers/available_areas_provider.dart';
-import 'package:news_app/features/home/presentation/widgets/main_app_bar.dart';
-import 'package:news_app/features/home/presentation/widgets/main_drawer.dart';
-import 'package:news_app/features/lang_and_area/domain/area_entity.dart';
-import 'package:news_app/features/lang_and_area/presentation/change_area_button.dart';
-import 'package:news_app/features/system_messages/presentation/system_message_listener.dart';
-import 'package:news_app/l10n/app_localizations.dart';
-import 'package:news_app/theme/app_colors.dart';
-import 'package:news_app/theme/app_spacing.dart';
+import 'package:driver_app/core/media/media_utils.dart';
+import 'package:driver_app/features/app/presentation/providers/app_shell_provider.dart';
+import 'package:driver_app/core/router/app_router.dart';
+import 'package:driver_app/core/services/notifications/parser/navigation_intent.dart';
+import 'package:driver_app/features/app/presentation/pages/app_busy.dart';
+import 'package:driver_app/features/app/presentation/providers/app_prefs_provider.dart';
+import 'package:driver_app/features/app/presentation/widgets/pop_scope_shell.dart';
+import 'package:driver_app/features/system_messages/presentation/system_message_listener.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
+import 'package:driver_app/theme/app_colors.dart';
+import 'package:driver_app/theme/app_spacing.dart';
+
+import '../../../../core/icons/custom_icon.dart';
+import '../../../../core/navigation/safe_navigation.dart';
+import '../../../auth/presentation/widgets/bottom_navigation_bar.dart';
 
 class AppShell extends ConsumerStatefulWidget {
   const AppShell({super.key, required this.child, required this.state});
@@ -58,16 +54,6 @@ class _AppShellState extends ConsumerState<AppShell> {
       _flushIntentIfPossible(explicitIntent: next);
     });
 
-    final appBusy = ref.watch(
-      appProvider.select((app) => app.appRuntime.appBusy),
-    );
-    final isAppBusy = appBusy.reason != null;
-
-    final path = widget.state.uri.path;
-    final isHome = path == _homePath && !isAppBusy;
-    final isHomeNested = path.startsWith('$_homePath/') && !isHome;
-    final inGroupDetail = RegExp(r'^/groups/[^/]+$').hasMatch(path);
-
     final appBarConfig = ref.watch(mainAppBarConfigProvider);
 
     return SystemMessageListener(
@@ -75,23 +61,15 @@ class _AppShellState extends ConsumerState<AppShell> {
         state: widget.state,
         child: Scaffold(
           key: AppShell.scaffoldKey,
-          resizeToAvoidBottomInset: !isHome,
-          drawer: isAppBusy ? null : const MainDrawer(),
+          drawer: const MainDrawer(),
           appBar: MainAppBar(
             onTitlePressed: () =>
                 ref.safeNavigate(context, navigate: context.goHome),
             showSaveButton: appBarConfig.showSave,
             onSavePressed: appBarConfig.onTap,
-            trailingWidget: _buildLeading(
-              context: context,
-              groupPage: inGroupDetail,
-              isHome: isHome,
-              isHomeNested: isHomeNested,
-            ),
+
           ),
-          body: isAppBusy
-              ? AppBusyPage(reason: appBusy.reason)
-              : ColoredBox(
+          body:ColoredBox(
                   color: Theme.of(context).scaffoldBackgroundColor,
                   child: KeyedSubtree(
                     key: ValueKey(widget.state.uri.path),
@@ -99,7 +77,7 @@ class _AppShellState extends ConsumerState<AppShell> {
                   ),
                 ),
 
-          bottomNavigationBar: isHome ? const HomeBottomNavigationBar() : null,
+          bottomNavigationBar:  const HomeBottomNavigationBar() ,
         ),
       ),
     );
@@ -111,9 +89,6 @@ class _AppShellState extends ConsumerState<AppShell> {
     required bool isHomeNested,
     required bool groupPage,
   }) {
-    if (isHome) {
-      return ChangeAreaButton();
-    }
     if (isHomeNested || groupPage) {
       return IconButton(
         icon: AppSvgIcon(

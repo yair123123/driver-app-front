@@ -1,52 +1,58 @@
-
-import 'package:driver_app/features/bootstrap/domain/repositories/app_initial_repository.dart';
-import 'package:driver_app/features/bootstrap/domain/usecases/get_user.dart';
-import 'package:driver_app/features/bootstrap/domain/usecases/login.dart';
+import 'package:driver_app/core/http/api_client.dart';
+import 'package:driver_app/features/auth/data/datasources/auth_remote_datasource.dart';
+import 'package:driver_app/features/auth/data/repositories/auth_repository_impl.dart';
+import 'package:driver_app/features/auth/domain/entities/login_params.dart';
+import 'package:driver_app/features/auth/domain/entities/user.dart';
+import 'package:driver_app/features/auth/domain/repositories/auth_repository.dart';
+import 'package:driver_app/features/auth/domain/usecases/get_current_user_use_case.dart';
+import 'package:driver_app/features/auth/domain/usecases/login_use_case.dart';
+import 'package:driver_app/features/auth/presentation/notifiers/creds_notifier.dart';
+import 'package:driver_app/features/auth/presentation/notifiers/user_controller.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:driver_app/core/env/env.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/auth_class_datasource.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/auth_local_datasource_mobile.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/auth_local_datasource_web.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/auth_remote_datasource.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/user_data_source.dart';
-import 'package:driver_app/features/bootstrap/data/repositories/auth_repository_impl.dart';
-import 'package:driver_app/features/bootstrap/domain/usecases/clear_token.dart';
-import 'package:driver_app/features/bootstrap/domain/usecases/get_saved_token.dart';
-import 'package:driver_app/features/bootstrap/domain/usecases/validate_token.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
+final authRemoteDataSourceProvider = Provider<AuthRemoteDataSource>((ref) {
+  return AuthRemoteDataSource(ref.watch(apiClientProvider));
+});
 
-final authRemoteDatasourceProvider = Provider<AuthRemoteDatasource>((ref) {
-  return AuthRemoteDatasource(Env.authUrl);
+final authRepositoryProvider = Provider<AuthRepository>((ref) {
+  return AuthRepositoryImpl(ref.watch(authRemoteDataSourceProvider));
 });
-final userDatasourceProvider = Provider<UserDataSource>((ref) {
-  return UserDataSource(Env.authUrl);
+
+final authLoginUseCaseProvider = Provider<LoginUseCase>((ref) {
+  return LoginUseCase(ref.watch(authRepositoryProvider));
 });
-final authLocalDatasourceWProvider = Provider<AuthLocalDatasource>((ref) {
-  return kIsWeb
-      ? AuthLocalDatasourceWeb()
-      : AuthLocalDatasourceMobile(const FlutterSecureStorage());
+
+final getMeUseCaseProvider = Provider<GetCurrentUserUseCase>((ref) {
+  return GetCurrentUserUseCase(ref.watch(authRepositoryProvider));
 });
-final authRepositoryProvider = Provider<AppInitialRepository>((ref) {
-  return AppInitialRepositoryImpl(
-    ref.watch(authRemoteDatasourceProvider),
-    ref.watch(authLocalDatasourceWProvider),
-    ref.watch(userDatasourceProvider)
+
+final loginUseCaseProvider = Provider<Future<void> Function(String, String)>((
+  ref,
+) {
+  final loginUseCase = ref.watch(authLoginUseCaseProvider);
+
+  return (username, password) async {
+    final result = await loginUseCase(
+      LoginParams(username: username, password: password),
     );
+
+    final session = result.match(
+      (failure) => throw failure,
+      (authSession) => authSession,
+    );
+
+    final persistResult = await ref
+        .read(authSessionProvider.notifier)
+        .setFromLogin(
+          accessToken: session.accessToken!,
+          refreshToken: session.refreshToken,
+          expiresAt: session.expiresAt,
+        );
+
+    persistResult.match((failure) => throw failure, (_) => null);
+  };
 });
-final getUserProvider = Provider<GetUser>((ref) {
-  return GetUser(ref.watch(authRepositoryProvider));
-});
-final loginUsecaseProvider = Provider<Login>((ref) {
-  return Login(ref.watch(authRepositoryProvider));
-});
-final validateTokenProvider = Provider<ValidateToken>((ref) {
-  return ValidateToken(ref.watch(authRepositoryProvider));
-});
-final getSavedTokenProvider = Provider<GetSavedToken>((ref) {
-  return GetSavedToken(ref.watch(authRepositoryProvider));
-});
-final clearTokenProvider = Provider<ClearToken>((ref) {
-  return ClearToken(ref.watch(authRepositoryProvider));
-});
+
+final userProvider = AsyncNotifierProvider<UserController, User?>(
+  UserController.new,
+);

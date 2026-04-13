@@ -45,19 +45,16 @@ class AppLocalizationsId extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Area baru untuk saluran WhatsApp dan Telegram dengan video, gambar, dan pembaruan – semua konten paling menarik di satu tempat.';
+  String get channels_section_description => 'Area baru untuk saluran WhatsApp dan Telegram dengan video, gambar, dan pembaruan – semua konten paling menarik di satu tempat.';
 
   @override
   String get newMessages => 'Pesan Baru';
@@ -80,8 +77,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get contactUsSuccessTitle => 'Berhasil terkirim ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Terima kasih! Kami telah menerima pesan Anda dan akan menghubungi Anda sesegera mungkin.';
+  String get contactUsSuccessMessage => 'Terima kasih! Kami telah menerima pesan Anda dan akan menghubungi Anda sesegera mungkin.';
 
   @override
   String get selectCountry => 'Pilih Negara';
@@ -111,8 +107,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get areaWereAdded => 'Area berhasil ditambahkan';
 
   @override
-  String get saveChangesMessage =>
-      'Apakah Anda ingin menyimpan perubahan yang Anda buat?';
+  String get saveChangesMessage => 'Apakah Anda ingin menyimpan perubahan yang Anda buat?';
 
   @override
   String get busyLandingTitle => 'Kami hampir mendarat…';
@@ -124,8 +119,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get changeCountryTitle => 'Ke negara mana kita harus beralih?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Saat Anda memilih negara, semua konten di aplikasi akan diperbarui sesuai pilihan Anda.';
+  String get changeCountrySubtitle => 'Saat Anda memilih negara, semua konten di aplikasi akan diperbarui sesuai pilihan Anda.';
 
   @override
   String get dailySummary => 'Ringkasan harian';
@@ -134,22 +128,19 @@ class AppLocalizationsId extends AppLocalizations {
   String get lastUpdated => 'Terakhir diperbarui';
 
   @override
-  String get saveChangesSubtitle =>
-      'Apakah Anda ingin menyimpan perubahan yang Anda buat?';
+  String get saveChangesSubtitle => 'Apakah Anda ingin menyimpan perubahan yang Anda buat?';
 
   @override
   String get readMore => 'Baca selengkapnya';
 
   @override
-  String get searchPageNoResultsPrefix =>
-      'Tidak ada hasil yang ditemukan untuk';
+  String get searchPageNoResultsPrefix => 'Tidak ada hasil yang ditemukan untuk';
 
   @override
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Tidak ada hasil yang ditemukan untuk';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Tidak ada hasil yang ditemukan untuk';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => 'dalam kategori ini';
@@ -161,8 +152,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get notificationsOffTitle => 'Notifikasi mati';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Sepertinya akses notifikasi belum diaktifkan.';
+  String get notificationsOffSubtitle => 'Sepertinya akses notifikasi belum diaktifkan.';
 
   @override
   String get newArticles => 'Artikel Baru';
@@ -171,8 +161,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get home => 'rumah';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Perubahan akan diterapkan pada peluncuran aplikasi berikutnya.';
+  String get changesApplyOnNextLaunch => 'Perubahan akan diterapkan pada peluncuran aplikasi berikutnya.';
 
   @override
   String get enable => 'Memungkinkan';
@@ -193,8 +182,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get freeSearch => 'Pencarian Gratis';
 
   @override
-  String get aiPageSubtitle =>
-      'Fitur ini masih dalam pengembangan \n layak untuk segera diperiksa kembali.';
+  String get aiPageSubtitle => 'Fitur ini masih dalam pengembangan \n layak untuk segera diperiksa kembali.';
 
   @override
   String get topicsSelectionTitle => 'Pemilihan Topik Berita';
@@ -203,12 +191,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get groups => 'Grup';
 
   @override
-  String get aiPageTitle =>
-      'Segera hadir: Anda dapat mengobrol dengan AI kami tentang berita!';
+  String get aiPageTitle => 'Segera hadir: Anda dapat mengobrol dengan AI kami tentang berita!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Pilih topik atau subtopik yang ingin Anda lihat di feed Anda. Anda selalu dapat mengubahnya di sini.';
+  String get topicsSelectionSubtitle => 'Pilih topik atau subtopik yang ingin Anda lihat di feed Anda. Anda selalu dapat mengubahnya di sini.';
 
   @override
   String get failedToLoadTopics => 'Gagal memuat topik';
@@ -220,8 +206,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get lang => 'Bahasa';
 
   @override
-  String get failed_to_load_data =>
-      'Kami tidak dapat memuat data. Silakan periksa koneksi internet Anda dan coba lagi.';
+  String get failed_to_load_data => 'Kami tidak dapat memuat data. Silakan periksa koneksi internet Anda dan coba lagi.';
 
   @override
   String get changeLang => 'Ubah bahasa';
@@ -230,12 +215,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get notNow => 'Tidak Sekarang';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Mengaktifkan notifikasi memungkinkan Anda tetap mengetahui berita penting, pembaruan mendesak, dan konten yang dipersonalisasi – sehingga Anda tidak akan melewatkan apa pun yang penting bagi Anda.';
+  String get notificationsPermissionRationale => 'Mengaktifkan notifikasi memungkinkan Anda tetap mengetahui berita penting, pembaruan mendesak, dan konten yang dipersonalisasi – sehingga Anda tidak akan melewatkan apa pun yang penting bagi Anda.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Lewati ke konten yang kami pilihkan untuk Anda';
+  String get skipToSuggestedContent => 'Lewati ke konten yang kami pilihkan untuk Anda';
 
   @override
   String get lets_go => 'Ayo pergi';
@@ -268,19 +251,16 @@ class AppLocalizationsId extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Apa yang ingin Anda cari?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Ketikkan kata kunci atau topik yang akan dicari';
+  String get searchPageEmptyTitle => 'Ketikkan kata kunci atau topik yang akan dicari';
 
   @override
-  String get notificationSubTitle =>
-      'Anda dapat mengaktifkan notifikasi pop-up untuk topik apa pun yang Anda minati.';
+  String get notificationSubTitle => 'Anda dapat mengaktifkan notifikasi pop-up untuk topik apa pun yang Anda minati.';
 
   @override
   String get whatIsInteresting => 'Apa yang menarik minat Anda';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Untuk hanya mengirimkan apa yang benar-benar relevan, pertama-tama tandai apa yang menarik minat Anda.';
+  String get subTextWhatIsInteresting => 'Untuk hanya mengirimkan apa yang benar-benar relevan, pertama-tama tandai apa yang menarik minat Anda.';
 
   @override
   String get getStarted => 'Memulai';
@@ -322,15 +302,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get openSettings => 'Buka Pengaturan';
 
   @override
-  String get subTextNotifications =>
-      'Anda dapat mengaktifkan notifikasi pop-up untuk setiap topik yang Anda minati.';
+  String get subTextNotifications => 'Anda dapat mengaktifkan notifikasi pop-up untuk setiap topik yang Anda minati.';
 
   @override
   String get troubleshooting_tips => 'Tip Mengatasi Masalah';
 
   @override
-  String get welcome =>
-      'Selamat datang di aplikasi berita, dipersonalisasi hanya untuk Anda!';
+  String get welcome => 'Selamat datang di aplikasi berita, dipersonalisasi hanya untuk Anda!';
 
   @override
   String get continueReading => 'Lanjutkan membaca';
@@ -342,23 +320,19 @@ class AppLocalizationsId extends AppLocalizations {
   String get area => 'Daerah';
 
   @override
-  String get chooseYourAreaHint =>
-      'Pilih wilayah Anda untuk mendapatkan pembaruan berita lokal';
+  String get chooseYourAreaHint => 'Pilih wilayah Anda untuk mendapatkan pembaruan berita lokal';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Pilih wilayah berita yang Anda inginkan.\nDi dalam aplikasi, Anda juga dapat memilih negara tambahan.';
+  String get chooseYourAreaHintUnused => 'Pilih wilayah berita yang Anda inginkan.\nDi dalam aplikasi, Anda juga dapat memilih negara tambahan.';
 
   @override
-  String get chooseYourLangHint =>
-      'Pilih bahasa Anda, Anda selalu dapat mengubahnya nanti.';
+  String get chooseYourLangHint => 'Pilih bahasa Anda, Anda selalu dapat mengubahnya nanti.';
 
   @override
   String get topics => 'Topik';
 
   @override
-  String get chooseTopicsHint =>
-      'Pilih topik yang Anda minati, Anda selalu dapat mengubahnya di pengaturan.';
+  String get chooseTopicsHint => 'Pilih topik yang Anda minati, Anda selalu dapat mengubahnya di pengaturan.';
 
   @override
   String get categories => 'Kategori';
@@ -385,12 +359,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Tidak ada koneksi internet';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Kami dapat menjangkau internet tetapi tidak dapat menjangkau server.\\nCoba lagi sebentar lagi.';
+  String get networkStatusPartialMessage => 'Kami dapat menjangkau internet tetapi tidak dapat menjangkau server.\\nCoba lagi sebentar lagi.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Tidak ada koneksi internet. Kami menampilkan artikel lama; terhubung ke internet untuk melihat cerita terbaru.';
+  String get networkStatusOfflineMessage => 'Tidak ada koneksi internet. Kami menampilkan artikel lama; terhubung ke internet untuk melihat cerita terbaru.';
 
   @override
   String get networkStatusInternetLabel => 'Koneksi internet';
@@ -420,16 +392,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Notifikasi munculan';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Sesuaikan peringatan Anda dengan mudah. Aktifkan atau nonaktifkan pemberitahuan push untuk topik apa pun yang Anda minati.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Sesuaikan peringatan Anda dengan mudah. Aktifkan atau nonaktifkan pemberitahuan push untuk topik apa pun yang Anda minati.';
 
   @override
-  String get dismissibleNoticeLangAndAreaTitle =>
-      'Pembaruan sedang dalam perjalanan!';
+  String get dismissibleNoticeLangAndAreaTitle => 'Pembaruan sedang dalam perjalanan!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Anda akan segera dapat memilih wilayah mana di dunia yang ingin Anda dapatkan berita dan pembaruannya.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Anda akan segera dapat memilih wilayah mana di dunia yang ingin Anda dapatkan berita dan pembaruannya.';
 
   @override
   String get info => 'Informasi';
@@ -441,8 +410,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get saveChanges => 'Simpan perubahan';
 
   @override
-  String get saveChangesConfirmation =>
-      'Apakah Anda ingin menyimpan perubahan Anda?';
+  String get saveChangesConfirmation => 'Apakah Anda ingin menyimpan perubahan Anda?';
 
   @override
   String get confirm => 'Mengonfirmasi';
@@ -470,8 +438,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get errorNoInternetTitle => 'Tidak ada koneksi internet.';
 
   @override
-  String get errorTimeout =>
-      'Waktu permintaan telah habis. Silakan coba lagi nanti.';
+  String get errorTimeout => 'Waktu permintaan telah habis. Silakan coba lagi nanti.';
 
   @override
   String get errorTimeoutTitle => 'Waktu permintaan habis.';
@@ -483,15 +450,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get errorServerTitle => 'Kesalahan server.';
 
   @override
-  String get errorUnauthorized =>
-      'Anda tidak berwenang. Silakan masuk dan coba lagi.';
+  String get errorUnauthorized => 'Anda tidak berwenang. Silakan masuk dan coba lagi.';
 
   @override
   String get errorUnauthorizedTitle => 'Tidak sah.';
 
   @override
-  String get errorForbidden =>
-      'Anda tidak memiliki izin untuk melakukan tindakan ini.';
+  String get errorForbidden => 'Anda tidak memiliki izin untuk melakukan tindakan ini.';
 
   @override
   String get errorForbiddenTitle => 'Akses ditolak.';
@@ -506,12 +471,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get updateArticle => 'Detail lebih lanjut telah diperbarui';
 
   @override
-  String get errorValidation =>
-      'Beberapa informasi tampaknya tidak valid. Harap tinjau dan coba lagi.';
+  String get errorValidation => 'Beberapa informasi tampaknya tidak valid. Harap tinjau dan coba lagi.';
 
   @override
-  String get agreeMail =>
-      'Saya setuju untuk menerima pembaruan dan buletin melalui email.';
+  String get agreeMail => 'Saya setuju untuk menerima pembaruan dan buletin melalui email.';
 
   @override
   String get sendUsEmail => 'Kirimi kami email';
@@ -520,8 +483,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get discardChangesTitle => 'Hapus perubahan?';
 
   @override
-  String get discardChangesMessage =>
-      'Anda memiliki perubahan yang belum disimpan. Jika Anda melanjutkan, mereka akan hilang.';
+  String get discardChangesMessage => 'Anda memiliki perubahan yang belum disimpan. Jika Anda melanjutkan, mereka akan hilang.';
 
   @override
   String get discardButton => 'Membuang';
@@ -539,8 +501,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get agreePrivacy => 'Saya telah membaca dan menyetujuinya';
 
   @override
-  String get contactUsSubtitle =>
-      'Jangan ragu untuk menghubungi kami menggunakan formulir di bawah ini.';
+  String get contactUsSubtitle => 'Jangan ragu untuk menghubungi kami menggunakan formulir di bawah ini.';
 
   @override
   String get fullName => 'Nama lengkap';
@@ -573,8 +534,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get emptyResults_noResults => 'Tidak ada hasil yang ditemukan.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Coba ubah kata kunci Anda atau pilih topik lain.';
+  String get emptyResults_bottomWithTopic => 'Coba ubah kata kunci Anda atau pilih topik lain.';
 
   @override
   String get emptyResults_bottomWithoutTopic => 'Coba ubah kata kunci Anda.';
@@ -586,64 +546,55 @@ class AppLocalizationsId extends AppLocalizations {
   String get errorBadRequestTitle => 'Permintaan buruk.';
 
   @override
-  String get errorBadRequest =>
-      'Permintaan itu tidak valid. Silakan coba lagi.';
+  String get errorBadRequest => 'Permintaan itu tidak valid. Silakan coba lagi.';
 
   @override
   String get errorNotModifiedTitle => 'Tidak dimodifikasi.';
 
   @override
-  String get errorNotModified =>
-      'Tidak ada yang berubah sejak permintaan terakhir Anda.';
+  String get errorNotModified => 'Tidak ada yang berubah sejak permintaan terakhir Anda.';
 
   @override
   String get errorNetworkTitle => 'Kesalahan jaringan.';
 
   @override
-  String get errorNetwork =>
-      'Kami tidak dapat menjangkau jaringan tersebut. Periksa koneksi Anda dan coba lagi.';
+  String get errorNetwork => 'Kami tidak dapat menjangkau jaringan tersebut. Periksa koneksi Anda dan coba lagi.';
 
   @override
   String get errorDataIsEmptyTitle => 'Tidak ada data yang tersedia.';
 
   @override
-  String get errorDataIsEmpty =>
-      'Kami tidak dapat menemukan data apa pun untuk ditampilkan.';
+  String get errorDataIsEmpty => 'Kami tidak dapat menemukan data apa pun untuk ditampilkan.';
 
   @override
   String get errorConflictTitle => 'Konflik.';
 
   @override
-  String get errorConflict =>
-      'Permintaan tersebut bertentangan dengan data yang ada. Silakan coba lagi.';
+  String get errorConflict => 'Permintaan tersebut bertentangan dengan data yang ada. Silakan coba lagi.';
 
   @override
   String get errorServerValidationTitle => 'Kesalahan validasi.';
 
   @override
-  String get errorServerValidation =>
-      'Server menolak beberapa data. Harap tinjau dan coba lagi.';
+  String get errorServerValidation => 'Server menolak beberapa data. Harap tinjau dan coba lagi.';
 
   @override
   String get errorWriteFileTitle => 'Penulisan gagal.';
 
   @override
-  String get errorWriteFile =>
-      'Kami tidak dapat menyimpan file tersebut. Silakan coba lagi.';
+  String get errorWriteFile => 'Kami tidak dapat menyimpan file tersebut. Silakan coba lagi.';
 
   @override
   String get errorReadFileTitle => 'Gagal membaca.';
 
   @override
-  String get errorReadFile =>
-      'Kami tidak dapat membaca file tersebut. Silakan coba lagi.';
+  String get errorReadFile => 'Kami tidak dapat membaca file tersebut. Silakan coba lagi.';
 
   @override
   String get errorFileNotFoundTitle => 'Berkas tidak ditemukan.';
 
   @override
-  String get errorFileNotFound =>
-      'Kami tidak dapat menemukan file yang Anda cari.';
+  String get errorFileNotFound => 'Kami tidak dapat menemukan file yang Anda cari.';
 
   @override
   String get errorInsufficientStorageTitle => 'Penyimpanan tidak cukup.';
@@ -667,8 +618,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get errorDatabaseConnectionTitle => 'Kesalahan koneksi basis data.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Kami tidak dapat terhubung ke database.';
+  String get errorDatabaseConnection => 'Kami tidak dapat terhubung ke database.';
 
   @override
   String get errorAuthTitle => 'Kesalahan otentikasi.';
@@ -683,28 +633,22 @@ class AppLocalizationsId extends AppLocalizations {
   String get errorInvalidCredentials => 'Nama pengguna atau kata sandi salah.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Kesalahan pembacaan penyimpanan aman.';
+  String get errorSecureStorageReadTitle => 'Kesalahan pembacaan penyimpanan aman.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Kami tidak dapat membaca dari penyimpanan aman.';
+  String get errorSecureStorageRead => 'Kami tidak dapat membaca dari penyimpanan aman.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Kesalahan penulisan penyimpanan aman.';
+  String get errorSecureStorageWriteTitle => 'Kesalahan penulisan penyimpanan aman.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Kami tidak dapat menulis ke penyimpanan yang aman.';
+  String get errorSecureStorageWrite => 'Kami tidak dapat menulis ke penyimpanan yang aman.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Penyimpanan aman menghapus kesalahan.';
+  String get errorSecureStorageClearTitle => 'Penyimpanan aman menghapus kesalahan.';
 
   @override
-  String get errorSecureStorageClear =>
-      'Kami tidak dapat menghapus penyimpanan aman.';
+  String get errorSecureStorageClear => 'Kami tidak dapat menghapus penyimpanan aman.';
 
   @override
   String get errorTokenExpiredTitle => 'Sesi berakhir.';
@@ -722,8 +666,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Izin ditolak.';
 
   @override
-  String get errorPermissionDenied =>
-      'Anda tidak memiliki izin untuk melakukan tindakan ini.';
+  String get errorPermissionDenied => 'Anda tidak memiliki izin untuk melakukan tindakan ini.';
 
   @override
   String get errorEmptyResultTitle => 'Tidak ada hasil.';

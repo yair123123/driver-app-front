@@ -45,19 +45,16 @@ class AppLocalizationsHu extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'A WhatsApp és a Telegram csatornák új területe videókkal, képekkel és frissítésekkel – a legérdekesebb tartalom egy helyen.';
+  String get channels_section_description => 'A WhatsApp és a Telegram csatornák új területe videókkal, képekkel és frissítésekkel – a legérdekesebb tartalom egy helyen.';
 
   @override
   String get newMessages => 'Új üzenetek';
@@ -80,8 +77,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get contactUsSuccessTitle => 'Sikeresen elküldve ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Köszönöm! Megkaptuk üzenetét, és a lehető leghamarabb felvesszük Önnel a kapcsolatot.';
+  String get contactUsSuccessMessage => 'Köszönöm! Megkaptuk üzenetét, és a lehető leghamarabb felvesszük Önnel a kapcsolatot.';
 
   @override
   String get selectCountry => 'Válassza az Ország lehetőséget';
@@ -123,8 +119,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get changeCountryTitle => 'Melyik országba váltsunk?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Ha országot választ, az alkalmazásban lévő összes tartalom az Ön választásának megfelelően frissül.';
+  String get changeCountrySubtitle => 'Ha országot választ, az alkalmazásban lévő összes tartalom az Ön választásának megfelelően frissül.';
 
   @override
   String get dailySummary => 'Napi összefoglaló';
@@ -145,12 +140,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Nincs találat a következőre: \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Nincs találat a következőre: \n';
 
   @override
-  String get searchPageNoResultsForThisCategorySuffix =>
-      ' ebben a kategóriában';
+  String get searchPageNoResultsForThisCategorySuffix => ' ebben a kategóriában';
 
   @override
   String get toPowerOn => 'bekapcsolásához';
@@ -159,8 +152,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get notificationsOffTitle => 'Értesítések kikapcsolva';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Úgy tűnik, hogy az értesítésekhez való hozzáférés még nincs engedélyezve.';
+  String get notificationsOffSubtitle => 'Úgy tűnik, hogy az értesítésekhez való hozzáférés még nincs engedélyezve.';
 
   @override
   String get newArticles => 'Új cikkek';
@@ -169,15 +161,13 @@ class AppLocalizationsHu extends AppLocalizations {
   String get home => 'haza';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'A módosítások az alkalmazás következő indításakor lépnek életbe.';
+  String get changesApplyOnNextLaunch => 'A módosítások az alkalmazás következő indításakor lépnek életbe.';
 
   @override
   String get enable => 'Engedélyezés';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Legyen naprakész a legfrissebb hírekkel';
+  String get stayUpdatedWithLatestNews => 'Legyen naprakész a legfrissebb hírekkel';
 
   @override
   String get enableNotifications => 'Értesítések engedélyezése';
@@ -192,8 +182,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get freeSearch => 'Ingyenes keresés';
 
   @override
-  String get aiPageSubtitle =>
-      'Ez a funkció még fejlesztés alatt áll \n érdemes hamarosan visszanézni.';
+  String get aiPageSubtitle => 'Ez a funkció még fejlesztés alatt áll \n érdemes hamarosan visszanézni.';
 
   @override
   String get topicsSelectionTitle => 'Hírek témaválasztás';
@@ -202,12 +191,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get groups => 'Csoportok';
 
   @override
-  String get aiPageTitle =>
-      'Hamarosan: cseveghetsz mesterséges intelligenciánkkal a hírekről!';
+  String get aiPageTitle => 'Hamarosan: cseveghetsz mesterséges intelligenciánkkal a hírekről!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Válassza ki azokat a témákat vagy altémákat, amelyeket látni szeretne a hírcsatornájában. Itt bármikor megváltoztathatja őket.';
+  String get topicsSelectionSubtitle => 'Válassza ki azokat a témákat vagy altémákat, amelyeket látni szeretne a hírcsatornájában. Itt bármikor megváltoztathatja őket.';
 
   @override
   String get failedToLoadTopics => 'Nem sikerült betölteni a témákat';
@@ -219,8 +206,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get lang => 'Nyelv';
 
   @override
-  String get failed_to_load_data =>
-      'Nem tudtuk betölteni az adatokat. Kérjük, ellenőrizze internetkapcsolatát, és próbálja újra.';
+  String get failed_to_load_data => 'Nem tudtuk betölteni az adatokat. Kérjük, ellenőrizze internetkapcsolatát, és próbálja újra.';
 
   @override
   String get changeLang => 'Nyelv módosítása';
@@ -229,12 +215,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get notNow => 'Most nem';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Az értesítések engedélyezésével naprakész maradhat a fontos hírekről, a sürgős frissítésekről és a személyre szabott tartalmakról – így soha nem marad le semmiről, ami számít Önnek.';
+  String get notificationsPermissionRationale => 'Az értesítések engedélyezésével naprakész maradhat a fontos hírekről, a sürgős frissítésekről és a személyre szabott tartalmakról – így soha nem marad le semmiről, ami számít Önnek.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Ugrás az általunk kiválasztott tartalomhoz';
+  String get skipToSuggestedContent => 'Ugrás az általunk kiválasztott tartalomhoz';
 
   @override
   String get lets_go => 'gyerünk';
@@ -267,19 +251,16 @@ class AppLocalizationsHu extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Mit szeretne keresni?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Írjon be egy kulcsszót vagy témát a kereséshez';
+  String get searchPageEmptyTitle => 'Írjon be egy kulcsszót vagy témát a kereséshez';
 
   @override
-  String get notificationSubTitle =>
-      'Bármelyik témakörben bekapcsolhatja az előugró értesítéseket.';
+  String get notificationSubTitle => 'Bármelyik témakörben bekapcsolhatja az előugró értesítéseket.';
 
   @override
   String get whatIsInteresting => 'Mi érdekli';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Ahhoz, hogy csak azt küldje el, ami valóban releváns, először jelölje meg, mi érdekli Önt.';
+  String get subTextWhatIsInteresting => 'Ahhoz, hogy csak azt küldje el, ami valóban releváns, először jelölje meg, mi érdekli Önt.';
 
   @override
   String get getStarted => 'Kezdje el';
@@ -321,15 +302,13 @@ class AppLocalizationsHu extends AppLocalizations {
   String get openSettings => 'Nyissa meg a Beállítások lehetőséget';
 
   @override
-  String get subTextNotifications =>
-      'Minden Önt érdeklő témához engedélyezheti az előugró értesítéseket.';
+  String get subTextNotifications => 'Minden Önt érdeklő témához engedélyezheti az előugró értesítéseket.';
 
   @override
   String get troubleshooting_tips => 'Hibaelhárítási tippek';
 
   @override
-  String get welcome =>
-      'Üdvözöljük a híralkalmazásban, amely csak az Ön számára személyre szabott!';
+  String get welcome => 'Üdvözöljük a híralkalmazásban, amely csak az Ön számára személyre szabott!';
 
   @override
   String get continueReading => 'Folytassa az olvasást';
@@ -341,23 +320,19 @@ class AppLocalizationsHu extends AppLocalizations {
   String get area => 'Terület';
 
   @override
-  String get chooseYourAreaHint =>
-      'Válassza ki a területet, hogy honosított híreket kapjon';
+  String get chooseYourAreaHint => 'Válassza ki a területet, hogy honosított híreket kapjon';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Válassza ki a kívánt hírrégiót.\nAz alkalmazáson belül további országokat is kiválaszthat.';
+  String get chooseYourAreaHintUnused => 'Válassza ki a kívánt hírrégiót.\nAz alkalmazáson belül további országokat is kiválaszthat.';
 
   @override
-  String get chooseYourLangHint =>
-      'Válassza ki a nyelvet, később bármikor módosíthatja.';
+  String get chooseYourLangHint => 'Válassza ki a nyelvet, később bármikor módosíthatja.';
 
   @override
   String get topics => 'Témák';
 
   @override
-  String get chooseTopicsHint =>
-      'Válassza ki az Önt érdeklő témákat, ezeket bármikor módosíthatja a beállításokban.';
+  String get chooseTopicsHint => 'Válassza ki az Önt érdeklő témákat, ezeket bármikor módosíthatja a beállításokban.';
 
   @override
   String get categories => 'Kategóriák';
@@ -384,12 +359,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Nincs internet kapcsolat';
 
   @override
-  String get networkStatusPartialMessage =>
-      'El tudjuk érni az internetet, de a szervert nem.\\nPróbálkozzon újra egy pillanat múlva.';
+  String get networkStatusPartialMessage => 'El tudjuk érni az internetet, de a szervert nem.\\nPróbálkozzon újra egy pillanat múlva.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Nincs internet kapcsolat. Régebbi cikkeket mutatunk; csatlakozzon az internethez a legújabb történetek megtekintéséhez.';
+  String get networkStatusOfflineMessage => 'Nincs internet kapcsolat. Régebbi cikkeket mutatunk; csatlakozzon az internethez a legújabb történetek megtekintéséhez.';
 
   @override
   String get networkStatusInternetLabel => 'Internet kapcsolat';
@@ -419,15 +392,13 @@ class AppLocalizationsHu extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Előugró értesítések';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Customize your alerts easily. Kapcsolja be vagy ki a push értesítéseket az Önt érdeklő témákhoz.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Customize your alerts easily. Kapcsolja be vagy ki a push értesítéseket az Önt érdeklő témákhoz.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Frissítés útközben!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Hamarosan kiválaszthatja, hogy a világ mely régióiról szeretne híreket és frissítéseket kapni.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Hamarosan kiválaszthatja, hogy a világ mely régióiról szeretne híreket és frissítéseket kapni.';
 
   @override
   String get info => 'Info';
@@ -461,8 +432,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get newsTopics => 'Hírek témák';
 
   @override
-  String get errorNoInternet =>
-      'Kérjük, ellenőrizze a kapcsolatot, és próbálja újra.';
+  String get errorNoInternet => 'Kérjük, ellenőrizze a kapcsolatot, és próbálja újra.';
 
   @override
   String get errorNoInternetTitle => 'Nincs internet kapcsolat.';
@@ -480,15 +450,13 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorServerTitle => 'Szerver hiba.';
 
   @override
-  String get errorUnauthorized =>
-      'Ön nem jogosult. Kérjük, jelentkezzen be, és próbálja újra.';
+  String get errorUnauthorized => 'Ön nem jogosult. Kérjük, jelentkezzen be, és próbálja újra.';
 
   @override
   String get errorUnauthorizedTitle => 'Jogosulatlan.';
 
   @override
-  String get errorForbidden =>
-      'Nincs engedélye ennek a műveletnek a végrehajtására.';
+  String get errorForbidden => 'Nincs engedélye ennek a műveletnek a végrehajtására.';
 
   @override
   String get errorForbiddenTitle => 'Hozzáférés megtagadva.';
@@ -503,12 +471,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get updateArticle => 'További részletek frissültek';
 
   @override
-  String get errorValidation =>
-      'Néhány információ érvénytelennek tűnik. Kérjük, tekintse át, és próbálja újra.';
+  String get errorValidation => 'Néhány információ érvénytelennek tűnik. Kérjük, tekintse át, és próbálja újra.';
 
   @override
-  String get agreeMail =>
-      'Hozzájárulok ahhoz, hogy e-mailben kapok frissítéseket és hírleveleket.';
+  String get agreeMail => 'Hozzájárulok ahhoz, hogy e-mailben kapok frissítéseket és hírleveleket.';
 
   @override
   String get sendUsEmail => 'Küldjön nekünk egy e-mailt';
@@ -517,8 +483,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get discardChangesTitle => 'Elveti a módosításokat?';
 
   @override
-  String get discardChangesMessage =>
-      'Nem mentett módosításai vannak. Ha folytatja, elvesznek.';
+  String get discardChangesMessage => 'Nem mentett módosításai vannak. Ha folytatja, elvesznek.';
 
   @override
   String get discardButton => 'Eldobni';
@@ -536,8 +501,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get agreePrivacy => 'Elolvastam és elfogadom a ';
 
   @override
-  String get contactUsSubtitle =>
-      'Forduljon hozzánk bizalommal az alábbi űrlap segítségével.';
+  String get contactUsSubtitle => 'Forduljon hozzánk bizalommal az alábbi űrlap segítségével.';
 
   @override
   String get fullName => 'Teljes név';
@@ -570,12 +534,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get emptyResults_noResults => 'Nincs találat.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Próbálja megváltoztatni a kulcsszavakat, vagy válasszon másik témát.';
+  String get emptyResults_bottomWithTopic => 'Próbálja megváltoztatni a kulcsszavakat, vagy válasszon másik témát.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Próbálja megváltoztatni a kulcsszavakat.';
+  String get emptyResults_bottomWithoutTopic => 'Próbálja megváltoztatni a kulcsszavakat.';
 
   @override
   String get emptyResults_inThisTopic => 'ebben a témában';
@@ -584,8 +546,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorBadRequestTitle => 'Rossz kérés.';
 
   @override
-  String get errorBadRequest =>
-      'A kérelem érvénytelen volt. Kérjük, próbálja újra.';
+  String get errorBadRequest => 'A kérelem érvénytelen volt. Kérjük, próbálja újra.';
 
   @override
   String get errorNotModifiedTitle => 'Nincs módosítva.';
@@ -597,8 +558,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorNetworkTitle => 'Hálózati hiba.';
 
   @override
-  String get errorNetwork =>
-      'Nem tudtuk elérni a hálózatot. Ellenőrizze a kapcsolatot, és próbálja újra.';
+  String get errorNetwork => 'Nem tudtuk elérni a hálózatot. Ellenőrizze a kapcsolatot, és próbálja újra.';
 
   @override
   String get errorDataIsEmptyTitle => 'Nincs adat.';
@@ -610,29 +570,25 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorConflictTitle => 'Konfliktus.';
 
   @override
-  String get errorConflict =>
-      'A kérelem ütközött a meglévő adatokkal. Kérjük, próbálja újra.';
+  String get errorConflict => 'A kérelem ütközött a meglévő adatokkal. Kérjük, próbálja újra.';
 
   @override
   String get errorServerValidationTitle => 'Érvényesítési hiba.';
 
   @override
-  String get errorServerValidation =>
-      'A szerver visszautasított néhány adatot. Kérjük, tekintse át, és próbálja újra.';
+  String get errorServerValidation => 'A szerver visszautasított néhány adatot. Kérjük, tekintse át, és próbálja újra.';
 
   @override
   String get errorWriteFileTitle => 'Az írás nem sikerült.';
 
   @override
-  String get errorWriteFile =>
-      'Nem tudtuk menteni a fájlt. Kérjük, próbálja újra.';
+  String get errorWriteFile => 'Nem tudtuk menteni a fájlt. Kérjük, próbálja újra.';
 
   @override
   String get errorReadFileTitle => 'Az olvasás nem sikerült.';
 
   @override
-  String get errorReadFile =>
-      'Nem tudtuk elolvasni a fájlt. Kérjük, próbálja újra.';
+  String get errorReadFile => 'Nem tudtuk elolvasni a fájlt. Kérjük, próbálja újra.';
 
   @override
   String get errorFileNotFoundTitle => 'A fájl nem található.';
@@ -644,8 +600,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorInsufficientStorageTitle => 'Nincs elég tárhely.';
 
   @override
-  String get errorInsufficientStorage =>
-      'Szabadítson fel helyet, és próbálja újra.';
+  String get errorInsufficientStorage => 'Szabadítson fel helyet, és próbálja újra.';
 
   @override
   String get errorDatabaseReadTitle => 'Adatbázis olvasási hiba.';
@@ -663,8 +618,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorDatabaseConnectionTitle => 'Adatbázis csatlakozási hiba.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Nem tudtunk csatlakozni az adatbázishoz.';
+  String get errorDatabaseConnection => 'Nem tudtunk csatlakozni az adatbázishoz.';
 
   @override
   String get errorAuthTitle => 'Hitelesítési hiba.';
@@ -676,31 +630,25 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Érvénytelen hitelesítő adatok.';
 
   @override
-  String get errorInvalidCredentials =>
-      'A felhasználónév vagy a jelszó helytelen.';
+  String get errorInvalidCredentials => 'A felhasználónév vagy a jelszó helytelen.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Biztonságos tárhely olvasási hiba.';
+  String get errorSecureStorageReadTitle => 'Biztonságos tárhely olvasási hiba.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Nem tudtunk olvasni a biztonságos tárhelyről.';
+  String get errorSecureStorageRead => 'Nem tudtunk olvasni a biztonságos tárhelyről.';
 
   @override
   String get errorSecureStorageWriteTitle => 'Biztonságos tárhely írási hiba.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Nem tudtunk biztonságos tárhelyre írni.';
+  String get errorSecureStorageWrite => 'Nem tudtunk biztonságos tárhelyre írni.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Biztonságos tárolás egyértelmű hiba.';
+  String get errorSecureStorageClearTitle => 'Biztonságos tárolás egyértelmű hiba.';
 
   @override
-  String get errorSecureStorageClear =>
-      'Nem tudtuk törölni a biztonságos tárhelyet.';
+  String get errorSecureStorageClear => 'Nem tudtuk törölni a biztonságos tárhelyet.';
 
   @override
   String get errorTokenExpiredTitle => 'A munkamenet lejárt.';
@@ -718,8 +666,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Engedély megtagadva.';
 
   @override
-  String get errorPermissionDenied =>
-      'Nincs engedélye ennek a műveletnek a végrehajtására.';
+  String get errorPermissionDenied => 'Nincs engedélye ennek a műveletnek a végrehajtására.';
 
   @override
   String get errorEmptyResultTitle => 'Nincs eredmény.';
@@ -731,8 +678,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get errorInvalidInputTitle => 'Érvénytelen bevitel.';
 
   @override
-  String get errorInvalidInput =>
-      'Kérjük, ellenőrizze a bevitelt, és próbálja újra.';
+  String get errorInvalidInput => 'Kérjük, ellenőrizze a bevitelt, és próbálja újra.';
 
   @override
   String get errorEmptyTopicsTitle => 'Nincs kiválasztva téma.';

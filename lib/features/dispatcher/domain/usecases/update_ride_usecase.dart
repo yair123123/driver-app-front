@@ -1,11 +1,12 @@
-import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
+import 'package:driver_app/features/dispatcher/domain/entities/offer.dart';
+import 'package:driver_app/features/rides/domain/entities/ride/ride.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
 
-class UpdateRideUsecase {
+class UpdateRideUseCase {
   final DispatchRepository repository;
-  UpdateRideUsecase(this.repository);
+  UpdateRideUseCase(this.repository);
 
-  void call(Ride ride){
+  void call(Offer ride){
     repository.updateRide(ride);
   }
 }

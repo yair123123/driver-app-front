@@ -7,23 +7,17 @@ part 'app_prefs_model.g.dart';
 @HiveType(typeId: HiveTypeIds.appPrefsModel)
 class AppPrefsModel {
   @HiveField(0)
-  final String selectedAreaCode;
-  @HiveField(1)
-  final String selectedLangCode;
-  @HiveField(2)
   final Map<String, String> lastReadByTopic;
-  @HiveField(3)
+  @HiveField(1)
   final List<String> recentFilteredTopic;
-  @HiveField(4)
+  @HiveField(2)
   final bool isOnGroupsPage;
-  @HiveField(5)
+  @HiveField(3)
   final bool wereMessageNewGroupsPresented;
-  @HiveField(6)
+  @HiveField(4)
   final Map<String, String> lastReadMessageByGroup;
 
   const AppPrefsModel({
-    this.selectedAreaCode = 'all',
-    this.selectedLangCode = 'he',
     this.lastReadByTopic = const {},
     this.recentFilteredTopic = const [],
     this.isOnGroupsPage = false,
@@ -41,8 +35,6 @@ class AppPrefsModel {
     Map<String, String>? lastReadMessageByGroup,
   }) {
     return AppPrefsModel(
-      selectedAreaCode: selectedAreaCode ?? this.selectedAreaCode,
-      selectedLangCode: selectedLangCode ?? this.selectedLangCode,
       lastReadByTopic: lastReadByTopic ?? this.lastReadByTopic,
       recentFilteredTopic: recentFilteredTopic ?? this.recentFilteredTopic,
       isOnGroupsPage: isOnGroupsPage ?? this.isOnGroupsPage,

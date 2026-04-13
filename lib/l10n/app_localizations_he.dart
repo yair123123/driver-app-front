@@ -51,12 +51,10 @@ class AppLocalizationsHe extends AppLocalizations {
   String get shareMessageOptionContentTitle => 'שתף טקסט ומדיה';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'ישלח את הטקסט והמדיה של ההודעה';
+  String get shareMessageOptionContentSubtitle => 'ישלח את הטקסט והמדיה של ההודעה';
 
   @override
-  String get channels_section_description =>
-      'אזור חדש לערוצי וואטסאפ וטלגרם עם סרטונים, תמונות ועדכונים - כל התוכן הכי מעניין במקום אחד.';
+  String get channels_section_description => 'אזור חדש לערוצי וואטסאפ וטלגרם עם סרטונים, תמונות ועדכונים - כל התוכן הכי מעניין במקום אחד.';
 
   @override
   String get newMessages => 'הודעות חדשות';
@@ -79,8 +77,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get contactUsSuccessTitle => 'נשלח בהצלחה ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'תודה לך! קיבלנו את הודעתך ונחזור אליך בהקדם האפשרי.';
+  String get contactUsSuccessMessage => 'תודה לך! קיבלנו את הודעתך ונחזור אליך בהקדם האפשרי.';
 
   @override
   String get selectCountry => 'בחר מדינה';
@@ -122,8 +119,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get changeCountryTitle => 'לאיזו מדינה נעבור עכשיו?';
 
   @override
-  String get changeCountrySubtitle =>
-      'כאשר תבחר מדינה, כל התוכן באפליקציה יתעדכן בהתאם לבחירתך.';
+  String get changeCountrySubtitle => 'כאשר תבחר מדינה, כל התוכן באפליקציה יתעדכן בהתאם לבחירתך.';
 
   @override
   String get dailySummary => 'סיכום יומי';
@@ -144,8 +140,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'לא נמצאו תוצאות עבור \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'לא נמצאו תוצאות עבור \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' בקטגוריה זו';
@@ -196,12 +191,10 @@ class AppLocalizationsHe extends AppLocalizations {
   String get groups => 'קבוצות';
 
   @override
-  String get aiPageTitle =>
-      'בקרוב: תוכל לשוחח עם הבינה המלאכותית שלנו על החדשות!';
+  String get aiPageTitle => 'בקרוב: תוכל לשוחח עם הבינה המלאכותית שלנו על החדשות!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'בחר נושאים או תת-נושאים שתרצה לראות בעדכון שלך. אתה תמיד יכול לשנות אותם כאן.';
+  String get topicsSelectionSubtitle => 'בחר נושאים או תת-נושאים שתרצה לראות בעדכון שלך. אתה תמיד יכול לשנות אותם כאן.';
 
   @override
   String get failedToLoadTopics => 'טעינת הנושאים נכשלה';
@@ -213,8 +206,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get lang => 'שפה';
 
   @override
-  String get failed_to_load_data =>
-      'לא הצלחנו לטעון את הנתונים. אנא בדוק את חיבור האינטרנט שלך ונסה שוב.';
+  String get failed_to_load_data => 'לא הצלחנו לטעון את הנתונים. אנא בדוק את חיבור האינטרנט שלך ונסה שוב.';
 
   @override
   String get changeLang => 'שנה שפה';
@@ -223,8 +215,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get notNow => 'לא עכשיו';
 
   @override
-  String get notificationsPermissionRationale =>
-      'הפעלת התראות מאפשרת לך להישאר מעודכן בחדשות חשובות, עדכונים דחופים ותוכן מותאם אישית - כך שלעולם לא תחמיץ שום דבר שחשוב לך.';
+  String get notificationsPermissionRationale => 'הפעלת התראות מאפשרת לך להישאר מעודכן בחדשות חשובות, עדכונים דחופים ותוכן מותאם אישית - כך שלעולם לא תחמיץ שום דבר שחשוב לך.';
 
   @override
   String get skipToSuggestedContent => 'דלג לתוכן שבחרנו עבורך';
@@ -263,15 +254,13 @@ class AppLocalizationsHe extends AppLocalizations {
   String get searchPageEmptyTitle => 'הקלד מילת מפתח או נושא לחיפוש';
 
   @override
-  String get notificationSubTitle =>
-      'אתה יכול להפעיל התראות קופצות עבור כל נושא שמעניין אותך.';
+  String get notificationSubTitle => 'אתה יכול להפעיל התראות קופצות עבור כל נושא שמעניין אותך.';
 
   @override
   String get whatIsInteresting => 'מה מעניין אותך';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'כדי לשלוח רק את מה שבאמת רלוונטי, תחילה נסמן את מה שמעניין אותך.';
+  String get subTextWhatIsInteresting => 'כדי לשלוח רק את מה שבאמת רלוונטי, תחילה נסמן את מה שמעניין אותך.';
 
   @override
   String get getStarted => 'התחל';
@@ -313,15 +302,13 @@ class AppLocalizationsHe extends AppLocalizations {
   String get openSettings => 'פתח את ההגדרות';
 
   @override
-  String get subTextNotifications =>
-      'אתה יכול להפעיל התראות קופצות עבור כל נושא שמעניין אותך.';
+  String get subTextNotifications => 'אתה יכול להפעיל התראות קופצות עבור כל נושא שמעניין אותך.';
 
   @override
   String get troubleshooting_tips => 'עצות לפתרון בעיות';
 
   @override
-  String get welcome =>
-      'ברוכים הבאים לאפליקציית החדשות, בהתאמה אישית רק בשבילך!';
+  String get welcome => 'ברוכים הבאים לאפליקציית החדשות, בהתאמה אישית רק בשבילך!';
 
   @override
   String get continueReading => 'המשך לקרוא';
@@ -333,23 +320,19 @@ class AppLocalizationsHe extends AppLocalizations {
   String get area => 'אזור';
 
   @override
-  String get chooseYourAreaHint =>
-      'בחר את האזור שלך כדי לקבל עדכוני חדשות מקומיים';
+  String get chooseYourAreaHint => 'בחר את האזור שלך כדי לקבל עדכוני חדשות מקומיים';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'בחר את אזור החדשות שאתה רוצה.\nבתוך האפליקציה, תוכל לבחור גם מדינות נוספות.';
+  String get chooseYourAreaHintUnused => 'בחר את אזור החדשות שאתה רוצה.\nבתוך האפליקציה, תוכל לבחור גם מדינות נוספות.';
 
   @override
-  String get chooseYourLangHint =>
-      'בחר את השפה שלך, אתה תמיד יכול לשנות אותה מאוחר יותר.';
+  String get chooseYourLangHint => 'בחר את השפה שלך, אתה תמיד יכול לשנות אותה מאוחר יותר.';
 
   @override
   String get topics => 'נושאים';
 
   @override
-  String get chooseTopicsHint =>
-      'בחר את הנושאים שמעניינים אותך, אתה תמיד יכול לשנות אותם בהגדרות.';
+  String get chooseTopicsHint => 'בחר את הנושאים שמעניינים אותך, אתה תמיד יכול לשנות אותם בהגדרות.';
 
   @override
   String get categories => 'קטגוריות';
@@ -376,12 +359,10 @@ class AppLocalizationsHe extends AppLocalizations {
   String get networkStatusOfflineTitle => 'אין חיבור לאינטרנט';
 
   @override
-  String get networkStatusPartialMessage =>
-      'אנחנו יכולים להגיע לאינטרנט אבל לא לשרת.\\nנסה שוב בעוד רגע.';
+  String get networkStatusPartialMessage => 'אנחנו יכולים להגיע לאינטרנט אבל לא לשרת.\\nנסה שוב בעוד רגע.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'אין חיבור לאינטרנט. אנו מציגים מאמרים ישנים יותר; התחבר לאינטרנט כדי לראות את הסיפורים האחרונים.';
+  String get networkStatusOfflineMessage => 'אין חיבור לאינטרנט. אנו מציגים מאמרים ישנים יותר; התחבר לאינטרנט כדי לראות את הסיפורים האחרונים.';
 
   @override
   String get networkStatusInternetLabel => 'חיבור לאינטרנט';
@@ -411,15 +392,13 @@ class AppLocalizationsHe extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'הודעות קופצות';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'התאם אישית את ההתראות שלך בקלות. הפעל או כבה התראות דחיפה עבור כל נושא שמעניין אותך.';
+  String get dismissibleNoticeNotificationsSubtitle => 'התאם אישית את ההתראות שלך בקלות. הפעל או כבה התראות דחיפה עבור כל נושא שמעניין אותך.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'עדכון בדרך!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'בקרוב תוכל לבחור מאילו אזורים בעולם אתה רוצה לקבל חדשות ועדכונים.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'בקרוב תוכל לבחור מאילו אזורים בעולם אתה רוצה לקבל חדשות ועדכונים.';
 
   @override
   String get info => 'מידע';
@@ -504,8 +483,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get discardChangesTitle => 'למחוק שינויים?';
 
   @override
-  String get discardChangesMessage =>
-      'יש לך שינויים שלא נשמרו. אם תמשיך, הם יאבדו.';
+  String get discardChangesMessage => 'יש לך שינויים שלא נשמרו. אם תמשיך, הם יאבדו.';
 
   @override
   String get discardButton => 'לזרוק';
@@ -556,8 +534,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get emptyResults_noResults => 'לא נמצאו תוצאות.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'נסה לשנות את מילות המפתח שלך או בחר נושא אחר.';
+  String get emptyResults_bottomWithTopic => 'נסה לשנות את מילות המפתח שלך או בחר נושא אחר.';
 
   @override
   String get emptyResults_bottomWithoutTopic => 'נסה לשנות את מילות המפתח שלך.';
@@ -581,8 +558,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get errorNetworkTitle => 'שגיאת רשת.';
 
   @override
-  String get errorNetwork =>
-      'לא הצלחנו להגיע לרשת. בדוק את החיבור שלך ונסה שוב.';
+  String get errorNetwork => 'לא הצלחנו להגיע לרשת. בדוק את החיבור שלך ונסה שוב.';
 
   @override
   String get errorDataIsEmptyTitle => 'אין נתונים זמינים.';
@@ -600,8 +576,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get errorServerValidationTitle => 'שגיאת אימות.';
 
   @override
-  String get errorServerValidation =>
-      'השרת דחה נתונים מסוימים. אנא בדוק ונסה שוב.';
+  String get errorServerValidation => 'השרת דחה נתונים מסוימים. אנא בדוק ונסה שוב.';
 
   @override
   String get errorWriteFileTitle => 'הכתיבה נכשלה.';

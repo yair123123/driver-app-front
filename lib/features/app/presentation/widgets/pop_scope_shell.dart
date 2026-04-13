@@ -1,11 +1,13 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:news_app/core/navigation/safe_navigation.dart';
-import 'package:news_app/core/routes/app_router.dart';
-import 'package:news_app/features/app/presentation/pages/app_shell.dart';
-import 'package:news_app/features/app/presentation/providers/app_prefs_provider.dart';
-import 'package:news_app/features/home/presentation/riverpod/providers/home_tab_index_provider.dart';
+import 'package:driver_app/core/navigation/safe_navigation.dart';
+import 'package:driver_app/core/router/app_router.dart';
+import 'package:driver_app/features/app/presentation/pages/app_shell.dart';
+import 'package:driver_app/features/app/presentation/providers/app_prefs_provider.dart';
+import 'package:driver_app/features/app/presentation/providers/home_tab_index_provider.dart';
+
+import '../../../../core/extensions/context_extention.dart';
 
 class PopScopeShell extends ConsumerWidget {
   static const String _homePath = '/home';

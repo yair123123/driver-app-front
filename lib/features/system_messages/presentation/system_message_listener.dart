@@ -1,10 +1,10 @@
+import 'package:driver_app/core/utils/app_messenger.dart';
+import 'package:driver_app/features/system_messages/application/system_message_notifier.dart';
+import 'package:driver_app/features/system_messages/domain/system_message.dart';
+import 'package:driver_app/features/system_messages/presentation/system_message_i18n.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:news_app/core/utils/app_messenger.dart';
-import 'package:news_app/features/system_messages/application/system_message_notifier.dart';
-import 'package:news_app/features/system_messages/domain/system_message.dart';
-import 'package:news_app/features/system_messages/presentation/system_message_i18n.dart';
-import 'package:news_app/l10n/app_localizations.dart';
 class SystemMessageListener extends ConsumerWidget {
   const SystemMessageListener({super.key, required this.child});
   final Widget child;

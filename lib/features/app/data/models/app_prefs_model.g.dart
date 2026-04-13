@@ -17,33 +17,27 @@ class AppPrefsModelAdapter extends TypeAdapter<AppPrefsModel> {
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return AppPrefsModel(
-      isOnGroupsPage: fields[4] as bool?,
-      wereMessageNewGroupsPresented: fields[5] as bool?,
-      lastReadMessageByGroup: (fields[6] as Map?)?.cast<String, String>(),
-      selectedAreaCode: fields[0] as String,
-      selectedLangCode: fields[1] as String,
-      lastReadByTopic: (fields[2] as Map?)?.cast<String, String>(),
-      recentFilteredTopic: (fields[3] as List?)?.cast<String>(),
+      lastReadByTopic: (fields[0] as Map).cast<String, String>(),
+      recentFilteredTopic: (fields[1] as List).cast<String>(),
+      isOnGroupsPage: fields[2] as bool,
+      wereMessageNewGroupsPresented: fields[3] as bool,
+      lastReadMessageByGroup: (fields[4] as Map).cast<String, String>(),
     );
   }
 
   @override
   void write(BinaryWriter writer, AppPrefsModel obj) {
     writer
-      ..writeByte(7)
-      ..writeByte(0)
-      ..write(obj.selectedAreaCode)
-      ..writeByte(1)
-      ..write(obj.selectedLangCode)
-      ..writeByte(2)
-      ..write(obj.lastReadByTopic)
-      ..writeByte(3)
-      ..write(obj.recentFilteredTopic)
-      ..writeByte(4)
-      ..write(obj.isOnGroupsPage)
       ..writeByte(5)
+      ..writeByte(0)
+      ..write(obj.lastReadByTopic)
+      ..writeByte(1)
+      ..write(obj.recentFilteredTopic)
+      ..writeByte(2)
+      ..write(obj.isOnGroupsPage)
+      ..writeByte(3)
       ..write(obj.wereMessageNewGroupsPresented)
-      ..writeByte(6)
+      ..writeByte(4)
       ..write(obj.lastReadMessageByGroup);
   }
 

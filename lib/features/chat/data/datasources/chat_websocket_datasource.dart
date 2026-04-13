@@ -1,28 +1,18 @@
-import 'package:driver_app/core/enums/websocket_typecode.dart';
-import 'package:driver_app/core/websocket/websocket_dto.dart';
-import 'package:driver_app/core/websocket/websocket_service.dart';
 import 'package:driver_app/features/chat/domain/entites/message.dart';
+import 'package:driver_app/features/chat/ws/chat_ws_handler.dart';
+import 'package:driver_app/core/ws/transport/socket_connection_manager.dart';
 
 class MessagesWebSocketDatasource {
-  final WebSocketService wbSocket;
-  MessagesWebSocketDatasource(this.wbSocket);
+  MessagesWebSocketDatasource(this._handler, this._manager);
+
+  final ChatWsHandler _handler;
+  final SocketConnectionManager _manager;
+
   Stream<Message> get rideEvents {
-    return wbSocket.webSocketDtoStream
-        .map((event) {
-          try {
-            if (event.typeCode == WebSocketTypeCode.chat) {
-              return event.content;
-            }
-          } catch (_) {}
-          return null;
-        })
-        .where((event) => event != null)
-        .cast<Message>();
+    return _handler.events.map((event) => event.message);
   }
 
   void sendMessage(Message message) {
-    wbSocket.send(
-      WebSocketDto(content: message, typeCode: WebSocketTypeCode.chat,error: ""),
-    );
+    _manager.sendJson(message.toJson());
   }
 }

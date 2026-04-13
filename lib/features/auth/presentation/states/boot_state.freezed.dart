@@ -12,8 +12,7 @@ part of 'boot_state.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-  'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models',
-);
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
 /// @nodoc
 mixin _$BootState {
@@ -24,7 +23,8 @@ mixin _$BootState {
     required TResult Function(BootStep step) warmingUp,
     required TResult Function() ready,
     required TResult Function(String message) error,
-  }) => throw _privateConstructorUsedError;
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? loading,
@@ -32,7 +32,8 @@ mixin _$BootState {
     TResult? Function(BootStep step)? warmingUp,
     TResult? Function()? ready,
     TResult? Function(String message)? error,
-  }) => throw _privateConstructorUsedError;
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? loading,
@@ -41,7 +42,8 @@ mixin _$BootState {
     TResult Function()? ready,
     TResult Function(String message)? error,
     required TResult orElse(),
-  }) => throw _privateConstructorUsedError;
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(Loading value) loading,
@@ -49,7 +51,8 @@ mixin _$BootState {
     required TResult Function(WarmingUp value) warmingUp,
     required TResult Function(Ready value) ready,
     required TResult Function(Error value) error,
-  }) => throw _privateConstructorUsedError;
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(Loading value)? loading,
@@ -57,7 +60,8 @@ mixin _$BootState {
     TResult? Function(WarmingUp value)? warmingUp,
     TResult? Function(Ready value)? ready,
     TResult? Function(Error value)? error,
-  }) => throw _privateConstructorUsedError;
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(Loading value)? loading,
@@ -66,7 +70,8 @@ mixin _$BootState {
     TResult Function(Ready value)? ready,
     TResult Function(Error value)? error,
     required TResult orElse(),
-  }) => throw _privateConstructorUsedError;
+  }) =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -84,17 +89,13 @@ class _$BootStateCopyWithImpl<$Res, $Val extends BootState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
-
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
 abstract class _$$LoadingImplCopyWith<$Res> {
   factory _$$LoadingImplCopyWith(
-    _$LoadingImpl value,
-    $Res Function(_$LoadingImpl) then,
-  ) = __$$LoadingImplCopyWithImpl<$Res>;
+          _$LoadingImpl value, $Res Function(_$LoadingImpl) then) =
+      __$$LoadingImplCopyWithImpl<$Res>;
 }
 
 /// @nodoc
@@ -102,12 +103,8 @@ class __$$LoadingImplCopyWithImpl<$Res>
     extends _$BootStateCopyWithImpl<$Res, _$LoadingImpl>
     implements _$$LoadingImplCopyWith<$Res> {
   __$$LoadingImplCopyWithImpl(
-    _$LoadingImpl _value,
-    $Res Function(_$LoadingImpl) _then,
-  ) : super(_value, _then);
-
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
+      _$LoadingImpl _value, $Res Function(_$LoadingImpl) _then)
+      : super(_value, _then);
 }
 
 /// @nodoc
@@ -217,9 +214,8 @@ abstract class Loading implements BootState {
 /// @nodoc
 abstract class _$$UnauthImplCopyWith<$Res> {
   factory _$$UnauthImplCopyWith(
-    _$UnauthImpl value,
-    $Res Function(_$UnauthImpl) then,
-  ) = __$$UnauthImplCopyWithImpl<$Res>;
+          _$UnauthImpl value, $Res Function(_$UnauthImpl) then) =
+      __$$UnauthImplCopyWithImpl<$Res>;
 }
 
 /// @nodoc
@@ -227,12 +223,8 @@ class __$$UnauthImplCopyWithImpl<$Res>
     extends _$BootStateCopyWithImpl<$Res, _$UnauthImpl>
     implements _$$UnauthImplCopyWith<$Res> {
   __$$UnauthImplCopyWithImpl(
-    _$UnauthImpl _value,
-    $Res Function(_$UnauthImpl) _then,
-  ) : super(_value, _then);
-
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
+      _$UnauthImpl _value, $Res Function(_$UnauthImpl) _then)
+      : super(_value, _then);
 }
 
 /// @nodoc
@@ -342,9 +334,8 @@ abstract class Unauth implements BootState {
 /// @nodoc
 abstract class _$$WarmingUpImplCopyWith<$Res> {
   factory _$$WarmingUpImplCopyWith(
-    _$WarmingUpImpl value,
-    $Res Function(_$WarmingUpImpl) then,
-  ) = __$$WarmingUpImplCopyWithImpl<$Res>;
+          _$WarmingUpImpl value, $Res Function(_$WarmingUpImpl) then) =
+      __$$WarmingUpImplCopyWithImpl<$Res>;
   @useResult
   $Res call({BootStep step});
 }
@@ -354,23 +345,20 @@ class __$$WarmingUpImplCopyWithImpl<$Res>
     extends _$BootStateCopyWithImpl<$Res, _$WarmingUpImpl>
     implements _$$WarmingUpImplCopyWith<$Res> {
   __$$WarmingUpImplCopyWithImpl(
-    _$WarmingUpImpl _value,
-    $Res Function(_$WarmingUpImpl) _then,
-  ) : super(_value, _then);
+      _$WarmingUpImpl _value, $Res Function(_$WarmingUpImpl) _then)
+      : super(_value, _then);
 
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
-  $Res call({Object? step = null}) {
-    return _then(
-      _$WarmingUpImpl(
-        null == step
-            ? _value.step
-            : step // ignore: cast_nullable_to_non_nullable
-                as BootStep,
-      ),
-    );
+  $Res call({
+    Object? step = null,
+  }) {
+    return _then(_$WarmingUpImpl(
+      null == step
+          ? _value.step
+          : step // ignore: cast_nullable_to_non_nullable
+              as BootStep,
+    ));
   }
 }
 
@@ -398,9 +386,7 @@ class _$WarmingUpImpl implements WarmingUp {
   @override
   int get hashCode => Object.hash(runtimeType, step);
 
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$WarmingUpImplCopyWith<_$WarmingUpImpl> get copyWith =>
@@ -491,10 +477,7 @@ abstract class WarmingUp implements BootState {
   const factory WarmingUp(final BootStep step) = _$WarmingUpImpl;
 
   BootStep get step;
-
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$WarmingUpImplCopyWith<_$WarmingUpImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -502,9 +485,8 @@ abstract class WarmingUp implements BootState {
 /// @nodoc
 abstract class _$$ReadyImplCopyWith<$Res> {
   factory _$$ReadyImplCopyWith(
-    _$ReadyImpl value,
-    $Res Function(_$ReadyImpl) then,
-  ) = __$$ReadyImplCopyWithImpl<$Res>;
+          _$ReadyImpl value, $Res Function(_$ReadyImpl) then) =
+      __$$ReadyImplCopyWithImpl<$Res>;
 }
 
 /// @nodoc
@@ -512,12 +494,8 @@ class __$$ReadyImplCopyWithImpl<$Res>
     extends _$BootStateCopyWithImpl<$Res, _$ReadyImpl>
     implements _$$ReadyImplCopyWith<$Res> {
   __$$ReadyImplCopyWithImpl(
-    _$ReadyImpl _value,
-    $Res Function(_$ReadyImpl) _then,
-  ) : super(_value, _then);
-
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
+      _$ReadyImpl _value, $Res Function(_$ReadyImpl) _then)
+      : super(_value, _then);
 }
 
 /// @nodoc
@@ -627,9 +605,8 @@ abstract class Ready implements BootState {
 /// @nodoc
 abstract class _$$ErrorImplCopyWith<$Res> {
   factory _$$ErrorImplCopyWith(
-    _$ErrorImpl value,
-    $Res Function(_$ErrorImpl) then,
-  ) = __$$ErrorImplCopyWithImpl<$Res>;
+          _$ErrorImpl value, $Res Function(_$ErrorImpl) then) =
+      __$$ErrorImplCopyWithImpl<$Res>;
   @useResult
   $Res call({String message});
 }
@@ -639,23 +616,20 @@ class __$$ErrorImplCopyWithImpl<$Res>
     extends _$BootStateCopyWithImpl<$Res, _$ErrorImpl>
     implements _$$ErrorImplCopyWith<$Res> {
   __$$ErrorImplCopyWithImpl(
-    _$ErrorImpl _value,
-    $Res Function(_$ErrorImpl) _then,
-  ) : super(_value, _then);
+      _$ErrorImpl _value, $Res Function(_$ErrorImpl) _then)
+      : super(_value, _then);
 
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
-  $Res call({Object? message = null}) {
-    return _then(
-      _$ErrorImpl(
-        null == message
-            ? _value.message
-            : message // ignore: cast_nullable_to_non_nullable
-                as String,
-      ),
-    );
+  $Res call({
+    Object? message = null,
+  }) {
+    return _then(_$ErrorImpl(
+      null == message
+          ? _value.message
+          : message // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
   }
 }
 
@@ -683,9 +657,7 @@ class _$ErrorImpl implements Error {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$ErrorImplCopyWith<_$ErrorImpl> get copyWith =>
@@ -776,10 +748,7 @@ abstract class Error implements BootState {
   const factory Error(final String message) = _$ErrorImpl;
 
   String get message;
-
-  /// Create a copy of BootState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$ErrorImplCopyWith<_$ErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

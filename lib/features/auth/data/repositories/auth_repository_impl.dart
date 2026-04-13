@@ -1,36 +1,34 @@
-import 'package:driver_app/features/bootstrap/data/datasources/auth_class_datasource.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/auth_remote_datasource.dart';
-import 'package:driver_app/features/bootstrap/data/datasources/user_data_source.dart';
-import 'package:driver_app/features/bootstrap/domain/entities/credentials/auth_user.dart';
-import 'package:driver_app/features/bootstrap/domain/entities/user/user.dart';
-import 'package:driver_app/features/bootstrap/domain/repositories/app_initial_repository.dart';
+import 'package:driver_app/core/error/failure.dart';
+import 'package:driver_app/features/auth/data/datasources/auth_remote_datasource.dart';
+import 'package:driver_app/features/auth/data/mappers/user_mapper.dart';
+import 'package:driver_app/features/auth/data/models/login_request.dart';
+import 'package:driver_app/features/auth/domain/entities/auth_session.dart';
+import 'package:driver_app/features/auth/domain/entities/login_params.dart';
+import 'package:driver_app/features/auth/domain/entities/user.dart';
+import 'package:driver_app/features/auth/domain/repositories/auth_repository.dart';
+import 'package:fpdart/fpdart.dart';
 
-class AppInitialRepositoryImpl  implements AppInitialRepository{
-  final AuthRemoteDatasource remote;
-  final AuthLocalDatasource local;
-  final UserDataSource userDataSource;
-  AppInitialRepositoryImpl(this.remote,this.local,this.userDataSource);
-  @override
-  Future<User> getUser(String token) async {
-    return await userDataSource.getUser(token);
-  }
-  @override
-  Future<AuthUser> login(String username, String id) async {
+import '../mappers/login_response_mapper.dart';
 
-    AuthUser user =  await remote.login(username, id);
-    local.saveToken(user.jwt_token);
-    return user;
+class AuthRepositoryImpl implements AuthRepository {
+  final AuthRemoteDataSource remote;
+
+  AuthRepositoryImpl(this.remote);
+
+  @override
+  Future<Either<Failure, AuthSession>> login(LoginParams params) async {
+    final res = await remote.login(
+      LoginRequest(
+        username: params.username,
+        password: params.password,
+      ),
+    );
+
+    return res.map((model) => model.toEntity());
   }
   @override
-  Future<bool> validateSavedToken(String token) async {
-    return await remote.validateToken(token);
-  }
-  @override
-  Future<String?> getSavedToken() async {
-    return await local.getToken();
-  }
-  @override
-  Future<void> clearToken() async {
-    return await local.clearToken();
+  Future<Either<Failure,User>> getMe() async {
+    final userModel = await remote.getMe();
+    return userModel.map((f) => f.toEntity());
   }
 }

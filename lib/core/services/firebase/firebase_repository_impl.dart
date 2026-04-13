@@ -1,5 +1,5 @@
-import 'package:news_app/core/services/firebase/firebase_datasource.dart';
-import 'package:news_app/core/services/firebase/firebase_repository.dart';
+import 'package:driver_app/core/services/firebase/firebase_datasource.dart';
+import 'package:driver_app/core/services/firebase/firebase_repository.dart';
 
 class FirebaseRepositoryImpl implements FirebaseRepository {
   final FirebaseDatasource firebaseDatasource;

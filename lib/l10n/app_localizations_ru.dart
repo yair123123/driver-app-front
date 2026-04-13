@@ -45,19 +45,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Новая область для каналов WhatsApp и Telegram с видео, изображениями и обновлениями — весь самый интересный контент в одном месте.';
+  String get channels_section_description => 'Новая область для каналов WhatsApp и Telegram с видео, изображениями и обновлениями — весь самый интересный контент в одном месте.';
 
   @override
   String get newMessages => 'Новые сообщения';
@@ -80,8 +77,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get contactUsSuccessTitle => 'Отправлено успешно ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Спасибо! Мы получили ваше сообщение и свяжемся с вами как можно скорее.';
+  String get contactUsSuccessMessage => 'Спасибо! Мы получили ваше сообщение и свяжемся с вами как можно скорее.';
 
   @override
   String get selectCountry => 'Выберите страну';
@@ -123,8 +119,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get changeCountryTitle => 'В какую страну нам следует переключиться?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Когда вы выберете страну, весь контент в приложении обновится в соответствии с вашим выбором.';
+  String get changeCountrySubtitle => 'Когда вы выберете страну, весь контент в приложении обновится в соответствии с вашим выбором.';
 
   @override
   String get dailySummary => 'Ежедневная сводка';
@@ -145,8 +140,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Результаты не найдены для \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Результаты не найдены для \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' в этой категории';
@@ -158,8 +152,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationsOffTitle => 'Уведомления отключены';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Похоже, доступ к уведомлениям еще не включен.';
+  String get notificationsOffSubtitle => 'Похоже, доступ к уведомлениям еще не включен.';
 
   @override
   String get newArticles => 'Новые статьи';
@@ -168,8 +161,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get home => 'дом';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Изменения вступят в силу при следующем запуске приложения.';
+  String get changesApplyOnNextLaunch => 'Изменения вступят в силу при следующем запуске приложения.';
 
   @override
   String get enable => 'Включить';
@@ -190,8 +182,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get freeSearch => 'Бесплатный поиск';
 
   @override
-  String get aiPageSubtitle =>
-      'Эта функция все еще находится в разработке \n стоит вернуться сюда в ближайшее время.';
+  String get aiPageSubtitle => 'Эта функция все еще находится в разработке \n стоит вернуться сюда в ближайшее время.';
 
   @override
   String get topicsSelectionTitle => 'Выбор тем новостей';
@@ -200,12 +191,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get groups => 'Группы';
 
   @override
-  String get aiPageTitle =>
-      'Скоро: вы сможете общаться с нашим искусственным интеллектом о новостях!';
+  String get aiPageTitle => 'Скоро: вы сможете общаться с нашим искусственным интеллектом о новостях!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Выберите темы или подтемы, которые вы хотели бы видеть в своей ленте. Вы всегда можете изменить их здесь.';
+  String get topicsSelectionSubtitle => 'Выберите темы или подтемы, которые вы хотели бы видеть в своей ленте. Вы всегда можете изменить их здесь.';
 
   @override
   String get failedToLoadTopics => 'Не удалось загрузить темы.';
@@ -217,8 +206,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get lang => 'Язык';
 
   @override
-  String get failed_to_load_data =>
-      'Нам не удалось загрузить данные. Пожалуйста, проверьте подключение к Интернету и повторите попытку.';
+  String get failed_to_load_data => 'Нам не удалось загрузить данные. Пожалуйста, проверьте подключение к Интернету и повторите попытку.';
 
   @override
   String get changeLang => 'Изменить язык';
@@ -227,12 +215,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notNow => 'Не сейчас';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Включение уведомлений позволяет вам быть в курсе важных новостей, срочных обновлений и персонализированного контента, поэтому вы никогда не пропустите ничего важного для вас.';
+  String get notificationsPermissionRationale => 'Включение уведомлений позволяет вам быть в курсе важных новостей, срочных обновлений и персонализированного контента, поэтому вы никогда не пропустите ничего важного для вас.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Перейти к контенту, который мы выбрали для вас';
+  String get skipToSuggestedContent => 'Перейти к контенту, который мы выбрали для вас';
 
   @override
   String get lets_go => 'Поехали';
@@ -265,19 +251,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Что бы вы хотели найти?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Введите ключевое слово или тему для поиска';
+  String get searchPageEmptyTitle => 'Введите ключевое слово или тему для поиска';
 
   @override
-  String get notificationSubTitle =>
-      'Вы можете включить всплывающие уведомления по любой интересующей вас теме.';
+  String get notificationSubTitle => 'Вы можете включить всплывающие уведомления по любой интересующей вас теме.';
 
   @override
   String get whatIsInteresting => 'Что вас интересует';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Чтобы отправлять только то, что действительно актуально, давайте сначала отметим то, что вас интересует.';
+  String get subTextWhatIsInteresting => 'Чтобы отправлять только то, что действительно актуально, давайте сначала отметим то, что вас интересует.';
 
   @override
   String get getStarted => 'Начать';
@@ -319,15 +302,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get openSettings => 'Открыть настройки';
 
   @override
-  String get subTextNotifications =>
-      'Вы можете включить всплывающие уведомления по каждой интересующей вас теме.';
+  String get subTextNotifications => 'Вы можете включить всплывающие уведомления по каждой интересующей вас теме.';
 
   @override
   String get troubleshooting_tips => 'Советы по устранению неполадок';
 
   @override
-  String get welcome =>
-      'Добро пожаловать в новостное приложение, персонализированное специально для вас!';
+  String get welcome => 'Добро пожаловать в новостное приложение, персонализированное специально для вас!';
 
   @override
   String get continueReading => 'Продолжить чтение';
@@ -339,23 +320,19 @@ class AppLocalizationsRu extends AppLocalizations {
   String get area => 'Площадь';
 
   @override
-  String get chooseYourAreaHint =>
-      'Выберите свой регион, чтобы получать локализованные обновления новостей';
+  String get chooseYourAreaHint => 'Выберите свой регион, чтобы получать локализованные обновления новостей';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Выберите нужный регион новостей.\nВ приложении вы также можете выбрать дополнительные страны.';
+  String get chooseYourAreaHintUnused => 'Выберите нужный регион новостей.\nВ приложении вы также можете выбрать дополнительные страны.';
 
   @override
-  String get chooseYourLangHint =>
-      'Выберите язык, вы всегда сможете изменить его позже.';
+  String get chooseYourLangHint => 'Выберите язык, вы всегда сможете изменить его позже.';
 
   @override
   String get topics => 'Темы';
 
   @override
-  String get chooseTopicsHint =>
-      'Выбирайте темы, которые вас интересуют, вы всегда можете изменить их в настройках.';
+  String get chooseTopicsHint => 'Выбирайте темы, которые вас интересуют, вы всегда можете изменить их в настройках.';
 
   @override
   String get categories => 'Категории';
@@ -382,12 +359,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Нет подключения к Интернету';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Мы можем подключиться к Интернету, но не к серверу.\\nПовторите попытку через минуту.';
+  String get networkStatusPartialMessage => 'Мы можем подключиться к Интернету, но не к серверу.\\nПовторите попытку через минуту.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Нет подключения к Интернету. Мы показываем старые статьи; подключитесь к Интернету, чтобы увидеть последние новости.';
+  String get networkStatusOfflineMessage => 'Нет подключения к Интернету. Мы показываем старые статьи; подключитесь к Интернету, чтобы увидеть последние новости.';
 
   @override
   String get networkStatusInternetLabel => 'подключение к Интернету';
@@ -417,15 +392,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Всплывающие уведомления';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Легко настройте свои оповещения. Включите или отключите push-уведомления для любой темы, которая вас интересует.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Легко настройте свои оповещения. Включите или отключите push-уведомления для любой темы, которая вас интересует.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Обновление уже в пути!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Вскоре вы сможете выбирать, из каких регионов мира вы хотите получать новости и обновления.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Вскоре вы сможете выбирать, из каких регионов мира вы хотите получать новости и обновления.';
 
   @override
   String get info => 'Информация';
@@ -459,36 +432,31 @@ class AppLocalizationsRu extends AppLocalizations {
   String get newsTopics => 'Темы новостей';
 
   @override
-  String get errorNoInternet =>
-      'Пожалуйста, проверьте подключение и повторите попытку.';
+  String get errorNoInternet => 'Пожалуйста, проверьте подключение и повторите попытку.';
 
   @override
   String get errorNoInternetTitle => 'Нет подключения к Интернету.';
 
   @override
-  String get errorTimeout =>
-      'Время запроса истекло. Пожалуйста, повторите попытку позже.';
+  String get errorTimeout => 'Время запроса истекло. Пожалуйста, повторите попытку позже.';
 
   @override
   String get errorTimeoutTitle => 'Время запроса истекло.';
 
   @override
-  String get errorServer =>
-      'Произошла ошибка сервера. Пожалуйста, попробуйте еще раз.';
+  String get errorServer => 'Произошла ошибка сервера. Пожалуйста, попробуйте еще раз.';
 
   @override
   String get errorServerTitle => 'Ошибка сервера.';
 
   @override
-  String get errorUnauthorized =>
-      'Вы не авторизованы. Пожалуйста, войдите в систему и повторите попытку.';
+  String get errorUnauthorized => 'Вы не авторизованы. Пожалуйста, войдите в систему и повторите попытку.';
 
   @override
   String get errorUnauthorizedTitle => 'Несанкционированный.';
 
   @override
-  String get errorForbidden =>
-      'У вас нет разрешения на выполнение этого действия.';
+  String get errorForbidden => 'У вас нет разрешения на выполнение этого действия.';
 
   @override
   String get errorForbiddenTitle => 'Доступ запрещен.';
@@ -503,12 +471,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get updateArticle => 'Более подробная информация обновлена';
 
   @override
-  String get errorValidation =>
-      'Некоторая информация выглядит недействительной. Пожалуйста, просмотрите и повторите попытку.';
+  String get errorValidation => 'Некоторая информация выглядит недействительной. Пожалуйста, просмотрите и повторите попытку.';
 
   @override
-  String get agreeMail =>
-      'Я согласен получать обновления и информационные бюллетени по электронной почте.';
+  String get agreeMail => 'Я согласен получать обновления и информационные бюллетени по электронной почте.';
 
   @override
   String get sendUsEmail => 'Отправьте нам электронное письмо';
@@ -517,8 +483,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get discardChangesTitle => 'Отменить изменения?';
 
   @override
-  String get discardChangesMessage =>
-      'У вас есть несохраненные изменения. Если вы продолжите, они будут потеряны.';
+  String get discardChangesMessage => 'У вас есть несохраненные изменения. Если вы продолжите, они будут потеряны.';
 
   @override
   String get discardButton => 'Отбросить';
@@ -536,8 +501,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get agreePrivacy => 'Я прочитал и согласен с ';
 
   @override
-  String get contactUsSubtitle =>
-      'Не стесняйтесь обращаться к нам, используя форму ниже.';
+  String get contactUsSubtitle => 'Не стесняйтесь обращаться к нам, используя форму ниже.';
 
   @override
   String get fullName => 'Полное имя';
@@ -558,8 +522,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get send => 'Отправить';
 
   @override
-  String get errorGeneric =>
-      'Что-то пошло не так. Пожалуйста, попробуйте еще раз.';
+  String get errorGeneric => 'Что-то пошло не так. Пожалуйста, попробуйте еще раз.';
 
   @override
   String get errorGenericTitle => 'Что-то пошло не так.';
@@ -571,12 +534,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get emptyResults_noResults => 'Результаты не найдены.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Попробуйте изменить ключевые слова или выбрать другую тему.';
+  String get emptyResults_bottomWithTopic => 'Попробуйте изменить ключевые слова или выбрать другую тему.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Попробуйте изменить ключевые слова.';
+  String get emptyResults_bottomWithoutTopic => 'Попробуйте изменить ключевые слова.';
 
   @override
   String get emptyResults_inThisTopic => 'в этой теме';
@@ -585,22 +546,19 @@ class AppLocalizationsRu extends AppLocalizations {
   String get errorBadRequestTitle => 'Плохой запрос.';
 
   @override
-  String get errorBadRequest =>
-      'Запрос недействителен. Пожалуйста, попробуйте еще раз.';
+  String get errorBadRequest => 'Запрос недействителен. Пожалуйста, попробуйте еще раз.';
 
   @override
   String get errorNotModifiedTitle => 'Не модифицировано.';
 
   @override
-  String get errorNotModified =>
-      'С момента вашего последнего запроса ничего не изменилось.';
+  String get errorNotModified => 'С момента вашего последнего запроса ничего не изменилось.';
 
   @override
   String get errorNetworkTitle => 'Ошибка сети.';
 
   @override
-  String get errorNetwork =>
-      'Мы не смогли подключиться к сети. Проверьте подключение и повторите попытку.';
+  String get errorNetwork => 'Мы не смогли подключиться к сети. Проверьте подключение и повторите попытку.';
 
   @override
   String get errorDataIsEmptyTitle => 'Данные отсутствуют.';
@@ -612,51 +570,43 @@ class AppLocalizationsRu extends AppLocalizations {
   String get errorConflictTitle => 'Конфликт.';
 
   @override
-  String get errorConflict =>
-      'Запрос противоречил существующим данным. Пожалуйста, попробуйте еще раз.';
+  String get errorConflict => 'Запрос противоречил существующим данным. Пожалуйста, попробуйте еще раз.';
 
   @override
   String get errorServerValidationTitle => 'Ошибка валидации.';
 
   @override
-  String get errorServerValidation =>
-      'Сервер отклонил некоторые данные. Пожалуйста, просмотрите и повторите попытку.';
+  String get errorServerValidation => 'Сервер отклонил некоторые данные. Пожалуйста, просмотрите и повторите попытку.';
 
   @override
   String get errorWriteFileTitle => 'Записать не удалось.';
 
   @override
-  String get errorWriteFile =>
-      'Нам не удалось сохранить файл. Пожалуйста, попробуйте еще раз.';
+  String get errorWriteFile => 'Нам не удалось сохранить файл. Пожалуйста, попробуйте еще раз.';
 
   @override
   String get errorReadFileTitle => 'Прочитать не удалось.';
 
   @override
-  String get errorReadFile =>
-      'Мы не смогли прочитать файл. Пожалуйста, попробуйте еще раз.';
+  String get errorReadFile => 'Мы не смогли прочитать файл. Пожалуйста, попробуйте еще раз.';
 
   @override
   String get errorFileNotFoundTitle => 'Файл не найден.';
 
   @override
-  String get errorFileNotFound =>
-      'Нам не удалось найти файл, который вы ищете.';
+  String get errorFileNotFound => 'Нам не удалось найти файл, который вы ищете.';
 
   @override
-  String get errorInsufficientStorageTitle =>
-      'Недостаточно места для хранения.';
+  String get errorInsufficientStorageTitle => 'Недостаточно места для хранения.';
 
   @override
-  String get errorInsufficientStorage =>
-      'Освободите место и повторите попытку.';
+  String get errorInsufficientStorage => 'Освободите место и повторите попытку.';
 
   @override
   String get errorDatabaseReadTitle => 'Ошибка чтения базы данных.';
 
   @override
-  String get errorDatabaseRead =>
-      'Мы не смогли прочитать данные из базы данных.';
+  String get errorDatabaseRead => 'Мы не смогли прочитать данные из базы данных.';
 
   @override
   String get errorDatabaseWriteTitle => 'Ошибка записи базы данных.';
@@ -665,12 +615,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get errorDatabaseWrite => 'Мы не смогли сохранить в базу данных.';
 
   @override
-  String get errorDatabaseConnectionTitle =>
-      'Ошибка подключения к базе данных.';
+  String get errorDatabaseConnectionTitle => 'Ошибка подключения к базе данных.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Нам не удалось подключиться к базе данных.';
+  String get errorDatabaseConnection => 'Нам не удалось подключиться к базе данных.';
 
   @override
   String get errorAuthTitle => 'Ошибка аутентификации.';
@@ -685,28 +633,22 @@ class AppLocalizationsRu extends AppLocalizations {
   String get errorInvalidCredentials => 'Имя пользователя или пароль неверны.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Ошибка чтения безопасного хранилища.';
+  String get errorSecureStorageReadTitle => 'Ошибка чтения безопасного хранилища.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Нам не удалось прочитать данные из безопасного хранилища.';
+  String get errorSecureStorageRead => 'Нам не удалось прочитать данные из безопасного хранилища.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Ошибка записи в безопасное хранилище.';
+  String get errorSecureStorageWriteTitle => 'Ошибка записи в безопасное хранилище.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Мы не смогли записать данные в безопасное хранилище.';
+  String get errorSecureStorageWrite => 'Мы не смогли записать данные в безопасное хранилище.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Ошибка очистки безопасного хранилища.';
+  String get errorSecureStorageClearTitle => 'Ошибка очистки безопасного хранилища.';
 
   @override
-  String get errorSecureStorageClear =>
-      'Не удалось очистить безопасное хранилище.';
+  String get errorSecureStorageClear => 'Не удалось очистить безопасное хранилище.';
 
   @override
   String get errorTokenExpiredTitle => 'Сессия истекла.';
@@ -724,8 +666,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Разрешение отклонено.';
 
   @override
-  String get errorPermissionDenied =>
-      'У вас нет разрешения на выполнение этого действия.';
+  String get errorPermissionDenied => 'У вас нет разрешения на выполнение этого действия.';
 
   @override
   String get errorEmptyResultTitle => 'Никаких результатов.';
@@ -737,8 +678,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get errorInvalidInputTitle => 'Неверный ввод.';
 
   @override
-  String get errorInvalidInput =>
-      'Пожалуйста, проверьте введенные данные и повторите попытку.';
+  String get errorInvalidInput => 'Пожалуйста, проверьте введенные данные и повторите попытку.';
 
   @override
   String get errorEmptyTopicsTitle => 'Темы не выбраны.';

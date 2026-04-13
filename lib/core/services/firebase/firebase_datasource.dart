@@ -1,5 +1,5 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:news_app/core/logger/firebase_logger.dart';
+import 'package:driver_app/core/logger/firebase_logger.dart';
 
 class FirebaseDatasource {
   late final FirebaseMessaging messaging;

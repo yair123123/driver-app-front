@@ -1,15 +1,13 @@
 class AppPrefs {
-  final String selectedAreaCode;
-  final String selectedLangCode;
   final Map<String, String> lastReadByTopic;
   final List<String> recentFilteredTopic;
   final bool isOnGroupsPage;
   final bool wereMessageNewGroupsPresented;
   final Map<String, String> lastReadMessageByGroup;
+  final int? defaultStationId;
 
   const AppPrefs({
-    this.selectedAreaCode = 'all',
-    this.selectedLangCode = 'he',
+    this.defaultStationId,
     this.lastReadByTopic = const {},
     this.recentFilteredTopic = const [],
     this.isOnGroupsPage = false,
@@ -18,6 +16,7 @@ class AppPrefs {
   });
 
   AppPrefs copyWith({
+    int? defaultStationId,
     String? selectedAreaCode,
     String? selectedLangCode,
     Map<String, String>? lastReadByTopic,
@@ -27,8 +26,8 @@ class AppPrefs {
     Map<String, String>? lastReadMessageByGroup,
   }) {
     return AppPrefs(
-      selectedAreaCode: selectedAreaCode ?? this.selectedAreaCode,
-      selectedLangCode: selectedLangCode ?? this.selectedLangCode,
+      defaultStationId: defaultStationId ?? this.defaultStationId,
+
       lastReadByTopic: lastReadByTopic ?? this.lastReadByTopic,
       recentFilteredTopic: recentFilteredTopic ?? this.recentFilteredTopic,
       isOnGroupsPage: isOnGroupsPage ?? this.isOnGroupsPage,

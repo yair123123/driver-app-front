@@ -1,13 +1,15 @@
-import 'package:driver_app/core/widgets/error_message.dart';
-import 'package:driver_app/features/bootstrap/presentation/widgets/id_field.dart';
-import 'package:driver_app/features/bootstrap/presentation/widgets/login_button.dart';
-import 'package:driver_app/features/bootstrap/presentation/widgets/username_filed.dart';
+import 'package:driver_app/core/extensions/context_extention.dart';
+import 'package:driver_app/features/auth/presentation/widgets/id_field.dart';
+import 'package:driver_app/features/auth/presentation/widgets/login_button.dart';
+import 'package:driver_app/features/auth/presentation/widgets/username_filed.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../theme/app_colors.dart';
 
 class LoginForm extends StatelessWidget {
   final TextEditingController userNameController;
   final TextEditingController idController;
-  final void Function(String,String) onLoginPressed;
+  final void Function(String, String) onLoginPressed;
   final bool isLoading;
   final String? errorMessage;
 
@@ -32,9 +34,9 @@ class LoginForm extends StatelessWidget {
           children: [
             Text(
               "התחברות לדרייבר 10",
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
+              style: Theme.of(
+                context,
+              ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 24),
             UsernameField(controller: userNameController),
@@ -43,10 +45,21 @@ class LoginForm extends StatelessWidget {
             const SizedBox(height: 24),
             isLoading
                 ? const CircularProgressIndicator()
-                : LoginButton(onPressed:() =>  onLoginPressed(userNameController.text, idController.text)),
+                : LoginButton(
+                  onPressed:
+                      () => onLoginPressed(
+                        userNameController.text,
+                        idController.text,
+                      ),
+                ),
             const SizedBox(height: 16),
             if (errorMessage != null)
-              ErrorMessage(message: errorMessage!),
+              Text(
+                errorMessage ?? '',
+                style: context.textStyles.bodySmall?.apply(
+                  color: AppColors.error,
+                ),
+              ),
           ],
         ),
       ),

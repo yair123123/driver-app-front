@@ -1,5 +1,4 @@
-import 'package:news_app/core/services/firebase/firebase_repository.dart';
-import 'package:news_app/features/lang_and_area/domain/lang_entity.dart';
+import 'package:driver_app/core/services/firebase/firebase_repository.dart';
 
 class GetFcmTokenUseCase {
   final FirebaseRepository repository;

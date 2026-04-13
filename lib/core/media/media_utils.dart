@@ -1,7 +1,5 @@
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:news_app/features/home/constants/app_constants.dart';
-import 'package:news_app/l10n/app_localizations.dart';
-import 'package:news_app/theme/app_spacing.dart';
+import 'package:driver_app/core/constants/app_constants.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
 import 'package:flutter/services.dart';
 
 

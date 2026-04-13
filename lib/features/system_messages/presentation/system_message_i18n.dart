@@ -1,4 +1,4 @@
-import 'package:news_app/l10n/app_localizations.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
 import '../domain/system_message.dart';
 
 extension SystemMessageIdX on SystemMessageId {

@@ -45,19 +45,16 @@ class AppLocalizationsTr extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'WhatsApp ve Telegram kanalları için videolar, resimler ve güncellemeler içeren yeni bir alan; en ilgi çekici içeriklerin tümü tek bir yerde.';
+  String get channels_section_description => 'WhatsApp ve Telegram kanalları için videolar, resimler ve güncellemeler içeren yeni bir alan; en ilgi çekici içeriklerin tümü tek bir yerde.';
 
   @override
   String get newMessages => 'Yeni Mesajlar';
@@ -80,8 +77,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get contactUsSuccessTitle => 'Başarıyla gönderildi ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Teşekkür ederim! Mesajınızı aldık ve en kısa sürede size geri döneceğiz.';
+  String get contactUsSuccessMessage => 'Teşekkür ederim! Mesajınızı aldık ve en kısa sürede size geri döneceğiz.';
 
   @override
   String get selectCountry => 'Ülke Seçiniz';
@@ -111,8 +107,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get areaWereAdded => 'Alan başarıyla eklendi';
 
   @override
-  String get saveChangesMessage =>
-      'Yaptığınız değişiklikleri kaydetmek istiyor musunuz?';
+  String get saveChangesMessage => 'Yaptığınız değişiklikleri kaydetmek istiyor musunuz?';
 
   @override
   String get busyLandingTitle => 'Neredeyse iniyoruz…';
@@ -124,8 +119,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get changeCountryTitle => 'Hangi ülkeye geçmeliyiz?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Bir ülke seçtiğinizde uygulamadaki tüm içerik seçiminize göre güncellenecektir.';
+  String get changeCountrySubtitle => 'Bir ülke seçtiğinizde uygulamadaki tüm içerik seçiminize göre güncellenecektir.';
 
   @override
   String get dailySummary => 'Günlük özet';
@@ -134,8 +128,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get lastUpdated => 'Son güncelleme';
 
   @override
-  String get saveChangesSubtitle =>
-      'Yaptığınız değişiklikleri kaydetmek istiyor musunuz?';
+  String get saveChangesSubtitle => 'Yaptığınız değişiklikleri kaydetmek istiyor musunuz?';
 
   @override
   String get readMore => 'Devamını oku';
@@ -147,8 +140,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'için sonuç bulunamadı \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'için sonuç bulunamadı \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' bu kategoride';
@@ -160,8 +152,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get notificationsOffTitle => 'Bildirimler kapalı';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Görünüşe göre bildirim erişimi henüz etkinleştirilmemiş.';
+  String get notificationsOffSubtitle => 'Görünüşe göre bildirim erişimi henüz etkinleştirilmemiş.';
 
   @override
   String get newArticles => 'Yeni Makaleler';
@@ -170,8 +161,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get home => 'ev';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Değişiklikler bir sonraki uygulama açılışında uygulanacaktır.';
+  String get changesApplyOnNextLaunch => 'Değişiklikler bir sonraki uygulama açılışında uygulanacaktır.';
 
   @override
   String get enable => 'Etkinleştir';
@@ -192,8 +182,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get freeSearch => 'Ücretsiz Arama';
 
   @override
-  String get aiPageSubtitle =>
-      'Bu özellik hâlâ geliştirilme aşamasındadır \n yakında tekrar kontrol etmeye değer.';
+  String get aiPageSubtitle => 'Bu özellik hâlâ geliştirilme aşamasındadır \n yakında tekrar kontrol etmeye değer.';
 
   @override
   String get topicsSelectionTitle => 'Haber Konuları Seçimi';
@@ -202,12 +191,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get groups => 'Gruplar';
 
   @override
-  String get aiPageTitle =>
-      'Çok yakında: Yapay zekamızla haberler hakkında sohbet edebileceksiniz!';
+  String get aiPageTitle => 'Çok yakında: Yapay zekamızla haberler hakkında sohbet edebileceksiniz!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Feed\'inizde görmek istediğiniz konuları veya alt konuları seçin. Bunları her zaman buradan değiştirebilirsiniz.';
+  String get topicsSelectionSubtitle => 'Feed\'inizde görmek istediğiniz konuları veya alt konuları seçin. Bunları her zaman buradan değiştirebilirsiniz.';
 
   @override
   String get failedToLoadTopics => 'Konular yüklenemedi';
@@ -219,8 +206,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get lang => 'Dil';
 
   @override
-  String get failed_to_load_data =>
-      'Verileri yükleyemedik. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.';
+  String get failed_to_load_data => 'Verileri yükleyemedik. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.';
 
   @override
   String get changeLang => 'Dili değiştir';
@@ -229,8 +215,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get notNow => 'Şimdi Değil';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Bildirimleri etkinleştirmek önemli haberler, acil güncellemeler ve kişiselleştirilmiş içeriklerden haberdar olmanızı sağlar; böylece sizin için önemli olan hiçbir şeyi kaçırmazsınız.';
+  String get notificationsPermissionRationale => 'Bildirimleri etkinleştirmek önemli haberler, acil güncellemeler ve kişiselleştirilmiş içeriklerden haberdar olmanızı sağlar; böylece sizin için önemli olan hiçbir şeyi kaçırmazsınız.';
 
   @override
   String get skipToSuggestedContent => 'Sizin için seçtiğimiz içeriğe atlayın';
@@ -266,19 +251,16 @@ class AppLocalizationsTr extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Neyi aramak istersiniz?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Aramak için bir anahtar kelime veya konu yazın';
+  String get searchPageEmptyTitle => 'Aramak için bir anahtar kelime veya konu yazın';
 
   @override
-  String get notificationSubTitle =>
-      'İlginizi çeken herhangi bir konu için açılır bildirimleri açabilirsiniz.';
+  String get notificationSubTitle => 'İlginizi çeken herhangi bir konu için açılır bildirimleri açabilirsiniz.';
 
   @override
   String get whatIsInteresting => 'Seni ilgilendiren şey';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Yalnızca gerçekten alakalı olanları göndermek için öncelikle sizi ilgilendiren şeyleri işaretleyelim.';
+  String get subTextWhatIsInteresting => 'Yalnızca gerçekten alakalı olanları göndermek için öncelikle sizi ilgilendiren şeyleri işaretleyelim.';
 
   @override
   String get getStarted => 'Başlayın';
@@ -320,15 +302,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get openSettings => 'Ayarları Aç';
 
   @override
-  String get subTextNotifications =>
-      'İlginizi çeken her konu için açılır bildirimleri etkinleştirebilirsiniz.';
+  String get subTextNotifications => 'İlginizi çeken her konu için açılır bildirimleri etkinleştirebilirsiniz.';
 
   @override
   String get troubleshooting_tips => 'Sorun Giderme İpuçları';
 
   @override
-  String get welcome =>
-      'Sadece sizin için kişiselleştirilmiş haber uygulamasına hoş geldiniz!';
+  String get welcome => 'Sadece sizin için kişiselleştirilmiş haber uygulamasına hoş geldiniz!';
 
   @override
   String get continueReading => 'Okumaya devam et';
@@ -340,23 +320,19 @@ class AppLocalizationsTr extends AppLocalizations {
   String get area => 'Alan';
 
   @override
-  String get chooseYourAreaHint =>
-      'Yerelleştirilmiş haber güncellemelerini almak için bölgenizi seçin';
+  String get chooseYourAreaHint => 'Yerelleştirilmiş haber güncellemelerini almak için bölgenizi seçin';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'İstediğiniz haber bölgesini seçin.\nUygulamanın içinde ek ülkeleri de seçebilirsiniz.';
+  String get chooseYourAreaHintUnused => 'İstediğiniz haber bölgesini seçin.\nUygulamanın içinde ek ülkeleri de seçebilirsiniz.';
 
   @override
-  String get chooseYourLangHint =>
-      'Dilinizi seçin, daha sonra istediğiniz zaman değiştirebilirsiniz.';
+  String get chooseYourLangHint => 'Dilinizi seçin, daha sonra istediğiniz zaman değiştirebilirsiniz.';
 
   @override
   String get topics => 'Konular';
 
   @override
-  String get chooseTopicsHint =>
-      'İlginizi çeken konuları seçin, bunları istediğiniz zaman ayarlardan değiştirebilirsiniz.';
+  String get chooseTopicsHint => 'İlginizi çeken konuları seçin, bunları istediğiniz zaman ayarlardan değiştirebilirsiniz.';
 
   @override
   String get categories => 'Kategoriler';
@@ -383,12 +359,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get networkStatusOfflineTitle => 'İnternet bağlantısı yok';
 
   @override
-  String get networkStatusPartialMessage =>
-      'İnternete ulaşabiliyoruz ama sunucuya ulaşamıyoruz.\\nBirazdan tekrar deneyin.';
+  String get networkStatusPartialMessage => 'İnternete ulaşabiliyoruz ama sunucuya ulaşamıyoruz.\\nBirazdan tekrar deneyin.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'İnternet bağlantısı yok. Daha eski makaleleri gösteriyoruz; En son hikayeleri görmek için internete bağlanın.';
+  String get networkStatusOfflineMessage => 'İnternet bağlantısı yok. Daha eski makaleleri gösteriyoruz; En son hikayeleri görmek için internete bağlanın.';
 
   @override
   String get networkStatusInternetLabel => 'İnternet bağlantısı';
@@ -418,15 +392,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Açılır bildirimler';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Uyarılarınızı kolayca özelleştirin. İlginizi çeken herhangi bir konu için anlık bildirimleri açın veya kapatın.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Uyarılarınızı kolayca özelleştirin. İlginizi çeken herhangi bir konu için anlık bildirimleri açın veya kapatın.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Güncelleme yolda!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Yakında dünyanın hangi bölgelerinden haber ve güncelleme almak istediğinizi seçebileceksiniz.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Yakında dünyanın hangi bölgelerinden haber ve güncelleme almak istediğinizi seçebileceksiniz.';
 
   @override
   String get info => 'Bilgi';
@@ -438,8 +410,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get saveChanges => 'Değişiklikleri kaydet';
 
   @override
-  String get saveChangesConfirmation =>
-      'Değişikliklerinizi kaydetmek istiyor musunuz?';
+  String get saveChangesConfirmation => 'Değişikliklerinizi kaydetmek istiyor musunuz?';
 
   @override
   String get confirm => 'Onayla';
@@ -461,15 +432,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get newsTopics => 'Haber konuları';
 
   @override
-  String get errorNoInternet =>
-      'Lütfen bağlantınızı kontrol edip tekrar deneyin.';
+  String get errorNoInternet => 'Lütfen bağlantınızı kontrol edip tekrar deneyin.';
 
   @override
   String get errorNoInternetTitle => 'İnternet bağlantısı yok.';
 
   @override
-  String get errorTimeout =>
-      'İstek zaman aşımına uğradı. Lütfen daha sonra tekrar deneyin.';
+  String get errorTimeout => 'İstek zaman aşımına uğradı. Lütfen daha sonra tekrar deneyin.';
 
   @override
   String get errorTimeoutTitle => 'İstek zaman aşımına uğradı.';
@@ -481,8 +450,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get errorServerTitle => 'Sunucu hatası.';
 
   @override
-  String get errorUnauthorized =>
-      'Yetkili değilsiniz. Lütfen oturum açın ve tekrar deneyin.';
+  String get errorUnauthorized => 'Yetkili değilsiniz. Lütfen oturum açın ve tekrar deneyin.';
 
   @override
   String get errorUnauthorizedTitle => 'Yetkisiz.';
@@ -503,12 +471,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get updateArticle => 'Daha fazla ayrıntı güncellendi';
 
   @override
-  String get errorValidation =>
-      'Bazı bilgiler geçersiz görünüyor. Lütfen inceleyip tekrar deneyin.';
+  String get errorValidation => 'Bazı bilgiler geçersiz görünüyor. Lütfen inceleyip tekrar deneyin.';
 
   @override
-  String get agreeMail =>
-      'Güncellemeleri ve haber bültenlerini e-postayla almayı kabul ediyorum.';
+  String get agreeMail => 'Güncellemeleri ve haber bültenlerini e-postayla almayı kabul ediyorum.';
 
   @override
   String get sendUsEmail => 'Bize bir e-posta gönderin';
@@ -517,8 +483,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get discardChangesTitle => 'Değişiklikler silinsin mi?';
 
   @override
-  String get discardChangesMessage =>
-      'Kaydedilmemiş değişiklikleriniz var. Devam ederseniz kaybolacaklar.';
+  String get discardChangesMessage => 'Kaydedilmemiş değişiklikleriniz var. Devam ederseniz kaybolacaklar.';
 
   @override
   String get discardButton => 'At';
@@ -536,8 +501,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get agreePrivacy => 'okudum ve kabul ediyorum ';
 
   @override
-  String get contactUsSubtitle =>
-      'Aşağıdaki formu kullanarak bizimle iletişime geçmekten çekinmeyin.';
+  String get contactUsSubtitle => 'Aşağıdaki formu kullanarak bizimle iletişime geçmekten çekinmeyin.';
 
   @override
   String get fullName => 'Tam ad';
@@ -570,12 +534,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get emptyResults_noResults => 'Sonuç bulunamadı.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Anahtar kelimelerinizi değiştirmeyi deneyin veya başka bir konu seçin.';
+  String get emptyResults_bottomWithTopic => 'Anahtar kelimelerinizi değiştirmeyi deneyin veya başka bir konu seçin.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Anahtar kelimelerinizi değiştirmeyi deneyin.';
+  String get emptyResults_bottomWithoutTopic => 'Anahtar kelimelerinizi değiştirmeyi deneyin.';
 
   @override
   String get emptyResults_inThisTopic => 'bu başlıkta';
@@ -590,15 +552,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get errorNotModifiedTitle => 'Değiştirilmedi.';
 
   @override
-  String get errorNotModified =>
-      'Son isteğinizden bu yana hiçbir şey değişmedi.';
+  String get errorNotModified => 'Son isteğinizden bu yana hiçbir şey değişmedi.';
 
   @override
   String get errorNetworkTitle => 'Ağ hatası.';
 
   @override
-  String get errorNetwork =>
-      'Ağa ulaşamadık. Bağlantınızı kontrol edip tekrar deneyin.';
+  String get errorNetwork => 'Ağa ulaşamadık. Bağlantınızı kontrol edip tekrar deneyin.';
 
   @override
   String get errorDataIsEmptyTitle => 'Veri yok.';
@@ -610,15 +570,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get errorConflictTitle => 'Çatışma.';
 
   @override
-  String get errorConflict =>
-      'İstek mevcut verilerle çelişiyordu. Lütfen tekrar deneyin.';
+  String get errorConflict => 'İstek mevcut verilerle çelişiyordu. Lütfen tekrar deneyin.';
 
   @override
   String get errorServerValidationTitle => 'Doğrulama hatası.';
 
   @override
-  String get errorServerValidation =>
-      'Sunucu bazı verileri reddetti. Lütfen inceleyip tekrar deneyin.';
+  String get errorServerValidation => 'Sunucu bazı verileri reddetti. Lütfen inceleyip tekrar deneyin.';
 
   @override
   String get errorWriteFileTitle => 'Yazma başarısız oldu.';
@@ -687,12 +645,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get errorSecureStorageWrite => 'Güvenli depolamaya yazamadık.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Güvenli depolama temizleme hatası.';
+  String get errorSecureStorageClearTitle => 'Güvenli depolama temizleme hatası.';
 
   @override
-  String get errorSecureStorageClear =>
-      'Güvenli depolama alanını temizleyemedik.';
+  String get errorSecureStorageClear => 'Güvenli depolama alanını temizleyemedik.';
 
   @override
   String get errorTokenExpiredTitle => 'Oturumun süresi doldu.';
@@ -722,8 +678,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get errorInvalidInputTitle => 'Geçersiz giriş.';
 
   @override
-  String get errorInvalidInput =>
-      'Lütfen girişinizi kontrol edip tekrar deneyin.';
+  String get errorInvalidInput => 'Lütfen girişinizi kontrol edip tekrar deneyin.';
 
   @override
   String get errorEmptyTopicsTitle => 'Hiçbir konu seçilmedi.';

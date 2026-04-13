@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/core/extensions/context_extention.dart';
-import 'package:news_app/l10n/app_localizations.dart';
+import 'package:driver_app/core/extensions/context_extention.dart';
+import 'package:driver_app/l10n/app_localizations.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

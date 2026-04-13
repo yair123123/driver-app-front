@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:news_app/core/logger/firebase_logger.dart';
-import 'package:news_app/features/system_messages/application/system_message_notifier.dart';
-import 'package:news_app/features/system_messages/domain/system_message.dart';
+import 'package:driver_app/core/logger/firebase_logger.dart';
+import 'package:driver_app/features/system_messages/application/system_message_notifier.dart';
+import 'package:driver_app/features/system_messages/domain/system_message.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 Future<void> openReference(String url, WidgetRef ref) async {

@@ -1,5 +1,6 @@
-import 'package:news_app/core/error/failure.dart';
-import 'package:news_app/features/system_messages/domain/system_message.dart';
+
+import 'package:driver_app/core/error/failure.dart';
+import 'package:driver_app/features/system_messages/domain/system_message.dart';
 
 SystemMessageId mapFailureToMessageId(Failure f) {
   return switch (f) {

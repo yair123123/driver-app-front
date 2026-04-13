@@ -45,19 +45,16 @@ class AppLocalizationsSv extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Ett nytt område för WhatsApp och Telegram-kanaler med videor, bilder och uppdateringar – allt det mest intressanta innehållet på ett ställe.';
+  String get channels_section_description => 'Ett nytt område för WhatsApp och Telegram-kanaler med videor, bilder och uppdateringar – allt det mest intressanta innehållet på ett ställe.';
 
   @override
   String get newMessages => 'Nya meddelanden';
@@ -80,8 +77,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get contactUsSuccessTitle => 'Skickat framgångsrikt ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Tack! Vi har tagit emot ditt meddelande och återkommer till dig så snart som möjligt.';
+  String get contactUsSuccessMessage => 'Tack! Vi har tagit emot ditt meddelande och återkommer till dig så snart som möjligt.';
 
   @override
   String get selectCountry => 'Välj Land';
@@ -123,8 +119,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get changeCountryTitle => 'Vilket land ska vi byta till?';
 
   @override
-  String get changeCountrySubtitle =>
-      'När du väljer ett land kommer allt innehåll i appen att uppdateras enligt ditt val.';
+  String get changeCountrySubtitle => 'När du väljer ett land kommer allt innehåll i appen att uppdateras enligt ditt val.';
 
   @override
   String get dailySummary => 'Daglig sammanfattning';
@@ -145,8 +140,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Inga resultat hittades för \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Inga resultat hittades för \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' i denna kategori';
@@ -158,8 +152,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get notificationsOffTitle => 'Aviseringar av';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Det verkar som om aviseringsåtkomst inte har aktiverats ännu.';
+  String get notificationsOffSubtitle => 'Det verkar som om aviseringsåtkomst inte har aktiverats ännu.';
 
   @override
   String get newArticles => 'Nya artiklar';
@@ -168,15 +161,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get home => 'hem';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Ändringar kommer att tillämpas vid nästa applansering.';
+  String get changesApplyOnNextLaunch => 'Ändringar kommer att tillämpas vid nästa applansering.';
 
   @override
   String get enable => 'Aktivera';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Håll dig uppdaterad med de senaste nyheterna';
+  String get stayUpdatedWithLatestNews => 'Håll dig uppdaterad med de senaste nyheterna';
 
   @override
   String get enableNotifications => 'Aktivera aviseringar';
@@ -191,8 +182,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get freeSearch => 'Gratis sökning';
 
   @override
-  String get aiPageSubtitle =>
-      'Denna funktion är fortfarande under utveckling \n värt att kolla upp snart.';
+  String get aiPageSubtitle => 'Denna funktion är fortfarande under utveckling \n värt att kolla upp snart.';
 
   @override
   String get topicsSelectionTitle => 'Val av nyheter';
@@ -201,12 +191,10 @@ class AppLocalizationsSv extends AppLocalizations {
   String get groups => 'Grupper';
 
   @override
-  String get aiPageTitle =>
-      'Kommer snart: du kommer att kunna chatta med vår AI om nyheterna!';
+  String get aiPageTitle => 'Kommer snart: du kommer att kunna chatta med vår AI om nyheterna!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Välj ämnen eller underämnen som du vill se i ditt flöde. Du kan alltid ändra dem här.';
+  String get topicsSelectionSubtitle => 'Välj ämnen eller underämnen som du vill se i ditt flöde. Du kan alltid ändra dem här.';
 
   @override
   String get failedToLoadTopics => 'Det gick inte att läsa in ämnen';
@@ -218,8 +206,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get lang => 'Språk';
 
   @override
-  String get failed_to_load_data =>
-      'Vi kunde inte ladda data. Kontrollera din internetanslutning och försök igen.';
+  String get failed_to_load_data => 'Vi kunde inte ladda data. Kontrollera din internetanslutning och försök igen.';
 
   @override
   String get changeLang => 'Byt språk';
@@ -228,8 +215,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get notNow => 'Inte nu';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Genom att aktivera aviseringar kan du hålla dig uppdaterad med viktiga nyheter, brådskande uppdateringar och personligt innehåll – så att du aldrig missar något som betyder något för dig.';
+  String get notificationsPermissionRationale => 'Genom att aktivera aviseringar kan du hålla dig uppdaterad med viktiga nyheter, brådskande uppdateringar och personligt innehåll – så att du aldrig missar något som betyder något för dig.';
 
   @override
   String get skipToSuggestedContent => 'Hoppa till innehållet vi valde åt dig';
@@ -265,19 +251,16 @@ class AppLocalizationsSv extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Vad skulle du vilja söka efter?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Skriv ett nyckelord eller ämne för att söka';
+  String get searchPageEmptyTitle => 'Skriv ett nyckelord eller ämne för att söka';
 
   @override
-  String get notificationSubTitle =>
-      'Du kan aktivera popup-aviseringar för alla ämnen som intresserar dig.';
+  String get notificationSubTitle => 'Du kan aktivera popup-aviseringar för alla ämnen som intresserar dig.';
 
   @override
   String get whatIsInteresting => 'Vad intresserar dig';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'För att bara skicka det som verkligen är relevant, låt oss först markera det som intresserar dig.';
+  String get subTextWhatIsInteresting => 'För att bara skicka det som verkligen är relevant, låt oss först markera det som intresserar dig.';
 
   @override
   String get getStarted => 'Kom igång';
@@ -319,8 +302,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get openSettings => 'Öppna Inställningar';
 
   @override
-  String get subTextNotifications =>
-      'Du kan aktivera popup-aviseringar för varje ämne som intresserar dig.';
+  String get subTextNotifications => 'Du kan aktivera popup-aviseringar för varje ämne som intresserar dig.';
 
   @override
   String get troubleshooting_tips => 'Felsökningstips';
@@ -338,23 +320,19 @@ class AppLocalizationsSv extends AppLocalizations {
   String get area => 'Område';
 
   @override
-  String get chooseYourAreaHint =>
-      'Välj ditt område för att få lokala nyhetsuppdateringar';
+  String get chooseYourAreaHint => 'Välj ditt område för att få lokala nyhetsuppdateringar';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Välj den nyhetsregion du vill ha.\nInom appen kan du också välja ytterligare länder.';
+  String get chooseYourAreaHintUnused => 'Välj den nyhetsregion du vill ha.\nInom appen kan du också välja ytterligare länder.';
 
   @override
-  String get chooseYourLangHint =>
-      'Välj ditt språk, du kan alltid ändra det senare.';
+  String get chooseYourLangHint => 'Välj ditt språk, du kan alltid ändra det senare.';
 
   @override
   String get topics => 'Ämnen';
 
   @override
-  String get chooseTopicsHint =>
-      'Välj de ämnen som intresserar dig, du kan alltid ändra dem i inställningarna.';
+  String get chooseTopicsHint => 'Välj de ämnen som intresserar dig, du kan alltid ändra dem i inställningarna.';
 
   @override
   String get categories => 'Kategorier';
@@ -381,12 +359,10 @@ class AppLocalizationsSv extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Ingen internetuppkoppling';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Vi kan nå internet men inte servern.\\nFörsök igen om ett ögonblick.';
+  String get networkStatusPartialMessage => 'Vi kan nå internet men inte servern.\\nFörsök igen om ett ögonblick.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Ingen internetuppkoppling. Vi visar äldre artiklar; anslut till internet för att se de senaste berättelserna.';
+  String get networkStatusOfflineMessage => 'Ingen internetuppkoppling. Vi visar äldre artiklar; anslut till internet för att se de senaste berättelserna.';
 
   @override
   String get networkStatusInternetLabel => 'Internetanslutning';
@@ -416,15 +392,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Popup-aviseringar';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Anpassa dina varningar enkelt. Slå på eller av push-meddelanden för alla ämnen som intresserar dig.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Anpassa dina varningar enkelt. Slå på eller av push-meddelanden för alla ämnen som intresserar dig.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Uppdatering på väg!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Snart kommer du att kunna välja vilka regioner i världen du vill få nyheter och uppdateringar från.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Snart kommer du att kunna välja vilka regioner i världen du vill få nyheter och uppdateringar från.';
 
   @override
   String get info => 'Info';
@@ -476,15 +450,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorServerTitle => 'Serverfel.';
 
   @override
-  String get errorUnauthorized =>
-      'Du är inte auktoriserad. Logga in och försök igen.';
+  String get errorUnauthorized => 'Du är inte auktoriserad. Logga in och försök igen.';
 
   @override
   String get errorUnauthorizedTitle => 'Obehörig.';
 
   @override
-  String get errorForbidden =>
-      'Du har inte behörighet att utföra den här åtgärden.';
+  String get errorForbidden => 'Du har inte behörighet att utföra den här åtgärden.';
 
   @override
   String get errorForbiddenTitle => 'Åtkomst nekad.';
@@ -499,12 +471,10 @@ class AppLocalizationsSv extends AppLocalizations {
   String get updateArticle => 'Mer information har uppdaterats';
 
   @override
-  String get errorValidation =>
-      'Viss information verkar ogiltig. Granska och försök igen.';
+  String get errorValidation => 'Viss information verkar ogiltig. Granska och försök igen.';
 
   @override
-  String get agreeMail =>
-      'Jag samtycker till att få uppdateringar och nyhetsbrev via e-post.';
+  String get agreeMail => 'Jag samtycker till att få uppdateringar och nyhetsbrev via e-post.';
 
   @override
   String get sendUsEmail => 'Skicka ett mejl till oss';
@@ -513,8 +483,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get discardChangesTitle => 'Vill du ignorera ändringar?';
 
   @override
-  String get discardChangesMessage =>
-      'Du har osparade ändringar. Om du fortsätter kommer de att gå förlorade.';
+  String get discardChangesMessage => 'Du har osparade ändringar. Om du fortsätter kommer de att gå förlorade.';
 
   @override
   String get discardButton => 'Släng';
@@ -532,8 +501,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get agreePrivacy => 'Jag har läst och godkänner ';
 
   @override
-  String get contactUsSubtitle =>
-      'Kontakta oss gärna genom att använda formuläret nedan.';
+  String get contactUsSubtitle => 'Kontakta oss gärna genom att använda formuläret nedan.';
 
   @override
   String get fullName => 'Fullständigt namn';
@@ -566,8 +534,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get emptyResults_noResults => 'Inga resultat hittades.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Prova att ändra dina sökord eller välj ett annat ämne.';
+  String get emptyResults_bottomWithTopic => 'Prova att ändra dina sökord eller välj ett annat ämne.';
 
   @override
   String get emptyResults_bottomWithoutTopic => 'Prova att ändra dina sökord.';
@@ -585,15 +552,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorNotModifiedTitle => 'Ej modifierad.';
 
   @override
-  String get errorNotModified =>
-      'Ingenting har förändrats sedan din senaste begäran.';
+  String get errorNotModified => 'Ingenting har förändrats sedan din senaste begäran.';
 
   @override
   String get errorNetworkTitle => 'Nätverksfel.';
 
   @override
-  String get errorNetwork =>
-      'Vi kunde inte nå nätverket. Kontrollera din anslutning och försök igen.';
+  String get errorNetwork => 'Vi kunde inte nå nätverket. Kontrollera din anslutning och försök igen.';
 
   @override
   String get errorDataIsEmptyTitle => 'Inga data tillgängliga.';
@@ -605,15 +570,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorConflictTitle => 'Konflikt.';
 
   @override
-  String get errorConflict =>
-      'Begäran kom i konflikt med befintliga data. Försök igen.';
+  String get errorConflict => 'Begäran kom i konflikt med befintliga data. Försök igen.';
 
   @override
   String get errorServerValidationTitle => 'Valideringsfel.';
 
   @override
-  String get errorServerValidation =>
-      'Servern avvisade vissa data. Granska och försök igen.';
+  String get errorServerValidation => 'Servern avvisade vissa data. Granska och försök igen.';
 
   @override
   String get errorWriteFileTitle => 'Skrivningen misslyckades.';
@@ -634,8 +597,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorFileNotFound => 'Vi kunde inte hitta filen du letade efter.';
 
   @override
-  String get errorInsufficientStorageTitle =>
-      'Inte tillräckligt med lagringsutrymme.';
+  String get errorInsufficientStorageTitle => 'Inte tillräckligt med lagringsutrymme.';
 
   @override
   String get errorInsufficientStorage => 'Frigör utrymme och försök igen.';
@@ -668,8 +630,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Ogiltiga användaruppgifter.';
 
   @override
-  String get errorInvalidCredentials =>
-      'Användarnamnet eller lösenordet är felaktigt.';
+  String get errorInvalidCredentials => 'Användarnamnet eller lösenordet är felaktigt.';
 
   @override
   String get errorSecureStorageReadTitle => 'Läsfel för säker lagring.';
@@ -681,8 +642,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorSecureStorageWriteTitle => 'Skrivfel för säker lagring.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Vi kunde inte skriva till säker lagring.';
+  String get errorSecureStorageWrite => 'Vi kunde inte skriva till säker lagring.';
 
   @override
   String get errorSecureStorageClearTitle => 'Rensa fel för säker lagring.';
@@ -706,8 +666,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Tillstånd nekad.';
 
   @override
-  String get errorPermissionDenied =>
-      'Du har inte behörighet att utföra den här åtgärden.';
+  String get errorPermissionDenied => 'Du har inte behörighet att utföra den här åtgärden.';
 
   @override
   String get errorEmptyResultTitle => 'Inga resultat.';

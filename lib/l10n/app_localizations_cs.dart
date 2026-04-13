@@ -45,19 +45,16 @@ class AppLocalizationsCs extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Nová oblast pro kanály WhatsApp a Telegram s videi, obrázky a aktualizacemi – veškerý nejzajímavější obsah na jednom místě.';
+  String get channels_section_description => 'Nová oblast pro kanály WhatsApp a Telegram s videi, obrázky a aktualizacemi – veškerý nejzajímavější obsah na jednom místě.';
 
   @override
   String get newMessages => 'Nové zprávy';
@@ -80,8 +77,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get contactUsSuccessTitle => 'Úspěšně odesláno ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'děkuji! Vaši zprávu jsme obdrželi a co nejdříve se vám ozveme zpět.';
+  String get contactUsSuccessMessage => 'děkuji! Vaši zprávu jsme obdrželi a co nejdříve se vám ozveme zpět.';
 
   @override
   String get selectCountry => 'Vyberte zemi';
@@ -123,8 +119,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get changeCountryTitle => 'Do které země bychom měli přejít?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Když vyberete zemi, veškerý obsah v aplikaci se aktualizuje podle vašeho výběru.';
+  String get changeCountrySubtitle => 'Když vyberete zemi, veškerý obsah v aplikaci se aktualizuje podle vašeho výběru.';
 
   @override
   String get dailySummary => 'Denní shrnutí';
@@ -139,15 +134,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get readMore => 'Přečtěte si více';
 
   @override
-  String get searchPageNoResultsPrefix =>
-      'Pro dotaz nebyly nalezeny žádné výsledky ';
+  String get searchPageNoResultsPrefix => 'Pro dotaz nebyly nalezeny žádné výsledky ';
 
   @override
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Pro dotaz nebyly nalezeny žádné výsledky \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Pro dotaz nebyly nalezeny žádné výsledky \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' v této kategorii';
@@ -159,8 +152,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get notificationsOffTitle => 'Upozornění vypnuta';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Zdá se, že přístup k oznámením ještě nebyl povolen.';
+  String get notificationsOffSubtitle => 'Zdá se, že přístup k oznámením ještě nebyl povolen.';
 
   @override
   String get newArticles => 'Nové články';
@@ -169,15 +161,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get home => 'domů';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Změny se projeví při příštím spuštění aplikace.';
+  String get changesApplyOnNextLaunch => 'Změny se projeví při příštím spuštění aplikace.';
 
   @override
   String get enable => 'Povolit';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Zůstaňte informováni o nejnovějších zprávách';
+  String get stayUpdatedWithLatestNews => 'Zůstaňte informováni o nejnovějších zprávách';
 
   @override
   String get enableNotifications => 'Povolit oznámení';
@@ -192,8 +182,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get freeSearch => 'Vyhledávání zdarma';
 
   @override
-  String get aiPageSubtitle =>
-      'Tato funkce je stále ve vývoji \n stojí za to se brzy vrátit.';
+  String get aiPageSubtitle => 'Tato funkce je stále ve vývoji \n stojí za to se brzy vrátit.';
 
   @override
   String get topicsSelectionTitle => 'Výběr témat zpráv';
@@ -202,12 +191,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get groups => 'Skupiny';
 
   @override
-  String get aiPageTitle =>
-      'Již brzy: budete moci chatovat s naší AI o novinkách!';
+  String get aiPageTitle => 'Již brzy: budete moci chatovat s naší AI o novinkách!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Vyberte témata nebo podtémata, která chcete ve svém zdroji vidět. Zde je můžete vždy změnit.';
+  String get topicsSelectionSubtitle => 'Vyberte témata nebo podtémata, která chcete ve svém zdroji vidět. Zde je můžete vždy změnit.';
 
   @override
   String get failedToLoadTopics => 'Témata se nepodařilo načíst';
@@ -219,8 +206,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get lang => 'Jazyk';
 
   @override
-  String get failed_to_load_data =>
-      'Nepodařilo se nám načíst data. Zkontrolujte prosím připojení k internetu a zkuste to znovu.';
+  String get failed_to_load_data => 'Nepodařilo se nám načíst data. Zkontrolujte prosím připojení k internetu a zkuste to znovu.';
 
   @override
   String get changeLang => 'Změnit jazyk';
@@ -229,12 +215,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get notNow => 'Teď ne';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Povolení oznámení vám umožní zůstat v obraze o důležitých zprávách, naléhavých aktualizacích a přizpůsobeném obsahu – takže nikdy nezmeškáte nic, na čem vám záleží.';
+  String get notificationsPermissionRationale => 'Povolení oznámení vám umožní zůstat v obraze o důležitých zprávách, naléhavých aktualizacích a přizpůsobeném obsahu – takže nikdy nezmeškáte nic, na čem vám záleží.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Přeskočte na obsah, který jsme pro vás vybrali';
+  String get skipToSuggestedContent => 'Přeskočte na obsah, který jsme pro vás vybrali';
 
   @override
   String get lets_go => 'Jdeme';
@@ -267,19 +251,16 @@ class AppLocalizationsCs extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Co byste chtěli hledat?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Zadejte klíčové slovo nebo téma, které chcete vyhledat';
+  String get searchPageEmptyTitle => 'Zadejte klíčové slovo nebo téma, které chcete vyhledat';
 
   @override
-  String get notificationSubTitle =>
-      'Můžete zapnout vyskakovací oznámení pro jakékoli téma, které vás zajímá.';
+  String get notificationSubTitle => 'Můžete zapnout vyskakovací oznámení pro jakékoli téma, které vás zajímá.';
 
   @override
   String get whatIsInteresting => 'Co tě zajímá';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Chcete-li posílat pouze to, co je skutečně relevantní, nejprve označte, co vás zajímá.';
+  String get subTextWhatIsInteresting => 'Chcete-li posílat pouze to, co je skutečně relevantní, nejprve označte, co vás zajímá.';
 
   @override
   String get getStarted => 'Začněte';
@@ -321,15 +302,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get openSettings => 'Otevřete Nastavení';
 
   @override
-  String get subTextNotifications =>
-      'Můžete povolit vyskakovací oznámení pro každé téma, které vás zajímá.';
+  String get subTextNotifications => 'Můžete povolit vyskakovací oznámení pro každé téma, které vás zajímá.';
 
   @override
   String get troubleshooting_tips => 'Tipy pro odstraňování problémů';
 
   @override
-  String get welcome =>
-      'Vítejte ve zpravodajské aplikaci, přizpůsobené právě pro vás!';
+  String get welcome => 'Vítejte ve zpravodajské aplikaci, přizpůsobené právě pro vás!';
 
   @override
   String get continueReading => 'Pokračujte ve čtení';
@@ -341,23 +320,19 @@ class AppLocalizationsCs extends AppLocalizations {
   String get area => 'Oblast';
 
   @override
-  String get chooseYourAreaHint =>
-      'Vyberte svou oblast a získejte lokalizované novinky';
+  String get chooseYourAreaHint => 'Vyberte svou oblast a získejte lokalizované novinky';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Vyberte požadovanou oblast zpráv.\nV aplikaci si můžete vybrat i další země.';
+  String get chooseYourAreaHintUnused => 'Vyberte požadovanou oblast zpráv.\nV aplikaci si můžete vybrat i další země.';
 
   @override
-  String get chooseYourLangHint =>
-      'Vyberte si svůj jazyk, později jej můžete kdykoli změnit.';
+  String get chooseYourLangHint => 'Vyberte si svůj jazyk, později jej můžete kdykoli změnit.';
 
   @override
   String get topics => 'Témata';
 
   @override
-  String get chooseTopicsHint =>
-      'Vyberte si témata, která vás zajímají, vždy je můžete změnit v nastavení.';
+  String get chooseTopicsHint => 'Vyberte si témata, která vás zajímají, vždy je můžete změnit v nastavení.';
 
   @override
   String get categories => 'Kategorie';
@@ -384,12 +359,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Žádné připojení k internetu';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Můžeme se připojit k internetu, ale ne k serveru.\\nZkuste to znovu za chvíli.';
+  String get networkStatusPartialMessage => 'Můžeme se připojit k internetu, ale ne k serveru.\\nZkuste to znovu za chvíli.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Žádné připojení k internetu. Zobrazujeme starší články; připojte se k internetu a podívejte se na nejnovější příběhy.';
+  String get networkStatusOfflineMessage => 'Žádné připojení k internetu. Zobrazujeme starší články; připojte se k internetu a podívejte se na nejnovější příběhy.';
 
   @override
   String get networkStatusInternetLabel => 'Internetové připojení';
@@ -419,15 +392,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Vyskakovací oznámení';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Snadno přizpůsobte svá upozornění. Zapněte nebo vypněte oznámení push pro jakékoli téma, které vás zajímá.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Snadno přizpůsobte svá upozornění. Zapněte nebo vypněte oznámení push pro jakékoli téma, které vás zajímá.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Aktualizace na cestě!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Brzy si budete moci vybrat, ze kterých oblastí světa chcete dostávat novinky a aktualizace.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Brzy si budete moci vybrat, ze kterých oblastí světa chcete dostávat novinky a aktualizace.';
 
   @override
   String get info => 'Info';
@@ -467,8 +438,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorNoInternetTitle => 'Žádné připojení k internetu.';
 
   @override
-  String get errorTimeout =>
-      'Časový limit požadavku vypršel. Zkuste to znovu později.';
+  String get errorTimeout => 'Časový limit požadavku vypršel. Zkuste to znovu později.';
 
   @override
   String get errorTimeoutTitle => 'Časový limit požadavku vypršel.';
@@ -480,8 +450,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorServerTitle => 'Chyba serveru.';
 
   @override
-  String get errorUnauthorized =>
-      'Nemáte oprávnění. Přihlaste se prosím a zkuste to znovu.';
+  String get errorUnauthorized => 'Nemáte oprávnění. Přihlaste se prosím a zkuste to znovu.';
 
   @override
   String get errorUnauthorizedTitle => 'Neoprávněný.';
@@ -502,8 +471,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get updateArticle => 'Další podrobnosti byly aktualizovány';
 
   @override
-  String get errorValidation =>
-      'Některé informace vypadají neplatné. Zkontrolujte prosím a zkuste to znovu.';
+  String get errorValidation => 'Některé informace vypadají neplatné. Zkontrolujte prosím a zkuste to znovu.';
 
   @override
   String get agreeMail => 'Souhlasím se zasíláním novinek a novinek e-mailem.';
@@ -515,8 +483,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get discardChangesTitle => 'Zahodit změny?';
 
   @override
-  String get discardChangesMessage =>
-      'Máte neuložené změny. Pokud budete pokračovat, budou ztraceny.';
+  String get discardChangesMessage => 'Máte neuložené změny. Pokud budete pokračovat, budou ztraceny.';
 
   @override
   String get discardButton => 'Zahodit';
@@ -534,8 +501,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get agreePrivacy => 'Přečetl jsem a souhlasím s ';
 
   @override
-  String get contactUsSubtitle =>
-      'Neváhejte nás kontaktovat pomocí formuláře níže.';
+  String get contactUsSubtitle => 'Neváhejte nás kontaktovat pomocí formuláře níže.';
 
   @override
   String get fullName => 'Celé jméno';
@@ -568,8 +534,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get emptyResults_noResults => 'Nebyly nalezeny žádné výsledky.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Zkuste změnit klíčová slova nebo zvolte jiné téma.';
+  String get emptyResults_bottomWithTopic => 'Zkuste změnit klíčová slova nebo zvolte jiné téma.';
 
   @override
   String get emptyResults_bottomWithoutTopic => 'Zkuste změnit klíčová slova.';
@@ -593,8 +558,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorNetworkTitle => 'Chyba sítě.';
 
   @override
-  String get errorNetwork =>
-      'Nepodařilo se nám připojit k síti. Zkontrolujte připojení a zkuste to znovu.';
+  String get errorNetwork => 'Nepodařilo se nám připojit k síti. Zkontrolujte připojení a zkuste to znovu.';
 
   @override
   String get errorDataIsEmptyTitle => 'Nejsou k dispozici žádné údaje.';
@@ -606,29 +570,25 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorConflictTitle => 'Konflikt.';
 
   @override
-  String get errorConflict =>
-      'Požadavek byl v konfliktu s existujícími daty. Zkuste to prosím znovu.';
+  String get errorConflict => 'Požadavek byl v konfliktu s existujícími daty. Zkuste to prosím znovu.';
 
   @override
   String get errorServerValidationTitle => 'Chyba ověření.';
 
   @override
-  String get errorServerValidation =>
-      'Server odmítl některá data. Zkontrolujte prosím a zkuste to znovu.';
+  String get errorServerValidation => 'Server odmítl některá data. Zkontrolujte prosím a zkuste to znovu.';
 
   @override
   String get errorWriteFileTitle => 'Zápis se nezdařil.';
 
   @override
-  String get errorWriteFile =>
-      'Soubor se nepodařilo uložit. Zkuste to prosím znovu.';
+  String get errorWriteFile => 'Soubor se nepodařilo uložit. Zkuste to prosím znovu.';
 
   @override
   String get errorReadFileTitle => 'Čtení se nezdařilo.';
 
   @override
-  String get errorReadFile =>
-      'Soubor se nám nepodařilo přečíst. Zkuste to prosím znovu.';
+  String get errorReadFile => 'Soubor se nám nepodařilo přečíst. Zkuste to prosím znovu.';
 
   @override
   String get errorFileNotFoundTitle => 'Soubor nenalezen.';
@@ -658,8 +618,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorDatabaseConnectionTitle => 'Chyba připojení k databázi.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Nepodařilo se nám připojit k databázi.';
+  String get errorDatabaseConnection => 'Nepodařilo se nám připojit k databázi.';
 
   @override
   String get errorAuthTitle => 'Chyba ověření.';
@@ -671,32 +630,25 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Neplatné přihlašovací údaje.';
 
   @override
-  String get errorInvalidCredentials =>
-      'Uživatelské jméno nebo heslo je nesprávné.';
+  String get errorInvalidCredentials => 'Uživatelské jméno nebo heslo je nesprávné.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Chyba čtení zabezpečeného úložiště.';
+  String get errorSecureStorageReadTitle => 'Chyba čtení zabezpečeného úložiště.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Nemohli jsme číst ze zabezpečeného úložiště.';
+  String get errorSecureStorageRead => 'Nemohli jsme číst ze zabezpečeného úložiště.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Chyba zápisu do zabezpečeného úložiště.';
+  String get errorSecureStorageWriteTitle => 'Chyba zápisu do zabezpečeného úložiště.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Nemohli jsme zapisovat do zabezpečeného úložiště.';
+  String get errorSecureStorageWrite => 'Nemohli jsme zapisovat do zabezpečeného úložiště.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Chyba vymazání zabezpečeného úložiště.';
+  String get errorSecureStorageClearTitle => 'Chyba vymazání zabezpečeného úložiště.';
 
   @override
-  String get errorSecureStorageClear =>
-      'Nepodařilo se nám vymazat zabezpečené úložiště.';
+  String get errorSecureStorageClear => 'Nepodařilo se nám vymazat zabezpečené úložiště.';
 
   @override
   String get errorTokenExpiredTitle => 'Platnost relace vypršela.';
@@ -726,8 +678,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get errorInvalidInputTitle => 'Neplatný vstup.';
 
   @override
-  String get errorInvalidInput =>
-      'Zkontrolujte prosím svůj vstup a zkuste to znovu.';
+  String get errorInvalidInput => 'Zkontrolujte prosím svůj vstup a zkuste to znovu.';
 
   @override
   String get errorEmptyTopicsTitle => 'Nebyla vybrána žádná témata.';

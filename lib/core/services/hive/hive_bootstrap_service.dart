@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:news_app/core/logger/firebase_logger.dart';
+import 'package:driver_app/core/logger/firebase_logger.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'hive_registry.dart';

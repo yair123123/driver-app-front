@@ -45,19 +45,16 @@ class AppLocalizationsPa extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'ਵੀਡੀਓ, ਚਿੱਤਰਾਂ ਅਤੇ ਅੱਪਡੇਟਾਂ ਦੇ ਨਾਲ WhatsApp ਅਤੇ ਟੈਲੀਗ੍ਰਾਮ ਚੈਨਲਾਂ ਲਈ ਇੱਕ ਨਵਾਂ ਖੇਤਰ - ਇੱਕ ਥਾਂ \'ਤੇ ਸਭ ਤੋਂ ਦਿਲਚਸਪ ਸਮੱਗਰੀ।';
+  String get channels_section_description => 'ਵੀਡੀਓ, ਚਿੱਤਰਾਂ ਅਤੇ ਅੱਪਡੇਟਾਂ ਦੇ ਨਾਲ WhatsApp ਅਤੇ ਟੈਲੀਗ੍ਰਾਮ ਚੈਨਲਾਂ ਲਈ ਇੱਕ ਨਵਾਂ ਖੇਤਰ - ਇੱਕ ਥਾਂ \'ਤੇ ਸਭ ਤੋਂ ਦਿਲਚਸਪ ਸਮੱਗਰੀ।';
 
   @override
   String get newMessages => 'ਨਵੇਂ ਸੁਨੇਹੇ';
@@ -80,8 +77,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get contactUsSuccessTitle => 'ਸਫਲਤਾਪੂਰਵਕ ਭੇਜਿਆ ਗਿਆ ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'ਧੰਨਵਾਦ! ਸਾਨੂੰ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਹੋਇਆ ਹੈ ਅਤੇ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਤੁਹਾਡੇ ਕੋਲ ਵਾਪਸ ਆਵਾਂਗੇ।';
+  String get contactUsSuccessMessage => 'ਧੰਨਵਾਦ! ਸਾਨੂੰ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਹੋਇਆ ਹੈ ਅਤੇ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਤੁਹਾਡੇ ਕੋਲ ਵਾਪਸ ਆਵਾਂਗੇ।';
 
   @override
   String get selectCountry => 'ਦੇਸ਼ ਚੁਣੋ';
@@ -111,8 +107,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get areaWereAdded => 'ਖੇਤਰ ਸਫਲਤਾਪੂਰਵਕ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ ਸੀ';
 
   @override
-  String get saveChangesMessage =>
-      'ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਵੱਲੋਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
+  String get saveChangesMessage => 'ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਵੱਲੋਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
 
   @override
   String get busyLandingTitle => 'ਅਸੀਂ ਲਗਭਗ ਉਤਰ ਰਹੇ ਹਾਂ...';
@@ -124,8 +119,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get changeCountryTitle => 'ਸਾਨੂੰ ਕਿਹੜੇ ਦੇਸ਼ ਵਿੱਚ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ?';
 
   @override
-  String get changeCountrySubtitle =>
-      'ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਦੇਸ਼ ਚੁਣਦੇ ਹੋ, ਤਾਂ ਐਪ ਵਿੱਚ ਸਾਰੀ ਸਮੱਗਰੀ ਤੁਹਾਡੀ ਚੋਣ ਦੇ ਅਨੁਸਾਰ ਅੱਪਡੇਟ ਹੋ ਜਾਵੇਗੀ।';
+  String get changeCountrySubtitle => 'ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਦੇਸ਼ ਚੁਣਦੇ ਹੋ, ਤਾਂ ਐਪ ਵਿੱਚ ਸਾਰੀ ਸਮੱਗਰੀ ਤੁਹਾਡੀ ਚੋਣ ਦੇ ਅਨੁਸਾਰ ਅੱਪਡੇਟ ਹੋ ਜਾਵੇਗੀ।';
 
   @override
   String get dailySummary => 'ਰੋਜ਼ਾਨਾ ਸੰਖੇਪ';
@@ -134,8 +128,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get lastUpdated => 'ਆਖਰੀ ਵਾਰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ';
 
   @override
-  String get saveChangesSubtitle =>
-      'ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਵੱਲੋਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
+  String get saveChangesSubtitle => 'ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਵੱਲੋਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
 
   @override
   String get readMore => 'ਹੋਰ ਪੜ੍ਹੋ';
@@ -147,8 +140,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ';
@@ -160,8 +152,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get notificationsOffTitle => 'ਸੂਚਨਾਵਾਂ ਬੰਦ';
 
   @override
-  String get notificationsOffSubtitle =>
-      'ਇੰਝ ਜਾਪਦਾ ਹੈ ਕਿ ਸੂਚਨਾ ਪਹੁੰਚ ਅਜੇ ਚਾਲੂ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ।';
+  String get notificationsOffSubtitle => 'ਇੰਝ ਜਾਪਦਾ ਹੈ ਕਿ ਸੂਚਨਾ ਪਹੁੰਚ ਅਜੇ ਚਾਲੂ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ।';
 
   @override
   String get newArticles => 'ਨਵੇਂ ਲੇਖ';
@@ -170,8 +161,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get home => 'ਘਰ';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'ਅਗਲੇ ਐਪ ਲਾਂਚ \'ਤੇ ਬਦਲਾਅ ਲਾਗੂ ਕੀਤੇ ਜਾਣਗੇ।';
+  String get changesApplyOnNextLaunch => 'ਅਗਲੇ ਐਪ ਲਾਂਚ \'ਤੇ ਬਦਲਾਅ ਲਾਗੂ ਕੀਤੇ ਜਾਣਗੇ।';
 
   @override
   String get enable => 'ਯੋਗ ਕਰੋ';
@@ -192,8 +182,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get freeSearch => 'ਮੁਫ਼ਤ ਖੋਜ';
 
   @override
-  String get aiPageSubtitle =>
-      'ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਅਜੇ ਵੀ ਵਿਕਾਸ ਵਿੱਚ ਹੈ \n ਜਲਦੀ ਹੀ ਵਾਪਸ ਜਾਂਚ ਕਰਨ ਦੇ ਯੋਗ।';
+  String get aiPageSubtitle => 'ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਅਜੇ ਵੀ ਵਿਕਾਸ ਵਿੱਚ ਹੈ \n ਜਲਦੀ ਹੀ ਵਾਪਸ ਜਾਂਚ ਕਰਨ ਦੇ ਯੋਗ।';
 
   @override
   String get topicsSelectionTitle => 'ਖ਼ਬਰਾਂ ਦੇ ਵਿਸ਼ਿਆਂ ਦੀ ਚੋਣ';
@@ -202,26 +191,22 @@ class AppLocalizationsPa extends AppLocalizations {
   String get groups => 'ਸਮੂਹ';
 
   @override
-  String get aiPageTitle =>
-      'ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ: ਤੁਸੀਂ ਖਬਰਾਂ ਬਾਰੇ ਸਾਡੇ AI ਨਾਲ ਗੱਲਬਾਤ ਕਰਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ!';
+  String get aiPageTitle => 'ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ: ਤੁਸੀਂ ਖਬਰਾਂ ਬਾਰੇ ਸਾਡੇ AI ਨਾਲ ਗੱਲਬਾਤ ਕਰਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'ਵਿਸ਼ਿਆਂ ਜਾਂ ਉਪ-ਵਿਸ਼ਿਆਂ ਨੂੰ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਆਪਣੀ ਫੀਡ ਵਿੱਚ ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਇੱਥੇ ਬਦਲ ਸਕਦੇ ਹੋ।';
+  String get topicsSelectionSubtitle => 'ਵਿਸ਼ਿਆਂ ਜਾਂ ਉਪ-ਵਿਸ਼ਿਆਂ ਨੂੰ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਆਪਣੀ ਫੀਡ ਵਿੱਚ ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਇੱਥੇ ਬਦਲ ਸਕਦੇ ਹੋ।';
 
   @override
   String get failedToLoadTopics => 'ਵਿਸ਼ਿਆਂ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ';
 
   @override
-  String get settingsNote =>
-      'ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰ ਸਕਦੇ ਹੋ';
+  String get settingsNote => 'ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰ ਸਕਦੇ ਹੋ';
 
   @override
   String get lang => 'ਭਾਸ਼ਾ';
 
   @override
-  String get failed_to_load_data =>
-      'ਅਸੀਂ ਡਾਟਾ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get failed_to_load_data => 'ਅਸੀਂ ਡਾਟਾ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get changeLang => 'ਭਾਸ਼ਾ ਬਦਲੋ';
@@ -230,8 +215,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get notNow => 'ਹੁਣ ਨਹੀਂ';
 
   @override
-  String get notificationsPermissionRationale =>
-      'ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਮਹੱਤਵਪੂਰਨ ਖਬਰਾਂ, ਜ਼ਰੂਰੀ ਅੱਪਡੇਟਾਂ ਅਤੇ ਵਿਅਕਤੀਗਤ ਸਮੱਗਰੀ ਨਾਲ ਅੱਪ-ਟੂ-ਡੇਟ ਰਹਿ ਸਕਦੇ ਹੋ - ਤਾਂ ਜੋ ਤੁਸੀਂ ਕਦੇ ਵੀ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਤੋਂ ਖੁੰਝ ਨਾ ਜਾਓ ਜੋ ਤੁਹਾਡੇ ਲਈ ਮਹੱਤਵਪੂਰਣ ਹੈ।';
+  String get notificationsPermissionRationale => 'ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਮਹੱਤਵਪੂਰਨ ਖਬਰਾਂ, ਜ਼ਰੂਰੀ ਅੱਪਡੇਟਾਂ ਅਤੇ ਵਿਅਕਤੀਗਤ ਸਮੱਗਰੀ ਨਾਲ ਅੱਪ-ਟੂ-ਡੇਟ ਰਹਿ ਸਕਦੇ ਹੋ - ਤਾਂ ਜੋ ਤੁਸੀਂ ਕਦੇ ਵੀ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਤੋਂ ਖੁੰਝ ਨਾ ਜਾਓ ਜੋ ਤੁਹਾਡੇ ਲਈ ਮਹੱਤਵਪੂਰਣ ਹੈ।';
 
   @override
   String get skipToSuggestedContent => 'ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਚੁਣੀ ਸਮੱਗਰੀ \'ਤੇ ਜਾਓ';
@@ -270,15 +254,13 @@ class AppLocalizationsPa extends AppLocalizations {
   String get searchPageEmptyTitle => 'ਖੋਜ ਕਰਨ ਲਈ ਕੋਈ ਕੀਵਰਡ ਜਾਂ ਵਿਸ਼ਾ ਟਾਈਪ ਕਰੋ';
 
   @override
-  String get notificationSubTitle =>
-      'ਤੁਸੀਂ ਆਪਣੀ ਦਿਲਚਸਪੀ ਵਾਲੇ ਕਿਸੇ ਵੀ ਵਿਸ਼ੇ ਲਈ ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।';
+  String get notificationSubTitle => 'ਤੁਸੀਂ ਆਪਣੀ ਦਿਲਚਸਪੀ ਵਾਲੇ ਕਿਸੇ ਵੀ ਵਿਸ਼ੇ ਲਈ ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।';
 
   @override
   String get whatIsInteresting => 'ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਕੀ ਹੈ';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'ਸਿਰਫ਼ ਉਹੀ ਭੇਜਣ ਲਈ ਜੋ ਅਸਲ ਵਿੱਚ ਢੁਕਵਾਂ ਹੈ, ਆਓ ਪਹਿਲਾਂ ਨਿਸ਼ਾਨਦੇਹੀ ਕਰੀਏ ਕਿ ਤੁਹਾਡੀ ਕੀ ਦਿਲਚਸਪੀ ਹੈ।';
+  String get subTextWhatIsInteresting => 'ਸਿਰਫ਼ ਉਹੀ ਭੇਜਣ ਲਈ ਜੋ ਅਸਲ ਵਿੱਚ ਢੁਕਵਾਂ ਹੈ, ਆਓ ਪਹਿਲਾਂ ਨਿਸ਼ਾਨਦੇਹੀ ਕਰੀਏ ਕਿ ਤੁਹਾਡੀ ਕੀ ਦਿਲਚਸਪੀ ਹੈ।';
 
   @override
   String get getStarted => 'ਸ਼ੁਰੂ ਕਰੋ';
@@ -320,15 +302,13 @@ class AppLocalizationsPa extends AppLocalizations {
   String get openSettings => 'ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ';
 
   @override
-  String get subTextNotifications =>
-      'ਤੁਸੀਂ ਹਰ ਉਸ ਵਿਸ਼ੇ ਲਈ ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਕਰ ਸਕਦੇ ਹੋ ਜਿਸ ਵਿੱਚ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਹੈ।';
+  String get subTextNotifications => 'ਤੁਸੀਂ ਹਰ ਉਸ ਵਿਸ਼ੇ ਲਈ ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਕਰ ਸਕਦੇ ਹੋ ਜਿਸ ਵਿੱਚ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਹੈ।';
 
   @override
   String get troubleshooting_tips => 'ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ ਕਰਨ ਲਈ ਸੁਝਾਅ';
 
   @override
-  String get welcome =>
-      'ਨਿਊਜ਼ ਐਪ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ, ਸਿਰਫ਼ ਤੁਹਾਡੇ ਲਈ ਵਿਅਕਤੀਗਤ ਬਣਾਇਆ ਗਿਆ ਹੈ!';
+  String get welcome => 'ਨਿਊਜ਼ ਐਪ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ, ਸਿਰਫ਼ ਤੁਹਾਡੇ ਲਈ ਵਿਅਕਤੀਗਤ ਬਣਾਇਆ ਗਿਆ ਹੈ!';
 
   @override
   String get continueReading => 'ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖੋ';
@@ -340,23 +320,19 @@ class AppLocalizationsPa extends AppLocalizations {
   String get area => 'ਖੇਤਰ';
 
   @override
-  String get chooseYourAreaHint =>
-      'ਸਥਾਨਕ ਖਬਰਾਂ ਦੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਆਪਣਾ ਖੇਤਰ ਚੁਣੋ';
+  String get chooseYourAreaHint => 'ਸਥਾਨਕ ਖਬਰਾਂ ਦੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਆਪਣਾ ਖੇਤਰ ਚੁਣੋ';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'ਉਹ ਖਬਰ ਖੇਤਰ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ।\nਐਪ ਦੇ ਅੰਦਰ, ਤੁਸੀਂ ਵਾਧੂ ਦੇਸ਼ਾਂ ਨੂੰ ਵੀ ਚੁਣ ਸਕਦੇ ਹੋ।';
+  String get chooseYourAreaHintUnused => 'ਉਹ ਖਬਰ ਖੇਤਰ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ।\nਐਪ ਦੇ ਅੰਦਰ, ਤੁਸੀਂ ਵਾਧੂ ਦੇਸ਼ਾਂ ਨੂੰ ਵੀ ਚੁਣ ਸਕਦੇ ਹੋ।';
 
   @override
-  String get chooseYourLangHint =>
-      'ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ, ਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਹਮੇਸ਼ਾ ਬਦਲ ਸਕਦੇ ਹੋ।';
+  String get chooseYourLangHint => 'ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ, ਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਹਮੇਸ਼ਾ ਬਦਲ ਸਕਦੇ ਹੋ।';
 
   @override
   String get topics => 'ਵਿਸ਼ੇ';
 
   @override
-  String get chooseTopicsHint =>
-      'ਉਹਨਾਂ ਵਿਸ਼ਿਆਂ ਨੂੰ ਚੁਣੋ ਜੋ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਰੱਖਦੇ ਹਨ, ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਬਦਲ ਸਕਦੇ ਹੋ।';
+  String get chooseTopicsHint => 'ਉਹਨਾਂ ਵਿਸ਼ਿਆਂ ਨੂੰ ਚੁਣੋ ਜੋ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਰੱਖਦੇ ਹਨ, ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਬਦਲ ਸਕਦੇ ਹੋ।';
 
   @override
   String get categories => 'ਸ਼੍ਰੇਣੀਆਂ';
@@ -383,12 +359,10 @@ class AppLocalizationsPa extends AppLocalizations {
   String get networkStatusOfflineTitle => 'ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ';
 
   @override
-  String get networkStatusPartialMessage =>
-      'ਅਸੀਂ ਇੰਟਰਨੈੱਟ ਤੱਕ ਪਹੁੰਚ ਸਕਦੇ ਹਾਂ ਪਰ ਸਰਵਰ ਤੱਕ ਨਹੀਂ।\\nਇੱਕ ਪਲ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get networkStatusPartialMessage => 'ਅਸੀਂ ਇੰਟਰਨੈੱਟ ਤੱਕ ਪਹੁੰਚ ਸਕਦੇ ਹਾਂ ਪਰ ਸਰਵਰ ਤੱਕ ਨਹੀਂ।\\nਇੱਕ ਪਲ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ। ਅਸੀਂ ਪੁਰਾਣੇ ਲੇਖ ਦਿਖਾ ਰਹੇ ਹਾਂ; ਨਵੀਨਤਮ ਕਹਾਣੀਆਂ ਦੇਖਣ ਲਈ ਇੰਟਰਨੈਟ ਨਾਲ ਜੁੜੋ।';
+  String get networkStatusOfflineMessage => 'ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ। ਅਸੀਂ ਪੁਰਾਣੇ ਲੇਖ ਦਿਖਾ ਰਹੇ ਹਾਂ; ਨਵੀਨਤਮ ਕਹਾਣੀਆਂ ਦੇਖਣ ਲਈ ਇੰਟਰਨੈਟ ਨਾਲ ਜੁੜੋ।';
 
   @override
   String get networkStatusInternetLabel => 'ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ';
@@ -409,8 +383,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get offlineMode => 'ਔਫਲਾਈਨ ਮੋਡ';
 
   @override
-  String get changesSavedSuccessfully =>
-      'ਤਬਦੀਲੀਆਂ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ';
+  String get changesSavedSuccessfully => 'ਤਬਦੀਲੀਆਂ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ';
 
   @override
   String get unableToSaveChanges => 'ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ';
@@ -419,15 +392,13 @@ class AppLocalizationsPa extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'ਪੌਪ-ਅੱਪ ਸੂਚਨਾਵਾਂ';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'ਆਪਣੀਆਂ ਚੇਤਾਵਨੀਆਂ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਅਨੁਕੂਲਿਤ ਕਰੋ। ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਵਾਲੇ ਕਿਸੇ ਵੀ ਵਿਸ਼ੇ ਲਈ ਪੁਸ਼ ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰੋ।';
+  String get dismissibleNoticeNotificationsSubtitle => 'ਆਪਣੀਆਂ ਚੇਤਾਵਨੀਆਂ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਅਨੁਕੂਲਿਤ ਕਰੋ। ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਵਾਲੇ ਕਿਸੇ ਵੀ ਵਿਸ਼ੇ ਲਈ ਪੁਸ਼ ਸੂਚਨਾਵਾਂ ਨੂੰ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰੋ।';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'ਰਾਹ \'ਤੇ ਅੱਪਡੇਟ!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'ਜਲਦੀ ਹੀ ਤੁਸੀਂ ਇਹ ਚੁਣਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ ਕਿ ਤੁਸੀਂ ਦੁਨੀਆ ਦੇ ਕਿਹੜੇ ਖੇਤਰਾਂ ਤੋਂ ਖਬਰਾਂ ਅਤੇ ਅਪਡੇਟਸ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'ਜਲਦੀ ਹੀ ਤੁਸੀਂ ਇਹ ਚੁਣਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ ਕਿ ਤੁਸੀਂ ਦੁਨੀਆ ਦੇ ਕਿਹੜੇ ਖੇਤਰਾਂ ਤੋਂ ਖਬਰਾਂ ਅਤੇ ਅਪਡੇਟਸ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।';
 
   @override
   String get info => 'ਜਾਣਕਾਰੀ';
@@ -439,8 +410,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get saveChanges => 'ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ';
 
   @override
-  String get saveChangesConfirmation =>
-      'ਕੀ ਤੁਸੀਂ ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
+  String get saveChangesConfirmation => 'ਕੀ ਤੁਸੀਂ ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
 
   @override
   String get confirm => 'ਪੁਸ਼ਟੀ ਕਰੋ';
@@ -462,15 +432,13 @@ class AppLocalizationsPa extends AppLocalizations {
   String get newsTopics => 'ਖ਼ਬਰਾਂ ਦੇ ਵਿਸ਼ੇ';
 
   @override
-  String get errorNoInternet =>
-      'ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorNoInternet => 'ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorNoInternetTitle => 'ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ।';
 
   @override
-  String get errorTimeout =>
-      'ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorTimeout => 'ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorTimeoutTitle => 'ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋਇਆ।';
@@ -482,8 +450,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorServerTitle => 'ਸਰਵਰ ਗੜਬੜ।';
 
   @override
-  String get errorUnauthorized =>
-      'ਤੁਸੀਂ ਅਧਿਕਾਰਤ ਨਹੀਂ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorUnauthorized => 'ਤੁਸੀਂ ਅਧਿਕਾਰਤ ਨਹੀਂ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorUnauthorizedTitle => 'ਅਣਅਧਿਕਾਰਤ।';
@@ -504,12 +471,10 @@ class AppLocalizationsPa extends AppLocalizations {
   String get updateArticle => 'ਹੋਰ ਵੇਰਵਿਆਂ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ';
 
   @override
-  String get errorValidation =>
-      'ਕੁਝ ਜਾਣਕਾਰੀ ਅਵੈਧ ਜਾਪਦੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorValidation => 'ਕੁਝ ਜਾਣਕਾਰੀ ਅਵੈਧ ਜਾਪਦੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
-  String get agreeMail =>
-      'ਮੈਂ ਈਮੇਲ ਦੁਆਰਾ ਅੱਪਡੇਟ ਅਤੇ ਨਿਊਜ਼ਲੈਟਰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹਾਂ।';
+  String get agreeMail => 'ਮੈਂ ਈਮੇਲ ਦੁਆਰਾ ਅੱਪਡੇਟ ਅਤੇ ਨਿਊਜ਼ਲੈਟਰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹਾਂ।';
 
   @override
   String get sendUsEmail => 'ਸਾਨੂੰ ਇੱਕ ਈਮੇਲ ਭੇਜੋ';
@@ -518,8 +483,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get discardChangesTitle => 'ਕੀ ਤਬਦੀਲੀਆਂ ਨੂੰ ਰੱਦ ਕਰਨਾ ਹੈ?';
 
   @override
-  String get discardChangesMessage =>
-      'ਤੁਹਾਡੇ ਕੋਲ ਅਣਰੱਖਿਅਤ ਤਬਦੀਲੀਆਂ ਹਨ। ਜੇਕਰ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਦੇ ਹੋ, ਤਾਂ ਉਹ ਖਤਮ ਹੋ ਜਾਣਗੇ।';
+  String get discardChangesMessage => 'ਤੁਹਾਡੇ ਕੋਲ ਅਣਰੱਖਿਅਤ ਤਬਦੀਲੀਆਂ ਹਨ। ਜੇਕਰ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਦੇ ਹੋ, ਤਾਂ ਉਹ ਖਤਮ ਹੋ ਜਾਣਗੇ।';
 
   @override
   String get discardButton => 'ਰੱਦ ਕਰੋ';
@@ -537,8 +501,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get agreePrivacy => 'ਮੈਂ ਪੜ੍ਹ ਲਿਆ ਹੈ ਅਤੇ ਇਸ ਨਾਲ ਸਹਿਮਤ ਹਾਂ ';
 
   @override
-  String get contactUsSubtitle =>
-      'ਹੇਠਾਂ ਦਿੱਤੇ ਫਾਰਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਲਈ ਬੇਝਿਜਕ ਮਹਿਸੂਸ ਕਰੋ।';
+  String get contactUsSubtitle => 'ਹੇਠਾਂ ਦਿੱਤੇ ਫਾਰਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਲਈ ਬੇਝਿਜਕ ਮਹਿਸੂਸ ਕਰੋ।';
 
   @override
   String get fullName => 'ਪੂਰਾ ਨਾਮ';
@@ -571,12 +534,10 @@ class AppLocalizationsPa extends AppLocalizations {
   String get emptyResults_noResults => 'ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ।';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'ਆਪਣੇ ਕੀਵਰਡਸ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਕੋਈ ਹੋਰ ਵਿਸ਼ਾ ਚੁਣੋ।';
+  String get emptyResults_bottomWithTopic => 'ਆਪਣੇ ਕੀਵਰਡਸ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਕੋਈ ਹੋਰ ਵਿਸ਼ਾ ਚੁਣੋ।';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'ਆਪਣੇ ਕੀਵਰਡਸ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get emptyResults_bottomWithoutTopic => 'ਆਪਣੇ ਕੀਵਰਡਸ ਨੂੰ ਬਦਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get emptyResults_inThisTopic => 'ਇਸ ਵਿਸ਼ੇ ਵਿੱਚ';
@@ -591,15 +552,13 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorNotModifiedTitle => 'ਸੋਧਿਆ ਨਹੀਂ ਗਿਆ।';
 
   @override
-  String get errorNotModified =>
-      'ਤੁਹਾਡੀ ਪਿਛਲੀ ਬੇਨਤੀ ਤੋਂ ਬਾਅਦ ਕੁਝ ਵੀ ਨਹੀਂ ਬਦਲਿਆ ਹੈ।';
+  String get errorNotModified => 'ਤੁਹਾਡੀ ਪਿਛਲੀ ਬੇਨਤੀ ਤੋਂ ਬਾਅਦ ਕੁਝ ਵੀ ਨਹੀਂ ਬਦਲਿਆ ਹੈ।';
 
   @override
   String get errorNetworkTitle => 'ਨੈੱਟਵਰਕ ਗੜਬੜ।';
 
   @override
-  String get errorNetwork =>
-      'ਅਸੀਂ ਨੈੱਟਵਰਕ ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕੇ। ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorNetwork => 'ਅਸੀਂ ਨੈੱਟਵਰਕ ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕੇ। ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorDataIsEmptyTitle => 'ਕੋਈ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।';
@@ -611,43 +570,37 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorConflictTitle => 'ਟਕਰਾਅ।';
 
   @override
-  String get errorConflict =>
-      'ਬੇਨਤੀ ਮੌਜੂਦਾ ਡੇਟਾ ਨਾਲ ਟਕਰਾ ਗਈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorConflict => 'ਬੇਨਤੀ ਮੌਜੂਦਾ ਡੇਟਾ ਨਾਲ ਟਕਰਾ ਗਈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorServerValidationTitle => 'ਪ੍ਰਮਾਣਿਕਤਾ ਗੜਬੜ।';
 
   @override
-  String get errorServerValidation =>
-      'ਸਰਵਰ ਨੇ ਕੁਝ ਡੇਟਾ ਨੂੰ ਅਸਵੀਕਾਰ ਕੀਤਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorServerValidation => 'ਸਰਵਰ ਨੇ ਕੁਝ ਡੇਟਾ ਨੂੰ ਅਸਵੀਕਾਰ ਕੀਤਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorWriteFileTitle => 'ਲਿਖਣਾ ਅਸਫਲ ਰਿਹਾ।';
 
   @override
-  String get errorWriteFile =>
-      'ਅਸੀਂ ਫ਼ਾਈਲ ਨੂੰ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorWriteFile => 'ਅਸੀਂ ਫ਼ਾਈਲ ਨੂੰ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorReadFileTitle => 'ਪੜ੍ਹਨਾ ਅਸਫਲ ਰਿਹਾ।';
 
   @override
-  String get errorReadFile =>
-      'ਅਸੀਂ ਫ਼ਾਈਲ ਨੂੰ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorReadFile => 'ਅਸੀਂ ਫ਼ਾਈਲ ਨੂੰ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorFileNotFoundTitle => 'ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ।';
 
   @override
-  String get errorFileNotFound =>
-      'ਅਸੀਂ ਉਹ ਫ਼ਾਈਲ ਨਹੀਂ ਲੱਭ ਸਕੇ ਜੋ ਤੁਸੀਂ ਲੱਭ ਰਹੇ ਹੋ।';
+  String get errorFileNotFound => 'ਅਸੀਂ ਉਹ ਫ਼ਾਈਲ ਨਹੀਂ ਲੱਭ ਸਕੇ ਜੋ ਤੁਸੀਂ ਲੱਭ ਰਹੇ ਹੋ।';
 
   @override
   String get errorInsufficientStorageTitle => 'ਕਾਫ਼ੀ ਸਟੋਰੇਜ ਨਹੀਂ ਹੈ।';
 
   @override
-  String get errorInsufficientStorage =>
-      'ਜਗ੍ਹਾ ਖਾਲੀ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorInsufficientStorage => 'ਜਗ੍ਹਾ ਖਾਲੀ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorDatabaseReadTitle => 'ਡਾਟਾਬੇਸ ਰੀਡ ਅਸ਼ੁੱਧੀ।';
@@ -683,8 +636,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorSecureStorageReadTitle => 'ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਰੀਡ ਅਸ਼ੁੱਧੀ।';
 
   @override
-  String get errorSecureStorageRead =>
-      'ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਤੋਂ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ।';
+  String get errorSecureStorageRead => 'ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਤੋਂ ਪੜ੍ਹ ਨਹੀਂ ਸਕੇ।';
 
   @override
   String get errorSecureStorageWriteTitle => 'ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਲਿਖਣ ਦੀ ਗਲਤੀ।';
@@ -696,8 +648,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorSecureStorageClearTitle => 'ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਸਾਫ਼ ਗਲਤੀ.';
 
   @override
-  String get errorSecureStorageClear =>
-      'ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਨੂੰ ਸਾਫ਼ ਨਹੀਂ ਕਰ ਸਕੇ।';
+  String get errorSecureStorageClear => 'ਅਸੀਂ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਨੂੰ ਸਾਫ਼ ਨਹੀਂ ਕਰ ਸਕੇ।';
 
   @override
   String get errorTokenExpiredTitle => 'ਸੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ।';
@@ -715,8 +666,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'ਇਜਾਜ਼ਤ ਅਸਵੀਕਾਰ ਕੀਤੀ ਗਈ।';
 
   @override
-  String get errorPermissionDenied =>
-      'ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।';
+  String get errorPermissionDenied => 'ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।';
 
   @override
   String get errorEmptyResultTitle => 'ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ।';
@@ -728,8 +678,7 @@ class AppLocalizationsPa extends AppLocalizations {
   String get errorInvalidInputTitle => 'ਅਵੈਧ ਇਨਪੁਟ।';
 
   @override
-  String get errorInvalidInput =>
-      'ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇਨਪੁਟ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
+  String get errorInvalidInput => 'ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇਨਪੁਟ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
 
   @override
   String get errorEmptyTopicsTitle => 'ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ।';

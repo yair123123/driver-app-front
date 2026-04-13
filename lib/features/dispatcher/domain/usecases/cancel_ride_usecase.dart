@@ -5,7 +5,7 @@ class CancelRideUsecase {
   final DispatchRepository repository;
   CancelRideUsecase(this.repository);
 
-  void call(CancelRide ride){
+  void call(CancelOffer ride){
     repository.cancelRide(ride);
   }
 }

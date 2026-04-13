@@ -2,9 +2,9 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:news_app/core/services/secure_storage/datasource_abstract.dart';
-import 'package:news_app/core/services/secure_storage/local_datasource_mobile.dart';
-import 'package:news_app/core/services/secure_storage/local_datasource_web.dart';
+import 'package:driver_app/core/services/secure_storage/datasource_abstract.dart';
+import 'package:driver_app/core/services/secure_storage/local_datasource_mobile.dart';
+import 'package:driver_app/core/services/secure_storage/local_datasource_web.dart';
 
 class SecureStorageService {
   static FlutterSecureStorage create() {

@@ -12,8 +12,7 @@ part of 'message.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-  'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models',
-);
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
 Message _$MessageFromJson(Map<String, dynamic> json) {
   return _Message.fromJson(json);
@@ -24,12 +23,8 @@ mixin _$Message {
   int get snederId => throw _privateConstructorUsedError;
   String get text => throw _privateConstructorUsedError;
 
-  /// Serializes this Message to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of Message
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $MessageCopyWith<Message> get copyWith => throw _privateConstructorUsedError;
 }
 
@@ -51,35 +46,30 @@ class _$MessageCopyWithImpl<$Res, $Val extends Message>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of Message
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
-  $Res call({Object? snederId = null, Object? text = null}) {
-    return _then(
-      _value.copyWith(
-            snederId:
-                null == snederId
-                    ? _value.snederId
-                    : snederId // ignore: cast_nullable_to_non_nullable
-                        as int,
-            text:
-                null == text
-                    ? _value.text
-                    : text // ignore: cast_nullable_to_non_nullable
-                        as String,
-          )
-          as $Val,
-    );
+  $Res call({
+    Object? snederId = null,
+    Object? text = null,
+  }) {
+    return _then(_value.copyWith(
+      snederId: null == snederId
+          ? _value.snederId
+          : snederId // ignore: cast_nullable_to_non_nullable
+              as int,
+      text: null == text
+          ? _value.text
+          : text // ignore: cast_nullable_to_non_nullable
+              as String,
+    ) as $Val);
   }
 }
 
 /// @nodoc
 abstract class _$$MessageImplCopyWith<$Res> implements $MessageCopyWith<$Res> {
   factory _$$MessageImplCopyWith(
-    _$MessageImpl value,
-    $Res Function(_$MessageImpl) then,
-  ) = __$$MessageImplCopyWithImpl<$Res>;
+          _$MessageImpl value, $Res Function(_$MessageImpl) then) =
+      __$$MessageImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call({int snederId, String text});
@@ -90,29 +80,25 @@ class __$$MessageImplCopyWithImpl<$Res>
     extends _$MessageCopyWithImpl<$Res, _$MessageImpl>
     implements _$$MessageImplCopyWith<$Res> {
   __$$MessageImplCopyWithImpl(
-    _$MessageImpl _value,
-    $Res Function(_$MessageImpl) _then,
-  ) : super(_value, _then);
+      _$MessageImpl _value, $Res Function(_$MessageImpl) _then)
+      : super(_value, _then);
 
-  /// Create a copy of Message
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
-  $Res call({Object? snederId = null, Object? text = null}) {
-    return _then(
-      _$MessageImpl(
-        snederId:
-            null == snederId
-                ? _value.snederId
-                : snederId // ignore: cast_nullable_to_non_nullable
-                    as int,
-        text:
-            null == text
-                ? _value.text
-                : text // ignore: cast_nullable_to_non_nullable
-                    as String,
-      ),
-    );
+  $Res call({
+    Object? snederId = null,
+    Object? text = null,
+  }) {
+    return _then(_$MessageImpl(
+      snederId: null == snederId
+          ? _value.snederId
+          : snederId // ignore: cast_nullable_to_non_nullable
+              as int,
+      text: null == text
+          ? _value.text
+          : text // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
   }
 }
 
@@ -144,13 +130,11 @@ class _$MessageImpl implements _Message {
             (identical(other.text, text) || other.text == text));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, snederId, text);
 
-  /// Create a copy of Message
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$MessageImplCopyWith<_$MessageImpl> get copyWith =>
@@ -158,15 +142,16 @@ class _$MessageImpl implements _Message {
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$MessageImplToJson(this);
+    return _$$MessageImplToJson(
+      this,
+    );
   }
 }
 
 abstract class _Message implements Message {
-  const factory _Message({
-    required final int snederId,
-    required final String text,
-  }) = _$MessageImpl;
+  const factory _Message(
+      {required final int snederId,
+      required final String text}) = _$MessageImpl;
 
   factory _Message.fromJson(Map<String, dynamic> json) = _$MessageImpl.fromJson;
 
@@ -174,11 +159,8 @@ abstract class _Message implements Message {
   int get snederId;
   @override
   String get text;
-
-  /// Create a copy of Message
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$MessageImplCopyWith<_$MessageImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

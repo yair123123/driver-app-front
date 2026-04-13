@@ -1,4 +1,4 @@
-import 'package:news_app/core/services/secure_storage/datasource_abstract.dart';
+import 'package:driver_app/core/services/secure_storage/datasource_abstract.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalDatasourceWeb implements LocalDatasource{

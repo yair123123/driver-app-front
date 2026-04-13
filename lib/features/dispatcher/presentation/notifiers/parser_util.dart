@@ -1,5 +1,5 @@
-import 'package:driver_app/features/bootstrap/domain/entities/ride/ride.dart';
 import 'package:phone_numbers_parser/phone_numbers_parser.dart';
+import 'package:driver_app/features/rides/domain/entities/ride/ride.dart';
 import 'package:uuid/uuid.dart';
 
 class RideParseResult {

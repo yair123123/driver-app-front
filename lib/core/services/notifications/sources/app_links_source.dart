@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:app_links/app_links.dart';
-import 'package:news_app/core/logger/firebase_logger.dart';
+import 'package:driver_app/core/logger/firebase_logger.dart';
 
 typedef UriListener = void Function(Uri uri);
 

@@ -45,19 +45,16 @@ class AppLocalizationsNl extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Een nieuw gebied voor WhatsApp- en Telegram-kanalen met video\'s, afbeeldingen en updates – alle interessante inhoud op één plek.';
+  String get channels_section_description => 'Een nieuw gebied voor WhatsApp- en Telegram-kanalen met video\'s, afbeeldingen en updates – alle interessante inhoud op één plek.';
 
   @override
   String get newMessages => 'Nieuwe berichten';
@@ -80,8 +77,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get contactUsSuccessTitle => 'Succesvol verzonden ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Dank je! Wij hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op.';
+  String get contactUsSuccessMessage => 'Dank je! Wij hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op.';
 
   @override
   String get selectCountry => 'Selecteer Land';
@@ -111,8 +107,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get areaWereAdded => 'Gebied is succesvol toegevoegd';
 
   @override
-  String get saveChangesMessage =>
-      'Wilt u de aangebrachte wijzigingen opslaan?';
+  String get saveChangesMessage => 'Wilt u de aangebrachte wijzigingen opslaan?';
 
   @override
   String get busyLandingTitle => 'We landen bijna...';
@@ -124,8 +119,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get changeCountryTitle => 'Naar welk land moeten we overstappen?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Wanneer u een land kiest, wordt alle inhoud in de app bijgewerkt op basis van uw selectie.';
+  String get changeCountrySubtitle => 'Wanneer u een land kiest, wordt alle inhoud in de app bijgewerkt op basis van uw selectie.';
 
   @override
   String get dailySummary => 'Dagelijkse samenvatting';
@@ -134,22 +128,19 @@ class AppLocalizationsNl extends AppLocalizations {
   String get lastUpdated => 'Laatst bijgewerkt';
 
   @override
-  String get saveChangesSubtitle =>
-      'Wilt u de aangebrachte wijzigingen opslaan?';
+  String get saveChangesSubtitle => 'Wilt u de aangebrachte wijzigingen opslaan?';
 
   @override
   String get readMore => 'Lees meer';
 
   @override
-  String get searchPageNoResultsPrefix =>
-      'Er zijn geen resultaten gevonden voor ';
+  String get searchPageNoResultsPrefix => 'Er zijn geen resultaten gevonden voor ';
 
   @override
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Er zijn geen resultaten gevonden voor \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Er zijn geen resultaten gevonden voor \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' in deze categorie';
@@ -161,8 +152,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get notificationsOffTitle => 'Meldingen uitgeschakeld';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Het lijkt erop dat toegang tot meldingen nog niet is ingeschakeld.';
+  String get notificationsOffSubtitle => 'Het lijkt erop dat toegang tot meldingen nog niet is ingeschakeld.';
 
   @override
   String get newArticles => 'Nieuwe artikelen';
@@ -171,15 +161,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get home => 'thuis';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Wijzigingen worden toegepast bij de volgende lancering van de app.';
+  String get changesApplyOnNextLaunch => 'Wijzigingen worden toegepast bij de volgende lancering van de app.';
 
   @override
   String get enable => 'Inschakelen';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Blijf op de hoogte van het laatste nieuws';
+  String get stayUpdatedWithLatestNews => 'Blijf op de hoogte van het laatste nieuws';
 
   @override
   String get enableNotifications => 'Meldingen inschakelen';
@@ -194,8 +182,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get freeSearch => 'Gratis zoeken';
 
   @override
-  String get aiPageSubtitle =>
-      'Deze functie is nog in ontwikkeling \n de moeite waard om binnenkort nog eens terug te komen.';
+  String get aiPageSubtitle => 'Deze functie is nog in ontwikkeling \n de moeite waard om binnenkort nog eens terug te komen.';
 
   @override
   String get topicsSelectionTitle => 'Selectie van nieuwsonderwerpen';
@@ -204,26 +191,22 @@ class AppLocalizationsNl extends AppLocalizations {
   String get groups => 'Groepen';
 
   @override
-  String get aiPageTitle =>
-      'Binnenkort beschikbaar: je kunt met onze AI chatten over het nieuws!';
+  String get aiPageTitle => 'Binnenkort beschikbaar: je kunt met onze AI chatten over het nieuws!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Kies onderwerpen of subonderwerpen die u graag in uw feed wilt zien. Je kunt ze hier altijd wijzigen.';
+  String get topicsSelectionSubtitle => 'Kies onderwerpen of subonderwerpen die u graag in uw feed wilt zien. Je kunt ze hier altijd wijzigen.';
 
   @override
   String get failedToLoadTopics => 'Kan onderwerpen niet laden';
 
   @override
-  String get settingsNote =>
-      'U kunt de instellingen op elk gewenst moment bewerken';
+  String get settingsNote => 'U kunt de instellingen op elk gewenst moment bewerken';
 
   @override
   String get lang => 'Taal';
 
   @override
-  String get failed_to_load_data =>
-      'We konden de gegevens niet laden. Controleer uw internetverbinding en probeer het opnieuw.';
+  String get failed_to_load_data => 'We konden de gegevens niet laden. Controleer uw internetverbinding en probeer het opnieuw.';
 
   @override
   String get changeLang => 'Taal wijzigen';
@@ -232,12 +215,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get notNow => 'Niet nu';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Door meldingen in te schakelen, blijft u op de hoogte van belangrijk nieuws, urgente updates en gepersonaliseerde inhoud, zodat u nooit meer iets mist dat voor u belangrijk is.';
+  String get notificationsPermissionRationale => 'Door meldingen in te schakelen, blijft u op de hoogte van belangrijk nieuws, urgente updates en gepersonaliseerde inhoud, zodat u nooit meer iets mist dat voor u belangrijk is.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Ga naar de inhoud die we voor u hebben uitgekozen';
+  String get skipToSuggestedContent => 'Ga naar de inhoud die we voor u hebben uitgekozen';
 
   @override
   String get lets_go => 'Laten we gaan';
@@ -270,19 +251,16 @@ class AppLocalizationsNl extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Wat zou je willen zoeken?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Typ een trefwoord of onderwerp om te zoeken';
+  String get searchPageEmptyTitle => 'Typ een trefwoord of onderwerp om te zoeken';
 
   @override
-  String get notificationSubTitle =>
-      'U kunt pop-upmeldingen inschakelen voor elk onderwerp dat u interesseert.';
+  String get notificationSubTitle => 'U kunt pop-upmeldingen inschakelen voor elk onderwerp dat u interesseert.';
 
   @override
   String get whatIsInteresting => 'Wat interesseert jou';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Om alleen te sturen wat echt relevant is, moeten we eerst markeren wat u interesseert.';
+  String get subTextWhatIsInteresting => 'Om alleen te sturen wat echt relevant is, moeten we eerst markeren wat u interesseert.';
 
   @override
   String get getStarted => 'Aan de slag';
@@ -324,15 +302,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get openSettings => 'Instellingen openen';
 
   @override
-  String get subTextNotifications =>
-      'U kunt pop-upmeldingen inschakelen voor elk onderwerp dat u interesseert.';
+  String get subTextNotifications => 'U kunt pop-upmeldingen inschakelen voor elk onderwerp dat u interesseert.';
 
   @override
   String get troubleshooting_tips => 'Tips voor het oplossen van problemen';
 
   @override
-  String get welcome =>
-      'Welkom bij de nieuws-app, speciaal voor jou gepersonaliseerd!';
+  String get welcome => 'Welkom bij de nieuws-app, speciaal voor jou gepersonaliseerd!';
 
   @override
   String get continueReading => 'Lees verder';
@@ -344,23 +320,19 @@ class AppLocalizationsNl extends AppLocalizations {
   String get area => 'Gebied';
 
   @override
-  String get chooseYourAreaHint =>
-      'Kies uw regio om gelokaliseerde nieuwsupdates te ontvangen';
+  String get chooseYourAreaHint => 'Kies uw regio om gelokaliseerde nieuwsupdates te ontvangen';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Kies de gewenste nieuwsregio.\nBinnen de app kun je ook extra landen selecteren.';
+  String get chooseYourAreaHintUnused => 'Kies de gewenste nieuwsregio.\nBinnen de app kun je ook extra landen selecteren.';
 
   @override
-  String get chooseYourLangHint =>
-      'Kies uw taal, u kunt deze later altijd wijzigen.';
+  String get chooseYourLangHint => 'Kies uw taal, u kunt deze later altijd wijzigen.';
 
   @override
   String get topics => 'Onderwerpen';
 
   @override
-  String get chooseTopicsHint =>
-      'Kies de onderwerpen die u interesseren, u kunt deze altijd wijzigen in de instellingen.';
+  String get chooseTopicsHint => 'Kies de onderwerpen die u interesseren, u kunt deze altijd wijzigen in de instellingen.';
 
   @override
   String get categories => 'Categorieën';
@@ -387,12 +359,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Geen internetverbinding';
 
   @override
-  String get networkStatusPartialMessage =>
-      'We kunnen het internet bereiken, maar niet de server.\\nProbeer het zo opnieuw.';
+  String get networkStatusPartialMessage => 'We kunnen het internet bereiken, maar niet de server.\\nProbeer het zo opnieuw.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Geen internetverbinding. We tonen oudere artikelen; maak verbinding met internet om de nieuwste verhalen te zien.';
+  String get networkStatusOfflineMessage => 'Geen internetverbinding. We tonen oudere artikelen; maak verbinding met internet om de nieuwste verhalen te zien.';
 
   @override
   String get networkStatusInternetLabel => 'Internetverbinding';
@@ -413,8 +383,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get offlineMode => 'Offline-modus';
 
   @override
-  String get changesSavedSuccessfully =>
-      'Wijzigingen zijn succesvol opgeslagen';
+  String get changesSavedSuccessfully => 'Wijzigingen zijn succesvol opgeslagen';
 
   @override
   String get unableToSaveChanges => 'Kan wijzigingen niet opslaan';
@@ -423,15 +392,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Pop-upmeldingen';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Pas uw waarschuwingen eenvoudig aan. Schakel pushmeldingen in of uit voor elk onderwerp dat u interesseert.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Pas uw waarschuwingen eenvoudig aan. Schakel pushmeldingen in of uit voor elk onderwerp dat u interesseert.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Update onderweg!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Binnenkort kun je kiezen uit welke regio\'s van de wereld je nieuws en updates wilt ontvangen.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Binnenkort kun je kiezen uit welke regio\'s van de wereld je nieuws en updates wilt ontvangen.';
 
   @override
   String get info => 'Info';
@@ -465,36 +432,31 @@ class AppLocalizationsNl extends AppLocalizations {
   String get newsTopics => 'Nieuws onderwerpen';
 
   @override
-  String get errorNoInternet =>
-      'Controleer uw verbinding en probeer het opnieuw.';
+  String get errorNoInternet => 'Controleer uw verbinding en probeer het opnieuw.';
 
   @override
   String get errorNoInternetTitle => 'Geen internetverbinding.';
 
   @override
-  String get errorTimeout =>
-      'Er is een time-out opgetreden voor het verzoek. Probeer het later opnieuw.';
+  String get errorTimeout => 'Er is een time-out opgetreden voor het verzoek. Probeer het later opnieuw.';
 
   @override
   String get errorTimeoutTitle => 'Verzoek is verlopen.';
 
   @override
-  String get errorServer =>
-      'Er is een serverfout opgetreden. Probeer het opnieuw.';
+  String get errorServer => 'Er is een serverfout opgetreden. Probeer het opnieuw.';
 
   @override
   String get errorServerTitle => 'Serverfout.';
 
   @override
-  String get errorUnauthorized =>
-      'U bent niet bevoegd. Meld u aan en probeer het opnieuw.';
+  String get errorUnauthorized => 'U bent niet bevoegd. Meld u aan en probeer het opnieuw.';
 
   @override
   String get errorUnauthorizedTitle => 'Ongeautoriseerd.';
 
   @override
-  String get errorForbidden =>
-      'U heeft geen toestemming om deze actie uit te voeren.';
+  String get errorForbidden => 'U heeft geen toestemming om deze actie uit te voeren.';
 
   @override
   String get errorForbiddenTitle => 'Toegang geweigerd.';
@@ -509,12 +471,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get updateArticle => 'Er zijn meer details bijgewerkt';
 
   @override
-  String get errorValidation =>
-      'Sommige informatie lijkt ongeldig. Controleer het en probeer het opnieuw.';
+  String get errorValidation => 'Sommige informatie lijkt ongeldig. Controleer het en probeer het opnieuw.';
 
   @override
-  String get agreeMail =>
-      'Ik ga ermee akkoord om updates en nieuwsbrieven per e-mail te ontvangen.';
+  String get agreeMail => 'Ik ga ermee akkoord om updates en nieuwsbrieven per e-mail te ontvangen.';
 
   @override
   String get sendUsEmail => 'Stuur ons een e-mail';
@@ -523,8 +483,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get discardChangesTitle => 'Wijzigingen weggooien?';
 
   @override
-  String get discardChangesMessage =>
-      'U heeft niet-opgeslagen wijzigingen. Als je doorgaat, gaan ze verloren.';
+  String get discardChangesMessage => 'U heeft niet-opgeslagen wijzigingen. Als je doorgaat, gaan ze verloren.';
 
   @override
   String get discardButton => 'Gooi weg';
@@ -542,8 +501,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get agreePrivacy => 'Ik heb de gelezen en ga ermee akkoord ';
 
   @override
-  String get contactUsSubtitle =>
-      'Neem gerust contact met ons op via onderstaand formulier.';
+  String get contactUsSubtitle => 'Neem gerust contact met ons op via onderstaand formulier.';
 
   @override
   String get fullName => 'Volledige naam';
@@ -576,12 +534,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get emptyResults_noResults => 'Geen resultaten gevonden.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Probeer uw zoekwoorden te wijzigen of kies een ander onderwerp.';
+  String get emptyResults_bottomWithTopic => 'Probeer uw zoekwoorden te wijzigen of kies een ander onderwerp.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Probeer uw zoekwoorden te wijzigen.';
+  String get emptyResults_bottomWithoutTopic => 'Probeer uw zoekwoorden te wijzigen.';
 
   @override
   String get emptyResults_inThisTopic => 'in dit onderwerp';
@@ -590,71 +546,61 @@ class AppLocalizationsNl extends AppLocalizations {
   String get errorBadRequestTitle => 'Slecht verzoek.';
 
   @override
-  String get errorBadRequest =>
-      'Het verzoek was ongeldig. Probeer het opnieuw.';
+  String get errorBadRequest => 'Het verzoek was ongeldig. Probeer het opnieuw.';
 
   @override
   String get errorNotModifiedTitle => 'Niet gewijzigd.';
 
   @override
-  String get errorNotModified =>
-      'Er is niets veranderd sinds uw laatste verzoek.';
+  String get errorNotModified => 'Er is niets veranderd sinds uw laatste verzoek.';
 
   @override
   String get errorNetworkTitle => 'Netwerkfout.';
 
   @override
-  String get errorNetwork =>
-      'We konden het netwerk niet bereiken. Controleer uw verbinding en probeer het opnieuw.';
+  String get errorNetwork => 'We konden het netwerk niet bereiken. Controleer uw verbinding en probeer het opnieuw.';
 
   @override
   String get errorDataIsEmptyTitle => 'Geen gegevens beschikbaar.';
 
   @override
-  String get errorDataIsEmpty =>
-      'We konden geen gegevens vinden om weer te geven.';
+  String get errorDataIsEmpty => 'We konden geen gegevens vinden om weer te geven.';
 
   @override
   String get errorConflictTitle => 'Conflicten.';
 
   @override
-  String get errorConflict =>
-      'Het verzoek was in strijd met bestaande gegevens. Probeer het opnieuw.';
+  String get errorConflict => 'Het verzoek was in strijd met bestaande gegevens. Probeer het opnieuw.';
 
   @override
   String get errorServerValidationTitle => 'Validatiefout.';
 
   @override
-  String get errorServerValidation =>
-      'De server heeft bepaalde gegevens afgewezen. Controleer het en probeer het opnieuw.';
+  String get errorServerValidation => 'De server heeft bepaalde gegevens afgewezen. Controleer het en probeer het opnieuw.';
 
   @override
   String get errorWriteFileTitle => 'Schrijven is mislukt.';
 
   @override
-  String get errorWriteFile =>
-      'We konden het bestand niet opslaan. Probeer het opnieuw.';
+  String get errorWriteFile => 'We konden het bestand niet opslaan. Probeer het opnieuw.';
 
   @override
   String get errorReadFileTitle => 'Lezen mislukt.';
 
   @override
-  String get errorReadFile =>
-      'We konden het bestand niet lezen. Probeer het opnieuw.';
+  String get errorReadFile => 'We konden het bestand niet lezen. Probeer het opnieuw.';
 
   @override
   String get errorFileNotFoundTitle => 'Bestand niet gevonden.';
 
   @override
-  String get errorFileNotFound =>
-      'We kunnen het bestand dat u zoekt niet vinden.';
+  String get errorFileNotFound => 'We kunnen het bestand dat u zoekt niet vinden.';
 
   @override
   String get errorInsufficientStorageTitle => 'Niet genoeg opslagruimte.';
 
   @override
-  String get errorInsufficientStorage =>
-      'Maak ruimte vrij en probeer het opnieuw.';
+  String get errorInsufficientStorage => 'Maak ruimte vrij en probeer het opnieuw.';
 
   @override
   String get errorDatabaseReadTitle => 'Leesfout database.';
@@ -672,8 +618,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get errorDatabaseConnectionTitle => 'Databaseverbindingsfout.';
 
   @override
-  String get errorDatabaseConnection =>
-      'We konden geen verbinding maken met de database.';
+  String get errorDatabaseConnection => 'We konden geen verbinding maken met de database.';
 
   @override
   String get errorAuthTitle => 'Authenticatiefout.';
@@ -685,30 +630,25 @@ class AppLocalizationsNl extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Ongeldige inloggegevens.';
 
   @override
-  String get errorInvalidCredentials =>
-      'De gebruikersnaam of het wachtwoord is onjuist.';
+  String get errorInvalidCredentials => 'De gebruikersnaam of het wachtwoord is onjuist.';
 
   @override
   String get errorSecureStorageReadTitle => 'Leesfout bij beveiligde opslag.';
 
   @override
-  String get errorSecureStorageRead =>
-      'We konden niet lezen vanuit de beveiligde opslag.';
+  String get errorSecureStorageRead => 'We konden niet lezen vanuit de beveiligde opslag.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Schrijffout bij beveiligde opslag.';
+  String get errorSecureStorageWriteTitle => 'Schrijffout bij beveiligde opslag.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'We konden niet naar de beveiligde opslag schrijven.';
+  String get errorSecureStorageWrite => 'We konden niet naar de beveiligde opslag schrijven.';
 
   @override
   String get errorSecureStorageClearTitle => 'Veilige opslag duidelijke fout.';
 
   @override
-  String get errorSecureStorageClear =>
-      'We kunnen de beveiligde opslag niet vrijmaken.';
+  String get errorSecureStorageClear => 'We kunnen de beveiligde opslag niet vrijmaken.';
 
   @override
   String get errorTokenExpiredTitle => 'Sessie verlopen.';
@@ -726,8 +666,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Toestemming geweigerd.';
 
   @override
-  String get errorPermissionDenied =>
-      'U heeft geen toestemming om deze actie uit te voeren.';
+  String get errorPermissionDenied => 'U heeft geen toestemming om deze actie uit te voeren.';
 
   @override
   String get errorEmptyResultTitle => 'Geen resultaten.';
@@ -739,8 +678,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get errorInvalidInputTitle => 'Ongeldige invoer.';
 
   @override
-  String get errorInvalidInput =>
-      'Controleer uw invoer en probeer het opnieuw.';
+  String get errorInvalidInput => 'Controleer uw invoer en probeer het opnieuw.';
 
   @override
   String get errorEmptyTopicsTitle => 'Geen onderwerpen geselecteerd.';

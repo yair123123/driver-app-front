@@ -45,19 +45,16 @@ class AppLocalizationsRo extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'O nouă zonă pentru canalele WhatsApp și Telegram cu videoclipuri, imagini și actualizări – tot cel mai interesant conținut într-un singur loc.';
+  String get channels_section_description => 'O nouă zonă pentru canalele WhatsApp și Telegram cu videoclipuri, imagini și actualizări – tot cel mai interesant conținut într-un singur loc.';
 
   @override
   String get newMessages => 'Mesaje noi';
@@ -80,8 +77,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get contactUsSuccessTitle => 'Trimis cu succes ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Multumesc! Am primit mesajul dvs. și vă vom contacta cât mai curând posibil.';
+  String get contactUsSuccessMessage => 'Multumesc! Am primit mesajul dvs. și vă vom contacta cât mai curând posibil.';
 
   @override
   String get selectCountry => 'Selectați Țara';
@@ -111,8 +107,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get areaWereAdded => 'Zona au fost adăugate cu succes';
 
   @override
-  String get saveChangesMessage =>
-      'Doriți să salvați modificările pe care le-ați făcut?';
+  String get saveChangesMessage => 'Doriți să salvați modificările pe care le-ați făcut?';
 
   @override
   String get busyLandingTitle => 'Aproape aterizam...';
@@ -124,8 +119,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get changeCountryTitle => 'În ce țară ar trebui să trecem?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Când alegeți o țară, tot conținutul din aplicație se va actualiza în funcție de selecția dvs.';
+  String get changeCountrySubtitle => 'Când alegeți o țară, tot conținutul din aplicație se va actualiza în funcție de selecția dvs.';
 
   @override
   String get dailySummary => 'Rezumat zilnic';
@@ -134,8 +128,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get lastUpdated => 'Ultima actualizare';
 
   @override
-  String get saveChangesSubtitle =>
-      'Doriți să salvați modificările pe care le-ați făcut?';
+  String get saveChangesSubtitle => 'Doriți să salvați modificările pe care le-ați făcut?';
 
   @override
   String get readMore => 'Citiți mai multe';
@@ -147,12 +140,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Nu s-au găsit rezultate pentru \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Nu s-au găsit rezultate pentru \n';
 
   @override
-  String get searchPageNoResultsForThisCategorySuffix =>
-      ' în această categorie';
+  String get searchPageNoResultsForThisCategorySuffix => ' în această categorie';
 
   @override
   String get toPowerOn => 'a porni';
@@ -161,8 +152,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get notificationsOffTitle => 'Notificări dezactivate';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Se pare că accesul la notificări nu a fost încă activat.';
+  String get notificationsOffSubtitle => 'Se pare că accesul la notificări nu a fost încă activat.';
 
   @override
   String get newArticles => 'Articole noi';
@@ -171,15 +161,13 @@ class AppLocalizationsRo extends AppLocalizations {
   String get home => 'acasă';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Modificările vor fi aplicate la următoarea lansare a aplicației.';
+  String get changesApplyOnNextLaunch => 'Modificările vor fi aplicate la următoarea lansare a aplicației.';
 
   @override
   String get enable => 'Activați';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Rămâneți la curent cu cele mai recente știri';
+  String get stayUpdatedWithLatestNews => 'Rămâneți la curent cu cele mai recente știri';
 
   @override
   String get enableNotifications => 'Activați notificările';
@@ -194,8 +182,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get freeSearch => 'Căutare gratuită';
 
   @override
-  String get aiPageSubtitle =>
-      'Această caracteristică este încă în dezvoltare \n merită verificat în curând.';
+  String get aiPageSubtitle => 'Această caracteristică este încă în dezvoltare \n merită verificat în curând.';
 
   @override
   String get topicsSelectionTitle => 'Selecția subiectelor de știri';
@@ -204,12 +191,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get groups => 'Grupuri';
 
   @override
-  String get aiPageTitle =>
-      'În curând: veți putea discuta cu AI-ul nostru despre noutăți!';
+  String get aiPageTitle => 'În curând: veți putea discuta cu AI-ul nostru despre noutăți!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Alegeți subiecte sau subsubiecte pe care doriți să le vedeți în feed. Le poți schimba oricând aici.';
+  String get topicsSelectionSubtitle => 'Alegeți subiecte sau subsubiecte pe care doriți să le vedeți în feed. Le poți schimba oricând aici.';
 
   @override
   String get failedToLoadTopics => 'Nu s-au încărcat subiectele';
@@ -221,8 +206,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get lang => 'Limba';
 
   @override
-  String get failed_to_load_data =>
-      'Nu am putut încărca datele. Vă rugăm să vă verificați conexiunea la internet și să încercați din nou.';
+  String get failed_to_load_data => 'Nu am putut încărca datele. Vă rugăm să vă verificați conexiunea la internet și să încercați din nou.';
 
   @override
   String get changeLang => 'Schimbați limba';
@@ -231,12 +215,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get notNow => 'Nu acum';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Activarea notificărilor vă permite să fiți la curent cu știri importante, actualizări urgente și conținut personalizat, astfel încât să nu ratați niciodată nimic care contează pentru dvs.';
+  String get notificationsPermissionRationale => 'Activarea notificărilor vă permite să fiți la curent cu știri importante, actualizări urgente și conținut personalizat, astfel încât să nu ratați niciodată nimic care contează pentru dvs.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Treci la conținutul pe care l-am ales pentru tine';
+  String get skipToSuggestedContent => 'Treci la conținutul pe care l-am ales pentru tine';
 
   @override
   String get lets_go => 'Să mergem';
@@ -269,19 +251,16 @@ class AppLocalizationsRo extends AppLocalizations {
   String get searchPageEmptySubtitle => 'Ce ai vrea să cauți?';
 
   @override
-  String get searchPageEmptyTitle =>
-      'Introduceți un cuvânt cheie sau un subiect de căutat';
+  String get searchPageEmptyTitle => 'Introduceți un cuvânt cheie sau un subiect de căutat';
 
   @override
-  String get notificationSubTitle =>
-      'Puteți activa notificările pop-up pentru orice subiect care vă interesează.';
+  String get notificationSubTitle => 'Puteți activa notificările pop-up pentru orice subiect care vă interesează.';
 
   @override
   String get whatIsInteresting => 'Ce te interesează';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Pentru a trimite doar ceea ce este cu adevărat relevant, să marchem mai întâi ceea ce te interesează.';
+  String get subTextWhatIsInteresting => 'Pentru a trimite doar ceea ce este cu adevărat relevant, să marchem mai întâi ceea ce te interesează.';
 
   @override
   String get getStarted => 'Începeți';
@@ -323,15 +302,13 @@ class AppLocalizationsRo extends AppLocalizations {
   String get openSettings => 'Deschide Setări';
 
   @override
-  String get subTextNotifications =>
-      'Puteți activa notificările pop-up pentru fiecare subiect care vă interesează.';
+  String get subTextNotifications => 'Puteți activa notificările pop-up pentru fiecare subiect care vă interesează.';
 
   @override
   String get troubleshooting_tips => 'Sfaturi de depanare';
 
   @override
-  String get welcome =>
-      'Bun venit la aplicația de știri, personalizată doar pentru tine!';
+  String get welcome => 'Bun venit la aplicația de știri, personalizată doar pentru tine!';
 
   @override
   String get continueReading => 'Continuă să citești';
@@ -343,23 +320,19 @@ class AppLocalizationsRo extends AppLocalizations {
   String get area => 'Zona';
 
   @override
-  String get chooseYourAreaHint =>
-      'Alegeți zona dvs. pentru a primi actualizări de știri localizate';
+  String get chooseYourAreaHint => 'Alegeți zona dvs. pentru a primi actualizări de știri localizate';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Alegeți regiunea de știri dorită.\nÎn cadrul aplicației, puteți selecta și alte țări.';
+  String get chooseYourAreaHintUnused => 'Alegeți regiunea de știri dorită.\nÎn cadrul aplicației, puteți selecta și alte țări.';
 
   @override
-  String get chooseYourLangHint =>
-      'Alegeți limba dvs., o puteți schimba oricând ulterior.';
+  String get chooseYourLangHint => 'Alegeți limba dvs., o puteți schimba oricând ulterior.';
 
   @override
   String get topics => 'Subiecte';
 
   @override
-  String get chooseTopicsHint =>
-      'Alege subiectele care te interesează, le poți schimba oricând în setări.';
+  String get chooseTopicsHint => 'Alege subiectele care te interesează, le poți schimba oricând în setări.';
 
   @override
   String get categories => 'Categorii';
@@ -386,12 +359,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Fără conexiune la internet';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Putem accesa internetul, dar nu și serverul.\\nÎncercați din nou peste un moment.';
+  String get networkStatusPartialMessage => 'Putem accesa internetul, dar nu și serverul.\\nÎncercați din nou peste un moment.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Fără conexiune la internet. Afișăm articole mai vechi; conectați-vă la internet pentru a vedea cele mai recente povești.';
+  String get networkStatusOfflineMessage => 'Fără conexiune la internet. Afișăm articole mai vechi; conectați-vă la internet pentru a vedea cele mai recente povești.';
 
   @override
   String get networkStatusInternetLabel => 'conexiune la internet';
@@ -412,8 +383,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get offlineMode => 'Modul offline';
 
   @override
-  String get changesSavedSuccessfully =>
-      'Modificările au fost salvate cu succes';
+  String get changesSavedSuccessfully => 'Modificările au fost salvate cu succes';
 
   @override
   String get unableToSaveChanges => 'Nu se pot salva modificările';
@@ -422,15 +392,13 @@ class AppLocalizationsRo extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Notificări pop-up';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Personalizați-vă alertele cu ușurință. Activați sau dezactivați notificările push pentru orice subiect care vă interesează.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Personalizați-vă alertele cu ușurință. Activați sau dezactivați notificările push pentru orice subiect care vă interesează.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Actualizare pe drum!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'În curând, veți putea alege din ce regiuni ale lumii doriți să primiți știri și actualizări.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'În curând, veți putea alege din ce regiuni ale lumii doriți să primiți știri și actualizări.';
 
   @override
   String get info => 'Info';
@@ -464,36 +432,31 @@ class AppLocalizationsRo extends AppLocalizations {
   String get newsTopics => 'Subiecte de știri';
 
   @override
-  String get errorNoInternet =>
-      'Vă rugăm să vă verificați conexiunea și să încercați din nou.';
+  String get errorNoInternet => 'Vă rugăm să vă verificați conexiunea și să încercați din nou.';
 
   @override
   String get errorNoInternetTitle => 'Fără conexiune la internet.';
 
   @override
-  String get errorTimeout =>
-      'Solicitarea a expirat. Vă rugăm să încercați din nou mai târziu.';
+  String get errorTimeout => 'Solicitarea a expirat. Vă rugăm să încercați din nou mai târziu.';
 
   @override
   String get errorTimeoutTitle => 'Solicitarea a expirat.';
 
   @override
-  String get errorServer =>
-      'A apărut o eroare de server. Vă rugăm să încercați din nou.';
+  String get errorServer => 'A apărut o eroare de server. Vă rugăm să încercați din nou.';
 
   @override
   String get errorServerTitle => 'Eroare de server.';
 
   @override
-  String get errorUnauthorized =>
-      'Nu esti autorizat. Conectați-vă și încercați din nou.';
+  String get errorUnauthorized => 'Nu esti autorizat. Conectați-vă și încercați din nou.';
 
   @override
   String get errorUnauthorizedTitle => 'Neautorizat.';
 
   @override
-  String get errorForbidden =>
-      'Nu aveți permisiunea de a efectua această acțiune.';
+  String get errorForbidden => 'Nu aveți permisiunea de a efectua această acțiune.';
 
   @override
   String get errorForbiddenTitle => 'Acces refuzat.';
@@ -508,12 +471,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get updateArticle => 'Mai multe detalii au fost actualizate';
 
   @override
-  String get errorValidation =>
-      'Unele informații par nevalide. Vă rugăm să examinați și să încercați din nou.';
+  String get errorValidation => 'Unele informații par nevalide. Vă rugăm să examinați și să încercați din nou.';
 
   @override
-  String get agreeMail =>
-      'Sunt de acord să primesc actualizări și buletine informative prin e-mail.';
+  String get agreeMail => 'Sunt de acord să primesc actualizări și buletine informative prin e-mail.';
 
   @override
   String get sendUsEmail => 'Trimite-ne un e-mail';
@@ -522,8 +483,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get discardChangesTitle => 'Renunțați la modificări?';
 
   @override
-  String get discardChangesMessage =>
-      'Aveți modificări nesalvate. Dacă continuați, se vor pierde.';
+  String get discardChangesMessage => 'Aveți modificări nesalvate. Dacă continuați, se vor pierde.';
 
   @override
   String get discardButton => 'Aruncă';
@@ -541,8 +501,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get agreePrivacy => 'Am citit și sunt de acord cu ';
 
   @override
-  String get contactUsSubtitle =>
-      'Nu ezitați să ne contactați folosind formularul de mai jos.';
+  String get contactUsSubtitle => 'Nu ezitați să ne contactați folosind formularul de mai jos.';
 
   @override
   String get fullName => 'Nume complet';
@@ -563,8 +522,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get send => 'Trimite';
 
   @override
-  String get errorGeneric =>
-      'Ceva a mers prost. Vă rugăm să încercați din nou.';
+  String get errorGeneric => 'Ceva a mers prost. Vă rugăm să încercați din nou.';
 
   @override
   String get errorGenericTitle => 'Ceva a mers prost.';
@@ -576,12 +534,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get emptyResults_noResults => 'Nu s-au găsit rezultate.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Încercați să vă schimbați cuvintele cheie sau alegeți un alt subiect.';
+  String get emptyResults_bottomWithTopic => 'Încercați să vă schimbați cuvintele cheie sau alegeți un alt subiect.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Încercați să vă schimbați cuvintele cheie.';
+  String get emptyResults_bottomWithoutTopic => 'Încercați să vă schimbați cuvintele cheie.';
 
   @override
   String get emptyResults_inThisTopic => 'in acest subiect';
@@ -590,22 +546,19 @@ class AppLocalizationsRo extends AppLocalizations {
   String get errorBadRequestTitle => 'Cerere proastă.';
 
   @override
-  String get errorBadRequest =>
-      'Solicitarea a fost nevalidă. Vă rugăm să încercați din nou.';
+  String get errorBadRequest => 'Solicitarea a fost nevalidă. Vă rugăm să încercați din nou.';
 
   @override
   String get errorNotModifiedTitle => 'Nemodificat.';
 
   @override
-  String get errorNotModified =>
-      'Nu s-a schimbat nimic de la ultima ta cerere.';
+  String get errorNotModified => 'Nu s-a schimbat nimic de la ultima ta cerere.';
 
   @override
   String get errorNetworkTitle => 'Eroare de rețea.';
 
   @override
-  String get errorNetwork =>
-      'Nu am putut ajunge la rețea. Verificați conexiunea și încercați din nou.';
+  String get errorNetwork => 'Nu am putut ajunge la rețea. Verificați conexiunea și încercați din nou.';
 
   @override
   String get errorDataIsEmptyTitle => 'Nu există date disponibile.';
@@ -617,44 +570,37 @@ class AppLocalizationsRo extends AppLocalizations {
   String get errorConflictTitle => 'Conflict.';
 
   @override
-  String get errorConflict =>
-      'Solicitarea a intrat în conflict cu datele existente. Vă rugăm să încercați din nou.';
+  String get errorConflict => 'Solicitarea a intrat în conflict cu datele existente. Vă rugăm să încercați din nou.';
 
   @override
   String get errorServerValidationTitle => 'Eroare de validare.';
 
   @override
-  String get errorServerValidation =>
-      'Serverul a respins unele date. Vă rugăm să examinați și să încercați din nou.';
+  String get errorServerValidation => 'Serverul a respins unele date. Vă rugăm să examinați și să încercați din nou.';
 
   @override
   String get errorWriteFileTitle => 'Scrierea a eșuat.';
 
   @override
-  String get errorWriteFile =>
-      'Nu am putut salva fișierul. Vă rugăm să încercați din nou.';
+  String get errorWriteFile => 'Nu am putut salva fișierul. Vă rugăm să încercați din nou.';
 
   @override
   String get errorReadFileTitle => 'Citirea eșuată.';
 
   @override
-  String get errorReadFile =>
-      'Nu am putut citi fișierul. Vă rugăm să încercați din nou.';
+  String get errorReadFile => 'Nu am putut citi fișierul. Vă rugăm să încercați din nou.';
 
   @override
   String get errorFileNotFoundTitle => 'Fișierul nu a fost găsit.';
 
   @override
-  String get errorFileNotFound =>
-      'Nu am putut găsi fișierul pe care îl căutați.';
+  String get errorFileNotFound => 'Nu am putut găsi fișierul pe care îl căutați.';
 
   @override
-  String get errorInsufficientStorageTitle =>
-      'Nu este suficient spațiu de stocare.';
+  String get errorInsufficientStorageTitle => 'Nu este suficient spațiu de stocare.';
 
   @override
-  String get errorInsufficientStorage =>
-      'Eliberați spațiu și încercați din nou.';
+  String get errorInsufficientStorage => 'Eliberați spațiu și încercați din nou.';
 
   @override
   String get errorDatabaseReadTitle => 'Eroare de citire a bazei de date.';
@@ -669,12 +615,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get errorDatabaseWrite => 'Nu am putut salva în baza de date.';
 
   @override
-  String get errorDatabaseConnectionTitle =>
-      'Eroare de conectare la baza de date.';
+  String get errorDatabaseConnectionTitle => 'Eroare de conectare la baza de date.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Nu ne-am putut conecta la baza de date.';
+  String get errorDatabaseConnection => 'Nu ne-am putut conecta la baza de date.';
 
   @override
   String get errorAuthTitle => 'Eroare de autentificare.';
@@ -686,32 +630,25 @@ class AppLocalizationsRo extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Acreditări nevalide.';
 
   @override
-  String get errorInvalidCredentials =>
-      'Numele de utilizator sau parola sunt incorecte.';
+  String get errorInvalidCredentials => 'Numele de utilizator sau parola sunt incorecte.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Eroare de citire a stocării securizate.';
+  String get errorSecureStorageReadTitle => 'Eroare de citire a stocării securizate.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Nu am putut citi din stocarea securizată.';
+  String get errorSecureStorageRead => 'Nu am putut citi din stocarea securizată.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Eroare de scriere în stocare securizată.';
+  String get errorSecureStorageWriteTitle => 'Eroare de scriere în stocare securizată.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Nu am putut scrie în stocarea securizată.';
+  String get errorSecureStorageWrite => 'Nu am putut scrie în stocarea securizată.';
 
   @override
-  String get errorSecureStorageClearTitle =>
-      'Eroare de eliminare a stocării securizate.';
+  String get errorSecureStorageClearTitle => 'Eroare de eliminare a stocării securizate.';
 
   @override
-  String get errorSecureStorageClear =>
-      'Nu am putut șterge spațiul de stocare securizat.';
+  String get errorSecureStorageClear => 'Nu am putut șterge spațiul de stocare securizat.';
 
   @override
   String get errorTokenExpiredTitle => 'Sesiunea a expirat.';
@@ -729,8 +666,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get errorPermissionDeniedTitle => 'Permisiune refuzată.';
 
   @override
-  String get errorPermissionDenied =>
-      'Nu aveți permisiunea de a efectua această acțiune.';
+  String get errorPermissionDenied => 'Nu aveți permisiunea de a efectua această acțiune.';
 
   @override
   String get errorEmptyResultTitle => 'Niciun rezultat.';
@@ -742,8 +678,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get errorInvalidInputTitle => 'Intrare nevalidă.';
 
   @override
-  String get errorInvalidInput =>
-      'Vă rugăm să verificați datele introduse și să încercați din nou.';
+  String get errorInvalidInput => 'Vă rugăm să verificați datele introduse și să încercați din nou.';
 
   @override
   String get errorEmptyTopicsTitle => 'Nu au fost selectate subiecte.';

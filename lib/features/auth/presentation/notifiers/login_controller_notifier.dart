@@ -1,26 +1,31 @@
-// features/login/presentation/login_controller.dart
 import 'dart:async';
-
-import 'package:driver_app/features/bootstrap/presentation/notifiers/bootstrap_ctrl.dart';
-import 'package:driver_app/features/bootstrap/presentation/providers/auth_provider.dart';
+import 'package:driver_app/features/auth/presentation/states/login_state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+
+import '../../../../core/error/failure.dart';
+import '../../../bootstrap/presentation/notifiers/bootstrap_ctrl.dart';
+import '../providers/auth_provider.dart';
 
 part 'login_controller_notifier.g.dart';
 
 @Riverpod()
 class LoginController extends _$LoginController {
   @override
-  FutureOr<void> build() {}
+  LoginState build() {
+    return LoginState();
+  }
 
   Future<void> login(String user, String id) async {
-    state = const AsyncLoading();
-    try {
-      await ref.read(loginUsecaseProvider)(user, id);
-      state = const AsyncData(null);
+    state = state.copyWith(isLoading: true);
 
-      ref.invalidate(bootstrapCtrlProvider);
+    try {
+      await ref.read(loginUseCaseProvider)(user, id);
+      state = state.copyWith(isLoading: false);
+
+      await ref.read(appBootstrapControllerProvider).onLoginSuccess();
     } catch (e, s) {
-      state = AsyncError(e, s);
+      print(e);
+      state = state.copyWith(error: e as Failure, isLoading: false);
     }
   }
 }

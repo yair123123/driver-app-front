@@ -1,6 +1,6 @@
 import 'dart:collection';
+import 'package:driver_app/features/system_messages/domain/system_message.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:news_app/features/system_messages/domain/system_message.dart';
 
 class SystemMessageNotifier extends StateNotifier<Queue<SystemMessage>> {
   SystemMessageNotifier() : super(Queue<SystemMessage>());

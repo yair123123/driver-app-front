@@ -45,19 +45,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      '비디오, 이미지, 업데이트가 포함된 WhatsApp 및 Telegram 채널을 위한 새로운 영역 – 가장 흥미로운 콘텐츠가 모두 한곳에 있습니다.';
+  String get channels_section_description => '비디오, 이미지, 업데이트가 포함된 WhatsApp 및 Telegram 채널을 위한 새로운 영역 – 가장 흥미로운 콘텐츠가 모두 한곳에 있습니다.';
 
   @override
   String get newMessages => '새 메시지';
@@ -80,8 +77,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get contactUsSuccessTitle => '성공적으로 전송되었습니다 ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      '감사합니다! 귀하의 메시지가 접수되었으며 최대한 빨리 연락드리겠습니다.';
+  String get contactUsSuccessMessage => '감사합니다! 귀하의 메시지가 접수되었으며 최대한 빨리 연락드리겠습니다.';
 
   @override
   String get selectCountry => '국가 선택';
@@ -198,8 +194,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get aiPageTitle => '출시 예정: 뉴스에 대해 AI와 채팅할 수 있습니다!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      '피드에서 보고 싶은 주제나 하위 주제를 선택하세요. 여기에서 언제든지 변경할 수 있습니다.';
+  String get topicsSelectionSubtitle => '피드에서 보고 싶은 주제나 하위 주제를 선택하세요. 여기에서 언제든지 변경할 수 있습니다.';
 
   @override
   String get failedToLoadTopics => '주제를 로드하지 못했습니다.';
@@ -220,8 +215,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get notNow => '지금은 아님';
 
   @override
-  String get notificationsPermissionRationale =>
-      '알림을 활성화하면 중요한 뉴스, 긴급 업데이트, 맞춤 콘텐츠에 대한 최신 정보를 받아볼 수 있으므로 중요한 내용을 놓치지 않을 수 있습니다.';
+  String get notificationsPermissionRationale => '알림을 활성화하면 중요한 뉴스, 긴급 업데이트, 맞춤 콘텐츠에 대한 최신 정보를 받아볼 수 있으므로 중요한 내용을 놓치지 않을 수 있습니다.';
 
   @override
   String get skipToSuggestedContent => '우리가 당신을 위해 선택한 콘텐츠로 건너뛰기';
@@ -266,8 +260,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get whatIsInteresting => '당신이 관심을 갖는 것';
 
   @override
-  String get subTextWhatIsInteresting =>
-      '정말 관련 있는 내용만 보내려면 먼저 관심 있는 내용을 표시해 보세요.';
+  String get subTextWhatIsInteresting => '정말 관련 있는 내용만 보내려면 먼저 관심 있는 내용을 표시해 보세요.';
 
   @override
   String get getStarted => '시작하기';
@@ -330,8 +323,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get chooseYourAreaHint => '현지화된 뉴스 업데이트를 받으려면 지역을 선택하세요.';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      '원하는 뉴스 지역을 선택하세요.\n앱 내에서 추가 국가를 선택할 수도 있습니다.';
+  String get chooseYourAreaHintUnused => '원하는 뉴스 지역을 선택하세요.\n앱 내에서 추가 국가를 선택할 수도 있습니다.';
 
   @override
   String get chooseYourLangHint => '언어를 선택하세요. 나중에 언제든지 변경할 수 있습니다.';
@@ -367,12 +359,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get networkStatusOfflineTitle => '인터넷에 연결되어 있지 않음';
 
   @override
-  String get networkStatusPartialMessage =>
-      '인터넷에는 연결할 수 있지만 서버에는 연결할 수 없습니다.\\n잠시 후에 다시 시도하세요.';
+  String get networkStatusPartialMessage => '인터넷에는 연결할 수 있지만 서버에는 연결할 수 없습니다.\\n잠시 후에 다시 시도하세요.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      '인터넷에 연결되어 있지 않습니다. 우리는 오래된 기사를 보여주고 있습니다. 최신 기사를 보려면 인터넷에 연결하세요.';
+  String get networkStatusOfflineMessage => '인터넷에 연결되어 있지 않습니다. 우리는 오래된 기사를 보여주고 있습니다. 최신 기사를 보려면 인터넷에 연결하세요.';
 
   @override
   String get networkStatusInternetLabel => '인터넷 연결';
@@ -402,15 +392,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => '팝업 알림';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      '알림을 쉽게 사용자 정의하세요. 관심 있는 주제에 대해 푸시 알림을 켜거나 끄세요.';
+  String get dismissibleNoticeNotificationsSubtitle => '알림을 쉽게 사용자 정의하세요. 관심 있는 주제에 대해 푸시 알림을 켜거나 끄세요.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => '가는 길에 업데이트하세요!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      '곧 뉴스와 업데이트를 받아보고 싶은 지역을 선택할 수 있게 됩니다.';
+  String get dismissibleNoticeLangAndAreaSubtitle => '곧 뉴스와 업데이트를 받아보고 싶은 지역을 선택할 수 있게 됩니다.';
 
   @override
   String get info => '정보';

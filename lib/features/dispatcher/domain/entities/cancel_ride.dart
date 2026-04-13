@@ -1,21 +1,21 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
-import 'dart:convert';
 
-part 'cancel_ride.freezed.dart';
-part 'cancel_ride.g.dart';
+class CancelOffer {
+  final String rideId;
+  final String reason;
 
-CancelRide cancelRideFromJson(String str) => CancelRide.fromJson(json.decode(str));
+  const CancelOffer({required this.rideId, required this.reason});
 
-String cancelRideToJson(CancelRide data) => json.encode(data.toJson());
+  @override
+  String toString() => 'CancelOffer(rideId: $rideId, reason: $reason)';
 
-@freezed
-class CancelRide with _$CancelRide {
-  const factory CancelRide({
-    required String rideId,
-    required String reason,
-  }) = _CancelRide;
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is CancelOffer &&
+          runtimeType == other.runtimeType &&
+          rideId == other.rideId &&
+          reason == other.reason;
 
-  factory CancelRide.fromJson(Map<String, dynamic> json) => _$CancelRideFromJson(json);
+  @override
+  int get hashCode => rideId.hashCode ^ reason.hashCode;
 }
-
-

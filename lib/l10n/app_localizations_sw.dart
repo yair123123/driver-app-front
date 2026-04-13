@@ -45,19 +45,16 @@ class AppLocalizationsSw extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'Eneo jipya la chaneli za WhatsApp na Telegraph zenye video, picha na masasisho - maudhui yote ya kuvutia zaidi katika sehemu moja.';
+  String get channels_section_description => 'Eneo jipya la chaneli za WhatsApp na Telegraph zenye video, picha na masasisho - maudhui yote ya kuvutia zaidi katika sehemu moja.';
 
   @override
   String get newMessages => 'Ujumbe Mpya';
@@ -80,8 +77,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get contactUsSuccessTitle => 'Imetumwa kwa mafanikio ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'Asante! Tumepokea ujumbe wako na tutakujibu haraka iwezekanavyo.';
+  String get contactUsSuccessMessage => 'Asante! Tumepokea ujumbe wako na tutakujibu haraka iwezekanavyo.';
 
   @override
   String get selectCountry => 'Chagua Nchi';
@@ -111,8 +107,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get areaWereAdded => 'Eneo liliongezwa kwa mafanikio';
 
   @override
-  String get saveChangesMessage =>
-      'Je, ungependa kuhifadhi mabadiliko uliyofanya?';
+  String get saveChangesMessage => 'Je, ungependa kuhifadhi mabadiliko uliyofanya?';
 
   @override
   String get busyLandingTitle => 'Tunakaribia kutua...';
@@ -124,8 +119,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get changeCountryTitle => 'Tubadili kwenda nchi gani?';
 
   @override
-  String get changeCountrySubtitle =>
-      'Unapochagua nchi, maudhui yote kwenye programu yatasasishwa kulingana na chaguo lako.';
+  String get changeCountrySubtitle => 'Unapochagua nchi, maudhui yote kwenye programu yatasasishwa kulingana na chaguo lako.';
 
   @override
   String get dailySummary => 'Muhtasari wa kila siku';
@@ -134,8 +128,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get lastUpdated => 'Ilisasishwa mwisho';
 
   @override
-  String get saveChangesSubtitle =>
-      'Je, ungependa kuhifadhi mabadiliko uliyofanya?';
+  String get saveChangesSubtitle => 'Je, ungependa kuhifadhi mabadiliko uliyofanya?';
 
   @override
   String get readMore => 'Soma zaidi';
@@ -147,12 +140,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'Hakuna matokeo yaliyopatikana kwa \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'Hakuna matokeo yaliyopatikana kwa \n';
 
   @override
-  String get searchPageNoResultsForThisCategorySuffix =>
-      ' katika kategoria hii';
+  String get searchPageNoResultsForThisCategorySuffix => ' katika kategoria hii';
 
   @override
   String get toPowerOn => 'kuwasha';
@@ -161,8 +152,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get notificationsOffTitle => 'Arifa zimezimwa';
 
   @override
-  String get notificationsOffSubtitle =>
-      'Inaonekana ufikiaji wa arifa bado haujawashwa.';
+  String get notificationsOffSubtitle => 'Inaonekana ufikiaji wa arifa bado haujawashwa.';
 
   @override
   String get newArticles => 'Makala Mpya';
@@ -171,15 +161,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get home => 'nyumbani';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'Mabadiliko yatatekelezwa kwenye uzinduzi unaofuata wa programu.';
+  String get changesApplyOnNextLaunch => 'Mabadiliko yatatekelezwa kwenye uzinduzi unaofuata wa programu.';
 
   @override
   String get enable => 'Wezesha';
 
   @override
-  String get stayUpdatedWithLatestNews =>
-      'Endelea kusasishwa na habari za hivi punde';
+  String get stayUpdatedWithLatestNews => 'Endelea kusasishwa na habari za hivi punde';
 
   @override
   String get enableNotifications => 'Washa Arifa';
@@ -194,8 +182,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get freeSearch => 'Utafutaji Bila Malipo';
 
   @override
-  String get aiPageSubtitle =>
-      'Kipengele hiki bado kinatengenezwa \n inafaa kuangalia tena hivi karibuni.';
+  String get aiPageSubtitle => 'Kipengele hiki bado kinatengenezwa \n inafaa kuangalia tena hivi karibuni.';
 
   @override
   String get topicsSelectionTitle => 'Uteuzi wa Mada za Habari';
@@ -204,12 +191,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get groups => 'Vikundi';
 
   @override
-  String get aiPageTitle =>
-      'Inakuja hivi karibuni: utaweza kuzungumza na AI yetu kuhusu habari!';
+  String get aiPageTitle => 'Inakuja hivi karibuni: utaweza kuzungumza na AI yetu kuhusu habari!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'Chagua mada au mada ndogo ungependa kuona kwenye mpasho wako. Unaweza kuzibadilisha hapa kila wakati.';
+  String get topicsSelectionSubtitle => 'Chagua mada au mada ndogo ungependa kuona kwenye mpasho wako. Unaweza kuzibadilisha hapa kila wakati.';
 
   @override
   String get failedToLoadTopics => 'Imeshindwa kupakia mada';
@@ -221,8 +206,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get lang => 'Lugha';
 
   @override
-  String get failed_to_load_data =>
-      'Hatukuweza kupakia data. Tafadhali angalia muunganisho wako wa intaneti na ujaribu tena.';
+  String get failed_to_load_data => 'Hatukuweza kupakia data. Tafadhali angalia muunganisho wako wa intaneti na ujaribu tena.';
 
   @override
   String get changeLang => 'Badilisha lugha';
@@ -231,12 +215,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get notNow => 'Sio Sasa';
 
   @override
-  String get notificationsPermissionRationale =>
-      'Kuwasha arifa hukuwezesha kupata habari muhimu, masasisho ya dharura na maudhui yaliyobinafsishwa - ili usiwahi kukosa chochote muhimu kwako.';
+  String get notificationsPermissionRationale => 'Kuwasha arifa hukuwezesha kupata habari muhimu, masasisho ya dharura na maudhui yaliyobinafsishwa - ili usiwahi kukosa chochote muhimu kwako.';
 
   @override
-  String get skipToSuggestedContent =>
-      'Ruka hadi kwenye maudhui tuliyokuchagulia';
+  String get skipToSuggestedContent => 'Ruka hadi kwenye maudhui tuliyokuchagulia';
 
   @override
   String get lets_go => 'Twende zetu';
@@ -272,15 +254,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get searchPageEmptyTitle => 'Andika neno kuu au mada ili kutafuta';
 
   @override
-  String get notificationSubTitle =>
-      'Unaweza kuwasha arifa ibukizi kwa mada yoyote inayokuvutia.';
+  String get notificationSubTitle => 'Unaweza kuwasha arifa ibukizi kwa mada yoyote inayokuvutia.';
 
   @override
   String get whatIsInteresting => 'Nini kinakuvutia';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'Ili kutuma yale ambayo yanafaa tu, hebu kwanza tuweke alama yale yanayokuvutia.';
+  String get subTextWhatIsInteresting => 'Ili kutuma yale ambayo yanafaa tu, hebu kwanza tuweke alama yale yanayokuvutia.';
 
   @override
   String get getStarted => 'Anza';
@@ -322,15 +302,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get openSettings => 'Fungua Mipangilio';
 
   @override
-  String get subTextNotifications =>
-      'Unaweza kuwezesha arifa ibukizi kwa kila mada inayokuvutia.';
+  String get subTextNotifications => 'Unaweza kuwezesha arifa ibukizi kwa kila mada inayokuvutia.';
 
   @override
   String get troubleshooting_tips => 'Vidokezo vya Utatuzi';
 
   @override
-  String get welcome =>
-      'Karibu kwenye programu ya habari, iliyobinafsishwa kwa ajili yako!';
+  String get welcome => 'Karibu kwenye programu ya habari, iliyobinafsishwa kwa ajili yako!';
 
   @override
   String get continueReading => 'Endelea kusoma';
@@ -342,23 +320,19 @@ class AppLocalizationsSw extends AppLocalizations {
   String get area => 'Eneo';
 
   @override
-  String get chooseYourAreaHint =>
-      'Chagua eneo lako ili kupata masasisho ya habari yaliyojanibishwa';
+  String get chooseYourAreaHint => 'Chagua eneo lako ili kupata masasisho ya habari yaliyojanibishwa';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'Chagua eneo la habari unalotaka.\nNdani ya programu, unaweza kuchagua nchi za ziada pia.';
+  String get chooseYourAreaHintUnused => 'Chagua eneo la habari unalotaka.\nNdani ya programu, unaweza kuchagua nchi za ziada pia.';
 
   @override
-  String get chooseYourLangHint =>
-      'Chagua lugha yako, unaweza kuibadilisha baadaye.';
+  String get chooseYourLangHint => 'Chagua lugha yako, unaweza kuibadilisha baadaye.';
 
   @override
   String get topics => 'Mada';
 
   @override
-  String get chooseTopicsHint =>
-      'Chagua mada zinazokuvutia, unaweza kuzibadilisha kila wakati kwenye mipangilio.';
+  String get chooseTopicsHint => 'Chagua mada zinazokuvutia, unaweza kuzibadilisha kila wakati kwenye mipangilio.';
 
   @override
   String get categories => 'Kategoria';
@@ -385,12 +359,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get networkStatusOfflineTitle => 'Hakuna muunganisho wa intaneti';
 
   @override
-  String get networkStatusPartialMessage =>
-      'Tunaweza kufikia intaneti lakini si seva.\\nJaribu tena baada ya muda mfupi.';
+  String get networkStatusPartialMessage => 'Tunaweza kufikia intaneti lakini si seva.\\nJaribu tena baada ya muda mfupi.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'Hakuna muunganisho wa intaneti. Tunaonyesha nakala za zamani; connect to the internet to see the latest stories.';
+  String get networkStatusOfflineMessage => 'Hakuna muunganisho wa intaneti. Tunaonyesha nakala za zamani; connect to the internet to see the latest stories.';
 
   @override
   String get networkStatusInternetLabel => 'Muunganisho wa mtandao';
@@ -420,15 +392,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'Arifa ibukizi';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'Geuza arifa zako kukufaa kwa urahisi. Washa au zima arifa zinazotumwa na programu hata wakati huitumii kwa mada yoyote inayokuvutia.';
+  String get dismissibleNoticeNotificationsSubtitle => 'Geuza arifa zako kukufaa kwa urahisi. Washa au zima arifa zinazotumwa na programu hata wakati huitumii kwa mada yoyote inayokuvutia.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'Sasisha njiani!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'Hivi karibuni, utaweza kuchagua maeneo ya ulimwengu ambayo ungependa kupata habari na masasisho kutoka.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'Hivi karibuni, utaweza kuchagua maeneo ya ulimwengu ambayo ungependa kupata habari na masasisho kutoka.';
 
   @override
   String get info => 'Habari';
@@ -440,8 +410,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get saveChanges => 'Hifadhi mabadiliko';
 
   @override
-  String get saveChangesConfirmation =>
-      'Je, ungependa kuhifadhi mabadiliko yako?';
+  String get saveChangesConfirmation => 'Je, ungependa kuhifadhi mabadiliko yako?';
 
   @override
   String get confirm => 'Thibitisha';
@@ -463,15 +432,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get newsTopics => 'Mada za habari';
 
   @override
-  String get errorNoInternet =>
-      'Tafadhali angalia muunganisho wako na ujaribu tena.';
+  String get errorNoInternet => 'Tafadhali angalia muunganisho wako na ujaribu tena.';
 
   @override
   String get errorNoInternetTitle => 'Hakuna muunganisho wa intaneti.';
 
   @override
-  String get errorTimeout =>
-      'Muda wa ombi umekwisha. Tafadhali jaribu tena baadaye.';
+  String get errorTimeout => 'Muda wa ombi umekwisha. Tafadhali jaribu tena baadaye.';
 
   @override
   String get errorTimeoutTitle => 'Muda wa ombi umekwisha.';
@@ -483,15 +450,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get errorServerTitle => 'Hitilafu ya seva.';
 
   @override
-  String get errorUnauthorized =>
-      'Hujaidhinishwa. Tafadhali ingia na ujaribu tena.';
+  String get errorUnauthorized => 'Hujaidhinishwa. Tafadhali ingia na ujaribu tena.';
 
   @override
   String get errorUnauthorizedTitle => 'Haijaidhinishwa.';
 
   @override
-  String get errorForbidden =>
-      'You do not have permission to perform this action.';
+  String get errorForbidden => 'You do not have permission to perform this action.';
 
   @override
   String get errorForbiddenTitle => 'Ufikiaji umekataliwa.';
@@ -506,12 +471,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get updateArticle => 'Maelezo zaidi yamesasishwa';
 
   @override
-  String get errorValidation =>
-      'Baadhi ya maelezo yanaonekana kuwa batili. Tafadhali kagua na ujaribu tena.';
+  String get errorValidation => 'Baadhi ya maelezo yanaonekana kuwa batili. Tafadhali kagua na ujaribu tena.';
 
   @override
-  String get agreeMail =>
-      'Ninakubali kupokea masasisho na majarida kupitia barua pepe.';
+  String get agreeMail => 'Ninakubali kupokea masasisho na majarida kupitia barua pepe.';
 
   @override
   String get sendUsEmail => 'Tutumie barua pepe';
@@ -520,8 +483,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get discardChangesTitle => 'Ungependa kutupa mabadiliko?';
 
   @override
-  String get discardChangesMessage =>
-      'Una mabadiliko ambayo hayajahifadhiwa. Ukiendelea, watapotea.';
+  String get discardChangesMessage => 'Una mabadiliko ambayo hayajahifadhiwa. Ukiendelea, watapotea.';
 
   @override
   String get discardButton => 'Tupa';
@@ -539,8 +501,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get agreePrivacy => 'Nimesoma na kukubaliana na ';
 
   @override
-  String get contactUsSubtitle =>
-      'Jisikie huru kuwasiliana nasi kwa kutumia fomu iliyo hapa chini.';
+  String get contactUsSubtitle => 'Jisikie huru kuwasiliana nasi kwa kutumia fomu iliyo hapa chini.';
 
   @override
   String get fullName => 'Jina kamili';
@@ -573,12 +534,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get emptyResults_noResults => 'Hakuna matokeo yaliyopatikana.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'Jaribu kubadilisha maneno yako muhimu au uchague mada nyingine.';
+  String get emptyResults_bottomWithTopic => 'Jaribu kubadilisha maneno yako muhimu au uchague mada nyingine.';
 
   @override
-  String get emptyResults_bottomWithoutTopic =>
-      'Jaribu kubadilisha maneno yako muhimu.';
+  String get emptyResults_bottomWithoutTopic => 'Jaribu kubadilisha maneno yako muhimu.';
 
   @override
   String get emptyResults_inThisTopic => 'katika mada hii';
@@ -593,15 +552,13 @@ class AppLocalizationsSw extends AppLocalizations {
   String get errorNotModifiedTitle => 'Haijarekebishwa.';
 
   @override
-  String get errorNotModified =>
-      'Hakuna kilichobadilika tangu ombi lako la mwisho.';
+  String get errorNotModified => 'Hakuna kilichobadilika tangu ombi lako la mwisho.';
 
   @override
   String get errorNetworkTitle => 'Hitilafu ya mtandao.';
 
   @override
-  String get errorNetwork =>
-      'Hatukuweza kufikia mtandao. Angalia muunganisho wako na ujaribu tena.';
+  String get errorNetwork => 'Hatukuweza kufikia mtandao. Angalia muunganisho wako na ujaribu tena.';
 
   @override
   String get errorDataIsEmptyTitle => 'Hakuna data inayopatikana.';
@@ -613,22 +570,19 @@ class AppLocalizationsSw extends AppLocalizations {
   String get errorConflictTitle => 'Migogoro.';
 
   @override
-  String get errorConflict =>
-      'Ombi lilikinzana na data iliyopo. Tafadhali jaribu tena.';
+  String get errorConflict => 'Ombi lilikinzana na data iliyopo. Tafadhali jaribu tena.';
 
   @override
   String get errorServerValidationTitle => 'Hitilafu ya uthibitishaji.';
 
   @override
-  String get errorServerValidation =>
-      'Seva ilikataa baadhi ya data. Tafadhali kagua na ujaribu tena.';
+  String get errorServerValidation => 'Seva ilikataa baadhi ya data. Tafadhali kagua na ujaribu tena.';
 
   @override
   String get errorWriteFileTitle => 'Imeshindwa kuandika.';
 
   @override
-  String get errorWriteFile =>
-      'Hatukuweza kuhifadhi faili. Tafadhali jaribu tena.';
+  String get errorWriteFile => 'Hatukuweza kuhifadhi faili. Tafadhali jaribu tena.';
 
   @override
   String get errorReadFileTitle => 'Imeshindwa kusoma.';
@@ -661,12 +615,10 @@ class AppLocalizationsSw extends AppLocalizations {
   String get errorDatabaseWrite => 'Hatukuweza kuhifadhi kwenye hifadhidata.';
 
   @override
-  String get errorDatabaseConnectionTitle =>
-      'Hitilafu ya muunganisho wa hifadhidata.';
+  String get errorDatabaseConnectionTitle => 'Hitilafu ya muunganisho wa hifadhidata.';
 
   @override
-  String get errorDatabaseConnection =>
-      'Hatukuweza kuunganisha kwenye hifadhidata.';
+  String get errorDatabaseConnection => 'Hatukuweza kuunganisha kwenye hifadhidata.';
 
   @override
   String get errorAuthTitle => 'Hitilafu ya uthibitishaji.';
@@ -678,24 +630,19 @@ class AppLocalizationsSw extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'Vitambulisho batili.';
 
   @override
-  String get errorInvalidCredentials =>
-      'Jina la mtumiaji au nenosiri si sahihi.';
+  String get errorInvalidCredentials => 'Jina la mtumiaji au nenosiri si sahihi.';
 
   @override
-  String get errorSecureStorageReadTitle =>
-      'Hitilafu ya kusoma hifadhi salama.';
+  String get errorSecureStorageReadTitle => 'Hitilafu ya kusoma hifadhi salama.';
 
   @override
-  String get errorSecureStorageRead =>
-      'Hatukuweza kusoma kutoka kwa hifadhi salama.';
+  String get errorSecureStorageRead => 'Hatukuweza kusoma kutoka kwa hifadhi salama.';
 
   @override
-  String get errorSecureStorageWriteTitle =>
-      'Hitilafu ya kuandika hifadhi salama.';
+  String get errorSecureStorageWriteTitle => 'Hitilafu ya kuandika hifadhi salama.';
 
   @override
-  String get errorSecureStorageWrite =>
-      'Hatukuweza kuandika ili kuhifadhi salama.';
+  String get errorSecureStorageWrite => 'Hatukuweza kuandika ili kuhifadhi salama.';
 
   @override
   String get errorSecureStorageClearTitle => 'Hitilafu iliyo wazi ya hifadhi.';
@@ -731,8 +678,7 @@ class AppLocalizationsSw extends AppLocalizations {
   String get errorInvalidInputTitle => 'Ingizo batili.';
 
   @override
-  String get errorInvalidInput =>
-      'Tafadhali angalia ingizo lako na ujaribu tena.';
+  String get errorInvalidInput => 'Tafadhali angalia ingizo lako na ujaribu tena.';
 
   @override
   String get errorEmptyTopicsTitle => 'Hakuna mada zilizochaguliwa.';

@@ -45,19 +45,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get shareMessageOptionLinkTitle => 'Share link';
 
   @override
-  String get shareMessageOptionLinkSubtitle =>
-      'Send a direct link to the message';
+  String get shareMessageOptionLinkSubtitle => 'Send a direct link to the message';
 
   @override
   String get shareMessageOptionContentTitle => 'Share text and media';
 
   @override
-  String get shareMessageOptionContentSubtitle =>
-      'Send the message text and media';
+  String get shareMessageOptionContentSubtitle => 'Send the message text and media';
 
   @override
-  String get channels_section_description =>
-      'منطقة جديدة لقنوات WhatsApp وTelegram تحتوي على مقاطع فيديو وصور وتحديثات - كل المحتوى الأكثر إثارة للاهتمام في مكان واحد.';
+  String get channels_section_description => 'منطقة جديدة لقنوات WhatsApp وTelegram تحتوي على مقاطع فيديو وصور وتحديثات - كل المحتوى الأكثر إثارة للاهتمام في مكان واحد.';
 
   @override
   String get newMessages => 'رسائل جديدة';
@@ -80,8 +77,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get contactUsSuccessTitle => 'تم الإرسال بنجاح ✅';
 
   @override
-  String get contactUsSuccessMessage =>
-      'شكرا لك! لقد تلقينا رسالتك وسوف نقوم بالرد عليك في أقرب وقت ممكن.';
+  String get contactUsSuccessMessage => 'شكرا لك! لقد تلقينا رسالتك وسوف نقوم بالرد عليك في أقرب وقت ممكن.';
 
   @override
   String get selectCountry => 'اختر البلد';
@@ -123,8 +119,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get changeCountryTitle => 'ما هي الدولة التي يجب أن نتحول إليها؟';
 
   @override
-  String get changeCountrySubtitle =>
-      'عندما تختار بلدًا، سيتم تحديث كل المحتوى الموجود في التطبيق وفقًا لاختيارك.';
+  String get changeCountrySubtitle => 'عندما تختار بلدًا، سيتم تحديث كل المحتوى الموجود في التطبيق وفقًا لاختيارك.';
 
   @override
   String get dailySummary => 'ملخص يومي';
@@ -145,8 +140,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get searchPageNoResultsSuffix => '';
 
   @override
-  String get searchPageNoResultsForThisCategoryPrefix =>
-      'لم يتم العثور على نتائج ل \n';
+  String get searchPageNoResultsForThisCategoryPrefix => 'لم يتم العثور على نتائج ل \n';
 
   @override
   String get searchPageNoResultsForThisCategorySuffix => ' في هذه الفئة';
@@ -158,8 +152,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get notificationsOffTitle => 'الإخطارات معطلة';
 
   @override
-  String get notificationsOffSubtitle =>
-      'يبدو أنه لم يتم تمكين الوصول إلى الإشعارات بعد.';
+  String get notificationsOffSubtitle => 'يبدو أنه لم يتم تمكين الوصول إلى الإشعارات بعد.';
 
   @override
   String get newArticles => 'مقالات جديدة';
@@ -168,8 +161,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get home => 'المنزل';
 
   @override
-  String get changesApplyOnNextLaunch =>
-      'سيتم تطبيق التغييرات عند إطلاق التطبيق التالي.';
+  String get changesApplyOnNextLaunch => 'سيتم تطبيق التغييرات عند إطلاق التطبيق التالي.';
 
   @override
   String get enable => 'تمكين';
@@ -190,8 +182,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get freeSearch => 'بحث مجاني';
 
   @override
-  String get aiPageSubtitle =>
-      'هذه الميزة لا تزال قيد التطوير \n يستحق التحقق مرة أخرى قريبا.';
+  String get aiPageSubtitle => 'هذه الميزة لا تزال قيد التطوير \n يستحق التحقق مرة أخرى قريبا.';
 
   @override
   String get topicsSelectionTitle => 'اختيار موضوعات الأخبار';
@@ -200,12 +191,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get groups => 'المجموعات';
 
   @override
-  String get aiPageTitle =>
-      'قريبًا: ستتمكن من الدردشة مع الذكاء الاصطناعي الخاص بنا حول الأخبار!';
+  String get aiPageTitle => 'قريبًا: ستتمكن من الدردشة مع الذكاء الاصطناعي الخاص بنا حول الأخبار!';
 
   @override
-  String get topicsSelectionSubtitle =>
-      'اختر المواضيع أو المواضيع الفرعية التي ترغب في رؤيتها في خلاصتك. يمكنك دائمًا تغييرها هنا.';
+  String get topicsSelectionSubtitle => 'اختر المواضيع أو المواضيع الفرعية التي ترغب في رؤيتها في خلاصتك. يمكنك دائمًا تغييرها هنا.';
 
   @override
   String get failedToLoadTopics => 'فشل تحميل المواضيع';
@@ -217,8 +206,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get lang => 'اللغة';
 
   @override
-  String get failed_to_load_data =>
-      'لم نتمكن من تحميل البيانات. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.';
+  String get failed_to_load_data => 'لم نتمكن من تحميل البيانات. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.';
 
   @override
   String get changeLang => 'تغيير اللغة';
@@ -227,8 +215,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get notNow => 'ليس الآن';
 
   @override
-  String get notificationsPermissionRationale =>
-      'يتيح لك تمكين الإشعارات البقاء على اطلاع دائم بالأخبار المهمة والتحديثات العاجلة والمحتوى المخصص - حتى لا يفوتك أي شيء يهمك أبدًا.';
+  String get notificationsPermissionRationale => 'يتيح لك تمكين الإشعارات البقاء على اطلاع دائم بالأخبار المهمة والتحديثات العاجلة والمحتوى المخصص - حتى لا يفوتك أي شيء يهمك أبدًا.';
 
   @override
   String get skipToSuggestedContent => 'انتقل إلى المحتوى الذي اخترناه لك';
@@ -267,15 +254,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get searchPageEmptyTitle => 'اكتب كلمة أساسية أو موضوعًا للبحث فيه';
 
   @override
-  String get notificationSubTitle =>
-      'يمكنك تشغيل الإشعارات المنبثقة لأي موضوع يهمك.';
+  String get notificationSubTitle => 'يمكنك تشغيل الإشعارات المنبثقة لأي موضوع يهمك.';
 
   @override
   String get whatIsInteresting => 'ما يهمك';
 
   @override
-  String get subTextWhatIsInteresting =>
-      'لإرسال ما هو ذي صلة حقًا فقط، دعنا أولاً نحدد ما يثير اهتمامك.';
+  String get subTextWhatIsInteresting => 'لإرسال ما هو ذي صلة حقًا فقط، دعنا أولاً نحدد ما يثير اهتمامك.';
 
   @override
   String get getStarted => 'ابدأ';
@@ -317,8 +302,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get openSettings => 'افتح الإعدادات';
 
   @override
-  String get subTextNotifications =>
-      'يمكنك تفعيل الإشعارات المنبثقة لكل موضوع يهمك.';
+  String get subTextNotifications => 'يمكنك تفعيل الإشعارات المنبثقة لكل موضوع يهمك.';
 
   @override
   String get troubleshooting_tips => 'نصائح لاستكشاف الأخطاء وإصلاحها';
@@ -336,12 +320,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get area => 'المنطقة';
 
   @override
-  String get chooseYourAreaHint =>
-      'اختر منطقتك للحصول على تحديثات الأخبار المحلية';
+  String get chooseYourAreaHint => 'اختر منطقتك للحصول على تحديثات الأخبار المحلية';
 
   @override
-  String get chooseYourAreaHintUnused =>
-      'اختر منطقة الأخبار التي تريدها.\nداخل التطبيق، يمكنك تحديد بلدان إضافية أيضًا.';
+  String get chooseYourAreaHintUnused => 'اختر منطقة الأخبار التي تريدها.\nداخل التطبيق، يمكنك تحديد بلدان إضافية أيضًا.';
 
   @override
   String get chooseYourLangHint => 'اختر لغتك، ويمكنك دائمًا تغييرها لاحقًا.';
@@ -350,8 +332,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get topics => 'المواضيع';
 
   @override
-  String get chooseTopicsHint =>
-      'اختر المواضيع التي تهمك، ويمكنك دائمًا تغييرها في الإعدادات.';
+  String get chooseTopicsHint => 'اختر المواضيع التي تهمك، ويمكنك دائمًا تغييرها في الإعدادات.';
 
   @override
   String get categories => 'الفئات';
@@ -378,12 +359,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get networkStatusOfflineTitle => 'لا يوجد اتصال بالإنترنت';
 
   @override
-  String get networkStatusPartialMessage =>
-      'يمكننا الوصول إلى الإنترنت ولكن ليس إلى الخادم.\\nحاول مرة أخرى بعد قليل.';
+  String get networkStatusPartialMessage => 'يمكننا الوصول إلى الإنترنت ولكن ليس إلى الخادم.\\nحاول مرة أخرى بعد قليل.';
 
   @override
-  String get networkStatusOfflineMessage =>
-      'لا يوجد اتصال بالإنترنت. نحن نعرض المقالات القديمة. اتصل بالإنترنت لرؤية أحدث القصص.';
+  String get networkStatusOfflineMessage => 'لا يوجد اتصال بالإنترنت. نحن نعرض المقالات القديمة. اتصل بالإنترنت لرؤية أحدث القصص.';
 
   @override
   String get networkStatusInternetLabel => 'اتصال بالإنترنت';
@@ -413,15 +392,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get dismissibleNoticeNotificationsTitle => 'الإخطارات المنبثقة';
 
   @override
-  String get dismissibleNoticeNotificationsSubtitle =>
-      'تخصيص التنبيهات الخاصة بك بسهولة. قم بتشغيل أو إيقاف تشغيل الإشعارات لأي موضوع يثير اهتمامك.';
+  String get dismissibleNoticeNotificationsSubtitle => 'تخصيص التنبيهات الخاصة بك بسهولة. قم بتشغيل أو إيقاف تشغيل الإشعارات لأي موضوع يثير اهتمامك.';
 
   @override
   String get dismissibleNoticeLangAndAreaTitle => 'تحديث على الطريق!';
 
   @override
-  String get dismissibleNoticeLangAndAreaSubtitle =>
-      'ستتمكن قريبًا من اختيار مناطق العالم التي ترغب في الحصول على الأخبار والتحديثات منها.';
+  String get dismissibleNoticeLangAndAreaSubtitle => 'ستتمكن قريبًا من اختيار مناطق العالم التي ترغب في الحصول على الأخبار والتحديثات منها.';
 
   @override
   String get info => 'معلومات';
@@ -461,8 +438,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorNoInternetTitle => 'لا يوجد اتصال بالإنترنت.';
 
   @override
-  String get errorTimeout =>
-      'انتهت مهلة الطلب. يرجى المحاولة مرة أخرى في وقت لاحق.';
+  String get errorTimeout => 'انتهت مهلة الطلب. يرجى المحاولة مرة أخرى في وقت لاحق.';
 
   @override
   String get errorTimeoutTitle => 'انتهت مهلة الطلب.';
@@ -474,8 +450,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorServerTitle => 'خطأ في الخادم.';
 
   @override
-  String get errorUnauthorized =>
-      'أنت غير مصرح لك. الرجاء تسجيل الدخول والمحاولة مرة أخرى.';
+  String get errorUnauthorized => 'أنت غير مصرح لك. الرجاء تسجيل الدخول والمحاولة مرة أخرى.';
 
   @override
   String get errorUnauthorizedTitle => 'غير مصرح به.';
@@ -496,12 +471,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get updateArticle => 'تم تحديث المزيد من التفاصيل';
 
   @override
-  String get errorValidation =>
-      'بعض المعلومات تبدو غير صالحة. يرجى المراجعة والمحاولة مرة أخرى.';
+  String get errorValidation => 'بعض المعلومات تبدو غير صالحة. يرجى المراجعة والمحاولة مرة أخرى.';
 
   @override
-  String get agreeMail =>
-      'أوافق على تلقي التحديثات والرسائل الإخبارية عبر البريد الإلكتروني.';
+  String get agreeMail => 'أوافق على تلقي التحديثات والرسائل الإخبارية عبر البريد الإلكتروني.';
 
   @override
   String get sendUsEmail => 'أرسل لنا رسالة بالبريد الإلكتروني';
@@ -510,8 +483,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get discardChangesTitle => 'هل تريد تجاهل التغييرات؟';
 
   @override
-  String get discardChangesMessage =>
-      'لديك تغييرات غير محفوظة. إذا واصلت، وسوف تضيع.';
+  String get discardChangesMessage => 'لديك تغييرات غير محفوظة. إذا واصلت، وسوف تضيع.';
 
   @override
   String get discardButton => 'تجاهل';
@@ -529,8 +501,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get agreePrivacy => 'لقد قرأت ووافقت على ';
 
   @override
-  String get contactUsSubtitle =>
-      'لا تتردد في الاتصال بنا باستخدام النموذج أدناه.';
+  String get contactUsSubtitle => 'لا تتردد في الاتصال بنا باستخدام النموذج أدناه.';
 
   @override
   String get fullName => 'الاسم الكامل';
@@ -563,8 +534,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get emptyResults_noResults => 'لم يتم العثور على نتائج.';
 
   @override
-  String get emptyResults_bottomWithTopic =>
-      'حاول تغيير كلماتك الرئيسية أو اختر موضوعًا آخر.';
+  String get emptyResults_bottomWithTopic => 'حاول تغيير كلماتك الرئيسية أو اختر موضوعًا آخر.';
 
   @override
   String get emptyResults_bottomWithoutTopic => 'حاول تغيير كلماتك الرئيسية.';
@@ -588,8 +558,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorNetworkTitle => 'خطأ في الشبكة.';
 
   @override
-  String get errorNetwork =>
-      'لم نتمكن من الوصول إلى الشبكة. تحقق من اتصالك وحاول مرة أخرى.';
+  String get errorNetwork => 'لم نتمكن من الوصول إلى الشبكة. تحقق من اتصالك وحاول مرة أخرى.';
 
   @override
   String get errorDataIsEmptyTitle => 'لا توجد بيانات متاحة.';
@@ -601,15 +570,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorConflictTitle => 'الصراع.';
 
   @override
-  String get errorConflict =>
-      'يتعارض الطلب مع البيانات الموجودة. يرجى المحاولة مرة أخرى.';
+  String get errorConflict => 'يتعارض الطلب مع البيانات الموجودة. يرجى المحاولة مرة أخرى.';
 
   @override
   String get errorServerValidationTitle => 'خطأ في التحقق.';
 
   @override
-  String get errorServerValidation =>
-      'رفض الخادم بعض البيانات. يرجى المراجعة والمحاولة مرة أخرى.';
+  String get errorServerValidation => 'رفض الخادم بعض البيانات. يرجى المراجعة والمحاولة مرة أخرى.';
 
   @override
   String get errorWriteFileTitle => 'فشلت الكتابة.';
@@ -621,8 +588,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorReadFileTitle => 'فشلت القراءة.';
 
   @override
-  String get errorReadFile =>
-      'لم نتمكن من قراءة الملف. يرجى المحاولة مرة أخرى.';
+  String get errorReadFile => 'لم نتمكن من قراءة الملف. يرجى المحاولة مرة أخرى.';
 
   @override
   String get errorFileNotFoundTitle => 'لم يتم العثور على الملف.';
@@ -664,8 +630,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorInvalidCredentialsTitle => 'بيانات اعتماد غير صالحة.';
 
   @override
-  String get errorInvalidCredentials =>
-      'اسم المستخدم أو كلمة المرور غير صحيحة.';
+  String get errorInvalidCredentials => 'اسم المستخدم أو كلمة المرور غير صحيحة.';
 
   @override
   String get errorSecureStorageReadTitle => 'خطأ في قراءة التخزين الآمن.';
@@ -713,8 +678,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get errorInvalidInputTitle => 'إدخال غير صالح.';
 
   @override
-  String get errorInvalidInput =>
-      'يرجى التحقق من المدخلات الخاصة بك وحاول مرة أخرى.';
+  String get errorInvalidInput => 'يرجى التحقق من المدخلات الخاصة بك وحاول مرة أخرى.';
 
   @override
   String get errorEmptyTopicsTitle => 'لم يتم اختيار أي مواضيع.';
