@@ -1,10 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:news_app/core/services/crash_reporting/crash_reporting_service.dart';
-import 'package:news_app/core/services/crash_reporting/firebase_crash_reporting_service.dart';
-
 import '../error/failure.dart';
+import '../services/crash_reporting/crash_reporting_service.dart';
+import '../services/crash_reporting/firebase_crash_reporting_service.dart';
 
 class FirebaseLogger {
   static final CrashReportingService _crashReportingService =
