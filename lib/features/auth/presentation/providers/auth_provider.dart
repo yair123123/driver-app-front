@@ -26,32 +26,7 @@ final getMeUseCaseProvider = Provider<GetCurrentUserUseCase>((ref) {
   return GetCurrentUserUseCase(ref.watch(authRepositoryProvider));
 });
 
-final loginUseCaseProvider = Provider<Future<void> Function(String, String)>((
-  ref,
-) {
-  final loginUseCase = ref.watch(authLoginUseCaseProvider);
 
-  return (username, password) async {
-    final result = await loginUseCase(
-      LoginParams(username: username, password: password),
-    );
-
-    final session = result.match(
-      (failure) => throw failure,
-      (authSession) => authSession,
-    );
-
-    final persistResult = await ref
-        .read(authSessionProvider.notifier)
-        .setFromLogin(
-          accessToken: session.accessToken!,
-          refreshToken: session.refreshToken,
-          expiresAt: session.expiresAt,
-        );
-
-    persistResult.match((failure) => throw failure, (_) => null);
-  };
-});
 
 final userProvider = AsyncNotifierProvider<UserController, User?>(
   UserController.new,
