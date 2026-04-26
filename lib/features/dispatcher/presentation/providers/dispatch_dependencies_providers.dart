@@ -34,10 +34,10 @@ final dispatchNewRideUseCaseProvider = Provider<DispatchNewRideUseCase>(
 final cancelRideUseCaseProvider = Provider<CancelRideUsecase>(
   (ref) => CancelRideUsecase(ref.watch(dispatchRepositoryProvider)),
 );
-
-final updateRideUseCaseProvider = Provider<UpdateRideUseCase>(
-  (ref) => UpdateRideUseCase(ref.watch(dispatchRepositoryProvider)),
-);
+//
+// final updateRideUseCaseProvider = Provider<UpdateRideUseCase>(
+//   (ref) => UpdateRideUseCase(ref.watch(dispatchRepositoryProvider)),
+// );
 
 final getEventActiveRideUsecaseProvider = Provider<GetEventActiveRideUsecase>(
   (ref) => GetEventActiveRideUsecase(ref.watch(dispatchRepositoryProvider)),

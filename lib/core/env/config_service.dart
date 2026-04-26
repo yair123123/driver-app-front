@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 abstract class RCKeys {
@@ -11,17 +10,19 @@ abstract class RCKeys {
   static const supportEmail = 'SUPPORT_EMAIL';
   static const androidUrl = 'ANDROID_URL';
   static const iosUrl = 'IOS_URL';
+  static const mapTilerApiKey = 'MAP_TILER_API_KEY';
 }
 
 class AppConfig {
   final String androidUrl;
   final String iosUrl;
-
+  final String mapTilerApiKey;
   final String publicApiUrl;
   final String privacyPolicyPath;
   final String supportEmail;
 
   const AppConfig({
+    required this.mapTilerApiKey,
     required this.androidUrl,
     required this.iosUrl,
     required this.supportEmail,
@@ -44,9 +45,8 @@ class ConfigService {
     await _rc.setConfigSettings(
       RemoteConfigSettings(
         fetchTimeout: const Duration(seconds: 5),
-        minimumFetchInterval: isDebug
-            ? Duration.zero
-            : const Duration(hours: 4),
+        minimumFetchInterval:
+            isDebug ? Duration.zero : const Duration(hours: 4),
       ),
     );
 
@@ -57,6 +57,7 @@ class ConfigService {
   }
 
   AppConfig current() => AppConfig(
+    mapTilerApiKey: _rc.getString(RCKeys.mapTilerApiKey),
     iosUrl: _rc.getString(RCKeys.iosUrl),
     androidUrl: _rc.getString(RCKeys.androidUrl),
     supportEmail: _rc.getString(RCKeys.supportEmail),

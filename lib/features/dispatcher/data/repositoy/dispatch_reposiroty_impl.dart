@@ -1,6 +1,6 @@
 import 'package:driver_app/core/enums/ride_operation_code.dart';
 import 'package:driver_app/features/dispatcher/data/datasources/websocket_datasource.dart';
-import 'package:driver_app/features/dispatcher/data/mappers/offer_mapper.dart';
+import 'package:driver_app/features/dispatcher/data/models/create_ride_from_dispatcher_request_dto.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/cancel_ride.dart';
 import 'package:driver_app/features/dispatcher/domain/entities/offer.dart';
 import 'package:driver_app/features/dispatcher/domain/repositories/dispatch_repository.dart';
@@ -20,14 +20,14 @@ class DispatchRepositoryImpl implements DispatchRepository {
 
   @override
   Future<void> dispatchNewOffer(Offer offer) {
-    return apiRemoteDataSource.sendNewOffer(offer.toModel());
+    return apiRemoteDataSource.sendNewOffer(CreateRideFromDispatcherRequestDto.fromEntity(offer));
   }
 
-  @override
-  Future<void> updateRide(Offer offer) {
-
-    return apiRemoteDataSource.updateOffer(offer.toModel());
-  }
+  // @override
+  // Future<void> updateRide(Offer offer) {
+  //
+  //   return apiRemoteDataSource.updateOffer(offer.toModel());
+  // }
 
   @override
   void cancelRide(CancelOffer cancel) {

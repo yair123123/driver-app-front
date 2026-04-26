@@ -96,13 +96,15 @@ class CreateRideFromFormUsecase {
       stationId: params.stationId,
       origin: Address(
         city: params.originCity.trim(),
-        neighborhood: params.originNeighborhood.trim(),
+        houseNumber: params.originNeighborhood.trim(),
         street: params.originStreet.trim(),
+        fullText: ""
       ),
       destination: Address(
         city: params.destinationCity.trim(),
-        neighborhood: params.destinationNeighborhood.trim(),
+        houseNumber: params.destinationNeighborhood.trim(),
         street: params.destinationStreet.trim(),
+        fullText: ""
       ),
       price: params.price.trim(),
       passengerPhone: params.passengerPhone.trim(),

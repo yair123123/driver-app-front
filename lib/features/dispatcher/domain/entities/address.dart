@@ -2,31 +2,25 @@
 class Address {
   const Address({
     required this.city,
-    required this.neighborhood,
     required this.street,
+    required this.houseNumber,
+    required this.fullText,
   });
 
   final String city;
-  final String? neighborhood;
-  final String? street;
+  final String street;
+  final String houseNumber;
+  final String fullText;
 
-  Address copyWith({String? city, String? neighborhood, String? street}) {
+
+  Address copyWith({String? city, String? neighborhood, String? street, String? houseNumber,String? fullText}) {
     return Address(
       city: city ?? this.city,
-      neighborhood: neighborhood ?? this.neighborhood,
       street: street ?? this.street,
+      houseNumber: houseNumber ?? this.houseNumber,
+      fullText: fullText ?? this.fullText,
     );
   }
 
-  factory Address.fromJson(Map<String, dynamic> json) {
-    return Address(
-      city: json['city']?.toString() ?? '',
-      neighborhood: json['neighborhood']?.toString(),
-      street: json['street']?.toString(),
-    );
-  }
 
-  Map<String, dynamic> toJson() {
-    return {'city': city, 'neighborhood': neighborhood, 'street': street};
-  }
 }

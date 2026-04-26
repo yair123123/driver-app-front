@@ -53,13 +53,15 @@ class Offer {
       stationId: stationId,
       origin: Address(
         city: lines.isNotEmpty ? lines[0] : '',
-        neighborhood: lines.length > 1 ? lines[1] : '',
+        houseNumber: lines.length > 1 ? lines[1] : '',
         street: '',
+        fullText: ""
       ),
       destination: Address(
         city: lines.length > 2 ? lines[2] : '',
-        neighborhood: lines.length > 3 ? lines[3] : '',
+        houseNumber: lines.length > 3 ? lines[3] : '',
         street: '',
+        fullText: ""
       ),
       price: lines.length > 4 ? lines[4] : '',
       passengerPhone: lines.length > 5 ? lines[5] : '',

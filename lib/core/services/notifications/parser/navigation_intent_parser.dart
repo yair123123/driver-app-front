@@ -1,8 +1,9 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:driver_app/core/constants/app_constants.dart';
 import 'package:driver_app/core/env/config_service.dart';
 import 'package:driver_app/core/services/notifications/parser/navigation_intent.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:driver_app/core/constants/app_constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 class NavigationIntentParser {
   final String ourHost;
 
@@ -10,8 +11,7 @@ class NavigationIntentParser {
 
   NavigationIntent? fromUri(Uri uri) {
     final host = uri.host;
-    final shareMarker  = AppLinkMarkers.share;
-    final messageMarker = AppLinkMarkers.message;
+    final shareMarker = AppLinkMarkers.share;
 
     final isOurHost = host == ourHost || host == 'www.$ourHost';
     if (!isOurHost) return null;
@@ -21,18 +21,6 @@ class NavigationIntentParser {
     if (segments[0] != shareMarker) return null;
 
     final type = segments[1];
-
-
-    if (type == messageMarker) {
-      if (segments.length < 4) return null;
-
-      final groupId = segments[2];
-      final messageId = segments[3];
-      if (groupId.isEmpty || messageId.isEmpty) return null;
-
-      return OpenMessageIntent(groupId, messageId);
-    }
-
     return null;
   }
 

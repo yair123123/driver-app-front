@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:driver_app/core/env/env.dart';
 import 'package:driver_app/core/ws/enums/ws_connection_state.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
@@ -37,7 +36,7 @@ class SocketConnectionManager {
     _connectionStateController.add(SocketConnectionState.connecting);
 
     try {
-      final uri = Uri.parse('${Env.websocketUrl}?auth=$token');
+      final uri = Uri.parse('websocketUrl}?auth=$token');
       _channel = WebSocketChannel.connect(uri);
 
       final completer = Completer<bool>();

@@ -7,7 +7,7 @@ import '../entities/offer.dart';
 
 abstract class DispatchRepository {
   Future<void> dispatchNewOffer(Offer offer);
-  Future<void> updateRide(Offer offer);
+  // Future<void> updateRide(Offer offer);
   void cancelRide(CancelOffer offer);
   Stream<DispatchRealtimeEvent> getEventsActiveRide();
 }

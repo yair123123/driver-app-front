@@ -4,5 +4,4 @@ class AppConstants {
 
 class AppLinkMarkers {
   static const share = 'share';
-  static const message = 'm';
 }
