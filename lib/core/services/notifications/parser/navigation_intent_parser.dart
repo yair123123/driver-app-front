@@ -97,6 +97,6 @@ class NavigationIntentParser {
 }
 
 final navigationIntentParserProvider = Provider<NavigationIntentParser>((ref) {
-  final apiBaseUrl = ref.read(configServiceProvider).current().publicApiUrl;
+  final apiBaseUrl = ref.read(configServiceProvider).current().api.baseUrl;
   return NavigationIntentParser(apiBaseUrl);
 });

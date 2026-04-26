@@ -63,6 +63,6 @@ class RideShareService {
 
 final rideShareServiceProvider = Provider(
   (ref) => RideShareService(
-    publicHost: ref.read(configServiceProvider).current().publicApiUrl,
+    publicHost: ref.read(configServiceProvider).current().api.baseUrl,
   ),
 );

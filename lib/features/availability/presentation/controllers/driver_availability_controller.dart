@@ -1,6 +1,7 @@
 import 'package:driver_app/features/availability/presentation/states/driver_availability_state.dart';
 import 'package:driver_app/features/dispatch_realtime/domain/entities/dispatch_connection_state.dart';
 import 'package:driver_app/features/dispatch_realtime/presentation/providers/dispatch_realtime_providers.dart';
+import 'package:driver_app/features/driver_location/presentation/providers/driver_location_providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class DriverAvailabilityController extends Notifier<DriverAvailabilityState> {
@@ -50,6 +51,10 @@ class DriverAvailabilityController extends Notifier<DriverAvailabilityState> {
             : const DriverAvailabilityState.error(
               'Unable to enter live dispatch mode.',
             );
+
+    if (didConnect) {
+      await ref.read(driverLocationTrackingControllerProvider.notifier).start();
+    }
   }
 
   Future<void> disable() async {
@@ -58,6 +63,7 @@ class DriverAvailabilityController extends Notifier<DriverAvailabilityState> {
     }
 
     state = const DriverAvailabilityState.disabling();
+    await ref.read(driverLocationTrackingControllerProvider.notifier).stop();
     await ref.read(dispatchConnectionControllerProvider.notifier).disconnect();
     state = const DriverAvailabilityState.offline();
   }

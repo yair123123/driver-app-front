@@ -17,7 +17,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../../../core/env/config_service.dart';
-import '../../../../core/env/rc_defaults.dart';
+import '../../../../core/env/rc_defaults.dart' hide remoteConfigDefaults;
 import '../../../../core/services/crash_reporting/crash_reporting_provider.dart';
 import '../../../../core/services/notifications/push_notifications_manager.dart';
 import '../../../../core/services/notifications/sources/app_links_source.dart';
@@ -211,7 +211,7 @@ class AppBootstrapController extends ChangeNotifier {
 
   String? _safeApiBaseUrl() {
     try {
-      final url = ref.read(configServiceProvider).current().publicApiUrl.trim();
+      final url = ref.read(configServiceProvider).current().api.baseUrl.trim();
       return url.isEmpty ? null : url;
     } catch (_) {
       return null;
@@ -273,8 +273,9 @@ class AppBootstrapController extends ChangeNotifier {
   }
 
   Future<void> _bootstrapRemoteConfig() async {
+    final rc = ref.read(configServiceProvider);
+
     try {
-      final rc = ref.read(configServiceProvider);
       await rc.init(defaults: remoteConfigDefaults, isDebug: kDebugMode);
     } catch (error, stack) {
       FirebaseLogger.e(
@@ -282,7 +283,6 @@ class AppBootstrapController extends ChangeNotifier {
         error: error,
         stack: stack,
       );
-      rethrow;
     }
   }
 

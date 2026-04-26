@@ -83,7 +83,7 @@ final routerProvider = Provider<GoRouter>((ref) {
               ),
             ],
           ),
-          GoRoute(path: '/rides/map', builder: (_, __) => const MapScreen()),
+          GoRoute(path: '/rides/map', builder: (_, __) => const DriverMapScreen()),
           ShellRoute(
             builder: (_, __, child) => ShellDispatch(child: child),
             routes: [

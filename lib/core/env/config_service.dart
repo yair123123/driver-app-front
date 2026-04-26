@@ -13,21 +13,50 @@ abstract class RCKeys {
   static const mapTilerApiKey = 'MAP_TILER_API_KEY';
 }
 
-class AppConfig {
+class ApiConfig {
+  final String baseUrl;
+
+  const ApiConfig({required this.baseUrl});
+}
+
+class MapConfig {
+  final String apiKey;
+
+  const MapConfig({required this.apiKey});
+
+  String get styleUrl =>
+      'https://api.maptiler.com/maps/dataviz-v4-dark/style.json?key=$apiKey';
+}
+
+class ShareConfig {
   final String androidUrl;
   final String iosUrl;
-  final String mapTilerApiKey;
-  final String publicApiUrl;
   final String privacyPolicyPath;
-  final String supportEmail;
 
-  const AppConfig({
-    required this.mapTilerApiKey,
+  const ShareConfig({
     required this.androidUrl,
     required this.iosUrl,
-    required this.supportEmail,
-    required this.publicApiUrl,
     required this.privacyPolicyPath,
+  });
+}
+
+class SupportConfig {
+  final String email;
+
+  const SupportConfig({required this.email});
+}
+
+class AppConfig {
+  final ApiConfig api;
+  final MapConfig map;
+  final ShareConfig share;
+  final SupportConfig support;
+
+  const AppConfig({
+    required this.api,
+    required this.map,
+    required this.share,
+    required this.support,
   });
 }
 
@@ -53,30 +82,42 @@ class ConfigService {
     try {
       await _rc.fetchAndActivate();
     } on FirebaseException {}
+
     _validateOrThrow();
   }
 
-  AppConfig current() => AppConfig(
-    mapTilerApiKey: _rc.getString(RCKeys.mapTilerApiKey),
-    iosUrl: _rc.getString(RCKeys.iosUrl),
-    androidUrl: _rc.getString(RCKeys.androidUrl),
-    supportEmail: _rc.getString(RCKeys.supportEmail),
-    publicApiUrl: _rc.getString(RCKeys.apiUrl),
-    privacyPolicyPath: _rc.getString(RCKeys.privacyPolicyPath),
-  );
+  AppConfig current() {
+    final apiUrl = _rc.getString(RCKeys.apiUrl).trim();
+    final privacy = _rc.getString(RCKeys.privacyPolicyPath).trim();
+    final mapKey = _rc.getString(RCKeys.mapTilerApiKey).trim();
+
+    return AppConfig(
+      api: ApiConfig(baseUrl: apiUrl),
+      map: MapConfig(apiKey: mapKey),
+      share: ShareConfig(
+        androidUrl: _rc.getString(RCKeys.androidUrl).trim(),
+        iosUrl: _rc.getString(RCKeys.iosUrl).trim(),
+        privacyPolicyPath: privacy,
+      ),
+      support: SupportConfig(email: _rc.getString(RCKeys.supportEmail).trim()),
+    );
+  }
 
   void _validateOrThrow() {
-    final v = _rc.getString(RCKeys.apiUrl).trim();
-    final x = _rc.getString(RCKeys.privacyPolicyPath).trim();
-    if (v.isEmpty) {
-      throw StateError(
-        'RemoteConfig key "${RCKeys.apiUrl}" is missing or empty (remote+defaults)',
-      );
+    final apiUrl = _rc.getString(RCKeys.apiUrl).trim();
+    final privacy = _rc.getString(RCKeys.privacyPolicyPath).trim();
+    final mapKey = _rc.getString(RCKeys.mapTilerApiKey).trim();
+
+    if (apiUrl.isEmpty) {
+      throw StateError('Missing "${RCKeys.apiUrl}"');
     }
-    if (x.isEmpty) {
-      throw StateError(
-        'RemoteConfig key "${RCKeys.privacyPolicyPath}" is missing or empty (remote+defaults)',
-      );
+
+    if (privacy.isEmpty) {
+      throw StateError('Missing "${RCKeys.privacyPolicyPath}"');
+    }
+
+    if (mapKey.isEmpty) {
+      throw StateError('Missing "${RCKeys.mapTilerApiKey}"');
     }
   }
 }
@@ -88,3 +129,12 @@ final configServiceProvider = Provider<ConfigService>(
 final appConfigProvider = Provider<AppConfig>((ref) {
   return ref.read(configServiceProvider).current();
 });
+
+const remoteConfigDefaults = <String, Object>{
+  RCKeys.apiUrl: '10.0.2.2:8001',
+  RCKeys.privacyPolicyPath: 'blabla',
+  RCKeys.mapTilerApiKey: '',
+  RCKeys.supportEmail: '',
+  RCKeys.androidUrl: '',
+  RCKeys.iosUrl: '',
+};
