@@ -31,7 +31,7 @@ class HomeTabsConfig {
       label: 'מפה',
       icon: Icons.map_outlined,
       activeIcon: Icons.map,
-      route: '/rides/map',
+      route: '/rides/hub',
     ),
     HomeTabItem(
       label: 'צ׳אטים',
@@ -64,7 +64,7 @@ class HomeTabsConfig {
       label: 'מפה',
       icon: Icons.map_outlined,
       activeIcon: Icons.map,
-      route: '/rides/map',
+      route: '/rides/hub',
     ),
     HomeTabItem(
       label: 'צ׳אטים',

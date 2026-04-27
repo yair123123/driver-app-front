@@ -8,7 +8,7 @@ import 'package:driver_app/features/chat/presentation/screens/list_chats_screen.
 import 'package:driver_app/features/dispatcher/presentation/screens/add_ride_screen.dart';
 import 'package:driver_app/features/dispatcher/presentation/screens/shell_dispatch.dart';
 import 'package:driver_app/features/dispatcher/presentation/screens/summary_dispatches_screen.dart';
-import 'package:driver_app/features/ride_hub/presentation/screens/map_screen.dart';
+import 'package:driver_app/features/ride_hub/presentation/screens/driver_hub_screen.dart';
 import 'package:driver_app/features/ride_hub/presentation/screens/station_ride_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -83,7 +83,7 @@ final routerProvider = Provider<GoRouter>((ref) {
               ),
             ],
           ),
-          GoRoute(path: '/rides/map', builder: (_, __) => const DriverMapScreen()),
+          GoRoute(path: '/rides/hub', builder: (_, __) => const DriverHubScreen()),
           ShellRoute(
             builder: (_, __, child) => ShellDispatch(child: child),
             routes: [

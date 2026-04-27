@@ -14,6 +14,7 @@ class AppColors {
   static const Color error = Color(0xFFE53935);
   static const Color errorButton = Color(0xFFE25D4B);
   static const Color success = Color(0xFF43A047);
+  static const Color green = Color(0xFF43A047);
 
   static const Color border = Color(0xFFE0E0E0);
   static const Color grey = Color(0xFF494949);

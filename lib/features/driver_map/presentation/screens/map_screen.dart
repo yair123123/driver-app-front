@@ -1,5 +1,5 @@
 import 'package:driver_app/core/env/config_service.dart';
-import 'package:driver_app/features/ride_hub/presentation/widgets/driver_map_view.dart';
+import 'package:driver_app/features/driver_map/presentation/widgets/driver_map_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
