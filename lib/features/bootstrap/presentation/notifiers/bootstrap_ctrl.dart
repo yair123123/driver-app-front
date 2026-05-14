@@ -17,7 +17,6 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../../../core/env/config_service.dart';
-import '../../../../core/env/rc_defaults.dart' hide remoteConfigDefaults;
 import '../../../../core/services/crash_reporting/crash_reporting_provider.dart';
 import '../../../../core/services/notifications/push_notifications_manager.dart';
 import '../../../../core/services/notifications/sources/app_links_source.dart';

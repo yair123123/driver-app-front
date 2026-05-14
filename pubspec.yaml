@@ -81,5 +81,6 @@ flutter:
     - .env
     - assets/
     - assets/images/
+    - assets/map/icons/
     - assets/images/custom_icons/
     - assets/animations/check.json

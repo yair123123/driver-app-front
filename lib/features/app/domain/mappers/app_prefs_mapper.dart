@@ -9,6 +9,7 @@ extension AppPrefsMapper on AppPrefs {
       isOnGroupsPage: isOnGroupsPage,
       wereMessageNewGroupsPresented: wereMessageNewGroupsPresented,
       lastReadMessageByGroup: lastReadMessageByGroup,
+      permissionsOnboardingCompleted: permissionsOnboardingCompleted,
     );
   }
 }
@@ -21,6 +22,7 @@ extension AppPrefsModelMapper on AppPrefsModel {
       isOnGroupsPage: isOnGroupsPage,
       wereMessageNewGroupsPresented: wereMessageNewGroupsPresented,
       lastReadMessageByGroup: lastReadMessageByGroup,
+      permissionsOnboardingCompleted: permissionsOnboardingCompleted,
     );
   }
 }

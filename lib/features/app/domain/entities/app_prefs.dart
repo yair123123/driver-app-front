@@ -5,6 +5,7 @@ class AppPrefs {
   final bool wereMessageNewGroupsPresented;
   final Map<String, String> lastReadMessageByGroup;
   final int? defaultStationId;
+  final bool permissionsOnboardingCompleted;
 
   const AppPrefs({
     this.defaultStationId,
@@ -13,6 +14,7 @@ class AppPrefs {
     this.isOnGroupsPage = false,
     this.wereMessageNewGroupsPresented = false,
     this.lastReadMessageByGroup = const {},
+    this.permissionsOnboardingCompleted = false,
   });
 
   AppPrefs copyWith({
@@ -24,6 +26,7 @@ class AppPrefs {
     bool? isOnGroupsPage,
     bool? wereMessageNewGroupsPresented,
     Map<String, String>? lastReadMessageByGroup,
+    bool? permissionsOnboardingCompleted,
   }) {
     return AppPrefs(
       defaultStationId: defaultStationId ?? this.defaultStationId,
@@ -35,6 +38,8 @@ class AppPrefs {
           wereMessageNewGroupsPresented ?? this.wereMessageNewGroupsPresented,
       lastReadMessageByGroup:
           lastReadMessageByGroup ?? this.lastReadMessageByGroup,
+      permissionsOnboardingCompleted:
+          permissionsOnboardingCompleted ?? this.permissionsOnboardingCompleted,
     );
   }
 }

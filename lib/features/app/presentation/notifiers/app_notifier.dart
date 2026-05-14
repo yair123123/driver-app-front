@@ -89,6 +89,10 @@ class AppStateNotifier extends Notifier<AppSessionState> {
     final nextPrefs = state.appPrefs.copyWith(isOnGroupsPage: value);
     _setPrefs(nextPrefs);
   }
+  void setPermissionsOnboardingCompleted(bool value) {
+    final nextPrefs = state.appPrefs.copyWith(permissionsOnboardingCompleted: value);
+    _setPrefs(nextPrefs);
+  }
 
   void setSelectedArea(String areaCode) {
     final nextPrefs = state.appPrefs.copyWith(selectedAreaCode: areaCode);

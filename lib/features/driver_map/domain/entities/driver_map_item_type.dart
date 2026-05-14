@@ -1,5 +1,6 @@
 enum DriverMapItemType {
   selfDriver,
-  otherDriver,
-  activeRide,
+  nearbyDriver,
+  openRide,
+  assignedRide,
 }

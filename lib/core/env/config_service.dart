@@ -131,7 +131,7 @@ final appConfigProvider = Provider<AppConfig>((ref) {
 });
 
 const remoteConfigDefaults = <String, Object>{
-  RCKeys.apiUrl: '10.0.2.2:8001',
+  RCKeys.apiUrl: 'localhost:8001',
   RCKeys.privacyPolicyPath: 'blabla',
   RCKeys.mapTilerApiKey: '',
   RCKeys.supportEmail: '',

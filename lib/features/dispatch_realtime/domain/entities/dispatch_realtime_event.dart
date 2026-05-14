@@ -1,249 +1,87 @@
-import 'package:driver_app/core/enums/ride_operation_code.dart';
-import 'package:driver_app/core/ws/protocol/ws_envelope.dart';
-import 'package:driver_app/features/rides/domain/entities/ride/ride.dart';
-import 'package:driver_app/features/rides/domain/entities/ride_message_dto.dart';
+import 'package:driver_app/features/dispatch_realtime/domain/entities/ride_action_result.dart';
+import 'package:driver_app/features/rides/domain/entities/ride/ride_map_item.dart';
 
-enum DispatchRealtimeEventType {
-  rideCreated,
-  rideUpdated,
-  rideRemoved,
-  rideAssigned,
-  offerReceived,
-  offerExpired,
-  offerCancelled,
-  raw,
+sealed class DispatchRealtimeEvent {
+  const DispatchRealtimeEvent();
 }
 
-class DispatchRealtimeEvent {
-  const DispatchRealtimeEvent({
-    required this.type,
-    required this.message,
+class RideCreatedRealtimeEvent extends DispatchRealtimeEvent {
+  const RideCreatedRealtimeEvent({required this.ride});
+
+  final RideMapItem ride;
+}
+
+class RideUpdatedRealtimeEvent extends DispatchRealtimeEvent {
+  const RideUpdatedRealtimeEvent({required this.ride});
+
+  final RideMapItem ride;
+}
+
+class RideCancelledRealtimeEvent extends DispatchRealtimeEvent {
+  const RideCancelledRealtimeEvent({required this.rideId});
+
+  final int rideId;
+}
+
+class RideAssignedRealtimeEvent extends DispatchRealtimeEvent {
+  const RideAssignedRealtimeEvent({required this.rideId, this.driverId});
+
+  final int rideId;
+  final int? driverId;
+}
+
+class RideOfferReceivedRealtimeEvent extends DispatchRealtimeEvent {
+  const RideOfferReceivedRealtimeEvent({
+    required this.rideId,
+    this.roundId,
+    this.expiresAt,
     this.ride,
-    this.rideId,
-    this.payload,
   });
 
-  final DispatchRealtimeEventType type;
-  final RideMessageDto message;
-  final Ride? ride;
-  final String? rideId;
-  final Map<String, dynamic>? payload;
-
-  factory DispatchRealtimeEvent.fromMessage(RideMessageDto message) {
-    final payload = _asMap(message.content);
-    final ride = _tryParseRide(message.content);
-    final rideId = _readRideId(message.content);
-
-    switch (message.operationCode) {
-      case RideOperationCode.dispatch:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideCreated,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.update:
-      case RideOperationCode.confirmUpdate:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideUpdated,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.advertiseToDrivers:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.offerReceived,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.rideRequestGranted:
-      case RideOperationCode.notifyDispatcherRideWasTaken:
-      case RideOperationCode.broadcastRideWasTaken:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideAssigned,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.rideRequestDeniedAlreadyTaken:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.offerExpired,
-          message: message,
-          rideId: rideId,
-          payload: payload,
-        );
-      case RideOperationCode.rideCanceledByDispatcher:
-      case RideOperationCode.notifyDispatcherRideRequestWasCanceled:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.offerCancelled,
-          message: message,
-          rideId: rideId,
-          payload: payload,
-        );
-      case RideOperationCode.cancel:
-      case RideOperationCode.confirmCancel:
-      case RideOperationCode.cancelTen:
-      case RideOperationCode.confirmCancelTen:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideRemoved,
-          message: message,
-          rideId: rideId,
-          payload: payload,
-        );
-      case RideOperationCode.confirmDispatch:
-      case RideOperationCode.requestRide:
-      case RideOperationCode.pickedUpPassenger:
-      case RideOperationCode.confirmPassengerWasPickedUp:
-      case RideOperationCode.endRide:
-      case RideOperationCode.endRideAck:
-      case RideOperationCode.notifyDispatcherPassengerWasPickedUp:
-      case RideOperationCode.notifyDispatcherRideEnded:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.raw,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-    }
-  }
-
-  factory DispatchRealtimeEvent.fromEnvelope(WsEnvelope envelope) {
-    final payload = _asMap(envelope.payload);
-    final message = _toRideMessageDto(envelope, payload);
-    final ride = _tryParseRide(envelope.payload);
-    final rideId = _readRideId(envelope.payload);
-
-    switch (message.operationCode) {
-      case RideOperationCode.dispatch:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideCreated,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.update:
-      case RideOperationCode.confirmUpdate:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideUpdated,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.advertiseToDrivers:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.offerReceived,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.rideRequestGranted:
-      case RideOperationCode.notifyDispatcherRideWasTaken:
-      case RideOperationCode.broadcastRideWasTaken:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideAssigned,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-      case RideOperationCode.rideRequestDeniedAlreadyTaken:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.offerExpired,
-          message: message,
-          rideId: rideId,
-          payload: payload,
-        );
-      case RideOperationCode.rideCanceledByDispatcher:
-      case RideOperationCode.notifyDispatcherRideRequestWasCanceled:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.offerCancelled,
-          message: message,
-          rideId: rideId,
-          payload: payload,
-        );
-      case RideOperationCode.cancel:
-      case RideOperationCode.confirmCancel:
-      case RideOperationCode.cancelTen:
-      case RideOperationCode.confirmCancelTen:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.rideRemoved,
-          message: message,
-          rideId: rideId,
-          payload: payload,
-        );
-      case RideOperationCode.confirmDispatch:
-      case RideOperationCode.requestRide:
-      case RideOperationCode.pickedUpPassenger:
-      case RideOperationCode.confirmPassengerWasPickedUp:
-      case RideOperationCode.endRide:
-      case RideOperationCode.endRideAck:
-      case RideOperationCode.notifyDispatcherPassengerWasPickedUp:
-      case RideOperationCode.notifyDispatcherRideEnded:
-        return DispatchRealtimeEvent(
-          type: DispatchRealtimeEventType.raw,
-          message: message,
-          ride: ride,
-          rideId: ride?.id ?? rideId,
-          payload: payload,
-        );
-    }
-  }
+  final int rideId;
+  final String? roundId;
+  final DateTime? expiresAt;
+  final RideMapItem? ride;
 }
 
-Ride? _tryParseRide(dynamic rawContent) {
-  if (rawContent is Map<String, dynamic> &&
-      rawContent.containsKey('origin') &&
-      rawContent.containsKey('destination')) {
-    return Ride.fromJson(rawContent);
-  }
-  if (rawContent is Map &&
-      rawContent.containsKey('origin') &&
-      rawContent.containsKey('destination')) {
-    return Ride.fromJson(Map<String, dynamic>.from(rawContent));
-  }
+class RideOfferExpiredRealtimeEvent extends DispatchRealtimeEvent {
+  const RideOfferExpiredRealtimeEvent({required this.rideId, this.roundId});
 
-  return null;
+  final int rideId;
+  final String? roundId;
 }
 
-Map<String, dynamic>? _asMap(dynamic rawContent) {
-  if (rawContent is Map<String, dynamic>) {
-    return rawContent;
-  }
-  if (rawContent is Map) {
-    return Map<String, dynamic>.from(rawContent);
-  }
+class RideOfferCancelledRealtimeEvent extends DispatchRealtimeEvent {
+  const RideOfferCancelledRealtimeEvent({required this.rideId, this.roundId});
 
-  return null;
+  final int rideId;
+  final String? roundId;
 }
 
-String? _readRideId(dynamic rawContent) {
-  final payload = _asMap(rawContent);
-  if (payload == null) {
-    return null;
-  }
+class RideActionResultRealtimeEvent extends DispatchRealtimeEvent {
+  const RideActionResultRealtimeEvent({required this.result});
 
-  return payload['id']?.toString() ?? payload['rideId']?.toString();
+  final RideActionResult result;
 }
 
-RideMessageDto _toRideMessageDto(
-  WsEnvelope envelope,
-  Map<String, dynamic>? payload,
-) {
-  final operationCode = envelope.rawOperationCode;
-  final resolvedOperationCode =
-      operationCode == null ? RideOperationCode.dispatch : rideOperationCodeFromInt(operationCode);
-  return RideMessageDto(
-    operationCode: resolvedOperationCode,
-    content: payload ?? envelope.payload,
-    error: envelope.error ?? '',
-  );
+class UnknownDispatchRealtimeEvent extends DispatchRealtimeEvent {
+  const UnknownDispatchRealtimeEvent({
+    required this.operationCode,
+    required this.content,
+  });
+
+  final int operationCode;
+  final Map<String, dynamic>? content;
+}
+
+class InvalidDispatchRealtimeEvent extends DispatchRealtimeEvent {
+  const InvalidDispatchRealtimeEvent({
+    required this.operationCode,
+    required this.error,
+    required this.content,
+  });
+
+  final int operationCode;
+  final Object error;
+  final Map<String, dynamic>? content;
 }

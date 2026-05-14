@@ -6,7 +6,10 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 
 
-
+Future<Uint8List> getBytesFromAsset(String path) async {
+  final assets = await rootBundle.load(path);
+  return assets.buffer.asUint8List();
+}
 Future<void> copyToClipboard(
     String? title,
     String? content,

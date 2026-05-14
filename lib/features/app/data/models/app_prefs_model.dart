@@ -16,6 +16,8 @@ class AppPrefsModel {
   final bool wereMessageNewGroupsPresented;
   @HiveField(4)
   final Map<String, String> lastReadMessageByGroup;
+  @HiveField(5)
+  final bool permissionsOnboardingCompleted;
 
   const AppPrefsModel({
     this.lastReadByTopic = const {},
@@ -23,6 +25,7 @@ class AppPrefsModel {
     this.isOnGroupsPage = false,
     this.wereMessageNewGroupsPresented = false,
     this.lastReadMessageByGroup = const {},
+    this.permissionsOnboardingCompleted = false,
   });
 
   AppPrefsModel copyWith({
@@ -33,6 +36,7 @@ class AppPrefsModel {
     bool? isOnGroupsPage,
     bool? wereMessageNewGroupsPresented,
     Map<String, String>? lastReadMessageByGroup,
+    bool? permissionsOnboardingCompleted,
   }) {
     return AppPrefsModel(
       lastReadByTopic: lastReadByTopic ?? this.lastReadByTopic,
@@ -42,6 +46,8 @@ class AppPrefsModel {
           wereMessageNewGroupsPresented ?? this.wereMessageNewGroupsPresented,
       lastReadMessageByGroup:
           lastReadMessageByGroup ?? this.lastReadMessageByGroup,
+      permissionsOnboardingCompleted:
+          permissionsOnboardingCompleted ?? this.permissionsOnboardingCompleted,
     );
   }
 }

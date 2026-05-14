@@ -1,6 +1,8 @@
 import 'package:driver_app/features/driver_map/domain/entities/driver_map_item_type.dart';
 import 'package:driver_app/features/driver_map/presentation/map_layers/driver_map_marker_layer.dart';
 import 'package:driver_app/features/driver_map/presentation/providers/driver_map_controller_provider.dart';
+import 'package:driver_app/features/rides/presentation/providers/rides_providers.dart';
+import 'package:driver_app/features/rides/presentation/states/rides_query.dart';
 import 'package:driver_app/theme/app_spacing.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -17,7 +19,7 @@ class DriverMapView extends HookConsumerWidget {
     final controllerRef = useRef<MapLibreMapController?>(null);
     final markerLayerRef = useRef(DriverMapMarkerLayer());
     final mapState = ref.watch(driverMapControllerProvider);
-
+    final isProgrammaticCameraMoveRef = useRef(false);
     final selfDriver =
         mapState.items
             .where((item) => item.type == DriverMapItemType.selfDriver)
@@ -37,11 +39,16 @@ class DriverMapView extends HookConsumerWidget {
 
       if (self == null) return;
 
+      isProgrammaticCameraMoveRef.value = true;
+
       controllerRef.value?.animateCamera(
         CameraUpdate.newLatLng(LatLng(self.latitude, self.longitude)),
       );
-    });
 
+      Future.delayed(const Duration(milliseconds: 500), () {
+        isProgrammaticCameraMoveRef.value = false;
+      });
+    });
     return Stack(
       children: [
         MapLibreMap(
@@ -57,8 +64,29 @@ class DriverMapView extends HookConsumerWidget {
           onMapCreated: (controller) {
             controllerRef.value = controller;
           },
+          onCameraIdle: () async {
+            final controller = controllerRef.value;
+            if (controller == null) return;
+            final visibleRegion = await controller.getVisibleRegion();
+            final bounds = RideMapBounds(
+              north: visibleRegion.northeast.latitude,
+              south: visibleRegion.southwest.latitude,
+              east: visibleRegion.northeast.longitude,
+              west: visibleRegion.southwest.longitude,
+            );
+            final query = RidesQuery(
+              status: 'OPEN',
+              mapBounds: bounds,
+              pageSize: 200,
+            );
+            ref.read(ridesControllerProvider.notifier).updateQuery(query);
+          },
+          trackCameraPosition: true,
           onCameraMove: (_) {
-            ref.read(driverMapControllerProvider.notifier).setFollowingDriver(false);
+            if (isProgrammaticCameraMoveRef.value) return;
+            ref
+                .read(driverMapControllerProvider.notifier)
+                .setFollowingDriver(false);
           },
           onStyleLoadedCallback: () async {
             final controller = controllerRef.value;
@@ -66,7 +94,8 @@ class DriverMapView extends HookConsumerWidget {
 
             await markerLayerRef.value.attach(controller);
 
-            await markerLayerRef.value.syncItems(mapState.items);
+            final latestState = ref.read(driverMapControllerProvider);
+            await markerLayerRef.value.syncItems(latestState.items);
 
             ref.read(driverMapControllerProvider.notifier).markStyleLoaded();
           },

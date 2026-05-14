@@ -1,4 +1,5 @@
 import 'package:driver_app/features/rides/domain/entities/ride/ride.dart';
+import 'package:driver_app/features/rides/domain/entities/ride/ride_map_item.dart';
 import 'package:driver_app/features/rides/presentation/states/rides_query.dart';
 
 class RidesState {
@@ -8,12 +9,12 @@ class RidesState {
     required this.lastFetchedAt,
   });
 
-  final List<Ride> rides;
+  final List<RideMapItem> rides;
   final RidesQuery query;
   final DateTime lastFetchedAt;
 
   RidesState copyWith({
-    List<Ride>? rides,
+    List<RideMapItem>? rides,
     RidesQuery? query,
     DateTime? lastFetchedAt,
   }) {

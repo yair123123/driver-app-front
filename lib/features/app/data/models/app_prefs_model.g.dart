@@ -22,13 +22,14 @@ class AppPrefsModelAdapter extends TypeAdapter<AppPrefsModel> {
       isOnGroupsPage: fields[2] as bool,
       wereMessageNewGroupsPresented: fields[3] as bool,
       lastReadMessageByGroup: (fields[4] as Map).cast<String, String>(),
+      permissionsOnboardingCompleted: fields[5] as bool,
     );
   }
 
   @override
   void write(BinaryWriter writer, AppPrefsModel obj) {
     writer
-      ..writeByte(5)
+      ..writeByte(6)
       ..writeByte(0)
       ..write(obj.lastReadByTopic)
       ..writeByte(1)
@@ -38,7 +39,9 @@ class AppPrefsModelAdapter extends TypeAdapter<AppPrefsModel> {
       ..writeByte(3)
       ..write(obj.wereMessageNewGroupsPresented)
       ..writeByte(4)
-      ..write(obj.lastReadMessageByGroup);
+      ..write(obj.lastReadMessageByGroup)
+      ..writeByte(5)
+      ..write(obj.permissionsOnboardingCompleted);
   }
 
   @override

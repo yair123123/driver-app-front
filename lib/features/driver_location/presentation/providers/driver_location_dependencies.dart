@@ -6,6 +6,9 @@ import 'package:driver_app/features/driver_location/domain/usecases/get_current_
 import 'package:driver_app/features/driver_location/domain/usecases/watch_driver_location_use_case.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../controllers/driver_location_tracking_controller.dart';
+import '../states/driver_location_tracking_state.dart';
+
 final deviceLocationDataSourceProvider = Provider<DeviceLocationDataSource>((
   ref,
 ) {
@@ -35,8 +38,13 @@ final watchDriverLocationUseCaseProvider = Provider<WatchDriverLocationUseCase>(
   },
 );
 
-final currentDriverLocationProvider = StateProvider<DriverLocation?>((ref) {
-  return null;
-});
+final driverLocationTrackingControllerProvider = NotifierProvider<
+  DriverLocationTrackingController,
+  DriverLocationTrackingState
+>(DriverLocationTrackingController.new);
 
-final driverLocationProvider = currentDriverLocationProvider;
+final currentDriverLocationProvider = Provider<DriverLocation?>((ref) {
+  return ref.watch(
+    driverLocationTrackingControllerProvider.select((state) => state.location),
+  );
+});
