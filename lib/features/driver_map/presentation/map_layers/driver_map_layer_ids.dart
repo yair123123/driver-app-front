@@ -5,6 +5,7 @@ class DriverMapLayerIds {
 
   static const itemsSource = 'driver_map_items_source';
   static const itemsLayer = 'driver_map_items_layer';
+  static const selfDriverLayer = 'driver_map_self_driver_layer';
 
   static const selfDriverIcon = 'driver_map_self_driver_icon';
   static const nearbyDriverIcon = 'driver_map_nearby_driver_icon';

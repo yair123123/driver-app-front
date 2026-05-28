@@ -6,8 +6,8 @@ class DriverMapGeoJsonMapper {
   const DriverMapGeoJsonMapper._();
 
   static Map<String, dynamic> itemsToFeatureCollection(
-      List<DriverMapItem> items,
-      ) {
+    List<DriverMapItem> items,
+  ) {
     return {
       'type': 'FeatureCollection',
       'features': items.map(_itemToFeature).toList(growable: false),
@@ -29,6 +29,8 @@ class DriverMapGeoJsonMapper {
         'type': item.type.name,
         'icon': _iconForType(item.type),
         'heading': item.heading ?? 0.0,
+        if (item.title != null) 'title': item.title,
+        ...item.metadata,
       },
     };
   }

@@ -176,6 +176,7 @@ final apiClientProvider = Provider<ApiClient>((ref) {
   final baseUrl = ref.read(appConfigProvider).api.baseUrl;
   Future<String?> tokenGetter() async =>
       ref.read(authSessionProvider)?.accessToken;
+
   final authClient = AuthHttpClient(http.Client(), tokenGetter);
 
   return ApiClient(baseUrl: baseUrl, client: authClient);

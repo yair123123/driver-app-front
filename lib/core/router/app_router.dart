@@ -14,12 +14,28 @@ import '../../features/app/presentation/pages/force_update_page.dart';
 import '../../features/bootstrap/presentation/screens/splash_screen.dart';
 import '../../features/settings/presentation/screens/settings_screen.dart';
 
+abstract final class AppRoutes {
+  static const splash = '/';
+  static const login = '/login';
+  static const forceUpdate = '/force_update';
+  static const ridesHub = '/rides/hub';
+  static const chats = '/chats';
+  static const chatDetails = ':${RouteParams.chatId}';
+  static const settings = '/settings';
+
+  static String chat(String chatId) => '$chats/$chatId';
+}
+
+abstract final class RouteParams {
+  static const chatId = 'chatId';
+}
+
 final routerProvider = Provider<GoRouter>((ref) {
   final appRouterNotifier = ref.read(appRouterNotifierProvider);
   final bootstrapController = ref.read(appBootstrapControllerProvider);
 
   return GoRouter(
-    initialLocation: '/init',
+    initialLocation: AppRoutes.splash,
     refreshListenable: Listenable.merge([
       appRouterNotifier,
       bootstrapController,
@@ -29,62 +45,64 @@ final routerProvider = Provider<GoRouter>((ref) {
 
       final forceUpdate = appRuntime.forceUpdate;
       if (forceUpdate) {
-        return state.matchedLocation == '/force_update'
+        return state.matchedLocation == AppRoutes.forceUpdate
             ? null
-            : '/force_update';
+            : AppRoutes.forceUpdate;
       }
 
       final isAuth = appRuntime.isAuth;
 
       if (isAuth == null) {
-        return '/';
+        return AppRoutes.splash;
       }
       if (!isAuth) {
-        return state.matchedLocation == '/login' ? null : '/login';
+        return state.matchedLocation == AppRoutes.login
+            ? null
+            : AppRoutes.login;
       }
 
-      if (state.matchedLocation == '/login' && isAuth) {
-        return '/rides/list';
+      if (state.matchedLocation == AppRoutes.login && isAuth) {
+        return AppRoutes.ridesHub;
       }
 
-      if (state.matchedLocation == '/') {
+      if (state.matchedLocation == AppRoutes.splash) {
         final res = switch (isAuth) {
-          true => '/rides/list',
-          false => '/login',
+          true => AppRoutes.ridesHub,
+          false => AppRoutes.login,
         };
         return res;
       }
       return null;
     },
     routes: [
-      GoRoute(path: '/', builder: (_, __) => const SplashScreen()),
-      GoRoute(path: '/login', builder: (_, __) => const LoginScreen()),
+      GoRoute(path: AppRoutes.splash, builder: (_, __) => const SplashScreen()),
+      GoRoute(path: AppRoutes.login, builder: (_, __) => const LoginScreen()),
       GoRoute(
-        path: '/force_update',
+        path: AppRoutes.forceUpdate,
         builder: (_, __) => const ForceUpdatePage(),
       ),
       ShellRoute(
         builder: (_, state, child) => AppShell(child: child, state: state),
         routes: [
           GoRoute(
-            path: '/rides/hub',
+            path: AppRoutes.ridesHub,
             builder: (_, __) => const DriverHubScreen(),
           ),
-
           GoRoute(
-            path: '/chats',
+            path: AppRoutes.chats,
             builder: (_, __) => const ListChatsScreen(),
             routes: [
               GoRoute(
-                path: ':chatId',
+                path: AppRoutes.chatDetails,
                 builder:
-                    (_, state) =>
-                        ChatScreen(chatId: state.pathParameters['chatId']!),
+                    (_, state) => ChatScreen(
+                      chatId: state.pathParameters[RouteParams.chatId]!,
+                    ),
               ),
             ],
           ),
           GoRoute(
-            path: '/settings',
+            path: AppRoutes.settings,
             builder: (_, __) => const SettingsScreen(),
           ),
         ],

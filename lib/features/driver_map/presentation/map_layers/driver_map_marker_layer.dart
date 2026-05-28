@@ -56,6 +56,24 @@ class DriverMapMarkerLayer {
   Future<void> _addLayer(MapLibreMapController controller) async {
     await controller.addSymbolLayer(
       DriverMapLayerIds.itemsSource,
+      DriverMapLayerIds.selfDriverLayer,
+      const SymbolLayerProperties(
+        iconImage: ['get', 'icon'],
+        iconSize: 0.2,
+        iconAllowOverlap: true,
+        iconIgnorePlacement: true,
+        iconRotate: 0.0,
+        iconRotationAlignment: 'viewport',
+      ),
+      filter: const [
+        '==',
+        ['get', 'type'],
+        'selfDriver',
+      ],
+    );
+
+    await controller.addSymbolLayer(
+      DriverMapLayerIds.itemsSource,
       DriverMapLayerIds.itemsLayer,
       const SymbolLayerProperties(
         iconImage: ['get', 'icon'],
@@ -65,6 +83,11 @@ class DriverMapMarkerLayer {
         iconRotate: ['get', 'heading'],
         iconRotationAlignment: 'map',
       ),
+      filter: const [
+        '!=',
+        ['get', 'type'],
+        'selfDriver',
+      ],
     );
   }
 }
