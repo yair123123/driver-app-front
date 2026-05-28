@@ -1,17 +1,16 @@
-import 'package:driver_app/features/app/presentation/providers/app_prefs_provider.dart';
+import 'package:driver_app/core/router/app_routes.dart';
 import 'package:driver_app/features/auth/presentation/providers/auth_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:flutter/material.dart';
 
-class HomeTabItem {
+class DrawerItem {
   final String label;
   final IconData icon;
   final IconData activeIcon;
   final String route;
 
-  const HomeTabItem({
+  const DrawerItem({
     required this.label,
     required this.icon,
     required this.activeIcon,
@@ -19,64 +18,64 @@ class HomeTabItem {
   });
 }
 
-class HomeTabsConfig {
-  static const driverTabs = <HomeTabItem>[
-    HomeTabItem(
-      label: 'נסיעות',
+class DrawerItemsConfig {
+  static const driverItems = <DrawerItem>[
+    DrawerItem(
+      label: '× ×¡×™×¢×•×ª',
       icon: Icons.local_taxi_outlined,
       activeIcon: Icons.local_taxi,
-      route: '/rides/list',
+      route: AppRoutes.ridesList,
     ),
-    HomeTabItem(
-      label: 'מפה',
+    DrawerItem(
+      label: '×ž×¤×”',
       icon: Icons.map_outlined,
       activeIcon: Icons.map,
-      route: '/rides/hub',
+      route: AppRoutes.ridesHub,
     ),
-    HomeTabItem(
-      label: 'צ׳אטים',
+    DrawerItem(
+      label: '×¦×³××˜×™×',
       icon: Icons.chat_bubble_outline,
       activeIcon: Icons.chat_bubble,
-      route: '/chats',
+      route: AppRoutes.chats,
     ),
-    HomeTabItem(
-      label: 'הגדרות',
+    DrawerItem(
+      label: '×”×’×“×¨×•×ª',
       icon: Icons.settings_outlined,
       activeIcon: Icons.settings,
-      route: '/settings',
+      route: AppRoutes.settings,
     ),
   ];
 
-  static const dispatcherTabs = <HomeTabItem>[
-    HomeTabItem(
-      label: 'סיכום',
+  static const dispatcherItems = <DrawerItem>[
+    DrawerItem(
+      label: '×¡×™×›×•×',
       icon: Icons.dashboard_outlined,
       activeIcon: Icons.dashboard,
-      route: '/dispatcher/summary',
+      route: AppRoutes.dispatcherSummary,
     ),
-    HomeTabItem(
-      label: 'נסיעות',
+    DrawerItem(
+      label: '× ×¡×™×¢×•×ª',
       icon: Icons.local_taxi_outlined,
       activeIcon: Icons.local_taxi,
-      route: '/rides/list',
+      route: AppRoutes.ridesList,
     ),
-    HomeTabItem(
-      label: 'מפה',
+    DrawerItem(
+      label: '×ž×¤×”',
       icon: Icons.map_outlined,
       activeIcon: Icons.map,
-      route: '/rides/hub',
+      route: AppRoutes.ridesHub,
     ),
-    HomeTabItem(
-      label: 'צ׳אטים',
+    DrawerItem(
+      label: '×¦×³××˜×™×',
       icon: Icons.chat_bubble_outline,
       activeIcon: Icons.chat_bubble,
-      route: '/chats',
+      route: AppRoutes.chats,
     ),
-    HomeTabItem(
-      label: 'הגדרות',
+    DrawerItem(
+      label: '×”×’×“×¨×•×ª',
       icon: Icons.settings_outlined,
       activeIcon: Icons.settings,
-      route: '/settings',
+      route: AppRoutes.settings,
     ),
   ];
 }
@@ -91,8 +90,8 @@ class HomeBottomNavigationBar extends ConsumerWidget {
 
     final tabs =
         isDispatcher
-            ? HomeTabsConfig.dispatcherTabs
-            : HomeTabsConfig.driverTabs;
+            ? DrawerItemsConfig.dispatcherItems
+            : DrawerItemsConfig.driverItems;
 
     final location = GoRouterState.of(context).matchedLocation;
     final currentIndex = _indexFromLocation(location, tabs);
@@ -120,7 +119,7 @@ class HomeBottomNavigationBar extends ConsumerWidget {
     );
   }
 
-  int _indexFromLocation(String location, List<HomeTabItem> tabs) {
+  int _indexFromLocation(String location, List<DrawerItem> tabs) {
     for (var i = 0; i < tabs.length; i++) {
       final route = tabs[i].route;
       if (location == route || location.startsWith('$route/')) {

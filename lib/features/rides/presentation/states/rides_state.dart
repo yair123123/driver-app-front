@@ -1,26 +1,25 @@
-import 'package:driver_app/features/rides/domain/entities/ride/ride.dart';
 import 'package:driver_app/features/rides/domain/entities/ride/ride_map_item.dart';
-import 'package:driver_app/features/rides/presentation/states/rides_query.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_filter_params.dart';
 
 class RidesState {
   const RidesState({
     required this.rides,
-    required this.query,
+    required this.filterParams,
     required this.lastFetchedAt,
   });
 
   final List<RideMapItem> rides;
-  final RidesQuery query;
+  final RideFilterParams filterParams;
   final DateTime lastFetchedAt;
 
   RidesState copyWith({
     List<RideMapItem>? rides,
-    RidesQuery? query,
+    RideFilterParams? filterParams,
     DateTime? lastFetchedAt,
   }) {
     return RidesState(
       rides: rides ?? this.rides,
-      query: query ?? this.query,
+      filterParams: filterParams ?? this.filterParams,
       lastFetchedAt: lastFetchedAt ?? this.lastFetchedAt,
     );
   }

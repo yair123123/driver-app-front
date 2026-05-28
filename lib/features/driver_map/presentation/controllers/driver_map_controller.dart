@@ -2,9 +2,9 @@ import 'package:driver_app/features/driver_location/presentation/providers/drive
 import 'package:driver_app/features/driver_map/domain/entities/driver_map_item.dart';
 import 'package:driver_app/features/driver_map/domain/entities/driver_map_item_type.dart';
 import 'package:driver_app/features/driver_map/presentation/states/driver_map_state.dart';
-import 'package:driver_app/features/driver_rides/domain/entities/driver_ride_preview.dart';
-import 'package:driver_app/features/driver_rides/presentation/mappers/driver_ride_preview_map_item_mapper.dart';
-import 'package:driver_app/features/driver_rides/presentation/providers/driver_rides_providers.dart';
+import 'package:driver_app/features/rides/domain/entities/ride/ride_map_item.dart';
+import 'package:driver_app/features/rides/presentation/mappers/ride_map_item_driver_map_mapper.dart';
+import 'package:driver_app/features/rides/presentation/providers/rides_providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class DriverMapController extends Notifier<DriverMapState> {
@@ -18,15 +18,15 @@ class DriverMapController extends Notifier<DriverMapState> {
         heading: next.heading,
       );
     });
-    ref.listen(driverMapRidePreviewsProvider, (prev, next) {
+    ref.listen(rideMapItemsProvider, (prev, next) {
       _setOpenRides(next);
     });
     return const DriverMapState();
   }
 
-  void _setOpenRides(List<DriverRidePreview> rides) {
+  void _setOpenRides(List<RideMapItem> rides) {
     final rideItems = rides
-        .map((ride) => ride.toOpenRideMapItem())
+        .map((ride) => ride.toDriverMapItem())
         .toList(growable: false);
 
     final otherItems = state.items

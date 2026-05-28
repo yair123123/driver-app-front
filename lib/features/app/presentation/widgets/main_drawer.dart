@@ -1,19 +1,30 @@
-import 'package:flutter/material.dart';
-import 'package:driver_app/core/extensions/context_extention.dart';
-import 'package:driver_app/core/icons/app_svg_icon.dart';
-import 'package:driver_app/core/icons/custom_icon.dart';
-import 'package:driver_app/core/router/app_router.dart';
 import 'package:driver_app/core/constants/app_constants.dart';
+import 'package:driver_app/core/extensions/context_extention.dart';
+import 'package:driver_app/features/app/presentation/widgets/bottom_navigation_bar.dart';
+import 'package:driver_app/features/auth/presentation/providers/auth_provider.dart';
 import 'package:driver_app/l10n/app_localizations.dart';
 import 'package:driver_app/theme/app_spacing.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-class MainDrawer extends StatelessWidget {
+class MainDrawer extends ConsumerWidget {
   const MainDrawer({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+  Widget build(BuildContext context, WidgetRef ref) {
+    AppLocalizations.of(context)!;
+
+    final isDispatcher =
+        ref.watch(userProvider).valueOrNull?.isDispatcher == true;
+
+    final tabs =
+        isDispatcher
+            ? DrawerItemsConfig.dispatcherItems
+            : DrawerItemsConfig.driverItems;
+
+    final location = GoRouterState.of(context).matchedLocation;
+
     final textStyle = context.textStyles.bodyLarge?.apply(
       color: Theme.of(context).colorScheme.secondary,
     );
@@ -52,44 +63,60 @@ class MainDrawer extends StatelessWidget {
                       child: ListTileTheme(
                         horizontalTitleGap: 8,
                         child: ListView(
-                          children: [
-                            _buildSvgTile(
-                              context: context,
-                              title: l10n.newsTopics,
-                              textStyle: textStyle,
-                              icon: CustomIcon.categories,
-                              onTap: () => context.go( '/categories',
-                              ),
-                            ),
-                            _buildSvgTile(
-                              context: context,
-                              title: l10n.manageNotifications,
-                              textStyle: textStyle,
-                              icon: CustomIcon.notification,
-                              onTap: () => context.go('/manage_notifications',
-                              ),
-                            ),
-                            _buildSvgTile(
-                              context: context,
-                              title: l10n.languageAndRegion,
-                              textStyle: textStyle,
-                              icon: CustomIcon.earth,
-                              onTap: () => context.go('/lang_and_area',
-                              ),
-                            ),
-                            _buildSvgTile(
-                              context: context,
-                              title: l10n.contactUs,
-                              textStyle: textStyle,
-                              icon: CustomIcon.message,
-                              onTap: () => context.go('/contact_us',
-                              ),
-                            ),
-                          ],
+                          children:
+                              tabs.map((tab) {
+                                final isActive = _isActiveRoute(
+                                  location: location,
+                                  route: tab.route,
+                                );
+
+                                return ListTile(
+                                  contentPadding: const EdgeInsets.symmetric(
+                                    vertical: 10,
+                                  ),
+                                  leading: Icon(
+                                    isActive ? tab.activeIcon : tab.icon,
+                                    color:
+                                        isActive
+                                            ? Theme.of(
+                                              context,
+                                            ).colorScheme.primary
+                                            : Theme.of(
+                                              context,
+                                            ).colorScheme.secondary,
+                                  ),
+                                  title: Text(
+                                    tab.label,
+                                    style: textStyle?.copyWith(
+                                      color:
+                                          isActive
+                                              ? Theme.of(
+                                                context,
+                                              ).colorScheme.primary
+                                              : Theme.of(
+                                                context,
+                                              ).colorScheme.secondary,
+                                      fontWeight:
+                                          isActive
+                                              ? FontWeight.w700
+                                              : FontWeight.normal,
+                                    ),
+                                  ),
+                                  selected: isActive,
+                                  onTap: () {
+                                    Navigator.of(context).pop();
+
+                                    if (tab.route == location) {
+                                      return;
+                                    }
+
+                                    context.go(tab.route);
+                                  },
+                                );
+                              }).toList(),
                         ),
                       ),
                     ),
-
                   ],
                 ),
               ),
@@ -100,18 +127,7 @@ class MainDrawer extends StatelessWidget {
     );
   }
 
-  ListTile _buildSvgTile({
-    required BuildContext context,
-    required String title,
-    required CustomIcon icon,
-    required VoidCallback onTap,
-    TextStyle? textStyle,
-  }) {
-    return ListTile(
-      contentPadding: const EdgeInsets.symmetric(vertical: 10),
-      leading: AppSvgIcon(icon: icon),
-      title: Text(title, style: textStyle),
-      onTap: onTap,
-    );
+  bool _isActiveRoute({required String location, required String route}) {
+    return location == route || location.startsWith('$route/');
   }
 }

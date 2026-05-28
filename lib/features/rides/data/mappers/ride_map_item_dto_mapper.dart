@@ -1,4 +1,3 @@
-
 import '../../domain/entities/ride/ride_map_item.dart';
 import '../models/ride_map_item_dto.dart';
 
@@ -6,8 +5,11 @@ extension RideMapItemDtoMapper on RideMapItemDto {
   RideMapItem toEntity() {
     return RideMapItem(
       id: id,
-      status: status.toEntity(),
+      status: status,
       createdAt: createdAt,
+      stationId: stationId,
+      stationName: stationName,
+      driverId: driverId,
       priceAmount: priceAmount,
       originLat: originLat,
       originLon: originLon,
@@ -28,28 +30,5 @@ extension RideMapItemDtoMapper on RideMapItemDto {
 extension RideMapItemDtoListMapper on List<RideMapItemDto> {
   List<RideMapItem> toEntities() {
     return map((dto) => dto.toEntity()).toList(growable: false);
-  }
-}
-
-extension RideStatusDtoMapper on RideStatusDto {
-  RideStatus toEntity() {
-    switch (this) {
-      case RideStatusDto.open:
-        return RideStatus.open;
-      case RideStatusDto.dispatching:
-        return RideStatus.dispatching;
-      case RideStatusDto.assigned:
-        return RideStatus.assigned;
-      case RideStatusDto.enRoute:
-        return RideStatus.enRoute;
-      case RideStatusDto.arrived:
-        return RideStatus.arrived;
-      case RideStatusDto.inProgress:
-        return RideStatus.inProgress;
-      case RideStatusDto.completed:
-        return RideStatus.completed;
-      case RideStatusDto.canceled:
-        return RideStatus.canceled;
-    }
   }
 }

@@ -1,6 +1,3 @@
-
-
-
 class Ride {
   const Ride({
     required this.id,
@@ -69,19 +66,19 @@ class Location {
   final String? neighborhood;
   final String? street;
 
-  Location copyWith({String? city, String? neighborhood, String? street}) {
-    return Location(
-      city: city ?? this.city,
-      neighborhood: neighborhood ?? this.neighborhood,
-      street: street ?? this.street,
-    );
-  }
-
   factory Location.fromJson(Map<String, dynamic> json) {
     return Location(
       city: json['city']?.toString() ?? '',
       neighborhood: json['neighborhood']?.toString(),
       street: json['street']?.toString(),
+    );
+  }
+
+  Location copyWith({String? city, String? neighborhood, String? street}) {
+    return Location(
+      city: city ?? this.city,
+      neighborhood: neighborhood ?? this.neighborhood,
+      street: street ?? this.street,
     );
   }
 

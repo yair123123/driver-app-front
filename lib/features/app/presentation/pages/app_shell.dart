@@ -13,7 +13,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/navigation/safe_navigation.dart';
-import '../../../auth/presentation/widgets/bottom_navigation_bar.dart';
+import '../widgets/bottom_navigation_bar.dart';
 
 class AppShell extends ConsumerStatefulWidget {
   const AppShell({super.key, required this.child, required this.state});
@@ -83,8 +83,6 @@ class _AppShellState extends ConsumerState<AppShell> {
                 child: widget.child,
               ),
             ),
-      
-            bottomNavigationBar: const HomeBottomNavigationBar(),
           ),
         ),
       ),

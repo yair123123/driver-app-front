@@ -1,10 +1,10 @@
 import 'package:driver_app/features/dispatch_realtime/data/dtos/ride_action_result_dto.dart';
-import 'package:driver_app/features/dispatch_realtime/data/dtos/ride_map_item_realtime_dto.dart';
-import 'package:driver_app/features/dispatch_realtime/data/mappers/ride_map_item_realtime_mapper.dart';
 import 'package:driver_app/features/dispatch_realtime/domain/constants/dispatch_realtime_operation_codes.dart';
 import 'package:driver_app/features/dispatch_realtime/domain/entities/dispatch_realtime_event.dart';
 import 'package:driver_app/features/dispatch_realtime/domain/entities/ride_action_result.dart';
 import 'package:driver_app/features/realtime/domain/entities/socket_envelope.dart';
+import 'package:driver_app/features/rides/data/mappers/ride_map_item_dto_mapper.dart';
+import 'package:driver_app/features/rides/data/models/ride_map_item_dto.dart';
 import 'package:driver_app/features/rides/domain/entities/ride/ride_map_item.dart';
 
 abstract final class DispatchRealtimeEventMapper {
@@ -89,7 +89,7 @@ abstract final class DispatchRealtimeEventMapper {
     if (content == null) {
       throw FormatException('Missing content for operation $operationCode.');
     }
-    return RideMapItemRealtimeDto.fromJson(content).toEntity();
+    return RideMapItemDto.fromJson(content).toEntity();
   }
 
   static RideMapItem? _readRide(Object? value) {
@@ -99,7 +99,7 @@ abstract final class DispatchRealtimeEventMapper {
     if (value is! Map<String, dynamic>) {
       throw const FormatException('Expected ride to be a JSON object.');
     }
-    return RideMapItemRealtimeDto.fromJson(value).toEntity();
+    return RideMapItemDto.fromJson(value).toEntity();
   }
 
   static int _requiredInt(

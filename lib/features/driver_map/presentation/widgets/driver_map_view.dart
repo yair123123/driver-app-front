@@ -1,9 +1,6 @@
-import 'package:driver_app/features/driver_map/domain/entities/driver_map_item_type.dart';
-import 'package:driver_app/features/driver_map/presentation/camera/driver_map_camera_follower.dart';
 import 'package:driver_app/features/driver_map/presentation/map_layers/driver_map_marker_layer.dart';
+import 'package:driver_app/features/driver_map/presentation/providers/driver_map_camera_controller_provider.dart';
 import 'package:driver_app/features/driver_map/presentation/providers/driver_map_controller_provider.dart';
-import 'package:driver_app/features/driver_rides/domain/entities/map_bounds.dart';
-import 'package:driver_app/features/driver_rides/presentation/providers/driver_rides_providers.dart';
 import 'package:driver_app/theme/app_spacing.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -17,88 +14,13 @@ class DriverMapView extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final mapControllerRef = useRef<MapLibreMapController?>(null);
     final markerLayerRef = useRef(DriverMapMarkerLayer());
-    final cameraFollowerRef = useRef(DriverMapCameraFollower());
-    final mapHeightRef = useRef(0.0);
+    final cameraController = ref.read(driverMapCameraControllerProvider);
     final mapState = ref.watch(driverMapControllerProvider);
-    final selfDriver =
-        mapState.items
-            .where((item) => item.type == DriverMapItemType.selfDriver)
-            .firstOrNull;
 
-    Future<void> followDriverCamera({bool force = false}) async {
-      final controller = mapControllerRef.value;
-      if (controller == null) return;
-
-      final latestState = ref.read(driverMapControllerProvider);
-      if (!force && !latestState.isFollowingDriver) return;
-      if (!latestState.isStyleLoaded) return;
-
-      final self =
-          latestState.items
-              .where((item) => item.type == DriverMapItemType.selfDriver)
-              .firstOrNull;
-      if (self == null) return;
-
-      final cameraFollower = cameraFollowerRef.value;
-      if (!force && cameraFollower.isAnimationInFlight) return;
-      if (force) {
-        cameraFollower.reset();
-      }
-
-      final mapNotifier = ref.read(driverMapControllerProvider.notifier);
-      mapNotifier.beginProgrammaticCameraMove();
-
-      final cameraMove = await cameraFollower.followDriver(
-        controller: controller,
-        mapState: latestState,
-        driver: self,
-        viewportHeight: mapHeightRef.value,
-        force: force,
-      );
-
-      if (cameraMove == null) {
-        if (!cameraFollower.isAnimationInFlight) {
-          mapNotifier.endProgrammaticCameraMove();
-        }
-        return;
-      }
-
-      mapNotifier.recordFollowCameraPosition(
-        latitude: cameraMove.driverLatitude,
-        longitude: cameraMove.driverLongitude,
-        bearing: cameraMove.bearing,
-      );
-
-      Future<void>.delayed(
-        DriverMapCameraFollower.cameraAnimationDuration +
-            const Duration(milliseconds: 150),
-        () {
-          ref
-              .read(driverMapControllerProvider.notifier)
-              .endProgrammaticCameraMove();
-        },
-      );
-    }
-
-    Future<void> loadVisibleRidePreviews({bool force = false}) async {
-      final controller = mapControllerRef.value;
-      if (controller == null) return;
-
-      final visibleRegion = await controller.getVisibleRegion();
-      final bounds = MapBounds(
-        north: visibleRegion.northeast.latitude,
-        south: visibleRegion.southwest.latitude,
-        east: visibleRegion.northeast.longitude,
-        west: visibleRegion.southwest.longitude,
-      );
-
-      await ref
-          .read(driverMapRidesControllerProvider.notifier)
-          .loadForBounds(bounds, force: force);
-    }
-
+    useEffect(() {
+      return cameraController.detachMapController;
+    }, [cameraController]);
     ref.listen(driverMapControllerProvider, (previous, next) {
       if (!next.isStyleLoaded) return;
 
@@ -112,53 +34,32 @@ class DriverMapView extends HookConsumerWidget {
       if (!next.isFollowingDriver) return;
       if (!itemsChanged && !styleJustLoaded && !followRequested) return;
 
-      followDriverCamera(force: followRequested);
+      cameraController.followDriver(force: followRequested);
     });
 
     return LayoutBuilder(
       builder: (context, constraints) {
-        mapHeightRef.value = constraints.maxHeight;
+        cameraController.updateViewportHeight(constraints.maxHeight);
 
         return Stack(
           children: [
             MapLibreMap(
-              initialCameraPosition: CameraPosition(
-                target: LatLng(
-                  selfDriver?.latitude ?? 31.7683,
-                  selfDriver?.longitude ?? 35.2137,
-                ),
-                bearing: selfDriver?.heading ?? 0,
-                zoom:
-                    selfDriver == null
-                        ? 13
-                        : DriverMapCameraFollower.navigationZoom,
+              initialCameraPosition: cameraController.initialCameraPosition(
+                mapState,
               ),
               styleString: styleUrl,
-              onMapCreated: (controller) {
-                mapControllerRef.value = controller;
-              },
-              onCameraIdle: () async {
-                ref
-                    .read(driverMapControllerProvider.notifier)
-                    .markUserInteractionEnded();
-
-                await loadVisibleRidePreviews();
-              },
+              onMapCreated: cameraController.attachMapController,
+              onCameraIdle: cameraController.handleCameraIdle,
               trackCameraPosition: true,
-              onCameraMove: (_) {
-                final currentMapState = ref.read(driverMapControllerProvider);
-                if (!currentMapState.isStyleLoaded) return;
-                if (currentMapState.isProgrammaticCameraMove) return;
-
-                ref
-                    .read(driverMapControllerProvider.notifier)
-                    .disableDriverFollowForUserInteraction();
-              },
+              onCameraMove: (_) => cameraController.handleCameraMove(),
               onStyleLoadedCallback: () async {
-                final controller = mapControllerRef.value;
-                if (controller == null) return;
+                final markerLayerAttached = await cameraController
+                    .withMapController((controller) async {
+                      await markerLayerRef.value.attach(controller);
+                      return true;
+                    });
 
-                await markerLayerRef.value.attach(controller);
+                if (markerLayerAttached != true) return;
 
                 final latestState = ref.read(driverMapControllerProvider);
                 await markerLayerRef.value.syncItems(latestState.items);
@@ -167,7 +68,7 @@ class DriverMapView extends HookConsumerWidget {
                     .read(driverMapControllerProvider.notifier)
                     .markStyleLoaded();
 
-                await loadVisibleRidePreviews(force: true);
+                await cameraController.loadVisibleRidePreviews(force: true);
               },
             ),
 
@@ -177,11 +78,7 @@ class DriverMapView extends HookConsumerWidget {
                 bottom: AppSpacing.lg,
                 child: FloatingActionButton.small(
                   tooltip: 'Recenter',
-                  onPressed: () {
-                    ref
-                        .read(driverMapControllerProvider.notifier)
-                        .requestDriverFollow();
-                  },
+                  onPressed: cameraController.requestDriverFollow,
                   child: const Icon(Icons.my_location),
                 ),
               ),

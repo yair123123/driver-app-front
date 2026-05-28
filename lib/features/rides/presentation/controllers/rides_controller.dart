@@ -1,36 +1,38 @@
+import 'package:driver_app/features/rides/domain/entities/ride_filter_params.dart';
 import 'package:driver_app/features/rides/presentation/providers/rides_dependencies.dart';
-import 'package:driver_app/features/rides/presentation/states/rides_query.dart';
 import 'package:driver_app/features/rides/presentation/states/rides_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class RidesController extends AsyncNotifier<RidesState> {
   @override
   Future<RidesState> build() async {
-    final query = ref.watch(ridesQueryProvider);
-    final rides = await ref.watch(getRidesUseCaseProvider)(query);
+    final filterParams = ref.watch(rideFilterParamsProvider);
+    final rides = await ref.watch(getRidesUseCaseProvider)(filterParams);
 
     return RidesState(
-      rides: rides,
-      query: query,
+      rides:
+          rides.where(filterParams.matches).toList(growable: false),
+      filterParams: filterParams,
       lastFetchedAt: DateTime.now(),
     );
   }
 
   Future<void> refresh() async {
-    final query = ref.read(ridesQueryProvider);
+    final filterParams = ref.read(rideFilterParamsProvider);
 
     state = await AsyncValue.guard(() async {
-      final rides = await ref.read(getRidesUseCaseProvider)(query);
+      final rides = await ref.read(getRidesUseCaseProvider)(filterParams);
 
       return RidesState(
-        rides: rides,
-        query: query,
+        rides:
+            rides.where(filterParams.matches).toList(growable: false),
+        filterParams: filterParams,
         lastFetchedAt: DateTime.now(),
       );
     });
   }
 
-  void updateQuery(RidesQuery query) {
-    ref.read(ridesQueryProvider.notifier).state = query;
+  void updateFilters(RideFilterParams filterParams) {
+    ref.read(rideFilterParamsProvider.notifier).state = filterParams;
   }
 }

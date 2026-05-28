@@ -1,11 +1,13 @@
 import 'package:driver_app/core/router/app_router_notifier.dart';
+import 'package:driver_app/core/router/app_routes.dart';
 import 'package:driver_app/features/app/presentation/pages/app_shell.dart';
 import 'package:driver_app/features/app/presentation/providers/app_prefs_provider.dart';
 import 'package:driver_app/features/auth/presentation/screens/login_screen.dart';
 import 'package:driver_app/features/bootstrap/presentation/notifiers/bootstrap_ctrl.dart';
 import 'package:driver_app/features/chat/presentation/screens/chat_screen.dart';
 import 'package:driver_app/features/chat/presentation/screens/list_chats_screen.dart';
-import 'package:driver_app/features/ride_hub/presentation/screens/driver_hub_screen.dart';
+import 'package:driver_app/features/rides/presentation/screens/driver_hub_screen.dart';
+import 'package:driver_app/features/rides/presentation/screens/rides_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -13,22 +15,6 @@ import 'package:go_router/go_router.dart';
 import '../../features/app/presentation/pages/force_update_page.dart';
 import '../../features/bootstrap/presentation/screens/splash_screen.dart';
 import '../../features/settings/presentation/screens/settings_screen.dart';
-
-abstract final class AppRoutes {
-  static const splash = '/';
-  static const login = '/login';
-  static const forceUpdate = '/force_update';
-  static const ridesHub = '/rides/hub';
-  static const chats = '/chats';
-  static const chatDetails = ':${RouteParams.chatId}';
-  static const settings = '/settings';
-
-  static String chat(String chatId) => '$chats/$chatId';
-}
-
-abstract final class RouteParams {
-  static const chatId = 'chatId';
-}
 
 final routerProvider = Provider<GoRouter>((ref) {
   final appRouterNotifier = ref.read(appRouterNotifierProvider);
@@ -84,6 +70,10 @@ final routerProvider = Provider<GoRouter>((ref) {
       ShellRoute(
         builder: (_, state, child) => AppShell(child: child, state: state),
         routes: [
+          GoRoute(
+            path: AppRoutes.ridesList,
+            builder: (_, __) => const RidesListScreen(),
+          ),
           GoRoute(
             path: AppRoutes.ridesHub,
             builder: (_, __) => const DriverHubScreen(),

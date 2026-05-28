@@ -1,18 +1,23 @@
 import 'package:driver_app/core/http/api_client.dart';
-import 'package:driver_app/features/rides/domain/entities/ride/ride.dart';
-import 'package:driver_app/features/rides/presentation/states/rides_query.dart';
+import 'package:driver_app/features/rides/domain/constants/ride_api_paths.dart';
+import 'package:driver_app/features/rides/domain/entities/ride_filter_params.dart';
 
 import '../models/ride_map_item_dto.dart';
 
-class RidesRemoteDataSource {
-  RidesRemoteDataSource(this._apiClient);
+abstract class RidesRemoteDataSource {
+  Future<List<RideMapItemDto>> getRides(RideFilterParams params);
+}
+
+class RidesRemoteDataSourceImpl implements RidesRemoteDataSource {
+  const RidesRemoteDataSourceImpl(this._apiClient);
 
   final ApiClient _apiClient;
 
-  Future<List<RideMapItemDto>> getRides(RidesQuery query) async {
+  @override
+  Future<List<RideMapItemDto>> getRides(RideFilterParams params) async {
     final result = await _apiClient.get<dynamic>(
-      '/rides/my-driver-rides',
-      queryParams: query.toQueryParameters(),
+      RideApiPaths.myDriverRides,
+      queryParams: params.toQueryParameters(),
       unwrapData: false,
       fromJson: (json) => json,
     );
@@ -24,7 +29,7 @@ class RidesRemoteDataSource {
     final rawList = _extractRidesList(rawJson);
 
     return rawList
-        .whereType<Object?>()
+        .whereType<Object>()
         .map((item) => RideMapItemDto.fromJson(_asMap(item)))
         .toList(growable: false);
   }
@@ -45,6 +50,12 @@ class RidesRemoteDataSource {
     for (final candidate in candidates) {
       if (candidate is List) {
         return candidate;
+      }
+      if (candidate is Map) {
+        final nestedList = _extractRidesList(candidate);
+        if (nestedList.isNotEmpty) {
+          return nestedList;
+        }
       }
     }
 
